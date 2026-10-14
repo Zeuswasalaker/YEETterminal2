@@ -10,7 +10,8 @@ import streamlit as st
 from rambo import normalize, match
 
 ROOT = Path(__file__).parent
-st.set_page_config(page_title='The YEET | Terminal', page_icon='🐋',layout='wide')
+LOGO = next((p for p in [ROOT/'assets'/'yeet-logo.png', ROOT/'assets'/'yeet-logo.jpeg', ROOT/'assets'/'yeet-logo.jpg'] if p.exists()), None)
+st.set_page_config(page_title='The YEET | Terminal', page_icon=str(LOGO) if LOGO else 'Y',layout='wide')
 
 def secret(key):
     try: return st.secrets.get(key,'')
@@ -18,7 +19,8 @@ def secret(key):
 
 access = secret('ACCESS_PASSWORD')
 if access and not st.session_state.get('reader_access'):
-    st.title('🐋 The YEET / Terminal')
+    if LOGO: st.image(str(LOGO),width=180)
+    st.title('The YEET / Terminal')
     password = st.text_input('Member access password',type='password')
     if st.button('Enter Terminal'):
         if hmac.compare_digest(password,access):
@@ -28,14 +30,21 @@ if access and not st.session_state.get('reader_access'):
     st.stop()
 
 st.markdown('''<style>
-.stApp{background:#101419;color:#eee9dd} [data-testid="stSidebar"]{background:#171c23}
-h1,h2,h3{color:#eee9dd} h1{font-family:Georgia,serif;font-size:4rem!important}
-.eyebrow{letter-spacing:.22em;color:#cbb0f0;font-size:12px;margin-bottom:12px}
-.subhead{color:#a7adb8;margin-bottom:26px;font-size:17px}
-.card{padding:22px;border:1px solid #333a45;border-radius:14px;background:#191f27;margin:8px 0 18px}
-.ticker{font:700 32px Georgia,serif;color:#cbb0f0}.pill{display:inline-block;border-radius:20px;background:#27392f;color:#b8efcf;padding:5px 12px;font-size:12px;margin:8px 5px 8px 0}
-.muted{color:#a7adb8;font-size:13px}.money{font-size:30px;color:#f4e4a7;font-weight:700}
-.stButton button{border-radius:9px}.stMetric{background:#191f27;border:1px solid #333a45;padding:14px;border-radius:12px}
+.stApp{background:radial-gradient(ellipse at 85% 0%,#30263b55,transparent 48%),linear-gradient(145deg,#101419,#151923);color:#eee9dd}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#20232d,#11151c);border-right:1px solid #ffffff12}
+h1,h2,h3{color:#eee9dd}h1{font-family:Georgia,serif;font-size:4rem!important;letter-spacing:-.035em}
+.eyebrow{letter-spacing:.22em;color:#cbb0f0;font-size:12px;margin-bottom:12px}.subhead{color:#b8bcc7;margin-bottom:26px;font-size:17px}
+.card{padding:26px;border:1px solid #ffffff16;border-top:2px solid #cbb0f077;border-radius:18px;background:linear-gradient(130deg,#242936,#191f28);margin:8px 0 18px;box-shadow:0 12px 28px #00000030,inset 0 1px 0 #ffffff09}
+.ticker{font:700 32px Georgia,serif;color:#d5bdf5}.pill{display:inline-block;border-radius:20px;background:#293f36;color:#c1f4d6;padding:5px 12px;font-size:12px;margin:8px 5px 8px 0;border:1px solid #b8efcf18}
+.muted{color:#b5bcc8;font-size:14px;line-height:1.65}.money{font-size:30px;color:#f4e4a7;font-weight:700}
+.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{border-radius:11px!important;background:linear-gradient(180deg,#d5bdf5,#af8ed5)!important;color:#17121e!important;border:1px solid #e8d8ff88!important;box-shadow:0 5px 0 #674881,0 8px 18px #00000033!important;transition:transform .15s,box-shadow .15s}
+.stButton button:hover,.stDownloadButton button:hover,[data-testid="stLinkButton"] a:hover{transform:translateY(-2px);box-shadow:0 7px 0 #674881,0 12px 24px #00000044!important}
+[data-testid="stMetric"]{background:linear-gradient(140deg,#242a36,#191e27);border:1px solid #ffffff16;padding:18px;border-radius:14px;box-shadow:0 8px 22px #00000022}
+.soon-card{min-height:200px;padding:22px;border-radius:16px;background:linear-gradient(140deg,#302b3e,#202531);border:1px solid #cbb0f033;box-shadow:0 10px 25px #00000033;margin-bottom:15px}
+.soon-label{color:#f4e4a7;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}.soon-title{font-size:17px;font-weight:600;margin:8px 0;line-height:1.4}.month-heading{margin:32px 0 16px;border-bottom:1px solid #ffffff16;padding-bottom:13px;font:600 26px Georgia,serif}
+[data-testid="stExpander"]{background:#191e2780;border-radius:12px;border-color:#ffffff16}
+@media(max-width:640px){h1{font-size:3rem!important}.card{padding:20px}.soon-card{min-height:unset}}
+@media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
 </style>''',unsafe_allow_html=True)
 
 seed = json.loads((ROOT/'data'/'snapshot.json').read_text())
@@ -44,7 +53,8 @@ data=st.session_state.snapshot
 today=datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
 
 with st.sidebar:
-    st.markdown('### 🐋 THE YEET\nTERMINAL')
+    if LOGO: st.image(str(LOGO),width=170)
+    st.markdown('### THE YEET\nTERMINAL')
     page=st.radio('Workspace',['RAMBO','Upload & publish','Event research','My tickers','Prestige','PARI / WARI'],label_visibility='collapsed')
     st.divider()
     st.caption('FLOW × COMPANY CATALYSTS')
@@ -84,7 +94,24 @@ if page=='RAMBO':
     if query: results=[r for r in results if query in r['ticker']]
     if category.endswith('only'): results=[r for r in results if r['category']=='Investor / analyst']
     if not results: st.info('No confirmed events match these filters and expiration windows.')
+    if results:
+        st.subheader('Coming soon')
+        st.caption('The three closest matching company catalysts')
+        soon_columns=st.columns(min(3,len(results)))
+        for column,event in zip(soon_columns,results[:3]):
+            escape=lambda v: html.escape(str(v))
+            days=event['days_until']
+            timing='Happening now' if days<=0 else 'Tomorrow' if days==1 else f'In {days} days'
+            pretty=datetime.fromisoformat(event['date']).strftime('%b %d, %Y')
+            column.markdown(f'<div class="soon-card"><div class="soon-label">{escape(timing)}</div><div class="ticker">{escape(event["ticker"])}</div><div class="soon-title">{escape(event["title"])}</div><div class="muted">{pretty} · {escape(event["direction"])}</div></div>',unsafe_allow_html=True)
+        st.subheader('Event calendar')
+    current_month=None
     for event in results:
+        month=event['date'][:7]
+        if month!=current_month:
+            label=datetime.fromisoformat(event['date']).strftime('%B %Y')
+            st.markdown(f'<div class="month-heading">{label}</div>',unsafe_allow_html=True)
+            current_month=month
         e=lambda v: html.escape(str(v))
         st.markdown(f'<div class="card"><span class="ticker">{e(event["ticker"])}</span><h3>{e(event["title"])}</h3><span class="pill">Confirmed event</span><span class="pill">{e(event["direction"])}</span><div>{e(event["date"])}{(" through "+e(event["end_date"])) if event["end_date"]!=event["date"] else ""} · {e(event.get("time","Time not announced"))}</div><p class="muted">{e(event["summary"])}</p></div>',unsafe_allow_html=True)
         with st.expander(f'{event["ticker"]}: contracts, sources and research note'):
