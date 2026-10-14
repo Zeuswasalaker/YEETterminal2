@@ -53,3 +53,6 @@ streamlit run app.py
 - `refresh_ir.py`: source-page change monitor.
 - `.github/workflows/check-events.yml`: scheduled monitoring.
 - `.streamlit/config.toml`: theme.
+
+## PARI
+PARI offers 5-minute, 10-minute, 1-hour, 4-hour and daily SPY views. Load Yahoo prices on demand (cached for five minutes) or upload real Date/Close CSVs at the selected timeframe. Daily defaults to five years; intraday uses one month of 5-minute candles. Session-anchored aggregation excludes incomplete blocks. Yahoo availability is not guaranteed; use CSV if fetching fails. The original full-history percentile formula is reproduced exactly and repaints historical scores as the sample changes. Trend persistence is contextual only. No synthetic scores, predictions, WARI feed or proprietary alerts are supplied.
