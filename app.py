@@ -1,3 +1,4 @@
+import base64
 import hashlib
 import hmac
 import html
@@ -68,6 +69,19 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 .rambo-ticker{display:inline-block;font-size:34px;line-height:1.2;font-weight:900;letter-spacing:-.035em;color:#b3f35a;padding:6px 12px 7px;border-left:3px solid #22dbad;border-radius:0 9px 9px 0;background:linear-gradient(110deg,#244538,#183631);text-shadow:0 2px 2px #061c20;box-shadow:0 5px 12px #0003;margin:3px 0 8px}
 .rambo-key{display:flex;flex-wrap:wrap;gap:10px 18px;padding:14px 18px;margin:12px 0 22px;border:1px solid #ffffff20;border-radius:12px;background:#102a32;color:#d1e2e4;font-size:13px;line-height:1.6}
 .rambo-key strong{font-weight:750;color:#eff6f2}
+/* A little more YEET: round badges, chunky type, and a tactile edge. */
+.rambo-title{font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif!important;font-weight:900!important;letter-spacing:-.055em!important;background:none!important;-webkit-text-fill-color:#b9f15a!important;color:#b9f15a!important;text-shadow:1px 1px 0 #caef90,2px 3px 0 #397453,4px 6px 0 #061b23;filter:none;border:0;transform:rotate(-1deg);padding:0 8px 8px 0!important}
+.rambo-intro{font:600 16px/1.6 "Trebuchet MS",Arial,sans-serif;color:#d4e1d9;margin:-10px 0 26px;max-width:680px}
+.company-heading{display:flex;align-items:center;gap:14px;margin:6px 0 16px;min-width:0}
+.company-badge{position:relative;flex:0 0 60px;width:60px;height:60px;display:flex;align-items:center;justify-content:center;background:#f1f0df;border:3px solid #c6dec5;border-radius:50%;box-shadow:inset 0 2px 2px #fff,0 4px 0 #061b24,0 7px 12px #0004;overflow:hidden;color:#153b36;font:900 16px Arial,sans-serif}
+.company-badge img{width:44px;height:44px;object-fit:contain}
+.company-heading .rambo-ticker{background:none;border:0;box-shadow:none;padding:0;margin:0;font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif;font-size:35px;font-weight:900;letter-spacing:-.04em;color:#b6f05b;text-shadow:0 1px 0 #d2f294,1px 3px 0 #315e43,2px 5px 0 #071d22}
+.card,.soon-card{background:linear-gradient(145deg,#1b3838,#132e32);border:1px solid #a0c8af33;border-top:2px solid #a3d4ac66;border-radius:22px;box-shadow:0 5px 0 #081e27,0 10px 20px #0003,inset 0 1px 0 #ffffff0b}
+.soon-card{min-height:255px}
+.soon-label{font-weight:800;color:#eedca8;letter-spacing:.08em}
+.card h3,.soon-title{font-family:"Trebuchet MS",Arial,sans-serif!important;font-weight:700!important;color:#eeeedd!important}
+.rambo-key{display:flex;flex-wrap:wrap;gap:8px 18px;padding:14px 18px;margin:12px 0 22px;border:1px solid #a8c4b340;border-radius:16px;background:#18352f;color:#d8e4dc;font:500 13px/1.7 "Trebuchet MS",Arial,sans-serif}
+@media(max-width:640px){.company-badge{flex-basis:52px;width:52px;height:52px}.company-badge img{width:38px;height:38px}.company-heading .rambo-ticker{font-size:30px}.company-heading{gap:12px}}
 @media(forced-colors:active){.rambo-title{-webkit-text-fill-color:CanvasText!important;background:none;filter:none}.rambo-ticker{color:CanvasText;border:1px solid CanvasText;text-shadow:none}}
 @media(max-width:640px){h1{font-size:3rem!important}.card{padding:20px}.soon-card{min-height:unset}}
 @media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
@@ -112,12 +126,25 @@ def emphasize_summary(value):
         return '<strong>'+html.escape(lead+'.')+'</strong> '+html.escape(rest)
     return html.escape(text)
 
+def company_heading(ticker):
+    symbol=str(ticker).upper().lstrip('$')
+    safe=html.escape(symbol)
+    # Local, reviewed company icons; unknown tickers get an honest text badge.
+    known={'SMTC','NVTS','IBRX','NET','ORCL','ATI','TSEM'}
+    asset=ROOT/'assets'/(symbol.lower()+'-logo.png') if symbol in known else None
+    if asset and asset.exists():
+        encoded=base64.b64encode(asset.read_bytes()).decode('ascii')
+        badge=f'<img src="data:image/png;base64,{encoded}" alt="{safe} company icon">'
+    else:
+        badge=f'<span aria-label="{safe} ticker monogram">{safe}</span>'
+    return f'<div class="company-heading"><div class="company-badge">{badge}</div><span class="ticker rambo-ticker">${safe}</span></div>'
+
 def flow_label(direction):
     labels={'Call-side':'📞 Call flow','Put-side':'🛡️ Put flow','Mixed':'🔀 Mixed flow','Unclear':'❔ Unclear flow'}
     return labels.get(direction,html.escape(str(direction)))
 
 if page=='RAMBO':
-    st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1 class="rambo-title">RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div>',unsafe_allow_html=True)
+    st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1 class="rambo-title">RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div><div class="rambo-intro">Big meetings. Whale money. Let’s connect the dots.</div>',unsafe_allow_html=True)
     c1,c2=st.columns([3,1])
     query=c1.text_input('Find a ticker',placeholder='$SMTC, $NVTS, $IBRX…').strip().upper().lstrip('$')
     historical=c2.toggle('View Oct 14 snapshot',value=False)
@@ -131,6 +158,8 @@ if page=='RAMBO':
     if query: results=[r for r in results if query in r['ticker']]
     if category.endswith('only'): results=[r for r in results if r['category']=='Investor / analyst']
     if not results: st.info('No confirmed events match these filters and expiration windows.')
+    st.markdown('<div class="rambo-key" role="note" aria-label="RAMBO icon key"><strong>The cheat sheet:</strong><span>📅 Event date</span><span>✅ Confirmed event</span><span>📞 Call flow</span><span>🛡️ Put flow</span><span>🔀 Mixed flow</span><span>⏳ Timing</span></div>',unsafe_allow_html=True)
+    st.caption('Call / put labels describe the captured contracts, not a confirmed market direction.')
     if results:
         st.subheader('Coming soon')
         st.caption('The three closest matching company catalysts')
@@ -140,7 +169,7 @@ if page=='RAMBO':
             days=event['days_until']
             timing='Happening now' if days<=0 else 'Tomorrow' if days==1 else f'In {days} days'
             pretty=datetime.fromisoformat(event['date']).strftime('%b %d, %Y')
-            column.markdown(f'<div class="soon-card"><div class="soon-label">{escape(timing)}</div><div class="ticker">{escape(event["ticker"])}</div><div class="soon-title">{escape(event["title"])}</div><div class="muted">{pretty} · {escape(event["direction"])}</div></div>',unsafe_allow_html=True)
+            column.markdown(f'<div class="soon-card"><div class="soon-label">⏳ {escape(timing)}</div>{company_heading(event["ticker"])}<div class="soon-title">{escape(event["title"])}</div><div class="muted">📅 <strong>{pretty}</strong><br>{flow_label(event["direction"])}</div></div>',unsafe_allow_html=True)
         st.subheader('Event calendar')
     current_month=None
     for event in results:
@@ -150,7 +179,7 @@ if page=='RAMBO':
             st.markdown(f'<div class="month-heading">{label}</div>',unsafe_allow_html=True)
             current_month=month
         e=lambda v: html.escape(str(v))
-        st.markdown(f'<div class="card"><span class="ticker">{e(event["ticker"])}</span><h3>{e(event["title"])}</h3><span class="pill">Confirmed event</span><span class="pill">{e(event["direction"])}</span><div class="event-date"><strong>{e(event["date"])}{(" through "+e(event["end_date"])) if event["end_date"]!=event["date"] else ""} · {e(event.get("time","Time not announced"))}</strong></div><p class="muted">{emphasize_summary(event["summary"])}</p></div>',unsafe_allow_html=True)
+        st.markdown(f'<div class="card">{company_heading(event["ticker"])}<h3>{e(event["title"])}</h3><span class="pill">✅ Confirmed event</span><span class="pill">{flow_label(event["direction"])}</span><div class="event-date">📅 <strong>{e(event["date"])}{(" through "+e(event["end_date"])) if event["end_date"]!=event["date"] else ""} · {e(event.get("time","Time not announced"))}</strong></div><p class="muted">{emphasize_summary(event["summary"])}</p></div>',unsafe_allow_html=True)
         with st.expander(f'{event["ticker"]}: contracts, sources and research note'):
             st.write(event['note'])
             st.link_button('Official company source',event['url'])
@@ -228,3 +257,4 @@ elif page=='Prestige':
 else:
     from pari import render
     render()
+
