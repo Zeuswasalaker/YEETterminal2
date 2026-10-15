@@ -4,6 +4,7 @@ from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from html import escape
+from urllib.parse import urlparse
 
 STATUSES = ['Current Prestige','On Deck','Approaching','Watching','Expired']
 
@@ -42,6 +43,17 @@ def admin_upload(admin,snapshot):
                     st.session_state.prestige_snapshot=incoming
                     st.rerun()
                 except Exception as exc: st.error(f'Could not read that snapshot: {exc}')
+            with st.form('prestige_issue_link'):
+                issue_link=st.text_input('Link to the YEET issue for this board',value=snapshot.get('issue_url',''),placeholder='https://…')
+                save_issue=st.form_submit_button('Attach the YEET issue')
+            if save_issue:
+                parsed=urlparse(issue_link)
+                if issue_link and (parsed.scheme!='https' or not parsed.netloc):
+                    st.error('Use the full HTTPS link to the issue.')
+                else:
+                    snapshot['issue_url']=issue_link
+                    st.session_state.prestige_snapshot=snapshot
+                    st.rerun()
             st.download_button('Download saved contracts',json.dumps(snapshot,indent=2),file_name='prestige.json',mime='application/json')
             st.caption('Uploads preview contracts in your session. For a shared board without committing data to GitHub, set PRESTIGE_SNAPSHOT_JSON in Streamlit Secrets to the snapshot JSON string. Neither method starts automatic collection.')
 
@@ -52,12 +64,12 @@ def gold_tile(contract,spot):
     side='CALL' if contract['type']=='call' else 'PUT'
     icon='📞' if side=='CALL' else '🩸'
     expiry=datetime.strptime(contract['expiry'],'%m/%d/%Y').strftime('%b %d, %Y')
-    status=escape(contract['status'])
+    status=escape({'Current Prestige':'The comeback','On Deck':'On deck','Approaching':'Getting closer','Watching':'Still watching','Expired':'Expired'}.get(contract['status'],contract['status']))
     try:
         first=datetime.strptime(contract['first'],'%Y/%m/%d %H:%M:%S').strftime('%b %d, %Y · %I:%M:%S %p')
     except (KeyError,ValueError,TypeError):
         first='Not recorded'
-    return f'<article class="gold-contract" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>Earliest alert in this saved window · UW clock</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
+    return f'<article class="gold-contract gold-{contract['type']}" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>First appearance in our saved alerts</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
 
 
 def render(admin):
@@ -90,60 +102,86 @@ def render(admin):
 .gold-first strong{font-size:12px;line-height:1.4;color:#30220a}
 .gold-first small{font-size:9px;line-height:1.4;color:#46300e}
 .gold-foot{font-size:11px;line-height:1.6;color:#3c2a0b;margin-top:auto;padding-top:8px}
+
+.gold-call{background:linear-gradient(128deg,#f4edb0 0%,#c6b74f 24%,#e3d789 45%,#87964b 75%,#d9ce75 100%);border-color:#b9df80;box-shadow:inset 2px 2px 1px #fff7ce,inset -3px -4px 2px #647335,0 7px 0 #435626,0 13px 20px #0005}
+.gold-put{background:linear-gradient(128deg,#ffe5a9 0%,#d8a05b 24%,#edc385 45%,#b8785e 75%,#dfb46d 100%);border-color:#e6a38c;box-shadow:inset 2px 2px 1px #fff0c4,inset -3px -4px 2px #8d4f37,0 7px 0 #703e30,0 13px 20px #0005}
+.prestige-hero{padding:12px 0 18px}.prestige-kicker{font:800 11px/1.5 "Trebuchet MS",Arial,sans-serif;letter-spacing:.16em;color:#e8c875}
+.prestige-hero h1{font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif!important;background:none!important;-webkit-text-fill-color:#f0d384!important;color:#f0d384!important;text-shadow:1px 2px 0 #8a642a,3px 5px 0 #081c24;letter-spacing:-.045em}
+.prestige-tagline{font:700 18px/1.6 "Trebuchet MS",Arial,sans-serif;color:#d9e6d5}
+.prestige-how{background:linear-gradient(135deg,#25443d,#153238);border:1px solid #d3c18a55;border-radius:22px;padding:26px;margin:14px 0 20px;box-shadow:0 5px 0 #081f27}
+.prestige-how h3{font:800 25px/1.3 "Trebuchet MS",Arial,sans-serif!important;color:#f0d384!important;margin:0 0 12px}
+.prestige-how p{font:500 16px/1.75 "Trebuchet MS",Arial,sans-serif;color:#bdd7c9;max-width:850px}
+.prestige-how strong{color:#f3e6b4}.prestige-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.prestige-step{padding:17px;background:#0e292d;border-radius:14px;border:1px solid #98b69a33;font:500 14px/1.6 "Trebuchet MS",Arial,sans-serif;color:#b9d0c7}
+.prestige-step b{display:block;font-size:16px;color:#e9cf8d;margin-bottom:7px}
+.prestige-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}
+.prestige-stat{padding:17px;border-radius:16px;border:1px solid #a9bd8d33;background:#1a3737;color:#bdcfc5;font:700 12px/1.6 "Trebuchet MS",Arial,sans-serif}
+.prestige-stat strong{display:block;font:900 32px/1.4 "Trebuchet MS",Arial,sans-serif;color:#ead18e}
+.prestige-saved{background:#263c30;border:1px solid #9eb27744;border-radius:12px;padding:13px 18px;color:#c8d7b8;font:500 13px/1.6 "Trebuchet MS",Arial,sans-serif}
+.prestige-board{margin:12px 0 4px;padding:22px 24px;border:2px solid #7b745055;border-radius:20px;background:linear-gradient(135deg,#253c35,#152f32);box-shadow:inset 0 1px 0 #d3c58422,0 4px 0 #0b2027}
+.prestige-board h3{color:#edcf88!important;font:800 25px/1.4 "Trebuchet MS",Arial,sans-serif!important;margin:0 0 8px}
+.prestige-board p{color:#c4d7cd;font:500 15px/1.7 "Trebuchet MS",Arial,sans-serif;margin:0}
+.prestige-issue{border-left:4px solid #dfc27c;padding:14px 18px;background:#243b3488;border-radius:0 12px 12px 0;color:#bdd4c7;margin-top:18px;font:500 14px/1.7 "Trebuchet MS",Arial,sans-serif}
+.st-key-prestige_controls [data-testid="stBaseButton-pills"]{border-radius:12px!important;background:#24453d!important;color:#e6dfbb!important;border:1px solid #c2c78b55!important;box-shadow:0 3px 0 #071e24!important;font-weight:750!important;padding:10px 16px!important}
+.st-key-prestige_controls [aria-pressed="true"]{background:linear-gradient(135deg,#f1d692,#c7a652)!important;color:#312713!important;border-color:#ead08d!important}
+@media(max-width:640px){.prestige-steps{grid-template-columns:1fr}.prestige-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.prestige-how{padding:21px}.prestige-board{padding:19px}}
 @media(max-width:900px){.gold-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gold-strike{font-size:46px}}
 @media(max-width:480px){.gold-grid{grid-template-columns:1fr;gap:22px;max-width:340px;margin-left:auto;margin-right:auto}.gold-strike{font-size:58px}}
 @media(forced-colors:active){.gold-contract{background:Canvas;color:CanvasText;border:2px solid CanvasText;box-shadow:none}.gold-contract *{color:CanvasText;text-shadow:none}}
 </style>''',unsafe_allow_html=True)
-    st.title('The Prestige')
-    st.markdown('<div class="eyebrow">THE FLOW / THE MOVE AWAY / THE RETURN</div>',unsafe_allow_html=True)
-    st.write('The gold-brick watchlist. Watch it move away. Watch it come back.')
-    st.warning('Saved research snapshot. Continuous collection and live SPY prices are not connected. Status describes the last observed data, not the market right now.')
+    st.markdown('<div class="prestige-hero"><div class="prestige-kicker">THE YEET / THE GOLD-BRICK WATCHLIST</div><h1>The Prestige</h1><div class="prestige-tagline">Everybody loves a comeback. We’re watching for one.</div></div>',unsafe_allow_html=True)
+    st.markdown('''<section class="prestige-how"><h3>Okay, what’s the trick? 🎩</h3><p>We spot a <strong>SPY option</strong>, then follow SPY’s price. Price wanders away from the option’s <strong>strike</strong> (its target price), then comes back near it before the option expires. <strong>That return is the Prestige.</strong> This board helps us follow the story instead of losing the contract in a pile of alerts.</p><div class="prestige-steps"><div class="prestige-step"><b>🐋 1. Spot the contract</b>An option shows up in our saved alerts. Onto the watchlist it goes.</div><div class="prestige-step"><b>👋 2. Watch the detour</b>SPY moves away from its strike. We keep watching, rather than calling it a comeback yet.</div><div class="prestige-step"><b>🪃 3. Watch the return</b>SPY comes back near the strike before the deadline. Now we have a return worth reviewing.</div></div><div class="prestige-issue"><strong>The YEET connection:</strong> This is the watchlist behind the Prestige write-ups. The issue tells the story; the board keeps the contracts organized.<br>A return earns a closer look. It doesn’t guarantee a winner.</div></section>''',unsafe_allow_html=True)
+    try:
+        issue_url=snapshot.get('issue_url') or st.secrets.get('PRESTIGE_ISSUE_URL','')
+    except Exception:
+        issue_url=snapshot.get('issue_url','')
+    if issue_url and urlparse(issue_url).scheme=='https' and urlparse(issue_url).netloc:
+        st.link_button('📰 Read the YEET behind this board',issue_url)
     if not snapshot.get('cards'):
-        st.info('The Prestige board is ready. No shared alert snapshot has been published yet.')
-        tabs=st.tabs(['Current Prestige','On Deck','Approaching','Watching / Expired'])
-        for tab,text in zip(tabs,['Observed move away and return; still near the strike at the snapshot.','Near the strike, awaiting a complete Prestige sequence.','Outside the zone and moving closer; watch for re-entry.','Track remaining candidates and expired contracts.']):
-            with tab: st.write(text)
+        st.info('The board is ready. Load saved contracts in Milt’s controls to put some bricks on it.')
         admin_upload(admin,snapshot)
         return
-    st.caption(f"Captured: {snapshot['captured_at']} • Latest source alert: {snapshot['source_time']} • Source clock timezone unverified; times shown exactly as UW.")
+    try:
+        saved_date=datetime.fromisoformat(snapshot['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Los_Angeles')).strftime('%b %d, %Y')
+    except ValueError:
+        saved_date='the date below'
+    st.markdown(f'<div class="prestige-saved">📌 <strong>Saved board · {escape(saved_date)}</strong> · SPY ${snapshot["spot"]:.2f} at the last saved alert. These are saved observations, not live prices.</div>',unsafe_allow_html=True)
     counts={status:sum(c['status']==status for c in cards) for status in STATUSES}
-    a,b,c,d=st.columns(4)
-    a.metric('Return observed',counts['Current Prestige'])
-    b.metric('On deck',counts['On Deck'])
-    c.metric('Approaching',counts['Approaching'])
-    d.metric('Last observed SPY',f"${snapshot['spot']:.2f}")
-    st.caption('First spotted means the earliest alert in the captured window, not necessarily the contract’s first-ever appearance. Source clock timezone has not been verified.')
-    st.caption(f"{snapshot['alert_count']} displayed UW alert rows grouped into {len(cards)} contracts. Coverage: {snapshot['coverage_start']} through {snapshot['source_time']}. Alert counts are captured rows, not verified unique executions. Premiums are rounded source labels, not summed totals.")
-    side=st.radio('Show',['All','Calls','Puts'],horizontal=True)
-    tabs=st.tabs(['Current Prestige','On Deck','Approaching','Watching / Expired'])
+    st.markdown(f'<div class="prestige-stats"><div class="prestige-stat">🥇 Came back<strong>{counts["Current Prestige"]}</strong></div><div class="prestige-stat">👀 On deck<strong>{counts["On Deck"]}</strong></div><div class="prestige-stat">🧲 Getting closer<strong>{counts["Approaching"]}</strong></div><div class="prestige-stat">🐋 Contracts tracked<strong>{len(cards)}</strong></div></div>',unsafe_allow_html=True)
+    with st.container(key='prestige_controls'):
+        side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
+        boards=['🥇 The comebacks','👀 On deck','🧲 Getting closer','📦 Still watching']
+        board=st.pills('Pick a board',boards,default=boards[0],selection_mode='single') or boards[0]
+    i=boards.index(board)
     descriptions=[
-        'A near → away → return sequence appears in the captured SPY observations, and price was still in the Magic Zone at the snapshot. Review the evidence before treating it as a play.',
-        'Inside the Magic Zone at the snapshot, but the captured history does not establish a full move-away-and-return sequence. Trigger: observe the move away, then the return before expiration.',
-        'Outside the zone, within the monitoring buffer, with distance shrinking across the last six captured SPY observations. Trigger: re-enter the zone; a full Prestige also needs the earlier sequence.',
-        'Outside the zone without a qualifying approach, or past expiration. Trigger: renewed approach and a verified return while the contract is active.'
+        'SPY moved away and came back near the strike in our saved observations. It was still nearby at the last check. That’s the sequence we’re looking for.',
+        'Close to the strike, but no full comeback is established in this saved window. Next up: watch for the move away and return before expiration.',
+        'SPY was outside the nearby area but moving closer across our last few observations. Watch for it to come back in. The earlier move-away story still matters.',
+        'These contracts need another look, or have already expired. An active one needs a fresh approach and return before its deadline.'
     ]
-    for i,tab in enumerate(tabs):
-        with tab:
-            st.write(descriptions[i])
-            wanted=[STATUSES[i]] if i<3 else ['Watching','Expired']
-            selected=[x for x in cards if x['status'] in wanted and (side=='All' or x['type']==('call' if side=='Calls' else 'put'))]
-            selected.sort(key=lambda x:(datetime.strptime(x['expiry'],'%m/%d/%Y'),abs(x['strike']-snapshot['spot'])))
-            if not selected: st.info('No contracts in this group for the saved snapshot.')
-            if selected:
-                st.markdown('<div class="gold-grid">'+''.join(gold_tile(item,snapshot['spot']) for item in selected)+'</div>',unsafe_allow_html=True)
-                with st.expander('Open the details / last alert & return evidence'):
-                    chosen=st.selectbox('Pick a contract',[item['contract'] for item in selected],key=f'prestige_details_{i}')
-                    contract=next(item for item in selected if item['contract']==chosen)
-                    st.write(f"Last saved alert: {contract['last']} · {contract['last_side']} · {contract['last_premium']} premium")
-                    st.write(f"Option price at that alert: {contract['last_price']}. This is historical, not a current quote.")
-                    if contract.get('away') and contract.get('returned'):
-                        st.write(f"First saved contract alert: {contract['first']}")
-                        st.write(f"SPY outside the zone: {contract['away']}")
-                        st.write(f"SPY back inside: {contract['returned']}")
-                        st.caption('These are irregular SPY observations from saved alerts, not a continuous price history. Short boundary crossings can qualify. A return is not proof of a winning trade.')
-                    else:
-                        st.caption('The saved data does not establish the full move-away-and-return sequence for this contract.')
-    with st.expander('Reading the board'):
-        st.write('Calls and puts remain separate. An ask-side print is not proof of an opening directional trade. This board tracks observed price behavior and expiration; it does not estimate ITM odds or recommend an entry.')
-        st.write('The initial capture covers only the displayed 250-row window. Older moves may be missing. Expired contracts are removed from active groups as the date advances. Private filter thresholds stay out of the site source and member explanations.')
+    st.markdown(f'<section class="prestige-board"><h3>{boards[i]}</h3><p>{descriptions[i]}</p></section>',unsafe_allow_html=True)
+    wanted=[STATUSES[i]] if i<3 else ['Watching','Expired']
+    selected=[x for x in cards if x['status'] in wanted and (side=='🎩 Everything' or x['type']==('call' if side=='📞 Calls' else 'put'))]
+    selected.sort(key=lambda x:(datetime.strptime(x['expiry'],'%m/%d/%Y'),abs(x['strike']-snapshot['spot'])))
+    st.caption('📞 Green tint = calls · 🩸 Red tint = puts. Calls are often used for an upside bet; puts for a downside bet or protection. We can’t see the trader’s full plan from an alert.')
+    if not selected:
+        st.info('No bricks on this board for that choice. Try Everything or another board.')
+    else:
+        st.markdown('<div class="gold-grid">'+''.join(gold_tile(item,snapshot['spot']) for item in selected)+'</div>',unsafe_allow_html=True)
+        with st.expander('🔎 Take a closer look at a contract'):
+            chosen=st.selectbox('Which contract?',[item['contract'] for item in selected],key=f'prestige_details_{i}')
+            contract=next(item for item in selected if item['contract']==chosen)
+            st.write(f"First saved appearance: {contract['first']}")
+            st.write(f"Last saved alert: {contract['last']} · {contract['last_side']} · {contract['last_premium']} option premium")
+            st.write(f"Option price at that alert: {contract['last_price']}. This is a past price, not a quote for buying now.")
+            if contract.get('away') and contract.get('returned'):
+                st.write(f"👋 Away from the strike area: {contract['away']}")
+                st.write(f"🪃 Back near the strike: {contract['returned']}")
+            else:
+                st.caption('We don’t have a full move-away-and-return sequence established for this contract in the saved data.')
+    with st.expander('📌 When was this checked?'):
+        st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot['source_time']}.")
+        st.write('First spotted is the earliest alert in our saved window, not necessarily the first-ever appearance. UW’s displayed clock timezone has not been verified.')
+        st.write(f"{snapshot['alert_count']} saved alert rows, grouped into {len(cards)} contracts. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
+        st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
