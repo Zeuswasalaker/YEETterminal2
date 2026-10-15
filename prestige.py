@@ -1,5 +1,7 @@
 """Evidence-backed Prestige snapshot display. No credentials or private filter settings."""
 import json
+from copy import deepcopy
+from math import isfinite
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -8,9 +10,52 @@ from urllib.parse import urlparse
 
 STATUSES = ['Current Prestige','On Deck','Approaching','Watching','Expired']
 
+def apply_lifecycle(snapshot, previous=None):
+    """Retire a Prestige contract on an observed ITM price; never erase its history."""
+    result=deepcopy(snapshot)
+    prior={c['contract']:c for c in (previous or {}).get('cards',[])}
+    observations=list(result.get('price_observations',[]))
+    if result.get('source_time') and result.get('spot'):
+        observations.append({'time':result['source_time'],'spot':result['spot']})
+    observations=sorted(observations,key=lambda x:x['time'])
+    for card in result.get('cards',[]):
+        old=prior.get(card['contract'],{})
+        for key in ('prestige_at','retired_at','retired_spot','retired_reason'):
+            if old.get(key): card[key]=old[key]
+        if card.get('retired_at'): continue
+        activated=card.get('prestige_at') or card.get('returned')
+        if not activated and card['status']=='Current Prestige':
+            # Recover the first return from the same saved observations used by
+            # the board. Do not invent missing prices or a first-ever activation.
+            away=False
+            for observation in observations:
+                if observation['time']<card['first']: continue
+                price=float(observation['spot'])
+                if not isfinite(price) or price<=0: continue
+                nearby=abs(float(card['strike'])-price)/price<=.005
+                if away and nearby:
+                    activated=observation['time']
+                    break
+                away=away or not nearby
+            activated=activated or result.get('source_time')
+        if not activated: continue
+        card['prestige_at']=activated
+        expiry=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')
+        for observation in observations:
+            stamp=observation['time']
+            if stamp<activated or stamp[:10]>expiry: continue
+            price=float(observation['spot'])
+            if not isfinite(price) or price<=0: continue
+            itm=price>float(card['strike']) if card['type']=='call' else price<float(card['strike'])
+            if itm:
+                card.update(retired_at=stamp,retired_spot=price,retired_reason='Observed in the money after becoming Prestige')
+                break
+    return result
+
 def visible_cards(snapshot, today):
     cards=[]
-    for original in snapshot.get('cards',[]):
+    for original in apply_lifecycle(snapshot).get('cards',[]):
+        if original.get('retired_at'): continue
         c=dict(original)
         if datetime.strptime(c['expiry'], '%m/%d/%Y').date()<today:
             c['status']='Expired'
@@ -39,7 +84,7 @@ def admin_upload(admin,snapshot):
             uploaded=st.file_uploader('Saved Prestige data (.json)',type=['json'],key='prestige_upload')
             if uploaded and st.button('Show these contracts',type='primary'):
                 try:
-                    incoming=validate_snapshot(json.load(uploaded))
+                    incoming=apply_lifecycle(validate_snapshot(json.load(uploaded)),snapshot)
                     st.session_state.prestige_snapshot=incoming
                     st.rerun()
                 except Exception as exc: st.error(f'Could not read that snapshot: {exc}')
@@ -74,6 +119,11 @@ def gold_tile(contract,spot):
 
 def render(admin):
     import streamlit as st
+    # Check for newly published snapshots without requiring a browser reload.
+    st.fragment(run_every='30s')(_render)(admin)
+
+def _render(admin):
+    import streamlit as st
     path=Path(__file__).parent/'data'/'prestige.json'
     version=path.stat().st_mtime_ns if path.exists() else None
     if 'prestige_snapshot' not in st.session_state or st.session_state.get('prestige_file_version')!=version:
@@ -84,11 +134,12 @@ def render(admin):
             private=''
         try:
             initial=json.loads(private) if private else json.loads(path.read_text())
-            st.session_state.prestige_snapshot=validate_snapshot(initial)
+            st.session_state.prestige_snapshot=apply_lifecycle(validate_snapshot(initial),st.session_state.get('prestige_snapshot'))
         except Exception:
             st.error('Prestige is temporarily unavailable.')
             st.session_state.prestige_snapshot={'cards':[]}
-    snapshot=st.session_state.prestige_snapshot
+    snapshot=apply_lifecycle(st.session_state.prestige_snapshot)
+    st.session_state.prestige_snapshot=snapshot
     today=datetime.now(ZoneInfo('America/New_York')).date()
     cards=visible_cards(snapshot,today)
     st.markdown('''<style>
@@ -155,6 +206,7 @@ def render(admin):
     except ValueError:
         saved_date='the date below'
     st.caption(f'Latest captured alert: {snapshot["source_time"]} · SPY ${snapshot["spot"]:.2f} · Refreshed snapshot, not a streaming feed')
+    st.caption('Once a Prestige contract moves in the money in a saved price check, it leaves every board. The page checks for published updates every 30 seconds.')
     with st.container(key='prestige_controls'), st.expander('Filter the bricks'):
         side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
         boards=['🥇 Current Prestige','👀 On deck','🧲 Getting closer','📦 Still watching']
@@ -187,7 +239,7 @@ def render(admin):
             else:
                 st.caption('We don’t have a full move-away-and-return sequence established for this contract in the saved data.')
     st.markdown('<div class="bricks-heading">📋 The whole board</div>',unsafe_allow_html=True)
-    st.caption('Every tracked contract in one place. Statuses describe the saved update above.')
+    st.caption('Every contract still on watch. Prestige contracts already observed in the money are removed. Statuses describe the saved update above.')
     status_labels={'Current Prestige':'🥇 Current Prestige','On Deck':'👀 On deck','Approaching':'🧲 Getting closer','Watching':'📦 Still watching','Expired':'⌛ Expired'}
     counts={status:sum(c['status']==status for c in cards) for status in STATUSES}
     chips=''.join(f'<span>{status_labels[state]} <strong>{counts[state]}</strong></span>' for state in STATUSES if counts[state])
@@ -216,7 +268,8 @@ def render(admin):
     with st.expander('📌 When was this checked?'):
         st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot['source_time']}.")
         st.write('First spotted is the earliest appearance across our saved captures, not necessarily the first-ever appearance. Alert counts refer to the latest captured window. Source timezone: '+snapshot.get('source_timezone','not verified')+'.')
-        st.write(f"{snapshot['alert_count']} saved alert rows, grouped into {len(cards)} contracts. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
+        st.write(f"{snapshot['alert_count']} saved alert rows · {len(cards)} contracts still on the board. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
+        st.write('In the money means SPY is above a call strike or below a put strike. A recorded crossing retires that Prestige contract even if SPY later reverses. Reaching the strike does not establish an option profit; entry premium and execution still matter. Crossings between saved price checks may be missed.')
         st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
 
