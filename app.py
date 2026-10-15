@@ -30,19 +30,40 @@ if access and not st.session_state.get('reader_access'):
     st.stop()
 
 st.markdown('''<style>
-.stApp{background:radial-gradient(ellipse at 85% 0%,#07c99a22,transparent 48%),linear-gradient(145deg,#0e222e,#112b37);color:#eee9dd}
-[data-testid="stSidebar"]{background:linear-gradient(180deg,#14303e,#0d202b);border-right:1px solid #ffffff12}
+.stApp{background:radial-gradient(ellipse at 85% 0%,#07c99a08,transparent 48%),linear-gradient(145deg,#0f212f,#0d242b);color:#eee9dd}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#102632,#0c1e28);border-right:1px solid #ffffff12}
 h1,h2,h3{color:#6ee947}h1{font-family:Arial,sans-serif;font-weight:900!important;font-size:4rem!important;letter-spacing:-.055em;background:linear-gradient(125deg,#b5ee32 5%,#08d88f 48%,#00afb5 90%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}h2{color:#73ed49!important}h3{color:#1cdfa0!important}
 .eyebrow{letter-spacing:.22em;color:#13dca0;font-size:12px;margin-bottom:12px}.subhead{color:#b8bcc7;margin-bottom:26px;font-size:17px}
-.card{padding:26px;border:1px solid #ffffff16;border-top:2px solid #13dca077;border-radius:18px;background:linear-gradient(130deg,#183845,#112b37);margin:8px 0 18px;box-shadow:0 12px 28px #00000030,inset 0 1px 0 #ffffff09}
+.card{padding:26px;border:1px solid #ffffff16;border-top:2px solid #13dca077;border-radius:18px;background:linear-gradient(130deg,#142f39,#102630);margin:8px 0 18px;box-shadow:0 12px 28px #00000030,inset 0 1px 0 #ffffff09}
 .ticker{font:900 32px Arial,sans-serif;color:#89ed35}.pill{display:inline-block;border-radius:20px;background:#293f36;color:#c1f4d6;padding:5px 12px;font-size:12px;margin:8px 5px 8px 0;border:1px solid #b8efcf18}
 .muted{color:#b5bcc8;font-size:14px;line-height:1.65}.money{font-size:30px;color:#f4e4a7;font-weight:700}
 .stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{border-radius:11px!important;background:linear-gradient(135deg,#9bec3b,#06d595 55%,#00acb3)!important;color:#082b2a!important;border:1px solid #a2ee4a66!important;box-shadow:0 5px 0 #00685f,0 8px 18px #00000033!important;transition:transform .15s,box-shadow .15s}
 .stButton button:hover,.stDownloadButton button:hover,[data-testid="stLinkButton"] a:hover{transform:translateY(-2px);box-shadow:0 7px 0 #00685f,0 12px 24px #00000044!important}
-[data-testid="stMetric"]{background:linear-gradient(140deg,#183845,#112b37);border:1px solid #ffffff16;padding:18px;border-radius:14px;box-shadow:0 8px 22px #00000022}
-.soon-card{min-height:200px;padding:22px;border-radius:16px;background:linear-gradient(140deg,#1c3b3d,#122d39);border:1px solid #13dca033;box-shadow:0 10px 25px #00000033;margin-bottom:15px}
+[data-testid="stMetric"]{background:linear-gradient(140deg,#152d38,#102630);border:1px solid #ffffff16;padding:18px;border-radius:14px;box-shadow:0 8px 22px #00000022}
+.soon-card{min-height:200px;padding:22px;border-radius:16px;background:linear-gradient(140deg,#173334,#102630);border:1px solid #13dca033;box-shadow:0 10px 25px #00000033;margin-bottom:15px}
 .soon-label{color:#f4e4a7;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}.soon-title{font-size:17px;font-weight:600;margin:8px 0;line-height:1.4}.month-heading{margin:32px 0 16px;border-bottom:1px solid #ffffff16;padding-bottom:13px;color:#76eb48;font:700 26px Arial,sans-serif}
 [data-testid="stExpander"]{background:#112b3780;border-radius:12px;border-color:#ffffff16}
+/* Editorial typography: system sans, distinct weights, restrained emphasis. */
+html,body,[data-testid="stAppViewContainer"],input,button,textarea,select{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;-webkit-font-smoothing:antialiased}
+[data-testid="stMarkdownContainer"] p,[data-testid="stCaptionContainer"]{font-family:Inter,"Helvetica Neue",Arial,sans-serif;line-height:1.65}
+.subhead{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.5;letter-spacing:-.015em;color:#93abb4;margin:8px 0 30px}
+.subhead strong{font-weight:650;color:#d7e6e7}
+.eyebrow{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:.2em;color:#32d5ac}
+.ticker{font:800 30px/1.1 Inter,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.035em;color:#a0ed45}
+.card h3{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:23px!important;line-height:1.3!important;font-weight:700!important;letter-spacing:-.025em;color:#dce9e9!important;margin:12px 0 15px}
+.pill{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-weight:600;font-size:11px;letter-spacing:.025em;background:#163b35;color:#8ddac1;padding:5px 11px}
+.event-date{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:13px;line-height:1.6;color:#8ca8b0;margin:10px 0 12px}
+.event-date strong{font-weight:650;color:#c7d9dc}
+.muted{font-family:Inter,"Helvetica Neue",Arial,sans-serif;color:#a5b9c1;font-size:14px;line-height:1.8;letter-spacing:.003em}
+.muted strong{font-weight:650;color:#d8e5e8}
+.soon-label{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:.14em;color:#4bd7ad}
+.soon-title{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:16px;font-weight:650;letter-spacing:-.015em;line-height:1.5;color:#dae8e9;margin:11px 0}
+.month-heading{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:24px;font-weight:750;letter-spacing:-.035em;color:#b7ced1}
+h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!important;letter-spacing:-.035em!important;font-weight:750!important}
+[data-testid="stMetricLabel"] p{font-size:12px!important;font-weight:600!important;letter-spacing:.02em;color:#95b1b9}
+[data-testid="stMetricValue"]{font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-size:36px;font-weight:750;letter-spacing:-.045em;color:#dcebe9}
+[data-testid="stCaptionContainer"]{color:#819ca7;font-size:12px}
+[data-testid="stTextInput"] label p,[data-testid="stSelectbox"] label p{font-weight:600;font-size:13px;color:#bcd0d5}
 @media(max-width:640px){h1{font-size:3rem!important}.card{padding:20px}.soon-card{min-height:unset}}
 @media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
 </style>''',unsafe_allow_html=True)
@@ -79,8 +100,15 @@ def download_snapshot():
     st.download_button('Download publishable snapshot',json.dumps(data,indent=2),file_name='snapshot.json',mime='application/json')
     st.caption('Uploads update your current session. To update the shared site, replace data/snapshot.json in GitHub with this download. Persistent shared storage is a later integration.')
 
+def emphasize_summary(value):
+    text=str(value)
+    lead, separator, rest=text.partition('. ')
+    if separator:
+        return '<strong>'+html.escape(lead+'.')+'</strong> '+html.escape(rest)
+    return html.escape(text)
+
 if page=='RAMBO':
-    st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1>RAMBO</h1><div class="subhead">Relations and Meeting Buy Opportunities</div>',unsafe_allow_html=True)
+    st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1>RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div>',unsafe_allow_html=True)
     c1,c2=st.columns([3,1])
     query=c1.text_input('Find a ticker',placeholder='SMTC, NVTS, IBRX…').strip().upper()
     historical=c2.toggle('View Oct 14 snapshot',value=False)
@@ -113,7 +141,7 @@ if page=='RAMBO':
             st.markdown(f'<div class="month-heading">{label}</div>',unsafe_allow_html=True)
             current_month=month
         e=lambda v: html.escape(str(v))
-        st.markdown(f'<div class="card"><span class="ticker">{e(event["ticker"])}</span><h3>{e(event["title"])}</h3><span class="pill">Confirmed event</span><span class="pill">{e(event["direction"])}</span><div>{e(event["date"])}{(" through "+e(event["end_date"])) if event["end_date"]!=event["date"] else ""} · {e(event.get("time","Time not announced"))}</div><p class="muted">{e(event["summary"])}</p></div>',unsafe_allow_html=True)
+        st.markdown(f'<div class="card"><span class="ticker">{e(event["ticker"])}</span><h3>{e(event["title"])}</h3><span class="pill">Confirmed event</span><span class="pill">{e(event["direction"])}</span><div class="event-date"><strong>{e(event["date"])}{(" through "+e(event["end_date"])) if event["end_date"]!=event["date"] else ""} · {e(event.get("time","Time not announced"))}</strong></div><p class="muted">{emphasize_summary(event["summary"])}</p></div>',unsafe_allow_html=True)
         with st.expander(f'{event["ticker"]}: contracts, sources and research note'):
             st.write(event['note'])
             st.link_button('Official company source',event['url'])
