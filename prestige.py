@@ -127,16 +127,23 @@ def render(admin):
 @media(max-width:640px){.prestige-steps{grid-template-columns:1fr}.prestige-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.prestige-how{padding:21px}.prestige-board{padding:19px}}
 @media(max-width:900px){.gold-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gold-strike{font-size:46px}}
 @media(max-width:480px){.gold-grid{grid-template-columns:1fr;gap:22px;max-width:340px;margin-left:auto;margin-right:auto}.gold-strike{font-size:58px}}
+
+.prestige-hero{padding:0!important;margin:0 0 8px!important}
+.prestige-hero h1{margin:0!important;padding-bottom:8px!important}
+.bricks-heading{font:800 24px/1.4 "Trebuchet MS",Arial,sans-serif;color:#edd18d;margin:13px 0 8px}
+.gold-grid{grid-template-columns:repeat(3,minmax(0,300px));gap:20px;margin:10px 0 22px}
+.gold-contract{padding:20px}
+.gold-strike{font-size:46px;margin-top:12px}
+.board-counts{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 16px}
+.board-counts span{padding:8px 13px;border:1px solid #d4c18444;background:#203b35;border-radius:10px;color:#dce6d0;font:600 12px/1.5 "Trebuchet MS",Arial,sans-serif}
+.board-counts strong{color:#f0d68e;margin-left:7px}
+@media(max-width:900px){.gold-grid{grid-template-columns:repeat(2,minmax(0,300px))}}
+@media(max-width:480px){.gold-grid{grid-template-columns:1fr;max-width:300px}}
+
 @media(forced-colors:active){.gold-contract{background:Canvas;color:CanvasText;border:2px solid CanvasText;box-shadow:none}.gold-contract *{color:CanvasText;text-shadow:none}}
 </style>''',unsafe_allow_html=True)
-    st.markdown('<div class="prestige-hero"><div class="prestige-kicker">THE YEET / THE GOLD-BRICK WATCHLIST</div><h1>The Prestige</h1><div class="prestige-tagline">Everybody loves a comeback. We’re watching for one.</div></div>',unsafe_allow_html=True)
-    st.markdown('''<section class="prestige-how"><h3>The comeback is the point. 🪃</h3><p>In our research, contracts that <strong>move away from their strike and come back before expiration</strong> have been higher-percentage setups. That’s <strong>The Prestige</strong>, and that’s what we’re tracking here.</p><div class="prestige-issue">Our research finding, not a guarantee. No verified win rate is displayed on this board.</div></section>''',unsafe_allow_html=True)
-    try:
-        issue_url=snapshot.get('issue_url') or st.secrets.get('PRESTIGE_ISSUE_URL','')
-    except Exception:
-        issue_url=snapshot.get('issue_url','')
-    if issue_url and urlparse(issue_url).scheme=='https' and urlparse(issue_url).netloc:
-        st.link_button('📰 Read the YEET behind this board',issue_url)
+    st.markdown('<div class="prestige-hero"><h1>The Prestige</h1></div>',unsafe_allow_html=True)
+
     if not snapshot.get('cards'):
         st.info('No contracts to show in this update.')
         admin_upload(admin,snapshot)
@@ -145,10 +152,8 @@ def render(admin):
         saved_date=datetime.fromisoformat(snapshot['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Los_Angeles')).strftime('%b %d, %Y')
     except ValueError:
         saved_date='the date below'
-    st.markdown(f'<div class="prestige-saved">📌 <strong>Saved board · {escape(saved_date)}</strong> · SPY ${snapshot["spot"]:.2f} at the last saved alert. These are saved observations, not live prices.</div>',unsafe_allow_html=True)
-    counts={status:sum(c['status']==status for c in cards) for status in STATUSES}
-    st.markdown(f'<div class="prestige-stats"><div class="prestige-stat">🥇 Current Prestige<strong>{counts["Current Prestige"]}</strong></div><div class="prestige-stat">👀 On deck<strong>{counts["On Deck"]}</strong></div><div class="prestige-stat">🧲 Getting closer<strong>{counts["Approaching"]}</strong></div><div class="prestige-stat">🐋 Contracts tracked<strong>{len(cards)}</strong></div></div>',unsafe_allow_html=True)
-    with st.container(key='prestige_controls'):
+    st.caption(f'As of {saved_date} · SPY ${snapshot["spot"]:.2f} at the last saved alert · Saved data, not live')
+    with st.container(key='prestige_controls'), st.expander('Filter the bricks'):
         side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
         boards=['🥇 Current Prestige','👀 On deck','🧲 Getting closer','📦 Still watching']
         board=st.pills('Pick a board',boards,default=boards[0],selection_mode='single') or boards[0]
@@ -159,11 +164,11 @@ def render(admin):
         'SPY was outside the nearby area but moving closer across our last few observations. Watch for it to come back in. The earlier move-away story still matters.',
         'These contracts need another look, or have already expired. An active one needs a fresh approach and return before its deadline.'
     ]
-    st.markdown(f'<section class="prestige-board"><h3>{boards[i]}</h3><p>{descriptions[i]}</p></section>',unsafe_allow_html=True)
+    st.markdown(f'<div class="bricks-heading">{boards[i]}</div>',unsafe_allow_html=True)
     wanted=[STATUSES[i]] if i<3 else ['Watching','Expired']
     selected=[x for x in cards if x['status'] in wanted and (side=='🎩 Everything' or x['type']==('call' if side=='📞 Calls' else 'put'))]
     selected.sort(key=lambda x:(datetime.strptime(x['expiry'],'%m/%d/%Y'),abs(x['strike']-snapshot['spot'])))
-    st.caption('📞 Green tint = calls · 🩸 Red tint = puts. Calls are often used for an upside bet; puts for a downside bet or protection. We can’t see the trader’s full plan from an alert.')
+
     if not selected:
         st.info('No bricks on this board for that choice. Try Everything or another board.')
     else:
@@ -179,10 +184,38 @@ def render(admin):
                 st.write(f"🪃 Back near the strike: {contract['returned']}")
             else:
                 st.caption('We don’t have a full move-away-and-return sequence established for this contract in the saved data.')
+    st.markdown('<div class="bricks-heading">📋 The whole board</div>',unsafe_allow_html=True)
+    st.caption('Every tracked contract in one place. Statuses describe the saved update above.')
+    status_labels={'Current Prestige':'🥇 Current Prestige','On Deck':'👀 On deck','Approaching':'🧲 Getting closer','Watching':'📦 Still watching','Expired':'⌛ Expired'}
+    counts={status:sum(c['status']==status for c in cards) for status in STATUSES}
+    chips=''.join(f'<span>{status_labels[state]} <strong>{counts[state]}</strong></span>' for state in STATUSES if counts[state])
+    st.markdown('<div class="board-counts">'+chips+'</div>',unsafe_allow_html=True)
+    import pandas as pd
+    whole=sorted(cards,key=lambda x:(STATUSES.index(x['status']),datetime.strptime(x['expiry'],'%m/%d/%Y'),x['strike']))
+    rows=[{'Contract':f'$SPY {item["strike"]:g}{"c" if item["type"]=="call" else "p"}',
+           'Status':status_labels[item['status']],
+           'Type':'📞 Call' if item['type']=='call' else '🩸 Put',
+           'Expires':datetime.strptime(item['expiry'],'%m/%d/%Y').date(),
+           'First spotted (UW clock)':item['first'],
+           'Saved alerts':item['alerts'],
+           'Last alert premium':item['last_premium']} for item in whole]
+    st.dataframe(pd.DataFrame(rows),hide_index=True,width='stretch',height=min(760,36*len(rows)+40))
+    st.caption('First spotted = earliest alert in our saved window. Premium = the last saved alert amount, not a total.')
+    with st.expander('🎩 What is The Prestige?'):
+        st.markdown('''<section class="prestige-how"><h3>The comeback is the point. 🪃</h3><p>In our research, contracts that <strong>move away from their strike and come back before expiration</strong> have been higher-percentage setups. That’s <strong>The Prestige</strong>, and that’s what we’re tracking here.</p><div class="prestige-issue">Our research finding, not a guarantee. No verified win rate is displayed on this board.</div></section>''',unsafe_allow_html=True)
+        st.write(descriptions[i])
+        st.caption('📞 Green = calls · 🩸 Red = puts. An alert alone does not tell us the trader’s complete plan.')
+        try:
+            issue_url=snapshot.get('issue_url') or st.secrets.get('PRESTIGE_ISSUE_URL','')
+        except Exception:
+            issue_url=snapshot.get('issue_url','')
+        if issue_url and urlparse(issue_url).scheme=='https' and urlparse(issue_url).netloc:
+            st.link_button('📰 Read the YEET behind this board',issue_url)
     with st.expander('📌 When was this checked?'):
         st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot['source_time']}.")
         st.write('First spotted is the earliest alert in our saved window, not necessarily the first-ever appearance. UW’s displayed clock timezone has not been verified.')
         st.write(f"{snapshot['alert_count']} saved alert rows, grouped into {len(cards)} contracts. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
         st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
+
 
