@@ -64,7 +64,7 @@ def gold_tile(contract,spot):
     side='CALL' if contract['type']=='call' else 'PUT'
     icon='📞' if side=='CALL' else '🩸'
     expiry=datetime.strptime(contract['expiry'],'%m/%d/%Y').strftime('%b %d, %Y')
-    status=escape({'Current Prestige':'The comeback','On Deck':'On deck','Approaching':'Getting closer','Watching':'Still watching','Expired':'Expired'}.get(contract['status'],contract['status']))
+    status=escape({'Current Prestige':'Current Prestige','On Deck':'On deck','Approaching':'Getting closer','Watching':'Still watching','Expired':'Expired'}.get(contract['status'],contract['status']))
     try:
         first=datetime.strptime(contract['first'],'%Y/%m/%d %H:%M:%S').strftime('%b %d, %Y · %I:%M:%S %p')
     except (KeyError,ValueError,TypeError):
@@ -147,10 +147,10 @@ def render(admin):
         saved_date='the date below'
     st.markdown(f'<div class="prestige-saved">📌 <strong>Saved board · {escape(saved_date)}</strong> · SPY ${snapshot["spot"]:.2f} at the last saved alert. These are saved observations, not live prices.</div>',unsafe_allow_html=True)
     counts={status:sum(c['status']==status for c in cards) for status in STATUSES}
-    st.markdown(f'<div class="prestige-stats"><div class="prestige-stat">🥇 Came back<strong>{counts["Current Prestige"]}</strong></div><div class="prestige-stat">👀 On deck<strong>{counts["On Deck"]}</strong></div><div class="prestige-stat">🧲 Getting closer<strong>{counts["Approaching"]}</strong></div><div class="prestige-stat">🐋 Contracts tracked<strong>{len(cards)}</strong></div></div>',unsafe_allow_html=True)
+    st.markdown(f'<div class="prestige-stats"><div class="prestige-stat">🥇 Current Prestige<strong>{counts["Current Prestige"]}</strong></div><div class="prestige-stat">👀 On deck<strong>{counts["On Deck"]}</strong></div><div class="prestige-stat">🧲 Getting closer<strong>{counts["Approaching"]}</strong></div><div class="prestige-stat">🐋 Contracts tracked<strong>{len(cards)}</strong></div></div>',unsafe_allow_html=True)
     with st.container(key='prestige_controls'):
         side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
-        boards=['🥇 The comebacks','👀 On deck','🧲 Getting closer','📦 Still watching']
+        boards=['🥇 Current Prestige','👀 On deck','🧲 Getting closer','📦 Still watching']
         board=st.pills('Pick a board',boards,default=boards[0],selection_mode='single') or boards[0]
     i=boards.index(board)
     descriptions=[
