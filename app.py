@@ -8,11 +8,12 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import pandas as pd
 import streamlit as st
+from PIL import Image
 from rambo import normalize, match
 
 ROOT = Path(__file__).parent
 LOGO = next((p for p in [ROOT/'assets'/'yeet-logo.png', ROOT/'assets'/'yeet-logo.jpeg', ROOT/'assets'/'yeet-logo.jpg'] if p.exists()), None)
-st.set_page_config(page_title='The YEET | Terminal', page_icon=str(LOGO) if LOGO else 'Y',layout='wide')
+st.set_page_config(page_title='The YEET | Terminal', page_icon=Image.open(LOGO) if LOGO else 'Y',layout='wide')
 
 def secret(key):
     try: return st.secrets.get(key,'')
@@ -103,6 +104,7 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 .menu-brand{font:900 22px/1.4 "Trebuchet MS",Arial,sans-serif;color:#e5e9ce;margin:12px 0 24px;letter-spacing:-.02em}.menu-brand span{display:block;font-size:13px;font-weight:500;color:#a4bcb3;letter-spacing:0;margin-top:5px}
 .st-key-nav_prestige button,.st-key-nav_rambo button,.st-key-nav_pari button{min-height:66px!important;text-align:left!important;justify-content:flex-start!important;border-radius:16px!important;background:linear-gradient(130deg,#25423c,#173139)!important;color:#edf0dc!important;border:1px solid #a3b89044!important;box-shadow:0 4px 0 #071d24!important;padding:15px 19px!important;margin-bottom:13px!important;font-size:20px!important}
 .st-key-nav_prestige button p,.st-key-nav_rambo button p,.st-key-nav_pari button p{font-size:19px!important;font-weight:800!important;font-family:"Trebuchet MS",Arial,sans-serif!important}
+.st-key-nav_founders button{min-height:62px!important;background:linear-gradient(135deg,#f4dfa1,#c89c43)!important;color:#302713!important;border:1px solid #f7e9b8!important;box-shadow:0 5px 0 #705723,0 9px 18px #0004!important;border-radius:16px!important;margin-top:3px!important}.st-key-nav_founders button p{font:800 18px "Trebuchet MS",Arial,sans-serif!important}
 .menu-foot{font:500 12px/1.8 "Trebuchet MS",Arial,sans-serif;color:#91aaa0;margin:24px 0 28px}
 .st-key-milt_tools [data-testid="stExpander"] summary p,.st-key-milt_prestige [data-testid="stExpander"] summary p,.st-key-milt_pari [data-testid="stExpander"] summary p{color:#ff8b82!important}
 .st-key-milt_tools button{background:#532e32!important;color:#ffd0c6!important;border-color:#c46e6c66!important;box-shadow:0 3px 0 #2b1c24!important}
@@ -126,6 +128,9 @@ with st.sidebar:
         with st.container(key='nav_'+key):
             if st.button(icon+'  '+label,key='go_'+key,width='stretch',help=hint):
                 st.session_state.workspace_page=label
+    with st.container(key='nav_founders'):
+        if st.button('👑  OG/Founder Perks',key='go_founders',width='stretch'):
+            st.session_state.workspace_page='OG/Founder Perks'
     st.markdown('<div class="menu-foot">A little research.<br>A little magic. A lot of YEET.</div>',unsafe_allow_html=True)
     with st.container(key='milt_tools'):
         with st.expander('milt stuff'):
@@ -290,6 +295,9 @@ elif page=='My tickers':
             st.success('Added to this session. Download the snapshot to publish it.')
         st.write(', '.join(data.get('watchlist',[])) or 'No requested tickers yet.')
         download_snapshot()
+elif page=='OG/Founder Perks':
+    from founders import render
+    render(admin)
 elif page=='Prestige':
     from prestige import render
     render(admin)

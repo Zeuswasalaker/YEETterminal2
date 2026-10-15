@@ -1,0 +1,255 @@
+{
+  "research_as_of": "2026-10-15",
+  "companies": {
+    "GME": {
+      "name": "GameStop",
+      "ir_url": "https://investor.gamestop.com/overview/default.aspx",
+      "source_urls": [
+        "https://investor.gamestop.com/newsroom/",
+        "https://investor.gamestop.com/annual-meeting/default.aspx"
+      ],
+      "event_note": "No upcoming non-earnings event was verified in this check. The listed July shareholder meeting is already past."
+    },
+    "NVDA": {
+      "name": "NVIDIA",
+      "ir_url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+      "source_urls": [
+        "https://www.nvidia.com/en-eu/gtc/faq/",
+        "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx"
+      ],
+      "event_note": "GTC Berlin is confirmed separately from earnings."
+    },
+    "AMC": {
+      "name": "AMC Entertainment",
+      "ir_url": "https://investor.amctheatres.com/news-events/ir-calendar",
+      "source_urls": [
+        "https://investor.amctheatres.com/news-events/ir-calendar",
+        "https://investor.amctheatres.com/news-events/press-releases"
+      ],
+      "event_note": "AMC\u2019s official IR calendar lists no upcoming events at this check. Its September 24 shareholder meeting is already past."
+    },
+    "COHR": {
+      "name": "Coherent",
+      "ir_url": "https://ir.coherent.com/news-events/events",
+      "source_urls": [
+        "https://ir.coherent.com/news-events/events",
+        "https://www.coherent.com/events"
+      ],
+      "event_note": "Company-confirmed industry appearances are listed. These are not investor days. The November 4 earnings event is excluded."
+    }
+  },
+  "events": [
+    {
+      "ticker": "NVDA",
+      "title": "GTC Berlin \u00b7 Jensen Huang keynote",
+      "date": "2026-10-20",
+      "end_date": "2026-10-22",
+      "keynote_date": "2026-10-21",
+      "url": "https://www.nvidia.com/en-eu/gtc/faq/",
+      "category": "Company conference",
+      "summary": "Workshops October 20; Jensen Huang\u2019s keynote October 21; conference and exhibits October 21\u201322. A company technology event, not earnings.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    },
+    {
+      "ticker": "COHR",
+      "title": "WFEC Europe \u00b7 Coherent booth and technical talk",
+      "date": "2026-10-19",
+      "end_date": "2026-10-20",
+      "url": "https://www.coherent.com/events",
+      "category": "Industry appearance",
+      "summary": "Coherent lists a booth and technical talk at the fusion-energy conference in Munich. Confirmed attendance, not a confirmed financial-guidance announcement.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    },
+    {
+      "ticker": "COHR",
+      "title": "Neuroscience 2026 \u00b7 Coherent exhibitor",
+      "date": "2026-11-14",
+      "end_date": "2026-11-18",
+      "url": "https://www.coherent.com/events",
+      "category": "Industry appearance",
+      "summary": "Coherent lists Booth 2229 at the Washington, D.C. conference. An industry showcase, not an investor presentation or earnings event.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    }
+  ],
+  "flows": [],
+  "flow_checks": [
+    {
+      "ticker": "GME",
+      "filter": "NAUTILUS",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "GME",
+      "filter": "FARCRY ULTRA",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "GME",
+      "filter": "PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "GME",
+      "filter": "WF PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "GME",
+      "filter": "BAT",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "GME",
+      "filter": "Freelance Ultra",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "NAUTILUS",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "FARCRY ULTRA",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "WF PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "BAT",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "NVDA",
+      "filter": "Freelance Ultra",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "NAUTILUS",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "FARCRY ULTRA",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "WF PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "BAT",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "AMC",
+      "filter": "Freelance Ultra",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "NAUTILUS",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "FARCRY ULTRA",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "WF PSU",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "BAT",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    },
+    {
+      "ticker": "COHR",
+      "filter": "Freelance Ultra",
+      "status": "sign_in_required",
+      "last_attempt_date": "2026-10-15",
+      "last_success": null
+    }
+  ],
+  "monitoring": {
+    "ir": "Hourly public-source research scheduled",
+    "flow": "Sign-in failed; not checked"
+  }
+}
