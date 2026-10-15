@@ -39,7 +39,7 @@
         "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8",
         "https://ir.coherent.com/static-files/4df8d35b-3abc-4a04-a319-588b204e9bcd"
       ],
-      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately. These are not investor days. The proxy notice and annual report have a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded. At the October 15 check, the IR events page and proxy PDF returned access errors (403); the official company events page and annual-report PDF remain accessible, with the annual report independently confirming November 18 at noon Eastern."
+      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately. These are not investor days. The proxy notice and annual report have a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded. Coherent's IR sources have intermittent access errors (403). The proxy and annual-report PDFs were readable again during the October 15 check and both support November 18 at noon Eastern; the IR events page still returned an access error. The company events page remains accessible."
     }
   },
   "events": [
@@ -87,7 +87,7 @@
       "end_date": "2026-11-18",
       "url": "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8",
       "category": "Shareholder meeting",
-      "summary": "The 2026 proxy notice and annual report list a virtual annual meeting November 18 at noon Eastern (9 a.m. Pacific). Governance voting, not an investor day or promised business update. The printed weekday conflicts with the calendar; confirm timing with IR before relying on it. The annual report independently supports the date while direct proxy access is blocked at this check.",
+      "summary": "The 2026 proxy notice and annual report list a virtual annual meeting November 18 at noon Eastern (9 a.m. Pacific). Governance voting, not an investor day or promised business update. The printed weekday conflicts with the calendar; confirm timing with IR before relying on it. Both official documents support the date; IR source access has been intermittent.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-15"
