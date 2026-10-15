@@ -1,17 +1,18 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
     "last_success": "2026-10-15T00:31:18.699135+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
-    "status": "Page fetched",
-    "text_excerpt": "Semtech Corporation to Host Data Center Analyst Day on October 15, 2026 | Semtech Skip to main content Company Press Releases Home Company Press Releases Semtech Corporation to Host Data Center Analyst Day on October 15, 2026 Event to feature strategy overview, technology portfolio and long-term financial objectives from Semtech leadership CAMARILLO, Calif. Oct. 12, 2026 - Semtech Corporation (Nasdaq: SMTC), a leading provider of high-performance semiconductors powering AI data center networking and intelligent, connected Internet of Things (\u201cIoT\u201d) devices worldwide, will host an analyst day on Thursday, Oct. 15, 2026, in San Jose, Calif. The event will begin at 9 a.m. PT. Dr. Hong Hou, president and CEO, Mark Lin, executive vice president and CFO, and other members of the senior leadership team will provide an in-depth review of the Company\u2019s strategy, technology portfolio and long-term financial objectives. The event will also feature a panel discussion with industry experts, question-and-answer sessions, product demonstrations, and opportunities for in-person attendees to engage with members of Semtech management. A live webcast of the analyst day presentations, together with the accompanying presentation materials, will be available under \u201cNews & Events\u201d on the Investor Relations section of Semtech\u2019s website at investors.semtech.com . The presentation materials and presenter remarks are expected to include material business, financial or other information. A replay of the full webcast, together with the accompanying presentation materials, will be available on the website for 90 days following the event. About Semtech Semtech Corporation (Nasdaq: SMTC) is a leading provider of high-performance semiconductors powering AI data center networking and intelligent, connected IoT devices worldwide. To learn more about Semtech technology, visit us at Semtech.com or follow us on LinkedIn or X . Semtech and the Semtech logo are registered trademarks or service marks of Semtech Corporation or its subsidiaries. SMTC-F Press Contact PR inquiry Form \u00bb Share Twitter LinkedIn Facebook Email Read More Press All Featured Press Cellular IoT Solutions LoRa Wireless RF Circuit Protection PerSe Smart Sensing Power Management Signal Integrity Broadcast Video Professional AV Company ESG"
+    "status": "Fetch failed",
+    "text_excerpt": "Semtech Corporation to Host Data Center Analyst Day on October 15, 2026 | Semtech Skip to main content Company Press Releases Home Company Press Releases Semtech Corporation to Host Data Center Analyst Day on October 15, 2026 Event to feature strategy overview, technology portfolio and long-term financial objectives from Semtech leadership CAMARILLO, Calif. Oct. 12, 2026 - Semtech Corporation (Nasdaq: SMTC), a leading provider of high-performance semiconductors powering AI data center networking and intelligent, connected Internet of Things (\u201cIoT\u201d) devices worldwide, will host an analyst day on Thursday, Oct. 15, 2026, in San Jose, Calif. The event will begin at 9 a.m. PT. Dr. Hong Hou, president and CEO, Mark Lin, executive vice president and CFO, and other members of the senior leadership team will provide an in-depth review of the Company\u2019s strategy, technology portfolio and long-term financial objectives. The event will also feature a panel discussion with industry experts, question-and-answer sessions, product demonstrations, and opportunities for in-person attendees to engage with members of Semtech management. A live webcast of the analyst day presentations, together with the accompanying presentation materials, will be available under \u201cNews & Events\u201d on the Investor Relations section of Semtech\u2019s website at investors.semtech.com . The presentation materials and presenter remarks are expected to include material business, financial or other information. A replay of the full webcast, together with the accompanying presentation materials, will be available on the website for 90 days following the event. About Semtech Semtech Corporation (Nasdaq: SMTC) is a leading provider of high-performance semiconductors powering AI data center networking and intelligent, connected IoT devices worldwide. To learn more about Semtech technology, visit us at Semtech.com or follow us on LinkedIn or X . Semtech and the Semtech logo are registered trademarks or service marks of Semtech Corporation or its subsidiaries. SMTC-F Press Contact PR inquiry Form \u00bb Share Twitter LinkedIn Facebook Email Read More Press All Featured Press Cellular IoT Solutions LoRa Wireless RF Circuit Protection PerSe Smart Sensing Power Management Signal Integrity Broadcast Video Professional AV Company ESG",
+    "error": "HTTPSConnectionPool(host='www.semtech.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
-    "last_success": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
+    "last_success": "2026-10-15T17:46:19.624629+00:00",
     "hash": "9b3a593c0196cc2cd176dbbf0a82c27fb6a18059f9a8a916941c8a5b51818f61",
     "changed": false,
     "status": "Page fetched",
@@ -19,14 +20,14 @@
   },
   "https://ir.immunitybio.com/node/11731": {
     "ticker": "IBRX",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.immunitybio.com/node/11731"
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
-    "last_success": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
+    "last_success": "2026-10-15T17:46:19.624629+00:00",
     "hash": "a25eddd7704db3fbdcd2367327199cc9accd5d7e820ef646ccf344631b44d664",
     "changed": false,
     "status": "Page fetched",
@@ -34,8 +35,8 @@
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
-    "last_success": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
+    "last_success": "2026-10-15T17:46:19.624629+00:00",
     "hash": "1ffe461661c7709014bc37002b945fccd8bd0cbef2c4d22c66c1a5c40cb648f8",
     "changed": false,
     "status": "Page fetched",
@@ -43,8 +44,8 @@
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
-    "last_success": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
+    "last_success": "2026-10-15T17:46:19.624629+00:00",
     "hash": "c5449a9d7380f5984abcd290e78d39e324a7b5e4127f8a2143c11f7c288ed4e3",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +53,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "TSEM",
-    "last_attempt": "2026-10-15T00:31:18.699135+00:00",
-    "last_success": "2026-10-15T00:31:18.699135+00:00",
+    "last_attempt": "2026-10-15T17:46:19.624629+00:00",
+    "last_success": "2026-10-15T17:46:19.624629+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
