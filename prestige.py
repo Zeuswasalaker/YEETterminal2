@@ -34,7 +34,7 @@ def validate_snapshot(snapshot):
 
 def admin_upload(admin,snapshot):
     import streamlit as st
-    with st.expander('Milt’s controls / load saved contracts'):
+    with st.container(key='milt_prestige') , st.expander('milt stuff'):
         if admin():
             uploaded=st.file_uploader('Saved Prestige data (.json)',type=['json'],key='prestige_upload')
             if uploaded and st.button('Show these contracts',type='primary'):
@@ -84,7 +84,7 @@ def render(admin):
             initial=json.loads(private) if private else json.loads(path.read_text())
             st.session_state.prestige_snapshot=validate_snapshot(initial)
         except Exception:
-            st.error('Saved Prestige data could not be read. Check the snapshot format in Milt’s controls.')
+            st.error('Prestige is temporarily unavailable.')
             st.session_state.prestige_snapshot={'cards':[]}
     snapshot=st.session_state.prestige_snapshot
     today=datetime.now(ZoneInfo('America/New_York')).date()
@@ -138,7 +138,7 @@ def render(admin):
     if issue_url and urlparse(issue_url).scheme=='https' and urlparse(issue_url).netloc:
         st.link_button('📰 Read the YEET behind this board',issue_url)
     if not snapshot.get('cards'):
-        st.info('The board is ready. Load saved contracts in Milt’s controls to put some bricks on it.')
+        st.info('No contracts to show in this update.')
         admin_upload(admin,snapshot)
         return
     try:
@@ -185,3 +185,4 @@ def render(admin):
         st.write(f"{snapshot['alert_count']} saved alert rows, grouped into {len(cards)} contracts. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
         st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
+

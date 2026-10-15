@@ -85,7 +85,7 @@ def trend_chart(valid, count):
     return (reference+line+point).properties(height=240).configure_view(stroke=None).configure(background='#112b37')
 
 
-def render():
+def render(admin=None):
     import streamlit as st
     st.title('PARI')
     st.markdown('''<style>
@@ -99,40 +99,42 @@ def render():
 </style>''', unsafe_allow_html=True)
     st.markdown('<div class="pari-kicker">SPY / PRICE ACTION / FIVE TIMEFRAMES</div>', unsafe_allow_html=True)
     snapshot = st.empty()
-    snapshot.markdown('<div class="pari-snapshot"><div class="pari-kicker">CURRENT POSTURE</div><div class="pari-action" style="color:#21c9ab">LOAD PRICES TO SEE THE READ</div><div class="pari-copy">Choose a timeframe below. Your current posture appears here once actual prices are loaded.</div></div>', unsafe_allow_html=True)
+    snapshot.markdown('<div class="pari-snapshot"><div class="pari-kicker">CURRENT POSTURE</div><div class="pari-action" style="color:#21c9ab">NO READING AVAILABLE</div><div class="pari-copy">Choose a timeframe to see the latest available reading.</div></div>', unsafe_allow_html=True)
     frame = st.radio('Timeframe', list(FRAMES), horizontal=True)
-    source = st.radio('Price source', ['Yahoo SPY', 'Upload price CSV'], horizontal=True)
-    st.caption('Daily: five years of Yahoo history. Intraday: one month of 5-minute history, aggregated into complete regular-session bars. Each timeframe has its own ranking history; scores are not directly calibrated across timeframes.')
-    close = None
-    if source == 'Upload price CSV':
-        st.caption('Upload prices already at the selected timeframe. Daily historical prices cannot produce intraday readings. CSV requires Date and Close; intraday dates must include times. Upload only completed candles.')
-        upload = st.file_uploader('SPY price history', type=['csv'], key='pari_csv_' + frame)
+    source='Yahoo SPY'
+    upload=None
+    with st.container(key='milt_pari'), st.expander('milt stuff'):
+        if admin and admin():
+            source=st.radio('Price source',['Yahoo SPY','Upload price CSV'],horizontal=True)
+            st.caption('Daily: five years. Intraday: one month of five-minute bars. CSVs must already match the selected timeframe and contain completed candles.')
+            if source=='Upload price CSV':
+                upload=st.file_uploader('SPY price history',type=['csv'],key='pari_csv_'+frame)
+    close=None
+    if source=='Upload price CSV':
         if upload:
             try:
-                close = read_csv(upload)
-                if frame != 'Daily' and (close.index == close.index.normalize()).all():
-                    raise ValueError('This appears to be daily data. Intraday readings require intraday candles.')
+                close=read_csv(upload)
+                if frame!='Daily' and (close.index==close.index.normalize()).all():
+                    raise ValueError('Intraday readings require intraday candles.')
             except Exception as exc:
                 st.error(str(exc))
     else:
-        @st.cache_data(ttl=300, show_spinner=False)
+        @st.cache_data(ttl=300,show_spinner=False)
         def load(selected):
             return yahoo(selected)
-        if st.button('Load / refresh prices', type='primary'):
+        if st.button('↻ Refresh',type='primary'):
             load.clear()
-            st.session_state['pari_load'] = True
-        if st.session_state.get('pari_load'):
-            try:
-                with st.spinner('Loading SPY prices…'):
-                    close = load(frame)
-            except Exception:
-                st.error('Yahoo prices could not be loaded. Retry or upload an actual price CSV. No reading is substituted.')
+        try:
+            with st.spinner('Checking SPY…'):
+                close=load(frame)
+        except Exception:
+            st.caption('SPY prices are temporarily unavailable. No current reading is shown.')
     if close is not None:
         try:
             df = calculate(close)
             valid = df.dropna(subset=['PARI'])
             if valid.empty:
-                st.warning('At least 11 valid closes are needed for a PARI reading.')
+                st.caption('Not enough price history for a reading yet.')
             else:
                 from html import escape
                 current = valid.iloc[-1]
@@ -162,4 +164,5 @@ def render():
         st.write('Above 50 means the momentum percentile exceeds the volatility percentile; below 50 means the reverse. This is a relative price-action reading, not a trade recommendation or a validated probability. A high reading does not necessarily mean momentum is positive. Values near 20 or 80 do not establish that a major move is coming.')
         st.write('The original code ranks the entire loaded history. Adding prices can change earlier scores, so these historical charts are retrospective and must not be used as a look-ahead-free backtest.')
         st.write('Daily uses 10 daily bars. Intraday uses 10 bars of the selected length, spanning multiple sessions when necessary. Automatic aggregation starts at 9:30 a.m. New York time and excludes incomplete blocks, including shortened session-end blocks. The 4-hour view therefore typically has one complete bar per regular session.')
-        st.caption('Your saved 37.08 example and its randomly generated distribution are not used here. Every plotted score comes from loaded prices.')
+
+

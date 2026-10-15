@@ -99,6 +99,13 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 @media(max-width:640px){.rambo-stats{gap:9px}.rambo-stat{padding:16px 12px}.stat-label{font-size:12px;min-height:54px}.stat-number{font-size:34px}.stat-detail{font-size:11px}.key-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.soon-title{min-height:0}.soon-card{min-height:0}}
 @media(max-width:380px){.rambo-stats{grid-template-columns:1fr}.stat-label{min-height:0}.stat-number{font-size:36px}}
 
+.milt-title{color:#ff8b82!important;-webkit-text-fill-color:#ff8b82!important;background:none!important}
+.menu-brand{font:900 22px/1.4 "Trebuchet MS",Arial,sans-serif;color:#e5e9ce;margin:12px 0 24px;letter-spacing:-.02em}.menu-brand span{display:block;font-size:13px;font-weight:500;color:#a4bcb3;letter-spacing:0;margin-top:5px}
+.st-key-nav_prestige button,.st-key-nav_rambo button,.st-key-nav_pari button{min-height:66px!important;text-align:left!important;justify-content:flex-start!important;border-radius:16px!important;background:linear-gradient(130deg,#25423c,#173139)!important;color:#edf0dc!important;border:1px solid #a3b89044!important;box-shadow:0 4px 0 #071d24!important;padding:15px 19px!important;margin-bottom:13px!important;font-size:20px!important}
+.st-key-nav_prestige button p,.st-key-nav_rambo button p,.st-key-nav_pari button p{font-size:19px!important;font-weight:800!important;font-family:"Trebuchet MS",Arial,sans-serif!important}
+.menu-foot{font:500 12px/1.8 "Trebuchet MS",Arial,sans-serif;color:#91aaa0;margin:24px 0 28px}
+.st-key-milt_tools [data-testid="stExpander"] summary p,.st-key-milt_prestige [data-testid="stExpander"] summary p,.st-key-milt_pari [data-testid="stExpander"] summary p{color:#ff8b82!important}
+.st-key-milt_tools button{background:#532e32!important;color:#ffd0c6!important;border-color:#c46e6c66!important;box-shadow:0 3px 0 #2b1c24!important}
 @media(forced-colors:active){.rambo-title{-webkit-text-fill-color:CanvasText!important;background:none;filter:none}.rambo-ticker{color:CanvasText;border:1px solid CanvasText;text-shadow:none}}
 @media(max-width:640px){h1{font-size:3rem!important}.card{padding:20px}.soon-card{min-height:unset}}
 @media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
@@ -109,19 +116,31 @@ if 'snapshot' not in st.session_state: st.session_state.snapshot=seed
 data=st.session_state.snapshot
 today=datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
 
+if 'workspace_page' not in st.session_state:
+    st.session_state.workspace_page='Prestige'
+
 with st.sidebar:
-    if LOGO: st.image(str(LOGO),width=170)
-    st.markdown('### THE YEET\nTERMINAL')
-    page=st.radio('Workspace',['RAMBO','Upload & publish','Event research','My tickers','Prestige','PARI'],label_visibility='collapsed')
-    st.divider()
-    st.caption('FLOW × COMPANY CATALYSTS')
-    st.caption('Founding Members: ongoing ticker coverage')
-    st.caption('Research snapshot, not a live price feed')
+    if LOGO: st.image(str(LOGO),width=150)
+    st.markdown('<div class="menu-brand">THE YEET<span>Pick your weapon.</span></div>',unsafe_allow_html=True)
+    for label,icon,hint,key in [('Prestige','🥇','The gold-brick watchlist','prestige'),('RAMBO','🪃','Company events and whale activity','rambo'),('PARI','🧭','What price action is saying','pari')]:
+        with st.container(key='nav_'+key):
+            if st.button(icon+'  '+label,key='go_'+key,width='stretch',help=hint):
+                st.session_state.workspace_page=label
+    st.markdown('<div class="menu-foot">A little research.<br>A little magic. A lot of YEET.</div>',unsafe_allow_html=True)
+    with st.container(key='milt_tools'):
+        with st.expander('milt stuff'):
+            for label in ['Upload & publish','Event research','My tickers']:
+                if st.button(label,key='admin_nav_'+label,width='stretch'):
+                    st.session_state.workspace_page=label
+page=st.session_state.workspace_page
+selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari'}.get(page)
+if selected:
+    st.markdown(f'<style>.st-key-nav_{selected} button{{border-color:#d9e8a6!important;background:#284c3b!important;box-shadow:0 4px 0 #071d24,inset 4px 0 0 #b8ee69!important}}</style>',unsafe_allow_html=True)
 
 def admin():
     configured=secret('ADMIN_PASSWORD')
     if not configured:
-        st.info('Admin editing is disabled. Configure ADMIN_PASSWORD in Streamlit Secrets to enable uploads and research edits.')
+        st.caption('milt stuff · Admin access isn’t configured.')
         return False
     if st.session_state.get('admin_access'): return True
     password=st.text_input('Admin password',type='password',key='admin_password')
@@ -168,7 +187,7 @@ if page=='RAMBO':
     as_of=seed['research_as_of'] if historical else today
     results=match(data['events'],data['prints'],as_of)
     st.caption(f"Option data added: {data.get('flow_imported_at','Unknown')} · Company events checked: {data.get('events_checked_at','Unknown')} · Showing events from {as_of}")
-    if today>data['research_as_of']: st.info('This board uses saved research, not live updates. Prices, option activity and event details may have changed since the dates above.')
+    if today>data['research_as_of']: st.caption('Saved board · Prices and event details may have changed since this update.')
     company_count=len(set(p['underlying_symbol'] for p in data['prints']))
     st.markdown(f'<div class="rambo-stats"><div class="rambo-stat"><div class="stat-label">📅 Events to watch</div><div class="stat-number">{len(results)}</div><div class="stat-detail">Company events lined up with option dates</div></div><div class="rambo-stat"><div class="stat-label">🔎 Companies in the data</div><div class="stat-number">{company_count}</div><div class="stat-detail">Tickers in the saved option activity</div></div><div class="rambo-stat"><div class="stat-label">🐋 Option alerts saved</div><div class="stat-number">{len(data["prints"])}</div><div class="stat-detail">Recorded alerts, not individual whales</div></div></div>',unsafe_allow_html=True)
     category=st.selectbox('What kind of events?',['All company events (no earnings)','Investor & analyst meetings only'])
@@ -210,7 +229,7 @@ if page=='RAMBO':
             dates=sorted(set(str(p.get('next_earnings_date')) for p in event['prints'] if p.get('next_earnings_date')))
             if dates: st.caption('Earnings dates in uploaded exports, not independently refreshed: '+', '.join(dates))
 elif page=='Upload & publish':
-    st.title('Upload & publish')
+    st.markdown('<h1 class="milt-title">milt stuff</h1>',unsafe_allow_html=True)
     st.write('Drop your UW exports in together. The Terminal preserves filter provenance and matches contracts against confirmed event dates.')
     if admin():
         files=st.file_uploader('UW CSV exports',type='csv',accept_multiple_files=True)
@@ -233,7 +252,7 @@ elif page=='Upload & publish':
         st.divider()
         download_snapshot()
 elif page=='Event research':
-    st.title('Event research')
+    st.markdown('<h1 class="milt-title">milt stuff</h1>',unsafe_allow_html=True)
     st.write('Confirmed non-earnings events drive matches. New discoveries stay in review until the date and event type are verified.')
     st.dataframe(pd.DataFrame(data['events'])[['ticker','title','date','end_date','status','category']],hide_index=True,width='stretch')
     checks=ROOT/'data'/'source_checks.json'
@@ -262,7 +281,7 @@ elif page=='Event research':
                 st.success('Event added to this session.')
         download_snapshot()
 elif page=='My tickers':
-    st.title('Founding Member ticker coverage')
+    st.markdown('<h1 class="milt-title">milt stuff</h1>',unsafe_allow_html=True)
     st.write('Requested tickers are tracked independently of the broad filters. Membership verification and request delivery will be connected before member launch.')
     if admin():
         requested=st.text_input('Add a ticker to the coverage list').strip().upper()
@@ -276,5 +295,6 @@ elif page=='Prestige':
     render(admin)
 else:
     from pari import render
-    render()
+    render(admin)
+
 
