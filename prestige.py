@@ -53,7 +53,11 @@ def gold_tile(contract,spot):
     icon='📞' if side=='CALL' else '🩸'
     expiry=datetime.strptime(contract['expiry'],'%m/%d/%Y').strftime('%b %d, %Y')
     status=escape(contract['status'])
-    return f'<article class="gold-contract" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
+    try:
+        first=datetime.strptime(contract['first'],'%Y/%m/%d %H:%M:%S').strftime('%b %d, %Y · %I:%M:%S %p')
+    except (KeyError,ValueError,TypeError):
+        first='Not recorded'
+    return f'<article class="gold-contract" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>Earliest alert in this saved window · UW clock</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
 
 
 def render(admin):
@@ -81,6 +85,10 @@ def render(admin):
 .gold-strike span{font-size:.65em;margin-left:3px}
 .gold-expiry{font-weight:800;font-size:14px;color:#352407;text-shadow:0 1px 0 #fff1b0}
 .gold-status{align-self:flex-start;margin:14px 0 10px;padding:5px 9px;border:1px solid #64420c77;border-radius:6px;background:#fff1bd77;font-size:11px;font-weight:800;color:#342409}
+.gold-first{display:flex;flex-direction:column;gap:3px;margin:0 0 7px;padding:7px 0;border-top:1px solid #62420d44}
+.gold-first>span{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:#46300e}
+.gold-first strong{font-size:12px;line-height:1.4;color:#30220a}
+.gold-first small{font-size:9px;line-height:1.4;color:#46300e}
 .gold-foot{font-size:11px;line-height:1.6;color:#3c2a0b;margin-top:auto;padding-top:8px}
 @media(max-width:900px){.gold-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gold-strike{font-size:46px}}
 @media(max-width:480px){.gold-grid{grid-template-columns:1fr;gap:22px;max-width:340px;margin-left:auto;margin-right:auto}.gold-strike{font-size:58px}}
@@ -104,6 +112,7 @@ def render(admin):
     b.metric('On deck',counts['On Deck'])
     c.metric('Approaching',counts['Approaching'])
     d.metric('Last observed SPY',f"${snapshot['spot']:.2f}")
+    st.caption('First spotted means the earliest alert in the captured window, not necessarily the contract’s first-ever appearance. Source clock timezone has not been verified.')
     st.caption(f"{snapshot['alert_count']} displayed UW alert rows grouped into {len(cards)} contracts. Coverage: {snapshot['coverage_start']} through {snapshot['source_time']}. Alert counts are captured rows, not verified unique executions. Premiums are rounded source labels, not summed totals.")
     side=st.radio('Show',['All','Calls','Puts'],horizontal=True)
     tabs=st.tabs(['Current Prestige','On Deck','Approaching','Watching / Expired'])
