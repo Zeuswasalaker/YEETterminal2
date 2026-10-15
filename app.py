@@ -82,6 +82,23 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 .card h3,.soon-title{font-family:"Trebuchet MS",Arial,sans-serif!important;font-weight:700!important;color:#eeeedd!important}
 .rambo-key{display:flex;flex-wrap:wrap;gap:8px 18px;padding:14px 18px;margin:12px 0 22px;border:1px solid #a8c4b340;border-radius:16px;background:#18352f;color:#d8e4dc;font:500 13px/1.7 "Trebuchet MS",Arial,sans-serif}
 @media(max-width:640px){.company-badge{flex-basis:52px;width:52px;height:52px}.company-badge img{width:38px;height:38px}.company-heading .rambo-ticker{font-size:30px}.company-heading{gap:12px}}
+
+.rambo-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:14px 0 24px}
+.rambo-stat{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:21px 20px 19px;background:linear-gradient(145deg,#213f39,#162e32);border:1px solid #9bbda53d;border-radius:20px;box-shadow:0 4px 0 #091d25,inset 0 1px 0 #ffffff12}
+.stat-label{font:700 13px/1.5 "Trebuchet MS",Arial,sans-serif;color:#dbe7da;min-height:40px}
+.stat-number{font:900 42px/1.1 "Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif;color:#b9ef76;text-shadow:0 2px 0 #385d40,0 4px 0 #0b2026;margin:5px 0 10px}
+.stat-detail{font:400 12px/1.6 "Trebuchet MS",Arial,sans-serif;color:#b3c8c3}
+.rambo-key{display:block;padding:18px 20px;margin:8px 0 12px}
+.key-heading{font:800 14px/1.5 "Trebuchet MS",Arial,sans-serif;color:#f0edda;margin-bottom:13px}
+.key-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px 16px}
+.key-items span{display:block;font-size:13px;line-height:1.6;color:#d3e2da}
+.key-items strong{font-weight:600}
+.soon-title{min-height:4.5em;margin-bottom:14px}
+.soon-card{display:flex;flex-direction:column;min-height:295px}
+.soon-card>.muted{margin-top:auto}
+@media(max-width:640px){.rambo-stats{gap:9px}.rambo-stat{padding:16px 12px}.stat-label{font-size:12px;min-height:54px}.stat-number{font-size:34px}.stat-detail{font-size:11px}.key-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.soon-title{min-height:0}.soon-card{min-height:0}}
+@media(max-width:380px){.rambo-stats{grid-template-columns:1fr}.stat-label{min-height:0}.stat-number{font-size:36px}}
+
 @media(forced-colors:active){.rambo-title{-webkit-text-fill-color:CanvasText!important;background:none;filter:none}.rambo-ticker{color:CanvasText;border:1px solid CanvasText;text-shadow:none}}
 @media(max-width:640px){h1{font-size:3rem!important}.card{padding:20px}.soon-card{min-height:unset}}
 @media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
@@ -140,29 +157,32 @@ def company_heading(ticker):
     return f'<div class="company-heading"><div class="company-badge">{badge}</div><span class="ticker rambo-ticker">${safe}</span></div>'
 
 def flow_label(direction):
-    labels={'Call-side':'📞 Call flow','Put-side':'🛡️ Put flow','Mixed':'🔀 Mixed flow','Unclear':'❔ Unclear flow'}
+    labels={'Call-side':'📞 Calls spotted','Put-side':'🩸 Puts spotted','Mixed':'🔀 Calls & puts','Unclear':'❔ Needs a closer look'}
     return labels.get(direction,html.escape(str(direction)))
 
 if page=='RAMBO':
     st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1 class="rambo-title">RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div><div class="rambo-intro">Big meetings. Whale money. Let’s connect the dots.</div>',unsafe_allow_html=True)
     c1,c2=st.columns([3,1])
     query=c1.text_input('Find a ticker',placeholder='$SMTC, $NVTS, $IBRX…').strip().upper().lstrip('$')
-    historical=c2.toggle('View Oct 14 snapshot',value=False)
+    historical=c2.toggle('Oct 14 view',value=False,help='See the board as it looked on October 14, rather than filtering events by today’s date.')
     as_of=seed['research_as_of'] if historical else today
     results=match(data['events'],data['prints'],as_of)
-    st.caption(f"Flow imported: {data.get('flow_imported_at','Unknown')} · Events verified: {data.get('events_checked_at','Unknown')} · Viewing event windows as of {as_of}")
-    if today>data['research_as_of']: st.info('The supplied research is historical. Upload fresh exports and recheck event sources before using it as current research.')
-    a,b,c=st.columns(3)
-    a.metric('Matched events',len(results));b.metric('Flow tickers',len(set(p['underlying_symbol'] for p in data['prints'])));c.metric('Observed records',len(data['prints']))
-    category=st.selectbox('Event scope',['All non-earnings events','Investor / analyst events only'])
+    st.caption(f"Option data added: {data.get('flow_imported_at','Unknown')} · Company events checked: {data.get('events_checked_at','Unknown')} · Showing events from {as_of}")
+    if today>data['research_as_of']: st.info('This board uses saved research, not live updates. Prices, option activity and event details may have changed since the dates above.')
+    company_count=len(set(p['underlying_symbol'] for p in data['prints']))
+    st.markdown(f'<div class="rambo-stats"><div class="rambo-stat"><div class="stat-label">📅 Events to watch</div><div class="stat-number">{len(results)}</div><div class="stat-detail">Company events lined up with option dates</div></div><div class="rambo-stat"><div class="stat-label">🔎 Companies in the data</div><div class="stat-number">{company_count}</div><div class="stat-detail">Tickers in the saved option activity</div></div><div class="rambo-stat"><div class="stat-label">🐋 Option alerts saved</div><div class="stat-number">{len(data["prints"])}</div><div class="stat-detail">Recorded alerts, not individual whales</div></div></div>',unsafe_allow_html=True)
+    category=st.selectbox('What kind of events?',['All company events (no earnings)','Investor & analyst meetings only'])
     if query: results=[r for r in results if query in r['ticker']]
     if category.endswith('only'): results=[r for r in results if r['category']=='Investor / analyst']
-    if not results: st.info('No confirmed events match these filters and expiration windows.')
-    st.markdown('<div class="rambo-key" role="note" aria-label="RAMBO icon key"><strong>The cheat sheet:</strong><span>📅 Event date</span><span>✅ Confirmed event</span><span>📞 Call flow</span><span>🛡️ Put flow</span><span>🔀 Mixed flow</span><span>⏳ Timing</span></div>',unsafe_allow_html=True)
-    st.caption('Call / put labels describe the captured contracts, not a confirmed market direction.')
+    if not results: st.info('Nothing lines up here yet. Try another ticker or event type.')
+    st.markdown('<div class="rambo-key" role="note" aria-label="RAMBO icon key"><div class="key-heading">The cheat sheet 👇</div><div class="key-items"><span>📅 <strong>Event date</strong></span><span>✅ <strong>Date confirmed</strong></span><span>📞 <strong>Calls spotted</strong></span><span>🩸 <strong>Puts spotted</strong></span><span>🔀 <strong>Calls & puts</strong></span><span>⏳ <strong>How soon?</strong></span></div></div>',unsafe_allow_html=True)
+    with st.expander('New here? Here’s the quick version'):
+        st.write('RAMBO connects company events with unusual options activity. We look for events happening before the options expire. Earnings announcements are left out.')
+        st.write('A ticker is a company’s stock symbol, like $NVDA. Calls are often used to bet on a rise; puts are often used to bet on a fall or protect an investment. The alert alone does not tell us the trader’s whole plan.')
+        st.write('An option’s expiration is its deadline. An alert is a recorded piece of option activity, not proof that a separate whale bought in. A match is a research lead, not an automatic trade.')
     if results:
-        st.subheader('Coming soon')
-        st.caption('The three closest matching company catalysts')
+        st.subheader('Events on deck')
+        st.caption('The next three company events worth keeping an eye on.')
         soon_columns=st.columns(min(3,len(results)))
         for column,event in zip(soon_columns,results[:3]):
             escape=lambda v: html.escape(str(v))
