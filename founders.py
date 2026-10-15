@@ -1,5 +1,7 @@
 """Founder ticker coverage: independent company events and captured flow."""
 import json
+import re
+from urllib.parse import urlencode
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -29,13 +31,22 @@ def render(admin):
 .founder-note{font-size:12px;color:#9fbbb0}
 .st-key-milt_founder [data-testid="stExpander"] summary p{color:#ff8b82!important}
 </style>''',unsafe_allow_html=True)
-    st.markdown('<h1 class="founder-title">👑 OG/Founder Perks</h1><div class="founder-intro">Your favorite tickers. An extra pair of eyes.<br>Company events and unusual options activity, followed separately. When the dates line up, we connect the dots.</div>',unsafe_allow_html=True)
+    st.markdown('<h1 class="founder-title">👑 OG/ Founder level perks</h1><div class="founder-intro">A little extra love for the people giving a little extra. 💛<br>As a thank-you for your generosity, request <strong>ANY ticker you choose</strong>. We’ll add it to our <strong>flow and RAMBO search lists</strong>, so you can come back here whenever you please to see what’s showing up.</div>',unsafe_allow_html=True)
+    with st.expander('➕ Request any ticker'):
+        requested=st.text_input('Which ticker are we following?',placeholder='NVDA',key='founder_request_ticker').strip().upper().lstrip('$')
+        if requested:
+            if re.fullmatch(r'[A-Z][A-Z0-9.\-^]{0,14}',requested):
+                query=urlencode({'title':'Ticker request: '+requested,'body':'Please add $'+requested+' to the Founder flow and RAMBO coverage lists. No personal information is needed.'})
+                st.link_button('Send my ticker request ↗','https://github.com/Zeuswasalaker/YEETterminal2/issues/new?'+query)
+                st.caption('Opens your request on GitHub. Submit it there to add the ticker to the shared coverage queue.')
+            else:st.caption('Enter a ticker symbol, such as NVDA or BRK.B.')
     ticker=st.pills('Your requested tickers',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
-    company=snapshot['companies'][ticker]
+    company=snapshot['companies'].get(ticker,{'name':ticker,'ir_url':'','event_note':'Your ticker is on the research list. Company events are still being checked.'})
     st.markdown(f'<div class="founder-ticker">${escape(ticker)} <span style="font-size:16px;color:#c0d5c7">{escape(company["name"])}</span></div>',unsafe_allow_html=True)
     st.caption('Company research checked '+snapshot['research_as_of']+' · Saved results, not a streaming feed.')
     events=[e for e in snapshot['events'] if e['ticker']==ticker and e['end_date']>=today]
-    flows=[f for f in snapshot.get('flows',[]) if f['ticker']==ticker]
+    all_flows=[f for f in snapshot.get('flows',[]) if f['ticker']==ticker]
+    flows=[f for f in all_flows if f['expiry']>=today]
     a,b=st.columns(2)
     with a:
         st.subheader('📅 What’s coming up?')
@@ -46,9 +57,11 @@ def render(admin):
             if e['end_date']!=e['date']:pretty+='–'+datetime.fromisoformat(e['end_date']).strftime('%d')
             st.markdown(f'<div class="founder-card"><h3>{escape(e["title"])}</h3><div class="pill">📅 {pretty}</div><div class="pill">{escape(e["category"])}</div><p>{escape(e["summary"])}</p></div>',unsafe_allow_html=True)
             st.link_button('Company’s event details ↗',e['url'])
-        st.link_button('Company investor page ↗',company['ir_url'])
+        if company.get('ir_url'):st.link_button('Company investor page ↗',company['ir_url'])
     with b:
         st.subheader('🐋 What’s showing up?')
+        if snapshot.get('flow_as_of'):
+            st.caption('Flow checked '+snapshot['flow_as_of']+' · '+str(len(flows))+' captured prints with open expirations')
         checks=[c for c in snapshot.get('flow_checks',[]) if c['ticker']==ticker]
         success=[c for c in checks if c.get('status')=='checked']
         if not flows:
@@ -61,10 +74,17 @@ def render(admin):
             linked=matching_events(flow,snapshot['events'],today)
             status='🧩 Event before expiration' if linked else '👀 Flow watch · no confirmed event match'
             st.markdown(f'<div class="founder-card"><h3>{icon} ${ticker} {escape(str(flow["strike"]))}{"c" if flow["type"]=="call" else "p"}</h3><div class="pill">{status}</div><p>Expires {escape(flow["expiry"])} · {escape(str(flow.get("premium","")))} premium<br>Seen {escape(flow["date"])} {escape(flow.get("time",""))}<br>Filters: {escape(", ".join(flow.get("filters",[])))}</p></div>',unsafe_allow_html=True)
-            if linked:st.write('Dates line up with: '+', '.join(e['title'] for e in linked))
+            st.caption(str(flow.get('size',''))+' contracts · '+flow.get('side','')+' side · Time shown in Pacific. Premium rounded as displayed by UW.')
+            if linked:st.write('Dates line up with: '+', '.join(e['title'] for e in linked)+'. Date overlap alone does not establish why the trade was placed.')
         st.caption('Filters: '+', '.join(f['name'] for f in registry['filters']))
+        if snapshot.get('flow_scope'):st.caption(snapshot['flow_scope'])
+    if all_flows:
+        with st.expander('📚 All captured prints, including expired contracts'):
+            import pandas as pd
+            st.dataframe(pd.DataFrame([{'Printed (Pacific)':f['date']+' '+f['time'],'Contract':'$'+f['ticker']+' '+str(f['strike'])+('c' if f['type']=='call' else 'p'),'Expires':f['expiry'],'Premium (UW rounded)':f['premium'],'Side':f['side'],'Contracts':f['size'],'Filters':', '.join(f['filters'])} for f in all_flows]),hide_index=True,width='stretch')
     with st.expander('👀 How this perk works'):
         st.write('Founders can request companies for ongoing coverage. We check company announcements even when no option activity is showing up, and check option activity even when no event is announced. Earnings are not counted as RAMBO events.')
+        st.write('Ask-side activity describes where a trade printed. It does not establish a buyer’s intent or distinguish a directional bet from a hedge. A repeat across filters is one captured print, not additional whale money.')
         st.write('When a verified event falls after a print and before its expiration, it becomes a research match. An industry booth or technical talk carries different weight from an investor day. A match is not an entry signal.')
     checks_path=ROOT/'data'/'founder_source_checks.json'
     if checks_path.exists():

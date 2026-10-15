@@ -75,7 +75,9 @@ def gold_tile(contract,spot):
 def render(admin):
     import streamlit as st
     path=Path(__file__).parent/'data'/'prestige.json'
-    if 'prestige_snapshot' not in st.session_state:
+    version=path.stat().st_mtime_ns if path.exists() else None
+    if 'prestige_snapshot' not in st.session_state or st.session_state.get('prestige_file_version')!=version:
+        st.session_state.prestige_file_version=version
         try:
             private=st.secrets.get('PRESTIGE_SNAPSHOT_JSON','')
         except Exception:
@@ -152,7 +154,7 @@ def render(admin):
         saved_date=datetime.fromisoformat(snapshot['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Los_Angeles')).strftime('%b %d, %Y')
     except ValueError:
         saved_date='the date below'
-    st.caption(f'As of {saved_date} · SPY ${snapshot["spot"]:.2f} at the last saved alert · Saved data, not live')
+    st.caption(f'Latest captured alert: {snapshot["source_time"]} · SPY ${snapshot["spot"]:.2f} · Refreshed snapshot, not a streaming feed')
     with st.container(key='prestige_controls'), st.expander('Filter the bricks'):
         side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
         boards=['🥇 Current Prestige','👀 On deck','🧲 Getting closer','📦 Still watching']
@@ -213,7 +215,7 @@ def render(admin):
             st.link_button('📰 Read the YEET behind this board',issue_url)
     with st.expander('📌 When was this checked?'):
         st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot['source_time']}.")
-        st.write('First spotted is the earliest alert in our saved window, not necessarily the first-ever appearance. UW’s displayed clock timezone has not been verified.')
+        st.write('First spotted is the earliest appearance across our saved captures, not necessarily the first-ever appearance. Alert counts refer to the latest captured window. Source timezone: '+snapshot.get('source_timezone','not verified')+'.')
         st.write(f"{snapshot['alert_count']} saved alert rows, grouped into {len(cards)} contracts. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
         st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)

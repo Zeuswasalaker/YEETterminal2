@@ -1,0 +1,29 @@
+name: Add Founder ticker request
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  contents: write
+concurrency:
+  group: founder-ticker-requests
+  cancel-in-progress: false
+jobs:
+  add:
+    if: startsWith(github.event.issue.title, 'Ticker request: ')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/add_founder_ticker.py
+      - name: Save requested coverage
+        run: |
+          git config user.name 'YEET coverage bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/founder_filters.json data/founders.json data/snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add requested Founder ticker coverage'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

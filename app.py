@@ -129,7 +129,7 @@ with st.sidebar:
             if st.button(icon+'  '+label,key='go_'+key,width='stretch',help=hint):
                 st.session_state.workspace_page=label
     with st.container(key='nav_founders'):
-        if st.button('👑  OG/Founder Perks',key='go_founders',width='stretch'):
+        if st.button('👑  OG/ Founder level perks',key='go_founders',width='stretch'):
             st.session_state.workspace_page='OG/Founder Perks'
     st.markdown('<div class="menu-foot">A little research.<br>A little magic. A lot of YEET.</div>',unsafe_allow_html=True)
     with st.container(key='milt_tools'):
@@ -185,6 +185,7 @@ def flow_label(direction):
     return labels.get(direction,html.escape(str(direction)))
 
 if page=='RAMBO':
+    if data.get('flow_scope'):st.caption('Flow checked '+data.get('flow_imported_at','')+' · '+data['flow_scope'])
     st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1 class="rambo-title">RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div><div class="rambo-intro">Big meetings. Whale money. Let’s connect the dots.</div>',unsafe_allow_html=True)
     c1,c2=st.columns([3,1])
     query=c1.text_input('Find a ticker',placeholder='$SMTC, $NVTS, $IBRX…').strip().upper().lstrip('$')
