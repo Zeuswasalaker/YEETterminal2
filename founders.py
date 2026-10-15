@@ -1,7 +1,5 @@
 """Founder ticker coverage: independent company events and captured flow."""
 import json
-import re
-from urllib.parse import urlencode
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -29,17 +27,13 @@ def render(admin):
 .founder-card p{color:#bcd3c9;font:500 14px/1.7 "Trebuchet MS",Arial,sans-serif;margin:8px 0}
 .founder-ticker{font:900 27px "Trebuchet MS",Arial,sans-serif;color:#b8ec73}
 .founder-note{font-size:12px;color:#9fbbb0}
+.founder-preview{background:linear-gradient(130deg,#4a4636,#2a3735);border:1px dashed #ddc17c88;border-radius:16px;padding:18px 22px;margin:8px 0 16px;color:#e8d59f;font:800 15px/1.6 "Trebuchet MS",Arial,sans-serif}
+.st-key-founder_request_ticker input:disabled{background:#293735!important;color:#a7b0a5!important;-webkit-text-fill-color:#a7b0a5!important;opacity:1!important}
 .st-key-milt_founder [data-testid="stExpander"] summary p{color:#ff8b82!important}
 </style>''',unsafe_allow_html=True)
-    st.markdown('<h1 class="founder-title">👑 OG/ Founder level perks</h1><div class="founder-intro">A little extra love for the people giving a little extra. 💛<br>As a thank-you for your generosity, request <strong>ANY ticker you choose</strong>. We’ll add it to our <strong>flow and RAMBO search lists</strong>, so you can come back here whenever you please to see what’s showing up.</div>',unsafe_allow_html=True)
-    with st.expander('➕ Request any ticker'):
-        requested=st.text_input('Which ticker are we following?',placeholder='NVDA',key='founder_request_ticker').strip().upper().lstrip('$')
-        if requested:
-            if re.fullmatch(r'[A-Z][A-Z0-9.\-^]{0,14}',requested):
-                query=urlencode({'title':'Ticker request: '+requested,'body':'Please add $'+requested+' to the Founder flow and RAMBO coverage lists. No personal information is needed.'})
-                st.link_button('Send my ticker request ↗','https://github.com/Zeuswasalaker/YEETterminal2/issues/new?'+query)
-                st.caption('Opens your request on GitHub. Submit it there to add the ticker to the shared coverage queue.')
-            else:st.caption('Enter a ticker symbol, such as NVDA or BRK.B.')
+    st.markdown('<h1 class="founder-title">👑 OG/ Founder level perks</h1><div class="founder-intro">A little extra love for the people giving a little extra. 💛<br>As a thank-you for their generosity, <strong>Founding-level members can request ANY ticker they choose</strong> for our <strong>flow and RAMBO search lists</strong>, then check back here whenever they please. Today’s open house lets everyone look around.</div>',unsafe_allow_html=True)
+    st.markdown('<div class="founder-preview">👑 THIS IS WHERE FOUNDING LEVEL MEMBERS PUT REQUESTS</div>',unsafe_allow_html=True)
+    st.text_input('Founding member ticker requests',value='',placeholder='Open-house preview · requests are closed today',disabled=True,key='founder_request_ticker')
     ticker=st.pills('Your requested tickers',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
     company=snapshot['companies'].get(ticker,{'name':ticker,'ir_url':'','event_note':'Your ticker is on the research list. Company events are still being checked.'})
     st.markdown(f'<div class="founder-ticker">${escape(ticker)} <span style="font-size:16px;color:#c0d5c7">{escape(company["name"])}</span></div>',unsafe_allow_html=True)
