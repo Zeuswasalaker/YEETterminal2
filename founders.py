@@ -30,7 +30,7 @@ def render(admin):
 .st-key-milt_founder [data-testid="stExpander"] summary p{color:#ff8b82!important}
 </style>''',unsafe_allow_html=True)
     st.markdown('<h1 class="founder-title">👑 OG/Founder Perks</h1><div class="founder-intro">Your favorite tickers. An extra pair of eyes.<br>Company events and unusual options activity, followed separately. When the dates line up, we connect the dots.</div>',unsafe_allow_html=True)
-    ticker=st.pills('Your watchlist',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
+    ticker=st.pills('Your requested tickers',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
     company=snapshot['companies'][ticker]
     st.markdown(f'<div class="founder-ticker">${escape(ticker)} <span style="font-size:16px;color:#c0d5c7">{escape(company["name"])}</span></div>',unsafe_allow_html=True)
     st.caption('Company research checked '+snapshot['research_as_of']+' · Saved results, not a streaming feed.')
