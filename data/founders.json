@@ -6,9 +6,11 @@
       "ir_url": "https://investor.gamestop.com/overview/default.aspx",
       "source_urls": [
         "https://investor.gamestop.com/newsroom/",
-        "https://investor.gamestop.com/annual-meeting/default.aspx"
+        "https://investor.gamestop.com/annual-meeting/default.aspx",
+        "https://investor.gamestop.com/warrant-dividend/default.aspx",
+        "https://investor.gamestop.com/news-releases/news-details/2025/GameStop-Announces-Dividend-of-Warrants-to-Shareholders/default.aspx"
       ],
-      "event_note": "No upcoming non-earnings event was verified in this check. The listed July shareholder meeting is already past."
+      "event_note": "No upcoming investor meeting verified. A separate October 30 warrant-expiration deadline appears in the company announcement; it is a corporate action, not a RAMBO meeting."
     },
     "NVDA": {
       "name": "NVIDIA",
@@ -26,35 +28,36 @@
         "https://investor.amctheatres.com/news-events/ir-calendar",
         "https://investor.amctheatres.com/news-events/press-releases"
       ],
-      "event_note": "AMC\u2019s official IR calendar lists no upcoming events at this check. Its September 24 shareholder meeting is already past."
+      "event_note": "AMC’s official IR calendar lists no upcoming events at this check. Its September 24 shareholder meeting is already past."
     },
     "COHR": {
       "name": "Coherent",
       "ir_url": "https://ir.coherent.com/news-events/events",
       "source_urls": [
         "https://ir.coherent.com/news-events/events",
-        "https://www.coherent.com/events"
+        "https://www.coherent.com/events",
+        "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8"
       ],
-      "event_note": "Company-confirmed industry appearances are listed. These are not investor days. The November 4 earnings event is excluded."
+      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately. These are not investor days. The proxy notice has a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded."
     }
   },
   "events": [
     {
       "ticker": "NVDA",
-      "title": "GTC Berlin \u00b7 Jensen Huang keynote",
+      "title": "GTC Berlin · Jensen Huang keynote",
       "date": "2026-10-20",
       "end_date": "2026-10-22",
       "keynote_date": "2026-10-21",
       "url": "https://www.nvidia.com/en-eu/gtc/faq/",
       "category": "Company conference",
-      "summary": "Workshops October 20; Jensen Huang\u2019s keynote October 21; conference and exhibits October 21\u201322. A company technology event, not earnings.",
+      "summary": "Workshops October 20; Jensen Huang’s keynote October 21; conference and exhibits October 21–22. A company technology event, not earnings.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-15"
     },
     {
       "ticker": "COHR",
-      "title": "WFEC Europe \u00b7 Coherent booth and technical talk",
+      "title": "WFEC Europe · Coherent booth and technical talk",
       "date": "2026-10-19",
       "end_date": "2026-10-20",
       "url": "https://www.coherent.com/events",
@@ -66,12 +69,36 @@
     },
     {
       "ticker": "COHR",
-      "title": "Neuroscience 2026 \u00b7 Coherent exhibitor",
+      "title": "Neuroscience 2026 · Coherent exhibitor",
       "date": "2026-11-14",
       "end_date": "2026-11-18",
       "url": "https://www.coherent.com/events",
       "category": "Industry appearance",
       "summary": "Coherent lists Booth 2229 at the Washington, D.C. conference. An industry showcase, not an investor presentation or earnings event.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    },
+    {
+      "ticker": "COHR",
+      "title": "Annual Meeting of Shareholders",
+      "date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "url": "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8",
+      "category": "Shareholder meeting",
+      "summary": "The 2026 proxy notice and general section list a virtual annual meeting November 18 at noon Eastern (9 a.m. Pacific). Governance voting, not an investor day or promised business update. The notice's printed weekday conflicts with the calendar; confirm timing with IR before relying on it.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    },
+    {
+      "ticker": "GME",
+      "title": "Warrant expiration · corporate-action watch",
+      "date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "url": "https://investor.gamestop.com/news-releases/news-details/2025/GameStop-Announces-Dividend-of-Warrants-to-Shareholders/default.aspx",
+      "category": "Corporate action · not a meeting",
+      "summary": "GameStop's warrant announcement specifies October 30, 2026 expiration and a $32 exercise price. This is a warrant deadline, not a newly announced investor event or a RAMBO meeting. No directional implication is established.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-15"
