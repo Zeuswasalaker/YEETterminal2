@@ -1,10 +1,10 @@
 {
   "source": "Unusual Whales signed-in alert table",
-  "captured_at": "2026-10-15T14:10:47.156Z",
-  "source_time": "2026/10/15 07:10:13",
-  "spot": 767.54,
+  "captured_at": "2026-10-16T06:16:32.652Z",
+  "source_time": "2026/10/15 13:14:18",
+  "spot": 771.76,
   "coverage_start": "2026/10/12 10:47:23",
-  "alert_count": 250,
+  "alert_count": 240,
   "cards": [
     {
       "contract": "770c 10/15/2026",
@@ -18,46 +18,57 @@
       "last_premium": "$25K",
       "last_price": "$2.05",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "766p 10/16/2026",
       "strike": 766,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 19,
       "first": "2026/10/14 10:20:41",
       "last": "2026/10/15 07:10:13",
       "last_premium": "$67K",
       "last_price": "$2.27",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 08:06:17",
+      "returned": "2026/10/15 08:31:59",
+      "prestige_at": "2026/10/15 08:31:59"
     },
     {
       "contract": "767p 10/16/2026",
       "strike": 767,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 8,
       "first": "2026/10/14 09:52:52",
       "last": "2026/10/14 12:45:08",
       "last_premium": "$27K",
       "last_price": "$2.42",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 08:18:03",
+      "returned": "2026/10/15 08:23:26",
+      "prestige_at": "2026/10/15 08:23:26"
     },
     {
       "contract": "769c 10/15/2026",
       "strike": 769,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:15:05",
       "last": "2026/10/14 12:55:08",
       "last_premium": "$71K",
       "last_price": "$2.33",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "770c 10/16/2026",
@@ -71,73 +82,97 @@
       "last_premium": "$28K",
       "last_price": "$1.83",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "767p 10/15/2026",
       "strike": 767,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:56:02",
       "last_premium": "$32K",
       "last_price": "$1.59",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 08:18:03",
+      "returned": "2026/10/15 08:23:26",
+      "prestige_at": "2026/10/15 08:23:26",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "765p 10/15/2026",
       "strike": 765,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Current Prestige",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:47:34",
       "last_premium": "$22K",
       "last_price": "$1.17",
       "last_side": "ASK",
-      "prestige_at": "2026/10/14 12:38:43"
+      "prestige_at": "2026/10/14 12:38:43",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "768p 10/15/2026",
       "strike": 768,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:17:22",
       "last": "2026/10/14 13:01:57",
       "last_premium": "$18K",
       "last_price": "$1.75",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "767p 10/19/2026",
       "strike": 767,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/14 11:18:17",
-      "last": "2026/10/14 11:18:17",
-      "last_premium": "$36K",
-      "last_price": "$3.47",
-      "last_side": "ASK"
+      "last": "2026/10/15 09:21:19",
+      "last_premium": "$49K",
+      "last_price": "$2.35",
+      "last_side": "ASK",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 08:18:03",
+      "returned": "2026/10/15 08:23:26",
+      "prestige_at": "2026/10/15 08:23:26"
     },
     {
       "contract": "766p 10/15/2026",
       "strike": 766,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:19:29",
       "last": "2026/10/14 13:14:59",
       "last_premium": "$20K",
       "last_price": "$1.25",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 08:06:17",
+      "returned": "2026/10/15 08:31:59",
+      "prestige_at": "2026/10/15 08:31:59",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "769c 10/16/2026",
@@ -150,7 +185,10 @@
       "last": "2026/10/14 12:28:59",
       "last_premium": "$36K",
       "last_price": "$3.44",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "771c 10/15/2026",
@@ -166,7 +204,10 @@
       "last_side": "ASK",
       "away": "2026/10/14 12:06:08",
       "returned": "2026/10/14 12:06:45",
-      "prestige_at": "2026/10/14 12:06:45"
+      "prestige_at": "2026/10/14 12:06:45",
+      "retired_at": "2026/10/15 10:41:20",
+      "retired_spot": 771.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "772c 10/16/2026",
@@ -182,14 +223,17 @@
       "last_side": "ASK",
       "away": "2026/10/14 11:24:00",
       "returned": "2026/10/14 11:50:41",
-      "prestige_at": "2026/10/14 11:50:41"
+      "prestige_at": "2026/10/14 11:50:41",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "765p 10/16/2026",
       "strike": 765,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 6,
       "first": "2026/10/14 11:11:28",
       "last": "2026/10/14 12:10:07",
@@ -203,13 +247,16 @@
       "strike": 766,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/14 11:24:57",
       "last": "2026/10/14 11:24:57",
       "last_premium": "$57K",
       "last_price": "$3.23",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 08:06:17",
+      "returned": "2026/10/15 08:31:59",
+      "prestige_at": "2026/10/15 08:31:59"
     },
     {
       "contract": "768c 10/15/2026",
@@ -222,14 +269,20 @@
       "last": "2026/10/14 12:08:56",
       "last_premium": "$217K",
       "last_price": "$2.41",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54",
+      "retired_at": "2026/10/15 12:12:54",
+      "retired_spot": 771.84,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "764p 10/16/2026",
       "strike": 764,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 5,
       "first": "2026/10/14 10:57:06",
       "last": "2026/10/15 07:01:30",
@@ -249,7 +302,13 @@
       "last": "2026/10/15 07:07:44",
       "last_premium": "$27K",
       "last_price": "$2.55",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54",
+      "retired_at": "2026/10/15 12:12:54",
+      "retired_spot": 771.84,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "768c 10/23/2026",
@@ -262,20 +321,30 @@
       "last": "2026/10/14 12:00:37",
       "last_premium": "$155K",
       "last_price": "$6.33",
-      "last_side": "-"
+      "last_side": "-",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54",
+      "retired_at": "2026/10/15 12:12:54",
+      "retired_spot": 771.84,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "766p 10/21/2026",
       "strike": 766,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/14 11:54:32",
       "last": "2026/10/15 06:51:44",
       "last_premium": "$342K",
       "last_price": "$4.65",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 08:06:17",
+      "returned": "2026/10/15 08:31:59",
+      "prestige_at": "2026/10/15 08:31:59"
     },
     {
       "contract": "771c 10/21/2026",
@@ -285,13 +354,17 @@
       "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 11:54:37",
-      "last": "2026/10/14 11:54:37",
-      "last_premium": "$48K",
-      "last_price": "$3.86",
+      "last": "2026/10/15 08:25:30",
+      "last_premium": "$45K",
+      "last_price": "$4.45",
       "last_side": "ASK",
       "away": "2026/10/14 12:06:08",
       "returned": "2026/10/14 12:06:45",
-      "prestige_at": "2026/10/14 12:06:45"
+      "prestige_at": "2026/10/14 12:06:45",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 10:41:20",
+      "retired_spot": 771.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "770c 10/28/2026",
@@ -305,7 +378,10 @@
       "last_premium": "$166K",
       "last_price": "$6.86",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "771c 10/16/2026",
@@ -319,7 +395,10 @@
       "last_premium": "$16K",
       "last_price": "$1.60",
       "last_side": "ASK",
-      "prestige_at": "2026/10/14 11:02:55"
+      "prestige_at": "2026/10/14 11:02:55",
+      "retired_at": "2026/10/15 10:41:20",
+      "retired_spot": 771.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "769c 10/23/2026",
@@ -332,7 +411,10 @@
       "last": "2026/10/14 12:46:14",
       "last_premium": "$62K",
       "last_price": "$6.24",
-      "last_side": "-"
+      "last_side": "-",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "772c 10/15/2026",
@@ -345,7 +427,13 @@
       "last": "2026/10/14 13:14:02",
       "last_premium": "$15K",
       "last_price": "$1.21",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 06:47:53",
+      "returned": "2026/10/15 07:39:53",
+      "prestige_at": "2026/10/15 07:39:53",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "772c 10/21/2026",
@@ -355,36 +443,48 @@
       "status": "Approaching",
       "alerts": 1,
       "first": "2026/10/14 12:31:12",
-      "last": "2026/10/14 12:31:12",
-      "last_premium": "$77K",
-      "last_price": "$3.84",
-      "last_side": "ASK"
+      "last": "2026/10/15 08:30:21",
+      "last_premium": "$39K",
+      "last_price": "$3.87",
+      "last_side": "ASK",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 06:47:53",
+      "returned": "2026/10/15 07:39:53",
+      "prestige_at": "2026/10/15 07:39:53",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "773c 10/21/2026",
       "strike": 773,
       "type": "call",
       "expiry": "10/21/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 12:33:07",
       "last": "2026/10/14 12:33:07",
       "last_premium": "$45K",
       "last_price": "$3.36",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/14 12:38:43",
+      "returned": "2026/10/14 12:59:45",
+      "prestige_at": "2026/10/14 12:59:45"
     },
     {
       "contract": "769p 10/15/2026",
       "strike": 769,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 12:34:09",
       "last": "2026/10/14 13:12:24",
       "last_premium": "$46K",
       "last_price": "$2.28",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "769p 10/16/2026",
@@ -404,33 +504,41 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Approaching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 12:34:21",
       "last": "2026/10/14 13:02:50",
       "last_premium": "$15K",
       "last_price": "$0.98",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/14 12:38:43",
+      "returned": "2026/10/14 12:59:45",
+      "prestige_at": "2026/10/14 12:59:45",
+      "retired_at": "2026/10/15 13:15:00",
+      "retired_reason": "Expiration has passed; archived from active boards"
     },
     {
       "contract": "768p 10/16/2026",
       "strike": 768,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 12:38:43",
       "last": "2026/10/14 12:38:43",
       "last_premium": "$33K",
       "last_price": "$2.99",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54"
     },
     {
       "contract": "765p 10/19/2026",
       "strike": 765,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/14 12:42:39",
       "last": "2026/10/14 12:42:39",
@@ -451,24 +559,30 @@
       "last_premium": "$64K",
       "last_price": "$4.89",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "773c 10/16/2026",
       "strike": 773,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 8,
       "first": "2026/10/14 07:24:42",
       "last": "2026/10/14 13:02:11",
       "last_premium": "$21K",
       "last_price": "$1.75",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "away": "2026/10/14 09:32:23",
+      "returned": "2026/10/14 09:38:34",
+      "prestige_at": "2026/10/14 09:38:34"
     },
     {
       "contract": "776p 10/16/2026",
-      "strike": 776.0,
+      "strike": 776,
       "type": "put",
       "expiry": "10/16/2026",
       "first": "2026/10/12 10:47:23",
@@ -477,11 +591,17 @@
       "last_premium": "$40K",
       "last_price": "$2.40",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "away": "2026/10/14 07:53:08",
+      "returned": "2026/10/15 12:16:57",
+      "prestige_at": "2026/10/15 12:16:57",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "778c 10/16/2026",
-      "strike": 778.0,
+      "strike": 778,
       "type": "call",
       "expiry": "10/16/2026",
       "first": "2026/10/12 11:16:30",
@@ -490,11 +610,11 @@
       "last_premium": "$144K",
       "last_price": "$3.55",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "777p 10/16/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "10/16/2026",
       "first": "2026/10/12 11:17:48",
@@ -503,11 +623,14 @@
       "last_premium": "$59K",
       "last_price": "$2.70",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "778c 10/23/2026",
-      "strike": 778.0,
+      "strike": 778,
       "type": "call",
       "expiry": "10/23/2026",
       "first": "2026/10/12 11:44:52",
@@ -516,11 +639,11 @@
       "last_premium": "$118K",
       "last_price": "$5.90",
       "last_side": "-",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "779c 10/16/2026",
-      "strike": 779.0,
+      "strike": 779,
       "type": "call",
       "expiry": "10/16/2026",
       "first": "2026/10/12 12:15:47",
@@ -529,11 +652,14 @@
       "last_premium": "$31K",
       "last_price": "$3.07",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching",
+      "away": "2026/10/14 06:30:14",
+      "returned": "2026/10/14 06:51:25",
+      "prestige_at": "2026/10/14 06:51:25"
     },
     {
       "contract": "778c 10/19/2026",
-      "strike": 778.0,
+      "strike": 778,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/12 12:40:35",
@@ -542,11 +668,11 @@
       "last_premium": "$39K",
       "last_price": "$3.94",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "781c 10/20/2026",
-      "strike": 781.0,
+      "strike": 781,
       "type": "call",
       "expiry": "10/20/2026",
       "first": "2026/10/13 06:53:36",
@@ -555,11 +681,14 @@
       "last_premium": "$73K",
       "last_price": "$3.06",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching",
+      "away": "2026/10/13 08:13:25",
+      "returned": "2026/10/13 08:14:15",
+      "prestige_at": "2026/10/13 08:14:15"
     },
     {
       "contract": "774p 10/21/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "put",
       "expiry": "10/21/2026",
       "first": "2026/10/13 07:25:31",
@@ -568,11 +697,17 @@
       "last_premium": "$72K",
       "last_price": "$2.90",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/13 11:08:39",
+      "returned": "2026/10/13 11:15:31",
+      "prestige_at": "2026/10/13 11:15:31",
+      "retired_at": "2026/10/14 06:59:00",
+      "retired_spot": 773.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "778c 10/20/2026",
-      "strike": 778.0,
+      "strike": 778,
       "type": "call",
       "expiry": "10/20/2026",
       "first": "2026/10/13 07:40:02",
@@ -581,11 +716,11 @@
       "last_premium": "$115K",
       "last_price": "$4.13",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "777p 10/22/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "10/22/2026",
       "first": "2026/10/13 07:45:13",
@@ -594,11 +729,14 @@
       "last_premium": "$82K",
       "last_price": "$4.35",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "776p 10/19/2026",
-      "strike": 776.0,
+      "strike": 776,
       "type": "put",
       "expiry": "10/19/2026",
       "first": "2026/10/13 07:49:07",
@@ -607,11 +745,17 @@
       "last_premium": "$27K",
       "last_price": "$2.71",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "away": "2026/10/14 07:53:08",
+      "returned": "2026/10/15 12:16:57",
+      "prestige_at": "2026/10/15 12:16:57",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "777p 10/19/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "10/19/2026",
       "first": "2026/10/13 08:14:15",
@@ -620,11 +764,14 @@
       "last_premium": "$45K",
       "last_price": "$3.50",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "779c 10/19/2026",
-      "strike": 779.0,
+      "strike": 779,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/13 08:20:55",
@@ -633,11 +780,14 @@
       "last_premium": "$31K",
       "last_price": "$3.04",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching",
+      "away": "2026/10/14 06:30:14",
+      "returned": "2026/10/14 06:51:25",
+      "prestige_at": "2026/10/14 06:51:25"
     },
     {
       "contract": "780c 10/26/2026",
-      "strike": 780.0,
+      "strike": 780,
       "type": "call",
       "expiry": "10/26/2026",
       "first": "2026/10/13 08:32:52",
@@ -646,11 +796,11 @@
       "last_premium": "$303K",
       "last_price": "$4.46",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "775p 10/16/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "put",
       "expiry": "10/16/2026",
       "first": "2026/10/13 09:59:32",
@@ -659,11 +809,17 @@
       "last_premium": "$46K",
       "last_price": "$1.89",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 08:37:12",
+      "returned": "2026/10/14 08:37:39",
+      "prestige_at": "2026/10/14 08:37:39",
+      "retired_at": "2026/10/14 08:37:39",
+      "retired_spot": 771.26,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "777p 11/13/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "11/13/2026",
       "first": "2026/10/13 10:50:10",
@@ -672,11 +828,14 @@
       "last_premium": "$143K",
       "last_price": "$10.16",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "777c 10/16/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "call",
       "expiry": "10/16/2026",
       "first": "2026/10/13 10:50:50",
@@ -685,11 +844,11 @@
       "last_premium": "$59K",
       "last_price": "$3.59",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "778p 10/19/2026",
-      "strike": 778.0,
+      "strike": 778,
       "type": "put",
       "expiry": "10/19/2026",
       "first": "2026/10/13 11:12:57",
@@ -698,11 +857,14 @@
       "last_premium": "$172K",
       "last_price": "$3.44",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "777p 10/23/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "10/23/2026",
       "first": "2026/10/13 11:16:53",
@@ -711,11 +873,14 @@
       "last_premium": "$48K",
       "last_price": "$4.76",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "775p 11/13/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "put",
       "expiry": "11/13/2026",
       "first": "2026/10/13 12:12:08",
@@ -724,11 +889,17 @@
       "last_premium": "$313K",
       "last_price": "$8.98",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 08:37:12",
+      "returned": "2026/10/14 08:37:39",
+      "prestige_at": "2026/10/14 08:37:39",
+      "retired_at": "2026/10/14 08:37:39",
+      "retired_spot": 771.26,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "777p 11/27/2026",
-      "strike": 777.0,
+      "strike": 777,
       "type": "put",
       "expiry": "11/27/2026",
       "first": "2026/10/13 12:39:16",
@@ -737,11 +908,14 @@
       "last_premium": "$117K",
       "last_price": "$11.69",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "775p 10/23/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "put",
       "expiry": "10/23/2026",
       "first": "2026/10/13 12:44:59",
@@ -750,11 +924,17 @@
       "last_premium": "$65K",
       "last_price": "$3.70",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 08:37:12",
+      "returned": "2026/10/14 08:37:39",
+      "prestige_at": "2026/10/14 08:37:39",
+      "retired_at": "2026/10/14 08:37:39",
+      "retired_spot": 771.26,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "776p 11/13/2026",
-      "strike": 776.0,
+      "strike": 776,
       "type": "put",
       "expiry": "11/13/2026",
       "first": "2026/10/13 12:51:20",
@@ -763,11 +943,17 @@
       "last_premium": "$113K",
       "last_price": "$9.36",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Watching",
+      "away": "2026/10/14 07:53:08",
+      "returned": "2026/10/15 12:16:57",
+      "prestige_at": "2026/10/15 12:16:57",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "780c 10/23/2026",
-      "strike": 780.0,
+      "strike": 780,
       "type": "call",
       "expiry": "10/23/2026",
       "first": "2026/10/13 12:53:48",
@@ -776,11 +962,11 @@
       "last_premium": "$95K",
       "last_price": "$4.87",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching"
     },
     {
       "contract": "774p 10/22/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "put",
       "expiry": "10/22/2026",
       "first": "2026/10/14 06:30:14",
@@ -789,11 +975,17 @@
       "last_premium": "$140K",
       "last_price": "$4.37",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 09:12:36",
+      "returned": "2026/10/14 09:41:01",
+      "prestige_at": "2026/10/14 09:41:01",
+      "retired_at": "2026/10/14 09:41:01",
+      "retired_spot": 770.34,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "776c 10/19/2026",
-      "strike": 776.0,
+      "strike": 776,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 06:51:25",
@@ -802,11 +994,14 @@
       "last_premium": "$39K",
       "last_price": "$3.60",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching",
+      "away": "2026/10/14 07:53:08",
+      "returned": "2026/10/15 12:16:57",
+      "prestige_at": "2026/10/15 12:16:57"
     },
     {
       "contract": "774c 10/19/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 06:59:00",
@@ -815,24 +1010,31 @@
       "last_premium": "$22K",
       "last_price": "$2.22",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "away": "2026/10/14 09:12:36",
+      "returned": "2026/10/14 09:41:01",
+      "prestige_at": "2026/10/14 09:41:01"
     },
     {
       "contract": "774c 10/20/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "call",
       "expiry": "10/20/2026",
       "first": "2026/10/14 07:00:37",
       "alerts": 3,
-      "last": "2026/10/14 07:45:00",
-      "last_premium": "$53K",
-      "last_price": "$3.51",
-      "last_side": "-",
-      "status": "Approaching"
+      "last": "2026/10/15 12:24:30",
+      "last_premium": "$124K",
+      "last_price": "$3.10",
+      "last_side": "ASK",
+      "status": "Current Prestige",
+      "alerts_in_latest_capture": 2,
+      "away": "2026/10/14 09:12:36",
+      "returned": "2026/10/14 09:41:01",
+      "prestige_at": "2026/10/14 09:41:01"
     },
     {
       "contract": "773p 10/19/2026",
-      "strike": 773.0,
+      "strike": 773,
       "type": "put",
       "expiry": "10/19/2026",
       "first": "2026/10/14 07:03:34",
@@ -841,11 +1043,17 @@
       "last_premium": "$34K",
       "last_price": "$3.38",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 09:32:23",
+      "returned": "2026/10/14 09:38:34",
+      "prestige_at": "2026/10/14 09:38:34",
+      "retired_at": "2026/10/14 09:38:34",
+      "retired_spot": 769.94,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "776c 10/23/2026",
-      "strike": 776.0,
+      "strike": 776,
       "type": "call",
       "expiry": "10/23/2026",
       "first": "2026/10/14 07:14:00",
@@ -854,24 +1062,31 @@
       "last_premium": "$42K",
       "last_price": "$4.20",
       "last_side": "ASK",
-      "status": "Watching"
+      "status": "Approaching",
+      "away": "2026/10/14 07:53:08",
+      "returned": "2026/10/15 12:16:57",
+      "prestige_at": "2026/10/15 12:16:57"
     },
     {
       "contract": "773c 10/19/2026",
-      "strike": 773.0,
+      "strike": 773,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 07:53:08",
-      "alerts": 1,
-      "last": "2026/10/14 07:53:08",
-      "last_premium": "$40K",
-      "last_price": "$3.30",
+      "alerts": 4,
+      "last": "2026/10/15 12:18:51",
+      "last_premium": "$53K",
+      "last_price": "$3.00",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "alerts_in_latest_capture": 4,
+      "away": "2026/10/14 09:32:23",
+      "returned": "2026/10/14 09:38:34",
+      "prestige_at": "2026/10/14 09:38:34"
     },
     {
       "contract": "770p 10/16/2026",
-      "strike": 770.0,
+      "strike": 770,
       "type": "put",
       "expiry": "10/16/2026",
       "first": "2026/10/14 08:11:39",
@@ -888,7 +1103,7 @@
     },
     {
       "contract": "775c 10/26/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "call",
       "expiry": "10/26/2026",
       "first": "2026/10/14 08:20:58",
@@ -897,11 +1112,14 @@
       "last_premium": "$50K",
       "last_price": "$4.72",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "away": "2026/10/14 08:37:12",
+      "returned": "2026/10/14 08:37:39",
+      "prestige_at": "2026/10/14 08:37:39"
     },
     {
       "contract": "773c 10/22/2026",
-      "strike": 773.0,
+      "strike": 773,
       "type": "call",
       "expiry": "10/22/2026",
       "first": "2026/10/14 08:20:58",
@@ -910,37 +1128,51 @@
       "last_premium": "$51K",
       "last_price": "$4.78",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "away": "2026/10/14 09:32:23",
+      "returned": "2026/10/14 09:38:34",
+      "prestige_at": "2026/10/14 09:38:34"
     },
     {
       "contract": "775c 10/23/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "call",
       "expiry": "10/23/2026",
       "first": "2026/10/14 08:23:46",
-      "alerts": 1,
-      "last": "2026/10/14 08:23:46",
-      "last_premium": "$42K",
-      "last_price": "$4.24",
+      "alerts": 2,
+      "last": "2026/10/15 10:51:59",
+      "last_premium": "$39K",
+      "last_price": "$3.86",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "alerts_in_latest_capture": 2,
+      "away": "2026/10/14 08:37:12",
+      "returned": "2026/10/14 08:37:39",
+      "prestige_at": "2026/10/14 08:37:39"
     },
     {
       "contract": "772c 10/19/2026",
-      "strike": 772.0,
+      "strike": 772,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 08:25:44",
       "alerts": 4,
-      "last": "2026/10/14 09:38:34",
-      "last_premium": "$55K",
-      "last_price": "$3.06",
+      "last": "2026/10/15 12:53:08",
+      "last_premium": "$119K",
+      "last_price": "$2.96",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "alerts_in_latest_capture": 3,
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "774c 10/16/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "call",
       "expiry": "10/16/2026",
       "first": "2026/10/14 08:37:12",
@@ -949,24 +1181,31 @@
       "last_premium": "$21K",
       "last_price": "$1.61",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "away": "2026/10/14 09:12:36",
+      "returned": "2026/10/14 09:41:01",
+      "prestige_at": "2026/10/14 09:41:01"
     },
     {
       "contract": "775c 10/19/2026",
-      "strike": 775.0,
+      "strike": 775,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 08:37:39",
-      "alerts": 1,
-      "last": "2026/10/14 08:37:39",
-      "last_premium": "$21K",
-      "last_price": "$2.13",
+      "alerts": 2,
+      "last": "2026/10/15 12:26:15",
+      "last_premium": "$20K",
+      "last_price": "$2.01",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "alerts_in_latest_capture": 2,
+      "away": "2026/10/14 08:38:23",
+      "returned": "2026/10/15 10:41:20",
+      "prestige_at": "2026/10/15 10:41:20"
     },
     {
       "contract": "768p 10/23/2026",
-      "strike": 768.0,
+      "strike": 768,
       "type": "put",
       "expiry": "10/23/2026",
       "first": "2026/10/14 08:38:23",
@@ -975,55 +1214,67 @@
       "last_premium": "$51K",
       "last_price": "$4.11",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "Current Prestige",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54"
     },
     {
       "contract": "774c 10/21/2026",
-      "strike": 774.0,
+      "strike": 774,
       "type": "call",
       "expiry": "10/21/2026",
       "first": "2026/10/14 08:43:05",
       "alerts": 1,
-      "last": "2026/10/14 08:43:05",
-      "last_premium": "$149K",
-      "last_price": "$3.30",
+      "last": "2026/10/15 08:23:54",
+      "last_premium": "$130K",
+      "last_price": "$2.88",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Current Prestige",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/14 09:12:36",
+      "returned": "2026/10/14 09:41:01",
+      "prestige_at": "2026/10/14 09:41:01"
     },
     {
       "contract": "770p 10/23/2026",
-      "strike": 770.0,
+      "strike": 770,
       "type": "put",
       "expiry": "10/23/2026",
       "first": "2026/10/14 08:47:49",
       "alerts": 5,
-      "last": "2026/10/14 10:02:56",
-      "last_premium": "$160K",
-      "last_price": "$5.26",
+      "last": "2026/10/15 13:14:18",
+      "last_premium": "$95K",
+      "last_price": "$4.00",
       "last_side": "ASK",
       "status": "Current Prestige",
       "prestige_at": "2026/10/15 07:01:30",
       "retired_at": "2026/10/15 07:01:30",
       "retired_spot": 766.64,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after becoming Prestige",
+      "alerts_in_latest_capture": 1
     },
     {
       "contract": "771c 10/19/2026",
-      "strike": 771.0,
+      "strike": 771,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 09:12:36",
       "alerts": 2,
-      "last": "2026/10/14 09:32:23",
-      "last_premium": "$99K",
-      "last_price": "$3.27",
+      "last": "2026/10/15 09:21:59",
+      "last_premium": "$35K",
+      "last_price": "$2.66",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/14 11:02:55"
+      "prestige_at": "2026/10/14 11:02:55",
+      "alerts_in_latest_capture": 2,
+      "retired_at": "2026/10/15 10:41:20",
+      "retired_spot": 771.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "770p 10/21/2026",
-      "strike": 770.0,
+      "strike": 770,
       "type": "put",
       "expiry": "10/21/2026",
       "first": "2026/10/14 09:59:38",
@@ -1040,7 +1291,7 @@
     },
     {
       "contract": "768p 10/21/2026",
-      "strike": 768.0,
+      "strike": 768,
       "type": "put",
       "expiry": "10/21/2026",
       "first": "2026/10/14 10:29:43",
@@ -1049,11 +1300,14 @@
       "last_premium": "$350K",
       "last_price": "$4.77",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "Current Prestige",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54"
     },
     {
       "contract": "772c 10/30/2026",
-      "strike": 772.0,
+      "strike": 772,
       "type": "call",
       "expiry": "10/30/2026",
       "first": "2026/10/14 10:32:55",
@@ -1062,11 +1316,17 @@
       "last_premium": "$77K",
       "last_price": "$7.29",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "771c 11/13/2026",
-      "strike": 771.0,
+      "strike": 771,
       "type": "call",
       "expiry": "11/13/2026",
       "first": "2026/10/14 10:35:29",
@@ -1076,24 +1336,31 @@
       "last_price": "$12.07",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/14 11:02:55"
+      "prestige_at": "2026/10/14 11:02:55",
+      "retired_at": "2026/10/15 10:41:20",
+      "retired_spot": 771.44,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "769c 10/19/2026",
-      "strike": 769.0,
+      "strike": 769,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 10:35:46",
-      "alerts": 1,
-      "last": "2026/10/14 10:35:46",
-      "last_premium": "$42K",
-      "last_price": "$4.17",
+      "alerts": 2,
+      "last": "2026/10/15 07:42:56",
+      "last_premium": "$39K",
+      "last_price": "$3.90",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "On Deck",
+      "alerts_in_latest_capture": 2,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "770c 11/13/2026",
-      "strike": 770.0,
+      "strike": 770,
       "type": "call",
       "expiry": "11/13/2026",
       "first": "2026/10/14 10:52:06",
@@ -1103,11 +1370,14 @@
       "last_price": "$12.17",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "767p 10/22/2026",
-      "strike": 767.0,
+      "strike": 767,
       "type": "put",
       "expiry": "10/22/2026",
       "first": "2026/10/14 11:00:18",
@@ -1116,25 +1386,32 @@
       "last_premium": "$75K",
       "last_price": "$5.35",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "Watching",
+      "away": "2026/10/15 08:18:03",
+      "returned": "2026/10/15 08:23:26",
+      "prestige_at": "2026/10/15 08:23:26"
     },
     {
       "contract": "770c 10/19/2026",
-      "strike": 770.0,
+      "strike": 770,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 11:03:17",
       "alerts": 1,
-      "last": "2026/10/14 11:03:17",
-      "last_premium": "$54K",
-      "last_price": "$3.19",
+      "last": "2026/10/15 08:31:59",
+      "last_premium": "$84K",
+      "last_price": "$3.47",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30"
+      "prestige_at": "2026/10/15 07:01:30",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 08:06:17",
+      "retired_spot": 770.21,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "768c 10/19/2026",
-      "strike": 768.0,
+      "strike": 768,
       "type": "call",
       "expiry": "10/19/2026",
       "first": "2026/10/14 11:03:35",
@@ -1143,11 +1420,17 @@
       "last_premium": "$52K",
       "last_price": "$4.33",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "On Deck",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54",
+      "retired_at": "2026/10/15 12:12:54",
+      "retired_spot": 771.84,
+      "retired_reason": "Observed in the money after becoming Prestige"
     },
     {
       "contract": "769c 11/13/2026",
-      "strike": 769.0,
+      "strike": 769,
       "type": "call",
       "expiry": "11/13/2026",
       "first": "2026/10/15 06:48:02",
@@ -1156,11 +1439,15 @@
       "last_premium": "$120K",
       "last_price": "$12.04",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "On Deck",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
     },
     {
       "contract": "763p 10/19/2026",
-      "strike": 763.0,
+      "strike": 763,
       "type": "put",
       "expiry": "10/19/2026",
       "first": "2026/10/15 06:53:57",
@@ -1169,11 +1456,15 @@
       "last_premium": "$63K",
       "last_price": "$2.95",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Watching",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 07:01:56",
+      "returned": "2026/10/15 07:04:06",
+      "prestige_at": "2026/10/15 07:04:06"
     },
     {
       "contract": "767c 10/16/2026",
-      "strike": 767.0,
+      "strike": 767,
       "type": "call",
       "expiry": "10/16/2026",
       "first": "2026/10/15 07:02:25",
@@ -1182,11 +1473,403 @@
       "last_premium": "$34K",
       "last_price": "$3.17",
       "last_side": "ASK",
-      "status": "On Deck"
+      "status": "On Deck",
+      "away": "2026/10/15 08:18:03",
+      "returned": "2026/10/15 08:23:26",
+      "prestige_at": "2026/10/15 08:23:26",
+      "retired_at": "2026/10/15 08:23:26",
+      "retired_spot": 770.47,
+      "retired_reason": "Observed in the money after becoming Prestige"
+    },
+    {
+      "contract": "771c 10/20/2026",
+      "strike": 771,
+      "type": "call",
+      "expiry": "10/20/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 07:19:41",
+      "last": "2026/10/15 07:19:41",
+      "last_side": "ASK",
+      "last_price": "$2.86",
+      "last_premium": "$65K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "769c 11/20/2026",
+      "strike": 769,
+      "type": "call",
+      "expiry": "11/20/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 07:21:15",
+      "last": "2026/10/15 07:21:15",
+      "last_side": "ASK",
+      "last_price": "$14.54",
+      "last_premium": "$291K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "765p 10/21/2026",
+      "strike": 765,
+      "type": "put",
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 07:35:00",
+      "last": "2026/10/15 07:35:00",
+      "last_side": "ASK",
+      "last_price": "$3.70",
+      "last_premium": "$53K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "768p 10/19/2026",
+      "strike": 768,
+      "type": "put",
+      "expiry": "10/19/2026",
+      "status": "Current Prestige",
+      "alerts": 1,
+      "first": "2026/10/15 07:58:47",
+      "last": "2026/10/15 07:58:47",
+      "last_side": "ASK",
+      "last_price": "$2.76",
+      "last_premium": "$28K",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54"
+    },
+    {
+      "contract": "769p 10/20/2026",
+      "strike": 769,
+      "type": "put",
+      "expiry": "10/20/2026",
+      "status": "On Deck",
+      "alerts": 3,
+      "first": "2026/10/15 08:06:17",
+      "last": "2026/10/15 11:13:32",
+      "last_side": "-",
+      "last_price": "$3.27",
+      "last_premium": "$65K",
+      "alerts_in_latest_capture": 3
+    },
+    {
+      "contract": "771c 10/26/2026",
+      "strike": 771,
+      "type": "call",
+      "expiry": "10/26/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 08:23:26",
+      "last": "2026/10/15 08:23:26",
+      "last_side": "ASK",
+      "last_price": "$6.14",
+      "last_premium": "$123K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "770p 10/19/2026",
+      "strike": 770,
+      "type": "put",
+      "expiry": "10/19/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/08 10:04:23",
+      "last": "2026/10/15 13:13:20",
+      "last_side": "ASK",
+      "last_price": "$2.17",
+      "last_premium": "$37K",
+      "alerts_in_latest_capture": 3,
+      "away": "2026/10/12 10:47:23",
+      "returned": "2026/10/14 06:59:00",
+      "prestige_at": "2026/10/14 06:59:00",
+      "retired_at": "2026/10/14 09:12:56",
+      "retired_spot": 769.94,
+      "retired_reason": "Observed in the money after becoming Prestige"
+    },
+    {
+      "contract": "770c 10/23/2026",
+      "strike": 770,
+      "type": "call",
+      "expiry": "10/23/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 09:33:03",
+      "last": "2026/10/15 09:33:03",
+      "last_side": "ASK",
+      "last_price": "$5.60",
+      "last_premium": "$56K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "769p 10/19/2026",
+      "strike": 769,
+      "type": "put",
+      "expiry": "10/19/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 10:12:39",
+      "last": "2026/10/15 10:12:39",
+      "last_side": "ASK",
+      "last_price": "$2.65",
+      "last_premium": "$32K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "771c 10/22/2026",
+      "strike": 771,
+      "type": "call",
+      "expiry": "10/22/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 10:20:43",
+      "last": "2026/10/15 10:20:43",
+      "last_side": "ASK",
+      "last_price": "$4.80",
+      "last_premium": "$48K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "774c 10/23/2026",
+      "strike": 774,
+      "type": "call",
+      "expiry": "10/23/2026",
+      "status": "Current Prestige",
+      "alerts": 1,
+      "first": "2026/10/15 10:44:01",
+      "last": "2026/10/15 10:44:01",
+      "last_side": "ASK",
+      "last_price": "$4.36",
+      "last_premium": "$52K",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/15 11:12:57",
+      "returned": "2026/10/15 11:58:30",
+      "prestige_at": "2026/10/15 11:58:30"
+    },
+    {
+      "contract": "769p 10/23/2026",
+      "strike": 769,
+      "type": "put",
+      "expiry": "10/23/2026",
+      "status": "On Deck",
+      "alerts": 12,
+      "first": "2026/10/15 10:50:11",
+      "last": "2026/10/15 12:49:11",
+      "last_side": "ASK",
+      "last_price": "$3.43",
+      "last_premium": "$687K",
+      "alerts_in_latest_capture": 12
+    },
+    {
+      "contract": "771p 10/19/2026",
+      "strike": 771,
+      "type": "put",
+      "expiry": "10/19/2026",
+      "status": "On Deck",
+      "alerts": 3,
+      "first": "2026/10/15 10:54:53",
+      "last": "2026/10/15 12:56:01",
+      "last_side": "ASK",
+      "last_price": "$2.48",
+      "last_premium": "$27K",
+      "alerts_in_latest_capture": 3
+    },
+    {
+      "contract": "773c 10/20/2026",
+      "strike": 773,
+      "type": "call",
+      "expiry": "10/20/2026",
+      "status": "On Deck",
+      "alerts": 5,
+      "first": "2026/10/15 11:00:22",
+      "last": "2026/10/15 12:55:44",
+      "last_side": "ASK",
+      "last_price": "$3.11",
+      "last_premium": "$124K",
+      "alerts_in_latest_capture": 5
+    },
+    {
+      "contract": "769p 10/21/2026",
+      "strike": 769,
+      "type": "put",
+      "expiry": "10/21/2026",
+      "status": "On Deck",
+      "alerts": 2,
+      "first": "2026/10/15 11:21:31",
+      "last": "2026/10/15 11:33:49",
+      "last_side": "ASK",
+      "last_price": "$3.63",
+      "last_premium": "$267K",
+      "alerts_in_latest_capture": 2
+    },
+    {
+      "contract": "772c 10/20/2026",
+      "strike": 772,
+      "type": "call",
+      "expiry": "10/20/2026",
+      "status": "On Deck",
+      "alerts": 2,
+      "first": "2026/10/15 11:32:01",
+      "last": "2026/10/15 12:12:11",
+      "last_side": "ASK",
+      "last_price": "$3.72",
+      "last_premium": "$38K",
+      "alerts_in_latest_capture": 2
+    },
+    {
+      "contract": "769p 10/22/2026",
+      "strike": 769,
+      "type": "put",
+      "expiry": "10/22/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 11:59:12",
+      "last": "2026/10/15 11:59:12",
+      "last_side": "ASK",
+      "last_price": "$3.79",
+      "last_premium": "$38K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "775c 10/30/2026",
+      "strike": 775,
+      "type": "call",
+      "expiry": "10/30/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 12:22:35",
+      "last": "2026/10/15 12:22:35",
+      "last_side": "ASK",
+      "last_price": "$7.07",
+      "last_premium": "$1.06M",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "770p 10/22/2026",
+      "strike": 770,
+      "type": "put",
+      "expiry": "10/22/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 12:24:05",
+      "last": "2026/10/15 12:24:05",
+      "last_side": "ASK",
+      "last_price": "$3.40",
+      "last_premium": "$34K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "771p 10/20/2026",
+      "strike": 771,
+      "type": "put",
+      "expiry": "10/20/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 12:26:51",
+      "last": "2026/10/15 12:26:51",
+      "last_side": "ASK",
+      "last_price": "$2.78",
+      "last_premium": "$29K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "772p 10/19/2026",
+      "strike": 772,
+      "type": "put",
+      "expiry": "10/19/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/09 06:44:41",
+      "last": "2026/10/15 12:27:59",
+      "last_side": "ASK",
+      "last_price": "$2.65",
+      "last_premium": "$54K",
+      "alerts_in_latest_capture": 1,
+      "away": "2026/10/12 10:47:23",
+      "returned": "2026/10/14 06:30:14",
+      "prestige_at": "2026/10/14 06:30:14",
+      "retired_at": "2026/10/14 07:53:08",
+      "retired_spot": 771.85,
+      "retired_reason": "Observed in the money after becoming Prestige"
+    },
+    {
+      "contract": "773c 10/27/2026",
+      "strike": 773,
+      "type": "call",
+      "expiry": "10/27/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/15 12:29:44",
+      "last": "2026/10/15 12:29:44",
+      "last_side": "ASK",
+      "last_price": "$5.94",
+      "last_premium": "$99K",
+      "alerts_in_latest_capture": 1
+    },
+    {
+      "contract": "775c 10/20/2026",
+      "strike": 775,
+      "type": "call",
+      "expiry": "10/20/2026",
+      "status": "On Deck",
+      "alerts": 2,
+      "first": "2026/10/15 12:35:03",
+      "last": "2026/10/15 13:00:47",
+      "last_side": "ASK",
+      "last_price": "$2.15",
+      "last_premium": "$47K",
+      "alerts_in_latest_capture": 2
+    },
+    {
+      "contract": "772p 10/20/2026",
+      "strike": 772,
+      "type": "put",
+      "expiry": "10/20/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/15 12:39:23",
+      "last": "2026/10/15 12:39:23",
+      "last_side": "ASK",
+      "last_price": "$3.26",
+      "last_premium": "$66K",
+      "alerts_in_latest_capture": 1,
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+    },
+    {
+      "contract": "772c 10/23/2026",
+      "strike": 772,
+      "type": "call",
+      "expiry": "10/23/2026",
+      "status": "On Deck",
+      "alerts": 2,
+      "first": "2026/10/15 12:56:36",
+      "last": "2026/10/15 13:00:14",
+      "last_side": "ASK",
+      "last_price": "$5.32",
+      "last_premium": "$53K",
+      "alerts_in_latest_capture": 2
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-15T14:10:47.156Z",
+  "checked_at": "2026-10-16T06:16:32.652Z",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -1442,7 +2125,7 @@
     },
     {
       "time": "2026/10/13 12:51:20",
-      "spot": 778.0
+      "spot": 778
     },
     {
       "time": "2026/10/13 12:53:48",
@@ -2179,6 +2862,300 @@
     {
       "time": "2026/10/15 07:10:13",
       "spot": 767.54
+    },
+    {
+      "time": "2026/10/15 07:19:41",
+      "spot": 767.49
+    },
+    {
+      "time": "2026/10/15 07:21:15",
+      "spot": 767.69
+    },
+    {
+      "time": "2026/10/15 07:35:00",
+      "spot": 767.71
+    },
+    {
+      "time": "2026/10/15 07:39:53",
+      "spot": 768.19
+    },
+    {
+      "time": "2026/10/15 07:42:56",
+      "spot": 768.99
+    },
+    {
+      "time": "2026/10/15 07:58:47",
+      "spot": 769.52
+    },
+    {
+      "time": "2026/10/15 08:06:17",
+      "spot": 770.21
+    },
+    {
+      "time": "2026/10/15 08:09:14",
+      "spot": 770.07
+    },
+    {
+      "time": "2026/10/15 08:18:03",
+      "spot": 770.86
+    },
+    {
+      "time": "2026/10/15 08:19:03",
+      "spot": 770.86
+    },
+    {
+      "time": "2026/10/15 08:23:26",
+      "spot": 770.47
+    },
+    {
+      "time": "2026/10/15 08:23:54",
+      "spot": 770.27
+    },
+    {
+      "time": "2026/10/15 08:25:30",
+      "spot": 770.49
+    },
+    {
+      "time": "2026/10/15 08:30:21",
+      "spot": 770.39
+    },
+    {
+      "time": "2026/10/15 08:30:36",
+      "spot": 770.1
+    },
+    {
+      "time": "2026/10/15 08:31:59",
+      "spot": 769.72
+    },
+    {
+      "time": "2026/10/15 09:21:19",
+      "spot": 769.29
+    },
+    {
+      "time": "2026/10/15 09:21:59",
+      "spot": 769.27
+    },
+    {
+      "time": "2026/10/15 09:33:03",
+      "spot": 769.39
+    },
+    {
+      "time": "2026/10/15 10:12:39",
+      "spot": 770.08
+    },
+    {
+      "time": "2026/10/15 10:20:43",
+      "spot": 770.32
+    },
+    {
+      "time": "2026/10/15 10:39:57",
+      "spot": 770.97
+    },
+    {
+      "time": "2026/10/15 10:40:00",
+      "spot": 770.97
+    },
+    {
+      "time": "2026/10/15 10:41:20",
+      "spot": 771.44
+    },
+    {
+      "time": "2026/10/15 10:42:06",
+      "spot": 771.68
+    },
+    {
+      "time": "2026/10/15 10:44:01",
+      "spot": 771.58
+    },
+    {
+      "time": "2026/10/15 10:50:11",
+      "spot": 771.43
+    },
+    {
+      "time": "2026/10/15 10:50:18",
+      "spot": 771.39
+    },
+    {
+      "time": "2026/10/15 10:51:13",
+      "spot": 771.43
+    },
+    {
+      "time": "2026/10/15 10:51:21",
+      "spot": 771.44
+    },
+    {
+      "time": "2026/10/15 10:51:54",
+      "spot": 771.67
+    },
+    {
+      "time": "2026/10/15 10:51:59",
+      "spot": 771.64
+    },
+    {
+      "time": "2026/10/15 10:54:53",
+      "spot": 771.35
+    },
+    {
+      "time": "2026/10/15 10:55:24",
+      "spot": 771.3
+    },
+    {
+      "time": "2026/10/15 11:00:22",
+      "spot": 771.09
+    },
+    {
+      "time": "2026/10/15 11:12:57",
+      "spot": 769.84
+    },
+    {
+      "time": "2026/10/15 11:13:16",
+      "spot": 769.73
+    },
+    {
+      "time": "2026/10/15 11:13:32",
+      "spot": 769.71
+    },
+    {
+      "time": "2026/10/15 11:21:31",
+      "spot": 769.55
+    },
+    {
+      "time": "2026/10/15 11:21:52",
+      "spot": 769.35
+    },
+    {
+      "time": "2026/10/15 11:32:01",
+      "spot": 769.82
+    },
+    {
+      "time": "2026/10/15 11:33:49",
+      "spot": 769.97
+    },
+    {
+      "time": "2026/10/15 11:40:44",
+      "spot": 769.96
+    },
+    {
+      "time": "2026/10/15 11:41:58",
+      "spot": 769.72
+    },
+    {
+      "time": "2026/10/15 11:58:30",
+      "spot": 770.63
+    },
+    {
+      "time": "2026/10/15 11:59:12",
+      "spot": 770.6
+    },
+    {
+      "time": "2026/10/15 12:05:48",
+      "spot": 771.45
+    },
+    {
+      "time": "2026/10/15 12:12:11",
+      "spot": 771.91
+    },
+    {
+      "time": "2026/10/15 12:12:54",
+      "spot": 771.84
+    },
+    {
+      "time": "2026/10/15 12:16:57",
+      "spot": 772.29
+    },
+    {
+      "time": "2026/10/15 12:18:51",
+      "spot": 772.63
+    },
+    {
+      "time": "2026/10/15 12:21:17",
+      "spot": 772.54
+    },
+    {
+      "time": "2026/10/15 12:22:35",
+      "spot": 772.78
+    },
+    {
+      "time": "2026/10/15 12:24:05",
+      "spot": 772.57
+    },
+    {
+      "time": "2026/10/15 12:24:30",
+      "spot": 772.7
+    },
+    {
+      "time": "2026/10/15 12:26:15",
+      "spot": 772.53
+    },
+    {
+      "time": "2026/10/15 12:26:51",
+      "spot": 772.58
+    },
+    {
+      "time": "2026/10/15 12:27:59",
+      "spot": 772.61
+    },
+    {
+      "time": "2026/10/15 12:29:44",
+      "spot": 772.06
+    },
+    {
+      "time": "2026/10/15 12:35:03",
+      "spot": 772.06
+    },
+    {
+      "time": "2026/10/15 12:37:58",
+      "spot": 772.13
+    },
+    {
+      "time": "2026/10/15 12:39:00",
+      "spot": 772.33
+    },
+    {
+      "time": "2026/10/15 12:39:23",
+      "spot": 772.26
+    },
+    {
+      "time": "2026/10/15 12:49:11",
+      "spot": 772.37
+    },
+    {
+      "time": "2026/10/15 12:52:48",
+      "spot": 771.64
+    },
+    {
+      "time": "2026/10/15 12:53:08",
+      "spot": 771.57
+    },
+    {
+      "time": "2026/10/15 12:55:44",
+      "spot": 771.85
+    },
+    {
+      "time": "2026/10/15 12:56:01",
+      "spot": 771.8
+    },
+    {
+      "time": "2026/10/15 12:56:36",
+      "spot": 771.91
+    },
+    {
+      "time": "2026/10/15 13:00:14",
+      "spot": 771.63
+    },
+    {
+      "time": "2026/10/15 13:00:47",
+      "spot": 771.78
+    },
+    {
+      "time": "2026/10/15 13:13:20",
+      "spot": 771.68
+    },
+    {
+      "time": "2026/10/15 13:14:18",
+      "spot": 771.76
     }
-  ]
+  ],
+  "latest_session_alert_count": 76,
+  "coverage_note": "Latest rendered filter table contained 240 rows reaching August 31. All 76 October 15 rows captured; earlier saved cards and price observations retained. First appearance means earliest captured observation, not necessarily the first-ever alert. Prices are observed at alert times, not a continuous intraday feed or an official closing quote."
 }
