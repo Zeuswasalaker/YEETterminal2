@@ -228,7 +228,7 @@ def _render(admin):
         saved_date=datetime.fromisoformat(snapshot['captured_at'].replace('Z','+00:00')).astimezone(ZoneInfo('America/Los_Angeles')).strftime('%b %d, %Y')
     except ValueError:
         saved_date='the date below'
-    st.caption(f'Latest captured alert: {snapshot["source_time"]} · SPY ${snapshot["spot"]:.2f} · Refreshed snapshot, not a streaming feed')
+    st.caption(f'Latest SPY price check: {snapshot["source_time"]} · SPY ${snapshot["spot"]:.2f} · Refreshed snapshot, not a streaming feed')
     st.caption('Once a Prestige contract moves in the money in a saved price check, it leaves every board. The page checks for published updates every 30 seconds.')
     with st.container(key='prestige_controls'), st.expander('Filter the bricks'):
         side=st.pills('What are we watching?',['🎩 Everything','📞 Calls','🩸 Puts'],default='🎩 Everything',selection_mode='single') or '🎩 Everything'
