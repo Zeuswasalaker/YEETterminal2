@@ -1,8 +1,11 @@
+Warning: truncated output (original token count: 40909)
+Total output lines: 5464
+
 {
-  "source": "Unusual Whales signed-in alert table",
-  "captured_at": "2026-10-16T06:16:32.652Z",
-  "source_time": "2026/10/15 13:14:18",
-  "spot": 771.76,
+  "source": "Saved Unusual Whales alerts with Yahoo Finance SPY minute-close price checks",
+  "captured_at": "2026-10-16T16:13:38.959015+00:00",
+  "source_time": "2026/10/16 09:13:16",
+  "spot": 767.2100219726562,
   "coverage_start": "2026/10/12 10:47:23",
   "alert_count": 240,
   "cards": [
@@ -44,7 +47,7 @@
       "strike": 766,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 19,
       "first": "2026/10/14 10:20:41",
       "last": "2026/10/15 07:10:13",
@@ -73,7 +76,7 @@
       "strike": 767,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 8,
       "first": "2026/10/14 09:52:52",
       "last": "2026/10/14 12:45:08",
@@ -92,6 +95,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 09:02:00",
+      "retired_spot": 766.75,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/14 09:52:52",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
@@ -102,7 +108,7 @@
       "strike": 769,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:15:05",
       "last": "2026/10/14 12:55:08",
@@ -120,10 +126,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 11:15:14",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 11:15:14"
     },
     {
       "contract": "770c 10/16/2026",
@@ -163,7 +166,7 @@
       "strike": 767,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:56:02",
@@ -194,7 +197,7 @@
       "strike": 765,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:47:34",
@@ -223,7 +226,7 @@
       "strike": 768,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Current Prestige",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:17:22",
       "last": "2026/10/14 13:01:57",
@@ -254,7 +257,7 @@
       "strike": 767,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 11:18:17",
       "last": "2026/10/15 09:21:19",
@@ -274,6 +277,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 09:02:00",
+      "retired_spot": 766.75,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/14 11:18:17",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
@@ -284,7 +290,7 @@
       "strike": 766,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:19:29",
       "last": "2026/10/14 13:14:59",
@@ -315,7 +321,7 @@
       "strike": 769,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 4,
       "first": "2026/10/14 10:37:21",
       "last": "2026/10/14 12:28:59",
@@ -334,10 +340,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 10:37:21",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 10:37:21"
     },
     {
       "contract": "771c 10/15/2026",
@@ -414,7 +417,7 @@
       "strike": 765,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 6,
       "first": "2026/10/14 11:11:28",
       "last": "2026/10/14 12:10:07",
@@ -441,7 +444,7 @@
       "strike": 766,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 11:24:57",
       "last": "2026/10/14 11:24:57",
@@ -470,7 +473,7 @@
       "strike": 768,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 11:25:25",
       "last": "2026/10/14 12:08:56",
@@ -492,17 +495,14 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 11:37:05",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 11:37:05"
     },
     {
       "contract": "764p 10/16/2026",
       "strike": 764,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 5,
       "first": "2026/10/14 10:57:06",
       "last": "2026/10/15 07:01:30",
@@ -529,7 +529,7 @@
       "strike": 768,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 10,
       "first": "2026/10/14 10:50:08",
       "last": "2026/10/15 07:07:44",
@@ -551,17 +551,14 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 10:50:08",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 10:50:08"
     },
     {
       "contract": "768c 10/23/2026",
       "strike": 768,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 2,
       "first": "2026/10/14 11:45:06",
       "last": "2026/10/14 12:00:37",
@@ -583,17 +580,14 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 11:45:06",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 11:45:06"
     },
     {
       "contract": "766p 10/21/2026",
       "strike": 766,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 2,
       "first": "2026/10/14 11:54:32",
       "last": "2026/10/15 06:51:44",
@@ -725,7 +719,7 @@
       "strike": 769,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 2,
       "first": "2026/10/14 12:13:28",
       "last": "2026/10/14 12:46:14",
@@ -744,10 +738,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 12:13:28",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 12:13:28"
     },
     {
       "contract": "772c 10/15/2026",
@@ -825,7 +816,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/21/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/14 12:33:07",
       "last": "2026/10/14 12:33:07",
@@ -854,7 +845,7 @@
       "strike": 769,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 12:34:09",
       "last": "2026/10/14 13:12:24",
@@ -879,7 +870,7 @@
       "strike": 769,
       "type": "put",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 8,
       "first": "2026/10/14 09:14:46",
       "last": "2026/10/14 12:34:09",
@@ -894,14 +885,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 09:14:46"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 09:14:46",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "773c 10/15/2026",
       "strike": 773,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Current Prestige",
+      "status": "Expired",
       "alerts": 0,
       "first": "2026/10/14 12:34:21",
       "last": "2026/10/14 13:02:50",
@@ -951,6 +948,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 08:56:00",
+      "retired_spot": 767.9299926757812,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/14 12:38:43",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
@@ -961,7 +961,7 @@
       "strike": 765,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 12:42:39",
       "last": "2026/10/14 12:42:39",
@@ -1021,7 +1021,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 8,
       "first": "2026/10/14 07:24:42",
       "last": "2026/10/14 13:02:11",
@@ -1073,8 +1073,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/12 10:47:23",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1088,7 +1088,7 @@
       "last_premium": "$144K",
       "last_price": "$3.55",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1125,8 +1125,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/12 11:17:48",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1140,7 +1140,7 @@
       "last_premium": "$118K",
       "last_price": "$5.90",
       "last_side": "-",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1163,7 +1163,7 @@
       "last_premium": "$31K",
       "last_price": "$3.07",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1192,7 +1192,7 @@
       "last_premium": "$39K",
       "last_price": "$3.94",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1215,7 +1215,7 @@
       "last_premium": "$73K",
       "last_price": "$3.06",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1279,7 +1279,7 @@
       "last_premium": "$115K",
       "last_price": "$4.13",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1316,8 +1316,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 07:45:13",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1348,8 +1348,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 07:49:07",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1377,8 +1377,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 08:14:15",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1392,7 +1392,7 @@
       "last_premium": "$31K",
       "last_price": "$3.04",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1421,7 +1421,7 @@
       "last_premium": "$303K",
       "last_price": "$4.46",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1461,8 +1461,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 09:59:32",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1490,8 +1490,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 10:50:10",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1505,7 +1505,7 @@
       "last_premium": "$59K",
       "last_price": "$3.59",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1542,8 +1542,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 11:12:57",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1571,8 +1571,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 11:16:53",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1603,8 +1603,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 12:12:08",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1632,8 +1632,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 12:39:16",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1664,8 +1664,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 12:44:59",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1696,8 +1696,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/13 12:51:20",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1711,7 +1711,7 @@
       "last_premium": "$95K",
       "last_price": "$4.87",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1751,8 +1751,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/14 06:30:14",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1766,7 +1766,7 @@
       "last_premium": "$39K",
       "last_price": "$3.60",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1795,7 +1795,7 @@
       "last_premium": "$22K",
       "last_price": "$2.22",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1824,7 +1824,7 @@
       "last_premium": "$124K",
       "last_price": "$3.10",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -1871,8 +1871,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/14 07:03:34",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -1886,7 +1886,7 @@
       "last_premium": "$42K",
       "last_price": "$4.20",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1915,7 +1915,7 @@
       "last_premium": "$53K",
       "last_price": "$3.00",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts_in_latest_capture": 4,
       "classification_audit": [
         {
@@ -1945,7 +1945,7 @@
       "last_premium": "$50K",
       "last_price": "$2.98",
       "last_side": "ASK",
-      "status": "On Deck",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1959,7 +1959,10 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 08:11:39"
+      "initial_near_at": "2026/10/14 08:11:39",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "775c 10/26/2026",
@@ -1972,7 +1975,7 @@
       "last_premium": "$50K",
       "last_price": "$4.72",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2001,7 +2004,7 @@
       "last_premium": "$51K",
       "last_price": "$4.78",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2030,7 +2033,7 @@
       "last_premium": "$39K",
       "last_price": "$3.86",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2096,7 +2099,7 @@
       "last_premium": "$21K",
       "last_price": "$1.61",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2125,7 +2128,7 @@
       "last_premium": "$20K",
       "last_price": "$2.01",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2168,6 +2171,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 08:56:00",
+      "retired_spot": 767.9299926757812,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/14 08:38:23",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
@@ -2184,7 +2190,7 @@
       "last_premium": "$130K",
       "last_price": "$2.88",
       "last_side": "ASK",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2214,7 +2220,7 @@
       "last_premium": "$95K",
       "last_price": "$4.00",
       "last_side": "ASK",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2229,7 +2235,10 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 08:47:49"
+      "initial_near_at": "2026/10/14 08:47:49",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "771c 10/19/2026",
@@ -2260,101 +2269,7 @@
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
       "retired_reason": "Observed in the money after verified OTM comeback",
-      "initial_near_at": "2026/10/14 09:12:36",
-      "away": "2026/10/14 11:01:48",
-      "returned": "2026/10/14 11:02:55",
-      "prestige_at": "2026/10/14 11:02:55"
-    },
-    {
-      "contract": "770p 10/21/2026",
-      "strike": 770,
-      "type": "put",
-      "expiry": "10/21/2026",
-      "first": "2026/10/14 09:59:38",
-      "alerts": 1,
-      "last": "2026/10/14 09:59:38",
-      "last_premium": "$44K",
-      "last_price": "$4.36",
-      "last_side": "ASK",
-      "status": "On Deck",
-      "classification_audit": [
-        {
-          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
-          "previous_status": "Current Prestige",
-          "previous_fields": {
-            "prestige_at": "2026/10/15 07:01:30",
-            "retired_at": "2026/10/15 07:01:30",
-            "retired_spot": 766.64,
-            "retired_reason": "Observed in the money after becoming Prestige"
-          }
-        }
-      ],
-      "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 09:59:38"
-    },
-    {
-      "contract": "768p 10/21/2026",
-      "strike": 768,
-      "type": "put",
-      "expiry": "10/21/2026",
-      "first": "2026/10/14 10:29:43",
-      "alerts": 1,
-      "last": "2026/10/14 10:29:43",
-      "last_premium": "$350K",
-      "last_price": "$4.77",
-      "last_side": "ASK",
-      "status": "Current Prestige",
-      "classification_audit": [
-        {
-          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
-          "previous_status": "Current Prestige",
-          "previous_fields": {
-            "away": "2026/10/15 12:12:11",
-            "returned": "2026/10/15 12:12:54",
-            "prestige_at": "2026/10/15 12:12:54"
-          }
-        }
-      ],
-      "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 10:29:43",
-      "away": "2026/10/15 12:12:11",
-      "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54"
-    },
-    {
-      "contract": "772c 10/30/2026",
-      "strike": 772,
-      "type": "call",
-      "expiry": "10/30/2026",
-      "first": "2026/10/14 10:32:55",
-      "alerts": 1,
-      "last": "2026/10/14 10:32:55",
-      "last_premium": "$77K",
-      "last_price": "$7.29",
-      "last_side": "ASK",
-      "status": "Current Prestige",
-      "classification_audit": [
-        {
-          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
-          "previous_status": "Approaching",
-          "previous_fields": {
-            "away": "2026/10/14 10:49:18",
-            "returned": "2026/10/14 11:14:42",
-            "prestige_at": "2026/10/14 11:14:42",
-            "retired_at": "2026/10/15 12:16:57",
-            "retired_spot": 772.29,
-            "retired_reason": "Observed in the money after becoming Prestige"
-          }
-        }
-      ],
-      "classification_version": "otm-sequence-v2",
-      "retired_at": "2026/10/15 12:16:57",
-      "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after verified OTM comeback",
-      "initial_near_at": "2026/10/14 10:32:55",
-      "away": "2026/10/14 10:49:18",
-      "returned": "2026/10/14 11:14:42",
-      "prestige_at": "2026/10/14 11:14:42"
+      "initial_near_at": "2026/10/14 09:12:36",…909 tokens truncated…/10/14 11:14:42"
     },
     {
       "contract": "771c 11/13/2026",
@@ -2400,7 +2315,7 @@
       "last_premium": "$39K",
       "last_price": "$3.90",
       "last_side": "ASK",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2414,10 +2329,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 10:35:46",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 10:35:46"
     },
     {
       "contract": "770c 11/13/2026",
@@ -2463,7 +2375,7 @@
       "last_premium": "$75K",
       "last_price": "$5.35",
       "last_side": "ASK",
-      "status": "Watching",
+      "status": "Current Prestige",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2476,6 +2388,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 09:02:00",
+      "retired_spot": 766.75,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/14 11:00:18",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
@@ -2526,7 +2441,7 @@
       "last_premium": "$52K",
       "last_price": "$4.33",
       "last_side": "ASK",
-      "status": "Watching",
+      "status": "On Deck",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2542,10 +2457,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 11:03:35",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/14 11:03:35"
     },
     {
       "contract": "769c 11/13/2026",
@@ -2558,7 +2470,7 @@
       "last_premium": "$120K",
       "last_price": "$12.04",
       "last_side": "ASK",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2572,10 +2484,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 06:48:02",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/15 06:48:02"
     },
     {
       "contract": "763p 10/19/2026",
@@ -2588,7 +2497,7 @@
       "last_premium": "$63K",
       "last_price": "$2.95",
       "last_side": "ASK",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2635,8 +2544,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 07:02:25",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -2644,7 +2553,7 @@
       "strike": 771,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 07:19:41",
       "last": "2026/10/15 07:19:41",
@@ -2665,16 +2574,16 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 07:19:41",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "away": "2026/10/16 09:00:00",
+      "returned": "2026/10/16 09:01:00",
+      "prestige_at": "2026/10/16 09:01:00"
     },
     {
       "contract": "769c 11/20/2026",
       "strike": 769,
       "type": "call",
       "expiry": "11/20/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 1,
       "first": "2026/10/15 07:21:15",
       "last": "2026/10/15 07:21:15",
@@ -2694,17 +2603,14 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 07:21:15",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/15 07:21:15"
     },
     {
       "contract": "765p 10/21/2026",
       "strike": 765,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 07:35:00",
       "last": "2026/10/15 07:35:00",
@@ -2721,7 +2627,9 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 07:35:00",
-      "away": "2026/10/15 07:42:56"
+      "away": "2026/10/15 07:42:56",
+      "returned": "2026/10/16 08:22:00",
+      "prestige_at": "2026/10/16 08:22:00"
     },
     {
       "contract": "768p 10/19/2026",
@@ -2748,6 +2656,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 08:56:00",
+      "retired_spot": 767.9299926757812,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/15 07:58:47",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
@@ -2758,7 +2669,7 @@
       "strike": 769,
       "type": "put",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 3,
       "first": "2026/10/15 08:06:17",
       "last": "2026/10/15 11:13:32",
@@ -2774,14 +2685,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 08:06:17"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/15 08:06:17",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "771c 10/26/2026",
       "strike": 771,
       "type": "call",
       "expiry": "10/26/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 08:23:26",
       "last": "2026/10/15 08:23:26",
@@ -2802,16 +2719,16 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 08:23:26",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "away": "2026/10/16 09:00:00",
+      "returned": "2026/10/16 09:01:00",
+      "prestige_at": "2026/10/16 09:01:00"
     },
     {
       "contract": "770p 10/19/2026",
       "strike": 770,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 3,
       "first": "2026/10/08 10:04:23",
       "last": "2026/10/15 13:13:20",
@@ -2834,14 +2751,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/14 06:59:00"
+      "initial_near_at": "2026/10/14 06:59:00",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "770c 10/23/2026",
       "strike": 770,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 1,
       "first": "2026/10/15 09:33:03",
       "last": "2026/10/15 09:33:03",
@@ -2861,17 +2781,14 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 09:33:03",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "initial_near_at": "2026/10/15 09:33:03"
     },
     {
       "contract": "769p 10/19/2026",
       "strike": 769,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 10:12:39",
       "last": "2026/10/15 10:12:39",
@@ -2887,14 +2804,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 10:12:39"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/15 10:12:39",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "771c 10/22/2026",
       "strike": 771,
       "type": "call",
       "expiry": "10/22/2026",
-      "status": "Watching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 10:20:43",
       "last": "2026/10/15 10:20:43",
@@ -2915,16 +2838,16 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 10:20:43",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
-      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+      "away": "2026/10/16 09:00:00",
+      "returned": "2026/10/16 09:01:00",
+      "prestige_at": "2026/10/16 09:01:00"
     },
     {
       "contract": "774c 10/23/2026",
       "strike": 774,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 10:44:01",
       "last": "2026/10/15 10:44:01",
@@ -2954,7 +2877,7 @@
       "strike": 769,
       "type": "put",
       "expiry": "10/23/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 12,
       "first": "2026/10/15 10:50:11",
       "last": "2026/10/15 12:49:11",
@@ -2970,14 +2893,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 10:50:11"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/15 10:50:11",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "771p 10/19/2026",
       "strike": 771,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 3,
       "first": "2026/10/15 10:54:53",
       "last": "2026/10/15 12:56:01",
@@ -2993,14 +2922,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 10:54:53"
+      "initial_near_at": "2026/10/15 10:54:53",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "773c 10/20/2026",
       "strike": 773,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 5,
       "first": "2026/10/15 11:00:22",
       "last": "2026/10/15 12:55:44",
@@ -3016,14 +2948,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 11:00:22"
+      "initial_near_at": "2026/10/15 11:00:22",
+      "away": "2026/10/16 08:22:00",
+      "returned": "2026/10/16 08:30:00",
+      "prestige_at": "2026/10/16 08:30:00"
     },
     {
       "contract": "769p 10/21/2026",
       "strike": 769,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 2,
       "first": "2026/10/15 11:21:31",
       "last": "2026/10/15 11:33:49",
@@ -3039,14 +2974,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 11:21:31"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/15 11:21:31",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "772c 10/20/2026",
       "strike": 772,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/15 11:32:01",
       "last": "2026/10/15 12:12:11",
@@ -3062,14 +3003,15 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 11:32:01"
+      "initial_near_at": "2026/10/15 11:32:01",
+      "away": "2026/10/16 08:55:00"
     },
     {
       "contract": "769p 10/22/2026",
       "strike": 769,
       "type": "put",
       "expiry": "10/22/2026",
-      "status": "On Deck",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 11:59:12",
       "last": "2026/10/15 11:59:12",
@@ -3085,14 +3027,20 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 11:59:12"
+      "retired_at": "2026/10/16 08:22:00",
+      "retired_spot": 768.7000122070312,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/15 11:59:12",
+      "away": "2026/10/16 06:30:00",
+      "returned": "2026/10/16 06:31:00",
+      "prestige_at": "2026/10/16 06:31:00"
     },
     {
       "contract": "775c 10/30/2026",
       "strike": 775,
       "type": "call",
       "expiry": "10/30/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:22:35",
       "last": "2026/10/15 12:22:35",
@@ -3108,14 +3056,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:22:35"
+      "initial_near_at": "2026/10/15 12:22:35",
+      "away": "2026/10/16 06:56:00",
+      "returned": "2026/10/16 06:57:00",
+      "prestige_at": "2026/10/16 06:57:00"
     },
     {
       "contract": "770p 10/22/2026",
       "strike": 770,
       "type": "put",
       "expiry": "10/22/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:24:05",
       "last": "2026/10/15 12:24:05",
@@ -3131,14 +3082,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:24:05"
+      "initial_near_at": "2026/10/15 12:24:05",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "771p 10/20/2026",
       "strike": 771,
       "type": "put",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:26:51",
       "last": "2026/10/15 12:26:51",
@@ -3154,7 +3108,10 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:26:51"
+      "initial_near_at": "2026/10/15 12:26:51",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "772p 10/19/2026",
@@ -3185,8 +3142,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/14 06:30:14",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -3194,7 +3151,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/27/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:29:44",
       "last": "2026/10/15 12:29:44",
@@ -3210,14 +3167,17 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:29:44"
+      "initial_near_at": "2026/10/15 12:29:44",
+      "away": "2026/10/16 08:22:00",
+      "returned": "2026/10/16 08:30:00",
+      "prestige_at": "2026/10/16 08:30:00"
     },
     {
       "contract": "775c 10/20/2026",
       "strike": 775,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/15 12:35:03",
       "last": "2026/10/15 13:00:47",
@@ -3233,7 +3193,10 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:35:03"
+      "initial_near_at": "2026/10/15 12:35:03",
+      "away": "2026/10/16 06:56:00",
+      "returned": "2026/10/16 06:57:00",
+      "prestige_at": "2026/10/16 06:57:00"
     },
     {
       "contract": "772p 10/20/2026",
@@ -3261,8 +3224,8 @@
       ],
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/15 12:39:23",
-      "retired_at": "2026/10/15 13:14:18",
-      "retired_spot": 771.76,
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
       "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
@@ -3270,7 +3233,7 @@
       "strike": 772,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/15 12:56:36",
       "last": "2026/10/15 13:00:14",
@@ -3286,11 +3249,12 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/15 12:56:36"
+      "initial_near_at": "2026/10/15 12:56:36",
+      "away": "2026/10/16 08:55:00"
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-16T06:16:32.652Z",
+  "checked_at": "2026-10-16T16:13:38.959015+00:00",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -4575,9 +4539,829 @@
     {
       "time": "2026/10/15 13:14:18",
       "spot": 771.76
+    },
+    {
+      "time": "2026/10/16 06:30:00",
+      "spot": 772.9199829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:31:00",
+      "spot": 772.5549926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:32:00",
+      "spot": 772.6799926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:33:00",
+      "spot": 772.5018920898438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:34:00",
+      "spot": 772.3200073242188,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:35:00",
+      "spot": 771.969970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:36:00",
+      "spot": 772.3400268554688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:37:00",
+      "spot": 771.8499755859375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:38:00",
+      "spot": 771.469970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:39:00",
+      "spot": 771.6699829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:40:00",
+      "spot": 771.3800048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:41:00",
+      "spot": 771.3049926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:42:00",
+      "spot": 771.6749877929688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:43:00",
+      "spot": 771.7000122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:44:00",
+      "spot": 772.2000122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:45:00",
+      "spot": 772.0900268554688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:46:00",
+      "spot": 772.0,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:47:00",
+      "spot": 772.1300048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:48:00",
+      "spot": 771.8099975585938,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:49:00",
+      "spot": 772.239990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:50:00",
+      "spot": 771.9400024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:51:00",
+      "spot": 771.1500244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:52:00",
+      "spot": 771.3735961914062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:53:00",
+      "spot": 771.4600219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:54:00",
+      "spot": 771.6099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:55:00",
+      "spot": 771.7899780273438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:56:00",
+      "spot": 771.1099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:57:00",
+      "spot": 771.3049926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:58:00",
+      "spot": 771.4400024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 06:59:00",
+      "spot": 771.4099731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:00:00",
+      "spot": 771.4249877929688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:01:00",
+      "spot": 771.989990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:02:00",
+      "spot": 771.7100219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:03:00",
+      "spot": 771.5,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:04:00",
+      "spot": 771.510009765625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:05:00",
+      "spot": 771.3900146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:06:00",
+      "spot": 771.1199951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:07:00",
+      "spot": 770.9201049804688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:08:00",
+      "spot": 771.280029296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:09:00",
+      "spot": 771.0809936523438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:10:00",
+      "spot": 770.5479125976562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:11:00",
+      "spot": 770.77001953125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:12:00",
+      "spot": 770.9600219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:13:00",
+      "spot": 771.094970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:14:00",
+      "spot": 771.030029296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:15:00",
+      "spot": 771.0294799804688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:16:00",
+      "spot": 771.1500244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:17:00",
+      "spot": 771.280029296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:18:00",
+      "spot": 771.0900268554688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:19:00",
+      "spot": 771.0499877929688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:20:00",
+      "spot": 771.2000122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:21:00",
+      "spot": 770.989990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:22:00",
+      "spot": 771.4000244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:23:00",
+      "spot": 771.4000244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:24:00",
+      "spot": 771.1500244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:25:00",
+      "spot": 771.0800170898438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:26:00",
+      "spot": 770.8800048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:27:00",
+      "spot": 770.8049926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:28:00",
+      "spot": 770.8400268554688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:29:00",
+      "spot": 770.9099731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:30:00",
+      "spot": 770.9450073242188,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:31:00",
+      "spot": 770.9000244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:32:00",
+      "spot": 771.280029296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:33:00",
+      "spot": 771.4199829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:34:00",
+      "spot": 771.4400024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:35:00",
+      "spot": 771.47998046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:36:00",
+      "spot": 771.5499877929688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:37:00",
+      "spot": 771.7349853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:38:00",
+      "spot": 772.0150146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:39:00",
+      "spot": 772.10498046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:40:00",
+      "spot": 771.8699951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:41:00",
+      "spot": 771.9600219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:42:00",
+      "spot": 771.9000244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:43:00",
+      "spot": 771.905029296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:44:00",
+      "spot": 771.864990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:45:00",
+      "spot": 772.1400146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:46:00",
+      "spot": 772.1400146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:47:00",
+      "spot": 772.364990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:48:00",
+      "spot": 772.4099731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:49:00",
+      "spot": 772.4879760742188,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:50:00",
+      "spot": 772.5150146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:51:00",
+      "spot": 771.9650268554688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:52:00",
+      "spot": 771.9600219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:53:00",
+      "spot": 771.3900146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:54:00",
+      "spot": 771.2529296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:55:00",
+      "spot": 771.3900146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:56:00",
+      "spot": 771.239990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:57:00",
+      "spot": 771.4199829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:58:00",
+      "spot": 771.3759765625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 07:59:00",
+      "spot": 771.4299926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:00:00",
+      "spot": 771.1599731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:01:00",
+      "spot": 771.0399780273438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:02:00",
+      "spot": 770.8900146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:03:00",
+      "spot": 771.1801147460938,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:04:00",
+      "spot": 770.9912109375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:05:00",
+      "spot": 770.4199829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:06:00",
+      "spot": 770.2100219726562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:07:00",
+      "spot": 770.094970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:08:00",
+      "spot": 769.8800048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:09:00",
+      "spot": 769.739990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:10:00",
+      "spot": 769.572509765625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:11:00",
+      "spot": 769.8599853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:12:00",
+      "spot": 769.97998046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:13:00",
+      "spot": 769.9500122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:14:00",
+      "spot": 769.85498046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:15:00",
+      "spot": 769.72998046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:16:00",
+      "spot": 769.6099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:17:00",
+      "spot": 769.8300170898438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:18:00",
+      "spot": 769.6099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:19:00",
+      "spot": 769.6199951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:20:00",
+      "spot": 769.4299926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:21:00",
+      "spot": 769.1699829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:22:00",
+      "spot": 768.7000122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:23:00",
+      "spot": 768.969970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:24:00",
+      "spot": 768.9099731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:25:00",
+      "spot": 768.9456787109375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:26:00",
+      "spot": 769.1099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:27:00",
+      "spot": 768.72998046875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:28:00",
+      "spot": 768.7899780273438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:29:00",
+      "spot": 768.7449951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:30:00",
+      "spot": 769.2733764648438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:31:00",
+      "spot": 768.9299926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:32:00",
+      "spot": 769.219970703125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:33:00",
+      "spot": 769.1900024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:34:00",
+      "spot": 769.27001953125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:35:00",
+      "spot": 769.1300048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:36:00",
+      "spot": 769.3599853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:37:00",
+      "spot": 769.27001953125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:38:00",
+      "spot": 769.3499755859375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:39:00",
+      "spot": 769.4500122070312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:40:00",
+      "spot": 769.2517700195312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:41:00",
+      "spot": 769.138671875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:42:00",
+      "spot": 768.9899291992188,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:43:00",
+      "spot": 768.8900146484375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:44:00",
+      "spot": 768.739990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:45:00",
+      "spot": 768.9400024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:46:00",
+      "spot": 769.1799926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:47:00",
+      "spot": 769.2849731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:48:00",
+      "spot": 769.2849731445312,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:49:00",
+      "spot": 768.8699951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:50:00",
+      "spot": 768.7760009765625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:51:00",
+      "spot": 768.5399780273438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:52:00",
+      "spot": 768.6900024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:53:00",
+      "spot": 768.6500244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:54:00",
+      "spot": 768.1699829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:55:00",
+      "spot": 768.1300048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:56:00",
+      "spot": 767.9299926757812,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:57:00",
+      "spot": 767.7498779296875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:58:00",
+      "spot": 767.75,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 08:59:00",
+      "spot": 767.510009765625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:00:00",
+      "spot": 767.1300048828125,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:01:00",
+      "spot": 767.1900024414062,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:02:00",
+      "spot": 766.75,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:03:00",
+      "spot": 766.9550170898438,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:04:00",
+      "spot": 767.1199951171875,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:05:00",
+      "spot": 767.0999755859375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:06:00",
+      "spot": 767.1500244140625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:07:00",
+      "spot": 767.1099853515625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:08:00",
+      "spot": 766.9268188476562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:09:00",
+      "spot": 767.1699829101562,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:10:00",
+      "spot": 767.239990234375,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:11:00",
+      "spot": 767.2799072265625,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:12:00",
+      "spot": 767.2999877929688,
+      "source": "Yahoo Finance SPY 1-minute close"
+    },
+    {
+      "time": "2026/10/16 09:13:16",
+      "spot": 767.2100219726562
     }
   ],
   "latest_session_alert_count": 76,
-  "coverage_note": "Latest rendered filter table contained 240 rows reaching August 31. All 76 October 15 rows captured; earlier saved cards and price observations retained. First appearance means earliest captured observation, not necessarily the first-ever alert. Prices are observed at alert times, not a continuous intraday feed or an official closing quote.",
-  "classification_version": "otm-sequence-v2"
+  "coverage_note": "Latest rendered filter table contained 240 rows reaching August 31. All 76 October 15 rows captured; earlier saved cards and price observations retained. First appearance means earliest captured observation, not necessarily the first-ever alert. Prices are observed at alert times, not a continuous intraday feed or an official closing quote. October 16 update adds Yahoo Finance regular-session 1-minute closing prices through 2026/10/16 09:13:16 Pacific; no new UW alerts collected. Minute closes may miss brief intraminute crossings.",
+  "classification_version": "otm-sequence-v2",
+  "latest_alert_time": "2026/10/15 13:14:18"
 }
