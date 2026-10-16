@@ -40,7 +40,7 @@
         "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8",
         "https://ir.coherent.com/static-files/4df8d35b-3abc-4a04-a319-588b204e9bcd"
       ],
-      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately. These are not investor days. The proxy notice and annual report have a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded. Coherent's IR sources have intermittent access errors (403). The proxy and annual-report PDFs were readable again during the October 15 check and both support November 18 at noon Eastern; the IR events page still returned an access error. The company events page remains accessible."
+      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately; these are not investor days. The previously reviewed proxy and annual report have a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded. IR source access has been intermittent. At the latest October 15 check, the IR events page and company events page were readable; the proxy URL returned a retrieval error and the annual-report URL was readable. The stored shareholder-meeting date is retained from prior document verification, not newly reconfirmed from the unavailable proxy."
     }
   },
   "events": [
