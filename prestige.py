@@ -58,7 +58,7 @@ def visible_cards(snapshot, today):
         if original.get('retired_at'): continue
         c=dict(original)
         if datetime.strptime(c['expiry'], '%m/%d/%Y').date()<today:
-            c['status']='Expired'
+            continue
         cards.append(c)
     return cards
 
@@ -105,6 +105,7 @@ def admin_upload(admin,snapshot):
 
 def gold_tile(contract,spot):
     symbol='$SPY'
+    option_kind=contract['type']
     strike=f"{float(contract['strike']):g}"
     side='CALL' if contract['type']=='call' else 'PUT'
     icon='📞' if side=='CALL' else '🩸'
@@ -114,7 +115,7 @@ def gold_tile(contract,spot):
         first=datetime.strptime(contract['first'],'%Y/%m/%d %H:%M:%S').strftime('%b %d, %Y · %I:%M:%S %p')
     except (KeyError,ValueError,TypeError):
         first='Not recorded'
-    return f'<article class="gold-contract gold-{contract['type']}" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>First appearance in our saved alerts</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
+    return f'<article class="gold-contract gold-{option_kind}" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>First appearance in our saved alerts</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
 
 
 def render(admin):
@@ -216,10 +217,10 @@ def _render(admin):
         'SPY moved away and came back near the strike in our saved observations. It was still nearby at the last check. That’s the sequence we’re looking for.',
         'Close to the strike, but no full comeback is established in this saved window. Next up: watch for the move away and return before expiration.',
         'SPY was outside the nearby area but moving closer across our last few observations. Watch for it to come back in. The earlier move-away story still matters.',
-        'These contracts need another look, or have already expired. An active one needs a fresh approach and return before its deadline.'
+        'These contracts need another look. Watch for a fresh approach and return before expiration.'
     ]
     st.markdown(f'<div class="bricks-heading">{boards[i]}</div>',unsafe_allow_html=True)
-    wanted=[STATUSES[i]] if i<3 else ['Watching','Expired']
+    wanted=[STATUSES[i]] if i<3 else ['Watching']
     selected=[x for x in cards if x['status'] in wanted and (side=='🎩 Everything' or x['type']==('call' if side=='📞 Calls' else 'put'))]
     selected.sort(key=lambda x:(datetime.strptime(x['expiry'],'%m/%d/%Y'),abs(x['strike']-snapshot['spot'])))
 
