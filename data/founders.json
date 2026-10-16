@@ -1,5 +1,5 @@
 {
-  "research_as_of": "2026-10-15",
+  "research_as_of": "2026-10-16",
   "companies": {
     "GME": {
       "name": "GameStop",
@@ -18,9 +18,11 @@
       "source_urls": [
         "https://www.nvidia.com/en-eu/gtc/faq/",
         "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-        "https://www.nvidia.com/en-us/events/supercomputing/"
+        "https://www.nvidia.com/en-us/events/supercomputing/",
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+        "https://nvidianews.nvidia.com/"
       ],
-      "event_note": "GTC Berlin October 20–22 and SC26 November 15–20 are confirmed separately from earnings. SC26 is an industry technical appearance, not an investor day; saved flow expiration overlap does not establish intent."
+      "event_note": "RTX Spark launches October 16 with public demonstrations. GTC Berlin October 20–22 and SC26 November 15–20 remain confirmed. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -40,7 +42,7 @@
         "https://ir.coherent.com/static-files/55d96400-c4d6-4932-9714-afa1b0bff9f8",
         "https://ir.coherent.com/static-files/4df8d35b-3abc-4a04-a319-588b204e9bcd"
       ],
-      "event_note": "Industry appearances and a November 18 shareholder meeting are listed separately; these are not investor days. The previously reviewed proxy and annual report have a weekday/date inconsistency to confirm with IR. November 4 earnings are excluded. IR source access has been intermittent. At the latest October 15 check, the IR events page and company events page were readable; the proxy URL returned a retrieval error and the annual-report URL was readable. The stored shareholder-meeting date is retained from prior document verification, not newly reconfirmed from the unavailable proxy."
+      "event_note": "Industry appearances and the November 18 shareholder meeting remain listed separately, not as investor days. The proxy notice confirms November 18 at noon Eastern; the annual report prints the same date/time but an inconsistent weekday. Confirm timing with IR before relying on it. The IR events page, company events page, proxy and annual report were readable at the October 16 check after intermittent access errors. November 4 earnings are excluded."
     }
   },
   "events": [
@@ -55,7 +57,7 @@
       "summary": "Workshops October 20; Jensen Huang’s keynote October 21; conference and exhibits October 21–22. A company technology event, not earnings.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
     },
     {
       "ticker": "COHR",
@@ -67,7 +69,7 @@
       "summary": "Coherent lists a booth and technical talk at the fusion-energy conference in Munich. Confirmed attendance, not a confirmed financial-guidance announcement.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
     },
     {
       "ticker": "COHR",
@@ -79,7 +81,7 @@
       "summary": "Coherent lists Booth 2229 at the Washington, D.C. conference. An industry showcase, not an investor presentation or earnings event.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
     },
     {
       "ticker": "COHR",
@@ -91,7 +93,7 @@
       "summary": "The 2026 proxy notice and annual report list a virtual annual meeting November 18 at noon Eastern (9 a.m. Pacific). Governance voting, not an investor day or promised business update. The printed weekday conflicts with the calendar; confirm timing with IR before relying on it. Both official documents support the date; IR source access has been intermittent.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
     },
     {
       "ticker": "GME",
@@ -103,7 +105,7 @@
       "summary": "GameStop's warrant announcement specifies October 30, 2026 expiration and a $32 exercise price. This is a warrant deadline, not a newly announced investor event or a RAMBO meeting. No directional implication is established.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
     },
     {
       "ticker": "NVDA",
@@ -115,7 +117,19 @@
       "summary": "NVIDIA confirms participation in Supercomputing 2026 in Chicago, with technical sessions and demonstrations. This is an industry event, not an investor day or a promised financial-guidance update. Existing October 15 observations of the $185 put expiring November 27, 2026 and $150 put expiring May 21, 2027 span the full event. Date overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-15"
+      "verified_on": "2026-10-16"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "RTX Spark launch · public demo celebrations",
+      "date": "2026-10-16",
+      "end_date": "2026-10-16",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "category": "Product launch / public demonstrations",
+      "summary": "NVIDIA's October 15 blog confirms the October 16 RTX Spark launch and public demonstrations in several cities. The San Francisco event runs 10 a.m.–noon local time. Consumer/creator product launch, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the launch date and expire afterward. Calendar overlap alone does not establish launch-related intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-16"
     }
   ],
   "flows": [
