@@ -18,10 +18,26 @@
       "last_premium": "$25K",
       "last_price": "$2.05",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 11:14:42",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "766p 10/16/2026",
@@ -35,6 +51,19 @@
       "last_premium": "$67K",
       "last_price": "$2.27",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:06:17",
+            "returned": "2026/10/15 08:31:59",
+            "prestige_at": "2026/10/15 08:31:59"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:20:41",
       "away": "2026/10/15 08:06:17",
       "returned": "2026/10/15 08:31:59",
       "prestige_at": "2026/10/15 08:31:59"
@@ -51,6 +80,19 @@
       "last_premium": "$27K",
       "last_price": "$2.42",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:18:03",
+            "returned": "2026/10/15 08:23:26",
+            "prestige_at": "2026/10/15 08:23:26"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 09:52:52",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
       "prestige_at": "2026/10/15 08:23:26"
@@ -60,15 +102,28 @@
       "strike": 769,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Watching",
       "alerts": 0,
       "first": "2026/10/14 11:15:05",
       "last": "2026/10/14 12:55:08",
       "last_premium": "$71K",
       "last_price": "$2.33",
       "last_side": "ASK",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:15:14",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "770c 10/16/2026",
@@ -82,62 +137,117 @@
       "last_premium": "$28K",
       "last_price": "$1.83",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 11:05:49",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "767p 10/15/2026",
       "strike": 767,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Watching",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:56:02",
       "last_premium": "$32K",
       "last_price": "$1.59",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "away": "2026/10/15 08:18:03",
+            "returned": "2026/10/15 08:23:26",
+            "prestige_at": "2026/10/15 08:23:26",
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:18:17",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
-      "prestige_at": "2026/10/15 08:23:26",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "prestige_at": "2026/10/15 08:23:26"
     },
     {
       "contract": "765p 10/15/2026",
       "strike": 765,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Watching",
       "alerts": 0,
       "first": "2026/10/14 11:16:10",
       "last": "2026/10/14 12:47:34",
       "last_premium": "$22K",
       "last_price": "$1.17",
       "last_side": "ASK",
-      "prestige_at": "2026/10/14 12:38:43",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 12:38:43",
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:18:17",
+      "away": "2026/10/14 12:31:12",
+      "returned": "2026/10/14 12:38:43",
+      "prestige_at": "2026/10/14 12:38:43"
     },
     {
       "contract": "768p 10/15/2026",
       "strike": 768,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Current Prestige",
       "alerts": 0,
       "first": "2026/10/14 11:17:22",
       "last": "2026/10/14 13:01:57",
       "last_premium": "$18K",
       "last_price": "$1.75",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54",
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:18:17",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "prestige_at": "2026/10/15 12:12:54"
     },
     {
       "contract": "767p 10/19/2026",
@@ -152,6 +262,19 @@
       "last_price": "$2.35",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:18:03",
+            "returned": "2026/10/15 08:23:26",
+            "prestige_at": "2026/10/15 08:23:26"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:18:17",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
       "prestige_at": "2026/10/15 08:23:26"
@@ -161,34 +284,60 @@
       "strike": 766,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Watching",
       "alerts": 0,
       "first": "2026/10/14 11:19:29",
       "last": "2026/10/14 13:14:59",
       "last_premium": "$20K",
       "last_price": "$1.25",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "away": "2026/10/15 08:06:17",
+            "returned": "2026/10/15 08:31:59",
+            "prestige_at": "2026/10/15 08:31:59",
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:21:30",
       "away": "2026/10/15 08:06:17",
       "returned": "2026/10/15 08:31:59",
-      "prestige_at": "2026/10/15 08:31:59",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "prestige_at": "2026/10/15 08:31:59"
     },
     {
       "contract": "769c 10/16/2026",
       "strike": 769,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 4,
       "first": "2026/10/14 10:37:21",
       "last": "2026/10/14 12:28:59",
       "last_premium": "$36K",
       "last_price": "$3.44",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:37:21",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "771c 10/15/2026",
@@ -202,31 +351,63 @@
       "last_premium": "$160K",
       "last_price": "$1.60",
       "last_side": "ASK",
-      "away": "2026/10/14 12:06:08",
-      "returned": "2026/10/14 12:06:45",
-      "prestige_at": "2026/10/14 12:06:45",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 12:06:08",
+            "returned": "2026/10/14 12:06:45",
+            "prestige_at": "2026/10/14 12:06:45",
+            "retired_at": "2026/10/15 10:41:20",
+            "retired_spot": 771.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 11:22:55",
+      "away": "2026/10/14 12:06:08",
+      "returned": "2026/10/14 12:06:45",
+      "prestige_at": "2026/10/14 12:06:45"
     },
     {
       "contract": "772c 10/16/2026",
       "strike": 772,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 9,
       "first": "2026/10/14 08:48:26",
       "last": "2026/10/14 13:04:20",
       "last_premium": "$81K",
       "last_price": "$2.15",
       "last_side": "ASK",
-      "away": "2026/10/14 11:24:00",
-      "returned": "2026/10/14 11:50:41",
-      "prestige_at": "2026/10/14 11:50:41",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 11:24:00",
+            "returned": "2026/10/14 11:50:41",
+            "prestige_at": "2026/10/14 11:50:41",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 12:16:57",
       "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 08:48:26",
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42"
     },
     {
       "contract": "765p 10/16/2026",
@@ -240,6 +421,19 @@
       "last_premium": "$40K",
       "last_price": "$2.35",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 12:38:43"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:11:28",
+      "away": "2026/10/14 12:31:12",
+      "returned": "2026/10/14 12:38:43",
       "prestige_at": "2026/10/14 12:38:43"
     },
     {
@@ -254,6 +448,19 @@
       "last_premium": "$57K",
       "last_price": "$3.23",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:06:17",
+            "returned": "2026/10/15 08:31:59",
+            "prestige_at": "2026/10/15 08:31:59"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:24:57",
       "away": "2026/10/15 08:06:17",
       "returned": "2026/10/15 08:31:59",
       "prestige_at": "2026/10/15 08:31:59"
@@ -263,19 +470,32 @@
       "strike": 768,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 0,
       "first": "2026/10/14 11:25:25",
       "last": "2026/10/14 12:08:56",
       "last_premium": "$217K",
       "last_price": "$2.41",
       "last_side": "ASK",
-      "away": "2026/10/15 12:12:11",
-      "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54",
-      "retired_at": "2026/10/15 12:12:54",
-      "retired_spot": 771.84,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54",
+            "retired_at": "2026/10/15 12:12:54",
+            "retired_spot": 771.84,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:37:05",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "764p 10/16/2026",
@@ -289,6 +509,19 @@
       "last_premium": "$64K",
       "last_price": "$2.05",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 11:11:28"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:57:06",
+      "away": "2026/10/14 11:06:53",
+      "returned": "2026/10/14 11:11:28",
       "prestige_at": "2026/10/14 11:11:28"
     },
     {
@@ -296,38 +529,64 @@
       "strike": 768,
       "type": "call",
       "expiry": "10/16/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 10,
       "first": "2026/10/14 10:50:08",
       "last": "2026/10/15 07:07:44",
       "last_premium": "$27K",
       "last_price": "$2.55",
       "last_side": "ASK",
-      "away": "2026/10/15 12:12:11",
-      "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54",
-      "retired_at": "2026/10/15 12:12:54",
-      "retired_spot": 771.84,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54",
+            "retired_at": "2026/10/15 12:12:54",
+            "retired_spot": 771.84,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:50:08",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "768c 10/23/2026",
       "strike": 768,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/14 11:45:06",
       "last": "2026/10/14 12:00:37",
       "last_premium": "$155K",
       "last_price": "$6.33",
       "last_side": "-",
-      "away": "2026/10/15 12:12:11",
-      "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54",
-      "retired_at": "2026/10/15 12:12:54",
-      "retired_spot": 771.84,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54",
+            "retired_at": "2026/10/15 12:12:54",
+            "retired_spot": 771.84,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:45:06",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "766p 10/21/2026",
@@ -342,6 +601,19 @@
       "last_price": "$4.65",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:06:17",
+            "returned": "2026/10/15 08:31:59",
+            "prestige_at": "2026/10/15 08:31:59"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:54:32",
       "away": "2026/10/15 08:06:17",
       "returned": "2026/10/15 08:31:59",
       "prestige_at": "2026/10/15 08:31:59"
@@ -358,13 +630,29 @@
       "last_premium": "$45K",
       "last_price": "$4.45",
       "last_side": "ASK",
-      "away": "2026/10/14 12:06:08",
-      "returned": "2026/10/14 12:06:45",
-      "prestige_at": "2026/10/14 12:06:45",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 12:06:08",
+            "returned": "2026/10/14 12:06:45",
+            "prestige_at": "2026/10/14 12:06:45",
+            "retired_at": "2026/10/15 10:41:20",
+            "retired_spot": 771.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 11:54:37",
+      "away": "2026/10/14 12:06:08",
+      "returned": "2026/10/14 12:06:45",
+      "prestige_at": "2026/10/14 12:06:45"
     },
     {
       "contract": "770c 10/28/2026",
@@ -378,10 +666,26 @@
       "last_premium": "$166K",
       "last_price": "$6.86",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 12:01:09",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "771c 10/16/2026",
@@ -395,52 +699,97 @@
       "last_premium": "$16K",
       "last_price": "$1.60",
       "last_side": "ASK",
-      "prestige_at": "2026/10/14 11:02:55",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 11:02:55",
+            "retired_at": "2026/10/15 10:41:20",
+            "retired_spot": 771.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 08:56:56",
+      "away": "2026/10/14 11:01:48",
+      "returned": "2026/10/14 11:02:55",
+      "prestige_at": "2026/10/14 11:02:55"
     },
     {
       "contract": "769c 10/23/2026",
       "strike": 769,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/14 12:13:28",
       "last": "2026/10/14 12:46:14",
       "last_premium": "$62K",
       "last_price": "$6.24",
       "last_side": "-",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:13:28",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "772c 10/15/2026",
       "strike": 772,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 0,
       "first": "2026/10/14 12:20:07",
       "last": "2026/10/14 13:14:02",
       "last_premium": "$15K",
       "last_price": "$1.21",
       "last_side": "ASK",
-      "away": "2026/10/15 06:47:53",
-      "returned": "2026/10/15 07:39:53",
-      "prestige_at": "2026/10/15 07:39:53",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/15 06:47:53",
+            "returned": "2026/10/15 07:39:53",
+            "prestige_at": "2026/10/15 07:39:53",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 12:16:57",
       "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 12:28:59",
+      "away": "2026/10/15 06:47:53",
+      "returned": "2026/10/15 07:39:53",
+      "prestige_at": "2026/10/15 07:39:53"
     },
     {
       "contract": "772c 10/21/2026",
       "strike": 772,
       "type": "call",
       "expiry": "10/21/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/14 12:31:12",
       "last": "2026/10/15 08:30:21",
@@ -448,12 +797,28 @@
       "last_price": "$3.87",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
-      "away": "2026/10/15 06:47:53",
-      "returned": "2026/10/15 07:39:53",
-      "prestige_at": "2026/10/15 07:39:53",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/15 06:47:53",
+            "returned": "2026/10/15 07:39:53",
+            "prestige_at": "2026/10/15 07:39:53",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 12:16:57",
       "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 12:31:12",
+      "away": "2026/10/15 06:47:53",
+      "returned": "2026/10/15 07:39:53",
+      "prestige_at": "2026/10/15 07:39:53"
     },
     {
       "contract": "773c 10/21/2026",
@@ -467,6 +832,19 @@
       "last_premium": "$45K",
       "last_price": "$3.36",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 12:38:43",
+            "returned": "2026/10/14 12:59:45",
+            "prestige_at": "2026/10/14 12:59:45"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:33:07",
       "away": "2026/10/14 12:38:43",
       "returned": "2026/10/14 12:59:45",
       "prestige_at": "2026/10/14 12:59:45"
@@ -476,15 +854,25 @@
       "strike": 769,
       "type": "put",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "On Deck",
       "alerts": 0,
       "first": "2026/10/14 12:34:09",
       "last": "2026/10/14 13:12:24",
       "last_premium": "$46K",
       "last_price": "$2.28",
       "last_side": "ASK",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:34:09"
     },
     {
       "contract": "769p 10/16/2026",
@@ -497,25 +885,47 @@
       "last": "2026/10/14 12:34:09",
       "last_premium": "$115K",
       "last_price": "$2.91",
-      "last_side": "ASK"
+      "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 09:14:46"
     },
     {
       "contract": "773c 10/15/2026",
       "strike": 773,
       "type": "call",
       "expiry": "10/15/2026",
-      "status": "Expired",
+      "status": "Current Prestige",
       "alerts": 0,
       "first": "2026/10/14 12:34:21",
       "last": "2026/10/14 13:02:50",
       "last_premium": "$15K",
       "last_price": "$0.98",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Expired",
+          "previous_fields": {
+            "away": "2026/10/14 12:38:43",
+            "returned": "2026/10/14 12:59:45",
+            "prestige_at": "2026/10/14 12:59:45",
+            "retired_at": "2026/10/15 13:15:00",
+            "retired_reason": "Expiration has passed; archived from active boards"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:34:24",
       "away": "2026/10/14 12:38:43",
       "returned": "2026/10/14 12:59:45",
-      "prestige_at": "2026/10/14 12:59:45",
-      "retired_at": "2026/10/15 13:15:00",
-      "retired_reason": "Expiration has passed; archived from active boards"
+      "prestige_at": "2026/10/14 12:59:45"
     },
     {
       "contract": "768p 10/16/2026",
@@ -529,6 +939,19 @@
       "last_premium": "$33K",
       "last_price": "$2.99",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:38:43",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
       "prestige_at": "2026/10/15 12:12:54"
@@ -545,6 +968,19 @@
       "last_premium": "$25K",
       "last_price": "$2.46",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 12:46:14"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 12:42:39",
+      "away": "2026/10/14 12:45:08",
+      "returned": "2026/10/14 12:46:14",
       "prestige_at": "2026/10/14 12:46:14"
     },
     {
@@ -559,10 +995,26 @@
       "last_premium": "$64K",
       "last_price": "$4.89",
       "last_side": "ASK",
-      "prestige_at": "2026/10/15 07:01:30",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 09:28:27",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "773c 10/16/2026",
@@ -576,6 +1028,19 @@
       "last_premium": "$21K",
       "last_price": "$1.75",
       "last_side": "ASK",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:32:23",
+            "returned": "2026/10/14 09:38:34",
+            "prestige_at": "2026/10/14 09:38:34"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 07:24:42",
       "away": "2026/10/14 09:32:23",
       "returned": "2026/10/14 09:38:34",
       "prestige_at": "2026/10/14 09:38:34"
@@ -592,12 +1057,25 @@
       "last_price": "$2.40",
       "last_side": "ASK",
       "status": "Watching",
-      "away": "2026/10/14 07:53:08",
-      "returned": "2026/10/15 12:16:57",
-      "prestige_at": "2026/10/15 12:16:57",
-      "retired_at": "2026/10/15 12:16:57",
-      "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/14 07:53:08",
+            "returned": "2026/10/15 12:16:57",
+            "prestige_at": "2026/10/15 12:16:57",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 10:47:23",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "778c 10/16/2026",
@@ -610,7 +1088,17 @@
       "last_premium": "$144K",
       "last_price": "$3.55",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 11:16:30",
+      "away": "2026/10/14 06:59:00"
     },
     {
       "contract": "777p 10/16/2026",
@@ -624,9 +1112,22 @@
       "last_price": "$2.70",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 11:17:48",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "778c 10/23/2026",
@@ -639,7 +1140,17 @@
       "last_premium": "$118K",
       "last_price": "$5.90",
       "last_side": "-",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 11:44:52",
+      "away": "2026/10/14 06:59:00"
     },
     {
       "contract": "779c 10/16/2026",
@@ -653,6 +1164,19 @@
       "last_price": "$3.07",
       "last_side": "ASK",
       "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 06:30:14",
+            "returned": "2026/10/14 06:51:25",
+            "prestige_at": "2026/10/14 06:51:25"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 12:15:47",
       "away": "2026/10/14 06:30:14",
       "returned": "2026/10/14 06:51:25",
       "prestige_at": "2026/10/14 06:51:25"
@@ -668,7 +1192,17 @@
       "last_premium": "$39K",
       "last_price": "$3.94",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/12 12:40:35",
+      "away": "2026/10/14 06:59:00"
     },
     {
       "contract": "781c 10/20/2026",
@@ -682,6 +1216,19 @@
       "last_price": "$3.06",
       "last_side": "ASK",
       "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/13 08:13:25",
+            "returned": "2026/10/13 08:14:15",
+            "prestige_at": "2026/10/13 08:14:15"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 06:53:36",
       "away": "2026/10/13 08:13:25",
       "returned": "2026/10/13 08:14:15",
       "prestige_at": "2026/10/13 08:14:15"
@@ -697,13 +1244,29 @@
       "last_premium": "$72K",
       "last_price": "$2.90",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/13 11:08:39",
-      "returned": "2026/10/13 11:15:31",
-      "prestige_at": "2026/10/13 11:15:31",
+      "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/13 11:08:39",
+            "returned": "2026/10/13 11:15:31",
+            "prestige_at": "2026/10/13 11:15:31",
+            "retired_at": "2026/10/14 06:59:00",
+            "retired_spot": 773.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/14 06:59:00",
       "retired_spot": 773.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/13 07:25:31",
+      "away": "2026/10/13 11:08:39",
+      "returned": "2026/10/13 11:15:31",
+      "prestige_at": "2026/10/13 11:15:31"
     },
     {
       "contract": "778c 10/20/2026",
@@ -716,7 +1279,17 @@
       "last_premium": "$115K",
       "last_price": "$4.13",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 07:40:02",
+      "away": "2026/10/14 06:59:00"
     },
     {
       "contract": "777p 10/22/2026",
@@ -730,9 +1303,22 @@
       "last_price": "$4.35",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 07:45:13",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "776p 10/19/2026",
@@ -746,12 +1332,25 @@
       "last_price": "$2.71",
       "last_side": "ASK",
       "status": "Watching",
-      "away": "2026/10/14 07:53:08",
-      "returned": "2026/10/15 12:16:57",
-      "prestige_at": "2026/10/15 12:16:57",
-      "retired_at": "2026/10/15 12:16:57",
-      "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/14 07:53:08",
+            "returned": "2026/10/15 12:16:57",
+            "prestige_at": "2026/10/15 12:16:57",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 07:49:07",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "777p 10/19/2026",
@@ -765,9 +1364,22 @@
       "last_price": "$3.50",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 08:14:15",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "779c 10/19/2026",
@@ -781,6 +1393,19 @@
       "last_price": "$3.04",
       "last_side": "ASK",
       "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 06:30:14",
+            "returned": "2026/10/14 06:51:25",
+            "prestige_at": "2026/10/14 06:51:25"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 08:20:55",
       "away": "2026/10/14 06:30:14",
       "returned": "2026/10/14 06:51:25",
       "prestige_at": "2026/10/14 06:51:25"
@@ -796,7 +1421,17 @@
       "last_premium": "$303K",
       "last_price": "$4.46",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 08:32:52",
+      "away": "2026/10/14 06:30:14"
     },
     {
       "contract": "775p 10/16/2026",
@@ -809,13 +1444,26 @@
       "last_premium": "$46K",
       "last_price": "$1.89",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 08:37:12",
-      "returned": "2026/10/14 08:37:39",
-      "prestige_at": "2026/10/14 08:37:39",
-      "retired_at": "2026/10/14 08:37:39",
-      "retired_spot": 771.26,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 08:37:12",
+            "returned": "2026/10/14 08:37:39",
+            "prestige_at": "2026/10/14 08:37:39",
+            "retired_at": "2026/10/14 08:37:39",
+            "retired_spot": 771.26,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 09:59:32",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "777p 11/13/2026",
@@ -829,9 +1477,22 @@
       "last_price": "$10.16",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 10:50:10",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "777c 10/16/2026",
@@ -844,7 +1505,17 @@
       "last_premium": "$59K",
       "last_price": "$3.59",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 10:50:50",
+      "away": "2026/10/14 07:10:32"
     },
     {
       "contract": "778p 10/19/2026",
@@ -858,9 +1529,22 @@
       "last_price": "$3.44",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 11:12:57",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "777p 10/23/2026",
@@ -874,9 +1558,22 @@
       "last_price": "$4.76",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 11:16:53",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "775p 11/13/2026",
@@ -889,13 +1586,26 @@
       "last_premium": "$313K",
       "last_price": "$8.98",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 08:37:12",
-      "returned": "2026/10/14 08:37:39",
-      "prestige_at": "2026/10/14 08:37:39",
-      "retired_at": "2026/10/14 08:37:39",
-      "retired_spot": 771.26,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 08:37:12",
+            "returned": "2026/10/14 08:37:39",
+            "prestige_at": "2026/10/14 08:37:39",
+            "retired_at": "2026/10/14 08:37:39",
+            "retired_spot": 771.26,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 12:12:08",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "777p 11/27/2026",
@@ -909,9 +1619,22 @@
       "last_price": "$11.69",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 12:39:16",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "775p 10/23/2026",
@@ -924,13 +1647,26 @@
       "last_premium": "$65K",
       "last_price": "$3.70",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 08:37:12",
-      "returned": "2026/10/14 08:37:39",
-      "prestige_at": "2026/10/14 08:37:39",
-      "retired_at": "2026/10/14 08:37:39",
-      "retired_spot": 771.26,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 08:37:12",
+            "returned": "2026/10/14 08:37:39",
+            "prestige_at": "2026/10/14 08:37:39",
+            "retired_at": "2026/10/14 08:37:39",
+            "retired_spot": 771.26,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 12:44:59",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "776p 11/13/2026",
@@ -944,12 +1680,25 @@
       "last_price": "$9.36",
       "last_side": "ASK",
       "status": "Watching",
-      "away": "2026/10/14 07:53:08",
-      "returned": "2026/10/15 12:16:57",
-      "prestige_at": "2026/10/15 12:16:57",
-      "retired_at": "2026/10/15 12:16:57",
-      "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/14 07:53:08",
+            "returned": "2026/10/15 12:16:57",
+            "prestige_at": "2026/10/15 12:16:57",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 12:51:20",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "780c 10/23/2026",
@@ -962,7 +1711,17 @@
       "last_premium": "$95K",
       "last_price": "$4.87",
       "last_side": "ASK",
-      "status": "Approaching"
+      "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/13 12:53:48",
+      "away": "2026/10/14 06:30:14"
     },
     {
       "contract": "774p 10/22/2026",
@@ -975,13 +1734,26 @@
       "last_premium": "$140K",
       "last_price": "$4.37",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 09:12:36",
-      "returned": "2026/10/14 09:41:01",
-      "prestige_at": "2026/10/14 09:41:01",
-      "retired_at": "2026/10/14 09:41:01",
-      "retired_spot": 770.34,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 09:12:36",
+            "returned": "2026/10/14 09:41:01",
+            "prestige_at": "2026/10/14 09:41:01",
+            "retired_at": "2026/10/14 09:41:01",
+            "retired_spot": 770.34,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 06:30:14",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "776c 10/19/2026",
@@ -995,6 +1767,19 @@
       "last_price": "$3.60",
       "last_side": "ASK",
       "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 07:53:08",
+            "returned": "2026/10/15 12:16:57",
+            "prestige_at": "2026/10/15 12:16:57"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 06:51:25",
       "away": "2026/10/14 07:53:08",
       "returned": "2026/10/15 12:16:57",
       "prestige_at": "2026/10/15 12:16:57"
@@ -1011,6 +1796,19 @@
       "last_price": "$2.22",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:12:36",
+            "returned": "2026/10/14 09:41:01",
+            "prestige_at": "2026/10/14 09:41:01"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 06:59:00",
       "away": "2026/10/14 09:12:36",
       "returned": "2026/10/14 09:41:01",
       "prestige_at": "2026/10/14 09:41:01"
@@ -1028,6 +1826,19 @@
       "last_side": "ASK",
       "status": "Current Prestige",
       "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:12:36",
+            "returned": "2026/10/14 09:41:01",
+            "prestige_at": "2026/10/14 09:41:01"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 07:00:37",
       "away": "2026/10/14 09:12:36",
       "returned": "2026/10/14 09:41:01",
       "prestige_at": "2026/10/14 09:41:01"
@@ -1043,13 +1854,26 @@
       "last_premium": "$34K",
       "last_price": "$3.38",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 09:32:23",
-      "returned": "2026/10/14 09:38:34",
-      "prestige_at": "2026/10/14 09:38:34",
-      "retired_at": "2026/10/14 09:38:34",
-      "retired_spot": 769.94,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 09:32:23",
+            "returned": "2026/10/14 09:38:34",
+            "prestige_at": "2026/10/14 09:38:34",
+            "retired_at": "2026/10/14 09:38:34",
+            "retired_spot": 769.94,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 07:03:34",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "776c 10/23/2026",
@@ -1063,6 +1887,19 @@
       "last_price": "$4.20",
       "last_side": "ASK",
       "status": "Approaching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 07:53:08",
+            "returned": "2026/10/15 12:16:57",
+            "prestige_at": "2026/10/15 12:16:57"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 07:14:00",
       "away": "2026/10/14 07:53:08",
       "returned": "2026/10/15 12:16:57",
       "prestige_at": "2026/10/15 12:16:57"
@@ -1080,6 +1917,19 @@
       "last_side": "ASK",
       "status": "Current Prestige",
       "alerts_in_latest_capture": 4,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:32:23",
+            "returned": "2026/10/14 09:38:34",
+            "prestige_at": "2026/10/14 09:38:34"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 07:53:08",
       "away": "2026/10/14 09:32:23",
       "returned": "2026/10/14 09:38:34",
       "prestige_at": "2026/10/14 09:38:34"
@@ -1095,11 +1945,21 @@
       "last_premium": "$50K",
       "last_price": "$2.98",
       "last_side": "ASK",
-      "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30",
-      "retired_at": "2026/10/15 07:01:30",
-      "retired_spot": 766.64,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "On Deck",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 07:01:30",
+            "retired_spot": 766.64,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:11:39"
     },
     {
       "contract": "775c 10/26/2026",
@@ -1113,6 +1973,19 @@
       "last_price": "$4.72",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 08:37:12",
+            "returned": "2026/10/14 08:37:39",
+            "prestige_at": "2026/10/14 08:37:39"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:20:58",
       "away": "2026/10/14 08:37:12",
       "returned": "2026/10/14 08:37:39",
       "prestige_at": "2026/10/14 08:37:39"
@@ -1129,6 +2002,19 @@
       "last_price": "$4.78",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:32:23",
+            "returned": "2026/10/14 09:38:34",
+            "prestige_at": "2026/10/14 09:38:34"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:20:58",
       "away": "2026/10/14 09:32:23",
       "returned": "2026/10/14 09:38:34",
       "prestige_at": "2026/10/14 09:38:34"
@@ -1146,6 +2032,19 @@
       "last_side": "ASK",
       "status": "Current Prestige",
       "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 08:37:12",
+            "returned": "2026/10/14 08:37:39",
+            "prestige_at": "2026/10/14 08:37:39"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:23:46",
       "away": "2026/10/14 08:37:12",
       "returned": "2026/10/14 08:37:39",
       "prestige_at": "2026/10/14 08:37:39"
@@ -1161,14 +2060,30 @@
       "last_premium": "$119K",
       "last_price": "$2.96",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts_in_latest_capture": 3,
-      "away": "2026/10/14 10:49:18",
-      "returned": "2026/10/14 11:14:42",
-      "prestige_at": "2026/10/14 11:14:42",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 10:49:18",
+            "returned": "2026/10/14 11:14:42",
+            "prestige_at": "2026/10/14 11:14:42",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 12:16:57",
       "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 08:25:44",
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42"
     },
     {
       "contract": "774c 10/16/2026",
@@ -1182,6 +2097,19 @@
       "last_price": "$1.61",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:12:36",
+            "returned": "2026/10/14 09:41:01",
+            "prestige_at": "2026/10/14 09:41:01"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:37:12",
       "away": "2026/10/14 09:12:36",
       "returned": "2026/10/14 09:41:01",
       "prestige_at": "2026/10/14 09:41:01"
@@ -1199,6 +2127,19 @@
       "last_side": "ASK",
       "status": "Current Prestige",
       "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 08:38:23",
+            "returned": "2026/10/15 10:41:20",
+            "prestige_at": "2026/10/15 10:41:20"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:37:39",
       "away": "2026/10/14 08:38:23",
       "returned": "2026/10/15 10:41:20",
       "prestige_at": "2026/10/15 10:41:20"
@@ -1215,6 +2156,19 @@
       "last_price": "$4.11",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:38:23",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
       "prestige_at": "2026/10/15 12:12:54"
@@ -1232,6 +2186,19 @@
       "last_side": "ASK",
       "status": "Current Prestige",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/14 09:12:36",
+            "returned": "2026/10/14 09:41:01",
+            "prestige_at": "2026/10/14 09:41:01"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:43:05",
       "away": "2026/10/14 09:12:36",
       "returned": "2026/10/14 09:41:01",
       "prestige_at": "2026/10/14 09:41:01"
@@ -1247,12 +2214,22 @@
       "last_premium": "$95K",
       "last_price": "$4.00",
       "last_side": "ASK",
-      "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30",
-      "retired_at": "2026/10/15 07:01:30",
-      "retired_spot": 766.64,
-      "retired_reason": "Observed in the money after becoming Prestige",
-      "alerts_in_latest_capture": 1
+      "status": "On Deck",
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 07:01:30",
+            "retired_spot": 766.64,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 08:47:49"
     },
     {
       "contract": "771c 10/19/2026",
@@ -1266,11 +2243,27 @@
       "last_price": "$2.66",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/14 11:02:55",
       "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 11:02:55",
+            "retired_at": "2026/10/15 10:41:20",
+            "retired_spot": 771.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 09:12:36",
+      "away": "2026/10/14 11:01:48",
+      "returned": "2026/10/14 11:02:55",
+      "prestige_at": "2026/10/14 11:02:55"
     },
     {
       "contract": "770p 10/21/2026",
@@ -1283,11 +2276,21 @@
       "last_premium": "$44K",
       "last_price": "$4.36",
       "last_side": "ASK",
-      "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30",
-      "retired_at": "2026/10/15 07:01:30",
-      "retired_spot": 766.64,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "On Deck",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 07:01:30",
+            "retired_spot": 766.64,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 09:59:38"
     },
     {
       "contract": "768p 10/21/2026",
@@ -1301,6 +2304,19 @@
       "last_price": "$4.77",
       "last_side": "ASK",
       "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:29:43",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
       "prestige_at": "2026/10/15 12:12:54"
@@ -1316,13 +2332,29 @@
       "last_premium": "$77K",
       "last_price": "$7.29",
       "last_side": "ASK",
-      "status": "Approaching",
-      "away": "2026/10/14 10:49:18",
-      "returned": "2026/10/14 11:14:42",
-      "prestige_at": "2026/10/14 11:14:42",
+      "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 10:49:18",
+            "returned": "2026/10/14 11:14:42",
+            "prestige_at": "2026/10/14 11:14:42",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 12:16:57",
       "retired_spot": 772.29,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 10:32:55",
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42"
     },
     {
       "contract": "771c 11/13/2026",
@@ -1336,10 +2368,26 @@
       "last_price": "$12.07",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/14 11:02:55",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/14 11:02:55",
+            "retired_at": "2026/10/15 10:41:20",
+            "retired_spot": 771.44,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 10:35:29",
+      "away": "2026/10/14 11:01:48",
+      "returned": "2026/10/14 11:02:55",
+      "prestige_at": "2026/10/14 11:02:55"
     },
     {
       "contract": "769c 10/19/2026",
@@ -1352,11 +2400,24 @@
       "last_premium": "$39K",
       "last_price": "$3.90",
       "last_side": "ASK",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 10:35:46",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "770c 11/13/2026",
@@ -1370,10 +2431,26 @@
       "last_price": "$12.17",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 10:52:06",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "767p 10/22/2026",
@@ -1387,6 +2464,19 @@
       "last_price": "$5.35",
       "last_side": "ASK",
       "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 08:18:03",
+            "returned": "2026/10/15 08:23:26",
+            "prestige_at": "2026/10/15 08:23:26"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:00:18",
       "away": "2026/10/15 08:18:03",
       "returned": "2026/10/15 08:23:26",
       "prestige_at": "2026/10/15 08:23:26"
@@ -1403,11 +2493,27 @@
       "last_price": "$3.47",
       "last_side": "ASK",
       "status": "Current Prestige",
-      "prestige_at": "2026/10/15 07:01:30",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 08:06:17",
+            "retired_spot": 770.21,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/15 08:06:17",
       "retired_spot": 770.21,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 11:03:17",
+      "away": "2026/10/15 06:53:57",
+      "returned": "2026/10/15 07:01:30",
+      "prestige_at": "2026/10/15 07:01:30"
     },
     {
       "contract": "768c 10/19/2026",
@@ -1420,13 +2526,26 @@
       "last_premium": "$52K",
       "last_price": "$4.33",
       "last_side": "ASK",
-      "status": "On Deck",
-      "away": "2026/10/15 12:12:11",
-      "returned": "2026/10/15 12:12:54",
-      "prestige_at": "2026/10/15 12:12:54",
-      "retired_at": "2026/10/15 12:12:54",
-      "retired_spot": 771.84,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54",
+            "retired_at": "2026/10/15 12:12:54",
+            "retired_spot": 771.84,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 11:03:35",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "769c 11/13/2026",
@@ -1439,11 +2558,24 @@
       "last_premium": "$120K",
       "last_price": "$12.04",
       "last_side": "ASK",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 06:48:02",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "763p 10/19/2026",
@@ -1458,6 +2590,19 @@
       "last_side": "ASK",
       "status": "Watching",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/15 07:01:56",
+            "returned": "2026/10/15 07:04:06",
+            "prestige_at": "2026/10/15 07:04:06"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 06:53:57",
       "away": "2026/10/15 07:01:56",
       "returned": "2026/10/15 07:04:06",
       "prestige_at": "2026/10/15 07:04:06"
@@ -1473,13 +2618,26 @@
       "last_premium": "$34K",
       "last_price": "$3.17",
       "last_side": "ASK",
-      "status": "On Deck",
-      "away": "2026/10/15 08:18:03",
-      "returned": "2026/10/15 08:23:26",
-      "prestige_at": "2026/10/15 08:23:26",
-      "retired_at": "2026/10/15 08:23:26",
-      "retired_spot": 770.47,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {
+            "away": "2026/10/15 08:18:03",
+            "returned": "2026/10/15 08:23:26",
+            "prestige_at": "2026/10/15 08:23:26",
+            "retired_at": "2026/10/15 08:23:26",
+            "retired_spot": 770.47,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 07:02:25",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "771c 10/20/2026",
@@ -1494,9 +2652,22 @@
       "last_price": "$2.86",
       "last_premium": "$65K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 07:19:41",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "769c 11/20/2026",
@@ -1511,9 +2682,22 @@
       "last_price": "$14.54",
       "last_premium": "$291K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 07:21:15",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "765p 10/21/2026",
@@ -1527,7 +2711,17 @@
       "last_side": "ASK",
       "last_price": "$3.70",
       "last_premium": "$53K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 07:35:00",
+      "away": "2026/10/15 07:42:56"
     },
     {
       "contract": "768p 10/19/2026",
@@ -1542,6 +2736,19 @@
       "last_price": "$2.76",
       "last_premium": "$28K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 07:58:47",
       "away": "2026/10/15 12:12:11",
       "returned": "2026/10/15 12:12:54",
       "prestige_at": "2026/10/15 12:12:54"
@@ -1558,7 +2765,16 @@
       "last_side": "-",
       "last_price": "$3.27",
       "last_premium": "$65K",
-      "alerts_in_latest_capture": 3
+      "alerts_in_latest_capture": 3,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 08:06:17"
     },
     {
       "contract": "771c 10/26/2026",
@@ -1573,16 +2789,29 @@
       "last_price": "$6.14",
       "last_premium": "$123K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 08:23:26",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "770p 10/19/2026",
       "strike": 770,
       "type": "put",
       "expiry": "10/19/2026",
-      "status": "Watching",
+      "status": "On Deck",
       "alerts": 3,
       "first": "2026/10/08 10:04:23",
       "last": "2026/10/15 13:13:20",
@@ -1590,12 +2819,22 @@
       "last_price": "$2.17",
       "last_premium": "$37K",
       "alerts_in_latest_capture": 3,
-      "away": "2026/10/12 10:47:23",
-      "returned": "2026/10/14 06:59:00",
-      "prestige_at": "2026/10/14 06:59:00",
-      "retired_at": "2026/10/14 09:12:56",
-      "retired_spot": 769.94,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/12 10:47:23",
+            "returned": "2026/10/14 06:59:00",
+            "prestige_at": "2026/10/14 06:59:00",
+            "retired_at": "2026/10/14 09:12:56",
+            "retired_spot": 769.94,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 06:59:00"
     },
     {
       "contract": "770c 10/23/2026",
@@ -1610,9 +2849,22 @@
       "last_price": "$5.60",
       "last_premium": "$56K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 09:33:03",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "769p 10/19/2026",
@@ -1626,7 +2878,16 @@
       "last_side": "ASK",
       "last_price": "$2.65",
       "last_premium": "$32K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 10:12:39"
     },
     {
       "contract": "771c 10/22/2026",
@@ -1641,9 +2902,22 @@
       "last_price": "$4.80",
       "last_premium": "$48K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 10:20:43",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "774c 10/23/2026",
@@ -1658,6 +2932,19 @@
       "last_price": "$4.36",
       "last_premium": "$52K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 11:12:57",
+            "returned": "2026/10/15 11:58:30",
+            "prestige_at": "2026/10/15 11:58:30"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 10:44:01",
       "away": "2026/10/15 11:12:57",
       "returned": "2026/10/15 11:58:30",
       "prestige_at": "2026/10/15 11:58:30"
@@ -1674,7 +2961,16 @@
       "last_side": "ASK",
       "last_price": "$3.43",
       "last_premium": "$687K",
-      "alerts_in_latest_capture": 12
+      "alerts_in_latest_capture": 12,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 10:50:11"
     },
     {
       "contract": "771p 10/19/2026",
@@ -1688,7 +2984,16 @@
       "last_side": "ASK",
       "last_price": "$2.48",
       "last_premium": "$27K",
-      "alerts_in_latest_capture": 3
+      "alerts_in_latest_capture": 3,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 10:54:53"
     },
     {
       "contract": "773c 10/20/2026",
@@ -1702,7 +3007,16 @@
       "last_side": "ASK",
       "last_price": "$3.11",
       "last_premium": "$124K",
-      "alerts_in_latest_capture": 5
+      "alerts_in_latest_capture": 5,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 11:00:22"
     },
     {
       "contract": "769p 10/21/2026",
@@ -1716,7 +3030,16 @@
       "last_side": "ASK",
       "last_price": "$3.63",
       "last_premium": "$267K",
-      "alerts_in_latest_capture": 2
+      "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 11:21:31"
     },
     {
       "contract": "772c 10/20/2026",
@@ -1730,7 +3053,16 @@
       "last_side": "ASK",
       "last_price": "$3.72",
       "last_premium": "$38K",
-      "alerts_in_latest_capture": 2
+      "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 11:32:01"
     },
     {
       "contract": "769p 10/22/2026",
@@ -1744,7 +3076,16 @@
       "last_side": "ASK",
       "last_price": "$3.79",
       "last_premium": "$38K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 11:59:12"
     },
     {
       "contract": "775c 10/30/2026",
@@ -1758,7 +3099,16 @@
       "last_side": "ASK",
       "last_price": "$7.07",
       "last_premium": "$1.06M",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:22:35"
     },
     {
       "contract": "770p 10/22/2026",
@@ -1772,7 +3122,16 @@
       "last_side": "ASK",
       "last_price": "$3.40",
       "last_premium": "$34K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:24:05"
     },
     {
       "contract": "771p 10/20/2026",
@@ -1786,7 +3145,16 @@
       "last_side": "ASK",
       "last_price": "$2.78",
       "last_premium": "$29K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:26:51"
     },
     {
       "contract": "772p 10/19/2026",
@@ -1801,12 +3169,25 @@
       "last_price": "$2.65",
       "last_premium": "$54K",
       "alerts_in_latest_capture": 1,
-      "away": "2026/10/12 10:47:23",
-      "returned": "2026/10/14 06:30:14",
-      "prestige_at": "2026/10/14 06:30:14",
-      "retired_at": "2026/10/14 07:53:08",
-      "retired_spot": 771.85,
-      "retired_reason": "Observed in the money after becoming Prestige"
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "away": "2026/10/12 10:47:23",
+            "returned": "2026/10/14 06:30:14",
+            "prestige_at": "2026/10/14 06:30:14",
+            "retired_at": "2026/10/14 07:53:08",
+            "retired_spot": 771.85,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 06:30:14",
+      "retired_at": "2026/10/15 13:14:18",
+      "retired_spot": 771.76,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "773c 10/27/2026",
@@ -1820,7 +3201,16 @@
       "last_side": "ASK",
       "last_price": "$5.94",
       "last_premium": "$99K",
-      "alerts_in_latest_capture": 1
+      "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:29:44"
     },
     {
       "contract": "775c 10/20/2026",
@@ -1834,7 +3224,16 @@
       "last_side": "ASK",
       "last_price": "$2.15",
       "last_premium": "$47K",
-      "alerts_in_latest_capture": 2
+      "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:35:03"
     },
     {
       "contract": "772p 10/20/2026",
@@ -1849,9 +3248,22 @@
       "last_price": "$3.26",
       "last_premium": "$66K",
       "alerts_in_latest_capture": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {
+            "retired_at": "2026/10/15 13:14:18",
+            "retired_spot": 771.76,
+            "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:39:23",
       "retired_at": "2026/10/15 13:14:18",
       "retired_spot": 771.76,
-      "retired_reason": "Already in the money at the latest recorded price; removed from active watchlist, not counted as a verified Prestige success"
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
     },
     {
       "contract": "772c 10/23/2026",
@@ -1865,7 +3277,16 @@
       "last_side": "ASK",
       "last_price": "$5.32",
       "last_premium": "$53K",
-      "alerts_in_latest_capture": 2
+      "alerts_in_latest_capture": 2,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "On Deck",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/15 12:56:36"
     }
   ],
   "source_timezone": "America/Los_Angeles",
@@ -3157,5 +4578,6 @@
     }
   ],
   "latest_session_alert_count": 76,
-  "coverage_note": "Latest rendered filter table contained 240 rows reaching August 31. All 76 October 15 rows captured; earlier saved cards and price observations retained. First appearance means earliest captured observation, not necessarily the first-ever alert. Prices are observed at alert times, not a continuous intraday feed or an official closing quote."
+  "coverage_note": "Latest rendered filter table contained 240 rows reaching August 31. All 76 October 15 rows captured; earlier saved cards and price observations retained. First appearance means earliest captured observation, not necessarily the first-ever alert. Prices are observed at alert times, not a continuous intraday feed or an official closing quote.",
+  "classification_version": "otm-sequence-v2"
 }
