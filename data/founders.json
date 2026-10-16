@@ -17,9 +17,10 @@
       "ir_url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
       "source_urls": [
         "https://www.nvidia.com/en-eu/gtc/faq/",
-        "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx"
+        "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+        "https://www.nvidia.com/en-us/events/supercomputing/"
       ],
-      "event_note": "GTC Berlin is confirmed separately from earnings."
+      "event_note": "GTC Berlin October 20–22 and SC26 November 15–20 are confirmed separately from earnings. SC26 is an industry technical appearance, not an investor day; saved flow expiration overlap does not establish intent."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -100,6 +101,18 @@
       "url": "https://investor.gamestop.com/news-releases/news-details/2025/GameStop-Announces-Dividend-of-Warrants-to-Shareholders/default.aspx",
       "category": "Corporate action · not a meeting",
       "summary": "GameStop's warrant announcement specifies October 30, 2026 expiration and a $32 exercise price. This is a warrant deadline, not a newly announced investor event or a RAMBO meeting. No directional implication is established.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-15"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "SC26 · NVIDIA technical conference appearance",
+      "date": "2026-11-15",
+      "end_date": "2026-11-20",
+      "url": "https://www.nvidia.com/en-us/events/supercomputing/",
+      "category": "Industry exhibition / technical talks",
+      "summary": "NVIDIA confirms participation in Supercomputing 2026 in Chicago, with technical sessions and demonstrations. This is an industry event, not an investor day or a promised financial-guidance update. Existing October 15 observations of the $185 put expiring November 27, 2026 and $150 put expiring May 21, 2027 span the full event. Date overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-15"
