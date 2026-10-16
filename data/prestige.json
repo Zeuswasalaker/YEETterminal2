@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 40909)
-Total output lines: 5464
-
 {
   "source": "Saved Unusual Whales alerts with Yahoo Finance SPY minute-close price checks",
   "captured_at": "2026-10-16T16:13:38.959015+00:00",
@@ -2269,7 +2266,107 @@ Total output lines: 5464
       "retired_at": "2026/10/15 10:41:20",
       "retired_spot": 771.44,
       "retired_reason": "Observed in the money after verified OTM comeback",
-      "initial_near_at": "2026/10/14 09:12:36",…909 tokens truncated…/10/14 11:14:42"
+      "initial_near_at": "2026/10/14 09:12:36",
+      "away": "2026/10/14 11:01:48",
+      "returned": "2026/10/14 11:02:55",
+      "prestige_at": "2026/10/14 11:02:55"
+    },
+    {
+      "contract": "770p 10/21/2026",
+      "strike": 770,
+      "type": "put",
+      "expiry": "10/21/2026",
+      "first": "2026/10/14 09:59:38",
+      "alerts": 1,
+      "last": "2026/10/14 09:59:38",
+      "last_premium": "$44K",
+      "last_price": "$4.36",
+      "last_side": "ASK",
+      "status": "Watching",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "prestige_at": "2026/10/15 07:01:30",
+            "retired_at": "2026/10/15 07:01:30",
+            "retired_spot": 766.64,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/14 09:59:38",
+      "retired_at": "2026/10/16 09:13:16",
+      "retired_spot": 767.2100219726562,
+      "retired_reason": "Already ITM at latest observation; not a verified Prestige outcome"
+    },
+    {
+      "contract": "768p 10/21/2026",
+      "strike": 768,
+      "type": "put",
+      "expiry": "10/21/2026",
+      "first": "2026/10/14 10:29:43",
+      "alerts": 1,
+      "last": "2026/10/14 10:29:43",
+      "last_premium": "$350K",
+      "last_price": "$4.77",
+      "last_side": "ASK",
+      "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Current Prestige",
+          "previous_fields": {
+            "away": "2026/10/15 12:12:11",
+            "returned": "2026/10/15 12:12:54",
+            "prestige_at": "2026/10/15 12:12:54"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/16 08:56:00",
+      "retired_spot": 767.9299926757812,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 10:29:43",
+      "away": "2026/10/15 12:12:11",
+      "returned": "2026/10/15 12:12:54",
+      "prestige_at": "2026/10/15 12:12:54"
+    },
+    {
+      "contract": "772c 10/30/2026",
+      "strike": 772,
+      "type": "call",
+      "expiry": "10/30/2026",
+      "first": "2026/10/14 10:32:55",
+      "alerts": 1,
+      "last": "2026/10/14 10:32:55",
+      "last_premium": "$77K",
+      "last_price": "$7.29",
+      "last_side": "ASK",
+      "status": "Current Prestige",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Approaching",
+          "previous_fields": {
+            "away": "2026/10/14 10:49:18",
+            "returned": "2026/10/14 11:14:42",
+            "prestige_at": "2026/10/14 11:14:42",
+            "retired_at": "2026/10/15 12:16:57",
+            "retired_spot": 772.29,
+            "retired_reason": "Observed in the money after becoming Prestige"
+          }
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/15 12:16:57",
+      "retired_spot": 772.29,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/14 10:32:55",
+      "away": "2026/10/14 10:49:18",
+      "returned": "2026/10/14 11:14:42",
+      "prestige_at": "2026/10/14 11:14:42"
     },
     {
       "contract": "771c 11/13/2026",
