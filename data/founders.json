@@ -20,9 +20,11 @@
         "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
         "https://www.nvidia.com/en-us/events/supercomputing/",
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-        "https://nvidianews.nvidia.com/"
+        "https://nvidianews.nvidia.com/",
+        "https://www.nvidia.com/en-us/events/",
+        "https://teratec.eu/gb/forum/colloque.html"
       ],
-      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22 and SC26 November 15–20 remain confirmed. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent."
+      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -130,6 +132,18 @@
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-16"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "TERATEC Forum · NVIDIA industry appearance",
+      "date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "url": "https://teratec.eu/gb/forum/colloque.html",
+      "category": "Industry exhibition / technical talks",
+      "summary": "The official TERATEC program confirms October 20–21 in Paris and lists Jensen Huang by live transmission October 21, 11 a.m.–1 p.m. local time. The date overlaps GTC Berlin; this listing does not establish a separate presentation or new financial guidance. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-17"
     }
   ],
   "flows": [
