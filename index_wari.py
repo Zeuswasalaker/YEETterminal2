@@ -1,6 +1,8 @@
 """Index WARI: baseline-relative disagreement between flow and price."""
 from pathlib import Path
 from math import exp
+import json
+import re
 import html
 import pandas as pd
 import streamlit as st
@@ -49,11 +51,13 @@ def historical_scores(flow, prices, window=PRICE_LOOKBACK, minimum=MIN_PRICE_SES
     return out
 
 def hero(value=None, level='SPY Magic / index update pending', detail='The score compares SPY Magic whale direction with the index move. A matched reading is not currently connected; historical flow is not required.', direction=''):
+    accent = '#b9ef76' if direction.startswith('Bullish') else '#ff9b9b' if direction.startswith('Bearish') else '#efd58a'
+    background = '#214b3a,#122e36' if direction.startswith('Bullish') else '#572f38,#242d38' if direction.startswith('Bearish') else '#49412d,#172f36'
     number='—' if value is None else f'{value:.0f}<span style="font-size:22px"> / 100</span>'
     position = 0 if value is None else max(0, min(100, value))
     pointer = '' if value is None else f'<span style="position:absolute;left:{position}%;top:-12px;transform:translateX(-50%);font-size:26px;color:#fff">▼</span>'
     scale = f'<div role="img" aria-label="Divergence scale, {value if value is not None else "unavailable"} out of 100" style="position:relative;height:20px;border-radius:12px;background:linear-gradient(90deg,#398a73,#e8c66c,#e17c49,#b84062);margin:22px 12px 8px">{pointer}</div><div style="display:flex;justify-content:space-between;font-size:12px;color:#d5dfcb"><span>0 · little</span><span>50 · strong</span><span>100 · extreme</span></div>'
-    st.markdown(f'<div style="padding:26px;border-radius:24px;background:linear-gradient(120deg,#214b3a,#122e36);border:1px solid #b9ef7666;box-shadow:0 6px 0 #071d24;margin-bottom:24px"><div style="color:#b9ef76;font-weight:900;letter-spacing:.12em">INDEX WARI · WHALE / PRICE DIVERGENCE</div><div style="font-size:64px;font-weight:900;color:#efd58a;line-height:1.2">{number}</div><div style="font-size:25px;font-weight:800;color:#b9ef76">{html.escape(level)}</div><p style="font-size:17px;color:#e2ebd4">{html.escape(direction)}</p><p style="color:#c0d3c8">{html.escape(detail)}</p>{scale}</div>',unsafe_allow_html=True)
+    st.markdown(f'<div style="padding:26px;border-radius:24px;background:linear-gradient(120deg,{background});border:1px solid #b9ef7666;box-shadow:0 6px 0 #071d24;margin-bottom:24px"><div style="color:#b9ef76;font-weight:900;letter-spacing:.12em">INDEX WARI · WHALE / PRICE DIVERGENCE</div><div style="font-size:64px;font-weight:900;color:#efd58a;line-height:1.2">{number}</div><div style="font-size:25px;font-weight:800;color:{accent}">{html.escape(level)}</div><p style="font-size:17px;color:#e2ebd4">{html.escape(direction)}</p><p style="color:#c0d3c8">{html.escape(detail)}</p>{scale}</div>',unsafe_allow_html=True)
 
 def render():
     top=st.empty()
@@ -62,6 +66,7 @@ def render():
     flow_path=ROOT/'data/spy_magic_flow.csv'
     price_path=ROOT/'data/wari_prices.csv'
     raw=None
+    has_reading=False
     if flow_path.exists():
         try: raw=pd.read_csv(flow_path)
         except (ValueError,OSError): pass
@@ -85,13 +90,63 @@ def render():
                     v,level,direction,fz,pz=divergence(row.call_share,row.flow_mean,row.flow_std,row['return'],row.price_std)
                     detail=f'{day.date()}: calls received {row.call_share:.0%} of observed premium. SPY moved {row["return"]:+.2%}, or {pz:+.1f} times its usual daily volatility. The score rises when whale direction and index price pull in opposite directions.'
                     with top.container(): hero(v,level,detail,direction)
+                    has_reading=True
                     st.line_chart(usable[['Index WARI']],color='#b9ef76')
                     st.caption('Price baseline: prior 60 index returns, minimum 20. Flow and price must cover the same completed session.')
                 else: st.info('A matched flow session and at least 20 prior index returns with nonzero volatility are needed.')
         except (ValueError,KeyError,TypeError) as exc: st.error(str(exc))
+    if not has_reading:
+        render_saved_snapshot(top)
+    st.markdown('### Read it in ten seconds')
+    a,b,c=st.columns(3)
+    for col,title,copy,color in [
+        (a,'📞 Bullish disagreement','Whales lean toward calls while SPY falls. Watch for a bounce confirmation.','#274f3b'),
+        (b,'🩸 Bearish disagreement','Whales lean toward puts while SPY rises. Watch for the rally to weaken.','#56313c'),
+        (c,'🔀 Mixed / aligned','No clear opposing signal. A low score does not mean bullish or bearish.','#49432f')]:
+        col.markdown(f'<div style="padding:20px;border-radius:19px;background:linear-gradient(135deg,{color},#162d34);border:1px solid #e5cd8055;box-shadow:0 5px 0 #081d25;min-height:160px"><strong style="font-size:19px;color:#f0dfaa">{title}</strong><p style="color:#dce7d6">{copy}</p></div>',unsafe_allow_html=True)
     st.markdown('**The idea:** an unusually call-heavy day while the index sells off is a bullish disagreement to investigate. Unusually put-heavy activity while the index rallies is the reverse. A high score measures disagreement, not the probability of a reversal.')
     with st.expander('What goes into the score?'):
         st.write('Whale lean = 2 × call-premium share − 1. Price move = same-session return / prior return standard deviation. Opposing pressure = max(0, −whale lean × price move). Index WARI = 100 × (1 − exp(−opposing pressure / 0.6)). Historical flow is not required.')
         st.write('0–24 little disagreement; 25–49 noticeable; 50–74 strong; 75–100 extreme. The scaling constant and labels are provisional. This is a new divergence extension, not a reproduction of the original six-component WARI or a fitted predictive model.')
         st.write('Example: 60% calls and a 3% index decline against 1% historical daily volatility produces 63/100, strong bullish disagreement. This illustrates the formula, not a current reading. Historical price baselines use earlier observations exclusively.')
         st.caption('Formula settings and calibration are maintained in code. The scale is read-only. Scores describe disagreement, not a tested reversal probability.')
+
+
+def render_saved_snapshot(top):
+    path=ROOT/'data/prestige.json'
+    if not path.exists():
+        return
+    try:
+        saved=json.loads(path.read_text())
+        rows=[]
+        for card in saved.get('cards',[]):
+            if card.get('last_side')!='ASK':
+                continue
+            amount=str(card.get('last_premium','')).replace('$','').replace(',','').strip()
+            m=re.fullmatch(r'([0-9.]+)([KMB]?)',amount,re.I)
+            if not m or card.get('type') not in ('call','put'):
+                continue
+            date=str(card.get('last',''))[:10]
+            premium=float(m[1])*{'':1,'K':1000,'M':1000000,'B':1000000000}[m[2].upper()]
+            rows.append((date,card['type'],premium))
+        if not rows:
+            return
+        day=max(r[0] for r in rows)
+        sample=[r for r in rows if r[0]==day]
+        calls=sum(r[2] for r in sample if r[1]=='call')
+        puts=sum(r[2] for r in sample if r[1]=='put')
+        if calls+puts<=0:
+            return
+        share=calls/(calls+puts)
+        direction='Bullish whale lean' if share>=.6 else 'Bearish whale lean' if share<=.4 else 'Mixed whale lean'
+        color='#b9ef76' if share>=.6 else '#ff9b9b' if share<=.4 else '#efd58a'
+        bg='#214b3a' if share>=.6 else '#572f38' if share<=.4 else '#49412d'
+        with top.container():
+            st.markdown(f'<div style="padding:27px;border-radius:24px;background:linear-gradient(125deg,{bg},#122e36);border:1px solid {color};box-shadow:0 6px 0 #071d24"><div style="color:#efd58a;font-weight:900;letter-spacing:.09em">INDEX WARI · SAVED WHALE SNAPSHOT</div><h2 style="color:{color}!important">{direction.upper()}</h2><div style="font-size:52px;font-weight:900;color:{color}">{share:.0%} calls</div><p style="color:#e1e8d6">The saved observations lean toward {"calls" if share>=.6 else "puts" if share<=.4 else "neither side clearly"}. This describes whale activity; price confirmation determines whether it is a divergence.</p><div style="height:19px;border-radius:12px;background:linear-gradient(90deg,#b44859 {100*(1-share):.1f}%,#83c867 {100*(1-share):.1f}%);"></div><p style="font-size:12px;color:#bdcfc4">Observed {html.escape(day)} Pacific · latest saved observation per contract · rounded premiums · not live or complete session totals</p></div>',unsafe_allow_html=True)
+            st.caption('Divergence score: unavailable until matched index prices and SPY Magic session observations are connected. The call percentage above is a separate snapshot, not the divergence score.')
+        a,b,c=st.columns(3)
+        a.metric('📞 Calls in this snapshot',f'${calls:,.0f}')
+        b.metric('🩸 Puts in this snapshot',f'${puts:,.0f}')
+        c.metric('Saved contract observations',str(len(sample)))
+    except (ValueError,KeyError,TypeError,OSError):
+        return
