@@ -52,25 +52,33 @@ def gauge(value):
 
 def render():
     st.markdown('<h1 class="rambo-title">WARI 🐋</h1><div class="subhead">Follow the splash. Watch for the plot twist.</div>', unsafe_allow_html=True)
-    st.write('A whale-direction meter, with a second question: is the money agreeing with price, or quietly leaning the other way?')
+    st.markdown('**Whale Alert Risk Indicator · powered by SPY Magic**')
+    st.write('What are the SPY Magic whales leaning toward, and is their activity agreeing with SPY price or quietly leaning the other way?')
     overview, orange, method = st.tabs(['🐋 Whale weather','🍊 Orange Swan','🔎 How we read it'])
     with st.expander('milt stuff', expanded=False):
-        st.caption('Research inputs stay in this session. Use comparable ask-side, single-leg exports across dates. This does not fetch UW or update the public data feed.')
-        upload = st.file_uploader('Whale flow CSV', type=['csv'], key='wari_csv')
-        st.caption('Or maintain data/wari_flow.csv in the repository. Optional price reference: data/wari_prices.csv with date, ticker, close. Date-only values retain their session date; timestamps are converted to New York time. Use timezone-aware timestamps for precise session assignment.')
-    df = pd.DataFrame()
-    source = ROOT / 'data/wari_flow.csv'
-    if upload is not None or source.exists():
+        st.caption('WARI uses SPY Magic exports only. Orange Swan uses its own five-ticker filter. Inputs stay in this session; neither upload updates the public feed.')
+        upload = st.file_uploader('SPY Magic CSV for WARI', type=['csv'], key='wari_spy_magic_csv')
+        orange_upload = st.file_uploader('Orange Swan CSV', type=['csv'], key='orange_swan_csv')
+        st.caption('Saved sources: data/spy_magic_flow.csv and data/orange_swan_flow.csv. Optional price reference: data/wari_prices.csv with date, ticker, close.')
+    def load_sample(uploaded, filename, tickers):
+        source = ROOT / 'data' / filename
+        if uploaded is None and not source.exists():
+            return pd.DataFrame()
         try:
-            df, rejected = prepare(pd.read_csv(upload if upload is not None else source))
-            if rejected: st.caption(f'{rejected} rows excluded because required fields were invalid.')
+            sample, rejected = prepare(pd.read_csv(uploaded if uploaded is not None else source))
+            if rejected:
+                st.caption(f'{filename}: {rejected} invalid rows excluded.')
+            return sample.loc[sample['ticker'].isin(tickers)].copy()
         except (ValueError, TypeError) as exc:
             st.error(str(exc))
+            return pd.DataFrame()
+    df = load_sample(upload, 'spy_magic_flow.csv', ['SPY'])
+    orange_df = load_sample(orange_upload, 'orange_swan_flow.csv', ['SPY','QQQ','SMH','BABA','JD'])
     if not df.empty:
         dates = sorted(df['date'].unique())
-        chosen = st.selectbox('Session to inspect', dates, index=len(dates)-1, key='wari_session')
+        chosen = st.selectbox('SPY Magic session', dates, index=len(dates)-1, key='wari_session')
         today = df.loc[df['date'].eq(chosen)]
-        st.caption(f'Observed session: {chosen} · {len(today):,} prints · sample only, not all institutional positions')
+        st.caption(f'SPY Magic · {chosen} · {len(today):,} prints · filtered SPY activity')
     else:
         today = df
     with overview:
@@ -91,7 +99,7 @@ def render():
                 rows.append({'Session':day,'Whale direction':score(group)['score']})
             st.line_chart(pd.DataFrame(rows).set_index('Session'), y='Whale direction', color='#b8ee69')
         else:
-            st.markdown('### Waiting for a comparable whale sample')
+            st.markdown('### Waiting for the SPY Magic snapshot')
             st.write('No verified reading yet. An empty feed is missing evidence, not whales exiting the market.')
         st.markdown('**🤝 Agreement:** calls and rising prices, or puts and falling prices. **👀 Plot twist:** call-heavy activity while price falls, or put-heavy activity while price rises. Neither guarantees the next move.')
         prices_path = ROOT / 'data/wari_prices.csv'
@@ -113,6 +121,14 @@ def render():
                 if records: st.dataframe(records,hide_index=True,width='stretch')
             except (ValueError, KeyError, TypeError): st.caption('Price comparison unavailable: reference data could not be validated.')
     with orange:
+        if not orange_df.empty:
+            orange_dates = sorted(orange_df['date'].unique())
+            orange_day = st.selectbox('Orange Swan session', orange_dates, index=len(orange_dates)-1, key='orange_session')
+            today = orange_df.loc[orange_df['date'].eq(orange_day)]
+            st.caption(f'Orange Swan snapshot · {orange_day} · {len(today):,} prints')
+        else:
+            today = orange_df
+            st.caption('Waiting for an Orange Swan snapshot.')
         st.markdown('### 🍊 Orange Swan · who is breaking from the pack?')
         st.write('SPY and QQQ set the broad-market reference. SMH represents semis; BABA and JD are two China-linked names, not the entire Chinese market. We watch for their flow to pull apart.')
         st.link_button('Open the Orange Swan filter ↗', ORANGE_URL)
@@ -135,7 +151,7 @@ def render():
         st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. The dated alerts and entry/exit prices have not yet been audited in this Terminal; this is reported history, not a tested hit rate.')
     with method:
         st.markdown('### A number you can actually unpack')
-        st.write('WARI direction = 70% × call share of premium + 30% × call share of prints, expressed on a 0–100 scale. 50 means balanced; 60+ is call-heavy; 40 or less is put-heavy. These are provisional descriptive cutoffs, not fitted trading thresholds.')
+        st.write('WARI reads only the SPY Magic sample. Orange Swan is calculated separately from its own filter. WARI direction = 70% × call share of premium + 30% × call share of prints, expressed on a 0–100 scale. 50 means balanced; 60+ is call-heavy; 40 or less is put-heavy. These are provisional descriptive cutoffs, not fitted trading thresholds.')
         st.write('Premium tells us where dollars are leaning. Print share checks whether that lean appears across orders. Large and near-term orders belong in the supporting evidence, not automatic bullish bonuses. Calls can hedge shorts; puts can hedge longs. Multiple prints can come from one participant.')
         st.markdown('**What would earn the word predictive?** Freeze the filter and test daily signals against subsequent 1-, 3- and 5-session returns. Compare direction-only, equal-weight and premium-heavy versions on training periods, choose using chronological validation, then evaluate once on a later untouched period. Purge overlapping forward-return windows between splits. Report sample size, balanced accuracy, false alarms and returns after costs against simple market baselines.')
         st.write('For contrarian tests, define the price/flow disagreement before the outcome, then measure later reversals separately from ordinary trend-following signals. Never use prices or orders arriving after the signal timestamp to construct it.')
