@@ -48,7 +48,7 @@ def historical_scores(flow, prices, window=PRICE_LOOKBACK, minimum=MIN_PRICE_SES
             out.loc[day,'Index WARI']=result[0]
     return out
 
-def hero(value=None, level='Historical comparison pending', detail='The latest matched SPY Magic observation and historical index volatility will appear here when available.', direction=''):
+def hero(value=None, level='SPY Magic / index update pending', detail='The score compares SPY Magic whale direction with the index move. A matched reading is not currently connected; historical flow is not required.', direction=''):
     number='—' if value is None else f'{value:.0f}<span style="font-size:22px"> / 100</span>'
     position = 0 if value is None else max(0, min(100, value))
     pointer = '' if value is None else f'<span style="position:absolute;left:{position}%;top:-12px;transform:translateX(-50%);font-size:26px;color:#fff">▼</span>'
