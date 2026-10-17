@@ -1,0 +1,135 @@
+{
+  "captured_on": "2026-10-17",
+  "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
+  "coverage": "Delayed signed-out first-page table; 250 displayed rows, 247 retained after enforcing displayed ask share >=70%. Rounded display premiums. Not full sessions or live data; missing tickers are not zero activity. Page timezone not verified, dates retained as displayed with year inferred from current context.",
+  "summary": [
+    {
+      "date": "2026-10-14",
+      "ticker": "QQQ",
+      "prints": 28,
+      "premium": 3508000,
+      "call_premium": 1327000,
+      "call_prints": 8
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "SPY",
+      "prints": 60,
+      "premium": 10284000,
+      "call_premium": 1061000,
+      "call_prints": 17
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "SMH",
+      "prints": 9,
+      "premium": 890000,
+      "call_premium": 312000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "BABA",
+      "prints": 3,
+      "premium": 131000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "SPY",
+      "prints": 20,
+      "premium": 1888000,
+      "call_premium": 570000,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "SMH",
+      "prints": 3,
+      "premium": 267000,
+      "call_premium": 267000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "QQQ",
+      "prints": 8,
+      "premium": 968000,
+      "call_premium": 496000,
+      "call_prints": 5
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "BABA",
+      "prints": 4,
+      "premium": 1255000,
+      "call_premium": 1013000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "JD",
+      "prints": 1,
+      "premium": 100000,
+      "call_premium": 100000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "SPY",
+      "prints": 36,
+      "premium": 4425000,
+      "call_premium": 459000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "QQQ",
+      "prints": 16,
+      "premium": 2109000,
+      "call_premium": 800000,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "SMH",
+      "prints": 15,
+      "premium": 9817000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "BABA",
+      "prints": 2,
+      "premium": 59000,
+      "call_premium": 13000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "SPY",
+      "prints": 28,
+      "premium": 4516000,
+      "call_premium": 270000,
+      "call_prints": 8
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "QQQ",
+      "prints": 13,
+      "premium": 2635000,
+      "call_premium": 522000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "SMH",
+      "prints": 1,
+      "premium": 10000,
+      "call_premium": 0,
+      "call_prints": 0
+    }
+  ]
+}
