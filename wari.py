@@ -1,5 +1,7 @@
 """WARI research dashboard: observed flow, never synthetic positioning."""
 from pathlib import Path
+import json
+import re
 import pandas as pd
 import streamlit as st
 
@@ -50,11 +52,12 @@ def gauge(value):
     st.markdown(f'<div style="position:relative;height:24px;border-radius:14px;background:linear-gradient(90deg,#a73a48,#e4b966,#8ac95d);margin:22px 8px 8px">{marker}</div><div style="display:flex;justify-content:space-between;color:#d9dfc2;font-weight:800"><span>🩸 Put-heavy</span><span>Mixed bag</span><span>Call-heavy 📞</span></div>', unsafe_allow_html=True)
 
 
-def render():
-    st.markdown('<h1 class="rambo-title">WARI 🐋</h1><div class="subhead">Follow the splash. Watch for the plot twist.</div>', unsafe_allow_html=True)
-    st.markdown('**Whale Alert Risk Indicator · powered by SPY Magic**')
-    st.write('What are the SPY Magic whales leaning toward, and is their activity agreeing with SPY price or quietly leaning the other way?')
-    overview, orange, method = st.tabs(['🐋 Whale weather','🍊 Orange Swan','🔎 How we read it'])
+def render(mode='wari'):
+    if mode == 'orange':
+        st.markdown('<h1 class="rambo-title">Orange Swan 🍊</h1><div class="subhead">Who’s breaking from the pack?</div>', unsafe_allow_html=True)
+    else:
+        st.markdown('<h1 class="rambo-title">WARI 🐋</h1><div class="subhead">Whale Alert Risk Indicator</div>', unsafe_allow_html=True)
+        st.write('Powered by SPY Magic. Watch where the whale activity leans, then check whether SPY price agrees.')
     with st.expander('milt stuff', expanded=False):
         st.caption('WARI uses SPY Magic exports only. Orange Swan uses its own five-ticker filter. Inputs stay in this session; neither upload updates the public feed.')
         upload = st.file_uploader('SPY Magic CSV for WARI', type=['csv'], key='wari_spy_magic_csv')
@@ -74,21 +77,47 @@ def render():
             return pd.DataFrame()
     df = load_sample(upload, 'spy_magic_flow.csv', ['SPY'])
     orange_df = load_sample(orange_upload, 'orange_swan_flow.csv', ['SPY','QQQ','SMH','BABA','JD'])
+    snapshot_mode = False
+    if mode == 'orange':
+        render_orange(orange_df)
+        return
+    if df.empty:
+        saved = ROOT / 'data/prestige.json'
+        if saved.exists():
+            try:
+                snapshot = json.loads(saved.read_text())
+                rows = []
+                for card in snapshot.get('cards', []):
+                    premium = str(card.get('last_premium', '')).replace('$','').replace(',','').strip()
+                    found = re.fullmatch(r'([0-9.]+)([KMB]?)', premium, re.I)
+                    if not found:
+                        continue
+                    amount = float(found[1]) * {'':1,'K':1000,'M':1000000,'B':1000000000}[found[2].upper()]
+                    if card.get('last_side') != 'ASK':
+                        continue
+                    rows.append({'ticker':'SPY', 'type':card.get('type'), 'date':str(card.get('last',''))[:10].replace('/','-'), 'premium':amount})
+                if rows:
+                    df, _ = prepare(pd.DataFrame(rows))
+                    snapshot_mode = True
+                    st.caption('Saved SPY Magic contract snapshot · last alert: '+str(snapshot.get('latest_alert_time', snapshot.get('source_time','unknown')))+' Pacific')
+                    st.info('Showing the last saved ask-side observation per contract. Dollar values are rounded display amounts. This is a contract snapshot, not the complete session flow or a live WARI reading.')
+            except (ValueError, TypeError, KeyError):
+                st.caption('Saved SPY Magic snapshot could not be read.')
     if not df.empty:
         dates = sorted(df['date'].unique())
         chosen = st.selectbox('SPY Magic session', dates, index=len(dates)-1, key='wari_session')
         today = df.loc[df['date'].eq(chosen)]
-        st.caption(f'SPY Magic · {chosen} · {len(today):,} prints · filtered SPY activity')
+        st.caption(f'SPY Magic · {chosen} · {len(today):,} observations · filtered SPY activity')
     else:
         today = df
-    with overview:
+    with st.container():
         reading = score(today)
         st.markdown('### What are the whales leaning toward?')
         gauge(None if reading is None else reading['score'])
         if reading:
             n = reading['score']
             label = 'Call-heavy' if n >= 60 else 'Put-heavy' if n <= 40 else 'Mixed / no clear lean'
-            st.metric('WARI direction · research beta', f'{n:.0f} / 100', label, delta_color='off')
+            st.metric('Saved contract lean' if snapshot_mode else 'WARI direction · research beta', f'{n:.0f} / 100', label, delta_color='off')
             cols = st.columns(3)
             cols[0].metric('Call share of dollars', f"{reading['call_dollars']:.0f}%")
             cols[1].metric('Call share of prints', f"{reading['call_prints']:.0f}%")
@@ -97,10 +126,11 @@ def render():
             rows = []
             for day, group in df.groupby('date'):
                 rows.append({'Session':day,'Whale direction':score(group)['score']})
-            st.line_chart(pd.DataFrame(rows).set_index('Session'), y='Whale direction', color='#b8ee69')
+            if not snapshot_mode:
+                st.line_chart(pd.DataFrame(rows).set_index('Session'), y='Whale direction', color='#b8ee69')
         else:
             st.markdown('### Waiting for the SPY Magic snapshot')
-            st.write('No verified reading yet. An empty feed is missing evidence, not whales exiting the market.')
+            st.write('The latest SPY Magic observation is unavailable in this session.')
         st.markdown('**🤝 Agreement:** calls and rising prices, or puts and falling prices. **👀 Plot twist:** call-heavy activity while price falls, or put-heavy activity while price rises. Neither guarantees the next move.')
         prices_path = ROOT / 'data/wari_prices.csv'
         if not today.empty and prices_path.exists():
@@ -120,39 +150,41 @@ def render():
                     records.append({'Ticker':'$'+ticker,'Whale direction':round(s,1),'Price change':f'{r:+.2%}','Read':'👀 Opposite directions' if contrary else 'Mixed' if 40<s<60 or r==0 else '🤝 Same direction'})
                 if records: st.dataframe(records,hide_index=True,width='stretch')
             except (ValueError, KeyError, TypeError): st.caption('Price comparison unavailable: reference data could not be validated.')
-    with orange:
-        if not orange_df.empty:
-            orange_dates = sorted(orange_df['date'].unique())
-            orange_day = st.selectbox('Orange Swan session', orange_dates, index=len(orange_dates)-1, key='orange_session')
-            today = orange_df.loc[orange_df['date'].eq(orange_day)]
-            st.caption(f'Orange Swan snapshot · {orange_day} · {len(today):,} prints')
-        else:
-            today = orange_df
-            st.caption('Waiting for an Orange Swan snapshot.')
-        st.markdown('### 🍊 Orange Swan · who is breaking from the pack?')
-        st.write('SPY and QQQ set the broad-market reference. SMH represents semis; BABA and JD are two China-linked names, not the entire Chinese market. We watch for their flow to pull apart.')
-        st.link_button('Open the Orange Swan filter ↗', ORANGE_URL)
-        st.caption('Filter: ask share ≥70% · premium ≥$10,000 · ≥2 DTE · OTM · single-leg · volume above open interest. The linked view caps results at 250; it is not a complete historical dataset.')
-        broad = today.loc[today['ticker'].isin(['SPY','QQQ'])] if not today.empty else today
-        base = score(broad)
-        cards=st.columns(3)
-        for col,(name,tickers) in zip(cards,[('🌎 Broad market',['SPY','QQQ']),('🔌 Semis',['SMH']),('🐉 China names',['BABA','JD'])]):
-            subset=today.loc[today['ticker'].isin(tickers)] if not today.empty else today
-            s=score(subset)
-            with col.container(border=True):
-                st.markdown('**'+name+'**')
-                st.caption(' / '.join('$'+t for t in tickers))
-                st.metric('Whale direction', '—' if s is None else f"{s['score']:.0f} / 100")
-                if s and base and name!='🌎 Broad market':
-                    gap=s['score']-base['score']
-                    st.caption(f'{gap:+.0f} points versus broad flow · '+('meaningful split to investigate' if abs(gap)>=20 else 'no large split'))
-                if s: st.caption(f"{s['prints']} prints · ${s['premium']:,.0f}")
-        st.write('A flow split flags a research lead. To call it price decoupling, compare same-session returns with SPY/QQQ too. It does not identify the cause or predict a tariff announcement.')
-        st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. The dated alerts and entry/exit prices have not yet been audited in this Terminal; this is reported history, not a tested hit rate.')
-    with method:
+    with st.expander('How we read it'):
         st.markdown('### A number you can actually unpack')
         st.write('WARI reads only the SPY Magic sample. Orange Swan is calculated separately from its own filter. WARI direction = 70% × call share of premium + 30% × call share of prints, expressed on a 0–100 scale. 50 means balanced; 60+ is call-heavy; 40 or less is put-heavy. These are provisional descriptive cutoffs, not fitted trading thresholds.')
         st.write('Premium tells us where dollars are leaning. Print share checks whether that lean appears across orders. Large and near-term orders belong in the supporting evidence, not automatic bullish bonuses. Calls can hedge shorts; puts can hedge longs. Multiple prints can come from one participant.')
         st.markdown('**What would earn the word predictive?** Freeze the filter and test daily signals against subsequent 1-, 3- and 5-session returns. Compare direction-only, equal-weight and premium-heavy versions on training periods, choose using chronological validation, then evaluate once on a later untouched period. Purge overlapping forward-return windows between splits. Report sample size, balanced accuracy, false alarms and returns after costs against simple market baselines.')
         st.write('For contrarian tests, define the price/flow disagreement before the outcome, then measure later reversals separately from ordinary trend-following signals. Never use prices or orders arriving after the signal timestamp to construct it.')
         st.info('The attached notes supply formulas and claimed yearly results, but not the referenced 2023–2025 trade files or aligned market prices. Predictive ranking is therefore untested. This beta does not reproduce forced 1.05/0.47 historical scores or label reduced filtered activity as a liquidity exit.')
+
+
+def render_orange(orange_df):
+    if not orange_df.empty:
+        orange_dates = sorted(orange_df['date'].unique())
+        orange_day = st.selectbox('Orange Swan session', orange_dates, index=len(orange_dates)-1, key='orange_session')
+        today = orange_df.loc[orange_df['date'].eq(orange_day)]
+        st.caption(f'Orange Swan snapshot · {orange_day} · {len(today):,} prints')
+    else:
+        today = orange_df
+        st.caption('Waiting for an Orange Swan snapshot.')
+    st.markdown('### 🍊 Orange Swan · who is breaking from the pack?')
+    st.write('SPY and QQQ set the broad-market reference. SMH represents semis; BABA and JD are two China-linked names, not the entire Chinese market. We watch for their flow to pull apart.')
+    st.link_button('Open the Orange Swan filter ↗', ORANGE_URL)
+    st.caption('Filter: ask share ≥70% · premium ≥$10,000 · ≥2 DTE · OTM · single-leg · volume above open interest. The linked view caps results at 250; it is not a complete historical dataset.')
+    broad = today.loc[today['ticker'].isin(['SPY','QQQ'])] if not today.empty else today
+    base = score(broad)
+    cards=st.columns(3)
+    for col,(name,tickers) in zip(cards,[('🌎 Broad market',['SPY','QQQ']),('🔌 Semis',['SMH']),('🐉 China names',['BABA','JD'])]):
+        subset=today.loc[today['ticker'].isin(tickers)] if not today.empty else today
+        s=score(subset)
+        with col.container(border=True):
+            st.markdown('**'+name+'**')
+            st.caption(' / '.join('$'+t for t in tickers))
+            st.metric('Whale direction', '—' if s is None else f"{s['score']:.0f} / 100")
+            if s and base and name!='🌎 Broad market':
+                gap=s['score']-base['score']
+                st.caption(f'{gap:+.0f} points versus broad flow · '+('meaningful split to investigate' if abs(gap)>=20 else 'no large split'))
+            if s: st.caption(f"{s['prints']} prints · ${s['premium']:,.0f}")
+    st.write('A flow split flags a research lead. To call it price decoupling, compare same-session returns with SPY/QQQ too. It does not identify the cause or predict a tariff announcement.')
+    st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. The dated alerts and entry/exit prices have not yet been audited in this Terminal; this is reported history, not a tested hit rate.')
