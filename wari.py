@@ -58,11 +58,8 @@ def render(mode='wari'):
     else:
         st.markdown('<h1 class="rambo-title">WARI 🐋</h1><div class="subhead">Whale Alert Risk Indicator</div>', unsafe_allow_html=True)
         st.write('Powered by SPY Magic. Watch where the whale activity leans, then check whether SPY price agrees.')
-    with st.expander('milt stuff', expanded=False):
-        st.caption('WARI uses SPY Magic exports only. Orange Swan uses its own five-ticker filter. Inputs stay in this session; neither upload updates the public feed.')
-        upload = st.file_uploader('SPY Magic CSV for WARI', type=['csv'], key='wari_spy_magic_csv')
-        orange_upload = st.file_uploader('Orange Swan CSV', type=['csv'], key='orange_swan_csv')
-        st.caption('Saved sources: data/spy_magic_flow.csv and data/orange_swan_flow.csv. Optional price reference: data/wari_prices.csv with date, ticker, close.')
+    upload = None
+    orange_upload = None
     def load_sample(uploaded, filename, tickers):
         source = ROOT / 'data' / filename
         if uploaded is None and not source.exists():
@@ -217,12 +214,13 @@ def render_orange_saved():
     for col,(title,symbols) in zip(st.columns(3),groups):
         with col.container(border=True):
             st.markdown('**'+title+'**')
+            st.markdown('<div style="height:7px;border-radius:8px;background:linear-gradient(90deg,#9be46b,#d9bd6c,#d9646a);margin-bottom:16px"></div>',unsafe_allow_html=True)
             reading = grouped(symbols)
             if reading:
                 value,n,premium = reading
                 st.metric('Whale direction',f'{value:.0f} / 100')
                 st.caption(f'{n} alerts · ${premium:,.0f} observed premium')
-                st.caption('Call-heavy' if value>=60 else 'Put-heavy' if value<=40 else 'Mixed')
+                st.markdown('**📞 BULLISH lean**' if value>=60 else '**🩸 BEARISH lean**' if value<=40 else '**🔀 MIXED**')
                 if broad and title!='🌎 Broad market':
                     st.caption(f'{value-broad[0]:+.0f} points versus broad-market flow')
             else:
