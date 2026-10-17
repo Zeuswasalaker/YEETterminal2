@@ -160,6 +160,8 @@ def render(mode='wari'):
 
 
 def render_orange(orange_df):
+    if orange_df.empty and render_orange_saved():
+        return
     if not orange_df.empty:
         orange_dates = sorted(orange_df['date'].unique())
         orange_day = st.selectbox('Orange Swan session', orange_dates, index=len(orange_dates)-1, key='orange_session')
@@ -188,3 +190,50 @@ def render_orange(orange_df):
             if s: st.caption(f"{s['prints']} prints · ${s['premium']:,.0f}")
     st.write('A flow split flags a research lead. To call it price decoupling, compare same-session returns with SPY/QQQ too. It does not identify the cause or predict a tariff announcement.')
     st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. The dated alerts and entry/exit prices have not yet been audited in this Terminal; this is reported history, not a tested hit rate.')
+
+
+def render_orange_saved():
+    path = ROOT / 'data/orange_swan_summary.json'
+    if not path.exists():
+        return False
+    try:
+        saved = json.loads(path.read_text())
+        all_rows = pd.DataFrame(saved['summary'])
+        day = all_rows['date'].max()
+        rows = all_rows.loc[all_rows['date'].eq(day)]
+    except (ValueError, KeyError, OSError):
+        return False
+    st.caption(f'Delayed Orange Swan capture · latest displayed date {day} · captured {saved["captured_on"]}')
+    st.write('Where is the whale activity pulling apart? Compare the broad-market sample with semis and China-linked names.')
+    def grouped(symbols):
+        sample = rows.loc[rows.ticker.isin(symbols)]
+        if sample.empty:
+            return None
+        p = sample.premium.sum()
+        n = sample.prints.sum()
+        return 100*(.7*sample.call_premium.sum()/p + .3*sample.call_prints.sum()/n), int(n), p
+    broad = grouped(['SPY','QQQ'])
+    groups = [('🌎 Broad market',['SPY','QQQ']),('🔌 Semis',['SMH']),('🐉 China names',['BABA','JD'])]
+    for col,(title,symbols) in zip(st.columns(3),groups):
+        with col.container(border=True):
+            st.markdown('**'+title+'**')
+            reading = grouped(symbols)
+            if reading:
+                value,n,premium = reading
+                st.metric('Whale direction',f'{value:.0f} / 100')
+                st.caption(f'{n} alerts · ${premium:,.0f} observed premium')
+                st.caption('Call-heavy' if value>=60 else 'Put-heavy' if value<=40 else 'Mixed')
+                if broad and title!='🌎 Broad market':
+                    st.caption(f'{value-broad[0]:+.0f} points versus broad-market flow')
+            else:
+                st.metric('Whale direction','—')
+            missing=[t for t in symbols if t not in rows.ticker.values]
+            if missing:
+                st.caption('No observations for '+', '.join('$'+t for t in missing)+' in this date’s captured sample.')
+    st.caption('0 = put-heavy · 50 = balanced · 100 = call-heavy. This measures observed flow direction, not the probability of a trade succeeding.')
+    st.info(saved['coverage'])
+    with st.expander('Captured observations by ticker and date'):
+        st.dataframe(all_rows,hide_index=True,width='stretch')
+    st.link_button('Open Orange Swan filter ↗',ORANGE_URL)
+    st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. Dated alerts and entry/exit prices have not yet been audited in this Terminal.')
+    return True
