@@ -124,7 +124,7 @@ if 'workspace_page' not in st.session_state:
 with st.sidebar:
     if LOGO: st.image(str(LOGO),width=150)
     st.markdown('<div class="menu-brand">THE YEET<span>Pick your weapon.</span></div>',unsafe_allow_html=True)
-    for label,icon,hint,key in [('Prestige','🥇','The gold-brick watchlist','prestige'),('RAMBO','🪃','Company events and whale activity','rambo'),('PARI','🧭','What price action is saying','pari'),('RAMBO Calendar','📅','Browse catalysts by date','calendar'),('WARI','🐋','The whale weather report','wari'),('Orange Swan','🍊','Semis and China versus the market','orange'),('Changelog','📝','What changed in the Terminal','changelog')]:
+    for label,icon,hint,key in [('Prestige','🥇','The gold-brick watchlist','prestige'),('RAMBO','🪃','Company events and whale activity','rambo'),('PARI','🧭','What price action is saying','pari'),('RAMBO Calendar','📅','Browse catalysts by date','calendar'),('Index WARI','🐋','Whale activity versus index price','wari'),('Orange Swan','🍊','Semis and China versus the market','orange'),('Changelog','📝','What changed in the Terminal','changelog')]:
         with st.container(key='nav_'+key):
             if st.button(icon+'  '+label,key='go_'+key,width='stretch',help=hint):
                 st.session_state.workspace_page=label
@@ -138,7 +138,7 @@ with st.sidebar:
                 if st.button(label,key='admin_nav_'+label,width='stretch'):
                     st.session_state.workspace_page=label
 page=st.session_state.workspace_page
-selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari','RAMBO Calendar':'calendar','WARI':'wari','Orange Swan':'orange','Changelog':'changelog'}.get(page)
+selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari','RAMBO Calendar':'calendar','WARI':'wari','Index WARI':'wari','Orange Swan':'orange','Changelog':'changelog'}.get(page)
 if selected:
     st.markdown(f'<style>.st-key-nav_{selected} button{{border-color:#d9e8a6!important;background:#284c3b!important;box-shadow:0 4px 0 #071d24,inset 4px 0 0 #b8ee69!important}}</style>',unsafe_allow_html=True)
 
@@ -187,8 +187,8 @@ def flow_label(direction):
 if page=='RAMBO Calendar':
     from rambo_calendar import render
     render(data, company_heading)
-elif page=='WARI':
-    from wari import render
+elif page in ('WARI','Index WARI'):
+    from index_wari import render
     render()
 elif page=='Orange Swan':
     from wari import render
