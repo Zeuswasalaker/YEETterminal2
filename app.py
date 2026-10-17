@@ -102,7 +102,7 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 
 .milt-title{color:#ff8b82!important;-webkit-text-fill-color:#ff8b82!important;background:none!important}
 .menu-brand{font:900 22px/1.4 "Trebuchet MS",Arial,sans-serif;color:#e5e9ce;margin:12px 0 24px;letter-spacing:-.02em}.menu-brand span{display:block;font-size:13px;font-weight:500;color:#a4bcb3;letter-spacing:0;margin-top:5px}
-.st-key-nav_prestige button,.st-key-nav_rambo button,.st-key-nav_pari button{min-height:66px!important;text-align:left!important;justify-content:flex-start!important;border-radius:16px!important;background:linear-gradient(130deg,#25423c,#173139)!important;color:#edf0dc!important;border:1px solid #a3b89044!important;box-shadow:0 4px 0 #071d24!important;padding:15px 19px!important;margin-bottom:13px!important;font-size:20px!important}
+.st-key-nav_calendar button,.st-key-nav_wari button,.st-key-nav_changelog button,.st-key-nav_prestige button,.st-key-nav_rambo button,.st-key-nav_pari button{min-height:66px!important;text-align:left!important;justify-content:flex-start!important;border-radius:16px!important;background:linear-gradient(130deg,#25423c,#173139)!important;color:#edf0dc!important;border:1px solid #a3b89044!important;box-shadow:0 4px 0 #071d24!important;padding:15px 19px!important;margin-bottom:13px!important;font-size:20px!important}
 .st-key-nav_prestige button p,.st-key-nav_rambo button p,.st-key-nav_pari button p{font-size:19px!important;font-weight:800!important;font-family:"Trebuchet MS",Arial,sans-serif!important}
 .st-key-nav_founders button{min-height:62px!important;background:linear-gradient(135deg,#f4dfa1,#c89c43)!important;color:#302713!important;border:1px solid #f7e9b8!important;box-shadow:0 5px 0 #705723,0 9px 18px #0004!important;border-radius:16px!important;margin-top:3px!important}.st-key-nav_founders button p{font:800 18px "Trebuchet MS",Arial,sans-serif!important}
 .menu-foot{font:500 12px/1.8 "Trebuchet MS",Arial,sans-serif;color:#91aaa0;margin:24px 0 28px}
@@ -124,7 +124,7 @@ if 'workspace_page' not in st.session_state:
 with st.sidebar:
     if LOGO: st.image(str(LOGO),width=150)
     st.markdown('<div class="menu-brand">THE YEET<span>Pick your weapon.</span></div>',unsafe_allow_html=True)
-    for label,icon,hint,key in [('Prestige','🥇','The gold-brick watchlist','prestige'),('RAMBO','🪃','Company events and whale activity','rambo'),('PARI','🧭','What price action is saying','pari')]:
+    for label,icon,hint,key in [('Prestige','🥇','The gold-brick watchlist','prestige'),('RAMBO','🪃','Company events and whale activity','rambo'),('PARI','🧭','What price action is saying','pari'),('RAMBO Calendar','📅','Browse catalysts by date','calendar'),('WARI','🐋','The whale weather report','wari'),('Changelog','📝','What changed in the Terminal','changelog')]:
         with st.container(key='nav_'+key):
             if st.button(icon+'  '+label,key='go_'+key,width='stretch',help=hint):
                 st.session_state.workspace_page=label
@@ -138,7 +138,7 @@ with st.sidebar:
                 if st.button(label,key='admin_nav_'+label,width='stretch'):
                     st.session_state.workspace_page=label
 page=st.session_state.workspace_page
-selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari'}.get(page)
+selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari','RAMBO Calendar':'calendar','WARI':'wari','Changelog':'changelog'}.get(page)
 if selected:
     st.markdown(f'<style>.st-key-nav_{selected} button{{border-color:#d9e8a6!important;background:#284c3b!important;box-shadow:0 4px 0 #071d24,inset 4px 0 0 #b8ee69!important}}</style>',unsafe_allow_html=True)
 
@@ -184,7 +184,16 @@ def flow_label(direction):
     labels={'Call-side':'📞 Calls spotted','Put-side':'🩸 Puts spotted','Mixed':'🔀 Calls & puts','Unclear':'❔ Needs a closer look'}
     return labels.get(direction,html.escape(str(direction)))
 
-if page=='RAMBO':
+if page=='RAMBO Calendar':
+    from rambo_calendar import render
+    render(data, company_heading)
+elif page=='WARI':
+    from wari import render
+    render()
+elif page=='Changelog':
+    from changelog import render
+    render()
+elif page=='RAMBO':
     if data.get('flow_scope'):st.caption('Flow checked '+data.get('flow_imported_at','')+' · '+data['flow_scope'])
     st.markdown('<div class="eyebrow">THE YEET / RESEARCH TERMINAL</div><h1 class="rambo-title">RAMBO</h1><div class="subhead"><strong>Relations and Meeting</strong> Buy Opportunities</div><div class="rambo-intro">Big meetings. Whale money. Let’s connect the dots.</div>',unsafe_allow_html=True)
     c1,c2=st.columns([3,1])
