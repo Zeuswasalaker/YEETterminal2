@@ -135,7 +135,7 @@ with st.sidebar:
     with st.container(key='milt_tools'):
         with st.expander('milt stuff'):
             for label in ['Upload & publish','Event research','My tickers']:
-                if st.button(label,key='admin_nav_'+label,width='stretch'):
+                if st.button(label,key='admin_nav_'+label,width='stretch',disabled=True):
                     st.session_state.workspace_page=label
 page=st.session_state.workspace_page
 selected={'Prestige':'prestige','RAMBO':'rambo','PARI':'pari','RAMBO Calendar':'calendar','WARI':'wari','Index WARI':'wari','Orange Swan':'orange','Changelog':'changelog'}.get(page)
@@ -143,17 +143,7 @@ if selected:
     st.markdown(f'<style>.st-key-nav_{selected} button{{border-color:#d9e8a6!important;background:#284c3b!important;box-shadow:0 4px 0 #071d24,inset 4px 0 0 #b8ee69!important}}</style>',unsafe_allow_html=True)
 
 def admin():
-    configured=secret('ADMIN_PASSWORD')
-    if not configured:
-        st.caption('milt stuff · Admin access isn’t configured.')
-        return False
-    if st.session_state.get('admin_access'): return True
-    password=st.text_input('Admin password',type='password',key='admin_password')
-    if st.button('Unlock admin'):
-        if hmac.compare_digest(password,configured):
-            st.session_state.admin_access=True
-            st.rerun()
-        else: st.error('Password not recognized.')
+    st.caption('🔒 milt stuff · Read-only for now.')
     return False
 
 def download_snapshot():
