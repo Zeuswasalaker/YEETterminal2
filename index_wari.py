@@ -97,6 +97,7 @@ def render():
         except (ValueError,KeyError,TypeError) as exc: st.error(str(exc))
     if not has_reading:
         render_saved_snapshot(top)
+    render_broad_comparison(top)
     st.markdown('### Read it in ten seconds')
     a,b,c=st.columns(3)
     for col,title,copy,color in [
@@ -150,3 +151,53 @@ def render_saved_snapshot(top):
         c.metric('Saved contract observations',str(len(sample)))
     except (ValueError,KeyError,TypeError,OSError):
         return
+
+
+def broad_gap(magic_call_share, broad_call_share):
+    if not 0 <= magic_call_share <= 1 or not 0 <= broad_call_share <= 1:
+        raise ValueError('Call shares must be between zero and one.')
+    gap = 100 * (magic_call_share - broad_call_share)
+    label = 'Bullish relative divergence' if gap >= 10 else 'Bearish relative divergence' if gap <= -10 else 'Similar to broad SPY flow'
+    return gap, label
+
+def render_broad_comparison(top):
+    path=ROOT/'data/wari_comparison.json'
+    st.markdown('### 🐋 Magic versus the rest of SPY')
+    if not path.exists():
+        st.markdown('**Broad SPY comparison: not yet captured.** This view will show whether Magic is more bullish or bearish than the broader SPY options activity over the same window.')
+        st.caption('The saved contract lean above is not a broad-market comparison. Orange Swan’s filtered SPY alerts are not substituted for broad SPY flow.')
+        return
+    try:
+        pair=json.loads(path.read_text())
+        magic=pair['magic']
+        broad=pair['broad']
+        fields=['window_start','window_end','timezone','basis']
+        if any(magic[k]!=broad[k] for k in fields):
+            raise ValueError('Comparison windows and measurement basis must match.')
+        if magic['basis'] not in ['premium','order_count','contract_volume']:
+            raise ValueError('Unknown comparison basis.')
+        if not magic.get('verified_on') or not broad.get('verified_on') or not magic.get('source_url') or not broad.get('source_url'):
+            raise ValueError('Both observations need verified sources.')
+        if not magic.get('complete_window') or not broad.get('complete_window'):
+            raise ValueError('Both sources must cover the complete declared window.')
+        mc=float(magic['calls']); mp=float(magic['puts'])
+        bc=float(broad['calls']); bp=float(broad['puts'])
+        if min(mc,mp,bc,bp)<0 or mc+mp<=0 or bc+bp<=0:
+            raise ValueError('Invalid call/put totals.')
+        m=mc/(mc+mp); p=bc/(bc+bp)
+        gap,label=broad_gap(m,p)
+        direction='Bullish relative whale lean' if gap>=10 else 'Bearish relative whale lean' if gap<=-10 else 'Mixed / similar whale lean'
+        detail=f'Magic is {m:.0%} calls versus {p:.0%} for broad SPY flow, a {gap:+.1f} percentage-point gap. Window: {magic["window_start"]} to {magic["window_end"]} {magic["timezone"]}. Basis: {magic["basis"]}.'
+        with top.container():
+            hero(abs(gap),label,detail,direction)
+            st.caption('Score = absolute percentage-point gap, 0–100. Direction shows whether Magic is relatively more bullish or bearish. This is separate from the price-divergence score.')
+        a,b,c=st.columns(3)
+        a.metric('Magic calls',f'{m:.0%}')
+        b.metric('Broad SPY calls',f'{p:.0%}')
+        c.metric('Magic minus broad SPY',f'{gap:+.1f} points')
+        st.caption('Relative bullishness can still occur with a put-heavy Magic sample. Compare the absolute call shares too. The 10-point descriptor cutoff is provisional.')
+        with st.expander('Comparison sources'):
+            st.link_button('SPY Magic source',magic['source_url'])
+            st.link_button('Broad SPY source',broad['source_url'])
+    except (ValueError,KeyError,TypeError,OSError) as exc:
+        st.caption('Broad SPY comparison unavailable: '+str(exc))
