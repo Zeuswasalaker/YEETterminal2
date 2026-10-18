@@ -23,9 +23,12 @@
         "https://nvidianews.nvidia.com/",
         "https://www.nvidia.com/en-us/events/",
         "https://teratec.eu/gb/forum/colloque.html",
-        "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/"
+        "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/",
+        "https://www.nvidia.com/es-la/ai-days/",
+        "https://www.nvidia.com/ko-kr/ai-days/",
+        "https://www.nvidia.com/en-us/ai-days/"
       ],
-      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance."
+      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance. AI Day Mexico City November 4–5 and AI Day Seoul November 9–10 are confirmed technical/developer-training events, not investor days."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -154,6 +157,30 @@
       "url": "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/",
       "category": "Industry exhibition / technical talks",
       "summary": "NVIDIA confirms sponsorship, Booth 170, technical sessions and demonstrations at the Salt Palace Convention Center in Salt Lake City November 9–12. A November 9 workshop is also listed. This is a developer/industry appearance, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "AI Day Mexico City · technical sessions and training",
+      "date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "url": "https://www.nvidia.com/es-la/ai-days/",
+      "category": "Technical conference / developer training",
+      "summary": "NVIDIA confirms AI Day at Expo Santa Fe México November 4–5, with conference sessions November 4 and hands-on training November 5. This is a developer/industry event, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "AI Day Seoul · technical sessions and training",
+      "date": "2026-11-09",
+      "end_date": "2026-11-10",
+      "url": "https://www.nvidia.com/ko-kr/ai-days/",
+      "category": "Technical conference / developer training",
+      "summary": "NVIDIA confirms AI Day at COEX in Seoul November 9–10, with technical sessions November 9 and hands-on workshops November 10. This is a developer/industry event, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-18"
