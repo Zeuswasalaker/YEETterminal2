@@ -22,9 +22,10 @@
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
         "https://nvidianews.nvidia.com/",
         "https://www.nvidia.com/en-us/events/",
-        "https://teratec.eu/gb/forum/colloque.html"
+        "https://teratec.eu/gb/forum/colloque.html",
+        "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/"
       ],
-      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent."
+      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -141,6 +142,18 @@
       "url": "https://teratec.eu/gb/forum/colloque.html",
       "category": "Industry exhibition / technical talks",
       "summary": "The official TERATEC program confirms October 20–21 in Paris and lists Jensen Huang by live transmission October 21, 11 a.m.–1 p.m. local time. The date overlaps GTC Berlin; this listing does not establish a separate presentation or new financial guidance. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-17"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "KubeCon + CloudNativeCon North America · NVIDIA sessions and demos",
+      "date": "2026-11-09",
+      "end_date": "2026-11-12",
+      "url": "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/",
+      "category": "Industry exhibition / technical talks",
+      "summary": "NVIDIA confirms sponsorship, Booth 170, technical sessions and demonstrations at the Salt Palace Convention Center in Salt Lake City November 9–12. A November 9 workshop is also listed. This is a developer/industry appearance, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-17"
