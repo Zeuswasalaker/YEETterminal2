@@ -26,9 +26,11 @@
         "https://www.nvidia.com/en-us/events/kubecon-and-cloudnative-con-north-america/",
         "https://www.nvidia.com/es-la/ai-days/",
         "https://www.nvidia.com/ko-kr/ai-days/",
-        "https://www.nvidia.com/en-us/ai-days/"
+        "https://www.nvidia.com/en-us/ai-days/",
+        "https://www.nvidia.com/gtc/dc/",
+        "https://www.nvidia.com/gtc/"
       ],
-      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance. AI Day Mexico City November 4–5 and AI Day Seoul November 9–10 are confirmed technical/developer-training events, not investor days."
+      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance. AI Day Mexico City November 4–5 and AI Day Seoul November 9–10 are confirmed technical/developer-training events, not investor days. GTC Washington, D.C. November 30–December 3 (Huang keynote December 1, 2 p.m. Eastern) and GTC San Jose March 15–18, 2027 are confirmed company technology conferences, not investor days."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -181,6 +183,31 @@
       "url": "https://www.nvidia.com/ko-kr/ai-days/",
       "category": "Technical conference / developer training",
       "summary": "NVIDIA confirms AI Day at COEX in Seoul November 9–10, with technical sessions November 9 and hands-on workshops November 10. This is a developer/industry event, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "GTC Washington, D.C. · Jensen Huang keynote",
+      "date": "2026-11-30",
+      "end_date": "2026-12-03",
+      "keynote_date": "2026-12-01",
+      "url": "https://www.nvidia.com/gtc/dc/",
+      "category": "Company conference",
+      "summary": "NVIDIA confirms workshops November 30 and the AI conference/expo December 1–3 in Washington, D.C. Jensen Huang's keynote is December 1 at 2 p.m. Eastern. Technology/company conference, not an investor day or earnings event; no financial-guidance update is promised. Saved October 15 $185 puts expiring November 27, 2026 expire before the event; $150 puts expiring May 21, 2027 span it. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "GTC San Jose 2027 · AI conference",
+      "date": "2027-03-15",
+      "end_date": "2027-03-18",
+      "url": "https://www.nvidia.com/gtc/",
+      "category": "Company conference",
+      "summary": "NVIDIA confirms GTC returns to San Jose March 15–18, 2027. This is a technology conference save-the-date, not an investor day or earnings event. A specific keynote time or financial-guidance update is not established by this listing. Saved October 15 $150 puts expiring May 21, 2027 span the event; $185 puts expiring November 27, 2026 do not. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-18"
