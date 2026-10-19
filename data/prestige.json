@@ -1,8 +1,8 @@
 {
   "source": "Saved Unusual Whales SPY Magic alerts and Yahoo Finance SPY 1-minute prices including extended hours",
   "captured_at": "2026-10-19T13:45:52.585061+00:00",
-  "source_time": "2026/10/19 06:43:11",
-  "spot": 767.4099731445312,
+  "source_time": "2026/10/19 11:55:00",
+  "spot": 767.34,
   "coverage_start": "2026/10/12 10:47:23",
   "alert_count": 363,
   "cards": [
@@ -830,7 +830,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/21/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/14 12:33:07",
       "last": "2026/10/14 12:33:07",
@@ -1232,7 +1232,7 @@
       "last_premium": "$73K",
       "last_price": "$3.06",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1411,7 +1411,7 @@
       "last_premium": "$31K",
       "last_price": "$3.04",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1440,7 +1440,7 @@
       "last_premium": "$303K",
       "last_price": "$4.46",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1732,7 +1732,7 @@
       "last_premium": "$95K",
       "last_price": "$4.87",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1787,7 +1787,7 @@
       "last_premium": "$39K",
       "last_price": "$3.60",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1816,7 +1816,7 @@
       "last_premium": "$22K",
       "last_price": "$2.22",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1845,7 +1845,7 @@
       "last_premium": "$124K",
       "last_price": "$3.10",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -1907,7 +1907,7 @@
       "last_premium": "$42K",
       "last_price": "$4.20",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1936,7 +1936,7 @@
       "last_premium": "$53K",
       "last_price": "$3.00",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts_in_latest_capture": 4,
       "classification_audit": [
         {
@@ -1996,7 +1996,7 @@
       "last_premium": "$50K",
       "last_price": "$4.72",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2025,7 +2025,7 @@
       "last_premium": "$51K",
       "last_price": "$4.78",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -2054,7 +2054,7 @@
       "last_premium": "$39K",
       "last_price": "$3.86",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2149,7 +2149,7 @@
       "last_premium": "$20K",
       "last_price": "$2.01",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2208,7 +2208,7 @@
       "last_premium": "$130K",
       "last_price": "$2.88",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2980,7 +2980,7 @@
       "strike": 774,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 10:44:01",
       "last": "2026/10/15 10:44:01",
@@ -3065,7 +3065,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 12,
       "first": "2026/10/15 11:00:22",
       "last": "2026/10/16 08:48:49",
@@ -3175,7 +3175,7 @@
       "strike": 775,
       "type": "call",
       "expiry": "10/30/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:22:35",
       "last": "2026/10/15 12:22:35",
@@ -3286,7 +3286,7 @@
       "strike": 773,
       "type": "call",
       "expiry": "10/27/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/15 12:29:44",
       "last": "2026/10/15 12:29:44",
@@ -3312,7 +3312,7 @@
       "strike": 775,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 6,
       "first": "2026/10/15 12:35:03",
       "last": "2026/10/16 07:55:04",
@@ -3394,7 +3394,7 @@
       "strike": 767,
       "type": "put",
       "expiry": "10/20/2026",
-      "status": "On Deck",
+      "status": "Watching",
       "alerts": 2,
       "first": "2026/10/19 06:39:02",
       "last": "2026/10/19 06:41:56",
@@ -3402,6 +3402,9 @@
       "last_price": "$2.40",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/19 07:03:34",
+      "retired_spot": 766.06,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
       "initial_near_at": "2026/10/19 06:39:02"
     },
     {
@@ -3487,7 +3490,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/23/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 7,
       "first": "2026/10/16 10:18:20",
       "last": "2026/10/16 12:56:14",
@@ -3523,7 +3526,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/20/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 4,
       "first": "2026/10/16 10:26:03",
       "last": "2026/10/16 12:36:51",
@@ -3541,7 +3544,7 @@
       "strike": 759,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 1,
       "first": "2026/10/16 12:13:57",
       "last": "2026/10/16 12:13:57",
@@ -3631,7 +3634,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/21/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 1,
       "first": "2026/10/16 11:50:18",
       "last": "2026/10/16 11:50:18",
@@ -3761,7 +3764,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/22/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 2,
       "first": "2026/10/16 11:19:07",
       "last": "2026/10/16 11:22:33",
@@ -3777,7 +3780,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/26/2026",
-      "status": "Watching",
+      "status": "Approaching",
       "alerts": 1,
       "first": "2026/10/16 11:20:29",
       "last": "2026/10/16 11:20:29",
@@ -4095,6 +4098,9 @@
       "last_price": "$1.87",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/19 08:27:26",
+      "retired_spot": 770.01,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/16 08:26:17",
       "away": "2026/10/16 09:48:59",
       "returned": "2026/10/16 09:54:59",
@@ -4176,6 +4182,9 @@
       "last_price": "$3.78",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/19 08:27:26",
+      "retired_spot": 770.01,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/16 08:38:59",
       "away": "2026/10/16 09:48:59",
       "returned": "2026/10/16 09:54:59",
@@ -4186,7 +4195,7 @@
       "strike": 772,
       "type": "call",
       "expiry": "10/22/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/16 08:33:10",
       "last": "2026/10/16 08:33:10",
@@ -4240,7 +4249,7 @@
       "strike": 774,
       "type": "call",
       "expiry": "10/26/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 1,
       "first": "2026/10/16 08:05:52",
       "last": "2026/10/16 08:05:52",
@@ -4249,7 +4258,9 @@
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/16 08:05:52",
-      "away": "2026/10/16 08:07:00"
+      "away": "2026/10/16 08:07:00",
+      "returned": "2026/10/19 08:27:56",
+      "prestige_at": "2026/10/19 08:27:56"
     },
     {
       "contract": "771p 10/22/2026",
@@ -4292,7 +4303,7 @@
       "strike": 775,
       "type": "call",
       "expiry": "10/22/2026",
-      "status": "Approaching",
+      "status": "Watching",
       "alerts": 4,
       "first": "2026/10/16 07:02:14",
       "last": "2026/10/16 07:46:30",
@@ -4343,7 +4354,7 @@
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-19T13:45:52.585061+00:00",
+  "checked_at": "2026-10-19",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -11796,10 +11807,54 @@
     {
       "time": "2026/10/19 06:43:11",
       "spot": 767.4099731445312
+    },
+    {
+      "time": "2026/10/19 07:03:34",
+      "spot": 766.06,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 07:07:13",
+      "spot": 766.49,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:27:26",
+      "spot": 770.01,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:27:56",
+      "spot": 770.18,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:28:10",
+      "spot": 770.18,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:28:37",
+      "spot": 770.15,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:28:41",
+      "spot": 770.12,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 08:39:12",
+      "spot": 770.25,
+      "source": "UW SPY Magic alert underlying quote"
+    },
+    {
+      "time": "2026/10/19 11:55:00",
+      "spot": 767.34
     }
   ],
   "latest_session_alert_count": 2,
-  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near → away → return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then.",
+  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage.",
   "classification_version": "otm-sequence-v2",
   "latest_alert_time": "2026/10/19 06:41:56",
   "alert_observations": [
@@ -12787,5 +12842,16 @@
       "premium": "$59K",
       "side": "-"
     }
-  ]
+  ],
+  "latest_capture_summary": {
+    "date": "2026-10-19",
+    "flow_start": "2026/10/19 06:39:02",
+    "flow_as_of": "2026/10/19 11:55:00",
+    "alerts": 270,
+    "calls_premium": 5049000,
+    "puts_premium": 6273000,
+    "unknown_side_alerts": 5,
+    "complete_session": false,
+    "method": "Distinct rendered rows across two pages; rounded premium labels. Aggregate capture retained separately from prior raw alert history."
+  }
 }
