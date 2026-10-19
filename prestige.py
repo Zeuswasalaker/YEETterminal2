@@ -137,13 +137,15 @@ def prestige_performance(snapshot):
                 outcome='Expired OTM'
             else:
                 outcome='Outcome unverified'
-        rows.append({'contract':card['contract'],'qualified_at':start,'expiry':card['expiry'],
+        rows.append({'contract':card['contract'],'qualified_at':start,'expiry':card['expiry'],'unexpired':as_of<deadline,
                      'outcome':outcome,'observed_at':evidence['time'] if evidence else '',
                      'observed_spot':float(evidence['spot']) if evidence else None})
     wins=sum(r['outcome']=='ITM hit' for r in rows)
     losses=sum(r['outcome']=='Expired OTM' for r in rows)
     return {'total':len(rows),'itm':wins,'expired_otm':losses,
             'open':sum(r['outcome']=='Open' for r in rows),
+            'plays_open':sum(r['unexpired'] for r in rows),
+            'open_itm_hits':sum(r['unexpired'] and r['outcome']=='ITM hit' for r in rows),
             'unverified':sum(r['outcome']=='Outcome unverified' for r in rows),
             'win_percent':100*wins/(wins+losses) if wins+losses else None,
             'records':sorted(rows,key=lambda r:(r['qualified_at'],r['contract']))}
@@ -254,12 +256,13 @@ def _render(admin):
 .prestige-how strong{color:#f3e6b4}.prestige-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
 .prestige-step{padding:17px;background:#0e292d;border-radius:14px;border:1px solid #98b69a33;font:500 14px/1.6 "Trebuchet MS",Arial,sans-serif;color:#b9d0c7}
 .prestige-step b{display:block;font-size:16px;color:#e9cf8d;margin-bottom:7px}
-.prestige-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}
+.prestige-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:24px 0}
 .prestige-stat{padding:17px;border-radius:16px;border:1px solid #a9bd8d33;background:#1a3737;color:#bdcfc5;font:700 12px/1.6 "Trebuchet MS",Arial,sans-serif}
 .prestige-stat strong{display:block;font:900 32px/1.4 "Trebuchet MS",Arial,sans-serif;color:#ead18e}
 .prestige-stat:nth-child(2){background:#193c31;border-color:#8bbf8366}.prestige-stat:nth-child(2) strong{color:#b9e59b}
 .prestige-stat:nth-child(3){background:#422e2b;border-color:#d99d8d66}.prestige-stat:nth-child(3) strong{color:#ffc0aa}
 .prestige-stat:nth-child(4){background:#3c3926;border-color:#dfc27c88}
+@media(min-width:641px) and (max-width:1000px){.prestige-stats{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .prestige-saved{background:#263c30;border:1px solid #9eb27744;border-radius:12px;padding:13px 18px;color:#c8d7b8;font:500 13px/1.6 "Trebuchet MS",Arial,sans-serif}
 .prestige-board{margin:12px 0 4px;padding:22px 24px;border:2px solid #7b745055;border-radius:20px;background:linear-gradient(135deg,#253c35,#152f32);box-shadow:inset 0 1px 0 #d3c58422,0 4px 0 #0b2027}
 .prestige-board h3{color:#edcf88!important;font:800 25px/1.4 "Trebuchet MS",Arial,sans-serif!important;margin:0 0 8px}
@@ -290,18 +293,29 @@ def _render(admin):
     stats=prestige_performance(snapshot)
     rate=f"{stats['win_percent']:.1f}%" if stats['win_percent'] is not None else '—'
     metrics=[('🥇 Total Prestiges',str(stats['total'])),('✅ ITM by expiration',str(stats['itm'])),
-             ('⌛ Expired OTM',str(stats['expired_otm'])),('🎯 Recorded win rate',rate)]
+             ('⌛ Expired OTM',str(stats['expired_otm'])),('🎯 Recorded win rate',rate),('📂 Plays open',str(stats['plays_open']))]
     st.markdown('<div class="prestige-stats">'+''.join(
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
-    st.caption(f"{stats['open']} still open · {stats['unverified']} expired outcomes unverified · All saved history, independent of board filters")
+    st.caption(f"{stats['plays_open']} plays not yet expired: {stats['open_itm_hits']} already hit ITM + {stats['open']} awaiting an ITM hit · {stats['unverified']} expired outcomes unverified")
+    st.caption('Plays open includes unexpired Prestige contracts removed from the setup board after hitting ITM, including earlier Friday plays. It tracks contract life, not your actual positions or a recommendation to keep holding. An ITM hit stays counted in the win rate while its contract remains open.')
+    with st.expander('📂 See plays open, including ITM hits removed from the board'):
+        open_plays=sorted((r for r in stats['records'] if r['unexpired']),
+                          key=lambda r:(datetime.strptime(r['expiry'],'%m/%d/%Y'),r['contract']))
+        if open_plays:
+            st.dataframe([{'Contract':r['contract'],'Expiration':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
+                           'Progress':'✅ Already hit ITM; not expired' if r['outcome']=='ITM hit' else '👀 Awaiting ITM hit',
+                           'Became Prestige (PT)':r['qualified_at'],'ITM check (PT)':r['observed_at']}
+                          for r in open_plays],hide_index=True,use_container_width=True)
+        else:
+            st.write('No unexpired Prestige plays in this saved update.')
     st.caption('An ITM hit at any saved check after becoming Prestige and by expiration counts as a win, including premarket and after-hours. Win rate = ITM hits ÷ (ITM hits + verified OTM expirations). Open and unverified results are excluded. This measures strike touches, not option profits.')
     with st.expander('📊 Prestige results and counting rules'):
         st.write('Each strike, call/put type and expiration counts once, after its comeback is verified. Retired contracts remain in these totals. Extended-hours checks count before expiration; later crosses do not. Expired OTM requires a saved final-minute close at the 4:15 p.m. Eastern SPY options cutoff, with no earlier recorded ITM hit. Missing closing evidence stays unverified rather than becoming a loss.')
         st.caption('Coverage is limited to saved observations and minute closes. Brief intraminute hits or missing historical prices can change the tally. These are observed results, not a complete tick-by-tick backtest or future winning odds. Times below are Pacific.')
         if stats['records']:
             st.dataframe([{'Contract':r['contract'],'Became Prestige (PT)':r['qualified_at'],
-                           'Result':r['outcome'],'Result check (PT)':r['observed_at'],
+                           'Result':r['outcome'],'Play status':'Open until expiry' if r['unexpired'] else 'Expired','Result check (PT)':r['observed_at'],
                            'SPY at result':r['observed_spot']} for r in stats['records']],
                          hide_index=True,use_container_width=True)
 
