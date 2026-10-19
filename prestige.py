@@ -291,33 +291,47 @@ def _render(admin):
     st.markdown('<div class="prestige-hero"><h1>The Prestige</h1></div>',unsafe_allow_html=True)
 
     stats=prestige_performance(snapshot)
-    rate=f"{stats['win_percent']:.1f}%" if stats['win_percent'] is not None else '—'
-    metrics=[('🥇 Total Prestiges',str(stats['total'])),('✅ ITM by expiration',str(stats['itm'])),
-             ('⌛ Expired OTM',str(stats['expired_otm'])),('🎯 Recorded win rate',rate),('📂 Plays open',str(stats['plays_open']))]
+    try:
+        audit=json.loads((Path(__file__).parent/'data/prestige_audit.json').read_text())
+    except (OSError,ValueError):
+        audit={'records':[],'scope':'Publication audit unavailable; historical sequences remain reconstructed.'}
+    evidence={r['contract']:r for r in audit.get('records',[])}
+    for row in stats['records']:
+        row.update({k:evidence.get(row['contract'],{}).get(k,'') for k in ('provenance','published_at','source_url')})
+        row['provenance']=row['provenance'] or 'Reconstructed from saved observations'
+    published=[r for r in stats['records'] if r['published_at']]
+    wins=sum(r['outcome']=='ITM hit' for r in published)
+    losses=sum(r['outcome']=='Expired OTM' for r in published)
+    current={c['contract'] for c in cards if c['status']=='Current Prestige'}
+    earlier=[r for r in published if r['outcome']=='Open' and r['contract'] not in current]
+    rate=f'{100*wins/(wins+losses):.1f}%' if wins+losses else '—'
+    metrics=[('🥇 Current setups',str(len(current))),('👀 Earlier plays awaiting ITM',str(len(earlier))),
+             ('✅ Completed ITM hits',str(wins)),('⌛ Expired OTM',str(losses)),('🎯 Published-cohort ITM rate',rate)]
     st.markdown('<div class="prestige-stats">'+''.join(
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
-    st.caption(f"{stats['plays_open']} plays not yet expired: {stats['open_itm_hits']} already hit ITM + {stats['open']} awaiting an ITM hit · {stats['unverified']} expired outcomes unverified")
-    st.caption('Plays open includes unexpired Prestige contracts removed from the setup board after hitting ITM, including earlier Friday plays. It tracks contract life, not your actual positions or a recommendation to keep holding. An ITM hit stays counted in the win rate while its contract remains open.')
-    with st.expander('📂 See plays open, including ITM hits removed from the board'):
-        open_plays=sorted((r for r in stats['records'] if r['unexpired']),
-                          key=lambda r:(datetime.strptime(r['expiry'],'%m/%d/%Y'),r['contract']))
-        if open_plays:
-            st.dataframe([{'Contract':r['contract'],'Expiration':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
-                           'Progress':'✅ Already hit ITM; not expired' if r['outcome']=='ITM hit' else '👀 Awaiting ITM hit',
-                           'Became Prestige (PT)':r['qualified_at'],'ITM check (PT)':r['observed_at']}
-                          for r in open_plays],hide_index=True,use_container_width=True)
+    st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · Price checks through {snapshot.get('source_time','unknown')} Pacific")
+    st.caption('Current setups qualify on the latest board. Earlier plays were documented on a published Prestige snapshot and remain unexpired without a recorded ITM hit. Completed hits are successes, even if their expiration is still ahead; they are not active setups. These lists do not represent actual subscriber positions.')
+    st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The ITM rate is hits ÷ (hits + verified OTM expirations); unresolved outcomes are excluded. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
+    with st.expander('👀 Earlier published plays still awaiting an ITM hit'):
+        if earlier:
+            st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
+                           'Published (PT)':r['published_at'],'Became Prestige (PT)':r['qualified_at']}
+                          for r in sorted(earlier,key=lambda r:(r['expiry'],r['contract']))],hide_index=True,use_container_width=True)
         else:
-            st.write('No unexpired Prestige plays in this saved update.')
-    st.caption('An ITM hit at any saved check after becoming Prestige and by expiration counts as a win, including premarket and after-hours. Win rate = ITM hits ÷ (ITM hits + verified OTM expirations). Open and unverified results are excluded. This measures strike touches, not option profits.')
-    with st.expander('📊 Prestige results and counting rules'):
-        st.write('Each strike, call/put type and expiration counts once, after its comeback is verified. Retired contracts remain in these totals. Extended-hours checks count before expiration; later crosses do not. Expired OTM requires a saved final-minute close at the 4:15 p.m. Eastern SPY options cutoff, with no earlier recorded ITM hit. Missing closing evidence stays unverified rather than becoming a loss.')
-        st.caption('Coverage is limited to saved observations and minute closes. Brief intraminute hits or missing historical prices can change the tally. These are observed results, not a complete tick-by-tick backtest or future winning odds. Times below are Pacific.')
-        if stats['records']:
-            st.dataframe([{'Contract':r['contract'],'Became Prestige (PT)':r['qualified_at'],
-                           'Result':r['outcome'],'Play status':'Open until expiry' if r['unexpired'] else 'Expired','Result check (PT)':r['observed_at'],
-                           'SPY at result':r['observed_spot']} for r in stats['records']],
-                         hide_index=True,use_container_width=True)
+            st.write('No unresolved earlier published plays in this saved update.')
+    with st.expander('✅ Completed published ITM hits, including unexpired contracts'):
+        st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
+                       'Published (PT)':r['published_at'],'ITM check (PT)':r['observed_at'],
+                       'SPY at hit':r['observed_spot']} for r in published if r['outcome']=='ITM hit'],hide_index=True,use_container_width=True)
+    with st.expander('📊 Full reconstructed history and publication audit'):
+        st.write(f"{stats['total']} observed comeback sequences in saved history: {len(published)} have publication evidence before outcome; {stats['total']-len(published)} are reconstructed or lack that evidence. The former 93.3% figure pooled these groups and is not a live track record.")
+        st.write(audit.get('scope',''))
+        st.caption('A hit requires a saved price crossing after qualification, by the 4:15 p.m. Eastern SPY options cutoff. Expired OTM requires a saved final-minute closing check and no recorded ITM hit. Missing closing evidence remains unverified. Sparse history and minute closes can miss brief crosses; no tested future winning odds are claimed.')
+        st.dataframe([{'Contract':r['contract'],'Provenance':r['provenance'],'Published (PT)':r['published_at'],
+                       'Publication source':r['source_url'],'Became Prestige (PT)':r['qualified_at'],'Result':r['outcome'],
+                       'Result check (PT)':r['observed_at'],'SPY at result':r['observed_spot']} for r in stats['records']],
+                     hide_index=True,use_container_width=True)
 
     if not snapshot.get('cards'):
         st.info('No contracts to show in this update.')
