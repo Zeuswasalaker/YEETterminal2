@@ -1,8 +1,8 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
     "status": "Page fetched",
@@ -10,8 +10,8 @@
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "9b3a593c0196cc2cd176dbbf0a82c27fb6a18059f9a8a916941c8a5b51818f61",
     "changed": false,
     "status": "Page fetched",
@@ -25,8 +25,8 @@
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "a25eddd7704db3fbdcd2367327199cc9accd5d7e820ef646ccf344631b44d664",
     "changed": false,
     "status": "Page fetched",
@@ -34,8 +34,8 @@
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "1ffe461661c7709014bc37002b945fccd8bd0cbef2c4d22c66c1a5c40cb648f8",
     "changed": false,
     "status": "Page fetched",
@@ -43,8 +43,8 @@
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "fc1c0d25e3e6e7d1f1138de329cf3c751d5c09fb8c98aaea209dd46fcac080d9",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +52,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "TSEM",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
@@ -61,8 +61,8 @@
   },
   "https://immunitybio.com/immunitybio-to-participate-in-the-piper-sandler-virtual-oncology-symposium/": {
     "ticker": "IBRX",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "6cf1e9324dd0adbc6abcf77738546183b2a2ef2620fc22af277fd51b5ec3e0ba",
     "changed": false,
     "status": "Page fetched",
@@ -70,8 +70,8 @@
   },
   "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx": {
     "ticker": "BLDR",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "0fb28afb384c644dbee58d2a1e3df9f4128bc86241628ee036dc40953cf94af8",
     "changed": false,
     "status": "Page fetched",
@@ -79,8 +79,8 @@
   },
   "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx": {
     "ticker": "ONTO",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "a53efffa67449e711c2ba7dc798b21cdbd5a6a5ba2d8ec58dc62eb091e243cc2",
     "changed": false,
     "status": "Page fetched",
@@ -88,50 +88,50 @@
   },
   "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology": {
     "ticker": "ABVX",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology"
   },
   "https://max.adobe.com/": {
     "ticker": "ADBE",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "d326e101620ac69c4f12880ebd18246eba745aadfa0e278843f265b8b615248e",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Adobe MAX 2026 Creativity Conference | November 10\u00e2\u0080\u009312, 2026 Skip to content Miami Beach, FL Nov 10\u00e2\u0080\u009312 Register Adobe MAX \u00e2\u0080\u0094 The Creativity Conference Dream big. Create bigger. Get ready for what\u00e2\u0080\u0099s next \u00e2\u0080\u0094 with three days of creative skill-building, visionary keynotes, and valuable connections. November 8\u00e2\u0080\u00939 Preconference in Miami Beach November 10\u00e2\u0080\u009312 Miami Beach and online Register Featured speakers Big ideas, inspired voices. View all speakers Jonathan Anderson Creative Director & Designer Siobh\u00c3\u00a1n Maroney Creative Director and Co-Founder, They Are Creative Drex Lee Creative Pioneer & Viral Filmmaker Terry Crews Award-Winning Actor, Author, Activist, and Motivational Speaker Ramisha Sattar Creative Director and Designer, Mishaspice Adam Kurtz Artist, ADAM JK Vanessa Rivera Digital Artist, The Life of AIVAX Don Allen Stevenson III Director of Asteria Research and Tech, Creative Technologist Marisol Ortega Designer, Illustrator, Art Director S. Murugiah Artist, Multi-disciplinary Artist, Illustrator & Designer Hayden Hillier-Smith Video Editor, Creative Director, and YouTube Storytelling Strategist, HillierSmith Jolene Delisle Founder, The Working Assembly George Butler Illustrator and Artist Reporter Laura Jordan Bambach Founder and Chief Creative Officer, Uncharted Studio Chris Do Founder/CEO, The Futur Liz Mosley Graphic Designer, Liz Mosley Design Aaron Draplin Founder, Draplin Design Co. Kristy Campbell Brand Designer, Founder, Pink Pony Creative Vinnie Hobbs Film Editor, VH Post James Barnard Founder & Creative Director, Barnard Design Co Explore session tracks. Discover what\u00e2\u0080\u0099s possible. Uplevel your skills and find inspiration in 200+ sessions. Accelerating Creativity with AI Branding Creative Leadership and Innovation Creator Economy Design, Imaging, and Illustration Photography Video, Audio, and Motion View all sessions Creativity everywhere. Get a jump start on MAX with a preconference course. View preconferences Find inspiration throughout the Creative Park. Explore Creative Park MAX 2025 highlights (opens in a modal) Network and celebrate community at evening events. View agenda Convince your boss you belong at MAX. Download letter Info, inspo, and networking galore. If I could go every year I would!\u00e2\u0080\u009d \u00e2\u0080\u0094 MAX 2025 attendee I felt inspired and even met a few heroes. My creative tank is officially FULL.\u00e2\u0080\u009d \u00e2\u0080\u0094 MAX 2025 attendee The best conference I've ever been to. End of. Done.\u00e2\u0080\u009d \u00e2\u0080\u0094 MAX 2025 attendee MAX news and blogs See what\u00e2\u0080\u0099s happening now. News The MAX Sneaks host is announced. This year\u00e2\u0080\u0099s celebrity host is Terry Crews, the award-winning actor, author, activist, and motivational speaker. Don\u00e2\u0080\u0099t miss this peek into your not-so distant creative future. Learn more News Discover what\u00e2\u0080\u0099s happening in the Creative Park. There are so many great places to explore in the Creative Park. Come to the heart of MAX to find inspiring ideas, hang out with fellow attendees, and meet our awesome sponsors. Learn more Adobe Blog Meet the newest luminary speakers coming to MAX. Discover this year\u00e2\u0080\u0099s luminaries. Learn from these creative heroes who will share how identity, crisis, and everyday moments fuel their groundbreaking work. Learn more (opens in a new window) News Bring your team and maximize your benefits. Create better and more collaborative work, experience an amazing team building experience, and save money when three or more from your company attend together. Learn more News Enter the Adobe MAX Creativity Awards by Aug 24. Have your best work showcased at MAX. Enter in five categories in two award levels: creative pro projects and young creator projects. Submissions close August 24. Learn more (opens in a new window) News Want to save on MAX? Multiple discounts are available. Check out all the ways to save on registration passes, with lower rates for students, educators, nonprofit and government employees \u00e2\u0080\u0094 plus special prices for registering early. Learn more Sponsors Meet our amazing sponsors. Check out these Diamond sponsors \u00e2\u0080\u0094 they have creative products and services to make your work life easier. View all sponsors Become a sponsor Sponsor logos \u00e2\u0080\u0093 AMD, CDW, Cognizant Moment, Deloitte Digital, Google Cloud, Logitech, NVIDIA, Omnicom, Snapdragon James Barnard Sessions"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0"
   },
   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-host-qubits-asia-2026-in-seoul/": {
     "ticker": "QBTS",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
-    "hash": "b50ab9936941312456d1779a094eac3a728122a106f5cb9adcfae98c459061d7",
-    "changed": false,
-    "status": "Page fetched",
-    "text_excerpt": "D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul D-Wave Launches Gate-Model Simulator Beta Program Read Release September 16, 2026 D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul Event to showcase production applications, customer momentum across APAC and advancements in D-Wave\u2019s annealing and gate-model quantum computing technologies PALO ALTO, Calif., and SEOUL, South Korea \u2013 Sept. 16, 2026 \u2013 D-Wave Quantum Inc. (NASDAQ: QBTS) (\u201cD-Wave\u201d or the \u201cCompany\u201d), the only dual-platform quantum computing company providing both annealing and gate-model systems, software, and services, today announced that it will host Qubits Asia 2026: Quantum Realized, a full-day quantum computing user conference on October 28, 2026, in Seoul. Focused on the growing impact of quantum computing across the Asia-Pacific (APAC) region, the event will spotlight production applications addressing complex business challenges and research advancing scientific discovery, as well as the latest developments in D-Wave\u2019s annealing and gate-model technologies. The conference will bring together D-Wave executives, customers, researchers and industry leaders to share lessons from real-world implementations, exchange best practices and explore opportunities to accelerate quantum computing adoption across APAC. \u201cCountries including Japan, Singapore, South Korea, and Taiwan are moving decisively to establish global leadership in quantum computing, and D-Wave is helping turn that ambition into measurable results today,\u201d said Dr. Alan Baratz, CEO of D-Wave. \u201cQubits Asia will demonstrate what leadership looks like in practice by bringing together customers, researchers and industry leaders to accelerate commercial adoption, advance scientific discovery and expand the impact of quantum computing across the region.\u201d Qubits Asia 2026 comes amid continued momentum for D-Wave across APAC, marked by growing customer adoption, strategic collaborations and commercial and research initiatives spanning network optimization, artificial intelligence and machine learning, drug discovery, materials science, semiconductor manufacturing, port operations and more. Qubits Asia 2026 program highlights include: D-Wave CEO Dr. Alan Baratz and Chief Development Officer Dr. Trevor Lanting will share updates on the Company\u2019s annealing and gate-model quantum computing technologies, commercial applications and advances in quantum AI. Shuichi Fukuda, a researcher at NTT DOCOMO, Japan\u2019s largest mobile operator, will discuss the company\u2019s two D-Wave-powered quantum computing applications now operating in production and the resulting improvements in network efficiency and performance. Wanki Cho, consulting manager at LG CNS, will discuss how the company is using D-Wave\u2122 technology to enhance 3D CT imaging for manufacturing inspections. Professor Daniel Park of Yonsei University will explore how annealing quantum computing could enhance generative AI workflows. Po-Hsun Fang of National Yang Ming Chiao Tung University will present a quantum annealing framework for reticle optimization in semiconductor manufacturing. Assistant Professor Seon-Geun Jeong of Gyeongsang National University will present research that used D-Wave technology to optimize berth and quay-crane allocation at Busan Port, successfully scheduling more than 50 vessels and 15 quay cranes using real operational data. To register for Qubits Asia 2026: Quantum Realized, visit https://qubitsasia26.dwavequantum.com/ . About D-Wave Quantum Inc. D-Wave is a leader in the development and delivery of quantum computing systems, software, and services. It is the world\u2019s first commercial supplier of quantum computers, and the first and only to offer dual-platform quantum computing products and services, spanning both annealing and gate-model quantum computing technologies. D-Wave\u2019s mission is to help customers realize the value of quantum today through enterprise-grade systems available on-premises and via its Leap\u2122 quantum cloud service, which offers 99.9% availability and uptime. More than 100 organizations across commercial, government and research sectors trust D-Wave to address complex computational challenges using quantum computing. Learn more about realizing the value of quantum computing today and how D-Wave is shaping the quantum-driven industrial and societal advancements of tomorrow: www.dwavequantum.com . Forward-Looking Statements Certain statements in this press release are forward-looking, as defined in the Private Securities Litigation Reform Act of 1995. In some cases, you can identify forward-looking statements by the following words: \u201cbelieve,\u201d \u201cmay,\u201d \u201cwill,\u201d \u201ccould,\u201d \u201cwould,\u201d \u201cshould,\u201d \u201cexpect,\u201d \u201cintend,\u201d \u201cplan,\u201d \u201canticipate,\u201d \u201ctrend,\u201d \u201cestimate,\u201d \u201cpredict,\u201d \u201cproject,\u201d \u201cpotential,\u201d \u201cseem,\u201d \u201cseek,\u201d \u201cfuture,\u201d \u201coutlook,\u201d \u201cforecast,\u201d \u201cprojection,\u201d \u201ccontinue,\u201d \u201congoing,\u201d or the negative of these terms or other comparable terminology, although not all forward-looking statements contain these words. These statements involve risks, uncertainties, and other factors that may cause actual results to differ materially from the information expressed or implied by these forward-looking statements and may not be indicative of future results. These forward-looking statements are subject to a number of risks and uncertainties, including, among others, various factors beyond management\u2019s control, including the risks discussed under the caption \u201cItem 1A. Risk Factors\u201d in Part I of our most recent Annual Report on Form 10-K or any updates discussed under the caption \u201cItem 1A. Risk Factors\u201d in Part II of our Quarterly Reports on Form 10-Q and in our other filings with the SEC. Undue reliance should not be placed on the forward-looking statements in this press release in making an investment decision, which are based on information available to us on the date hereof. We undertake no duty to update this information unless required by law. Media Contact: Alex Daigle media@dwavesys.com Share Facebook Twitter LinkedIn Email \u00d7"
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
+    "hash": "3231119b3d1f02a5c3912f80a39765eb88cdbb3660421db91c51023a85d4b98c",
+    "changed": true,
+    "status": "Review page change",
+    "text_excerpt": "D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul Get Ready for Qubits 2027! Register Early and Save. Reserve Your Spot September 16, 2026 D-Wave to Host Qubits Asia 2026 Quantum Computing User Conference in Seoul Event to showcase production applications, customer momentum across APAC and advancements in D-Wave\u2019s annealing and gate-model quantum computing technologies PALO ALTO, Calif., and SEOUL, South Korea \u2013 Sept. 16, 2026 \u2013 D-Wave Quantum Inc. (NASDAQ: QBTS) (\u201cD-Wave\u201d or the \u201cCompany\u201d), the only dual-platform quantum computing company providing both annealing and gate-model systems, software, and services, today announced that it will host Qubits Asia 2026: Quantum Realized, a full-day quantum computing user conference on October 28, 2026, in Seoul. Focused on the growing impact of quantum computing across the Asia-Pacific (APAC) region, the event will spotlight production applications addressing complex business challenges and research advancing scientific discovery, as well as the latest developments in D-Wave\u2019s annealing and gate-model technologies. The conference will bring together D-Wave executives, customers, researchers and industry leaders to share lessons from real-world implementations, exchange best practices and explore opportunities to accelerate quantum computing adoption across APAC. \u201cCountries including Japan, Singapore, South Korea, and Taiwan are moving decisively to establish global leadership in quantum computing, and D-Wave is helping turn that ambition into measurable results today,\u201d said Dr. Alan Baratz, CEO of D-Wave. \u201cQubits Asia will demonstrate what leadership looks like in practice by bringing together customers, researchers and industry leaders to accelerate commercial adoption, advance scientific discovery and expand the impact of quantum computing across the region.\u201d Qubits Asia 2026 comes amid continued momentum for D-Wave across APAC, marked by growing customer adoption, strategic collaborations and commercial and research initiatives spanning network optimization, artificial intelligence and machine learning, drug discovery, materials science, semiconductor manufacturing, port operations and more. Qubits Asia 2026 program highlights include: D-Wave CEO Dr. Alan Baratz and Chief Development Officer Dr. Trevor Lanting will share updates on the Company\u2019s annealing and gate-model quantum computing technologies, commercial applications and advances in quantum AI. Shuichi Fukuda, a researcher at NTT DOCOMO, Japan\u2019s largest mobile operator, will discuss the company\u2019s two D-Wave-powered quantum computing applications now operating in production and the resulting improvements in network efficiency and performance. Wanki Cho, consulting manager at LG CNS, will discuss how the company is using D-Wave\u2122 technology to enhance 3D CT imaging for manufacturing inspections. Professor Daniel Park of Yonsei University will explore how annealing quantum computing could enhance generative AI workflows. Po-Hsun Fang of National Yang Ming Chiao Tung University will present a quantum annealing framework for reticle optimization in semiconductor manufacturing. Assistant Professor Seon-Geun Jeong of Gyeongsang National University will present research that used D-Wave technology to optimize berth and quay-crane allocation at Busan Port, successfully scheduling more than 50 vessels and 15 quay cranes using real operational data. To register for Qubits Asia 2026: Quantum Realized, visit https://qubitsasia26.dwavequantum.com/ . About D-Wave Quantum Inc. D-Wave is a leader in the development and delivery of quantum computing systems, software, and services. It is the world\u2019s first commercial supplier of quantum computers, and the first and only to offer dual-platform quantum computing products and services, spanning both annealing and gate-model quantum computing technologies. D-Wave\u2019s mission is to help customers realize the value of quantum today through enterprise-grade systems available on-premises and via its Leap\u2122 quantum cloud service, which offers 99.9% availability and uptime. More than 100 organizations across commercial, government and research sectors trust D-Wave to address complex computational challenges using quantum computing. Learn more about realizing the value of quantum computing today and how D-Wave is shaping the quantum-driven industrial and societal advancements of tomorrow: www.dwavequantum.com . Forward-Looking Statements Certain statements in this press release are forward-looking, as defined in the Private Securities Litigation Reform Act of 1995. In some cases, you can identify forward-looking statements by the following words: \u201cbelieve,\u201d \u201cmay,\u201d \u201cwill,\u201d \u201ccould,\u201d \u201cwould,\u201d \u201cshould,\u201d \u201cexpect,\u201d \u201cintend,\u201d \u201cplan,\u201d \u201canticipate,\u201d \u201ctrend,\u201d \u201cestimate,\u201d \u201cpredict,\u201d \u201cproject,\u201d \u201cpotential,\u201d \u201cseem,\u201d \u201cseek,\u201d \u201cfuture,\u201d \u201coutlook,\u201d \u201cforecast,\u201d \u201cprojection,\u201d \u201ccontinue,\u201d \u201congoing,\u201d or the negative of these terms or other comparable terminology, although not all forward-looking statements contain these words. These statements involve risks, uncertainties, and other factors that may cause actual results to differ materially from the information expressed or implied by these forward-looking statements and may not be indicative of future results. These forward-looking statements are subject to a number of risks and uncertainties, including, among others, various factors beyond management\u2019s control, including the risks discussed under the caption \u201cItem 1A. Risk Factors\u201d in Part I of our most recent Annual Report on Form 10-K or any updates discussed under the caption \u201cItem 1A. Risk Factors\u201d in Part II of our Quarterly Reports on Form 10-Q and in our other filings with the SEC. Undue reliance should not be placed on the forward-looking statements in this press release in making an investment decision, which are based on information available to us on the date hereof. We undertake no duty to update this information unless required by law. Media Contact: Alex Daigle media@dwavesys.com Share Facebook Twitter LinkedIn Email \u00d7"
   },
   "https://www.servicenow.com/events/nowdev.html": {
     "ticker": "NOW",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://www.elastic.co/events/elasticon": {
     "ticker": "ESTC",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "c284ac192fda43240503cdb747d4897b26e9357385ab37a0f31344aad879c3c5",
     "changed": false,
     "status": "Page fetched",
@@ -139,20 +139,20 @@
   },
   "https://www.strategy.com/mstr/vote": {
     "ticker": "MSTR",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.strategy.com/mstr/vote"
   },
   "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm": {
     "ticker": "VIAV",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
   },
   "https://investor.tsmc.com/english/financial-calendar": {
     "ticker": "TSM",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "7f7f96d56ec16fc7deadd5e6efd25398f2b9ab68b308cb38696731fa654fc1a4",
     "changed": false,
     "status": "Page fetched",
@@ -160,8 +160,8 @@
   },
   "https://www.nvidia.com/en-eu/gtc/faq/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "ae1b5853539ded256e000b5787a33e05d17b5002bedded7f08503b2c1a219509",
     "changed": false,
     "status": "Page fetched",
@@ -169,8 +169,8 @@
   },
   "https://www.nvidia.com/en-us/events/supercomputing/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "681df5c2e7497621d5d52298e3f597200f3259fffa2764318f84b7e0ce176a18",
     "changed": false,
     "status": "Page fetched",
@@ -178,8 +178,8 @@
   },
   "https://investor.accenture.com/news-and-events/events-calendar": {
     "ticker": "ACN",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "52cc3e69cdc21b7cd4a3646f32ae88d66346f06e68f45b336ae117588f49f164",
     "changed": false,
     "status": "Page fetched",
@@ -187,14 +187,14 @@
   },
   "https://www.supermicro.com/en/newsroom": {
     "ticker": "SMCI",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.supermicro.com/en/newsroom"
   },
   "https://www.amd.com/en/corporate/events.html": {
     "ticker": "AMD",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
-    "last_success": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
+    "last_success": "2026-10-19T19:19:52.468199+00:00",
     "hash": "f65466f1c6749e3f79f23bcc65298ba3a8ca2a56322046b646f5160bf26ac501",
     "changed": false,
     "status": "Page fetched",
@@ -202,13 +202,13 @@
   },
   "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm": {
     "ticker": "SNDK",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm"
   },
   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm": {
     "ticker": "IREN",
-    "last_attempt": "2026-10-17T00:27:40.525134+00:00",
+    "last_attempt": "2026-10-19T19:19:52.468199+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm"
   }
