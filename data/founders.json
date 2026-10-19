@@ -1,5 +1,5 @@
 {
-  "research_as_of": "2026-10-18",
+  "research_as_of": "2026-10-19",
   "companies": {
     "GME": {
       "name": "GameStop",
@@ -67,7 +67,7 @@
       "summary": "Workshops October 20; Jensen Huang’s keynote October 21; conference and exhibits October 21–22. A company technology event, not earnings.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "COHR",
@@ -79,7 +79,7 @@
       "summary": "Coherent lists a booth and technical talk at the fusion-energy conference in Munich. Confirmed attendance, not a confirmed financial-guidance announcement.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "COHR",
@@ -91,7 +91,7 @@
       "summary": "Coherent lists Booth 2229 at the Washington, D.C. conference. An industry showcase, not an investor presentation or earnings event.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "COHR",
@@ -103,7 +103,7 @@
       "summary": "The 2026 proxy notice and annual report list a virtual annual meeting November 18 at noon Eastern (9 a.m. Pacific). Governance voting, not an investor day or promised business update. The printed weekday conflicts with the calendar; confirm timing with IR before relying on it. Both official documents support the date; IR source access has been intermittent.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "GME",
@@ -115,7 +115,7 @@
       "summary": "GameStop's warrant announcement specifies October 30, 2026 expiration and a $32 exercise price. This is a warrant deadline, not a newly announced investor event or a RAMBO meeting. No directional implication is established.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -127,7 +127,7 @@
       "summary": "NVIDIA confirms participation in Supercomputing 2026 in Chicago, with technical sessions and demonstrations. This is an industry event, not an investor day or a promised financial-guidance update. Existing October 15 observations of the $185 put expiring November 27, 2026 and $150 put expiring May 21, 2027 span the full event. Date overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -151,7 +151,7 @@
       "summary": "The official TERATEC program confirms October 20–21 in Paris and lists Jensen Huang by live transmission October 21, 11 a.m.–1 p.m. local time. The date overlaps GTC Berlin; this listing does not establish a separate presentation or new financial guidance. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -163,7 +163,7 @@
       "summary": "NVIDIA confirms sponsorship, Booth 170, technical sessions and demonstrations at the Salt Palace Convention Center in Salt Lake City November 9–12. A November 9 workshop is also listed. This is a developer/industry appearance, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -175,7 +175,7 @@
       "summary": "NVIDIA confirms AI Day at Expo Santa Fe México November 4–5, with conference sessions November 4 and hands-on training November 5. This is a developer/industry event, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -187,7 +187,7 @@
       "summary": "NVIDIA confirms AI Day at COEX in Seoul November 9–10, with technical sessions November 9 and hands-on workshops November 10. This is a developer/industry event, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -200,7 +200,7 @@
       "summary": "NVIDIA confirms workshops November 30 and the AI conference/expo December 1–3 in Washington, D.C. Jensen Huang's keynote is December 1 at 2 p.m. Eastern. Technology/company conference, not an investor day or earnings event; no financial-guidance update is promised. Saved October 15 $185 puts expiring November 27, 2026 expire before the event; $150 puts expiring May 21, 2027 span it. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -212,7 +212,7 @@
       "summary": "NVIDIA confirms GTC returns to San Jose March 15–18, 2027. This is a technology conference save-the-date, not an investor day or earnings event. A specific keynote time or financial-guidance update is not established by this listing. Saved October 15 $150 puts expiring May 21, 2027 span the event; $185 puts expiring November 27, 2026 do not. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -225,7 +225,7 @@
       "summary": "NVIDIA confirms participation in Anaheim October 27–30. Rama Akkiraju's AI keynote is October 29, 10:05–10:50 a.m. Pacific, alongside technical sessions and recruiting. This is a technical/career appearance, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     },
     {
       "ticker": "NVDA",
@@ -237,7 +237,7 @@
       "summary": "NVIDIA confirms a free virtual event October 27–28 for clinicians, researchers and developers, covering medical imaging, MONAI, Holoscan and Isaac for Healthcare roadmaps and demonstrations. Registration lists October 27, 8 a.m.–1:30 p.m. Pacific and October 28, 8 a.m.–noon Pacific. Technical research/developer sessions, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-18"
+      "verified_on": "2026-10-19"
     }
   ],
   "flows": [
