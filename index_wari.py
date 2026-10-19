@@ -113,7 +113,54 @@ def render():
         st.caption('Formula settings and calibration are maintained in code. The scale is read-only. Scores describe disagreement, not a tested reversal probability.')
 
 
+def render_matched_snapshot(top):
+    path=ROOT/'data/index_wari_snapshot.json'
+    if not path.exists():
+        return False
+    try:
+        saved=json.loads(path.read_text())
+        sessions={r['date']:r for r in saved['sessions']}
+        dates=sorted(sessions)
+        if not dates:return False
+        day=st.selectbox('SPY Magic session',dates,index=len(dates)-1,key='index_wari_matched_session')
+        row=sessions[day]
+        if row['baseline_end']>=day or row['price_as_of']>row['flow_as_of'] or row['baseline_sessions']<20:
+            raise ValueError('Price and flow timing or prior baseline did not validate.')
+        value,level,direction,_,pz=divergence(row['call_share'],.5,1,row['index_return'],row['return_std'])
+        if direction=='No opposing signal':
+            direction='Bearish agreement · puts and falling index' if row['call_share']<=.4 and row['index_return']<0 else 'Bullish agreement · calls and rising index' if row['call_share']>=.6 and row['index_return']>0 else 'Mixed / no opposing signal'
+        detail=f"{day}: calls received {row['call_share']:.0%} of saved SPY Magic premium; SPY moved {row['index_return']:+.2%} from its prior close. Flow through {row['flow_as_of']} Pacific; latest completed price check {row['price_as_of']}."
+        if not row['complete_session'] or row['alerts']<20:
+            level='PROVISIONAL · '+level
+        with top.container():
+            hero(value,level,detail,direction)
+            if row['alerts']<20:
+                st.warning(f"Only {row['alerts']} saved alerts in this partial session. This score is sensitive to each order; it is not a settled session signal.")
+            a,b,c=st.columns(3)
+            a.metric('📞 Call share of premium',f"{row['call_share']:.0%}")
+            b.metric('SPY versus previous close',f"{row['index_return']:+.2%}")
+            c.metric('Saved Magic alerts',str(row['alerts']))
+        st.caption(f"Prior-price baseline: {row['baseline_sessions']} daily returns ending {row['baseline_end']}; daily volatility {row['return_std']:.2%}. Historical flow is not required. Intraday readings use daily volatility as a reference and are provisional.")
+        st.caption('Uses actual saved alert rows, including repeated observations per contract, rather than the final observation per contract. Premium labels are rounded; alerts are not necessarily unique trades or whales. Missing earlier historical alert rows are not reconstructed from contract totals.')
+        if row.get('unknown_side_alerts'):
+            st.caption(f"{row['unknown_side_alerts']} alerts have an unspecified displayed side. They remain in the user-supplied non-bid filter sample and are not relabeled ask-side.")
+        st.dataframe([{'Session':r['date'],'Alerts':r['alerts'],'Call premium share':f"{r['call_share']:.1%}",
+                       'SPY move':f"{r['index_return']:+.2%}",'Disagreement score':round(r['score'],1),
+                       'Direction':r['direction'],'Coverage':'Saved completed-session capture' if r['complete_session'] else 'Partial early session'}
+                      for r in saved['sessions']],hide_index=True,use_container_width=True)
+        with st.expander('Saved WARI inputs and sources'):
+            st.link_button('SPY Magic alert filter',saved['flow_source_url'])
+            st.link_button('SPY price source',saved['price_source_url'])
+            st.write(row)
+        return True
+    except (OSError,ValueError,KeyError,TypeError) as exc:
+        st.caption('Matched WARI snapshot unavailable: '+str(exc))
+        return False
+
+
 def render_saved_snapshot(top):
+    if render_matched_snapshot(top):
+        return
     path=ROOT/'data/prestige.json'
     if not path.exists():
         return
