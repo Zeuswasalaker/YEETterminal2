@@ -1,5 +1,48 @@
 """Original PARI, calculated from actual close prices only."""
 import pandas as pd
+import json
+import os
+import tempfile
+from pathlib import Path
+
+CACHE_ROOT = Path(__file__).parent / 'data' / 'pari_cache'
+
+def load_prices(frame, provider=None, cache_root=None):
+    """Try fresh candles; retain validated last-good data across page reruns."""
+    root = Path(cache_root) if cache_root is not None else CACHE_ROOT
+    path = root / (FRAMES.get(frame, 'daily') or 'daily')
+    path = path.with_suffix('.json')
+    try:
+        close = (provider or yahoo)(frame)
+        close = pd.to_numeric(close, errors='coerce').dropna().sort_index()
+        close = close[~close.index.duplicated(keep='last')]
+        if len(close) < 12 or (close <= 0).any() or not isinstance(close.index, pd.DatetimeIndex) or close.index.tz is None:
+            raise ValueError('Insufficient validated timezone-aware candle history.')
+        payload = {'symbol':'SPY','frame':frame,'source':'Yahoo SPY',
+                   'saved_at':pd.Timestamp.now(tz='UTC').isoformat(),
+                   'bars':[{'time':t.isoformat(),'close':float(v)} for t,v in close.items()]}
+        try:
+            root.mkdir(parents=True, exist_ok=True)
+            with tempfile.NamedTemporaryFile(mode='w', dir=root, delete=False) as handle:
+                temporary = handle.name
+                json.dump(payload, handle)
+            os.replace(temporary, path)
+        except OSError:
+            # A read-only hosting disk must not suppress a successful live result.
+            pass
+        return close, False, payload['saved_at']
+    except Exception as live_error:
+        try:
+            payload = json.loads(path.read_text())
+            if payload['symbol'] != 'SPY' or payload['frame'] != frame:
+                raise ValueError('Cache does not match requested series.')
+            close = pd.Series([r['close'] for r in payload['bars']],
+                index=pd.to_datetime([r['time'] for r in payload['bars']], utc=True), name='Close')
+            if len(close) < 12 or (close <= 0).any() or close.isna().any():
+                raise ValueError('Invalid saved candles.')
+            return close, True, payload['saved_at']
+        except (OSError, ValueError, KeyError, TypeError):
+            raise RuntimeError('Live candles unavailable and no valid saved reading exists for this timeframe.') from live_error
 
 FRAMES = {'5 minute': '5min', '10 minute': '10min', '1 hour': '60min', '4 hour': '240min', 'Daily': None}
 
@@ -19,10 +62,15 @@ def calculate(close):
 def read_csv(file):
     df = pd.read_csv(file)
     columns = {str(c).strip().lower(): c for c in df.columns}
-    date = next((columns[c] for c in ('datetime', 'timestamp', 'date') if c in columns), None)
+    date = next((columns[c] for c in ('datetime', 'timestamp', 'date', 'time') if c in columns), None)
     if date is None or 'close' not in columns:
         raise ValueError('CSV needs Date (or Datetime/Timestamp) and Close columns.')
-    dates = pd.to_datetime(df[date], errors='raise')
+    raw_dates = df[date]
+    if pd.api.types.is_numeric_dtype(raw_dates):
+        unit = 'ms' if raw_dates.abs().median() > 100000000000 else 's'
+        dates = pd.to_datetime(raw_dates, unit=unit, utc=True, errors='raise')
+    else:
+        dates = pd.to_datetime(raw_dates, errors='raise')
     return pd.Series(pd.to_numeric(df[columns['close']], errors='raise').values, index=pd.DatetimeIndex(dates), name='Close')
 
 def aggregate(close, rule):
@@ -85,7 +133,7 @@ def trend_chart(valid, count):
     return (reference+line+point).properties(height=240).configure_view(stroke=None).configure(background='#112b37')
 
 
-def render(admin=None):
+def _render(admin=None):
     import streamlit as st
     st.title('PARI')
     st.markdown('''<style>
@@ -110,6 +158,7 @@ def render(admin=None):
             if source=='Upload price CSV':
                 upload=st.file_uploader('SPY price history',type=['csv'],key='pari_csv_'+frame)
     close=None
+    using_saved=False
     if source=='Upload price CSV':
         if upload:
             try:
@@ -121,12 +170,19 @@ def render(admin=None):
     else:
         @st.cache_data(ttl=300,show_spinner=False)
         def load(selected):
-            return yahoo(selected)
+            try:
+                return (*load_prices(selected), None)
+            except RuntimeError as exc:
+                return None, False, None, str(exc)
         if st.button('↻ Refresh',type='primary'):
             load.clear()
         try:
             with st.spinner('Checking SPY…'):
-                close=load(frame)
+                close, using_saved, saved_at, error = load(frame)
+            if error:
+                st.caption(error)
+            elif using_saved:
+                st.warning(f'Live feed unavailable. Showing last successful {frame} candles, saved {saved_at}. The reading below is not current.')
         except Exception:
             st.caption('SPY prices are temporarily unavailable. No current reading is shown.')
     if close is not None:
@@ -139,6 +195,9 @@ def render(admin=None):
                 from html import escape
                 current = valid.iloc[-1]
                 action, explanation, accent, direction, change, bars = posture(valid)
+                if using_saved:
+                    action = 'SAVED READING / ' + action
+                    explanation = 'Live candles are unavailable. ' + explanation
                 timestamp = escape(str(valid.index[-1]))
                 snapshot.markdown(f'<div class="pari-snapshot"><div class="pari-kicker">CURRENT POSTURE / {escape(frame)} / SPY</div><div class="pari-action" style="color:{accent}">{action}</div><div class="pari-copy">{explanation}</div><div class="pari-stats">PARI {current.PARI:.2f} · {direction} · {change:+.2f} points over {bars} bars</div><div class="pari-copy" style="font-size:12px;margin-top:10px">As of bar start {timestamp}. Summary of this timeframe only. A descriptive guide, not a tested trading signal.</div></div>', unsafe_allow_html=True)
                 a, b, c = st.columns(3)
@@ -153,7 +212,7 @@ def render(admin=None):
                     histogram = pd.cut(valid.PARI, bins=range(0, 101, 5), include_lowest=True).value_counts(sort=False)
                     st.bar_chart(pd.DataFrame({'Readings': histogram.values}, index=[str(x) for x in histogram.index]), color='#21c9ab')
                     st.dataframe(valid.tail(30), use_container_width=True)
-                st.caption('Yahoo prices may be delayed. Refresh manually for new completed candles.')
+                st.caption('Checks automatically every five minutes while this page is open. Yahoo prices may be delayed. Bar timestamps identify the candle data; saved readings are explicitly marked when the live feed fails.')
                 st.download_button('Download calculated PARI CSV', df.to_csv().encode(), f'SPY_PARI_{frame.replace(" ", "_")}.csv', 'text/csv')
         except Exception as exc:
             st.error(str(exc))
@@ -164,5 +223,10 @@ def render(admin=None):
         st.write('Above 50 means the momentum percentile exceeds the volatility percentile; below 50 means the reverse. This is a relative price-action reading, not a trade recommendation or a validated probability. A high reading does not necessarily mean momentum is positive. Values near 20 or 80 do not establish that a major move is coming.')
         st.write('The original code ranks the entire loaded history. Adding prices can change earlier scores, so these historical charts are retrospective and must not be used as a look-ahead-free backtest.')
         st.write('Daily uses 10 daily bars. Intraday uses 10 bars of the selected length, spanning multiple sessions when necessary. Automatic aggregation starts at 9:30 a.m. New York time and excludes incomplete blocks, including shortened session-end blocks. The 4-hour view therefore typically has one complete bar per regular session.')
+
+def render(admin=None):
+    import streamlit as st
+    st.fragment(run_every='5m')(_render)(admin)
+
 
 
