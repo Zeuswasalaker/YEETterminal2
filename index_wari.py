@@ -129,7 +129,7 @@ def render_matched_snapshot(top):
         value,level,direction,_,pz=divergence(row['call_share'],.5,1,row['index_return'],row['return_std'])
         if direction=='No opposing signal':
             direction='Bearish agreement · puts and falling index' if row['call_share']<=.4 and row['index_return']<0 else 'Bullish agreement · calls and rising index' if row['call_share']>=.6 and row['index_return']>0 else 'Mixed / no opposing signal'
-        detail=f"{day}: calls received {row['call_share']:.0%} of saved SPY Magic premium; SPY moved {row['index_return']:+.2%} from its prior close. Flow through {row['flow_as_of']} Pacific; latest completed price check {row['price_as_of']}."
+        detail=f"{day}: calls received {row['call_share']:.0%} of captured SPY Magic premium; SPY moved {row['index_return']:+.2%} from its prior close. Flow through {row['flow_as_of']} Pacific; matched underlying quote {row['price_as_of']}."
         if not row['complete_session'] or row['alerts']<20:
             level='PROVISIONAL · '+level
         with top.container():
@@ -141,12 +141,12 @@ def render_matched_snapshot(top):
             b.metric('SPY versus previous close',f"{row['index_return']:+.2%}")
             c.metric('Saved Magic alerts',str(row['alerts']))
         st.caption(f"Prior-price baseline: {row['baseline_sessions']} daily returns ending {row['baseline_end']}; daily volatility {row['return_std']:.2%}. Historical flow is not required. Intraday readings use daily volatility as a reference and are provisional.")
-        st.caption('Uses actual saved alert rows, including repeated observations per contract, rather than the final observation per contract. Premium labels are rounded; alerts are not necessarily unique trades or whales. Missing earlier historical alert rows are not reconstructed from contract totals.')
+        st.caption('Uses captured alert-row aggregates, including repeated observations per contract. Premium labels are rounded; alerts are not necessarily unique trades or whales. Flow is compared with a neutral 50% reference, not an empirical broad-SPY flow baseline. Price volatility uses prior historical sessions.')
         if row.get('unknown_side_alerts'):
             st.caption(f"{row['unknown_side_alerts']} alerts have an unspecified displayed side. They remain in the user-supplied non-bid filter sample and are not relabeled ask-side.")
         st.dataframe([{'Session':r['date'],'Alerts':r['alerts'],'Call premium share':f"{r['call_share']:.1%}",
                        'SPY move':f"{r['index_return']:+.2%}",'Disagreement score':round(r['score'],1),
-                       'Direction':r['direction'],'Coverage':'Saved completed-session capture' if r['complete_session'] else 'Partial early session'}
+                       'Direction':r['direction'],'Coverage':'Saved completed-session capture' if r['complete_session'] else 'Partial session'}
                       for r in saved['sessions']],hide_index=True,use_container_width=True)
         with st.expander('Saved WARI inputs and sources'):
             st.link_button('SPY Magic alert filter',saved['flow_source_url'])
@@ -248,3 +248,4 @@ def render_broad_comparison(top):
             st.link_button('Broad SPY source',broad['source_url'])
     except (ValueError,KeyError,TypeError,OSError) as exc:
         st.caption('Broad SPY comparison unavailable: '+str(exc))
+
