@@ -91,6 +91,63 @@ def visible_cards(snapshot, today):
         cards.append(c)
     return cards
 
+
+def prestige_performance(snapshot):
+    """Count unique verified comebacks, including retired/expired history.
+
+    An ITM touch after qualification and by the expiry cutoff is a hit,
+    including extended hours. Open and unverified outcomes never enter the
+    resolved hit-rate denominator. SPY options stop trading at 4:15 p.m. ET;
+    timestamps in this snapshot are Pacific. No end-of-day price is invented.
+    """
+    snapshot=apply_lifecycle(snapshot)
+    as_of=snapshot.get('source_time','')
+    observations=snapshot.get('price_observations',[])
+    qualified={}
+    for card in snapshot.get('cards',[]):
+        start=card.get('prestige_at')
+        if not start or start>as_of:
+            continue
+        key=(card['type'],float(card['strike']),card['expiry'])
+        if key not in qualified or start<qualified[key]['prestige_at']:
+            qualified[key]=card
+    rows=[]
+    for card in qualified.values():
+        start=card['prestige_at']
+        deadline=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')+' 13:15:00'
+        cutoff=min(as_of,deadline)
+        history=sorted((o for o in observations if start<o['time']<=cutoff),key=lambda o:o['time'])
+        def itm(price):
+            return price>card['strike'] if card['type']=='call' else price<card['strike']
+        hit=next((o for o in history if itm(float(o['spot']))),None)
+        retired=card.get('retired_at','')
+        if start<retired<=cutoff and card.get('retired_spot') is not None and itm(float(card['retired_spot'])):
+            if hit is None or retired<hit['time']:
+                hit={'time':retired,'spot':card['retired_spot']}
+        evidence=hit
+        if hit:
+            outcome='ITM hit'
+        elif as_of<deadline:
+            outcome='Open'
+        else:
+            # Accept the completed final-minute close or an exact cutoff check.
+            closing=[o for o in history if o['time']>=deadline[:11]+'13:14:59']
+            evidence=closing[-1] if closing else None
+            if evidence and float(evidence['spot'])!=float(card['strike']):
+                outcome='Expired OTM'
+            else:
+                outcome='Outcome unverified'
+        rows.append({'contract':card['contract'],'qualified_at':start,'expiry':card['expiry'],
+                     'outcome':outcome,'observed_at':evidence['time'] if evidence else '',
+                     'observed_spot':float(evidence['spot']) if evidence else None})
+    wins=sum(r['outcome']=='ITM hit' for r in rows)
+    losses=sum(r['outcome']=='Expired OTM' for r in rows)
+    return {'total':len(rows),'itm':wins,'expired_otm':losses,
+            'open':sum(r['outcome']=='Open' for r in rows),
+            'unverified':sum(r['outcome']=='Outcome unverified' for r in rows),
+            'win_percent':100*wins/(wins+losses) if wins+losses else None,
+            'records':sorted(rows,key=lambda r:(r['qualified_at'],r['contract']))}
+
 def validate_snapshot(snapshot):
     if not isinstance(snapshot,dict) or not isinstance(snapshot.get('cards'),list):
         raise ValueError('Snapshot needs a cards list.')
@@ -200,6 +257,9 @@ def _render(admin):
 .prestige-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}
 .prestige-stat{padding:17px;border-radius:16px;border:1px solid #a9bd8d33;background:#1a3737;color:#bdcfc5;font:700 12px/1.6 "Trebuchet MS",Arial,sans-serif}
 .prestige-stat strong{display:block;font:900 32px/1.4 "Trebuchet MS",Arial,sans-serif;color:#ead18e}
+.prestige-stat:nth-child(2){background:#193c31;border-color:#8bbf8366}.prestige-stat:nth-child(2) strong{color:#b9e59b}
+.prestige-stat:nth-child(3){background:#422e2b;border-color:#d99d8d66}.prestige-stat:nth-child(3) strong{color:#ffc0aa}
+.prestige-stat:nth-child(4){background:#3c3926;border-color:#dfc27c88}
 .prestige-saved{background:#263c30;border:1px solid #9eb27744;border-radius:12px;padding:13px 18px;color:#c8d7b8;font:500 13px/1.6 "Trebuchet MS",Arial,sans-serif}
 .prestige-board{margin:12px 0 4px;padding:22px 24px;border:2px solid #7b745055;border-radius:20px;background:linear-gradient(135deg,#253c35,#152f32);box-shadow:inset 0 1px 0 #d3c58422,0 4px 0 #0b2027}
 .prestige-board h3{color:#edcf88!important;font:800 25px/1.4 "Trebuchet MS",Arial,sans-serif!important;margin:0 0 8px}
@@ -226,6 +286,24 @@ def _render(admin):
 @media(forced-colors:active){.gold-contract{background:Canvas;color:CanvasText;border:2px solid CanvasText;box-shadow:none}.gold-contract *{color:CanvasText;text-shadow:none}}
 </style>''',unsafe_allow_html=True)
     st.markdown('<div class="prestige-hero"><h1>The Prestige</h1></div>',unsafe_allow_html=True)
+
+    stats=prestige_performance(snapshot)
+    rate=f"{stats['win_percent']:.1f}%" if stats['win_percent'] is not None else '—'
+    metrics=[('🥇 Total Prestiges',str(stats['total'])),('✅ ITM by expiration',str(stats['itm'])),
+             ('⌛ Expired OTM',str(stats['expired_otm'])),('🎯 Recorded win rate',rate)]
+    st.markdown('<div class="prestige-stats">'+''.join(
+        '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
+        for label,value in metrics)+'</div>',unsafe_allow_html=True)
+    st.caption(f"{stats['open']} still open · {stats['unverified']} expired outcomes unverified · All saved history, independent of board filters")
+    st.caption('An ITM hit at any saved check after becoming Prestige and by expiration counts as a win, including premarket and after-hours. Win rate = ITM hits ÷ (ITM hits + verified OTM expirations). Open and unverified results are excluded. This measures strike touches, not option profits.')
+    with st.expander('📊 Prestige results and counting rules'):
+        st.write('Each strike, call/put type and expiration counts once, after its comeback is verified. Retired contracts remain in these totals. Extended-hours checks count before expiration; later crosses do not. Expired OTM requires a saved final-minute close at the 4:15 p.m. Eastern SPY options cutoff, with no earlier recorded ITM hit. Missing closing evidence stays unverified rather than becoming a loss.')
+        st.caption('Coverage is limited to saved observations and minute closes. Brief intraminute hits or missing historical prices can change the tally. These are observed results, not a complete tick-by-tick backtest or future winning odds. Times below are Pacific.')
+        if stats['records']:
+            st.dataframe([{'Contract':r['contract'],'Became Prestige (PT)':r['qualified_at'],
+                           'Result':r['outcome'],'Result check (PT)':r['observed_at'],
+                           'SPY at result':r['observed_spot']} for r in stats['records']],
+                         hide_index=True,use_container_width=True)
 
     if not snapshot.get('cards'):
         st.info('No contracts to show in this update.')
@@ -286,7 +364,7 @@ def _render(admin):
     st.dataframe(pd.DataFrame(rows),hide_index=True,width='stretch',height=min(760,36*len(rows)+40))
     st.caption('First spotted = earliest alert in our saved window. Premium = the last saved alert amount, not a total.')
     with st.expander('🎩 What is The Prestige?'):
-        st.markdown('''<section class="prestige-how"><h3>The comeback is the point. 🪃</h3><p>In our research, contracts that <strong>move away from their strike and come back before expiration</strong> have been higher-percentage setups. That’s <strong>The Prestige</strong>, and that’s what we’re tracking here.</p><div class="prestige-issue">Our research finding, not a guarantee. No verified win rate is displayed on this board.</div></section>''',unsafe_allow_html=True)
+        st.markdown('''<section class="prestige-how"><h3>The comeback is the point. 🪃</h3><p>In our research, contracts that <strong>move away from their strike and come back before expiration</strong> have been higher-percentage setups. That’s <strong>The Prestige</strong>, and that’s what we’re tracking here.</p><div class="prestige-issue">The running tally counts observed results in our saved history. It does not establish future winning odds.</div></section>''',unsafe_allow_html=True)
         st.write(descriptions[i])
         st.caption('📞 Green = calls · 🩸 Red = puts. An alert alone does not tell us the trader’s complete plan.')
         try:
