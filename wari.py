@@ -196,11 +196,14 @@ def render_orange_saved():
     try:
         saved = json.loads(path.read_text())
         all_rows = pd.DataFrame(saved['summary'])
-        day = all_rows['date'].max()
+        dates=sorted(all_rows['date'].unique())
+        day=st.selectbox('Orange Swan session',dates,index=len(dates)-1,key='orange_saved_session')
         rows = all_rows.loc[all_rows['date'].eq(day)]
     except (ValueError, KeyError, OSError):
         return False
-    st.caption(f'Delayed Orange Swan capture · latest displayed date {day} · captured {saved["captured_on"]}')
+    st.caption(f'Orange Swan saved snapshot · session {day} · refreshed {saved["captured_on"]} · latest qualifying alert {saved.get("source_time","see coverage below")} Pacific')
+    if saved.get('session_coverage',{}).get(day):
+        st.caption(saved['session_coverage'][day])
     st.write('Where is the whale activity pulling apart? Compare the broad-market sample with semis and China-linked names.')
     def grouped(symbols):
         sample = rows.loc[rows.ticker.isin(symbols)]
@@ -223,12 +226,16 @@ def render_orange_saved():
                 st.markdown('**📞 BULLISH lean**' if value>=60 else '**🩸 BEARISH lean**' if value<=40 else '**🔀 MIXED**')
                 if broad and title!='🌎 Broad market':
                     st.caption(f'{value-broad[0]:+.0f} points versus broad-market flow')
+                if n<20:
+                    st.caption('Small sample: fewer than 20 alerts; individual orders can swing the reading.')
             else:
                 st.metric('Whale direction','—')
+                st.caption('No directional reading available for this captured sample.')
             missing=[t for t in symbols if t not in rows.ticker.values]
             if missing:
                 st.caption('No observations for '+', '.join('$'+t for t in missing)+' in this date’s captured sample.')
     st.caption('0 = put-heavy · 50 = balanced · 100 = call-heavy. This measures observed flow direction, not the probability of a trade succeeding.')
+    st.caption('Same-session comparison: 70% call share of rounded premium + 30% call share of alerts. Differences are descriptive points versus broad-market flow, not deviations from a historical baseline or confirmed price divergence.')
     st.info(saved['coverage'])
     with st.expander('Captured observations by ticker and date'):
         st.dataframe(all_rows,hide_index=True,width='stretch')
