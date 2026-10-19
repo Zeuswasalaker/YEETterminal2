@@ -20,6 +20,7 @@ def apply_lifecycle(snapshot, previous=None):
                          if isfinite(float(o['spot'])) and float(o['spot'])>0}.values(),
                         key=lambda o:(o['time'],float(o['spot'])))
     result['price_observations']=observations
+    prior_cards={c['contract']:c for c in (previous or {}).get('cards',[])}
     derived=('initial_near_at','away','returned','prestige_at','retired_at','retired_spot','retired_reason')
     for card in result.get('cards',[]):
         if card.get('classification_version')!='otm-sequence-v2':
@@ -27,6 +28,10 @@ def apply_lifecycle(snapshot, previous=None):
                 'reason':'Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.',
                 'previous_status':card.get('status'),
                 'previous_fields':{k:card[k] for k in derived if k in card}})
+        saved_retirement={k:card[k] for k in ('retired_at','retired_spot','retired_reason') if k in card}
+        prior=prior_cards.get(card['contract'],{})
+        if prior.get('retired_at') and prior['retired_at']<saved_retirement.get('retired_at','9999'):
+            saved_retirement={k:prior[k] for k in ('retired_at','retired_spot','retired_reason') if k in prior}
         for key in derived: card.pop(key,None)
         card['classification_version']='otm-sequence-v2'
         expiry=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')
@@ -40,16 +45,16 @@ def apply_lifecycle(snapshot, previous=None):
         for observation in history:
             stamp=observation['time']
             gap=otm(float(observation['spot']))
+            if gap<0:
+                card.update(retired_at=stamp,retired_spot=float(observation['spot']),
+                            retired_reason=('Observed in the money after verified OTM comeback' if activated else 'Observed in the money after first captured alert; no verified Prestige outcome'))
+                break
             if initial is None:
                 if 0<=gap<=.005: initial=stamp
             elif away is None:
                 if stamp>initial and gap>.005: away=stamp
             elif activated is None:
                 if stamp>away and 0<=gap<=.005: activated=stamp
-            if activated and stamp>activated and gap<0:
-                card.update(retired_at=stamp,retired_spot=float(observation['spot']),
-                            retired_reason='Observed in the money after verified OTM comeback')
-                break
         if initial: card['initial_near_at']=initial
         if away: card['away']=away
         if activated:
@@ -57,8 +62,10 @@ def apply_lifecycle(snapshot, previous=None):
             card['prestige_at']=activated
         last_time=result.get('source_time','')
         gap=otm(float(result['spot']))
+        if saved_retirement.get('retired_at') and saved_retirement['retired_at']<card.get('retired_at','9999'):
+            card.update(saved_retirement)
         if card.get('retired_at'):
-            card['status']='Current Prestige'
+            card['status']='Current Prestige' if activated else 'Watching'
         elif last_time>deadline:
             card['status']='Expired'
         elif gap<0:
@@ -289,11 +296,10 @@ def _render(admin):
         if issue_url and urlparse(issue_url).scheme=='https' and urlparse(issue_url).netloc:
             st.link_button('📰 Read the YEET behind this board',issue_url)
     with st.expander('📌 When was this checked?'):
-        st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot['source_time']}.")
-        st.write('First spotted is the earliest appearance across our saved captures, not necessarily the first-ever appearance. Alert counts refer to the latest captured window. Source timezone: '+snapshot.get('source_timezone','not verified')+'.')
+        st.write(f"Board captured: {snapshot['captured_at']}. Source alerts: {snapshot['coverage_start']} through {snapshot.get('latest_alert_time',snapshot['source_time'])}. Price check: {snapshot['source_time']}.")
+        st.write('First spotted is the earliest appearance across our saved captures, not necessarily the first-ever appearance. Alert counts include retained captures, deduplicated by contract and alert timestamp. Source timezone: '+snapshot.get('source_timezone','not verified')+'.')
         st.write(f"{snapshot['alert_count']} saved alert rows · {len(cards)} contracts still on the board. Alerts are not verified unique trades or individual whales. Premium amounts are rounded source labels.")
         st.write('In the money means SPY is above a call strike or below a put strike. A recorded crossing retires that Prestige contract even if SPY later reverses. Reaching the strike does not establish an option profit; entry premium and execution still matter. Crossings between saved price checks may be missed.')
-        st.write('SPY prices here come from irregular alert observations. We haven’t filled in a complete intraday history. A brief boundary crossing can qualify; no minimum time away or excursion has been validated. This is a research board, not tested winning odds.')
+        st.write(snapshot.get('coverage_note','Prices are saved observations; crossings between checks may be missed.'))
+        st.write('Premarket and after-hours SPY crossings count toward retirement even while options are closed. A strike crossing does not establish an executable option profit. Comeback sequences and ITM retirement use saved prices and minute closes; brief intraminute crossings can be missed. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
-
-
