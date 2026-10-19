@@ -28,9 +28,11 @@
         "https://www.nvidia.com/ko-kr/ai-days/",
         "https://www.nvidia.com/en-us/ai-days/",
         "https://www.nvidia.com/gtc/dc/",
-        "https://www.nvidia.com/gtc/"
+        "https://www.nvidia.com/gtc/",
+        "https://www.nvidia.com/en-us/events/grace-hopper-celebration/",
+        "https://events.nvidia.com/medtech-days-2026/"
       ],
-      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance. AI Day Mexico City November 4–5 and AI Day Seoul November 9–10 are confirmed technical/developer-training events, not investor days. GTC Washington, D.C. November 30–December 3 (Huang keynote December 1, 2 p.m. Eastern) and GTC San Jose March 15–18, 2027 are confirmed company technology conferences, not investor days."
+      "event_note": "RTX Spark's October 16 public-demo launch is retained as history. GTC Berlin October 20–22, TERATEC October 20–21 and SC26 November 15–20 are confirmed. TERATEC lists Huang by live transmission October 21, overlapping GTC; a separate new presentation is not established. Product launches and technical appearances are distinct from investor days; saved flow expiration overlap does not establish intent. KubeCon + CloudNativeCon North America November 9–12 is also confirmed as a technical/industry appearance. AI Day Mexico City November 4–5 and AI Day Seoul November 9–10 are confirmed technical/developer-training events, not investor days. GTC Washington, D.C. November 30–December 3 (Huang keynote December 1, 2 p.m. Eastern) and GTC San Jose March 15–18, 2027 are confirmed company technology conferences, not investor days. Grace Hopper Celebration October 27–30 (AI keynote October 29) is a technical/career appearance; virtual MedTech Days October 27–28 is medical-AI developer education. Neither is an investor day or a confirmed financial catalyst."
     },
     "AMC": {
       "name": "AMC Entertainment",
@@ -208,6 +210,31 @@
       "url": "https://www.nvidia.com/gtc/",
       "category": "Company conference",
       "summary": "NVIDIA confirms GTC returns to San Jose March 15–18, 2027. This is a technology conference save-the-date, not an investor day or earnings event. A specific keynote time or financial-guidance update is not established by this listing. Saved October 15 $150 puts expiring May 21, 2027 span the event; $185 puts expiring November 27, 2026 do not. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Grace Hopper Celebration · NVIDIA technical keynote and career expo",
+      "date": "2026-10-27",
+      "end_date": "2026-10-30",
+      "keynote_date": "2026-10-29",
+      "url": "https://www.nvidia.com/en-us/events/grace-hopper-celebration/",
+      "category": "Industry technical / career event",
+      "summary": "NVIDIA confirms participation in Anaheim October 27–30. Rama Akkiraju's AI keynote is October 29, 10:05–10:50 a.m. Pacific, alongside technical sessions and recruiting. This is a technical/career appearance, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "MedTech Days · virtual medical and physical AI sessions",
+      "date": "2026-10-27",
+      "end_date": "2026-10-28",
+      "url": "https://events.nvidia.com/medtech-days-2026/",
+      "category": "Technical conference / developer training",
+      "summary": "NVIDIA confirms a free virtual event October 27–28 for clinicians, researchers and developers, covering medical imaging, MONAI, Holoscan and Isaac for Healthcare roadmaps and demonstrations. Registration lists October 27, 8 a.m.–1:30 p.m. Pacific and October 28, 8 a.m.–noon Pacific. Technical research/developer sessions, not an investor day or promised financial-guidance update. Saved October 15 $185 puts expiring November 27, 2026 and $150 puts expiring May 21, 2027 were printed before the event and expire afterward. Calendar overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-18"
