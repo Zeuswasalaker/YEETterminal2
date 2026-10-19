@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-10-19T14:25:11.259726+00:00",
+  "flow_source": "Saved SPY Magic rendered alert rows, not latest-per-contract summaries",
+  "flow_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
+  "price_source_url": "https://finance.yahoo.com/quote/SPY/history/",
+  "sessions": [
+    {
+      "date": "2026-10-16",
+      "flow_start": "2026/10/16 06:50:56",
+      "flow_as_of": "2026/10/16 13:06:37",
+      "price_as_of": "2026/10/16 13:05:59",
+      "spot": 762.6,
+      "previous_close": 771.7899780273438,
+      "previous_close_date": "2026-10-15",
+      "index_return": -0.011907356002254454,
+      "return_std": 0.0069294626977494415,
+      "baseline_sessions": 60,
+      "baseline_end": "2026-10-15",
+      "calls": 4446000.0,
+      "puts": 8931000.0,
+      "call_share": 0.3323615160349854,
+      "alerts": 121,
+      "unknown_side_alerts": 8,
+      "complete_session": true,
+      "score": 0.0,
+      "level": "Little disagreement",
+      "direction": "No opposing signal"
+    },
+    {
+      "date": "2026-10-19",
+      "flow_start": "2026/10/19 06:39:02",
+      "flow_as_of": "2026/10/19 06:41:56",
+      "price_as_of": "2026/10/19 06:40:59",
+      "spot": 767.3300170898438,
+      "previous_close": 763.25,
+      "previous_close_date": "2026-10-16",
+      "index_return": 0.0053455841334342225,
+      "return_std": 0.006890794985669794,
+      "baseline_sessions": 60,
+      "baseline_end": "2026-10-16",
+      "calls": 0,
+      "puts": 81000.0,
+      "call_share": 0.0,
+      "alerts": 2,
+      "unknown_side_alerts": 0,
+      "complete_session": false,
+      "score": 72.55342344688185,
+      "level": "Strong disagreement",
+      "direction": "Bearish whale / rising index"
+    }
+  ]
+}
