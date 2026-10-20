@@ -1,10 +1,10 @@
 {
   "source": "Saved Unusual Whales SPY Magic alerts and Yahoo Finance SPY 1-minute prices including extended hours",
-  "captured_at": "2026-10-19T13:45:52.585061+00:00",
-  "source_time": "2026/10/19 11:55:00",
-  "spot": 767.34,
+  "captured_at": "2026-10-20T17:58:33Z",
+  "source_time": "2026/10/20 10:56:21",
+  "spot": 769.72,
   "coverage_start": "2026/10/12 10:47:23",
-  "alert_count": 363,
+  "alert_count": 627,
   "cards": [
     {
       "contract": "770c 10/15/2026",
@@ -599,11 +599,11 @@
       "type": "put",
       "expiry": "10/21/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 8,
       "first": "2026/10/14 11:54:32",
-      "last": "2026/10/16 09:44:45",
-      "last_premium": "$56K",
-      "last_price": "$3.72",
+      "last": "2026/10/20 10:47:04",
+      "last_premium": "$37K",
+      "last_price": "$1.04",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
@@ -629,11 +629,11 @@
       "type": "call",
       "expiry": "10/21/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 23,
       "first": "2026/10/14 11:54:37",
-      "last": "2026/10/15 08:25:30",
-      "last_premium": "$45K",
-      "last_price": "$4.45",
+      "last": "2026/10/20 10:30:43",
+      "last_premium": "$23K",
+      "last_price": "$1.73",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
@@ -795,11 +795,11 @@
       "type": "call",
       "expiry": "10/21/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 19,
       "first": "2026/10/14 12:31:12",
-      "last": "2026/10/15 08:30:21",
-      "last_premium": "$39K",
-      "last_price": "$3.87",
+      "last": "2026/10/20 10:55:09",
+      "last_premium": "$16K",
+      "last_price": "$1.33",
       "last_side": "ASK",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
@@ -831,11 +831,11 @@
       "type": "call",
       "expiry": "10/21/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 13,
       "first": "2026/10/14 12:33:07",
-      "last": "2026/10/14 12:33:07",
-      "last_premium": "$45K",
-      "last_price": "$3.36",
+      "last": "2026/10/20 10:30:43",
+      "last_premium": "$21K",
+      "last_price": "$0.98",
       "last_side": "ASK",
       "classification_audit": [
         {
@@ -1003,11 +1003,11 @@
       "type": "call",
       "expiry": "10/21/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 21,
       "first": "2026/10/14 09:28:27",
-      "last": "2026/10/14 13:00:51",
-      "last_premium": "$64K",
-      "last_price": "$4.89",
+      "last": "2026/10/20 10:46:43",
+      "last_premium": "$43K",
+      "last_price": "$2.15",
       "last_side": "ASK",
       "classification_audit": [
         {
@@ -2203,10 +2203,10 @@
       "type": "call",
       "expiry": "10/21/2026",
       "first": "2026/10/14 08:43:05",
-      "alerts": 1,
-      "last": "2026/10/15 08:23:54",
-      "last_premium": "$130K",
-      "last_price": "$2.88",
+      "alerts": 9,
+      "last": "2026/10/20 08:10:31",
+      "last_premium": "$13K",
+      "last_price": "$1.21",
       "last_side": "ASK",
       "status": "Watching",
       "alerts_in_latest_capture": 1,
@@ -2298,10 +2298,10 @@
       "type": "put",
       "expiry": "10/21/2026",
       "first": "2026/10/14 09:59:38",
-      "alerts": 1,
-      "last": "2026/10/14 09:59:38",
-      "last_premium": "$44K",
-      "last_price": "$4.36",
+      "alerts": 14,
+      "last": "2026/10/20 08:12:24",
+      "last_premium": "$43K",
+      "last_price": "$2.44",
       "last_side": "ASK",
       "status": "Watching",
       "classification_audit": [
@@ -2328,10 +2328,10 @@
       "type": "put",
       "expiry": "10/21/2026",
       "first": "2026/10/14 10:29:43",
-      "alerts": 1,
-      "last": "2026/10/14 10:29:43",
-      "last_premium": "$350K",
-      "last_price": "$4.77",
+      "alerts": 19,
+      "last": "2026/10/20 10:30:43",
+      "last_premium": "$20K",
+      "last_price": "$1.59",
       "last_side": "ASK",
       "status": "Watching",
       "classification_audit": [
@@ -2488,10 +2488,10 @@
       "type": "put",
       "expiry": "10/22/2026",
       "first": "2026/10/14 11:00:18",
-      "alerts": 1,
-      "last": "2026/10/14 11:00:18",
-      "last_premium": "$75K",
-      "last_price": "$5.35",
+      "alerts": 2,
+      "last": "2026/10/20 09:50:10",
+      "last_premium": "$22K",
+      "last_price": "$2.24",
       "last_side": "ASK",
       "status": "Watching",
       "classification_audit": [
@@ -2738,12 +2738,12 @@
       "type": "put",
       "expiry": "10/21/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 18,
       "first": "2026/10/15 07:35:00",
-      "last": "2026/10/15 07:35:00",
+      "last": "2026/10/20 10:01:43",
       "last_side": "ASK",
-      "last_price": "$3.70",
-      "last_premium": "$53K",
+      "last_price": "$1.28",
+      "last_premium": "$20K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2892,12 +2892,12 @@
       "type": "call",
       "expiry": "10/23/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 3,
       "first": "2026/10/15 09:33:03",
-      "last": "2026/10/15 09:33:03",
+      "last": "2026/10/20 10:48:17",
       "last_side": "ASK",
-      "last_price": "$5.60",
-      "last_premium": "$56K",
+      "last_price": "$3.75",
+      "last_premium": "$75K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2951,12 +2951,12 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 3,
       "first": "2026/10/15 10:20:43",
-      "last": "2026/10/15 10:20:43",
+      "last": "2026/10/20 09:53:46",
       "last_side": "ASK",
-      "last_price": "$4.80",
-      "last_premium": "$48K",
+      "last_price": "$2.15",
+      "last_premium": "$39K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -3092,12 +3092,12 @@
       "type": "put",
       "expiry": "10/21/2026",
       "status": "Current Prestige",
-      "alerts": 2,
+      "alerts": 25,
       "first": "2026/10/15 11:21:31",
-      "last": "2026/10/15 11:33:49",
+      "last": "2026/10/20 10:53:54",
       "last_side": "ASK",
-      "last_price": "$3.63",
-      "last_premium": "$267K",
+      "last_price": "$1.79",
+      "last_premium": "$146K",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -3147,12 +3147,12 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 4,
       "first": "2026/10/15 11:59:12",
-      "last": "2026/10/15 11:59:12",
+      "last": "2026/10/20 10:56:21",
       "last_side": "ASK",
-      "last_price": "$3.79",
-      "last_premium": "$38K",
+      "last_price": "$2.68",
+      "last_premium": "$27K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -4112,11 +4112,11 @@
       "type": "call",
       "expiry": "10/21/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 4,
       "first": "2026/10/16 09:33:48",
-      "last": "2026/10/16 09:33:48",
-      "last_premium": "$60K",
-      "last_price": "$3.53",
+      "last": "2026/10/20 07:05:40",
+      "last_premium": "$56K",
+      "last_price": "$2.70",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/19 01:02:59",
@@ -4175,11 +4175,11 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 2,
+      "alerts": 13,
       "first": "2026/10/16 08:38:59",
-      "last": "2026/10/16 08:42:34",
-      "last_premium": "$77K",
-      "last_price": "$3.78",
+      "last": "2026/10/20 10:54:59",
+      "last_premium": "$33K",
+      "last_price": "$3.11",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/19 08:27:26",
@@ -4196,11 +4196,11 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 2,
       "first": "2026/10/16 08:33:10",
-      "last": "2026/10/16 08:33:10",
-      "last_premium": "$29K",
-      "last_price": "$2.87",
+      "last": "2026/10/20 08:59:49",
+      "last_premium": "$23K",
+      "last_price": "$2.28",
       "last_side": "-",
       "classification_version": "otm-sequence-v2",
       "initial_near_at": "2026/10/16 08:33:10",
@@ -4268,12 +4268,12 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 3,
       "first": "2026/10/16 06:54:31",
-      "last": "2026/10/16 07:53:37",
-      "last_premium": "$35K",
-      "last_price": "$3.45",
-      "last_side": "ASK",
+      "last": "2026/10/20 07:52:04",
+      "last_premium": "$62K",
+      "last_price": "$3.10",
+      "last_side": "-",
       "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/16 07:07:00",
       "retired_spot": 770.9201049804688,
@@ -4322,11 +4322,11 @@
       "type": "put",
       "expiry": "10/21/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 17,
       "first": "2026/10/16 07:35:57",
-      "last": "2026/10/16 07:35:57",
-      "last_premium": "$30K",
-      "last_price": "$2.98",
+      "last": "2026/10/20 08:05:03",
+      "last_premium": "$41K",
+      "last_price": "$2.53",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
       "retired_at": "2026/10/16 08:02:00",
@@ -4351,10 +4351,244 @@
       "retired_spot": 770.9201049804688,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
       "initial_near_at": "2026/10/16 06:50:56"
+    },
+    {
+      "contract": "771c 10/23/2026",
+      "type": "call",
+      "strike": 771,
+      "expiry": "10/23/2026",
+      "status": "Watching",
+      "alerts": 5,
+      "first": "2026/10/20 08:12:30",
+      "last": "2026/10/20 10:54:59",
+      "last_side": "ASK",
+      "last_premium": "$100K",
+      "last_price": "$3.36"
+    },
+    {
+      "contract": "767p 10/21/2026",
+      "type": "put",
+      "strike": 767,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 11,
+      "first": "2026/10/20 07:00:19",
+      "last": "2026/10/20 10:52:16",
+      "last_side": "ASK",
+      "last_premium": "$13K",
+      "last_price": "$1.26"
+    },
+    {
+      "contract": "766p 10/23/2026",
+      "type": "put",
+      "strike": 766,
+      "expiry": "10/23/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/20 10:01:15",
+      "last": "2026/10/20 10:49:45",
+      "last_side": "ASK",
+      "last_premium": "$59K",
+      "last_price": "$2.35"
+    },
+    {
+      "contract": "766p 10/26/2026",
+      "type": "put",
+      "strike": 766,
+      "expiry": "10/26/2026",
+      "status": "Watching",
+      "alerts": 11,
+      "first": "2026/10/20 07:07:08",
+      "last": "2026/10/20 10:21:36",
+      "last_side": "ASK",
+      "last_premium": "$313K",
+      "last_price": "$3.13"
+    },
+    {
+      "contract": "768p 10/22/2026",
+      "type": "put",
+      "strike": 768,
+      "expiry": "10/22/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/20 09:03:52",
+      "last": "2026/10/20 10:11:13",
+      "last_side": "ASK",
+      "last_premium": "$116K",
+      "last_price": "$2.91"
+    },
+    {
+      "contract": "769c 10/26/2026",
+      "type": "call",
+      "strike": 769,
+      "expiry": "10/26/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 09:23:07",
+      "last": "2026/10/20 10:00:13",
+      "last_side": "ASK",
+      "last_premium": "$95K",
+      "last_price": "$4.77"
+    },
+    {
+      "contract": "772c 10/28/2026",
+      "type": "call",
+      "strike": 772,
+      "expiry": "10/28/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/20 09:38:10",
+      "last": "2026/10/20 09:38:10",
+      "last_side": "ASK",
+      "last_premium": "$155K",
+      "last_price": "$5.15"
+    },
+    {
+      "contract": "769c 10/21/2026",
+      "type": "call",
+      "strike": 769,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 10,
+      "first": "2026/10/20 06:47:14",
+      "last": "2026/10/20 09:27:15",
+      "last_side": "ASK",
+      "last_premium": "$26K",
+      "last_price": "$2.53"
+    },
+    {
+      "contract": "770c 10/26/2026",
+      "type": "call",
+      "strike": 770,
+      "expiry": "10/26/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/20 08:18:37",
+      "last": "2026/10/20 08:18:37",
+      "last_side": "ASK",
+      "last_premium": "$102K",
+      "last_price": "$5.01"
+    },
+    {
+      "contract": "771p 10/28/2026",
+      "type": "put",
+      "strike": 771,
+      "expiry": "10/28/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 07:56:43",
+      "last": "2026/10/20 08:08:15",
+      "last_side": "ASK",
+      "last_premium": "$285K",
+      "last_price": "$5.70"
+    },
+    {
+      "contract": "771p 10/26/2026",
+      "type": "put",
+      "strike": 771,
+      "expiry": "10/26/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 07:35:06",
+      "last": "2026/10/20 07:49:23",
+      "last_side": "ASK",
+      "last_premium": "$133K",
+      "last_price": "$4.39"
+    },
+    {
+      "contract": "775c 10/21/2026",
+      "type": "call",
+      "strike": 775,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/20 07:30:36",
+      "last": "2026/10/20 07:45:10",
+      "last_side": "ASK",
+      "last_premium": "$15K",
+      "last_price": "$1.11"
+    },
+    {
+      "contract": "769c 10/22/2026",
+      "type": "call",
+      "strike": 769,
+      "expiry": "10/22/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 06:56:41",
+      "last": "2026/10/20 07:02:59",
+      "last_side": "ASK",
+      "last_premium": "$32K",
+      "last_price": "$3.13"
+    },
+    {
+      "contract": "768c 11/02/2026",
+      "type": "call",
+      "strike": 768,
+      "expiry": "11/02/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/20 06:54:03",
+      "last": "2026/10/20 06:54:03",
+      "last_side": "ASK",
+      "last_premium": "$78K",
+      "last_price": "$7.84"
+    },
+    {
+      "contract": "763p 10/21/2026",
+      "type": "put",
+      "strike": 763,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 5,
+      "first": "2026/10/20 06:41:55",
+      "last": "2026/10/20 06:53:20",
+      "last_side": "ASK",
+      "last_premium": "$17K",
+      "last_price": "$1.65"
+    },
+    {
+      "contract": "766c 10/21/2026",
+      "type": "call",
+      "strike": 766,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 5,
+      "first": "2026/10/20 06:35:05",
+      "last": "2026/10/20 06:51:32",
+      "last_side": "ASK",
+      "last_premium": "$40K",
+      "last_price": "$2.90"
+    },
+    {
+      "contract": "764p 10/21/2026",
+      "type": "put",
+      "strike": 764,
+      "expiry": "10/21/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/20 06:48:21",
+      "last": "2026/10/20 06:48:21",
+      "last_side": "-",
+      "last_premium": "$23K",
+      "last_price": "$2.29"
+    },
+    {
+      "contract": "766c 10/29/2026",
+      "type": "call",
+      "strike": 766,
+      "expiry": "10/29/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/20 06:33:43",
+      "last": "2026/10/20 06:33:43",
+      "last_side": "ASK",
+      "last_premium": "$72K",
+      "last_price": "$7.18"
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-19",
+  "checked_at": "2026-10-20T17:58:33Z",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -11851,12 +12085,1282 @@
     {
       "time": "2026/10/19 11:55:00",
       "spot": 767.34
+    },
+    {
+      "time": "2026/10/20 06:33:43",
+      "spot": 765.36,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:35:05",
+      "spot": 765.53,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:40:48",
+      "spot": 765.36,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:41:55",
+      "spot": 765,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:42:18",
+      "spot": 764.62,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:43:04",
+      "spot": 764.45,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:43:24",
+      "spot": 764.71,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:47:14",
+      "spot": 765.3,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:48:21",
+      "spot": 765.43,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:48:49",
+      "spot": 765.56,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:48:49",
+      "spot": 765.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:50:36",
+      "spot": 766.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:51:05",
+      "spot": 765.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:51:08",
+      "spot": 765.99,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:51:32",
+      "spot": 765.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:52:41",
+      "spot": 766.42,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:52:49",
+      "spot": 766.48,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:52:56",
+      "spot": 766.41,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:53:07",
+      "spot": 766.18,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:53:20",
+      "spot": 766.26,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:53:30",
+      "spot": 766.53,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:54:01",
+      "spot": 766.86,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:54:03",
+      "spot": 766.84,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:56:41",
+      "spot": 767.07,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:56:47",
+      "spot": 767.09,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:57:27",
+      "spot": 767.03,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:58:00",
+      "spot": 767.31,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:58:34",
+      "spot": 767.39,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:58:56",
+      "spot": 767.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:59:36",
+      "spot": 767.91,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 06:59:38",
+      "spot": 767.92,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:00:19",
+      "spot": 767.8,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:02:00",
+      "spot": 768.18,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:02:13",
+      "spot": 768.17,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:02:59",
+      "spot": 768.16,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:04:27",
+      "spot": 767.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:04:33",
+      "spot": 767.94,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:04:37",
+      "spot": 767.85,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:05:40",
+      "spot": 767.93,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:08",
+      "spot": 768.32,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:09",
+      "spot": 768.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:12",
+      "spot": 768.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:12",
+      "spot": 768.41,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:40",
+      "spot": 768.67,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:07:40",
+      "spot": 768.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:08:32",
+      "spot": 768.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:10:07",
+      "spot": 768.72,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:10:09",
+      "spot": 768.77,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:10:42",
+      "spot": 768.93,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:10:47",
+      "spot": 769.02,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:11:36",
+      "spot": 768.7,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:12:45",
+      "spot": 768.6,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:13:27",
+      "spot": 768.77,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:14:35",
+      "spot": 768.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:15:07",
+      "spot": 769.09,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:15:10",
+      "spot": 769.12,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:15:42",
+      "spot": 769.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:15:55",
+      "spot": 769.28,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:16:37",
+      "spot": 769.37,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:16:51",
+      "spot": 769.3,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:18:03",
+      "spot": 769.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:19:42",
+      "spot": 769.83,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:19:51",
+      "spot": 769.84,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:20:01",
+      "spot": 769.84,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:20:08",
+      "spot": 769.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:20:18",
+      "spot": 769.79,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:20:58",
+      "spot": 769.92,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:23:36",
+      "spot": 770.07,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:23:59",
+      "spot": 770.33,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:24:26",
+      "spot": 770.57,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:25:16",
+      "spot": 770.65,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:26:02",
+      "spot": 770.57,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:26:30",
+      "spot": 770.47,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:27:20",
+      "spot": 770.76,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:30:30",
+      "spot": 771.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:30:36",
+      "spot": 772.09,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:31:22",
+      "spot": 771.95,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:31:51",
+      "spot": 771.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:32:28",
+      "spot": 771.75,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:33:28",
+      "spot": 771.11,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:33:34",
+      "spot": 771.02,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:33:42",
+      "spot": 771.04,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:34:46",
+      "spot": 771.07,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:35:06",
+      "spot": 771.09,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:37:31",
+      "spot": 770.95,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:37:41",
+      "spot": 770.96,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:39:52",
+      "spot": 770.96,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:41:14",
+      "spot": 771.38,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:41:20",
+      "spot": 771.4,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:41:49",
+      "spot": 771.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:42:36",
+      "spot": 771.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:42:38",
+      "spot": 771.66,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:43:01",
+      "spot": 771.55,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:43:23",
+      "spot": 771.55,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:45:10",
+      "spot": 771.45,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:45:10",
+      "spot": 771.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:45:11",
+      "spot": 771.43,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:45:23",
+      "spot": 771.46,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:45:54",
+      "spot": 771.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:49:23",
+      "spot": 771.29,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:50:50",
+      "spot": 771.52,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:52:04",
+      "spot": 771.52,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:54:15",
+      "spot": 771.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:54:27",
+      "spot": 771.81,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:54:28",
+      "spot": 771.83,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:54:35",
+      "spot": 771.76,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:55:08",
+      "spot": 771.76,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:55:10",
+      "spot": 771.75,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:55:34",
+      "spot": 771.7,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:56:43",
+      "spot": 771.79,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:56:55",
+      "spot": 771.96,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:57:08",
+      "spot": 772.06,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:57:16",
+      "spot": 772.11,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:58:31",
+      "spot": 772.07,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:59:09",
+      "spot": 772.01,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 07:59:11",
+      "spot": 771.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:00:45",
+      "spot": 771.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:02:01",
+      "spot": 771.47,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:03:07",
+      "spot": 771.05,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:03:49",
+      "spot": 771.31,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:05:03",
+      "spot": 771.02,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:07:21",
+      "spot": 771.11,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:07:43",
+      "spot": 771.08,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:08:15",
+      "spot": 771.06,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:10:31",
+      "spot": 770.78,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:10:36",
+      "spot": 770.75,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:10:36",
+      "spot": 770.72,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:10:45",
+      "spot": 770.8,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:10:58",
+      "spot": 770.88,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:11:26",
+      "spot": 770.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:11:28",
+      "spot": 770.48,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:11:30",
+      "spot": 770.49,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:11:34",
+      "spot": 770.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:06",
+      "spot": 770.59,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:24",
+      "spot": 770.47,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:24",
+      "spot": 770.19,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:26",
+      "spot": 770.32,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:26",
+      "spot": 769.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:28",
+      "spot": 769.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:30",
+      "spot": 769.64,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:30",
+      "spot": 769.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:36",
+      "spot": 769.4,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:12:44",
+      "spot": 769.63,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:13:40",
+      "spot": 768.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:00",
+      "spot": 768.47,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:18",
+      "spot": 768.32,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:20",
+      "spot": 768.26,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:24",
+      "spot": 768.3,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:26",
+      "spot": 768.32,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:47",
+      "spot": 768.16,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:14:54",
+      "spot": 768.3,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:17:20",
+      "spot": 769.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:17:38",
+      "spot": 769.86,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:18:37",
+      "spot": 769.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:20:01",
+      "spot": 769.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:21:24",
+      "spot": 769.87,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:22:47",
+      "spot": 769.53,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:24:41",
+      "spot": 769.24,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:26:02",
+      "spot": 769.46,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:26:09",
+      "spot": 769.49,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:26:55",
+      "spot": 769.44,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:29:10",
+      "spot": 769.23,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:33:24",
+      "spot": 768.65,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:34:18",
+      "spot": 768.63,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:37:46",
+      "spot": 768.81,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:39:59",
+      "spot": 768.94,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:40:42",
+      "spot": 769.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:41:02",
+      "spot": 769.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:42:48",
+      "spot": 769.71,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:43:09",
+      "spot": 769.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:43:58",
+      "spot": 769.57,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:45:41",
+      "spot": 768.96,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:45:50",
+      "spot": 769.03,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:47:46",
+      "spot": 769.1,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:54:26",
+      "spot": 769.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:54:30",
+      "spot": 769.85,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:55:00",
+      "spot": 769.92,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:56:33",
+      "spot": 769.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:56:44",
+      "spot": 769.65,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:58:53",
+      "spot": 769.98,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 08:59:49",
+      "spot": 769.94,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:03:52",
+      "spot": 769.4,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:07:55",
+      "spot": 769.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:11:48",
+      "spot": 768.99,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:11:55",
+      "spot": 768.99,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:17:09",
+      "spot": 768.92,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:17:47",
+      "spot": 768.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:18:12",
+      "spot": 768.64,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:18:15",
+      "spot": 768.7,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:19:05",
+      "spot": 768.54,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:20:20",
+      "spot": 768.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:23:07",
+      "spot": 768.88,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:27:15",
+      "spot": 768.86,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:27:37",
+      "spot": 769.03,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:29:26",
+      "spot": 769.31,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:31:11",
+      "spot": 769.24,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:31:29",
+      "spot": 769.42,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:31:44",
+      "spot": 769.26,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:32:32",
+      "spot": 769.55,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:37:25",
+      "spot": 769.76,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:38:10",
+      "spot": 769.8,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:40:15",
+      "spot": 769.33,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:44:12",
+      "spot": 769.46,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:44:43",
+      "spot": 769.09,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:47:12",
+      "spot": 769.17,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:48:22",
+      "spot": 769.46,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:50:10",
+      "spot": 769.41,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:51:18",
+      "spot": 769.3,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:51:48",
+      "spot": 769.27,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:53:32",
+      "spot": 768.86,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:53:43",
+      "spot": 768.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:53:46",
+      "spot": 768.62,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:56:09",
+      "spot": 768.56,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 09:56:40",
+      "spot": 768.67,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:00:13",
+      "spot": 768.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:00:25",
+      "spot": 768.72,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:01:15",
+      "spot": 768.59,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:01:20",
+      "spot": 768.57,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:01:31",
+      "spot": 768.49,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:01:43",
+      "spot": 768.52,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:02:15",
+      "spot": 768.42,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:04:48",
+      "spot": 768.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:05:21",
+      "spot": 768.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:05:52",
+      "spot": 768.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:11:13",
+      "spot": 768.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:21:36",
+      "spot": 769.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:22:33",
+      "spot": 769.43,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:24:52",
+      "spot": 769.54,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:29:10",
+      "spot": 769.36,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:29:21",
+      "spot": 769.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:29:58",
+      "spot": 769.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:30:08",
+      "spot": 769.64,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:30:39",
+      "spot": 769.79,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:30:39",
+      "spot": 769.76,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:30:43",
+      "spot": 769.77,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:30:45",
+      "spot": 769.77,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:34:02",
+      "spot": 769.42,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:34:47",
+      "spot": 769.42,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:45:01",
+      "spot": 769.63,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:46:25",
+      "spot": 769.85,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:46:30",
+      "spot": 769.85,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:46:43",
+      "spot": 769.8,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:46:50",
+      "spot": 769.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:47:04",
+      "spot": 769.66,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:47:57",
+      "spot": 769.68,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:48:17",
+      "spot": 769.58,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:49:34",
+      "spot": 769.61,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:49:40",
+      "spot": 769.51,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:49:45",
+      "spot": 769.51,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:52:16",
+      "spot": 769.71,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:53:54",
+      "spot": 770.03,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:54:59",
+      "spot": 769.99,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:55:09",
+      "spot": 769.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 10:56:21",
+      "spot": 769.72,
+      "source": "UW rendered alert underlying price"
     }
   ],
-  "latest_session_alert_count": 2,
-  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage.",
+  "latest_session_alert_count": 264,
+  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near → away → return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage. October 20 refresh: 264 distinct rendered alerts across two pages, 06:33:43–10:56:21 Pacific. These underlying-price checks establish observed crossings only; October 19 afternoon and October 20 premarket are not newly covered by this capture. Existing extended-hours observations remain retained; missing checks are not evidence of no crossing.",
   "classification_version": "otm-sequence-v2",
-  "latest_alert_time": "2026/10/19 06:41:56",
+  "latest_alert_time": "2026/10/20 10:56:21",
   "alert_observations": [
     {
       "time": "2026/10/19 06:41:56",
@@ -12844,14 +14348,11 @@
     }
   ],
   "latest_capture_summary": {
-    "date": "2026-10-19",
-    "flow_start": "2026/10/19 06:39:02",
-    "flow_as_of": "2026/10/19 11:55:00",
-    "alerts": 270,
-    "calls_premium": 5049000,
-    "puts_premium": 6273000,
-    "unknown_side_alerts": 5,
+    "date": "2026-10-20",
+    "flow_start": "2026/10/20 06:33:43",
+    "flow_as_of": "2026/10/20 10:56:21",
+    "alerts": 264,
     "complete_session": false,
-    "method": "Distinct rendered rows across two pages; rounded premium labels. Aggregate capture retained separately from prior raw alert history."
+    "method": "Distinct rendered rows across two pages, overlapping row deduplicated by complete rendered fields. Contract aggregates and underlying-price observations retained. Prior raw alert history preserved."
   }
 }
