@@ -303,23 +303,25 @@ def _render(admin):
     wins=sum(r['outcome']=='ITM hit' for r in published)
     losses=sum(r['outcome']=='Expired OTM' for r in published)
     current={c['contract'] for c in cards if c['status']=='Current Prestige'}
-    earlier=[r for r in published if r['outcome']=='Open' and r['contract'] not in current]
+    earlier=[r for r in published if r['unexpired'] and r['contract'] not in current
+             and datetime.strptime(r['expiry'],'%m/%d/%Y').date()>=today]
     rate=f'{100*wins/(wins+losses):.1f}%' if wins+losses else '—'
-    metrics=[('🥇 Current setups',str(len(current))),('👀 Earlier plays awaiting ITM',str(len(earlier))),
+    metrics=[('🥇 Current setups',str(len(current))),('👀 Still Open',str(len(earlier))),
              ('✅ Completed ITM hits',str(wins)),('⌛ Expired OTM',str(losses)),('🎯 Published-cohort ITM rate',rate)]
     st.markdown('<div class="prestige-stats">'+''.join(
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
     st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · Price checks through {snapshot.get('source_time','unknown')} Pacific")
-    st.caption('Current setups qualify on the latest board. Earlier plays were documented on a published Prestige snapshot and remain unexpired without a recorded ITM hit. Completed hits are successes, even if their expiration is still ahead; they are not active setups. These lists do not represent actual subscriber positions.')
+    st.caption('Current setups qualify on the latest board. Still Open retains previously published, unexpired plays outside the current setup board, including contracts already recorded ITM. An ITM hit stays marked as a completed result while the contract remains unexpired. These lists do not represent actual subscriber positions.')
     st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The ITM rate is hits ÷ (hits + verified OTM expirations); unresolved outcomes are excluded. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
-    with st.expander('👀 Earlier published plays still awaiting an ITM hit'):
+    with st.expander('👀 Still Open',expanded=True):
         if earlier:
             st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
+                           'Result so far':r['outcome'],'ITM check (PT)':r['observed_at'],
                            'Published (PT)':r['published_at'],'Became Prestige (PT)':r['qualified_at']}
-                          for r in sorted(earlier,key=lambda r:(r['expiry'],r['contract']))],hide_index=True,use_container_width=True)
+                          for r in sorted(earlier,key=lambda r:(datetime.strptime(r['expiry'],'%m/%d/%Y'),r['contract']))],hide_index=True,use_container_width=True)
         else:
-            st.write('No unresolved earlier published plays in this saved update.')
+            st.write('No previously published carryover plays remain unexpired in this saved update.')
     with st.expander('✅ Completed published ITM hits, including unexpired contracts'):
         st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
                        'Published (PT)':r['published_at'],'ITM check (PT)':r['observed_at'],
