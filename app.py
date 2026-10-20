@@ -114,7 +114,10 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 </style>''',unsafe_allow_html=True)
 
 seed = json.loads((ROOT/'data'/'snapshot.json').read_text())
-if 'snapshot' not in st.session_state: st.session_state.snapshot=seed
+snapshot_revision = hashlib.sha256(json.dumps(seed,sort_keys=True).encode()).hexdigest()
+if 'snapshot' not in st.session_state or st.session_state.get('snapshot_revision') != snapshot_revision:
+    st.session_state.snapshot=seed
+    st.session_state.snapshot_revision=snapshot_revision
 data=st.session_state.snapshot
 today=datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
 
@@ -307,5 +310,6 @@ elif page=='Prestige':
 else:
     from pari import render
     render(admin)
+
 
 

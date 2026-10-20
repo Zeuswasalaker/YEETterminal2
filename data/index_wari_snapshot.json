@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-19T14:25:11.259726+00:00",
+  "captured_at": "2026-10-20T18:44:13.642855+00:00",
   "flow_source": "Aggregated distinct rendered SPY Magic alert rows; repeated contracts retained, not unique whales",
   "flow_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
   "price_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
@@ -48,7 +48,30 @@
       "level": "Little disagreement",
       "direction": "Bearish whale / rising index",
       "capture_method": "Aggregate of 270 distinct rendered alert rows across two pages; rounded premium labels. Partial session."
+    },
+    {
+      "date": "2026-10-20",
+      "flow_start": "2026/10/20 06:33:43",
+      "flow_as_of": "2026/10/20 11:37:03",
+      "price_as_of": "2026/10/20 11:37:03",
+      "spot": 768.7,
+      "previous_close": 766.47998046875,
+      "previous_close_date": "2026-10-19",
+      "index_return": 0.002896382929522101,
+      "return_std": 0.006906731612640244,
+      "baseline_sessions": 60,
+      "baseline_end": "2026-10-19",
+      "calls": 6904000.0,
+      "puts": 9440000.0,
+      "call_share": 0.4224180127263828,
+      "alerts": 294,
+      "unknown_side_alerts": 13,
+      "complete_session": false,
+      "score": 10.277478608434865,
+      "level": "Little disagreement",
+      "direction": "Bearish whale / rising index",
+      "capture_method": "Distinct rendered alert rows across two pages; rounded displayed premiums. Partial session."
     }
   ],
-  "price_source_note": "Latest underlying quote from the Magic alert table; prior close and prior 60-session volatility baseline retain the saved Yahoo history provenance."
+  "price_source_note": "Current matched underlying quote from UW Magic alert row; previous close and prior 60 daily return baseline refreshed from Yahoo SPY chart on October 20. No current-session return enters the baseline."
 }

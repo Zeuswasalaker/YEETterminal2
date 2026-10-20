@@ -131,7 +131,7 @@ def render_matched_snapshot(top):
             direction='Bearish agreement · puts and falling index' if row['call_share']<=.4 and row['index_return']<0 else 'Bullish agreement · calls and rising index' if row['call_share']>=.6 and row['index_return']>0 else 'Mixed / no opposing signal'
         detail=f"{day}: calls received {row['call_share']:.0%} of captured SPY Magic premium; SPY moved {row['index_return']:+.2%} from its prior close. Flow through {row['flow_as_of']} Pacific; matched underlying quote {row['price_as_of']}."
         if not row['complete_session'] or row['alerts']<20:
-            level='PROVISIONAL · '+level
+            level=('Bearish divergence' if direction.startswith('Bearish whale') else 'Bullish divergence' if direction.startswith('Bullish whale') else direction)+' · PROVISIONAL'
         with top.container():
             hero(value,level,detail,direction)
             if row['alerts']<20:
@@ -248,4 +248,5 @@ def render_broad_comparison(top):
             st.link_button('Broad SPY source',broad['source_url'])
     except (ValueError,KeyError,TypeError,OSError) as exc:
         st.caption('Broad SPY comparison unavailable: '+str(exc))
+
 
