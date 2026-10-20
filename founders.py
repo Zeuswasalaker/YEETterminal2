@@ -37,9 +37,9 @@ def render(admin):
     requested=st.text_input('Founding member ticker requests',placeholder='Enter a ticker, e.g. PLTR',key='founder_request_ticker',max_chars=12).strip().upper().lstrip('$')
     if requested:
         if requested.replace('.','').replace('-','').isalnum() and requested[0].isalpha():
-            request_url='https://github.com/Zeuswasalaker/YEETterminal2/issues/new?title='+quote('Ticker request: '+requested,safe='')
-            st.link_button('👑 Submit '+requested+' ticker request ↗',request_url)
-            st.caption('Opens GitHub to submit the request. A GitHub sign-in may be required; the ticker is added after the request is submitted and processed.')
+            request_url='mailto:milt@theyeet.com?subject='+quote('Founder ticker request: '+requested,safe='')+'&body='+quote('Hi Milt,\n\nPlease add '+requested+' to my Founder ticker coverage.\n\nThank you!',safe='')
+            st.link_button('✉️ Email '+requested+' request to Milt',request_url)
+            st.caption('Opens your email app with the ticker filled in. Send it to Milt, and he’ll add it to the coverage list.')
         else:
             st.warning('Use a valid ticker symbol with letters, numbers, dots or hyphens.')
     ticker=st.pills('Your requested tickers',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
