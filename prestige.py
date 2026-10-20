@@ -299,7 +299,38 @@ def _render(admin):
     for row in stats['records']:
         row.update({k:evidence.get(row['contract'],{}).get(k,'') for k in ('provenance','published_at','source_url')})
         row['provenance']=row['provenance'] or 'Reconstructed from saved observations'
-    published=[r for r in stats['records'] if r['published_at']]
+    # Public-track-record outcomes must occur after BOTH qualification and publication.
+    # Earlier crossings belong in reconstructed history, not forward-published results.
+    published=[]
+    for original in stats['records']:
+        if not original['published_at']:
+            continue
+        row=dict(original)
+        start=max(row['qualified_at'],row['published_at'])
+        deadline=datetime.strptime(row['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')+' 13:15:00'
+        cutoff=min(snapshot.get('source_time',''),deadline)
+        if start>cutoff:
+            row.update(outcome='Not eligible',observed_at='',observed_spot=None)
+        else:
+            matching=next((c for c in snapshot.get('cards',[]) if c['contract']==row['contract']),None)
+            if matching:
+                hits=sorted((o for o in snapshot.get('price_observations',[])
+                    if start<o['time']<=cutoff and
+                    ((float(o['spot'])>float(matching['strike'])) if matching['type']=='call'
+                     else (float(o['spot'])<float(matching['strike'])))),
+                    key=lambda o:o['time'])
+                if hits:
+                    row.update(outcome='ITM hit',observed_at=hits[0]['time'],observed_spot=float(hits[0]['spot']))
+                elif snapshot.get('source_time','')<deadline:
+                    row.update(outcome='Open',observed_at='',observed_spot=None)
+                else:
+                    closing=[o for o in snapshot.get('price_observations',[])
+                        if start<o['time']<=cutoff and o['time']>=deadline[:11]+'13:14:59']
+                    if closing and float(closing[-1]['spot'])!=float(matching['strike']):
+                        row.update(outcome='Expired OTM',observed_at=closing[-1]['time'],observed_spot=float(closing[-1]['spot']))
+                    else:
+                        row.update(outcome='Outcome unverified',observed_at='',observed_spot=None)
+        published.append(row)
     wins=sum(r['outcome']=='ITM hit' for r in published)
     losses=sum(r['outcome']=='Expired OTM' for r in published)
     current={c['contract'] for c in cards if c['status']=='Current Prestige'}
@@ -307,13 +338,13 @@ def _render(admin):
              and datetime.strptime(r['expiry'],'%m/%d/%Y').date()>=today]
     rate=f'{100*wins/(wins+losses):.1f}%' if wins+losses else '—'
     metrics=[('🥇 Current setups',str(len(current))),('👀 Still Open',str(len(earlier))),
-             ('✅ Completed ITM hits',str(wins)),('⌛ Expired OTM',str(losses)),('🎯 Published-cohort ITM rate',rate)]
+             ('✅ Completed ITM hits',str(wins)),('⌛ Expired OTM',str(losses)),('🎯 Resolved published ITM rate',rate)]
     st.markdown('<div class="prestige-stats">'+''.join(
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
-    st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · Price checks through {snapshot.get('source_time','unknown')} Pacific")
+    st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Open' for r in published)} unresolved open · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · {sum(r['outcome']=='Not eligible' for r in published)} published too late · Price checks through {snapshot.get('source_time','unknown')} Pacific")
     st.caption('Current setups qualify on the latest board. Still Open contains only previously published, unexpired plays without a verified ITM hit, outside the current setup board. Verified ITM hits move to Completed ITM Hits immediately, even if their expiration is in the future. These lists do not represent actual subscriber positions.')
-    st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The ITM rate is hits ÷ (hits + verified OTM expirations); unresolved outcomes are excluded. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
+    st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The resolved published ITM rate is post-publication hits ÷ (post-publication hits + verified OTM expirations); unresolved, unverified and too-late publications are excluded. This is not the percentage of all published contracts that hit. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
     if st.button(f'👀 Still Open ({len(earlier)})  ' + ('▲ Hide cards' if st.session_state.get('prestige_still_open_visible',False) else '▼ Show cards'), key='prestige_still_open_toggle', use_container_width=True):
         st.session_state.prestige_still_open_visible=not st.session_state.get('prestige_still_open_visible',False)
     if st.session_state.get('prestige_still_open_visible',False):
