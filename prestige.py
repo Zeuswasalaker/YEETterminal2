@@ -314,14 +314,30 @@ def _render(admin):
     st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · Price checks through {snapshot.get('source_time','unknown')} Pacific")
     st.caption('Current setups qualify on the latest board. Still Open retains previously published, unexpired plays outside the current setup board, including contracts already recorded ITM. An ITM hit stays marked as a completed result while the contract remains unexpired. These lists do not represent actual subscriber positions.')
     st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The ITM rate is hits ÷ (hits + verified OTM expirations); unresolved outcomes are excluded. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
-    with st.expander('👀 Still Open',expanded=True):
+    if st.button(f'👀 Still Open ({len(earlier)})  ' + ('▲ Hide cards' if st.session_state.get('prestige_still_open_visible',False) else '▼ Show cards'), key='prestige_still_open_toggle', use_container_width=True):
+        st.session_state.prestige_still_open_visible=not st.session_state.get('prestige_still_open_visible',False)
+    if st.session_state.get('prestige_still_open_visible',False):
         if earlier:
-            st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
-                           'Result so far':r['outcome'],'ITM check (PT)':r['observed_at'],
-                           'Published (PT)':r['published_at'],'Became Prestige (PT)':r['qualified_at']}
-                          for r in sorted(earlier,key=lambda r:(datetime.strptime(r['expiry'],'%m/%d/%Y'),r['contract']))],hide_index=True,use_container_width=True)
+            tiles=[]
+            for row in sorted(earlier,key=lambda r:(datetime.strptime(r['expiry'],'%m/%d/%Y'),r['contract'])):
+                contract=row['contract']
+                expiry=datetime.strptime(row['expiry'],'%m/%d/%Y').strftime('%b %d, %Y')
+                hit=row['outcome']=='ITM hit'
+                result='✅ ITM HIT' if hit else ('⏳ AWAITING RESULT' if row['outcome']=='Open' else row['outcome'])
+                observed=('ITM checked: '+row['observed_at']+' PT') if hit and row['observed_at'] else 'No confirmed ITM check yet'
+                tiles.append(
+                    '<article class="gold-contract" style="min-height:210px">'
+                    '<div class="gold-top"><span>👀 STILL OPEN</span><span>$SPY</span></div>'
+                    '<div class="gold-strike" style="font-size:32px">'+escape(contract)+'</div>'
+                    '<div class="gold-expiry">Expires '+escape(expiry)+'</div>'
+                    '<div class="gold-status">'+escape(result)+'</div>'
+                    '<div class="gold-first"><span>'+escape(observed)+'</span>'
+                    '<small>Published: '+escape(row['published_at'] or 'Not recorded')+' PT</small>'
+                    '<small>Prestige qualified: '+escape(row['qualified_at'])+' PT</small></div>'
+                    '</article>')
+            st.markdown('<div class="gold-grid">'+''.join(tiles)+'</div>',unsafe_allow_html=True)
         else:
-            st.write('No previously published carryover plays remain unexpired in this saved update.')
+            st.info('No previously published carryover plays remain unexpired in this saved update.')
     with st.expander('✅ Completed published ITM hits, including unexpired contracts'):
         st.dataframe([{'Contract':r['contract'],'Expires':datetime.strptime(r['expiry'],'%m/%d/%Y').date(),
                        'Published (PT)':r['published_at'],'ITM check (PT)':r['observed_at'],
