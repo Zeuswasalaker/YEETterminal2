@@ -303,7 +303,7 @@ def _render(admin):
     wins=sum(r['outcome']=='ITM hit' for r in published)
     losses=sum(r['outcome']=='Expired OTM' for r in published)
     current={c['contract'] for c in cards if c['status']=='Current Prestige'}
-    earlier=[r for r in published if r['unexpired'] and r['contract'] not in current
+    earlier=[r for r in published if r['unexpired'] and r['outcome']=='Open' and r['contract'] not in current
              and datetime.strptime(r['expiry'],'%m/%d/%Y').date()>=today]
     rate=f'{100*wins/(wins+losses):.1f}%' if wins+losses else '—'
     metrics=[('🥇 Current setups',str(len(current))),('👀 Still Open',str(len(earlier))),
@@ -312,7 +312,7 @@ def _render(admin):
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
     st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · Price checks through {snapshot.get('source_time','unknown')} Pacific")
-    st.caption('Current setups qualify on the latest board. Still Open retains previously published, unexpired plays outside the current setup board, including contracts already recorded ITM. An ITM hit stays marked as a completed result while the contract remains unexpired. These lists do not represent actual subscriber positions.')
+    st.caption('Current setups qualify on the latest board. Still Open contains only previously published, unexpired plays without a verified ITM hit, outside the current setup board. Verified ITM hits move to Completed ITM Hits immediately, even if their expiration is in the future. These lists do not represent actual subscriber positions.')
     st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The ITM rate is hits ÷ (hits + verified OTM expirations); unresolved outcomes are excluded. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
     if st.button(f'👀 Still Open ({len(earlier)})  ' + ('▲ Hide cards' if st.session_state.get('prestige_still_open_visible',False) else '▼ Show cards'), key='prestige_still_open_toggle', use_container_width=True):
         st.session_state.prestige_still_open_visible=not st.session_state.get('prestige_still_open_visible',False)
@@ -323,7 +323,7 @@ def _render(admin):
                 contract=row['contract']
                 expiry=datetime.strptime(row['expiry'],'%m/%d/%Y').strftime('%b %d, %Y')
                 hit=row['outcome']=='ITM hit'
-                result='✅ ITM HIT' if hit else ('⏳ AWAITING RESULT' if row['outcome']=='Open' else row['outcome'])
+                result='⏳ AWAITING RESULT'
                 observed=('ITM checked: '+row['observed_at']+' PT') if hit and row['observed_at'] else 'No confirmed ITM check yet'
                 tiles.append(
                     '<article class="gold-contract" style="min-height:210px">'
