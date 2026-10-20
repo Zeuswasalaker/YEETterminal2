@@ -1,31 +1,47 @@
 {
   "captured_on": "2026-10-19",
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
-  "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 15 11:40:44 through October 19 07:01:43 Pacific; 249 retained after enforcing displayed ask share ≥70% (one 55% row excluded). Latest qualifying alert October 19 07:01:19. Friday October 16 is contained within the captured window; October 15 is partial and October 19 is an early-session snapshot. Rounded display premiums, not exact dollars. Alerts are not necessarily unique trades or whales. Historical October 9–14 aggregates retained from the earlier delayed capture. Missing tickers are unavailable in the captured sample, not zero market activity. This is filtered flow, not a live stream or a historical-baseline score.",
+  "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 16 09:41:47 through October 19 13:00:27 Pacific; 249 retained after enforcing displayed ask share ≥70%. October 19 has 108 qualifying alerts through the latest displayed close-time alert. This is a capped, filtered sample, not certified complete exchange coverage. Rounded displayed premiums; alerts may overlap and are not unique whales. October 16 and earlier summaries are retained from previous captures; the current partial Friday window was not added to or substituted for the earlier Friday summary. Missing observations do not mean zero market activity. Descriptive flow direction, not a historical-baseline or predictive score.",
   "summary": [
     {
       "date": "2026-10-19",
       "ticker": "QQQ",
-      "prints": 4,
-      "premium": 295000,
-      "call_premium": 0,
-      "call_prints": 0
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "SMH",
-      "prints": 5,
-      "premium": 364000,
-      "call_premium": 87000,
-      "call_prints": 2
+      "prints": 45,
+      "premium": 4782000,
+      "call_premium": 649000,
+      "call_prints": 5
     },
     {
       "date": "2026-10-19",
       "ticker": "SPY",
+      "prints": 52,
+      "premium": 4174000,
+      "call_premium": 1134000,
+      "call_prints": 11
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "SMH",
       "prints": 9,
-      "premium": 456000,
-      "call_premium": 106000,
+      "premium": 492000,
+      "call_premium": 189000,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "BABA",
+      "prints": 1,
+      "premium": 64000,
+      "call_premium": 64000,
       "call_prints": 1
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "JD",
+      "prints": 1,
+      "premium": 32000,
+      "call_premium": 0,
+      "call_prints": 0
     },
     {
       "date": "2026-10-16",
@@ -346,16 +362,47 @@
           "call_prints": 0
         }
       ]
+    },
+    {
+      "captured_on": "2026-10-19",
+      "source_time": "2026-10-19 07:01:19",
+      "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 15 11:40:44 through October 19 07:01:43 Pacific; 249 retained after enforcing displayed ask share ≥70% (one 55% row excluded). Latest qualifying alert October 19 07:01:19. Friday October 16 is contained within the captured window; October 15 is partial and October 19 is an early-session snapshot. Rounded display premiums, not exact dollars. Alerts are not necessarily unique trades or whales. Historical October 9–14 aggregates retained from the earlier delayed capture. Missing tickers are unavailable in the captured sample, not zero market activity. This is filtered flow, not a live stream or a historical-baseline score.",
+      "summary": [
+        {
+          "date": "2026-10-19",
+          "ticker": "QQQ",
+          "prints": 4,
+          "premium": 295000,
+          "call_premium": 0,
+          "call_prints": 0
+        },
+        {
+          "date": "2026-10-19",
+          "ticker": "SMH",
+          "prints": 5,
+          "premium": 364000,
+          "call_premium": 87000,
+          "call_prints": 2
+        },
+        {
+          "date": "2026-10-19",
+          "ticker": "SPY",
+          "prints": 9,
+          "premium": 456000,
+          "call_premium": 106000,
+          "call_prints": 1
+        }
+      ]
     }
   ],
-  "source_time": "2026-10-19 07:01:19",
+  "source_time": "2026-10-19 13:00:27",
   "source_timezone": "America/Los_Angeles",
   "capture_type": "Authenticated rendered alert table",
   "captured_rows": 250,
   "retained_rows": 249,
   "excluded_rows": 1,
   "session_coverage": {
-    "2026-10-19": "Early session through 07:01:19 Pacific; 18 qualifying alerts. BABA and JD absent from this captured sample.",
+    "2026-10-19": "108 qualifying alerts through 13:00:27 Pacific; all five tracked symbols represented. BABA and JD have only one alert each.",
     "2026-10-16": "Friday session falls inside the captured first-page window; 201 qualifying alerts.",
     "2026-10-15": "Partial session: 30 qualifying alerts from 11:40:44 Pacific onward."
   }
