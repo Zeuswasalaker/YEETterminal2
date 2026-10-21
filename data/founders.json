@@ -53,6 +53,14 @@
         "https://ir.coherent.com/static-files/4df8d35b-3abc-4a04-a319-588b204e9bcd"
       ],
       "event_note": "Industry appearances and the November 18 shareholder meeting remain listed separately, not as investor days. The proxy notice confirms November 18 at noon Eastern; the annual report prints the same date/time but an inconsistent weekday. Confirm timing with IR before relying on it. The IR events page, company events page, proxy and annual report were readable at the October 18 check after intermittent access errors. November 4 earnings are excluded."
+    },
+    "SLV": {
+      "name": "iShares Silver Trust",
+      "ir_url": "https://www.ishares.com/us/products/239855/ISHARES-SILVER-TRUST-FUND",
+      "source_urls": [
+        "https://www.ishares.com/us/products/239855/ISHARES-SILVER-TRUST-FUND"
+      ],
+      "event_note": "Added to Founder coverage. SLV tracks silver bullion; company investor days and earnings are generally not applicable. Fund announcements and corporate actions remain research pending. No upcoming event or flow match is claimed."
     }
   },
   "events": [
@@ -2169,6 +2177,48 @@
       "scope": "First result page only. Older pages not checked.",
       "matches": 5,
       "source_url": "https://unusualwhales.com/live-options-flow?add_agg_trades=true&exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=60&max_earnings_dte=60&max_iv=1.30&min_diff=0.07&min_dte=14&min_earnings_dte=10&min_premium=50000&min_volume=2&order=Time&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR&watchlist_name=Freelance%20Ultra"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "NAUTILUS",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&min_dte=8&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&max_dte=40&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&issue_types%5B%5D=ETF&show_calls=true&show_etfs=true&show_adr=true&max_iv=1.30&exclude_deep_itm=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=3&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=x+NAUTILUS+x&ticker_symbol=SLV"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "FARCRY ULTRA",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&is_multi_leg=false&is_otm=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&issue_types%5B%5D=ETF&limit=250&max_dte=300&max_iv=1&min_ask_perc=0.75&min_diff=0.08&min_dte=60&min_earnings_dte=14&min_premium=50000&opening=true&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=FARCRY+ULTRA&ticker_symbol=SLV"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "PSU",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&issue_types%5B%5D=ETF&show_calls=true&show_etfs=true&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=5&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=PSU&ticker_symbol=SLV"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "WF PSU",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&excluded_tags%5B%5D=volatility&is_otm=true&is_single_leg=true&show_volatility=false&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&min_diff=0.05&hide_expired=false&min_premium=25000&min_ask_perc=0.75&max_dte=90&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&show_calls=true&show_etfs=false&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=2&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=WF+PSU&ticker_symbol=SLV"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "BAT",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&hide_expired=true&is_multi_leg=false&is_otm=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&issue_types%5B%5D=ETF&limit=250&max_dte=90&max_iv=1&min_ask_perc=0.7&min_diff=0.08&min_dte=30&min_earnings_dte=14&min_premium=50000&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=x+BAT+Filter+x&ticker_symbol=SLV"
+    },
+    {
+      "ticker": "SLV",
+      "filter": "Freelance Ultra",
+      "status": "pending",
+      "scope": "Added to Founder coverage October 21, 2026. No authenticated SLV flow check performed yet.",
+      "source_url": "https://unusualwhales.com/live-options-flow?add_agg_trades=true&exclude_deep_itm=true&excluded_tags%5B%5D=bid_side&excluded_tags%5B%5D=mid_side&excluded_tags%5B%5D=dividend&is_multi_leg=false&is_otm=true&issue_types%5B%5D=Common+Stock&issue_types%5B%5D=ADR&issue_types%5B%5D=ETF&limit=250&max_dte=60&max_earnings_dte=60&max_iv=1.30&min_diff=0.07&min_dte=14&min_earnings_dte=10&min_premium=50000&min_volume=2&order=Time&report_flag%5B%5D=sweep&report_flag%5B%5D=floor&report_flag%5B%5D=normal&volume_greater_oi=true&watchlist_name=Freelance+Ultra&ticker_symbol=SLV"
     }
   ],
   "monitoring": {
