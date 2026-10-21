@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-10-21T16:06:03Z",
+  "audited_at": "2026-10-21T16:09:40.779481+00:00",
   "scope": "Checked nine saved GitHub snapshots from October 14\u201319. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained.",
   "records": [
     {
@@ -495,6 +495,38 @@
       "published_at": "2026/10/21 09:06:03",
       "commit_sha": "fff24e3f51c2aa1c015490c19c61dd3b370cd6ca",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/fff24e3f51c2aa1c015490c19c61dd3b370cd6ca"
+    },
+    {
+      "contract": "776c 10/23/2026",
+      "qualified_at": "2026/10/14 07:51:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 09:07:44",
+      "commit_sha": "871271ef464eb72d0b9c49e5eb7b4e394149ab92",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/871271ef464eb72d0b9c49e5eb7b4e394149ab92"
+    },
+    {
+      "contract": "775c 10/30/2026",
+      "qualified_at": "2026/10/15 14:05:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 09:07:44",
+      "commit_sha": "871271ef464eb72d0b9c49e5eb7b4e394149ab92",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/871271ef464eb72d0b9c49e5eb7b4e394149ab92"
+    },
+    {
+      "contract": "775c 10/22/2026",
+      "qualified_at": "2026/10/16 07:08:00",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 09:07:44",
+      "commit_sha": "871271ef464eb72d0b9c49e5eb7b4e394149ab92",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/871271ef464eb72d0b9c49e5eb7b4e394149ab92"
+    },
+    {
+      "contract": "775c 10/21/2026",
+      "qualified_at": "2026/10/20 07:35:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 09:07:44",
+      "commit_sha": "871271ef464eb72d0b9c49e5eb7b4e394149ab92",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/871271ef464eb72d0b9c49e5eb7b4e394149ab92"
     }
   ]
 }

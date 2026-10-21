@@ -313,3 +313,5 @@ else:
 
 
 
+
+# Published data revision: 2026-10-21 SPY Magic and SLV Founder coverage.

@@ -1,8 +1,8 @@
 {
   "source": "Saved Unusual Whales SPY Magic alerts and Yahoo Finance SPY 1-minute prices including extended hours",
-  "captured_at": "2026-10-21T16:07:05.815236+00:00",
-  "source_time": "2026/10/21 09:05:59",
-  "spot": 772.6099853515625,
+  "captured_at": "2026-10-21T16:09:25.501694+00:00",
+  "source_time": "2026/10/21 09:08:59",
+  "spot": 772.280029296875,
   "coverage_start": "2026/10/12 10:47:23",
   "alert_count": 627,
   "cards": [
@@ -5063,7 +5063,7 @@
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-21T16:07:05.815236+00:00",
+  "checked_at": "2026-10-21T16:09:25.501694+00:00",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -34854,7 +34854,7 @@
     },
     {
       "time": "2026/10/21 08:51:59",
-      "spot": 772.7901000976562,
+      "spot": 772.7999877929688,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -34864,7 +34864,7 @@
     },
     {
       "time": "2026/10/21 08:53:59",
-      "spot": 772.6699829101562,
+      "spot": 772.6599731445312,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -34924,11 +34924,26 @@
     },
     {
       "time": "2026/10/21 09:05:59",
-      "spot": 772.6099853515625
+      "spot": 772.6099853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 09:06:59",
+      "spot": 772.4600219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 09:07:59",
+      "spot": 772.3800048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 09:08:59",
+      "spot": 772.280029296875
     }
   ],
   "latest_session_alert_count": 53,
-  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage. October 20 refresh: 264 distinct rendered alerts across two pages, 06:33:43\u201310:56:21 Pacific. These underlying-price checks establish observed crossings only; October 19 afternoon and October 20 premarket are not newly covered by this capture. Existing extended-hours observations remain retained; missing checks are not evidence of no crossing. October 20 later refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/20 11:40:59 Pacific, plus 294 distinct current-session alert rows through 2026/10/20 11:37:03. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed. October 21 refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/21 09:05:59 Pacific, plus 53 distinct current-session alert rows through 2026/10/21 07:48:27. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed.",
+  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage. October 20 refresh: 264 distinct rendered alerts across two pages, 06:33:43\u201310:56:21 Pacific. These underlying-price checks establish observed crossings only; October 19 afternoon and October 20 premarket are not newly covered by this capture. Existing extended-hours observations remain retained; missing checks are not evidence of no crossing. October 20 later refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/20 11:40:59 Pacific, plus 294 distinct current-session alert rows through 2026/10/20 11:37:03. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed. October 21 refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/21 09:08:59 Pacific, plus 53 distinct current-session alert rows through 2026/10/21 07:48:27. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed.",
   "classification_version": "otm-sequence-v2",
   "latest_alert_time": "2026/10/21 07:48:27",
   "alert_observations": [
