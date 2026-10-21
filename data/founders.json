@@ -289,7 +289,7 @@
       "time": "10 a.m. Pacific / 1 p.m. EDT / 7 p.m. CEST",
       "category": "Investor event",
       "url": "https://www.nasdaq.com/press-release/moderna-announces-late-breaking-data-be-presented-esmo-congress-2026-2026-09-21",
-      "summary": "October 24, 10 a.m. Pacific: Moderna hosts an investor webcast following the ESMO scientific presentation. A non-earnings oncology investor event, separate from the earlier data session.",
+      "summary": "October 24, 10 a.m. Pacific: Moderna hosts an investor webcast following the ESMO scientific presentation. A non-earnings oncology investor event, separate from the earlier data session. The November 6 earnings call is excluded from RAMBO; November 6 option expirations still carry that earnings risk.",
       "note": "October 21 November 6 $330 calls and November 27 $310 calls both extend past this webcast. November 6 expiration coincides with the announced earnings date. November 27 contracts also span November 12 Analyst Day. No causal or profitability claim."
     },
     {
@@ -303,7 +303,7 @@
       "time": "Start time not yet verified",
       "category": "Analyst / investor day",
       "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
-      "summary": "November 12 Analyst Day is listed in Moderna's SEC-filed company release. Start time and detailed agenda are not yet verified. This is a planned investor event, separate from earnings and ESMO.",
+      "summary": "November 12 Analyst Day is listed in Moderna's SEC-filed company release. Start time and detailed agenda are not yet verified. This is a planned investor event, separate from earnings and ESMO. November 6 earnings occur before this event and remain an intervening risk.",
       "note": "November 27 $310 calls span this event; November 6 $330 calls expire beforehand and do not match Analyst Day. Earlier captured November 20 and January–April 2027 contracts span the date too. November 6 earnings precede Analyst Day and can dominate the intervening price move."
     }
   ],
