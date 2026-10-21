@@ -1,7 +1,7 @@
 {
-  "captured_on": "2026-10-20",
+  "captured_on": "2026-10-21",
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
-  "coverage": "Authenticated rendered Orange Swan partial-session capture October 20, 06:31:24\u201311:39:13 Pacific. Distinct alerts, rounded premiums; not unique whales or certified complete market coverage. Earlier sessions retained. BABA and JD have no captured alerts in this window, not zero market activity.",
+  "coverage": "Authenticated rendered Orange Swan partial-session capture October 21, 06:34:13\u201312:04:22 Pacific. Distinct alerts, rounded premiums; not unique whales or complete market coverage. Earlier sessions retained.",
   "summary": [
     {
       "date": "2026-10-19",
@@ -250,6 +250,46 @@
       "premium": 2795000.0,
       "call_premium": 1789000.0,
       "call_prints": 15
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "BABA",
+      "prints": 4,
+      "premium": 990000.0,
+      "call_premium": 911000.0,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "JD",
+      "prints": 3,
+      "premium": 861000.0,
+      "call_premium": 740000.0,
+      "call_prints": 2
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "QQQ",
+      "prints": 32,
+      "premium": 4850000.0,
+      "call_premium": 3858000.0,
+      "call_prints": 24
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "SMH",
+      "prints": 8,
+      "premium": 732000.0,
+      "call_premium": 462000.0,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "SPY",
+      "prints": 24,
+      "premium": 2571000.0,
+      "call_premium": 179000.0,
+      "call_prints": 7
     }
   ],
   "capture_history": [
@@ -422,18 +462,24 @@
       "captured_on": "2026-10-19",
       "source_time": "2026-10-19 13:00:27",
       "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 16 09:41:47 through October 19 13:00:27 Pacific; 249 retained after enforcing displayed ask share \u226570%. October 19 has 108 qualifying alerts through the latest displayed close-time alert. This is a capped, filtered sample, not certified complete exchange coverage. Rounded displayed premiums; alerts may overlap and are not unique whales. October 16 and earlier summaries are retained from previous captures; the current partial Friday window was not added to or substituted for the earlier Friday summary. Missing observations do not mean zero market activity. Descriptive flow direction, not a historical-baseline or predictive score."
+    },
+    {
+      "captured_on": "2026-10-20",
+      "source_time": "2026-10-20 11:39:13",
+      "coverage": "Authenticated rendered Orange Swan partial-session capture October 20, 06:31:24\u201311:39:13 Pacific. Distinct alerts, rounded premiums; not unique whales or certified complete market coverage. Earlier sessions retained. BABA and JD have no captured alerts in this window, not zero market activity."
     }
   ],
-  "source_time": "2026-10-20 11:39:13",
+  "source_time": "2026-10-21 12:04:22",
   "source_timezone": "America/Los_Angeles",
   "capture_type": "Authenticated rendered alert table",
-  "captured_rows": 58,
-  "retained_rows": 57,
-  "excluded_rows": 1,
+  "captured_rows": 71,
+  "retained_rows": 71,
+  "excluded_rows": 0,
   "session_coverage": {
     "2026-10-19": "108 qualifying alerts through 13:00:27 Pacific; all five tracked symbols represented. BABA and JD have only one alert each.",
     "2026-10-16": "Friday session falls inside the captured first-page window; 201 qualifying alerts.",
     "2026-10-15": "Partial session: 30 qualifying alerts from 11:40:44 Pacific onward.",
-    "2026-10-20": "58 captured alerts, 57 retained after excluding one displayed 65% ask-share row, through 11:39:13 Pacific; SPY, QQQ and SMH represented. No captured BABA/JD alerts."
+    "2026-10-20": "58 captured alerts, 57 retained after excluding one displayed 65% ask-share row, through 11:39:13 Pacific; SPY, QQQ and SMH represented. No captured BABA/JD alerts.",
+    "2026-10-21": "71 captured alerts through 12:04:22 Pacific; SPY, QQQ, SMH, BABA and JD represented."
   }
 }
