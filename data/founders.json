@@ -99,7 +99,8 @@
       "summary": "Coherent lists Booth 2229 at the Washington, D.C. conference. An industry showcase, not an investor presentation or earnings event.",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-10-19"
+      "verified_on": "2026-10-21",
+      "note": "October 21 broad-filter capture: approximately $270K ask-side April 16, 2027 $170 puts span this November 14–18 exhibition; approximately $353K ask-side November 13, 2026 $250 calls expire before the exhibition starts. Mixed captured directions and different horizons; overlap does not establish intent or causation. Dedicated ticker/filter scan statuses retained."
     },
     {
       "ticker": "COHR",
@@ -1959,6 +1960,54 @@
       ],
       "verified_on": "2026-10-15",
       "source": "Unusual Whales authenticated live-options-flow results"
+    },
+    {
+      "ticker": "COHR",
+      "date": "2026-10-21",
+      "time": "09:16:18",
+      "timezone": "America/Los_Angeles",
+      "strike": 170,
+      "type": "put",
+      "expiry": "2027-04-16",
+      "side": "ASK",
+      "fill": "$13.50",
+      "size": 200,
+      "premium": "$270K",
+      "premium_precision": "Rounded display value from UW",
+      "volume": "200",
+      "open_interest": "5",
+      "chain_ask_percent": "100%",
+      "code": "SL",
+      "flags": "SLFT FLOOR",
+      "filters": [
+        "FARCRY ULTRA"
+      ],
+      "verified_on": "2026-10-21",
+      "source": "Unusual Whales authenticated live-options-flow results; broad-filter partial-session capture, not a dedicated ticker scan"
+    },
+    {
+      "ticker": "COHR",
+      "date": "2026-10-21",
+      "time": "07:57:29",
+      "timezone": "America/Los_Angeles",
+      "strike": 250,
+      "type": "call",
+      "expiry": "2026-11-13",
+      "side": "ASK",
+      "fill": "$14.70",
+      "size": 240,
+      "premium": "$353K",
+      "premium_precision": "Rounded display value from UW",
+      "volume": "246",
+      "open_interest": "30",
+      "chain_ask_percent": "98%",
+      "code": "SL",
+      "flags": "AGG* ",
+      "filters": [
+        "WF PSU"
+      ],
+      "verified_on": "2026-10-21",
+      "source": "Unusual Whales authenticated live-options-flow results; broad-filter partial-session capture, not a dedicated ticker scan"
     }
   ],
   "flow_checks": [
@@ -2226,5 +2275,5 @@
     "flow": "Authenticated snapshot refreshed; not a continuous stream."
   },
   "flow_as_of": "2026-10-15T14:13:09.784Z",
-  "flow_scope": "Latest first-page results from all six filters, plus our October 14 capture. Older pages not exhaustively checked. Duplicate appearances across filters merged. Premiums are rounded UW display labels."
+  "flow_scope": "Latest first-page results from all six filters, plus our October 14 capture. Older pages not exhaustively checked. Duplicate appearances across filters merged. Premiums are rounded UW display labels. October 21 supplement: two COHR rows observed in the supplied FARCRY ULTRA and WF PSU broad filters. This is not a fresh six-filter ticker-specific scan; prior check statuses and monitoring remain unchanged."
 }
