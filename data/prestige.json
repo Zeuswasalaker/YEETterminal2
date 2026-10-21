@@ -1,8 +1,8 @@
 {
   "source": "Saved Unusual Whales SPY Magic alerts and Yahoo Finance SPY 1-minute prices including extended hours",
-  "captured_at": "2026-10-20T18:44:13.642855+00:00",
-  "source_time": "2026/10/20 11:40:59",
-  "spot": 768.77001953125,
+  "captured_at": "2026-10-21T14:53:14.328367+00:00",
+  "source_time": "2026/10/21 07:51:59",
+  "spot": 771.0599975585938,
   "coverage_start": "2026/10/12 10:47:23",
   "alert_count": 627,
   "cards": [
@@ -737,12 +737,12 @@
       "type": "call",
       "expiry": "10/23/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 3,
       "first": "2026/10/14 12:13:28",
-      "last": "2026/10/14 12:46:14",
-      "last_premium": "$62K",
-      "last_price": "$6.24",
-      "last_side": "-",
+      "last": "2026/10/20 12:05:26",
+      "last_premium": "$40K",
+      "last_price": "$4.01",
+      "last_side": "ASK",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -755,6 +755,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 1,
       "retired_at": "2026/10/14 12:30:59",
       "retired_spot": 769.1400146484375,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -1247,7 +1248,7 @@
       "last_premium": "$73K",
       "last_price": "$3.06",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Expired",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -1879,7 +1880,7 @@
       "last_premium": "$124K",
       "last_price": "$3.10",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Expired",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -2057,10 +2058,10 @@
       "type": "call",
       "expiry": "10/22/2026",
       "first": "2026/10/14 08:20:58",
-      "alerts": 1,
-      "last": "2026/10/14 08:20:58",
-      "last_premium": "$51K",
-      "last_price": "$4.78",
+      "alerts": 6,
+      "last": "2026/10/21 07:46:54",
+      "last_premium": "$28K",
+      "last_price": "$1.38",
       "last_side": "ASK",
       "status": "Current Prestige",
       "classification_audit": [
@@ -2075,6 +2076,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 5,
       "retired_at": "2026/10/16 01:00:59",
       "retired_spot": 773.43,
       "retired_reason": "Observed in the money after verified OTM comeback",
@@ -2214,10 +2216,10 @@
       "type": "put",
       "expiry": "10/23/2026",
       "first": "2026/10/14 08:38:23",
-      "alerts": 2,
-      "last": "2026/10/20 11:36:13",
-      "last_premium": "$213K",
-      "last_price": "$3.34",
+      "alerts": 6,
+      "last": "2026/10/20 12:41:34",
+      "last_premium": "$218K",
+      "last_price": "$3.59",
       "last_side": "ASK",
       "status": "Watching",
       "classification_audit": [
@@ -2232,7 +2234,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 1,
+      "latest_session_alert_count": 5,
       "retired_at": "2026/10/14 10:50:08",
       "retired_spot": 767.87,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -2249,7 +2251,7 @@
       "last_premium": "$13K",
       "last_price": "$1.21",
       "last_side": "ASK",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2532,10 +2534,10 @@
       "type": "put",
       "expiry": "10/22/2026",
       "first": "2026/10/14 11:00:18",
-      "alerts": 2,
-      "last": "2026/10/20 09:50:10",
-      "last_premium": "$22K",
-      "last_price": "$2.24",
+      "alerts": 8,
+      "last": "2026/10/21 07:41:05",
+      "last_premium": "$15K",
+      "last_price": "$1.52",
       "last_side": "ASK",
       "status": "Watching",
       "classification_audit": [
@@ -2550,7 +2552,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 1,
+      "latest_session_alert_count": 7,
       "retired_at": "2026/10/14 11:01:48",
       "retired_spot": 766.85,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -2881,12 +2883,12 @@
       "type": "call",
       "expiry": "10/26/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 2,
       "first": "2026/10/15 08:23:26",
-      "last": "2026/10/15 08:23:26",
-      "last_side": "ASK",
-      "last_price": "$6.14",
-      "last_premium": "$123K",
+      "last": "2026/10/21 07:45:47",
+      "last_side": "-",
+      "last_price": "$3.89",
+      "last_premium": "$39K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2900,6 +2902,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 1,
       "retired_at": "2026/10/15 10:38:59",
       "retired_spot": 771.1199951171875,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -2944,12 +2947,12 @@
       "type": "call",
       "expiry": "10/23/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 6,
       "first": "2026/10/15 09:33:03",
-      "last": "2026/10/20 10:48:17",
-      "last_side": "ASK",
-      "last_price": "$3.75",
-      "last_premium": "$75K",
+      "last": "2026/10/20 13:06:45",
+      "last_side": "-",
+      "last_price": "$3.60",
+      "last_premium": "$36K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -2963,7 +2966,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 2,
+      "latest_session_alert_count": 5,
       "retired_at": "2026/10/15 09:36:59",
       "retired_spot": 770.239990234375,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -3004,12 +3007,12 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 9,
       "first": "2026/10/15 10:20:43",
-      "last": "2026/10/20 09:53:46",
+      "last": "2026/10/21 07:46:33",
       "last_side": "ASK",
-      "last_price": "$2.15",
-      "last_premium": "$39K",
+      "last_price": "$2.24",
+      "last_premium": "$34K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -3023,7 +3026,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 2,
+      "latest_session_alert_count": 8,
       "retired_at": "2026/10/15 10:38:59",
       "retired_spot": 771.1199951171875,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -3034,7 +3037,7 @@
       "strike": 774,
       "type": "call",
       "expiry": "10/23/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/15 10:44:01",
       "last": "2026/10/15 10:44:01",
@@ -3202,12 +3205,12 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 6,
+      "alerts": 10,
       "first": "2026/10/15 11:59:12",
-      "last": "2026/10/20 10:56:52",
-      "last_side": "-",
-      "last_price": "$2.67",
-      "last_premium": "$30K",
+      "last": "2026/10/21 07:45:52",
+      "last_side": "ASK",
+      "last_price": "$1.95",
+      "last_premium": "$158K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -3217,7 +3220,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 4,
+      "latest_session_alert_count": 8,
       "retired_at": "2026/10/16 08:22:00",
       "retired_spot": 768.7000122070312,
       "retired_reason": "Observed in the money after verified OTM comeback",
@@ -3258,12 +3261,12 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 3,
+      "alerts": 7,
       "first": "2026/10/15 12:24:05",
-      "last": "2026/10/16 07:18:12",
+      "last": "2026/10/21 07:45:47",
       "last_side": "ASK",
-      "last_price": "$3.30",
-      "last_premium": "$99K",
+      "last_price": "$2.35",
+      "last_premium": "$35K",
       "alerts_in_latest_capture": 1,
       "classification_audit": [
         {
@@ -3273,6 +3276,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 4,
       "retired_at": "2026/10/16 08:08:00",
       "retired_spot": 769.8800048828125,
       "retired_reason": "Observed in the money after verified OTM comeback",
@@ -3374,7 +3378,7 @@
       "strike": 775,
       "type": "call",
       "expiry": "10/20/2026",
-      "status": "Approaching",
+      "status": "Expired",
       "alerts": 6,
       "first": "2026/10/15 12:35:03",
       "last": "2026/10/16 07:55:04",
@@ -3431,12 +3435,12 @@
       "type": "call",
       "expiry": "10/23/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 4,
       "first": "2026/10/15 12:56:36",
-      "last": "2026/10/20 11:14:52",
+      "last": "2026/10/21 07:38:54",
       "last_side": "ASK",
-      "last_price": "$2.69",
-      "last_premium": "$134K",
+      "last_price": "$2.32",
+      "last_premium": "$30K",
       "alerts_in_latest_capture": 2,
       "classification_audit": [
         {
@@ -3446,7 +3450,7 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 1,
+      "latest_session_alert_count": 2,
       "retired_at": "2026/10/15 12:57:59",
       "retired_spot": 772.1099853515625,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -3589,7 +3593,7 @@
       "strike": 760,
       "type": "put",
       "expiry": "10/20/2026",
-      "status": "Watching",
+      "status": "Expired",
       "alerts": 4,
       "first": "2026/10/16 10:26:03",
       "last": "2026/10/16 12:36:51",
@@ -4103,13 +4107,14 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 3,
       "first": "2026/10/16 09:50:01",
-      "last": "2026/10/16 09:53:54",
-      "last_premium": "$59K",
-      "last_price": "$4.21",
+      "last": "2026/10/20 12:42:27",
+      "last_premium": "$19K",
+      "last_price": "$1.91",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 1,
       "retired_at": "2026/10/16 10:04:32",
       "retired_spot": 764.83,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -4121,13 +4126,14 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 5,
       "first": "2026/10/16 09:01:55",
-      "last": "2026/10/16 09:52:35",
-      "last_premium": "$60K",
-      "last_price": "$4.59",
-      "last_side": "-",
+      "last": "2026/10/21 07:12:03",
+      "last_premium": "$19K",
+      "last_price": "$1.78",
+      "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
+      "latest_session_alert_count": 3,
       "retired_at": "2026/10/16 09:50:59",
       "retired_spot": 765.9000244140625,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -4245,14 +4251,14 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 14,
+      "alerts": 24,
       "first": "2026/10/16 08:38:59",
-      "last": "2026/10/20 10:57:32",
-      "last_premium": "$28K",
-      "last_price": "$2.84",
+      "last": "2026/10/21 07:28:17",
+      "last_premium": "$61K",
+      "last_price": "$2.48",
       "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 12,
+      "latest_session_alert_count": 22,
       "retired_at": "2026/10/19 08:27:26",
       "retired_spot": 770.01,
       "retired_reason": "Observed in the money after verified OTM comeback",
@@ -4267,14 +4273,14 @@
       "type": "call",
       "expiry": "10/22/2026",
       "status": "Current Prestige",
-      "alerts": 2,
+      "alerts": 7,
       "first": "2026/10/16 08:33:10",
-      "last": "2026/10/20 08:59:49",
-      "last_premium": "$23K",
-      "last_price": "$2.28",
+      "last": "2026/10/21 07:48:27",
+      "last_premium": "$59K",
+      "last_price": "$1.94",
       "last_side": "-",
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 1,
+      "latest_session_alert_count": 6,
       "retired_at": "2026/10/20 07:30:36",
       "retired_spot": 772.09,
       "retired_reason": "Observed in the money after verified OTM comeback",
@@ -4324,7 +4330,7 @@
       "strike": 774,
       "type": "call",
       "expiry": "10/26/2026",
-      "status": "Approaching",
+      "status": "Current Prestige",
       "alerts": 1,
       "first": "2026/10/16 08:05:52",
       "last": "2026/10/16 08:05:52",
@@ -4343,14 +4349,14 @@
       "type": "put",
       "expiry": "10/22/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 4,
       "first": "2026/10/16 06:54:31",
-      "last": "2026/10/20 07:52:04",
-      "last_premium": "$62K",
-      "last_price": "$3.10",
-      "last_side": "-",
+      "last": "2026/10/21 06:49:57",
+      "last_premium": "$71K",
+      "last_price": "$2.45",
+      "last_side": "ASK",
       "classification_version": "otm-sequence-v2",
-      "latest_session_alert_count": 1,
+      "latest_session_alert_count": 2,
       "retired_at": "2026/10/16 07:07:00",
       "retired_spot": 770.9201049804688,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
@@ -4434,14 +4440,14 @@
       "type": "call",
       "strike": 771,
       "expiry": "10/23/2026",
-      "status": "On Deck",
-      "alerts": 5,
+      "status": "Current Prestige",
+      "alerts": 7,
       "first": "2026/10/20 08:12:30",
-      "last": "2026/10/20 10:54:59",
+      "last": "2026/10/20 13:13:59",
       "last_side": "ASK",
-      "last_premium": "$100K",
-      "last_price": "$3.36",
-      "latest_session_alert_count": 5,
+      "last_premium": "$63K",
+      "last_price": "$3.24",
+      "latest_session_alert_count": 7,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4450,7 +4456,13 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/20 08:12:30"
+      "retired_at": "2026/10/20 13:51:59",
+      "retired_spot": 771.01,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/20 08:12:30",
+      "away": "2026/10/20 13:00:59",
+      "returned": "2026/10/20 13:01:51",
+      "prestige_at": "2026/10/20 13:01:51"
     },
     {
       "contract": "767p 10/21/2026",
@@ -4473,6 +4485,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/20 13:00:59",
+      "retired_spot": 766.4939,
+      "retired_reason": "Observed in the money after verified OTM comeback",
       "initial_near_at": "2026/10/20 07:00:19",
       "away": "2026/10/20 07:27:59",
       "returned": "2026/10/20 08:10:31",
@@ -4483,7 +4498,7 @@
       "type": "put",
       "strike": 766,
       "expiry": "10/23/2026",
-      "status": "Current Prestige",
+      "status": "Watching",
       "alerts": 3,
       "first": "2026/10/20 10:01:15",
       "last": "2026/10/20 10:49:45",
@@ -4509,14 +4524,14 @@
       "type": "put",
       "strike": 766,
       "expiry": "10/26/2026",
-      "status": "Current Prestige",
-      "alerts": 12,
+      "status": "Watching",
+      "alerts": 17,
       "first": "2026/10/20 07:07:08",
-      "last": "2026/10/20 11:17:19",
+      "last": "2026/10/20 13:11:39",
       "last_side": "ASK",
-      "last_premium": "$108K",
-      "last_price": "$2.86",
-      "latest_session_alert_count": 12,
+      "last_premium": "$115K",
+      "last_price": "$2.88",
+      "latest_session_alert_count": 17,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4535,14 +4550,14 @@
       "type": "put",
       "strike": 768,
       "expiry": "10/22/2026",
-      "status": "On Deck",
-      "alerts": 3,
+      "status": "Watching",
+      "alerts": 11,
       "first": "2026/10/20 09:03:52",
-      "last": "2026/10/20 10:11:13",
+      "last": "2026/10/21 07:47:58",
       "last_side": "ASK",
-      "last_premium": "$116K",
-      "last_price": "$2.91",
-      "latest_session_alert_count": 3,
+      "last_premium": "$15K",
+      "last_price": "$1.48",
+      "latest_session_alert_count": 11,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4551,6 +4566,9 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/20 12:21:59",
+      "retired_spot": 767.97998046875,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
       "initial_near_at": "2026/10/20 09:03:52"
     },
     {
@@ -4559,13 +4577,13 @@
       "strike": 769,
       "expiry": "10/26/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 4,
       "first": "2026/10/20 09:23:07",
-      "last": "2026/10/20 10:00:13",
+      "last": "2026/10/20 12:46:13",
       "last_side": "ASK",
-      "last_premium": "$95K",
-      "last_price": "$4.77",
-      "latest_session_alert_count": 2,
+      "last_premium": "$182K",
+      "last_price": "$4.55",
+      "latest_session_alert_count": 4,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4584,14 +4602,14 @@
       "type": "call",
       "strike": 772,
       "expiry": "10/28/2026",
-      "status": "On Deck",
-      "alerts": 1,
+      "status": "Current Prestige",
+      "alerts": 2,
       "first": "2026/10/20 09:38:10",
-      "last": "2026/10/20 09:38:10",
+      "last": "2026/10/20 13:00:05",
       "last_side": "ASK",
-      "last_premium": "$155K",
-      "last_price": "$5.15",
-      "latest_session_alert_count": 1,
+      "last_premium": "$114K",
+      "last_price": "$4.57",
+      "latest_session_alert_count": 2,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4600,7 +4618,13 @@
         }
       ],
       "classification_version": "otm-sequence-v2",
-      "initial_near_at": "2026/10/20 09:38:10"
+      "retired_at": "2026/10/20 15:00:59",
+      "retired_spot": 772.12,
+      "retired_reason": "Observed in the money after verified OTM comeback",
+      "initial_near_at": "2026/10/20 09:38:10",
+      "away": "2026/10/20 11:42:59",
+      "returned": "2026/10/20 11:43:59",
+      "prestige_at": "2026/10/20 11:43:59"
     },
     {
       "contract": "769c 10/21/2026",
@@ -4634,13 +4658,13 @@
       "strike": 770,
       "expiry": "10/26/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 2,
       "first": "2026/10/20 08:18:37",
-      "last": "2026/10/20 08:18:37",
+      "last": "2026/10/20 12:45:12",
       "last_side": "ASK",
-      "last_premium": "$102K",
-      "last_price": "$5.01",
-      "latest_session_alert_count": 1,
+      "last_premium": "$68K",
+      "last_price": "$3.98",
+      "latest_session_alert_count": 2,
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -4887,10 +4911,155 @@
       "retired_spot": 766.0900268554688,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
       "initial_near_at": "2026/10/20 06:33:43"
+    },
+    {
+      "contract": "774c 10/22/2026",
+      "type": "call",
+      "strike": 774.0,
+      "expiry": "10/22/2026",
+      "status": "On Deck",
+      "alerts": 3,
+      "first": "2026/10/21 07:44:28",
+      "last": "2026/10/21 07:47:52",
+      "last_side": "ASK",
+      "last_premium": "$12K",
+      "last_price": "$1.14",
+      "latest_session_alert_count": 3,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/21 07:44:28"
+    },
+    {
+      "contract": "768p 10/26/2026",
+      "type": "put",
+      "strike": 768.0,
+      "expiry": "10/26/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/21 07:47:30",
+      "last": "2026/10/21 07:47:30",
+      "last_side": "ASK",
+      "last_premium": "$58K",
+      "last_price": "$2.88",
+      "latest_session_alert_count": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/21 07:47:30"
+    },
+    {
+      "contract": "767p 10/27/2026",
+      "type": "put",
+      "strike": 767.0,
+      "expiry": "10/27/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/21 07:39:21",
+      "last": "2026/10/21 07:39:21",
+      "last_side": "ASK",
+      "last_premium": "$170K",
+      "last_price": "$3.40",
+      "latest_session_alert_count": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/21 07:39:21",
+      "away": "2026/10/21 07:48:59"
+    },
+    {
+      "contract": "768p 11/02/2026",
+      "type": "put",
+      "strike": 768.0,
+      "expiry": "11/02/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/21 07:21:57",
+      "last": "2026/10/21 07:21:57",
+      "last_side": "ASK",
+      "last_premium": "$66K",
+      "last_price": "$6.60",
+      "latest_session_alert_count": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/21 07:21:57"
+    },
+    {
+      "contract": "769p 10/30/2026",
+      "type": "put",
+      "strike": 769.0,
+      "expiry": "10/30/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 13:01:51",
+      "last": "2026/10/20 13:01:51",
+      "last_side": "ASK",
+      "last_premium": "$130K",
+      "last_price": "$6.49",
+      "latest_session_alert_count": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/20 13:17:59",
+      "retired_spot": 768.679,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/20 13:01:51"
+    },
+    {
+      "contract": "768p 10/30/2026",
+      "type": "put",
+      "strike": 768.0,
+      "expiry": "10/30/2026",
+      "status": "Watching",
+      "alerts": 2,
+      "first": "2026/10/20 11:45:01",
+      "last": "2026/10/20 11:45:01",
+      "last_side": "ASK",
+      "last_premium": "$326K",
+      "last_price": "$6.52",
+      "latest_session_alert_count": 1,
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/20 12:21:59",
+      "retired_spot": 767.97998046875,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/20 11:45:01"
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-20T18:44:13.642855+00:00",
+  "checked_at": "2026-10-21T14:53:14.328367+00:00",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -10592,6 +10761,11 @@
     },
     {
       "time": "2026/10/15 01:24:59",
+      "spot": 766.94,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 01:24:59",
       "spot": 766.99,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -11057,6 +11231,11 @@
     },
     {
       "time": "2026/10/15 03:11:59",
+      "spot": 767.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 03:11:59",
       "spot": 767.4501,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -11178,6 +11357,11 @@
     {
       "time": "2026/10/15 03:43:59",
       "spot": 767.04,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 03:44:59",
+      "spot": 767.06,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -11392,6 +11576,11 @@
     },
     {
       "time": "2026/10/15 04:29:59",
+      "spot": 767.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 04:29:59",
       "spot": 767.66,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -11438,6 +11627,11 @@
     {
       "time": "2026/10/15 04:38:59",
       "spot": 768.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 04:38:59",
+      "spot": 768.13,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -11547,6 +11741,11 @@
     },
     {
       "time": "2026/10/15 05:00:59",
+      "spot": 767.07,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 05:00:59",
       "spot": 767.08,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -11588,6 +11787,11 @@
     {
       "time": "2026/10/15 05:08:59",
       "spot": 767.29,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 05:08:59",
+      "spot": 767.328,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -11911,6 +12115,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/15 06:12:59",
+      "spot": 767.08,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/15 06:13:59",
       "spot": 767.13,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -11953,6 +12162,11 @@
     {
       "time": "2026/10/15 06:36:59",
       "spot": 766.3300170898438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 06:36:59",
+      "spot": 766.3599853515625,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -13478,6 +13692,11 @@
     },
     {
       "time": "2026/10/15 10:54:59",
+      "spot": 771.260009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 10:54:59",
       "spot": 771.27001953125,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -13642,6 +13861,11 @@
     {
       "time": "2026/10/15 11:21:59",
       "spot": 769.4299926757812,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 11:22:59",
+      "spot": 769.5449829101562,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -14191,6 +14415,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/15 12:51:59",
+      "spot": 771.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/15 12:52:48",
       "spot": 771.64
     },
@@ -14468,6 +14697,11 @@
     },
     {
       "time": "2026/10/15 13:40:59",
+      "spot": 771.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 13:40:59",
       "spot": 771.72,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -14499,6 +14733,11 @@
     {
       "time": "2026/10/15 13:46:59",
       "spot": 771.6666,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 13:47:59",
+      "spot": 771.64,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -15057,6 +15296,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/15 15:48:59",
+      "spot": 771.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/15 15:49:59",
       "spot": 771.5,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -15064,6 +15308,11 @@
     {
       "time": "2026/10/15 15:50:59",
       "spot": 771.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 15:53:59",
+      "spot": 771.4519,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -15339,6 +15588,11 @@
     {
       "time": "2026/10/15 16:57:59",
       "spot": 770.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/15 16:58:59",
+      "spot": 770.32,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -15943,6 +16197,11 @@
     },
     {
       "time": "2026/10/16 03:18:59",
+      "spot": 773.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 03:18:59",
       "spot": 773.23,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -16227,6 +16486,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/16 04:24:59",
+      "spot": 773.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/16 04:25:59",
       "spot": 773.09,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -16239,6 +16503,11 @@
     {
       "time": "2026/10/16 04:27:59",
       "spot": 772.98,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 04:28:59",
+      "spot": 773.0,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -16534,6 +16803,11 @@
     {
       "time": "2026/10/16 05:32:59",
       "spot": 773.23,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 05:32:59",
+      "spot": 773.24,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -17024,6 +17298,11 @@
     {
       "time": "2026/10/16 06:56:59",
       "spot": 771.1099853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 06:56:59",
+      "spot": 771.1199951171875,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -18488,6 +18767,11 @@
     },
     {
       "time": "2026/10/16 09:02:59",
+      "spot": 766.739990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 09:02:59",
       "spot": 766.75,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -18504,6 +18788,11 @@
     {
       "time": "2026/10/16 09:03:59",
       "spot": 766.9500122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/16 09:03:59",
+      "spot": 766.9550170898438,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -19478,8 +19767,7 @@
     {
       "time": "2026/10/16 11:20:59",
       "spot": 762.1699829101562,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "regular"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/16 11:21:59",
@@ -19629,8 +19917,7 @@
     {
       "time": "2026/10/16 11:41:59",
       "spot": 762.239990234375,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "regular"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/16 11:42:26",
@@ -20115,8 +20402,7 @@
     {
       "time": "2026/10/16 13:00:59",
       "spot": 763.25,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "after-hours"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/16 13:01:35",
@@ -20286,8 +20572,7 @@
     {
       "time": "2026/10/16 13:31:59",
       "spot": 763.3,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "after-hours"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/16 13:31:59",
@@ -21512,8 +21797,7 @@
     {
       "time": "2026/10/19 01:37:59",
       "spot": 768.01,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "premarket"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/19 01:38:59",
@@ -21708,8 +21992,7 @@
     {
       "time": "2026/10/19 02:18:59",
       "spot": 767.23,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "premarket"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/19 02:19:59",
@@ -21819,8 +22102,7 @@
     {
       "time": "2026/10/19 02:44:59",
       "spot": 767.4,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "premarket"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/19 02:45:59",
@@ -22275,8 +22557,7 @@
     {
       "time": "2026/10/19 04:22:59",
       "spot": 767.14,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "premarket"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/19 04:22:59",
@@ -22506,8 +22787,7 @@
     {
       "time": "2026/10/19 05:06:59",
       "spot": 766.79,
-      "source": "Yahoo Finance SPY 1m",
-      "session": "premarket"
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/19 05:07:59",
@@ -22958,6 +23238,11 @@
     },
     {
       "time": "2026/10/19 06:32:59",
+      "spot": 767.72998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 06:32:59",
       "spot": 767.739990234375,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -23322,6 +23607,11 @@
     },
     {
       "time": "2026/10/19 07:34:59",
+      "spot": 767.2100219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 07:34:59",
       "spot": 767.2399291992188,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -23638,6 +23928,11 @@
     {
       "time": "2026/10/19 08:32:59",
       "spot": 769.47998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 08:33:59",
+      "spot": 769.8400268554688,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -24561,6 +24856,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/19 11:35:59",
+      "spot": 766.9100952148438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/19 11:36:59",
       "spot": 767.22998046875,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -24890,6 +25190,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/19 12:40:59",
+      "spot": 768.2000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/19 12:41:59",
       "spot": 768.27001953125,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -24902,6 +25207,11 @@
     {
       "time": "2026/10/19 12:43:59",
       "spot": 768.1199951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 12:44:59",
+      "spot": 768.0900268554688,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -24951,7 +25261,17 @@
     },
     {
       "time": "2026/10/19 12:53:59",
+      "spot": 766.9099731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 12:53:59",
       "spot": 766.9149780273438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 12:54:59",
+      "spot": 767.0499877929688,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -25312,6 +25632,11 @@
     {
       "time": "2026/10/19 14:08:59",
       "spot": 766.996,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 14:09:59",
+      "spot": 766.95,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -25931,6 +26256,11 @@
     },
     {
       "time": "2026/10/19 16:49:59",
+      "spot": 767.38,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/19 16:49:59",
       "spot": 767.39,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -26160,6 +26490,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/20 01:41:59",
+      "spot": 767.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/20 01:42:59",
       "spot": 767.07,
       "source": "Yahoo SPY 1-minute close including extended hours"
@@ -26256,6 +26591,11 @@
     },
     {
       "time": "2026/10/20 02:02:59",
+      "spot": 766.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 02:02:59",
       "spot": 766.06,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -26337,6 +26677,11 @@
     {
       "time": "2026/10/20 02:18:59",
       "spot": 765.69,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 02:19:59",
+      "spot": 765.99,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -26642,6 +26987,11 @@
     {
       "time": "2026/10/20 03:33:59",
       "spot": 766.06,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 03:33:59",
+      "spot": 766.07,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -26997,6 +27347,11 @@
     {
       "time": "2026/10/20 04:50:59",
       "spot": 764.81,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 04:51:59",
+      "spot": 764.74,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -27396,6 +27751,11 @@
     },
     {
       "time": "2026/10/20 06:10:59",
+      "spot": 765.88,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 06:10:59",
       "spot": 765.89,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -27507,6 +27867,11 @@
     {
       "time": "2026/10/20 06:42:59",
       "spot": 764.448974609375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 06:42:59",
+      "spot": 764.4500122070312,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
@@ -29666,6 +30031,11 @@
     },
     {
       "time": "2026/10/20 10:14:59",
+      "spot": 768.760009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 10:14:59",
       "spot": 768.77001953125,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -30285,6 +30655,11 @@
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/20 11:29:59",
+      "spot": 769.239990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
       "time": "2026/10/20 11:30:27",
       "spot": 769.2,
       "source": "UW rendered alert underlying price"
@@ -30311,6 +30686,11 @@
     },
     {
       "time": "2026/10/20 11:32:59",
+      "spot": 768.9500122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:32:59",
       "spot": 768.97998046875,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
@@ -30318,6 +30698,11 @@
       "time": "2026/10/20 11:33:06",
       "spot": 769.0,
       "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:33:59",
+      "spot": 768.8300170898438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/20 11:33:59",
@@ -30386,18 +30771,3792 @@
     },
     {
       "time": "2026/10/20 11:39:59",
+      "spot": 768.6900024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:39:59",
       "spot": 768.7000122070312,
       "source": "Yahoo SPY 1-minute close including extended hours"
     },
     {
       "time": "2026/10/20 11:40:59",
+      "spot": 768.760009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:40:59",
       "spot": 768.77001953125
+    },
+    {
+      "time": "2026/10/20 11:41:59",
+      "spot": 768.7000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:42:47",
+      "spot": 768.51,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:42:50",
+      "spot": 768.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:42:59",
+      "spot": 768.1400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:43:59",
+      "spot": 768.260009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:44:59",
+      "spot": 768.1400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:45:01",
+      "spot": 768.24,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:45:19",
+      "spot": 768.2,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:45:59",
+      "spot": 768.510009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:46:10",
+      "spot": 768.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:46:59",
+      "spot": 768.7000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:47:59",
+      "spot": 768.8599853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:48:59",
+      "spot": 768.7000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:49:59",
+      "spot": 768.7100219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:50:33",
+      "spot": 768.66,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:50:59",
+      "spot": 768.6500244140625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:51:59",
+      "spot": 768.7150268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:52:59",
+      "spot": 768.760009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:53:23",
+      "spot": 768.77,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 11:53:59",
+      "spot": 768.8400268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:54:59",
+      "spot": 769.0499877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:55:59",
+      "spot": 769.1099853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:56:59",
+      "spot": 769.0050048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:57:59",
+      "spot": 768.9199829101562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:58:59",
+      "spot": 768.9400024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 11:59:59",
+      "spot": 768.7919921875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:00:59",
+      "spot": 769.010009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:01:59",
+      "spot": 768.9099731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:02:59",
+      "spot": 768.9500122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:03:59",
+      "spot": 768.9000244140625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:04:59",
+      "spot": 768.8200073242188,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:05:26",
+      "spot": 768.95,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:05:59",
+      "spot": 769.0,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:06:59",
+      "spot": 769.010009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:07:59",
+      "spot": 769.02001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:08:59",
+      "spot": 768.85498046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:09:59",
+      "spot": 768.8099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:10:59",
+      "spot": 768.780029296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:11:59",
+      "spot": 768.8400268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:12:59",
+      "spot": 768.739990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:13:59",
+      "spot": 768.6900024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:14:59",
+      "spot": 768.5599975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:15:59",
+      "spot": 768.58251953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:16:59",
+      "spot": 768.6099853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:17:59",
+      "spot": 768.625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:18:59",
+      "spot": 768.530029296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:19:59",
+      "spot": 768.5399780273438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:20:59",
+      "spot": 768.3099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:21:53",
+      "spot": 768.15,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:21:59",
+      "spot": 767.97998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:22:59",
+      "spot": 768.0650024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:23:59",
+      "spot": 767.97998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:24:59",
+      "spot": 768.02001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:25:59",
+      "spot": 768.22998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:26:59",
+      "spot": 768.3699951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:27:59",
+      "spot": 768.0653076171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:28:59",
+      "spot": 768.22998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:29:59",
+      "spot": 768.1300048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:30:59",
+      "spot": 768.1599731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:31:59",
+      "spot": 768.5499877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:32:04",
+      "spot": 768.54,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:32:50",
+      "spot": 768.43,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:32:59",
+      "spot": 768.4025268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:33:59",
+      "spot": 768.510009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:34:59",
+      "spot": 768.510009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:35:59",
+      "spot": 768.467529296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:36:59",
+      "spot": 768.0,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:37:59",
+      "spot": 768.0499877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:38:59",
+      "spot": 767.8599853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:39:59",
+      "spot": 768.010009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:40:59",
+      "spot": 768.1900024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:41:34",
+      "spot": 768.25,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:41:59",
+      "spot": 768.280029296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:42:27",
+      "spot": 768.21,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:42:59",
+      "spot": 768.1799926757812,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:43:59",
+      "spot": 768.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:44:28",
+      "spot": 768.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:44:59",
+      "spot": 768.4600219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:45:12",
+      "spot": 768.51,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:45:59",
+      "spot": 768.4600219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:46:13",
+      "spot": 768.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:46:59",
+      "spot": 768.6500244140625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:47:31",
+      "spot": 768.67,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:47:35",
+      "spot": 768.62,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:47:59",
+      "spot": 768.469970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:48:59",
+      "spot": 768.4500122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:49:59",
+      "spot": 768.5599975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:50:37",
+      "spot": 768.25,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:50:59",
+      "spot": 768.3099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:51:59",
+      "spot": 768.6199951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:52:59",
+      "spot": 768.5999755859375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:53:59",
+      "spot": 768.4500122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:54:38",
+      "spot": 768.51,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:54:59",
+      "spot": 768.6199951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:55:59",
+      "spot": 768.3900146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:56:59",
+      "spot": 768.5700073242188,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:57:22",
+      "spot": 768.62,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 12:57:59",
+      "spot": 768.5800170898438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:58:59",
+      "spot": 768.489990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 12:59:59",
+      "spot": 769.010009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:00:05",
+      "spot": 768.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:00:53",
+      "spot": 769.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:00:59",
+      "spot": 766.4939,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:01:51",
+      "spot": 769.18,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:01:59",
+      "spot": 769.2,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:02:59",
+      "spot": 769.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:03:59",
+      "spot": 769.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:04:51",
+      "spot": 769.36,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:04:59",
+      "spot": 769.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:05:49",
+      "spot": 769.2,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:05:59",
+      "spot": 769.26,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:06:45",
+      "spot": 769.27,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:06:59",
+      "spot": 769.4338,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:07:59",
+      "spot": 769.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:08:59",
+      "spot": 769.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:09:59",
+      "spot": 769.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:10:59",
+      "spot": 769.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:11:39",
+      "spot": 769.65,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:11:59",
+      "spot": 769.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:12:59",
+      "spot": 769.56,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:13:59",
+      "spot": 769.66,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/20 13:13:59",
+      "spot": 769.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:14:59",
+      "spot": 769.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:15:59",
+      "spot": 769.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:16:59",
+      "spot": 769.76,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:17:59",
+      "spot": 768.679,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:18:59",
+      "spot": 769.6328,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:19:59",
+      "spot": 769.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:20:59",
+      "spot": 769.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:21:59",
+      "spot": 769.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:22:59",
+      "spot": 769.4825,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:23:59",
+      "spot": 769.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:24:59",
+      "spot": 769.52,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:25:59",
+      "spot": 769.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:26:59",
+      "spot": 769.46,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:27:59",
+      "spot": 769.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:28:59",
+      "spot": 769.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:29:59",
+      "spot": 769.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:30:59",
+      "spot": 769.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:31:59",
+      "spot": 770.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:32:59",
+      "spot": 770.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:33:59",
+      "spot": 770.0856,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:34:59",
+      "spot": 770.31,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:35:59",
+      "spot": 770.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:36:59",
+      "spot": 770.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:37:59",
+      "spot": 770.4401,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:38:59",
+      "spot": 770.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:39:59",
+      "spot": 770.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:40:59",
+      "spot": 770.36,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:41:59",
+      "spot": 770.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:42:59",
+      "spot": 769.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:43:59",
+      "spot": 770.27,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:44:59",
+      "spot": 770.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:45:59",
+      "spot": 770.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:46:59",
+      "spot": 770.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:47:59",
+      "spot": 770.6169,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:48:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:49:59",
+      "spot": 770.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:50:59",
+      "spot": 770.98,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:51:59",
+      "spot": 771.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:52:59",
+      "spot": 770.9,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:53:59",
+      "spot": 771.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:54:59",
+      "spot": 771.09,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:55:59",
+      "spot": 771.0731,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:56:59",
+      "spot": 771.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:57:59",
+      "spot": 771.55,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:58:59",
+      "spot": 771.55,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 13:59:59",
+      "spot": 771.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:00:59",
+      "spot": 771.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:01:59",
+      "spot": 771.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:02:59",
+      "spot": 771.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:03:59",
+      "spot": 771.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:04:59",
+      "spot": 771.35,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:05:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:06:59",
+      "spot": 771.35,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:07:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:08:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:09:59",
+      "spot": 771.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:10:59",
+      "spot": 771.38,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:11:59",
+      "spot": 771.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:12:59",
+      "spot": 771.1662,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:13:59",
+      "spot": 771.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:14:59",
+      "spot": 771.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:15:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:16:59",
+      "spot": 771.31,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:17:59",
+      "spot": 771.35,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:18:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:20:59",
+      "spot": 771.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:22:59",
+      "spot": 771.32,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:23:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:24:59",
+      "spot": 771.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:25:59",
+      "spot": 771.31,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:26:59",
+      "spot": 771.31,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:27:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:28:59",
+      "spot": 771.2,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:29:59",
+      "spot": 771.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:30:59",
+      "spot": 771.32,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:31:59",
+      "spot": 771.5549,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:32:59",
+      "spot": 771.508,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:33:59",
+      "spot": 771.5006,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:34:59",
+      "spot": 771.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:35:59",
+      "spot": 771.36,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:36:59",
+      "spot": 771.4664,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:37:59",
+      "spot": 771.37,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:38:59",
+      "spot": 771.3112,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:39:59",
+      "spot": 771.3266,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:40:59",
+      "spot": 771.3266,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:41:59",
+      "spot": 771.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:42:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:43:59",
+      "spot": 771.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:45:59",
+      "spot": 771.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:46:59",
+      "spot": 771.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:47:59",
+      "spot": 771.4565,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:48:59",
+      "spot": 771.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:49:59",
+      "spot": 771.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:51:59",
+      "spot": 771.5485,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:52:59",
+      "spot": 771.53,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:53:59",
+      "spot": 771.66,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:54:59",
+      "spot": 771.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:55:59",
+      "spot": 771.6666,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:56:59",
+      "spot": 771.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:57:59",
+      "spot": 771.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:58:59",
+      "spot": 771.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 14:59:59",
+      "spot": 771.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:00:59",
+      "spot": 772.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:01:59",
+      "spot": 772.32,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:02:59",
+      "spot": 772.08,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:03:59",
+      "spot": 772.06,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:04:59",
+      "spot": 772.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:05:59",
+      "spot": 771.94,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:06:59",
+      "spot": 771.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:07:59",
+      "spot": 771.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:08:59",
+      "spot": 771.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:09:59",
+      "spot": 771.6338,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:10:59",
+      "spot": 771.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:11:59",
+      "spot": 771.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:12:59",
+      "spot": 771.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:13:59",
+      "spot": 771.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:14:59",
+      "spot": 771.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:15:59",
+      "spot": 771.46,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:16:59",
+      "spot": 771.44,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:17:59",
+      "spot": 771.44,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:18:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:19:59",
+      "spot": 771.34,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:20:59",
+      "spot": 771.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:21:59",
+      "spot": 771.4,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:22:59",
+      "spot": 771.34,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:23:59",
+      "spot": 771.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:24:59",
+      "spot": 771.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:25:59",
+      "spot": 771.599,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:26:59",
+      "spot": 771.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:27:59",
+      "spot": 771.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:28:59",
+      "spot": 771.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:29:59",
+      "spot": 771.44,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:30:59",
+      "spot": 771.55,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:31:59",
+      "spot": 771.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:32:59",
+      "spot": 771.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:33:59",
+      "spot": 771.34,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:34:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:35:59",
+      "spot": 771.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:36:59",
+      "spot": 771.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:37:59",
+      "spot": 771.2,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:38:59",
+      "spot": 771.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:39:59",
+      "spot": 771.29,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:40:59",
+      "spot": 771.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:41:59",
+      "spot": 771.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:42:59",
+      "spot": 770.93,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:43:59",
+      "spot": 770.86,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:44:59",
+      "spot": 770.88,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:45:59",
+      "spot": 770.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:46:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:47:59",
+      "spot": 770.869,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:48:59",
+      "spot": 770.92,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:49:59",
+      "spot": 770.8214,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:50:59",
+      "spot": 770.91,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:51:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:52:59",
+      "spot": 770.8598,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:53:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:54:59",
+      "spot": 770.81,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:56:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:57:59",
+      "spot": 770.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:58:59",
+      "spot": 770.806,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 15:59:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:00:59",
+      "spot": 770.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:01:59",
+      "spot": 770.7899,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:02:59",
+      "spot": 770.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:03:59",
+      "spot": 770.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:04:59",
+      "spot": 770.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:05:59",
+      "spot": 770.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:06:59",
+      "spot": 770.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:07:59",
+      "spot": 770.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:08:59",
+      "spot": 770.6381,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:09:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:10:59",
+      "spot": 770.72,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:11:59",
+      "spot": 770.79,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:12:59",
+      "spot": 770.805,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:13:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:14:59",
+      "spot": 770.7262,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:15:59",
+      "spot": 770.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:16:59",
+      "spot": 770.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:17:59",
+      "spot": 770.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:18:59",
+      "spot": 770.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:19:59",
+      "spot": 770.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:21:59",
+      "spot": 770.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:22:59",
+      "spot": 770.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:23:59",
+      "spot": 770.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:24:59",
+      "spot": 770.499,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:25:59",
+      "spot": 770.5792,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:26:59",
+      "spot": 770.56,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:28:59",
+      "spot": 770.52,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:29:59",
+      "spot": 770.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:30:59",
+      "spot": 770.529,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:32:59",
+      "spot": 770.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:34:59",
+      "spot": 770.5718,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:35:59",
+      "spot": 770.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:36:59",
+      "spot": 770.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:37:59",
+      "spot": 770.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:38:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:39:59",
+      "spot": 770.52,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:40:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:41:59",
+      "spot": 770.6699,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:42:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:44:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:45:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:46:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:47:59",
+      "spot": 770.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:48:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:49:59",
+      "spot": 770.76,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:50:59",
+      "spot": 770.7957,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:51:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:52:59",
+      "spot": 770.87,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:53:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:54:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:55:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:57:59",
+      "spot": 770.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:58:59",
+      "spot": 770.732,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/20 16:59:59",
+      "spot": 770.73,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:00:59",
+      "spot": 770.18,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:01:59",
+      "spot": 770.69,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:02:59",
+      "spot": 770.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:03:59",
+      "spot": 770.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:04:59",
+      "spot": 770.79,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:05:59",
+      "spot": 770.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:06:59",
+      "spot": 770.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:07:59",
+      "spot": 770.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:08:59",
+      "spot": 770.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:09:59",
+      "spot": 770.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:10:59",
+      "spot": 770.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:11:59",
+      "spot": 770.425,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:12:59",
+      "spot": 770.42,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:13:59",
+      "spot": 770.66,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:14:59",
+      "spot": 770.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:15:59",
+      "spot": 770.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:16:59",
+      "spot": 770.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:17:59",
+      "spot": 770.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:18:59",
+      "spot": 770.06,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:19:59",
+      "spot": 770.26,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:20:59",
+      "spot": 770.45,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:21:59",
+      "spot": 770.51,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:22:59",
+      "spot": 770.51,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:23:59",
+      "spot": 770.51,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:24:59",
+      "spot": 770.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:26:59",
+      "spot": 770.68,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:27:59",
+      "spot": 770.66,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:29:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:30:59",
+      "spot": 770.46,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:31:59",
+      "spot": 770.48,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:32:59",
+      "spot": 770.24,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:33:59",
+      "spot": 770.11,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:34:59",
+      "spot": 769.97,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:35:59",
+      "spot": 770.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:36:59",
+      "spot": 770.0,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:37:59",
+      "spot": 769.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:38:59",
+      "spot": 769.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:39:59",
+      "spot": 769.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:40:59",
+      "spot": 769.7839,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:41:59",
+      "spot": 769.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:43:59",
+      "spot": 769.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:47:59",
+      "spot": 769.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:48:59",
+      "spot": 769.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:50:59",
+      "spot": 769.79,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:51:59",
+      "spot": 769.56,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:52:59",
+      "spot": 769.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:53:59",
+      "spot": 769.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:54:59",
+      "spot": 769.4216,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:55:59",
+      "spot": 769.24,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:56:59",
+      "spot": 769.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:57:59",
+      "spot": 769.17,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 01:59:59",
+      "spot": 769.18,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:01:59",
+      "spot": 769.11,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:02:59",
+      "spot": 769.2,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:03:59",
+      "spot": 769.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:04:59",
+      "spot": 769.34,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:05:59",
+      "spot": 769.35,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:08:59",
+      "spot": 769.34,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:09:59",
+      "spot": 769.4417,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:10:59",
+      "spot": 769.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:11:59",
+      "spot": 769.3929,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:12:59",
+      "spot": 769.381,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:13:59",
+      "spot": 769.5404,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:14:59",
+      "spot": 769.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:15:59",
+      "spot": 769.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:16:59",
+      "spot": 769.68,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:19:59",
+      "spot": 769.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:21:59",
+      "spot": 769.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:22:59",
+      "spot": 769.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:24:59",
+      "spot": 769.97,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:25:59",
+      "spot": 770.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:27:59",
+      "spot": 770.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:28:59",
+      "spot": 770.23,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:29:59",
+      "spot": 770.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:30:59",
+      "spot": 770.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:32:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:33:59",
+      "spot": 770.8,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:34:59",
+      "spot": 770.92,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:35:59",
+      "spot": 770.88,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:38:59",
+      "spot": 770.645,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:42:59",
+      "spot": 770.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:44:59",
+      "spot": 770.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:45:59",
+      "spot": 770.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:46:59",
+      "spot": 770.717,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:47:59",
+      "spot": 770.52,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:48:59",
+      "spot": 770.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:49:59",
+      "spot": 770.17,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:50:59",
+      "spot": 770.14,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:51:59",
+      "spot": 770.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:52:59",
+      "spot": 770.15,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:53:59",
+      "spot": 770.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:54:59",
+      "spot": 770.1,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:55:59",
+      "spot": 770.15,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:56:59",
+      "spot": 769.87,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:57:59",
+      "spot": 769.94,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:58:59",
+      "spot": 769.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 02:59:59",
+      "spot": 769.96,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:00:59",
+      "spot": 769.9,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:01:59",
+      "spot": 769.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:02:59",
+      "spot": 769.91,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:03:59",
+      "spot": 769.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:04:59",
+      "spot": 769.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:05:59",
+      "spot": 769.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:06:59",
+      "spot": 769.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:07:59",
+      "spot": 769.53,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:08:59",
+      "spot": 769.37,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:09:59",
+      "spot": 769.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:10:59",
+      "spot": 769.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:11:59",
+      "spot": 769.62,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:13:59",
+      "spot": 769.44,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:14:59",
+      "spot": 769.32,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:15:59",
+      "spot": 769.22,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:16:59",
+      "spot": 769.18,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:17:59",
+      "spot": 769.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:18:59",
+      "spot": 769.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:19:59",
+      "spot": 769.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:21:59",
+      "spot": 769.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:22:59",
+      "spot": 769.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:23:59",
+      "spot": 769.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:25:59",
+      "spot": 769.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:26:59",
+      "spot": 769.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:27:59",
+      "spot": 769.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:28:59",
+      "spot": 769.56,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:29:59",
+      "spot": 769.73,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:30:59",
+      "spot": 769.72,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:31:59",
+      "spot": 769.85,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:32:59",
+      "spot": 769.79,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:33:59",
+      "spot": 769.91,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:34:59",
+      "spot": 769.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:35:59",
+      "spot": 769.92,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:36:59",
+      "spot": 769.79,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:38:59",
+      "spot": 769.94,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:39:59",
+      "spot": 769.91,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:40:59",
+      "spot": 770.035,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:41:59",
+      "spot": 770.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:42:59",
+      "spot": 770.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:43:59",
+      "spot": 770.26,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:44:59",
+      "spot": 770.35,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:45:59",
+      "spot": 770.27,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:46:59",
+      "spot": 770.1,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:47:59",
+      "spot": 770.21,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:48:59",
+      "spot": 770.01,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:49:59",
+      "spot": 770.29,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:50:59",
+      "spot": 770.16,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:52:59",
+      "spot": 770.15,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:53:59",
+      "spot": 770.3,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:54:59",
+      "spot": 770.18,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:55:59",
+      "spot": 770.17,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:57:59",
+      "spot": 770.28,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:58:59",
+      "spot": 770.25,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 03:59:59",
+      "spot": 770.33,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:00:59",
+      "spot": 770.41,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:01:59",
+      "spot": 770.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:02:59",
+      "spot": 770.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:03:59",
+      "spot": 770.5161,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:04:59",
+      "spot": 770.709,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:05:59",
+      "spot": 770.709,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:06:59",
+      "spot": 770.57,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:07:59",
+      "spot": 770.46,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:08:59",
+      "spot": 770.535,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:09:59",
+      "spot": 770.664,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:10:59",
+      "spot": 770.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:11:59",
+      "spot": 770.505,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:12:59",
+      "spot": 770.51,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:14:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:15:59",
+      "spot": 770.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:16:59",
+      "spot": 770.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:18:59",
+      "spot": 770.64,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:19:59",
+      "spot": 770.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:20:59",
+      "spot": 770.6171,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:23:59",
+      "spot": 770.85,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:24:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:25:59",
+      "spot": 770.86,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:26:59",
+      "spot": 770.99,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:27:59",
+      "spot": 770.98,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:28:59",
+      "spot": 770.85,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:29:59",
+      "spot": 770.849,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:30:59",
+      "spot": 771.23,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:31:59",
+      "spot": 771.11,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:32:59",
+      "spot": 771.14,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:33:59",
+      "spot": 770.83,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:34:59",
+      "spot": 770.85,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:35:59",
+      "spot": 770.68,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:36:59",
+      "spot": 770.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:37:59",
+      "spot": 770.67,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:38:59",
+      "spot": 770.53,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:39:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:40:59",
+      "spot": 770.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:41:59",
+      "spot": 770.43,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:42:59",
+      "spot": 770.509,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:43:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:44:59",
+      "spot": 770.69,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:45:59",
+      "spot": 770.61,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:46:59",
+      "spot": 770.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:47:59",
+      "spot": 770.55,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:48:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:49:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:50:59",
+      "spot": 770.81,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:51:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:52:59",
+      "spot": 770.87,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:53:59",
+      "spot": 770.83,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:54:59",
+      "spot": 770.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:55:59",
+      "spot": 771.0,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:56:59",
+      "spot": 770.99,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:57:59",
+      "spot": 770.74,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:58:59",
+      "spot": 770.78,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 04:59:59",
+      "spot": 770.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:00:59",
+      "spot": 770.54,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:01:59",
+      "spot": 770.69,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:02:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:03:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:04:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:05:59",
+      "spot": 770.58,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:06:59",
+      "spot": 770.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:07:59",
+      "spot": 770.69,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:08:59",
+      "spot": 770.59,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:09:59",
+      "spot": 770.75,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:10:59",
+      "spot": 770.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:11:59",
+      "spot": 770.6,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:12:59",
+      "spot": 770.65,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:13:59",
+      "spot": 770.56,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:14:59",
+      "spot": 770.55,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:15:59",
+      "spot": 770.66,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:16:59",
+      "spot": 770.71,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:17:59",
+      "spot": 770.76,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:18:59",
+      "spot": 770.66,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:19:59",
+      "spot": 770.83,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:20:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:21:59",
+      "spot": 770.63,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:22:59",
+      "spot": 770.74,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:23:59",
+      "spot": 770.9,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:24:59",
+      "spot": 770.76,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:25:59",
+      "spot": 770.7,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:26:59",
+      "spot": 770.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:27:59",
+      "spot": 770.89,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:28:59",
+      "spot": 771.15,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:29:59",
+      "spot": 771.22,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:30:59",
+      "spot": 770.92,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:31:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:32:59",
+      "spot": 771.09,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:33:59",
+      "spot": 771.1538,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:34:59",
+      "spot": 771.05,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:35:59",
+      "spot": 770.9907,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:36:59",
+      "spot": 771.03,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:37:59",
+      "spot": 771.16,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:38:59",
+      "spot": 771.2354,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:39:59",
+      "spot": 771.12,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:40:59",
+      "spot": 771.0899,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:41:59",
+      "spot": 770.99,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:42:59",
+      "spot": 770.95,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:43:59",
+      "spot": 770.7985,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:44:59",
+      "spot": 770.84,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:45:59",
+      "spot": 770.88,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:46:59",
+      "spot": 770.95,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:47:59",
+      "spot": 770.77,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:48:59",
+      "spot": 770.82,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:49:59",
+      "spot": 770.92,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:50:59",
+      "spot": 771.02,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:51:59",
+      "spot": 771.13,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:52:59",
+      "spot": 771.07,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:53:59",
+      "spot": 771.08,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:54:59",
+      "spot": 771.07,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:55:59",
+      "spot": 771.07,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:56:59",
+      "spot": 770.98,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:57:59",
+      "spot": 771.08,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:58:59",
+      "spot": 771.16,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 05:59:59",
+      "spot": 771.16,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:00:59",
+      "spot": 771.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:01:59",
+      "spot": 771.5,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:02:59",
+      "spot": 771.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:03:59",
+      "spot": 771.37,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:04:59",
+      "spot": 771.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:05:59",
+      "spot": 771.47,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:06:59",
+      "spot": 771.49,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:07:59",
+      "spot": 771.4431,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:08:59",
+      "spot": 771.39,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:09:59",
+      "spot": 771.31,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:10:59",
+      "spot": 771.19,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:11:59",
+      "spot": 771.16,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:12:59",
+      "spot": 771.09,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:13:59",
+      "spot": 771.08,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:14:59",
+      "spot": 771.13,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:30:59",
+      "spot": 770.835205078125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:31:59",
+      "spot": 769.9949951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:32:59",
+      "spot": 770.0098876953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:33:59",
+      "spot": 770.030029296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:34:59",
+      "spot": 770.2100219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:35:59",
+      "spot": 770.1950073242188,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:36:59",
+      "spot": 770.219970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:37:59",
+      "spot": 770.0999755859375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:38:59",
+      "spot": 770.3499755859375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:39:59",
+      "spot": 770.969970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:40:59",
+      "spot": 770.7849731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:41:59",
+      "spot": 771.030029296875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:42:59",
+      "spot": 770.3699951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:43:24",
+      "spot": 770.18,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:43:49",
+      "spot": 770.05,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:43:59",
+      "spot": 769.844970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:44:59",
+      "spot": 770.1599731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:45:00",
+      "spot": 770.08,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:45:59",
+      "spot": 770.780517578125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:46:59",
+      "spot": 770.9099731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:47:59",
+      "spot": 771.1900024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:48:59",
+      "spot": 771.125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:49:57",
+      "spot": 771.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:49:59",
+      "spot": 771.1400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:50:59",
+      "spot": 771.0399780273438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:51:52",
+      "spot": 770.78,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:51:59",
+      "spot": 770.7999877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:52:16",
+      "spot": 770.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:52:59",
+      "spot": 770.9199829101562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:53:41",
+      "spot": 770.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 06:53:59",
+      "spot": 770.3900146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:54:59",
+      "spot": 770.5399780273438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:55:59",
+      "spot": 770.8599853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:56:59",
+      "spot": 771.1300048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:57:59",
+      "spot": 770.7999877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:58:59",
+      "spot": 770.8800048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 06:59:59",
+      "spot": 770.6500244140625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:00:59",
+      "spot": 770.469970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:01:43",
+      "spot": 770.34,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:01:59",
+      "spot": 770.2000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:02:59",
+      "spot": 770.77001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:03:59",
+      "spot": 770.6400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:04:59",
+      "spot": 769.9000244140625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:05:09",
+      "spot": 769.89,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "spot": 769.87,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "spot": 769.88,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "spot": 769.89,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:36",
+      "spot": 769.63,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:38",
+      "spot": 769.5,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:42",
+      "spot": 769.54,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:50",
+      "spot": 769.52,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:56",
+      "spot": 769.31,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:05:59",
+      "spot": 769.1099853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:06:00",
+      "spot": 769.19,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:06:59",
+      "spot": 769.3099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:07:59",
+      "spot": 769.3099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:08:13",
+      "spot": 769.4,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:08:59",
+      "spot": 769.2949829101562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:09:59",
+      "spot": 768.7805786132812,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:10:08",
+      "spot": 768.83,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:10:54",
+      "spot": 768.66,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:10:56",
+      "spot": 768.71,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:10:59",
+      "spot": 768.7000122070312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:11:59",
+      "spot": 768.6400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:12:03",
+      "spot": 768.58,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:12:12",
+      "spot": 768.73,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:12:32",
+      "spot": 768.84,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:12:59",
+      "spot": 768.9550170898438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:13:58",
+      "spot": 768.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:13:59",
+      "spot": 768.8900146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:14:59",
+      "spot": 768.760009765625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:15:59",
+      "spot": 768.969970703125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:16:59",
+      "spot": 768.6199951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:17:59",
+      "spot": 768.8198852539062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:18:59",
+      "spot": 769.02001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:19:59",
+      "spot": 768.8699951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:20:59",
+      "spot": 768.7999877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:21:06",
+      "spot": 768.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:21:57",
+      "spot": 768.82,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:21:59",
+      "spot": 768.77001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:22:59",
+      "spot": 769.0,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:23:30",
+      "spot": 769.4,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:23:59",
+      "spot": 769.2399291992188,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:24:12",
+      "spot": 769.22,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:24:59",
+      "spot": 769.1400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:25:59",
+      "spot": 768.8900146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:26:59",
+      "spot": 769.2100219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:27:59",
+      "spot": 769.489990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:28:06",
+      "spot": 769.49,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:28:17",
+      "spot": 769.65,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:28:59",
+      "spot": 769.4199829101562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:29:59",
+      "spot": 769.3699951171875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:30:59",
+      "spot": 769.6279907226562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:31:59",
+      "spot": 769.9210815429688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:32:59",
+      "spot": 769.97998046875,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:33:59",
+      "spot": 769.9099731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:34:59",
+      "spot": 769.9329223632812,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:35:09",
+      "spot": 769.97,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:35:10",
+      "spot": 769.96,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:35:59",
+      "spot": 769.9600219726562,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:36:57",
+      "spot": 769.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:36:59",
+      "spot": 769.6649780273438,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:37:31",
+      "spot": 769.7,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:37:59",
+      "spot": 769.8599853515625,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:38:54",
+      "spot": 769.48,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:38:59",
+      "spot": 769.6400146484375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:39:21",
+      "spot": 769.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:39:59",
+      "spot": 769.5499877929688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:40:00",
+      "spot": 769.55,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:40:59",
+      "spot": 769.77001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:41:05",
+      "spot": 769.79,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:41:59",
+      "spot": 769.8099975585938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:42:59",
+      "spot": 769.8400268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:43:59",
+      "spot": 770.1859741210938,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:44:28",
+      "spot": 770.38,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:44:59",
+      "spot": 770.27001953125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:45:09",
+      "spot": 770.23,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:45:10",
+      "spot": 770.26,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:45:47",
+      "spot": 770.35,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:45:52",
+      "spot": 770.36,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:45:59",
+      "spot": 770.3400268554688,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:46:12",
+      "spot": 770.28,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:46:33",
+      "spot": 770.39,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:46:54",
+      "spot": 770.44,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:46:59",
+      "spot": 770.4099731445312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:47:30",
+      "spot": 770.49,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:47:52",
+      "spot": 770.74,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:47:58",
+      "spot": 770.69,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:47:59",
+      "spot": 770.7205200195312,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:48:27",
+      "spot": 770.78,
+      "source": "UW rendered alert underlying price"
+    },
+    {
+      "time": "2026/10/21 07:48:59",
+      "spot": 770.989990234375,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:49:59",
+      "spot": 770.9400024414062,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:50:59",
+      "spot": 771.1300048828125,
+      "source": "Yahoo SPY 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/21 07:51:59",
+      "spot": 771.0599975585938
     }
   ],
-  "latest_session_alert_count": 294,
-  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage. October 20 refresh: 264 distinct rendered alerts across two pages, 06:33:43\u201310:56:21 Pacific. These underlying-price checks establish observed crossings only; October 19 afternoon and October 20 premarket are not newly covered by this capture. Existing extended-hours observations remain retained; missing checks are not evidence of no crossing. October 20 later refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/20 11:40:59 Pacific, plus 294 distinct current-session alert rows through 2026/10/20 11:37:03. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed.",
+  "latest_session_alert_count": 53,
+  "coverage_note": "Added 121 October 16 and 2 October 19 rendered SPY Magic alerts. Earlier captures retained. Yahoo Finance 1-minute close coverage October 16 09:14 through October 19 06:43 Pacific includes premarket and after-hours; earlier price history remains irregular saved observations. Close prices establish near \u2192 away \u2192 return sequences. Saved closes retire ITM crossings. Intraminute extremes are not used because the feed includes apparent outlier prints; brief crossings between closes may be missed. A crossing timestamp is the end of its observed minute, not an exact execution time. Missing bars and crossings outside retained coverage may be missed. Extended-hours underlying crosses do not imply options could be traded then. October 19 update adds observed SPY underlying quotes from the rendered Magic table, including 770.01 at 08:27:26 Pacific. This is the earliest crossing captured in this refresh, not a verified opening-bell or first-market crossing. Raw alert history and counts retain their prior capture coverage. October 20 refresh: 264 distinct rendered alerts across two pages, 06:33:43\u201310:56:21 Pacific. These underlying-price checks establish observed crossings only; October 19 afternoon and October 20 premarket are not newly covered by this capture. Existing extended-hours observations remain retained; missing checks are not evidence of no crossing. October 20 later refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/20 11:40:59 Pacific, plus 294 distinct current-session alert rows through 2026/10/20 11:37:03. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed. October 21 refresh adds Yahoo 1-minute closes including available premarket and after-hours through 2026/10/21 07:51:59 Pacific, plus 53 distinct current-session alert rows through 2026/10/21 07:48:27. Earlier timestamps remain historical coverage notes. Only completed-minute closes are used; brief intraminute touches and missing candles can be missed.",
   "classification_version": "otm-sequence-v2",
-  "latest_alert_time": "2026/10/20 11:37:03",
+  "latest_alert_time": "2026/10/21 07:48:27",
   "alert_observations": [
     {
       "time": "2026/10/19 06:41:56",
@@ -31382,14 +35541,1150 @@
       "price": "$5.89",
       "premium": "$59K",
       "side": "-"
+    },
+    {
+      "time": "2026/10/21 07:48:27",
+      "contract": "772c 10/22/2026",
+      "spot": 770.78,
+      "price": "$1.94",
+      "premium": "$59K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/21 07:47:58",
+      "contract": "768p 10/22/2026",
+      "spot": 770.69,
+      "price": "$1.48",
+      "premium": "$15K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:47:52",
+      "contract": "774c 10/22/2026",
+      "spot": 770.74,
+      "price": "$1.14",
+      "premium": "$12K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:47:30",
+      "contract": "768p 10/26/2026",
+      "spot": 770.49,
+      "price": "$2.88",
+      "premium": "$58K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:46:54",
+      "contract": "773c 10/22/2026",
+      "spot": 770.44,
+      "price": "$1.38",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:46:33",
+      "contract": "771c 10/22/2026",
+      "spot": 770.39,
+      "price": "$2.24",
+      "premium": "$34K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:46:12",
+      "contract": "774c 10/22/2026",
+      "spot": 770.28,
+      "price": "$1.00",
+      "premium": "$12K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:45:52",
+      "contract": "769p 10/22/2026",
+      "spot": 770.36,
+      "price": "$1.95",
+      "premium": "$158K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:45:47",
+      "contract": "771c 10/26/2026",
+      "spot": 770.35,
+      "price": "$3.89",
+      "premium": "$39K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/21 07:45:47",
+      "contract": "770p 10/22/2026",
+      "spot": 770.35,
+      "price": "$2.35",
+      "premium": "$35K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:45:10",
+      "contract": "773c 10/22/2026",
+      "spot": 770.26,
+      "price": "$1.33",
+      "premium": "$16K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:45:09",
+      "contract": "773c 10/22/2026",
+      "spot": 770.23,
+      "price": "$1.33",
+      "premium": "$46K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:44:28",
+      "contract": "774c 10/22/2026",
+      "spot": 770.38,
+      "price": "$1.05",
+      "premium": "$11K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:41:05",
+      "contract": "767p 10/22/2026",
+      "spot": 769.79,
+      "price": "$1.52",
+      "premium": "$15K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:40:00",
+      "contract": "768p 10/22/2026",
+      "spot": 769.55,
+      "price": "$1.93",
+      "premium": "$21K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:39:21",
+      "contract": "767p 10/27/2026",
+      "spot": 769.74,
+      "price": "$3.40",
+      "premium": "$170K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:38:54",
+      "contract": "772c 10/23/2026",
+      "spot": 769.48,
+      "price": "$2.32",
+      "premium": "$30K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:37:31",
+      "contract": "768p 10/22/2026",
+      "spot": 769.7,
+      "price": "$1.89",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:36:57",
+      "contract": "768p 10/22/2026",
+      "spot": 769.69,
+      "price": "$1.90",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:35:10",
+      "contract": "772c 10/22/2026",
+      "spot": 769.96,
+      "price": "$1.65",
+      "premium": "$18K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:35:09",
+      "contract": "772c 10/22/2026",
+      "spot": 769.97,
+      "price": "$1.65",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:28:17",
+      "contract": "770c 10/22/2026",
+      "spot": 769.65,
+      "price": "$2.48",
+      "premium": "$61K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:28:06",
+      "contract": "770c 10/22/2026",
+      "spot": 769.49,
+      "price": "$2.41",
+      "premium": "$39K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:24:12",
+      "contract": "773c 10/22/2026",
+      "spot": 769.22,
+      "price": "$1.12",
+      "premium": "$12K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:23:30",
+      "contract": "771c 10/22/2026",
+      "spot": 769.4,
+      "price": "$1.89",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:21:57",
+      "contract": "768p 11/02/2026",
+      "spot": 768.82,
+      "price": "$6.60",
+      "premium": "$66K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:21:06",
+      "contract": "770c 10/22/2026",
+      "spot": 768.82,
+      "price": "$2.18",
+      "premium": "$44K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:13:58",
+      "contract": "767p 10/22/2026",
+      "spot": 768.97,
+      "price": "$1.93",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:12:32",
+      "contract": "770c 10/22/2026",
+      "spot": 768.84,
+      "price": "$2.24",
+      "premium": "$68K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:12:12",
+      "contract": "772c 10/22/2026",
+      "spot": 768.73,
+      "price": "$1.38",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:12:03",
+      "contract": "766p 10/22/2026",
+      "spot": 768.58,
+      "price": "$1.78",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:10:56",
+      "contract": "768p 10/22/2026",
+      "spot": 768.71,
+      "price": "$2.48",
+      "premium": "$84K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:10:54",
+      "contract": "766p 10/22/2026",
+      "spot": 768.66,
+      "price": "$1.72",
+      "premium": "$56K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:10:08",
+      "contract": "766p 10/22/2026",
+      "spot": 768.83,
+      "price": "$1.68",
+      "premium": "$83K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:08:13",
+      "contract": "769p 10/22/2026",
+      "spot": 769.4,
+      "price": "$2.53",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:06:00",
+      "contract": "769p 10/22/2026",
+      "spot": 769.19,
+      "price": "$2.63",
+      "premium": "$26K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:56",
+      "contract": "771c 10/22/2026",
+      "spot": 769.31,
+      "price": "$1.96",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:50",
+      "contract": "770c 10/22/2026",
+      "spot": 769.52,
+      "price": "$2.52",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:42",
+      "contract": "773c 10/22/2026",
+      "spot": 769.54,
+      "price": "$1.26",
+      "premium": "$51K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:38",
+      "contract": "767p 10/22/2026",
+      "spot": 769.5,
+      "price": "$1.73",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:36",
+      "contract": "767p 10/22/2026",
+      "spot": 769.63,
+      "price": "$1.70",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "contract": "767p 10/22/2026",
+      "spot": 769.88,
+      "price": "$1.59",
+      "premium": "$41K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "contract": "768p 10/22/2026",
+      "spot": 769.87,
+      "price": "$1.90",
+      "premium": "$49K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:11",
+      "contract": "768p 10/22/2026",
+      "spot": 769.89,
+      "price": "$1.91",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:05:09",
+      "contract": "767p 10/22/2026",
+      "spot": 769.89,
+      "price": "$1.59",
+      "premium": "$34K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 07:01:43",
+      "contract": "770p 10/22/2026",
+      "spot": 770.34,
+      "price": "$2.45",
+      "premium": "$43K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:53:41",
+      "contract": "769p 10/22/2026",
+      "spot": 770.5,
+      "price": "$2.04",
+      "premium": "$41K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:52:16",
+      "contract": "770p 10/22/2026",
+      "spot": 770.69,
+      "price": "$2.34",
+      "premium": "$48K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:51:52",
+      "contract": "771c 10/22/2026",
+      "spot": 770.78,
+      "price": "$2.61",
+      "premium": "$50K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:49:57",
+      "contract": "771p 10/22/2026",
+      "spot": 771.34,
+      "price": "$2.45",
+      "premium": "$71K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:45:00",
+      "contract": "772c 10/22/2026",
+      "spot": 770.08,
+      "price": "$1.84",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:43:49",
+      "contract": "771c 10/22/2026",
+      "spot": 770.05,
+      "price": "$2.29",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/21 06:43:24",
+      "contract": "770p 10/22/2026",
+      "spot": 770.18,
+      "price": "$2.59",
+      "premium": "$31K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 13:13:59",
+      "contract": "771c 10/23/2026",
+      "spot": 769.66,
+      "price": "$3.24",
+      "premium": "$63K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:11:39",
+      "contract": "766p 10/26/2026",
+      "spot": 769.65,
+      "price": "$2.88",
+      "premium": "$115K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:06:45",
+      "contract": "770c 10/23/2026",
+      "spot": 769.27,
+      "price": "$3.60",
+      "premium": "$36K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 13:05:49",
+      "contract": "766p 10/26/2026",
+      "spot": 769.2,
+      "price": "$3.04",
+      "premium": "$152K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:04:51",
+      "contract": "770c 10/22/2026",
+      "spot": 769.36,
+      "price": "$2.80",
+      "premium": "$34K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:01:51",
+      "contract": "769p 10/30/2026",
+      "spot": 769.18,
+      "price": "$6.49",
+      "premium": "$130K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:00:53",
+      "contract": "766p 10/26/2026",
+      "spot": 769.35,
+      "price": "$3.05",
+      "premium": "$305K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 13:00:05",
+      "contract": "772c 10/28/2026",
+      "spot": 768.69,
+      "price": "$4.57",
+      "premium": "$114K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:57:22",
+      "contract": "770c 10/23/2026",
+      "spot": 768.62,
+      "price": "$3.30",
+      "premium": "$52K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:54:38",
+      "contract": "771c 10/23/2026",
+      "spot": 768.51,
+      "price": "$2.77",
+      "premium": "$53K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:50:37",
+      "contract": "770c 10/22/2026",
+      "spot": 768.25,
+      "price": "$2.31",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:47:35",
+      "contract": "766p 10/26/2026",
+      "spot": 768.62,
+      "price": "$3.35",
+      "premium": "$472K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:47:31",
+      "contract": "766p 10/26/2026",
+      "spot": 768.67,
+      "price": "$3.33",
+      "premium": "$196K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:46:13",
+      "contract": "769c 10/26/2026",
+      "spot": 768.5,
+      "price": "$4.55",
+      "premium": "$182K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:45:12",
+      "contract": "770c 10/26/2026",
+      "spot": 768.51,
+      "price": "$3.98",
+      "premium": "$68K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:44:28",
+      "contract": "769c 10/26/2026",
+      "spot": 768.35,
+      "price": "$4.50",
+      "premium": "$141K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:42:27",
+      "contract": "765p 10/22/2026",
+      "spot": 768.21,
+      "price": "$1.91",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:41:34",
+      "contract": "768p 10/23/2026",
+      "spot": 768.25,
+      "price": "$3.59",
+      "premium": "$218K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:32:50",
+      "contract": "771c 10/22/2026",
+      "spot": 768.43,
+      "price": "$1.98",
+      "premium": "$40K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:32:04",
+      "contract": "768p 10/22/2026",
+      "spot": 768.54,
+      "price": "$2.81",
+      "premium": "$33K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:21:53",
+      "contract": "770c 10/22/2026",
+      "spot": 768.15,
+      "price": "$2.33",
+      "premium": "$70K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 12:05:26",
+      "contract": "769c 10/23/2026",
+      "spot": 768.95,
+      "price": "$4.01",
+      "premium": "$40K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:53:23",
+      "contract": "770c 10/22/2026",
+      "spot": 768.77,
+      "price": "$2.56",
+      "premium": "$256K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:50:33",
+      "contract": "768p 10/23/2026",
+      "spot": 768.66,
+      "price": "$3.37",
+      "premium": "$67K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:46:10",
+      "contract": "770c 10/22/2026",
+      "spot": 768.5,
+      "price": "$2.49",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:45:19",
+      "contract": "768p 10/23/2026",
+      "spot": 768.2,
+      "price": "$3.63",
+      "premium": "$221K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:45:01",
+      "contract": "768p 10/30/2026",
+      "spot": 768.24,
+      "price": "$6.52",
+      "premium": "$326K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:42:50",
+      "contract": "770c 10/23/2026",
+      "spot": 768.5,
+      "price": "$3.26",
+      "premium": "$61K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:42:47",
+      "contract": "768p 10/23/2026",
+      "spot": 768.51,
+      "price": "$3.41",
+      "premium": "$218K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:36:13",
+      "contract": "768p 10/23/2026",
+      "spot": 768.65,
+      "price": "$3.34",
+      "premium": "$213K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:17:19",
+      "contract": "766p 10/26/2026",
+      "spot": 769.68,
+      "price": "$2.86",
+      "premium": "$108K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 11:14:52",
+      "contract": "772c 10/23/2026",
+      "spot": 769.63,
+      "price": "$2.69",
+      "premium": "$134K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:57:32",
+      "contract": "770c 10/22/2026",
+      "spot": 769.43,
+      "price": "$2.84",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:56:52",
+      "contract": "769p 10/22/2026",
+      "spot": 769.73,
+      "price": "$2.67",
+      "premium": "$30K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 10:56:28",
+      "contract": "769p 10/22/2026",
+      "spot": 769.72,
+      "price": "$2.68",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:54:59",
+      "contract": "770c 10/22/2026",
+      "spot": 769.99,
+      "price": "$3.11",
+      "premium": "$33K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:54:59",
+      "contract": "771c 10/23/2026",
+      "spot": 769.99,
+      "price": "$3.36",
+      "premium": "$100K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:49:45",
+      "contract": "766p 10/23/2026",
+      "spot": 769.51,
+      "price": "$2.35",
+      "premium": "$59K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:48:17",
+      "contract": "770c 10/23/2026",
+      "spot": 769.58,
+      "price": "$3.75",
+      "premium": "$75K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:45:01",
+      "contract": "769p 10/22/2026",
+      "spot": 769.63,
+      "price": "$2.75",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:34:47",
+      "contract": "770c 10/23/2026",
+      "spot": 769.42,
+      "price": "$3.70",
+      "premium": "$111K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:30:45",
+      "contract": "770c 10/22/2026",
+      "spot": 769.77,
+      "price": "$3.07",
+      "premium": "$49K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:30:43",
+      "contract": "771c 10/23/2026",
+      "spot": 769.77,
+      "price": "$3.37",
+      "premium": "$73K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:21:36",
+      "contract": "766p 10/26/2026",
+      "spot": 769.35,
+      "price": "$3.13",
+      "premium": "$313K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:11:13",
+      "contract": "768p 10/22/2026",
+      "spot": 768.61,
+      "price": "$2.91",
+      "premium": "$116K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:05:52",
+      "contract": "766p 10/26/2026",
+      "spot": 768.68,
+      "price": "$3.47",
+      "premium": "$123K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:01:20",
+      "contract": "766p 10/23/2026",
+      "spot": 768.57,
+      "price": "$2.88",
+      "premium": "$30K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:01:15",
+      "contract": "766p 10/23/2026",
+      "spot": 768.59,
+      "price": "$2.88",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:00:25",
+      "contract": "770c 10/22/2026",
+      "spot": 768.72,
+      "price": "$2.69",
+      "premium": "$44K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 10:00:13",
+      "contract": "769c 10/26/2026",
+      "spot": 768.69,
+      "price": "$4.77",
+      "premium": "$95K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:53:46",
+      "contract": "770c 10/22/2026",
+      "spot": 768.62,
+      "price": "$2.61",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:53:46",
+      "contract": "771c 10/22/2026",
+      "spot": 768.62,
+      "price": "$2.15",
+      "premium": "$39K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:51:48",
+      "contract": "766p 10/26/2026",
+      "spot": 769.27,
+      "price": "$3.22",
+      "premium": "$104K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:51:18",
+      "contract": "766p 10/26/2026",
+      "spot": 769.3,
+      "price": "$3.22",
+      "premium": "$312K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:50:10",
+      "contract": "767p 10/22/2026",
+      "spot": 769.41,
+      "price": "$2.24",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:38:10",
+      "contract": "772c 10/28/2026",
+      "spot": 769.8,
+      "price": "$5.15",
+      "premium": "$155K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:23:07",
+      "contract": "769c 10/26/2026",
+      "spot": 768.88,
+      "price": "$4.92",
+      "premium": "$99K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:17:47",
+      "contract": "768p 10/22/2026",
+      "spot": 768.82,
+      "price": "$2.94",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 09:03:52",
+      "contract": "768p 10/22/2026",
+      "spot": 769.4,
+      "price": "$2.70",
+      "premium": "$28K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 08:59:49",
+      "contract": "772c 10/22/2026",
+      "spot": 769.94,
+      "price": "$2.28",
+      "premium": "$23K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 08:33:24",
+      "contract": "766p 10/26/2026",
+      "spot": 768.65,
+      "price": "$3.65",
+      "premium": "$37K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:29:10",
+      "contract": "770c 10/22/2026",
+      "spot": 769.23,
+      "price": "$3.06",
+      "premium": "$93K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:24:41",
+      "contract": "771c 10/23/2026",
+      "spot": 769.24,
+      "price": "$3.37",
+      "premium": "$304K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:18:37",
+      "contract": "770c 10/26/2026",
+      "spot": 769.97,
+      "price": "$5.01",
+      "premium": "$102K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:17:38",
+      "contract": "771c 10/23/2026",
+      "spot": 769.86,
+      "price": "$3.70",
+      "premium": "$336K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:12:30",
+      "contract": "771c 10/23/2026",
+      "spot": 769.64,
+      "price": "$3.65",
+      "premium": "$75K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:11:34",
+      "contract": "769p 10/22/2026",
+      "spot": 770.5,
+      "price": "$2.70",
+      "premium": "$123K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 08:08:15",
+      "contract": "771p 10/28/2026",
+      "spot": 771.06,
+      "price": "$5.70",
+      "premium": "$285K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:56:43",
+      "contract": "771p 10/28/2026",
+      "spot": 771.79,
+      "price": "$5.40",
+      "premium": "$54K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:52:04",
+      "contract": "771p 10/22/2026",
+      "spot": 771.52,
+      "price": "$3.10",
+      "premium": "$62K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/20 07:49:23",
+      "contract": "771p 10/26/2026",
+      "spot": 771.29,
+      "price": "$4.39",
+      "premium": "$133K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:35:06",
+      "contract": "771p 10/26/2026",
+      "spot": 771.09,
+      "price": "$4.52",
+      "premium": "$226K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:20:18",
+      "contract": "770c 10/22/2026",
+      "spot": 769.79,
+      "price": "$3.40",
+      "premium": "$70K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:19:51",
+      "contract": "771c 10/22/2026",
+      "spot": 769.84,
+      "price": "$2.91",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:19:42",
+      "contract": "770c 10/22/2026",
+      "spot": 769.83,
+      "price": "$3.43",
+      "premium": "$70K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:18:03",
+      "contract": "770c 10/22/2026",
+      "spot": 769.61,
+      "price": "$3.30",
+      "premium": "$79K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:15:55",
+      "contract": "766p 10/26/2026",
+      "spot": 769.28,
+      "price": "$3.43",
+      "premium": "$139K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:14:35",
+      "contract": "766p 10/26/2026",
+      "spot": 768.97,
+      "price": "$3.54",
+      "premium": "$356K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:12:45",
+      "contract": "766p 10/26/2026",
+      "spot": 768.6,
+      "price": "$3.69",
+      "premium": "$369K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:07:12",
+      "contract": "766p 10/26/2026",
+      "spot": 768.35,
+      "price": "$3.77",
+      "premium": "$59K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:07:09",
+      "contract": "766p 10/26/2026",
+      "spot": 768.34,
+      "price": "$3.78",
+      "premium": "$114K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:07:08",
+      "contract": "766p 10/26/2026",
+      "spot": 768.32,
+      "price": "$3.79",
+      "premium": "$112K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:04:33",
+      "contract": "770c 10/22/2026",
+      "spot": 767.94,
+      "price": "$2.55",
+      "premium": "$77K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:04:27",
+      "contract": "770c 10/22/2026",
+      "spot": 767.98,
+      "price": "$2.55",
+      "premium": "$30K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 07:02:59",
+      "contract": "769c 10/22/2026",
+      "spot": 768.16,
+      "price": "$3.13",
+      "premium": "$32K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 06:57:27",
+      "contract": "770c 10/22/2026",
+      "spot": 767.03,
+      "price": "$2.19",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 06:56:41",
+      "contract": "769c 10/22/2026",
+      "spot": 767.07,
+      "price": "$2.67",
+      "premium": "$41K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 06:54:03",
+      "contract": "768c 11/02/2026",
+      "spot": 766.84,
+      "price": "$7.84",
+      "premium": "$78K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/20 06:33:43",
+      "contract": "766c 10/29/2026",
+      "spot": 765.36,
+      "price": "$7.18",
+      "premium": "$72K",
+      "side": "ASK"
     }
   ],
   "latest_capture_summary": {
-    "date": "2026-10-20",
-    "flow_start": "2026/10/20 06:33:43",
-    "flow_as_of": "2026/10/20 11:37:03",
-    "alerts": 294,
+    "date": "2026-10-21",
+    "flow_start": "2026/10/21 06:43:24",
+    "flow_as_of": "2026/10/21 07:48:27",
+    "alerts": 53,
     "complete_session": false,
-    "method": "Distinct full rendered rows across two pages, deduplicated at page overlap. Rounded displayed premiums. Complete retained minute closes include extended hours; no tick-level completeness claimed."
+    "method": "Distinct full rendered rows on the authenticated first page, including prior-session overlap. Rounded displayed premiums. Complete retained minute closes include extended hours; no tick-level completeness claimed."
   }
 }
