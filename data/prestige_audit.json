@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-10-21T16:09:40.779481+00:00",
+  "audited_at": "2026-10-21T19:28:35.245992+00:00",
   "scope": "Checked nine saved GitHub snapshots from October 14\u201319. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained.",
   "records": [
     {
@@ -527,6 +527,30 @@
       "published_at": "2026/10/21 09:07:44",
       "commit_sha": "871271ef464eb72d0b9c49e5eb7b4e394149ab92",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/871271ef464eb72d0b9c49e5eb7b4e394149ab92"
+    },
+    {
+      "contract": "768p 10/26/2026",
+      "qualified_at": "2026/10/21 12:00:16",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 12:27:23",
+      "commit_sha": "195fbbcb0898ba4071a9a27c7ccc9c269323c2f0",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/195fbbcb0898ba4071a9a27c7ccc9c269323c2f0"
+    },
+    {
+      "contract": "768p 11/02/2026",
+      "qualified_at": "2026/10/21 12:00:16",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 12:27:23",
+      "commit_sha": "195fbbcb0898ba4071a9a27c7ccc9c269323c2f0",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/195fbbcb0898ba4071a9a27c7ccc9c269323c2f0"
+    },
+    {
+      "contract": "770p 10/27/2026",
+      "qualified_at": "2026/10/21 10:12:38",
+      "provenance": "Published before outcome",
+      "published_at": "2026/10/21 12:27:23",
+      "commit_sha": "195fbbcb0898ba4071a9a27c7ccc9c269323c2f0",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/195fbbcb0898ba4071a9a27c7ccc9c269323c2f0"
     }
   ]
 }
