@@ -45,7 +45,7 @@ def render(admin):
     ticker=st.pills('Your requested tickers',registry['tickers'],default=registry['tickers'][0],selection_mode='single') or registry['tickers'][0]
     company=snapshot['companies'].get(ticker,{'name':ticker,'ir_url':'','event_note':'Your ticker is on the research list. Company events are still being checked.'})
     st.markdown(f'<div class="founder-ticker">${escape(ticker)} <span style="font-size:16px;color:#c0d5c7">{escape(company["name"])}</span></div>',unsafe_allow_html=True)
-    st.caption('Company research checked '+snapshot['research_as_of']+' · Saved results, not a streaming feed.')
+    st.caption(('Research pending for '+ticker if company.get('event_note','').startswith('Added to Founder coverage.') else 'Company research checked '+snapshot['research_as_of'])+' · Saved results, not a streaming feed.')
     events=[e for e in snapshot['events'] if e['ticker']==ticker and e['end_date']>=today]
     all_flows=[f for f in snapshot.get('flows',[]) if f['ticker']==ticker]
     flows=[f for f in all_flows if f['expiry']>=today]
@@ -62,7 +62,7 @@ def render(admin):
         if company.get('ir_url'):st.link_button('Company investor page ↗',company['ir_url'])
     with b:
         st.subheader('🐋 What’s showing up?')
-        if snapshot.get('flow_as_of'):
+        if snapshot.get('flow_as_of') and all_flows:
             st.caption('Flow checked '+snapshot['flow_as_of']+' · '+str(len(flows))+' captured prints with open expirations')
         checks=[c for c in snapshot.get('flow_checks',[]) if c['ticker']==ticker]
         success=[c for c in checks if c.get('status')=='checked']
@@ -79,7 +79,7 @@ def render(admin):
             st.caption(str(flow.get('size',''))+' contracts · '+flow.get('side','')+' side · Time shown in Pacific. Premium rounded as displayed by UW.')
             if linked:st.write('Dates line up with: '+', '.join(e['title'] for e in linked)+'. Date overlap alone does not establish why the trade was placed.')
         st.caption('Filters: '+', '.join(f['name'] for f in registry['filters']))
-        if snapshot.get('flow_scope'):st.caption(snapshot['flow_scope'])
+        if snapshot.get('flow_scope') and all_flows:st.caption(snapshot['flow_scope'])
     if all_flows:
         with st.expander('📚 All captured prints, including expired contracts'):
             import pandas as pd
