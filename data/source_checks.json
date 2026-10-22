@@ -1,8 +1,8 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
     "status": "Page fetched",
@@ -10,8 +10,8 @@
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "27934131025007a887630b131e3607f9a46ca56d5f1500cfbf306aafd15ed3cc",
     "changed": false,
     "status": "Page fetched",
@@ -25,17 +25,17 @@
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "b9bd4755a2d106d1c1a3102ef08a96213d68cbde81e6176e10634e20e2f4b354",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Cloudflare Events Login Dashboard Contact sales Start building Dashboard Login Cloudflare Events Cloudflare Connect 2026 October 19\u201321 \u00b7 San Francisco Immerse New York April 14 \u00b7 New York, NY Connect on Tour April 15 \u00b7 London, UK Connect on Tour July 30 \u00b7 Sydney, AU All Scheduled Events Find Cloudflare at conferences, summits, and Immerse events around the world. Events by region Browse upcoming Cloudflare events around the world. Americas EMEA APJC Las Vegas, NV AWS re:Invent Nov 30\u2013Dec 4 Coming soon Previous events San Francisco, CA Cloudflare Global Connect 2026 Oct 19\u201321 Learn more Build without boundaries Join thousands of developers who've eliminated infrastructure complexity and deployed globally with Cloudflare. Start building for free \u2014 no credit card required. Start building for free View docs"
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "1ffe461661c7709014bc37002b945fccd8bd0cbef2c4d22c66c1a5c40cb648f8",
     "changed": false,
     "status": "Page fetched",
@@ -43,8 +43,8 @@
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "fc1c0d25e3e6e7d1f1138de329cf3c751d5c09fb8c98aaea209dd46fcac080d9",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +52,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "TSEM",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
@@ -61,8 +61,8 @@
   },
   "https://immunitybio.com/immunitybio-to-participate-in-the-piper-sandler-virtual-oncology-symposium/": {
     "ticker": "IBRX",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "6cf1e9324dd0adbc6abcf77738546183b2a2ef2620fc22af277fd51b5ec3e0ba",
     "changed": false,
     "status": "Page fetched",
@@ -70,8 +70,8 @@
   },
   "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx": {
     "ticker": "BLDR",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "0fb28afb384c644dbee58d2a1e3df9f4128bc86241628ee036dc40953cf94af8",
     "changed": false,
     "status": "Page fetched",
@@ -79,8 +79,8 @@
   },
   "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx": {
     "ticker": "ONTO",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "a53efffa67449e711c2ba7dc798b21cdbd5a6a5ba2d8ec58dc62eb091e243cc2",
     "changed": false,
     "status": "Page fetched",
@@ -88,14 +88,14 @@
   },
   "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology": {
     "ticker": "ABVX",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology"
   },
   "https://max.adobe.com/": {
     "ticker": "ADBE",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "4a75fdfab08b7769e8360bc5670be10ee579a0acd8760c22719016d0177938c0",
     "changed": false,
     "status": "Page fetched",
@@ -103,20 +103,20 @@
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0"
   },
   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-host-qubits-asia-2026-in-seoul/": {
     "ticker": "QBTS",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "3231119b3d1f02a5c3912f80a39765eb88cdbb3660421db91c51023a85d4b98c",
     "changed": false,
     "status": "Page fetched",
@@ -124,14 +124,14 @@
   },
   "https://www.servicenow.com/events/nowdev.html": {
     "ticker": "NOW",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://www.elastic.co/events/elasticon": {
     "ticker": "ESTC",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "5316e17ddbcf9aef63d1679681f8b7654b42aa4dd3410642c887cb61d13e8e84",
     "changed": false,
     "status": "Page fetched",
@@ -139,20 +139,20 @@
   },
   "https://www.strategy.com/mstr/vote": {
     "ticker": "MSTR",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.strategy.com/mstr/vote"
   },
   "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm": {
     "ticker": "VIAV",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
   },
   "https://investor.tsmc.com/english/financial-calendar": {
     "ticker": "TSM",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "7f7f96d56ec16fc7deadd5e6efd25398f2b9ab68b308cb38696731fa654fc1a4",
     "changed": false,
     "status": "Page fetched",
@@ -160,8 +160,8 @@
   },
   "https://www.nvidia.com/en-eu/gtc/faq/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "559974d502d81a3dacb2d5cef4cf8ae45959c527cf74fb8d6da92f7196517ec1",
     "changed": false,
     "status": "Page fetched",
@@ -169,8 +169,8 @@
   },
   "https://www.nvidia.com/en-us/events/supercomputing/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "681df5c2e7497621d5d52298e3f597200f3259fffa2764318f84b7e0ce176a18",
     "changed": false,
     "status": "Page fetched",
@@ -178,8 +178,8 @@
   },
   "https://investor.accenture.com/news-and-events/events-calendar": {
     "ticker": "ACN",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "52cc3e69cdc21b7cd4a3646f32ae88d66346f06e68f45b336ae117588f49f164",
     "changed": false,
     "status": "Page fetched",
@@ -187,35 +187,35 @@
   },
   "https://www.supermicro.com/en/newsroom": {
     "ticker": "SMCI",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.supermicro.com/en/newsroom"
   },
   "https://www.amd.com/en/corporate/events.html": {
     "ticker": "AMD",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
-    "hash": "f65466f1c6749e3f79f23bcc65298ba3a8ca2a56322046b646f5160bf26ac501",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
+    "hash": "8f6a81d751985e5f0ce83c2d25cb36375c4d950ec13714216b1b8e93efde3770",
     "changed": false,
     "status": "Page fetched",
-    "text_excerpt": "Events Skip to main content AMD Website Accessibility Statement Explore the Latest AMD Events & Conferences Upcoming Events AMD participates in events throughout the year. Key upcoming events are listed below with links to more information when available. Teratec Forum Tue, Oct 20, 2026 \u00e2\u0080\u0093 Wed, Oct 21, 2026 Paris, France Since its creation, the TERATEC Forum has brought together industrial users, technology leaders, and scientists to attend high-level conferences and an exhibition dedicated to digital simulation, high-performance computing (HPC), high-performance data analysis (HPDA), artificial intelligence (AI), and quantum computing. (Platinum Sponsor) Teratec Forum Event Details PyTorch Conference North America 2026 Tue, Oct 20, 2026 \u00e2\u0080\u0093 Wed, Oct 21, 2026 San Jose, CA Join us in San Jose, CA, October 20-21 for PyTorch Conference North America 2026. This two-day event hosted by the PyTorch Foundation gathers top-tier AI pioneers, researchers, and developers to explore the future of open source AI and the impact of PyTorch Foundation projects like PyTorch, vLLM, DeepSpeed, Ray, Helion, and Safetensors. PyTorch Conference North America 2026 Event Details Microsoft AI Tour London Wed, Oct 21, 2026 ExCel London Accelerate your AI transformation. Join us in London for a free, one-day, in-person experience built for organizations navigating the next wave of AI transformation. Get the clarity and confidence to implement AI at scale. Microsoft AI Tour London Event Details Oracle AI World Sun, Oct 25, 2026 \u00e2\u0080\u0093 Wed, Oct 28, 2026 Las Vegas, NV Oracle AI World brings the Oracle community together to explore how AI and other technology innovations are driving real business outcomes across industries. Oracle AI World Event Details AMD AI DevDay World Tour Thu, Oct 29, 2026 \u00e2\u0080\u0093 Tue, Mar 30, 2027 AMD AI DevDay World Tour is a free multi-city AI developer tour with hands-on workshops, technical talks, and ROCm certification. Register for a city near you. AMD AI DevDay World Tour Event Details Signal Processing Working Group (SPWG) Tue, Nov 03, 2026 \u00e2\u0080\u0093 Thu, Nov 05, 2026 AMD Dublin Office Join the Signal Processing Workgroup for a three-day workshop exploring high-performance DSP on AMD Versal\u00e2\u0084\u00a2 Adaptive SoCs and x86 Embedded APUs. Technical sessions cover advanced design techniques, the latest tools and libraries, real-time system optimization, and GPU-accelerated signal processing for system architects, developers, and RF designers. (NDA Required) Signal Processing Working Group (SPWG) Event Details Embedded AI Working Group (EAIWG) Tue, Nov 03, 2026 \u00e2\u0080\u0093 Wed, Nov 04, 2026 AMD Dublin Office Join AMD for a two-day EAIWG workshop designed for engineers, developers, and technical leaders building AI-powered embedded, edge, vision, and robotics solutions. Work with AMD experts in hands-on sessions covering embedded and physical AI, robotics, and agentic workflows - from software concept to hardware implementation. All necessary equipment is provided. Space is limited. Embedded AI Working Group (EAIWG) Event Details Supercomputing (SC26) Mon, Nov 16, 2026 \u00e2\u0080\u0093 Thu, Nov 19, 2026 Chicago, IL SC26 is where the HPC community comes together to make technological and research progress, enlighten and empower all people, eliminate barriers to opportunities, chart the course for computing\u00e2\u0080\u0099s impact in the world \u00e2\u0080\u0093 and we have fun doing it. (Booth #3028) Supercomputing (SC26) Event Details Microsoft Ignite Tue, Nov 17, 2026 \u00e2\u0080\u0093 Fri, Nov 20, 2026 San Francisco, CA Get the edge you need to drive impact in the era of AI. Microsoft Ignite is designed to help you grow your skills, build connections, and discover emerging technologies. (Vanguard Sponsor) Microsoft Ignite Event Details AWS re:Invent Tue, Dec 01, 2026 \u00e2\u0080\u0093 Sat, Dec 05, 2026 Las Vegas, NV AWS re:Invent is where the global cloud community unites to build the future. During a week of groundbreaking keynote announcements, hands-on technical sessions, and interactive learning opportunities, cloud pioneers and innovators build revolutionary solutions that change the world, from cloud migration to generative AI. (Diamond Sponsor) AWS re:Invent Event Details Adopt AI Thu, Dec 03, 2026 \u00e2\u0080\u0093 Fri, Dec 04, 2026 SAdopt AI is the official business continuation of the AI Action Summit, hosted at the iconic Grand Palais in Paris and bringing together global leaders shaping the future of AI. (Gold Sponsor) Adopt AI Event Details NeurIPS 2026 Sun, Dec 06, 2026 \u00e2\u0080\u0093 Sat, Dec 12, 2026 NeurIPS 2026 is the 40th Annual Conference on Neural Information Processing Systems and one of the world\u00e2\u0080\u0099s major interdisciplinary gatherings for artificial intelligence and machine learning research. Hosted at ICC Sydney, the seven-day event brings together academic research, commercial technology and practical AI implementation through conference presentations, tutorials, demonstrations, poster sessions, workshops, competitions and a professional industry exposition. NeurIPS 2026 Event Details Gitex 2026 Tue, Dec 08, 2026 \u00e2\u0080\u0093 Fri, Dec 11, 2026 Dubai, United Arab Emirates Showcasing the most frontier-pushing innovations from AI & quantum technologies to cybersecurity & advanced manufacturing to spark collaborations across future critical sectors.\u00c2 Gitex 2026 Event Details CES Wed, Jan 06, 2027 \u00e2\u0080\u0093 Sat, Jan 09, 2027 Las Vegas, NV Flip the switch on global business opportunity with CES, where we meet with partners, customers, media, investors, and policymakers from across the industry and the world all in one place. AMD is proudly featured throughout this event, including the Las Vegas Convention Center and Palazzo Towers. Join us at one of the most powerful tech events in the world. CES Event Details Cisco Live EMEA Mon, Feb 08, 2027 \u00e2\u0080\u0093 Fri, Feb 12, 2027 London, United Kingdom Discover how Cisco is revolutionizing the way infrastructure and data connect and protect organizations in the AI era. (Diamond Sponsor) Cisco Live EMEA Event Details Mobile World Congress Mon, Mar 01, 2027 \u00e2\u0080\u0093 Thu, Mar 04, 2027 Barcelona, Spain From eye-opening innovation to mind-expanding ideas, global policy to lasting partnerships, it all starts here. Whether you\u00e2\u0080\u0099re a key player in the connectivity ecosystem, adjacent industries or the wider world of tech, you\u00e2\u0080\u0099ll find all you need and more at MWC. AMD will be showcasing the future of AI in mobility in Hall 2. (Booth #2M61) Mobile World Congress Event Details OFC Sun, Mar 07, 2027 \u00e2\u0080\u0093 Thu, Mar 11, 2027 Los Angeles, CA Quantum Networking, AI, Data Center Connectivity and so much more! OFC is the premier global event for optical communications and networking, attracting attendees from around the world to a conference and exhibition that showcases the latest industry advancements and emerging technologies.\u00c2 Join AMD as we demonstrate advancements in network security, encryption and decryption using our latest adaptive devices. (Booth(s) K-854, K-757, K-755) OFC Event Details Embedded World Tue, Mar 16, 2027 \u00e2\u0080\u0093 Thu, Mar 18, 2027 Nuremberg, Germany Embedded World provides a global platform for the entire embedded community and offers unprecedented insight into the world of embedded systems -- from components and modules to operating systems, hardware and software design, M2M communication, services, and more. (Booth #5-135) Embedded World Event Details HIMSS Mon, Apr 05, 2027 \u00e2\u0080\u0093 Thu, Apr 08, 2027 Chicago, IL Healthcare\u00e2\u0080\u0099s Premier Event -- Global Brands. Groundbreaking Ideas. Growth Opportunities. Genuine Connections. All Under One Roof. HIMSS is the epicenter of healthcare technology where groundbreaking solutions meet visionary minds. (Booth #205) HIMSS Event Details LEAP Mon, Apr 12, 2027 \u00e2\u0080\u0093 Thu, Apr 15, 2027 Saudia Arabia LEAP brings together the international tech ecosystem at scale. Recognized as the world's most attended tech expo, this transformative four-day conference serves as a global focal point for AI breakthroughs, deep tech infrastructure, and massive venture capital. Attendees will connect with global tech brands, high-growth startup founders, and visionary thinkers shaping the next frontier of digital acceleration. LEAP Event Details Google Cloud Next Tue, Apr 13, 2027 \u00e2\u0080\u0093 Thu, Apr 15, 2027 Las Vegas, NV Where big ideas become reality. Next is for everyone. Whether you\u00e2\u0080\u0099re a developer, a data scientist, an IT leader, a security professional, or just passionate about all things tech, you\u00e2\u0080\u0099ll find tools, insights, and opportunities at Next that you won\u00e2\u0080\u0099t find anywhere else.\u00c2 (Premier Sponsor) Google Cloud Next Event Details VMware Explore Mon, May 03, 2027 \u00e2\u0080\u0093 Thu, May 06, 2027 Las Vegas, NV The established cloud event for IT professionals to advance their skills and credentials. Attendees can pursue advanced industry certifications, engage with technical solution architects, and participate in intensive Hands-on Labs. VMware Explore Event Details Dell Technologies World Mon, May 24, 2027 \u00e2\u0080\u0093 Thu, May 27, 2027 Las Vegas, NV We\u00e2\u0080\u0099re reshaping the future of business, together. Get ready for breaking announcements and innovations, visionary keynotes, non-stop learning opportunities, epic entertainment and unlimited networking \u00e2\u0080\u0093 all in one place. Dell Technologies World Event Details Red Hat Summit Tue, May 25, 2027 \u00e2\u0080\u0093 Thu, May 27, 2027 Boston, MA Where enterprise IT moves forward. Join AMD to uncover opportunities for your business, your customers, and yourself. Red Hat Summit Event Details Computex Tue, Jun 01, 2027 \u00e2\u0080\u0093 Fri, Jun 04, 2027 Taipei, Taiwan COMPUTEX has grown, transformed with the industry, and established its reputation as the world\u00e2\u0080\u0099s leading platform. AI is driving a revolution that is rapidly reshaping every aspect of computing and the technology industry. Hear how AMD, together with its partners, is pushing the limits in AI and high-performance computing and delivering end-to-end solutions for modern workloads. Computex Event Details Cisco Live Sun, Jun 06, 2027 \u00e2\u0080\u0093 Thu, Jun 10, 2027 Las Vegas, NV For over 36 years, Cisco Live has been the ultimate destination for IT practitioners. Supercharge your skills, explore the future of tech, build your network, and celebrate one another! Experience unparalleled learning, groundbreaking innovations, and powerful connections with Cisco\u00e2\u0080\u0099s partners, customers, and top experts. Cisco Live Event Details ISC Tue, Jun 08, 2027 \u00e2\u0080\u0093 Thu, Jun 10, 2027 Hamburg, Germany ISC 2027 connects scientists, engineers, and technology leaders to explore the future of high-performance computing. We will examine today\u00e2\u0080\u0099s breakthroughs in artificial intelligence, high performance computing and quantum technologies, as well as what lies ahead. ISC Event Details HPE Discover Mon, Jun 14, 2027 \u00e2\u0080\u0093 Thu, Jun 17, 2027 Las Vegas, NV Join AMD at HPE Discover Las Vegas 2027 to unlock new possibilities in networking, cloud, and AI and move your IT strategy forward with more clarity and confidence. HPE Discover Event Details Gamescom Mon, Aug 23, 2027 \u00e2\u0080\u0093 Sun, Aug 29, 2027 Cologne, Germany The world's largest leading event for computer and video games, bringing together the international gaming community and the entire games industry. The colossal week-long festival kicks off with dedicated developer tracks and the highly anticipated Opening Night Live showcase. The event unites global hardware manufacturers, AAA publishers, and indie studios with hundreds of thousands of dedicated fans for hands-on gameplay premieres, esports tournaments, and interactive consumer experiences. AI Infra Summit Tue, Aug 31, 2027 \u00e2\u0080\u0093 Thu, Sep 02, 2027 San Jose, CA The successor to the AI Hardware & Edge AI Summit, the AI Infra Summit covers AI infrastructure across silicon, systems, cloud and data infrastructure. As Silicon Valley\u00e2\u0080\u0099s premier event dedicated to full-stack infrastructure for agentic AI, this intensive three-day gathering shifts the focus away from superficial software use cases to solve actual physical deployment and operational challenges. Attendees will collaborate with thousands of infrastructure architects, GPU cloud operators, and systems engineering executives. AI Infra Summit Event Details IFA Fri, Sep 03, 2027 \u00e2\u0080\u0093 Tue, Sep 07, 2027 Berlin, Germany The world's largest tech event connecting consumer electronics, home appliances, and future tech. Celebrating over a century of digital disruption, this massive five-day public and trade exhibition serves as the global launching pad for intelligent home ecosystems, next-generation display technologies, and physical AI-driven consumer robotics. Attendees can experience hands-on product premieres from thousands of top-tier global brands before they hit retail shelves. IFA Event Details OCP Global Summit Mon, Oct 11, 2027 \u00e2\u0080\u0093 Thu, Oct 14, 2027 San Jose, CA The OCP Global Summit is the premier event uniting the most forward-thinking minds in open IT Ecosystem development. The Summit presents a unique platform for our community from around the globe to share their insights, foster partnerships and showcase cutting-edge advancements in open hardware and software. (Diamond Sponsor) OCP Global Summit Event Details Supercomputing (SC27) Sun, Nov 14, 2027 \u00e2\u0080\u0093 Fri, Nov 19, 2027 Denver, CO SC27 is where the HPC community comes together to make technological and research progress, enlighten and empower all people, eliminate barriers to opportunities, chart the course for computing\u00e2\u0080\u0099s impact in the world \u00e2\u0080\u0093 and we have fun doing it. Supercomputing (SC27) Event Details Annual Events AMD attends several events each year. See the most recent year\u00e2\u0080\u0099s information and previous years below. AMD Advancing AI Advancing AI is the AMD annual gathering for the global AI community, bringing developers, customers, and partners together to experience the latest in AI infrastructure, architecture, and development. Learn More CES Join AMD executives, alongside partners and customers, to hear how AMD is expanding its leadership across PCs and gaming, highlighting the breadth of the company\u00e2\u0080\u0099s high-performance computing and AI product portfolio. Learn More Footnotes DISCLAIMERS AND ATTRIBUTIONS Links to third party sites are provided for convenience and unless explicitly stated, AMD is not responsible for the contents of such linked sites and no endorsement is implied. Feedback AMD.com Feedback"
+    "text_excerpt": "Events Skip to main content AMD Website Accessibility Statement Explore the Latest AMD Events & Conferences Upcoming Events AMD participates in events throughout the year. Key upcoming events are listed below with links to more information when available. Oracle AI World Sun, Oct 25, 2026 \u00e2\u0080\u0093 Wed, Oct 28, 2026 Las Vegas, NV Oracle AI World brings the Oracle community together to explore how AI and other technology innovations are driving real business outcomes across industries. Oracle AI World Event Details AMD AI DevDay World Tour Thu, Oct 29, 2026 \u00e2\u0080\u0093 Tue, Mar 30, 2027 AMD AI DevDay World Tour is a free multi-city AI developer tour with hands-on workshops, technical talks, and ROCm certification. Register for a city near you. AMD AI DevDay World Tour Event Details Signal Processing Working Group (SPWG) Tue, Nov 03, 2026 \u00e2\u0080\u0093 Thu, Nov 05, 2026 AMD Dublin Office Join the Signal Processing Workgroup for a three-day workshop exploring high-performance DSP on AMD Versal\u00e2\u0084\u00a2 Adaptive SoCs and x86 Embedded APUs. Technical sessions cover advanced design techniques, the latest tools and libraries, real-time system optimization, and GPU-accelerated signal processing for system architects, developers, and RF designers. (NDA Required) Signal Processing Working Group (SPWG) Event Details Embedded AI Working Group (EAIWG) Tue, Nov 03, 2026 \u00e2\u0080\u0093 Wed, Nov 04, 2026 AMD Dublin Office Join AMD for a two-day EAIWG workshop designed for engineers, developers, and technical leaders building AI-powered embedded, edge, vision, and robotics solutions. Work with AMD experts in hands-on sessions covering embedded and physical AI, robotics, and agentic workflows - from software concept to hardware implementation. All necessary equipment is provided. Space is limited. Embedded AI Working Group (EAIWG) Event Details Supercomputing (SC26) Mon, Nov 16, 2026 \u00e2\u0080\u0093 Thu, Nov 19, 2026 Chicago, IL SC26 is where the HPC community comes together to make technological and research progress, enlighten and empower all people, eliminate barriers to opportunities, chart the course for computing\u00e2\u0080\u0099s impact in the world \u00e2\u0080\u0093 and we have fun doing it. (Booth #3028) Supercomputing (SC26) Event Details Microsoft Ignite Tue, Nov 17, 2026 \u00e2\u0080\u0093 Fri, Nov 20, 2026 San Francisco, CA Get the edge you need to drive impact in the era of AI. Microsoft Ignite is designed to help you grow your skills, build connections, and discover emerging technologies. (Vanguard Sponsor) Microsoft Ignite Event Details AWS re:Invent Tue, Dec 01, 2026 \u00e2\u0080\u0093 Sat, Dec 05, 2026 Las Vegas, NV AWS re:Invent is where the global cloud community unites to build the future. During a week of groundbreaking keynote announcements, hands-on technical sessions, and interactive learning opportunities, cloud pioneers and innovators build revolutionary solutions that change the world, from cloud migration to generative AI. (Diamond Sponsor) AWS re:Invent Event Details Adopt AI Thu, Dec 03, 2026 \u00e2\u0080\u0093 Fri, Dec 04, 2026 SAdopt AI is the official business continuation of the AI Action Summit, hosted at the iconic Grand Palais in Paris and bringing together global leaders shaping the future of AI. (Gold Sponsor) Adopt AI Event Details NeurIPS 2026 Sun, Dec 06, 2026 \u00e2\u0080\u0093 Sat, Dec 12, 2026 NeurIPS 2026 is the 40th Annual Conference on Neural Information Processing Systems and one of the world\u00e2\u0080\u0099s major interdisciplinary gatherings for artificial intelligence and machine learning research. Hosted at ICC Sydney, the seven-day event brings together academic research, commercial technology and practical AI implementation through conference presentations, tutorials, demonstrations, poster sessions, workshops, competitions and a professional industry exposition. NeurIPS 2026 Event Details Gitex 2026 Tue, Dec 08, 2026 \u00e2\u0080\u0093 Fri, Dec 11, 2026 Dubai, United Arab Emirates Showcasing the most frontier-pushing innovations from AI & quantum technologies to cybersecurity & advanced manufacturing to spark collaborations across future critical sectors.\u00c2 Gitex 2026 Event Details CES Wed, Jan 06, 2027 \u00e2\u0080\u0093 Sat, Jan 09, 2027 Las Vegas, NV Flip the switch on global business opportunity with CES, where we meet with partners, customers, media, investors, and policymakers from across the industry and the world all in one place. AMD is proudly featured throughout this event, including the Las Vegas Convention Center and Palazzo Towers. Join us at one of the most powerful tech events in the world. CES Event Details Cisco Live EMEA Mon, Feb 08, 2027 \u00e2\u0080\u0093 Fri, Feb 12, 2027 London, United Kingdom Discover how Cisco is revolutionizing the way infrastructure and data connect and protect organizations in the AI era. (Diamond Sponsor) Cisco Live EMEA Event Details Mobile World Congress Mon, Mar 01, 2027 \u00e2\u0080\u0093 Thu, Mar 04, 2027 Barcelona, Spain From eye-opening innovation to mind-expanding ideas, global policy to lasting partnerships, it all starts here. Whether you\u00e2\u0080\u0099re a key player in the connectivity ecosystem, adjacent industries or the wider world of tech, you\u00e2\u0080\u0099ll find all you need and more at MWC. AMD will be showcasing the future of AI in mobility in Hall 2. (Booth #2M61) Mobile World Congress Event Details OFC Sun, Mar 07, 2027 \u00e2\u0080\u0093 Thu, Mar 11, 2027 Los Angeles, CA Quantum Networking, AI, Data Center Connectivity and so much more! OFC is the premier global event for optical communications and networking, attracting attendees from around the world to a conference and exhibition that showcases the latest industry advancements and emerging technologies.\u00c2 Join AMD as we demonstrate advancements in network security, encryption and decryption using our latest adaptive devices. (Booth(s) K-854, K-757, K-755) OFC Event Details Embedded World Tue, Mar 16, 2027 \u00e2\u0080\u0093 Thu, Mar 18, 2027 Nuremberg, Germany Embedded World provides a global platform for the entire embedded community and offers unprecedented insight into the world of embedded systems -- from components and modules to operating systems, hardware and software design, M2M communication, services, and more. (Booth #5-135) Embedded World Event Details HIMSS Mon, Apr 05, 2027 \u00e2\u0080\u0093 Thu, Apr 08, 2027 Chicago, IL Healthcare\u00e2\u0080\u0099s Premier Event -- Global Brands. Groundbreaking Ideas. Growth Opportunities. Genuine Connections. All Under One Roof. HIMSS is the epicenter of healthcare technology where groundbreaking solutions meet visionary minds. (Booth #205) HIMSS Event Details LEAP Mon, Apr 12, 2027 \u00e2\u0080\u0093 Thu, Apr 15, 2027 Saudia Arabia LEAP brings together the international tech ecosystem at scale. Recognized as the world's most attended tech expo, this transformative four-day conference serves as a global focal point for AI breakthroughs, deep tech infrastructure, and massive venture capital. Attendees will connect with global tech brands, high-growth startup founders, and visionary thinkers shaping the next frontier of digital acceleration. LEAP Event Details Google Cloud Next Tue, Apr 13, 2027 \u00e2\u0080\u0093 Thu, Apr 15, 2027 Las Vegas, NV Where big ideas become reality. Next is for everyone. Whether you\u00e2\u0080\u0099re a developer, a data scientist, an IT leader, a security professional, or just passionate about all things tech, you\u00e2\u0080\u0099ll find tools, insights, and opportunities at Next that you won\u00e2\u0080\u0099t find anywhere else.\u00c2 (Premier Sponsor) Google Cloud Next Event Details VMware Explore Mon, May 03, 2027 \u00e2\u0080\u0093 Thu, May 06, 2027 Las Vegas, NV The established cloud event for IT professionals to advance their skills and credentials. Attendees can pursue advanced industry certifications, engage with technical solution architects, and participate in intensive Hands-on Labs. VMware Explore Event Details Dell Technologies World Mon, May 24, 2027 \u00e2\u0080\u0093 Thu, May 27, 2027 Las Vegas, NV We\u00e2\u0080\u0099re reshaping the future of business, together. Get ready for breaking announcements and innovations, visionary keynotes, non-stop learning opportunities, epic entertainment and unlimited networking \u00e2\u0080\u0093 all in one place. Dell Technologies World Event Details Red Hat Summit Tue, May 25, 2027 \u00e2\u0080\u0093 Thu, May 27, 2027 Boston, MA Where enterprise IT moves forward. Join AMD to uncover opportunities for your business, your customers, and yourself. Red Hat Summit Event Details Computex Tue, Jun 01, 2027 \u00e2\u0080\u0093 Fri, Jun 04, 2027 Taipei, Taiwan COMPUTEX has grown, transformed with the industry, and established its reputation as the world\u00e2\u0080\u0099s leading platform. AI is driving a revolution that is rapidly reshaping every aspect of computing and the technology industry. Hear how AMD, together with its partners, is pushing the limits in AI and high-performance computing and delivering end-to-end solutions for modern workloads. Computex Event Details Cisco Live Sun, Jun 06, 2027 \u00e2\u0080\u0093 Thu, Jun 10, 2027 Las Vegas, NV For over 36 years, Cisco Live has been the ultimate destination for IT practitioners. Supercharge your skills, explore the future of tech, build your network, and celebrate one another! Experience unparalleled learning, groundbreaking innovations, and powerful connections with Cisco\u00e2\u0080\u0099s partners, customers, and top experts. Cisco Live Event Details ISC Tue, Jun 08, 2027 \u00e2\u0080\u0093 Thu, Jun 10, 2027 Hamburg, Germany ISC 2027 connects scientists, engineers, and technology leaders to explore the future of high-performance computing. We will examine today\u00e2\u0080\u0099s breakthroughs in artificial intelligence, high performance computing and quantum technologies, as well as what lies ahead. ISC Event Details HPE Discover Mon, Jun 14, 2027 \u00e2\u0080\u0093 Thu, Jun 17, 2027 Las Vegas, NV Join AMD at HPE Discover Las Vegas 2027 to unlock new possibilities in networking, cloud, and AI and move your IT strategy forward with more clarity and confidence. HPE Discover Event Details Gamescom Mon, Aug 23, 2027 \u00e2\u0080\u0093 Sun, Aug 29, 2027 Cologne, Germany The world's largest leading event for computer and video games, bringing together the international gaming community and the entire games industry. The colossal week-long festival kicks off with dedicated developer tracks and the highly anticipated Opening Night Live showcase. The event unites global hardware manufacturers, AAA publishers, and indie studios with hundreds of thousands of dedicated fans for hands-on gameplay premieres, esports tournaments, and interactive consumer experiences. AI Infra Summit Tue, Aug 31, 2027 \u00e2\u0080\u0093 Thu, Sep 02, 2027 San Jose, CA The successor to the AI Hardware & Edge AI Summit, the AI Infra Summit covers AI infrastructure across silicon, systems, cloud and data infrastructure. As Silicon Valley\u00e2\u0080\u0099s premier event dedicated to full-stack infrastructure for agentic AI, this intensive three-day gathering shifts the focus away from superficial software use cases to solve actual physical deployment and operational challenges. Attendees will collaborate with thousands of infrastructure architects, GPU cloud operators, and systems engineering executives. AI Infra Summit Event Details IFA Fri, Sep 03, 2027 \u00e2\u0080\u0093 Tue, Sep 07, 2027 Berlin, Germany The world's largest tech event connecting consumer electronics, home appliances, and future tech. Celebrating over a century of digital disruption, this massive five-day public and trade exhibition serves as the global launching pad for intelligent home ecosystems, next-generation display technologies, and physical AI-driven consumer robotics. Attendees can experience hands-on product premieres from thousands of top-tier global brands before they hit retail shelves. IFA Event Details OCP Global Summit Mon, Oct 11, 2027 \u00e2\u0080\u0093 Thu, Oct 14, 2027 San Jose, CA The OCP Global Summit is the premier event uniting the most forward-thinking minds in open IT Ecosystem development. The Summit presents a unique platform for our community from around the globe to share their insights, foster partnerships and showcase cutting-edge advancements in open hardware and software. (Diamond Sponsor) OCP Global Summit Event Details Supercomputing (SC27) Sun, Nov 14, 2027 \u00e2\u0080\u0093 Fri, Nov 19, 2027 Denver, CO SC27 is where the HPC community comes together to make technological and research progress, enlighten and empower all people, eliminate barriers to opportunities, chart the course for computing\u00e2\u0080\u0099s impact in the world \u00e2\u0080\u0093 and we have fun doing it. Supercomputing (SC27) Event Details Annual Events AMD attends several events each year. See the most recent year\u00e2\u0080\u0099s information and previous years below. AMD Advancing AI Advancing AI is the AMD annual gathering for the global AI community, bringing developers, customers, and partners together to experience the latest in AI infrastructure, architecture, and development. Learn More CES Join AMD executives, alongside partners and customers, to hear how AMD is expanding its leadership across PCs and gaming, highlighting the breadth of the company\u00e2\u0080\u0099s high-performance computing and AI product portfolio. Learn More Footnotes DISCLAIMERS AND ATTRIBUTIONS Links to third party sites are provided for convenience and unless explicitly stated, AMD is not responsible for the contents of such linked sites and no endorsement is implied. Feedback AMD.com Feedback"
   },
   "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm": {
     "ticker": "SNDK",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm"
   },
   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm": {
     "ticker": "IREN",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm"
   },
   "https://www.soundhound.com/newsroom/soundhound-ai-to-showcase-ai-agents-for-banking-and-financial-services-at-money20-20-usa-2026": {
     "ticker": "SOUN",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "ad8c0c6f4040e86b63bdde256160eaf9b0c831b1d6f5d521e8cd324fd63471ce",
     "changed": false,
     "status": "Page fetched",
@@ -223,8 +223,8 @@
   },
   "https://rocketlabcorp.com/missions/launches/index.jsp": {
     "ticker": "RKLB",
-    "last_attempt": "2026-10-22T00:41:03.044285+00:00",
-    "last_success": "2026-10-22T00:41:03.044285+00:00",
+    "last_attempt": "2026-10-22T17:58:39.888297+00:00",
+    "last_success": "2026-10-22T17:58:39.888297+00:00",
     "hash": "4766e3a0fe36df0bfe4694ed87a749fa66e604953fafe5e55d1d897ea16d8d53",
     "changed": false,
     "status": "Page fetched",
