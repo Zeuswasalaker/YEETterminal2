@@ -2,6 +2,11 @@
 import streamlit as st
 
 RELEASES = [
+    ('October 22, 2026', 'Fresh sector flow and extended-hours Prestige receipts', [
+        ('🥇 Prestige', 'Saved completed price checks bring the published tally to 30 ITM hits and 6 verified OTM expirations: 83.3% of resolved plays. Five current setups and seven Still Open carryovers. Premarket and after-hours count; an ITM touch is not a trading profit.'),
+        ('🍊 Orange Swan and Index WARI', 'Semis and BABA are more call-heavy than the same-session SPY/QQQ sample. Most BABA call premium is June 2028. Magic is 54% call premium while SPY is lower, a provisional bullish divergence. These are filtered samples, not total market capital inflows.'),
+        ('🪃 RAMBO and Founder coverage', 'All six supplied broad filters refreshed, producing 214 distinct displayed records after deduplication. MRNA clinical/investor events added to RAMBO with mixed call/put evidence. NVIDIA Grace Hopper conference cancellation and October 28 online careers replacement corrected. Founder META, COHR and MRNA receive new broad-filter observations; dedicated pending checks remain pending.'),
+        ('🧭 PARI', 'All five completed-candle caches refreshed. Five-minute momentum is rising; ten-minute, hourly and four-hour readings remain defensive. Each frame shows its own candle timestamp.')]),
     ('October 21, 2026', 'Fresh flow, three more receipts and updated price context', [
         ('🥇 Prestige and Still Open', 'Three published 774 calls, expiring October 21, 23 and 26, reached ITM in saved October 21 observations. The published tally is 25 ITM hits and 5 verified OTM expirations, or 83.3% of resolved plays. At the 12:27 Pacific price check, nine current setups and four published Still Open carryovers remain. Extended-hours observations count; this is an ITM-touch record, not an option-profit rate.'),
         ('🐋 WARI and Orange Swan', 'Magic has 279 distinct October 21 alerts through 12:04 Pacific, approximately 5.28 million dollars calls and 5.02 million dollars puts. Rising SPY and slightly call-heavy captured flow produce no opposing signal in the provisional formula. Orange Swan has 71 alerts through 12:04 Pacific, with defensive SPY alongside call-heavy QQQ, semis and China captures.'),
