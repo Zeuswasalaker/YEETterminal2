@@ -60,7 +60,7 @@ def apply_lifecycle(snapshot, previous=None):
         if activated:
             card['returned']=activated
             card['prestige_at']=activated
-        last_time=result.get('source_time','')
+        last_time=result.get('evaluated_at',result.get('source_time',''))
         gap=otm(float(result['spot']))
         if saved_retirement.get('retired_at') and saved_retirement['retired_at']<card.get('retired_at','9999'):
             card.update(saved_retirement)
@@ -101,7 +101,7 @@ def prestige_performance(snapshot):
     timestamps in this snapshot are Pacific. No end-of-day price is invented.
     """
     snapshot=apply_lifecycle(snapshot)
-    as_of=snapshot.get('source_time','')
+    as_of=snapshot.get('evaluated_at',snapshot.get('source_time',''))
     observations=snapshot.get('price_observations',[])
     qualified={}
     for card in snapshot.get('cards',[]):
@@ -115,7 +115,7 @@ def prestige_performance(snapshot):
     for card in qualified.values():
         start=card['prestige_at']
         deadline=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')+' 13:15:00'
-        cutoff=min(as_of,deadline)
+        cutoff=min(snapshot.get('source_time',''),deadline)
         history=sorted((o for o in observations if start<o['time']<=cutoff),key=lambda o:o['time'])
         def itm(price):
             return price>card['strike'] if card['type']=='call' else price<card['strike']
@@ -310,7 +310,8 @@ def _render(admin):
         deadline=datetime.strptime(row['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')+' 13:15:00'
         cutoff=min(snapshot.get('source_time',''),deadline)
         if start>cutoff:
-            row.update(outcome='Not eligible',observed_at='',observed_spot=None)
+            outcome=('Not eligible' if start>deadline else 'Open' if snapshot.get('evaluated_at',snapshot.get('source_time',''))<deadline else 'Outcome unverified')
+            row.update(outcome=outcome,observed_at='',observed_spot=None)
         else:
             matching=next((c for c in snapshot.get('cards',[]) if c['contract']==row['contract']),None)
             if matching:
@@ -321,7 +322,7 @@ def _render(admin):
                     key=lambda o:o['time'])
                 if hits:
                     row.update(outcome='ITM hit',observed_at=hits[0]['time'],observed_spot=float(hits[0]['spot']))
-                elif snapshot.get('source_time','')<deadline:
+                elif snapshot.get('evaluated_at',snapshot.get('source_time',''))<deadline:
                     row.update(outcome='Open',observed_at='',observed_spot=None)
                 else:
                     closing=[o for o in snapshot.get('price_observations',[])
@@ -343,6 +344,8 @@ def _render(admin):
         '<div class="prestige-stat">'+escape(label)+'<strong>'+escape(value)+'</strong></div>'
         for label,value in metrics)+'</div>',unsafe_allow_html=True)
     st.caption(f"Published cohort: {len(published)} unique contracts · {sum(r['outcome']=='Open' for r in published)} unresolved open · {sum(r['outcome']=='Outcome unverified' for r in published)} expired outcomes unverified · {sum(r['outcome']=='Not eligible' for r in published)} published too late · Price checks through {snapshot.get('source_time','unknown')} Pacific")
+    if snapshot.get('evaluated_at'):
+        st.caption(f"Reconciled {snapshot['evaluated_at']} Pacific using saved observations only. Board prices remain as of the price-check time above.")
     st.caption('Current setups qualify on the latest board. Still Open contains only previously published, unexpired plays without a verified ITM hit, outside the current setup board. Verified ITM hits move to Completed ITM Hits immediately, even if their expiration is in the future. These lists do not represent actual subscriber positions.')
     st.caption('Premarket and after-hours ITM checks count after qualification and before expiration. The resolved published ITM rate is post-publication hits ÷ (post-publication hits + verified OTM expirations); unresolved, unverified and too-late publications are excluded. This is not the percentage of all published contracts that hit. Repository publication is documented, but this is not a continuous live track record or an option-profit rate.')
     if st.button(f'👀 Still Open ({len(earlier)})  ' + ('▲ Hide cards' if st.session_state.get('prestige_still_open_visible',False) else '▼ Show cards'), key='prestige_still_open_toggle', use_container_width=True):
@@ -458,3 +461,4 @@ def _render(admin):
         st.write(snapshot.get('coverage_note','Prices are saved observations; crossings between checks may be missed.'))
         st.write('Premarket and after-hours SPY crossings count toward retirement even while options are closed. A strike crossing does not establish an executable option profit. Comeback sequences and ITM retirement use saved prices and minute closes; brief intraminute crossings can be missed. This is a research board, not tested winning odds.')
     admin_upload(admin,snapshot)
+
