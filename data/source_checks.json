@@ -1,8 +1,8 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
     "status": "Page fetched",
@@ -10,8 +10,8 @@
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "27934131025007a887630b131e3607f9a46ca56d5f1500cfbf306aafd15ed3cc",
     "changed": false,
     "status": "Page fetched",
@@ -25,8 +25,8 @@
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "b9bd4755a2d106d1c1a3102ef08a96213d68cbde81e6176e10634e20e2f4b354",
     "changed": false,
     "status": "Page fetched",
@@ -34,17 +34,17 @@
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "f92e0ba2dcde8b24a83e8ad3c3a6ac0b4a2eb3405a8f98b0e5db2286267596c0",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Oracle AI World 2026 Skip to content Accessibility Policy Oracle AI World Log in Register Oracle AI World: Las Vegas is sold out October 25\u201328 | Las Vegas The in-person event is full, but you can still join us online for free with On Air. Watch keynotes, product spotlights, and Oracle TV live, then catch select sessions on demand. Register now to be part of it. Register now for Oracle AI World Las Vegas doors open in: Days : Hours : Minutes Where AI meets business outcomes Oracle AI World brings the Oracle community together to explore how AI and other technology innovations are driving real business outcomes across industries. Discover what\u2019s new through: Mainstage keynotes to hear the latest directly from Oracle leadership Product demonstrations Customer case studies Technical learning and training sessions And much more Join us in Las Vegas for the world\u2019s leading AI event to connect with Oracle product, technology, and implementation experts\u2014and with peers who are putting AI to work in their businesses. This week\u2019s highlights Oracle AI World starts soon. Join On Air for free Register now Get ready for Oracle AI World Plan your trip Celebrate at The Party See who\u2019s performing Find your learning path Explore ways to learn See Oracle AI World\u2019s featured speakers View speakers See what\u2019s happening at the AI World Hub Explore the Hub Get the most out of Oracle AI World Explore the latest Oracle product and technology innovations. Build new skills. Gain fresh ideas across key technology areas to help your organization boost productivity and deliver outcomes. View all sessions Oracle Cloud Infrastructure Explore OCI Oracle AI Database Explore AI Database Oracle AI Data Platform Explore AI Data Platform Oracle Fusion Cloud Applications Explore applications Oracle Industry Solutions Explore Industry Solutions Oracle Customer Success Services Explore Customer Success Services Go through the agenda Discover all the ways to learn, connect, and recharge. Details are subject to change. Sunday October 25 7:30 AM \u2013 6:30 PM Registration Open 11:00 AM, 1:00 PM, 2:00 PM, 3:00 PM, 4:00 PM AI World orientation 9:00 AM \u2013 5:00 PM Oracle University training 12:00 PM \u2013 5:00 PM AI Agent Hackathons 12:00 PM \u2013 5:30 PM Hands-on labs and Product bootcamps 3:00 PM \u2013 6:30 PM Partner Success Summit Monday October 26 7:00 AM \u2013 7:00 PM Registration Open 7:30 AM \u2013 9:00 AM Breakfast 8:00 AM \u2013 9:30 AM Hands-on labs 8:00 AM \u2013 9:30 AM Sessions 9:30 AM \u2013 11:00 AM Keynote 11:00 AM \u2013 7:00 PM AI World Hub Open 11:30 AM \u2013 5:30 PM Sessions 11:30 AM \u2013 12:15 PM Product Spotlight Session 12:00 PM \u2013 2:00 PM Lunch 2:00 PM \u2013 2:45 PM Product Spotlight Session 5:00 PM \u2013 7:00 PM Welcome reception Tuesday October 27 6:30 AM \u2013 10:00 PM Registration Open 7:00 AM \u2013 8:30 AM Breakfast 8:00 AM \u2013 6:00 PM AI World Hub Open 8:00 AM \u2013 3:30 PM Sessions 9:00 AM \u2013 10:00 AM Keynote 10:30 AM \u2013 11:15 AM Product Spotlight Session 12:00 PM \u2013 2:00 PM Lunch 1:00 PM \u2013 1:45 PM Product Spotlight Session 3:30 PM \u2013 5:00 PM Keynote 5:00 PM \u2013 6:00 PM Dedicated Hub Hour 9:00 PM \u2013 12:00 AM The Party: Maroon 5 Wednesday October 28 7:00 AM \u2013 1:30 PM Registration Open 7:30 AM \u2013 9:00 AM Breakfast 9:00 AM \u2013 11:00 AM Codex and Oracle Hackathon 9:00 AM \u2013 2:00 PM AI World Hub Open 9:00 AM \u2013 2:00 PM Sessions 12:15 PM \u2013 1:30 PM Lunch Discover the opportunities Previous Slide play / pause slider Next Slide Thank you to our Global sponsors Global Innovator Global Accelerator Global Navigator Global Value Driver Watch Oracle AI World live for free Las Vegas is sold out. Join On Air for live keynotes, product spotlights, and Oracle TV, plus select content on demand. Register for On Air Watch Oracle AI World for free Explore On Air Plan your trip View the Planning Guide Frequently asked questions Get answers Follow Oracle AI World on social media #AIWorld \u00a9 2026 Oracle Event Terms and Conditions Privacy / Do Not Sell My Info Ad Choices"
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "fc1c0d25e3e6e7d1f1138de329cf3c751d5c09fb8c98aaea209dd46fcac080d9",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +52,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "TSEM",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
@@ -61,8 +61,8 @@
   },
   "https://immunitybio.com/immunitybio-to-participate-in-the-piper-sandler-virtual-oncology-symposium/": {
     "ticker": "IBRX",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "6cf1e9324dd0adbc6abcf77738546183b2a2ef2620fc22af277fd51b5ec3e0ba",
     "changed": false,
     "status": "Page fetched",
@@ -70,8 +70,8 @@
   },
   "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx": {
     "ticker": "BLDR",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "0fb28afb384c644dbee58d2a1e3df9f4128bc86241628ee036dc40953cf94af8",
     "changed": false,
     "status": "Page fetched",
@@ -79,8 +79,8 @@
   },
   "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx": {
     "ticker": "ONTO",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "a53efffa67449e711c2ba7dc798b21cdbd5a6a5ba2d8ec58dc62eb091e243cc2",
     "changed": false,
     "status": "Page fetched",
@@ -88,14 +88,14 @@
   },
   "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology": {
     "ticker": "ABVX",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology"
   },
   "https://max.adobe.com/": {
     "ticker": "ADBE",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "4a75fdfab08b7769e8360bc5670be10ee579a0acd8760c22719016d0177938c0",
     "changed": false,
     "status": "Page fetched",
@@ -103,20 +103,20 @@
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0": {
     "ticker": "CRSP",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0"
   },
   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-host-qubits-asia-2026-in-seoul/": {
     "ticker": "QBTS",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "3231119b3d1f02a5c3912f80a39765eb88cdbb3660421db91c51023a85d4b98c",
     "changed": false,
     "status": "Page fetched",
@@ -124,14 +124,14 @@
   },
   "https://www.servicenow.com/events/nowdev.html": {
     "ticker": "NOW",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://www.elastic.co/events/elasticon": {
     "ticker": "ESTC",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "5316e17ddbcf9aef63d1679681f8b7654b42aa4dd3410642c887cb61d13e8e84",
     "changed": false,
     "status": "Page fetched",
@@ -139,20 +139,20 @@
   },
   "https://www.strategy.com/mstr/vote": {
     "ticker": "MSTR",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.strategy.com/mstr/vote"
   },
   "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm": {
     "ticker": "VIAV",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
   },
   "https://investor.tsmc.com/english/financial-calendar": {
     "ticker": "TSM",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "7f7f96d56ec16fc7deadd5e6efd25398f2b9ab68b308cb38696731fa654fc1a4",
     "changed": false,
     "status": "Page fetched",
@@ -160,8 +160,8 @@
   },
   "https://www.nvidia.com/en-eu/gtc/faq/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "559974d502d81a3dacb2d5cef4cf8ae45959c527cf74fb8d6da92f7196517ec1",
     "changed": false,
     "status": "Page fetched",
@@ -169,8 +169,8 @@
   },
   "https://www.nvidia.com/en-us/events/supercomputing/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "0bb856d1e413d0202e1b089eeb5099ddb520f66916709af1c21816d668a7d30c",
     "changed": false,
     "status": "Page fetched",
@@ -178,8 +178,8 @@
   },
   "https://investor.accenture.com/news-and-events/events-calendar": {
     "ticker": "ACN",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "52cc3e69cdc21b7cd4a3646f32ae88d66346f06e68f45b336ae117588f49f164",
     "changed": false,
     "status": "Page fetched",
@@ -187,14 +187,14 @@
   },
   "https://www.supermicro.com/en/newsroom": {
     "ticker": "SMCI",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.supermicro.com/en/newsroom"
   },
   "https://www.amd.com/en/corporate/events.html": {
     "ticker": "AMD",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "8f6a81d751985e5f0ce83c2d25cb36375c4d950ec13714216b1b8e93efde3770",
     "changed": false,
     "status": "Page fetched",
@@ -202,20 +202,20 @@
   },
   "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm": {
     "ticker": "SNDK",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm"
   },
   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm": {
     "ticker": "IREN",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm"
   },
   "https://www.soundhound.com/newsroom/soundhound-ai-to-showcase-ai-agents-for-banking-and-financial-services-at-money20-20-usa-2026": {
     "ticker": "SOUN",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "d2a8305059a5bcb6dcb4929d2dc9a8d00d64f03c4c2e5f4d61cf597561337833",
     "changed": false,
     "status": "Page fetched",
@@ -223,8 +223,8 @@
   },
   "https://rocketlabcorp.com/missions/launches/index.jsp": {
     "ticker": "RKLB",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "4766e3a0fe36df0bfe4694ed87a749fa66e604953fafe5e55d1d897ea16d8d53",
     "changed": false,
     "status": "Page fetched",
@@ -232,8 +232,8 @@
   },
   "https://www.nasdaq.com/press-release/moderna-announces-late-breaking-data-be-presented-esmo-congress-2026-2026-09-21": {
     "ticker": "MRNA",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
-    "last_success": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
+    "last_success": "2026-10-24T00:39:42.196265+00:00",
     "hash": "724d5c9ee0943d1598a4f138e9ae440d41b2332a30ee3a90baca2e15e22691da",
     "changed": false,
     "status": "Page fetched",
@@ -241,7 +241,7 @@
   },
   "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm": {
     "ticker": "MRNA",
-    "last_attempt": "2026-10-23T17:52:42.191471+00:00",
+    "last_attempt": "2026-10-24T00:39:42.196265+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm"
   }
