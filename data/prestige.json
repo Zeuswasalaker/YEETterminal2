@@ -1,10 +1,10 @@
 {
   "source": "Saved Unusual Whales SPY Magic alerts and Yahoo Finance SPY 1-minute prices including extended hours",
-  "captured_at": "2026-10-29T14:05:26.954262+00:00",
-  "source_time": "2026/10/29 10:22:59",
-  "spot": 768.4000244140625,
+  "captured_at": "2026-10-29T17:51:19.765166+00:00",
+  "source_time": "2026/10/29 10:47:59",
+  "spot": 767.1699829101562,
   "coverage_start": "2026/10/12 10:47:23",
-  "alert_count": 1337,
+  "alert_count": 1492,
   "cards": [
     {
       "contract": "770c 10/15/2026",
@@ -2412,10 +2412,10 @@
       "type": "call",
       "expiry": "10/30/2026",
       "first": "2026/10/14 10:32:55",
-      "alerts": 2,
-      "last": "2026/10/28 12:22:24",
-      "last_premium": "$68K",
-      "last_price": "$3.39",
+      "alerts": 15,
+      "last": "2026/10/29 10:36:53",
+      "last_premium": "$18K",
+      "last_price": "$1.05",
       "last_side": "ASK",
       "status": "Current Prestige",
       "classification_audit": [
@@ -4826,12 +4826,12 @@
       "strike": 768,
       "expiry": "11/02/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 3,
       "first": "2026/10/20 06:54:03",
-      "last": "2026/10/26 10:54:36",
-      "last_side": "ASK",
-      "last_premium": "$64K",
-      "last_price": "$4.72",
+      "last": "2026/10/29 10:46:44",
+      "last_side": "-",
+      "last_premium": "$52K",
+      "last_price": "$3.45",
       "latest_session_alert_count": 1,
       "classification_audit": [
         {
@@ -5040,12 +5040,12 @@
       "strike": 768.0,
       "expiry": "11/02/2026",
       "status": "Current Prestige",
-      "alerts": 4,
+      "alerts": 6,
       "first": "2026/10/21 07:21:57",
-      "last": "2026/10/29 06:36:57",
-      "last_side": "ASK",
-      "last_premium": "$37K",
-      "last_price": "$3.67",
+      "last": "2026/10/29 10:39:33",
+      "last_side": "-",
+      "last_premium": "$31K",
+      "last_price": "$3.13",
       "latest_session_alert_count": 1,
       "classification_audit": [
         {
@@ -5069,12 +5069,12 @@
       "strike": 769.0,
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 28,
       "first": "2026/10/20 13:01:51",
-      "last": "2026/10/28 13:11:32",
+      "last": "2026/10/29 10:03:56",
       "last_side": "ASK",
-      "last_premium": "$24K",
-      "last_price": "$2.37",
+      "last_premium": "$77K",
+      "last_price": "$2.32",
       "latest_session_alert_count": 1,
       "classification_audit": [
         {
@@ -5095,12 +5095,12 @@
       "strike": 768.0,
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 8,
+      "alerts": 27,
       "first": "2026/10/20 11:45:01",
-      "last": "2026/10/29 06:49:20",
+      "last": "2026/10/29 10:36:21",
       "last_side": "ASK",
-      "last_premium": "$30K",
-      "last_price": "$2.86",
+      "last_premium": "$39K",
+      "last_price": "$2.27",
       "latest_session_alert_count": 1,
       "classification_audit": [
         {
@@ -7114,12 +7114,12 @@
       "type": "call",
       "expiry": "10/30/2026",
       "status": "Current Prestige",
-      "alerts": 1,
+      "alerts": 18,
       "first": "2026/10/26 10:16:59",
-      "last": "2026/10/26 10:16:59",
+      "last": "2026/10/29 10:37:31",
       "last_side": "ASK",
-      "last_premium": "$577K",
-      "last_price": "$3.61",
+      "last_premium": "$35K",
+      "last_price": "$1.76",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7526,12 +7526,12 @@
       "type": "put",
       "expiry": "10/30/2026",
       "status": "Current Prestige",
-      "alerts": 4,
+      "alerts": 9,
       "first": "2026/10/27 08:11:47",
-      "last": "2026/10/27 10:20:19",
+      "last": "2026/10/29 10:47:35",
       "last_side": "ASK",
-      "last_premium": "$31K",
-      "last_price": "$3.12",
+      "last_premium": "$57K",
+      "last_price": "$1.90",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7651,12 +7651,12 @@
       "type": "call",
       "expiry": "11/03/2026",
       "status": "Watching",
-      "alerts": 2,
+      "alerts": 8,
       "first": "2026/10/27 10:07:36",
-      "last": "2026/10/27 11:51:57",
+      "last": "2026/10/29 09:32:15",
       "last_side": "ASK",
-      "last_premium": "$56K",
-      "last_price": "$5.57",
+      "last_premium": "$91K",
+      "last_price": "$3.72",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7701,12 +7701,12 @@
       "type": "call",
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 6,
+      "alerts": 15,
       "first": "2026/10/27 12:39:01",
-      "last": "2026/10/28 12:27:49",
-      "last_side": "-",
-      "last_premium": "$39K",
-      "last_price": "$3.59",
+      "last": "2026/10/29 10:30:31",
+      "last_side": "ASK",
+      "last_premium": "$27K",
+      "last_price": "$1.44",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7726,12 +7726,12 @@
       "type": "put",
       "expiry": "11/02/2026",
       "status": "Watching",
-      "alerts": 8,
+      "alerts": 11,
       "first": "2026/10/27 12:42:46",
-      "last": "2026/10/28 13:03:05",
-      "last_side": "ASK",
-      "last_premium": "$26K",
-      "last_price": "$2.60",
+      "last": "2026/10/29 09:01:51",
+      "last_side": "-",
+      "last_premium": "$33K",
+      "last_price": "$3.29",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7776,12 +7776,12 @@
       "type": "call",
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 3,
+      "alerts": 11,
       "first": "2026/10/27 12:53:50",
-      "last": "2026/10/28 11:47:15",
+      "last": "2026/10/29 09:38:18",
       "last_side": "ASK",
-      "last_premium": "$33K",
-      "last_price": "$3.33",
+      "last_premium": "$23K",
+      "last_price": "$1.10",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7829,12 +7829,12 @@
       "type": "call",
       "expiry": "11/02/2026",
       "status": "Watching",
-      "alerts": 4,
+      "alerts": 9,
       "first": "2026/10/28 06:45:32",
-      "last": "2026/10/28 07:04:39",
-      "last_side": "-",
-      "last_premium": "$54K",
-      "last_price": "$4.92",
+      "last": "2026/10/29 10:08:00",
+      "last_side": "ASK",
+      "last_premium": "$25K",
+      "last_price": "$2.53",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -7985,12 +7985,12 @@
       "type": "put",
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 10,
+      "alerts": 12,
       "first": "2026/10/28 11:16:45",
-      "last": "2026/10/28 13:10:47",
+      "last": "2026/10/29 08:30:31",
       "last_side": "ASK",
-      "last_premium": "$27K",
-      "last_price": "$2.63",
+      "last_premium": "$106K",
+      "last_price": "$2.44",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -8210,12 +8210,12 @@
       "type": "call",
       "expiry": "10/30/2026",
       "status": "Watching",
-      "alerts": 1,
+      "alerts": 5,
       "first": "2026/10/29 06:59:24",
-      "last": "2026/10/29 06:59:24",
+      "last": "2026/10/29 10:36:24",
       "last_side": "ASK",
-      "last_premium": "$32K",
-      "last_price": "$2.99",
+      "last_premium": "$38K",
+      "last_price": "$2.26",
       "classification_audit": [
         {
           "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
@@ -8228,10 +8228,395 @@
       "retired_spot": 769.1199951171875,
       "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
       "initial_near_at": "2026/10/29 06:59:24"
+    },
+    {
+      "contract": "769p 11/03/2026",
+      "strike": 769.0,
+      "type": "put",
+      "expiry": "11/03/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 07:05:53",
+      "last": "2026/10/29 07:05:53",
+      "last_side": "ASK",
+      "last_premium": "$71K",
+      "last_price": "$3.95",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 07:09:59",
+      "retired_spot": 768.8200073242188,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 07:05:53"
+    },
+    {
+      "contract": "767p 10/30/2026",
+      "strike": 767.0,
+      "type": "put",
+      "expiry": "10/30/2026",
+      "status": "On Deck",
+      "alerts": 13,
+      "first": "2026/10/29 07:10:34",
+      "last": "2026/10/29 10:47:35",
+      "last_side": "ASK",
+      "last_premium": "$38K",
+      "last_price": "$2.33",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 07:10:34"
+    },
+    {
+      "contract": "767p 11/06/2026",
+      "strike": 767.0,
+      "type": "put",
+      "expiry": "11/06/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/29 07:24:58",
+      "last": "2026/10/29 07:24:58",
+      "last_side": "ASK",
+      "last_premium": "$50K",
+      "last_price": "$5.00",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 07:24:58"
+    },
+    {
+      "contract": "773c 11/03/2026",
+      "strike": 773.0,
+      "type": "call",
+      "expiry": "11/03/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 07:30:23",
+      "last": "2026/10/29 07:30:23",
+      "last_side": "ASK",
+      "last_premium": "$28K",
+      "last_price": "$2.76",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 07:30:23",
+      "away": "2026/10/29 07:41:59",
+      "returned": "2026/10/29 07:42:00",
+      "prestige_at": "2026/10/29 07:42:00"
+    },
+    {
+      "contract": "765p 11/12/2026",
+      "strike": 765.0,
+      "type": "put",
+      "expiry": "11/12/2026",
+      "status": "Current Prestige",
+      "alerts": 1,
+      "first": "2026/10/29 07:53:28",
+      "last": "2026/10/29 07:53:28",
+      "last_side": "ASK",
+      "last_premium": "$83K",
+      "last_price": "$6.52",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 07:53:28",
+      "away": "2026/10/29 08:00:59",
+      "returned": "2026/10/29 09:32:54",
+      "prestige_at": "2026/10/29 09:32:54"
+    },
+    {
+      "contract": "768p 11/20/2026",
+      "strike": 768.0,
+      "type": "put",
+      "expiry": "11/20/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/29 07:55:21",
+      "last": "2026/10/29 08:34:30",
+      "last_side": "ASK",
+      "last_premium": "$91K",
+      "last_price": "$8.20",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 10:41:26",
+      "retired_spot": 767.9,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 07:55:21"
+    },
+    {
+      "contract": "770c 11/05/2026",
+      "strike": 770.0,
+      "type": "call",
+      "expiry": "11/05/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 08:01:41",
+      "last": "2026/10/29 08:01:41",
+      "last_side": "ASK",
+      "last_premium": "$72K",
+      "last_price": "$5.52",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 08:14:38",
+      "retired_spot": 770.06,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 08:01:41"
+    },
+    {
+      "contract": "770c 11/02/2026",
+      "strike": 770.0,
+      "type": "call",
+      "expiry": "11/02/2026",
+      "status": "Watching",
+      "alerts": 3,
+      "first": "2026/10/29 08:01:41",
+      "last": "2026/10/29 09:05:40",
+      "last_side": "ASK",
+      "last_premium": "$45K",
+      "last_price": "$3.54",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 08:14:38",
+      "retired_spot": 770.06,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 08:01:41"
+    },
+    {
+      "contract": "769p 11/02/2026",
+      "strike": 769.0,
+      "type": "put",
+      "expiry": "11/02/2026",
+      "status": "Watching",
+      "alerts": 5,
+      "first": "2026/10/29 08:43:58",
+      "last": "2026/10/29 09:21:59",
+      "last_side": "ASK",
+      "last_premium": "$80K",
+      "last_price": "$3.21",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 09:12:21",
+      "retired_spot": 768.89,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 08:43:58"
+    },
+    {
+      "contract": "769p 12/04/2026",
+      "strike": 769.0,
+      "type": "put",
+      "expiry": "12/04/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 09:14:37",
+      "last": "2026/10/29 09:14:37",
+      "last_side": "ASK",
+      "last_premium": "$230K",
+      "last_price": "$11.51",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 09:15:59",
+      "retired_spot": 768.9400024414062,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 09:14:37"
+    },
+    {
+      "contract": "772c 11/03/2026",
+      "strike": 772.0,
+      "type": "call",
+      "expiry": "11/03/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 10:06:39",
+      "last": "2026/10/29 10:06:39",
+      "last_side": "ASK",
+      "last_premium": "$48K",
+      "last_price": "$2.65",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 10:06:39",
+      "away": "2026/10/29 10:35:59",
+      "returned": "2026/10/29 10:36:21",
+      "prestige_at": "2026/10/29 10:36:21"
+    },
+    {
+      "contract": "768p 11/06/2026",
+      "strike": 768.0,
+      "type": "put",
+      "expiry": "11/06/2026",
+      "status": "Watching",
+      "alerts": 1,
+      "first": "2026/10/29 10:14:27",
+      "last": "2026/10/29 10:14:27",
+      "last_side": "ASK",
+      "last_premium": "$88K",
+      "last_price": "$5.47",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "retired_at": "2026/10/29 10:41:26",
+      "retired_spot": 767.9,
+      "retired_reason": "Observed in the money after first captured alert; no verified Prestige outcome",
+      "initial_near_at": "2026/10/29 10:14:27"
+    },
+    {
+      "contract": "765p 11/03/2026",
+      "strike": 765.0,
+      "type": "put",
+      "expiry": "11/03/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/29 10:26:51",
+      "last": "2026/10/29 10:26:51",
+      "last_side": "ASK",
+      "last_premium": "$26K",
+      "last_price": "$2.56",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 10:26:51"
+    },
+    {
+      "contract": "766p 11/03/2026",
+      "strike": 766.0,
+      "type": "put",
+      "expiry": "11/03/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/29 10:41:15",
+      "last": "2026/10/29 10:41:15",
+      "last_side": "ASK",
+      "last_premium": "$63K",
+      "last_price": "$3.00",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 10:41:15"
+    },
+    {
+      "contract": "770c 11/12/2026",
+      "strike": 770.0,
+      "type": "call",
+      "expiry": "11/12/2026",
+      "status": "On Deck",
+      "alerts": 1,
+      "first": "2026/10/29 10:43:43",
+      "last": "2026/10/29 10:43:43",
+      "last_side": "ASK",
+      "last_premium": "$182K",
+      "last_price": "$7.11",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 10:43:43"
+    },
+    {
+      "contract": "764p 10/30/2026",
+      "strike": 764.0,
+      "type": "put",
+      "expiry": "10/30/2026",
+      "status": "Current Prestige",
+      "alerts": 1,
+      "first": "2026/10/29 10:44:39",
+      "last": "2026/10/29 10:44:39",
+      "last_side": "ASK",
+      "last_premium": "$11K",
+      "last_price": "$1.07",
+      "classification_audit": [
+        {
+          "reason": "Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.",
+          "previous_status": "Watching",
+          "previous_fields": {}
+        }
+      ],
+      "classification_version": "otm-sequence-v2",
+      "initial_near_at": "2026/10/29 10:44:39",
+      "away": "2026/10/29 10:44:59",
+      "returned": "2026/10/29 10:46:18",
+      "prestige_at": "2026/10/29 10:46:18"
     }
   ],
   "source_timezone": "America/Los_Angeles",
-  "checked_at": "2026-10-29T17:24:01.132557+00:00",
+  "checked_at": "2026-10-29T17:51:19.765166+00:00",
   "price_observations": [
     {
       "time": "2026/10/12 10:47:23",
@@ -70195,6 +70580,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:03:26",
+      "spot": 769.46,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:03:43",
+      "spot": 769.68,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:03:59",
       "spot": 769.7000122070312,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70203,6 +70598,31 @@
       "time": "2026/10/29 07:04:59",
       "spot": 769.7650146484375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:05:07",
+      "spot": 769.8,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:05:08",
+      "spot": 769.82,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:05:35",
+      "spot": 769.74,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:05:53",
+      "spot": 769.42,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:05:57",
+      "spot": 769.44,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:05:59",
@@ -70215,9 +70635,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:07:11",
+      "spot": 769.12,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:07:59",
       "spot": 769.760009765625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:08:15",
+      "spot": 769.65,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:08:59",
@@ -70228,6 +70658,11 @@
       "time": "2026/10/29 07:09:59",
       "spot": 768.8200073242188,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:10:34",
+      "spot": 768.36,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:10:59",
@@ -70265,6 +70700,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:17:08",
+      "spot": 769.08,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:17:59",
       "spot": 769.4299926757812,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70300,14 +70740,29 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:24:58",
+      "spot": 769.27,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:24:59",
       "spot": 769.3499755859375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:25:29",
+      "spot": 769.2,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:25:59",
       "spot": 769.2550048828125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:26:01",
+      "spot": 769.45,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:26:59",
@@ -70330,9 +70785,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:30:23",
+      "spot": 769.49,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:30:59",
       "spot": 769.5,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:31:07",
+      "spot": 769.44,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:31:59",
@@ -70345,6 +70810,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:33:01",
+      "spot": 769.76,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:33:10",
+      "spot": 769.87,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:33:59",
       "spot": 769.77001953125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70355,9 +70830,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:35:04",
+      "spot": 770.05,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:35:06",
+      "spot": 770.05,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:35:59",
       "spot": 769.7000122070312,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:36:02",
+      "spot": 769.65,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:36:59",
@@ -70368,6 +70858,11 @@
       "time": "2026/10/29 07:37:59",
       "spot": 770.0800170898438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:38:11",
+      "spot": 770.22,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:38:59",
@@ -70388,6 +70883,11 @@
       "time": "2026/10/29 07:41:59",
       "spot": 769.1500244140625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:42:00",
+      "spot": 769.19,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:42:59",
@@ -70415,6 +70915,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:47:51",
+      "spot": 768.6,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:47:59",
       "spot": 768.3300170898438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70423,6 +70928,11 @@
       "time": "2026/10/29 07:48:59",
       "spot": 768.239990234375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:49:29",
+      "spot": 768.08,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:49:59",
@@ -70445,9 +70955,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:53:13",
+      "spot": 767.84,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:53:28",
+      "spot": 767.73,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:53:59",
       "spot": 768.1599731445312,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:54:24",
+      "spot": 768.3,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:54:59",
@@ -70455,9 +70980,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 07:55:03",
+      "spot": 768.44,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 07:55:21",
+      "spot": 768.38,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 07:55:59",
       "spot": 768.3400268554688,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 07:56:15",
+      "spot": 768.58,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 07:56:59",
@@ -70480,14 +71020,34 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:00:30",
+      "spot": 768.78,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:00:59",
       "spot": 769.27001953125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:01:31",
+      "spot": 769.45,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:01:41",
+      "spot": 769.46,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:01:59",
       "spot": 769.4500122070312,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:02:55",
+      "spot": 769.49,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:02:59",
@@ -70500,9 +71060,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:04:05",
+      "spot": 769.31,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:04:59",
       "spot": 769.2999877929688,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:05:32",
+      "spot": 769.41,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:05:59",
@@ -70515,6 +71085,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:07:13",
+      "spot": 769.09,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:07:59",
       "spot": 769.1300048828125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70523,6 +71098,11 @@
       "time": "2026/10/29 08:08:59",
       "spot": 769.4199829101562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:09:38",
+      "spot": 769.6,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:09:59",
@@ -70535,6 +71115,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:11:19",
+      "spot": 769.91,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:11:48",
+      "spot": 769.69,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:11:59",
       "spot": 769.7100219726562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70545,9 +71135,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:13:12",
+      "spot": 769.66,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:13:59",
       "spot": 769.8200073242188,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:14:33",
+      "spot": 769.98,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:14:38",
+      "spot": 770.06,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:14:59",
@@ -70555,9 +71160,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:15:05",
+      "spot": 770.04,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:15:59",
       "spot": 769.541015625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:16:26",
+      "spot": 769.61,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:16:59",
@@ -70573,6 +71188,11 @@
       "time": "2026/10/29 08:18:59",
       "spot": 769.7899780273438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:19:04",
+      "spot": 769.8,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:19:59",
@@ -70605,6 +71225,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:25:27",
+      "spot": 769.87,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:25:59",
       "spot": 769.7949829101562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70615,9 +71240,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:27:11",
+      "spot": 769.73,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:27:47",
+      "spot": 770.13,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:27:59",
       "spot": 769.9000244140625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:28:49",
+      "spot": 770.13,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:28:59",
@@ -70625,9 +71265,39 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:29:05",
+      "spot": 769.97,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:29:07",
+      "spot": 769.98,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:29:59",
       "spot": 770.1199951171875,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:30:14",
+      "spot": 770.22,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:30:21",
+      "spot": 770.34,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:30:25",
+      "spot": 770.34,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:30:31",
+      "spot": 770.32,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:30:59",
@@ -70645,9 +71315,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:33:44",
+      "spot": 770.65,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:33:59",
       "spot": 770.7100219726562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:34:30",
+      "spot": 770.62,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:34:59",
@@ -70658,6 +71338,11 @@
       "time": "2026/10/29 08:35:59",
       "spot": 770.3800048828125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:36:25",
+      "spot": 770.15,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:36:59",
@@ -70690,9 +71375,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:42:26",
+      "spot": 769.84,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:42:59",
       "spot": 770.135009765625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:43:58",
+      "spot": 769.87,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:43:59",
@@ -70705,6 +71400,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:45:50",
+      "spot": 769.37,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:45:59",
       "spot": 769.4400024414062,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70715,14 +71415,39 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:47:27",
+      "spot": 769.6,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:47:49",
+      "spot": 769.71,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:47:59",
       "spot": 769.72998046875,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:48:37",
+      "spot": 769.67,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:48:41",
+      "spot": 769.62,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:48:59",
       "spot": 769.5599975585938,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:49:28",
+      "spot": 769.42,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:49:59",
@@ -70745,9 +71470,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:53:52",
+      "spot": 769.42,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:53:59",
       "spot": 769.4199829101562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:54:33",
+      "spot": 769.38,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:54:59",
@@ -70755,9 +71490,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 08:55:01",
+      "spot": 769.34,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 08:55:47",
+      "spot": 769.42,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 08:55:59",
       "spot": 769.4262084960938,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 08:56:31",
+      "spot": 769.56,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 08:56:59",
@@ -70780,9 +71530,29 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:00:00",
+      "spot": 770.16,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:00:16",
+      "spot": 770.1,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:00:59",
       "spot": 770.1300048828125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:01:30",
+      "spot": 770.01,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:01:51",
+      "spot": 770.1,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:01:59",
@@ -70795,6 +71565,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:03:19",
+      "spot": 769.83,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:03:33",
+      "spot": 769.74,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:03:59",
       "spot": 769.6799926757812,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70805,14 +71585,34 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:05:04",
+      "spot": 769.85,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:05:40",
+      "spot": 769.68,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:05:59",
       "spot": 769.8599853515625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:06:20",
+      "spot": 769.77,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:06:59",
       "spot": 769.969970703125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:07:25",
+      "spot": 769.92,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:07:59",
@@ -70830,9 +71630,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:10:09",
+      "spot": 769.47,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:10:59",
       "spot": 769.2899780273438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:11:15",
+      "spot": 769.17,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:11:59",
@@ -70840,14 +71650,29 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:12:21",
+      "spot": 768.89,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:12:59",
       "spot": 768.989990234375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:13:11",
+      "spot": 769.03,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:13:59",
       "spot": 769.0800170898438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:14:37",
+      "spot": 769.04,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:14:59",
@@ -70858,6 +71683,11 @@
       "time": "2026/10/29 09:15:59",
       "spot": 768.9400024414062,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:16:43",
+      "spot": 768.96,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:16:59",
@@ -70880,9 +71710,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:20:35",
+      "spot": 769.19,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:20:59",
       "spot": 769.25,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:21:59",
+      "spot": 769.15,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:21:59",
@@ -70890,9 +71730,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:22:57",
+      "spot": 769.4,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:22:59",
       "spot": 769.25,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:23:13",
+      "spot": 769.28,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:23:59",
@@ -70920,6 +71770,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:28:12",
+      "spot": 769.32,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:28:47",
+      "spot": 769.37,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:28:59",
       "spot": 769.530029296875,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70928,6 +71788,11 @@
       "time": "2026/10/29 09:29:59",
       "spot": 769.3099975585938,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:30:09",
+      "spot": 769.12,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:30:59",
@@ -70940,6 +71805,16 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:32:15",
+      "spot": 769.01,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:32:54",
+      "spot": 768.78,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:32:59",
       "spot": 768.7000122070312,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70950,9 +71825,24 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:34:18",
+      "spot": 768.89,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:34:59",
       "spot": 768.7899780273438,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:35:09",
+      "spot": 768.78,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:35:16",
+      "spot": 768.85,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:35:59",
@@ -70970,6 +71860,21 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:38:05",
+      "spot": 769.1,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:38:16",
+      "spot": 769.16,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 09:38:18",
+      "spot": 769.22,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:38:59",
       "spot": 768.989990234375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -70978,6 +71883,11 @@
       "time": "2026/10/29 09:39:59",
       "spot": 769.030029296875,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:40:12",
+      "spot": 769.12,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:40:59",
@@ -71005,9 +71915,19 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 09:45:38",
+      "spot": 769.08,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 09:45:59",
       "spot": 769.2100219726562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:46:39",
+      "spot": 769.28,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:46:59",
@@ -71028,6 +71948,11 @@
       "time": "2026/10/29 09:49:59",
       "spot": 768.7999877929688,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 09:50:11",
+      "spot": 768.83,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 09:50:59",
@@ -71080,6 +72005,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:00:08",
+      "spot": 769.45,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:00:59",
       "spot": 769.489990234375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -71090,14 +72020,29 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:02:57",
+      "spot": 769.39,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:02:59",
       "spot": 769.4299926757812,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:03:56",
+      "spot": 769.13,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:03:59",
       "spot": 769.1605224609375,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:04:28",
+      "spot": 769.09,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 10:04:59",
@@ -71110,6 +72055,11 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:06:39",
+      "spot": 768.92,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:06:59",
       "spot": 768.9199829101562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
@@ -71118,6 +72068,16 @@
       "time": "2026/10/29 10:07:59",
       "spot": 768.9199829101562,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:08:00",
+      "spot": 768.95,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:08:17",
+      "spot": 768.82,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
     },
     {
       "time": "2026/10/29 10:08:59",
@@ -71135,8 +72095,18 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:11:36",
+      "spot": 768.83,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:11:59",
       "spot": 768.8350219726562,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:12:59",
+      "spot": 768.760009765625,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
@@ -71150,8 +72120,33 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:14:01",
+      "spot": 768.4,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:14:13",
+      "spot": 768.41,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:14:24",
+      "spot": 768.3,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:14:27",
+      "spot": 768.3,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:14:59",
       "spot": 768.1599731445312,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:15:59",
+      "spot": 768.344970703125,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
@@ -71175,8 +72170,28 @@
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
+      "time": "2026/10/29 10:18:59",
+      "spot": 768.3800048828125,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:19:00",
+      "spot": 768.39,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
       "time": "2026/10/29 10:19:59",
       "spot": 768.469970703125,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:20:18",
+      "spot": 768.5,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:20:59",
+      "spot": 768.3200073242188,
       "source": "Yahoo SPY completed 1-minute close including extended hours"
     },
     {
@@ -71191,13 +72206,288 @@
     },
     {
       "time": "2026/10/29 10:22:59",
-      "spot": 768.4000244140625
+      "spot": 768.4000244140625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:23:59",
+      "spot": 768.2899780273438,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:24:24",
+      "spot": 768.29,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:24:59",
+      "spot": 768.2150268554688,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:25:59",
+      "spot": 768.3499755859375,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:26:51",
+      "spot": 768.37,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:26:59",
+      "spot": 768.3250122070312,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:26:59",
+      "spot": 768.34,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:27:59",
+      "spot": 768.405029296875,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:28:11",
+      "spot": 768.44,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:28:59",
+      "spot": 768.5980224609375,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:29:45",
+      "spot": 768.57,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:29:59",
+      "spot": 768.5150146484375,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:30:29",
+      "spot": 768.47,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:30:31",
+      "spot": 768.33,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:30:59",
+      "spot": 768.489990234375,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:31:59",
+      "spot": 768.510009765625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:32:30",
+      "spot": 768.46,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:32:59",
+      "spot": 768.510009765625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:33:59",
+      "spot": 768.4099731445312,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:34:59",
+      "spot": 768.27001953125,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:35:02",
+      "spot": 768.25,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:35:03",
+      "spot": 768.29,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:35:59",
+      "spot": 768.030029296875,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:36:10",
+      "spot": 768.1,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:36:21",
+      "spot": 768.22,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:36:24",
+      "spot": 768.26,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:36:53",
+      "spot": 768.3,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:36:59",
+      "spot": 768.27001953125,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:37:31",
+      "spot": 768.2,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:37:59",
+      "spot": 768.260009765625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:38:59",
+      "spot": 768.0599975585938,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:39:33",
+      "spot": 768.14,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:39:59",
+      "spot": 768.1500854492188,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:40:53",
+      "spot": 768.07,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:40:59",
+      "spot": 768.06201171875,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:41:15",
+      "spot": 768.02,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:41:26",
+      "spot": 767.9,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:41:59",
+      "spot": 767.864990234375,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:42:59",
+      "spot": 768.0,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:43:43",
+      "spot": 767.8,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:43:51",
+      "spot": 767.77,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:43:56",
+      "spot": 767.79,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:43:59",
+      "spot": 767.77001953125,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:44:39",
+      "spot": 767.82,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:44:59",
+      "spot": 767.8599853515625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:45:59",
+      "spot": 767.8400268554688,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:46:18",
+      "spot": 767.77,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:46:22",
+      "spot": 767.77,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:46:44",
+      "spot": 767.62,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:46:59",
+      "spot": 767.625,
+      "source": "Yahoo SPY completed 1-minute close including extended hours"
+    },
+    {
+      "time": "2026/10/29 10:47:14",
+      "spot": 767.49,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:47:32",
+      "spot": 767.26,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:47:35",
+      "spot": 767.21,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:47:35",
+      "spot": 767.33,
+      "source": "Authenticated UW Magic alert underlying price, Pacific"
+    },
+    {
+      "time": "2026/10/29 10:47:59",
+      "spot": 767.1699829101562
     }
   ],
-  "latest_session_alert_count": 6,
-  "coverage_note": "October 29 authenticated partial-session Magic refresh, with October 28 and October 27 overlap retained. Available completed SPY minute closes include premarket and after-hours. Intraminute touches may be missed. Price-only refresh through 2026/10/29 10:22:59 Pacific; flow capture remains at its separately displayed timestamp pending authenticated refresh.",
+  "latest_session_alert_count": 161,
+  "coverage_note": "October 29 authenticated partial-session Magic refresh, with October 28 and October 27 overlap retained. Available completed SPY minute closes include premarket and after-hours. Intraminute touches may be missed.",
   "classification_version": "otm-sequence-v2",
-  "latest_alert_time": "2026/10/29 06:59:24",
+  "latest_alert_time": "2026/10/29 10:47:35",
   "alert_observations": [
     {
       "time": "2026/10/19 06:41:56",
@@ -82422,15 +83712,1255 @@
       "price": "$2.99",
       "premium": "$32K",
       "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:03:26",
+      "contract": "768p 10/30/2026",
+      "spot": 769.46,
+      "price": "$2.19",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:03:43",
+      "contract": "769p 10/30/2026",
+      "spot": 769.68,
+      "price": "$2.49",
+      "premium": "$284K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:05:07",
+      "contract": "773c 10/30/2026",
+      "spot": 769.8,
+      "price": "$1.60",
+      "premium": "$121K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:05:08",
+      "contract": "773c 10/30/2026",
+      "spot": 769.82,
+      "price": "$1.61",
+      "premium": "$55K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:05:35",
+      "contract": "768p 10/30/2026",
+      "spot": 769.74,
+      "price": "$2.10",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:05:53",
+      "contract": "769p 11/03/2026",
+      "spot": 769.42,
+      "price": "$3.95",
+      "premium": "$71K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:05:57",
+      "contract": "768p 10/30/2026",
+      "spot": 769.44,
+      "price": "$2.20",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:07:11",
+      "contract": "768p 10/30/2026",
+      "spot": 769.12,
+      "price": "$2.33",
+      "premium": "$23K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:08:15",
+      "contract": "769p 10/30/2026",
+      "spot": 769.65,
+      "price": "$2.51",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:10:34",
+      "contract": "767p 10/30/2026",
+      "spot": 768.36,
+      "price": "$2.24",
+      "premium": "$42K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:17:08",
+      "contract": "769p 10/30/2026",
+      "spot": 769.08,
+      "price": "$2.75",
+      "premium": "$84K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:24:58",
+      "contract": "767p 11/06/2026",
+      "spot": 769.27,
+      "price": "$5.00",
+      "premium": "$50K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:25:29",
+      "contract": "772c 10/30/2026",
+      "spot": 769.2,
+      "price": "$1.72",
+      "premium": "$34K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:26:01",
+      "contract": "770c 11/03/2026",
+      "spot": 769.45,
+      "price": "$4.20",
+      "premium": "$192K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:30:23",
+      "contract": "773c 11/03/2026",
+      "spot": 769.49,
+      "price": "$2.76",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:31:07",
+      "contract": "769p 10/30/2026",
+      "spot": 769.44,
+      "price": "$2.49",
+      "premium": "$66K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:33:01",
+      "contract": "768p 10/30/2026",
+      "spot": 769.76,
+      "price": "$1.90",
+      "premium": "$39K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:33:10",
+      "contract": "773c 10/30/2026",
+      "spot": 769.87,
+      "price": "$1.51",
+      "premium": "$18K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:35:04",
+      "contract": "773c 10/30/2026",
+      "spot": 770.05,
+      "price": "$1.58",
+      "premium": "$36K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:35:06",
+      "contract": "773c 10/30/2026",
+      "spot": 770.05,
+      "price": "$1.58",
+      "premium": "$154K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:36:02",
+      "contract": "768p 10/30/2026",
+      "spot": 769.65,
+      "price": "$2.00",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:38:11",
+      "contract": "773c 10/30/2026",
+      "spot": 770.22,
+      "price": "$1.61",
+      "premium": "$42K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:42:00",
+      "contract": "768p 10/30/2026",
+      "spot": 769.19,
+      "price": "$2.14",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:47:51",
+      "contract": "770c 10/30/2026",
+      "spot": 768.6,
+      "price": "$2.30",
+      "premium": "$38K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:49:29",
+      "contract": "771c 10/30/2026",
+      "spot": 768.08,
+      "price": "$1.68",
+      "premium": "$17K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:53:13",
+      "contract": "770c 10/30/2026",
+      "spot": 767.84,
+      "price": "$2.00",
+      "premium": "$20K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:53:28",
+      "contract": "765p 11/12/2026",
+      "spot": 767.73,
+      "price": "$6.52",
+      "premium": "$83K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:54:24",
+      "contract": "772c 10/30/2026",
+      "spot": 768.3,
+      "price": "$1.35",
+      "premium": "$68K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:55:03",
+      "contract": "770c 10/30/2026",
+      "spot": 768.44,
+      "price": "$2.19",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:55:21",
+      "contract": "768p 11/20/2026",
+      "spot": 768.38,
+      "price": "$9.30",
+      "premium": "$4.65M",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 07:56:15",
+      "contract": "771c 11/02/2026",
+      "spot": 768.58,
+      "price": "$2.62",
+      "premium": "$35K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:00:30",
+      "contract": "771c 11/02/2026",
+      "spot": 768.78,
+      "price": "$2.71",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:01:31",
+      "contract": "770c 11/03/2026",
+      "spot": 769.45,
+      "price": "$4.10",
+      "premium": "$65K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:01:41",
+      "contract": "770c 11/05/2026",
+      "spot": 769.46,
+      "price": "$5.52",
+      "premium": "$72K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:01:41",
+      "contract": "770c 11/02/2026",
+      "spot": 769.46,
+      "price": "$3.50",
+      "premium": "$48K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:02:55",
+      "contract": "768p 11/20/2026",
+      "spot": 769.49,
+      "price": "$8.77",
+      "premium": "$877K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:04:05",
+      "contract": "769p 10/30/2026",
+      "spot": 769.31,
+      "price": "$2.50",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:05:32",
+      "contract": "770c 10/30/2026",
+      "spot": 769.41,
+      "price": "$2.63",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:07:13",
+      "contract": "769p 10/30/2026",
+      "spot": 769.09,
+      "price": "$2.66",
+      "premium": "$160K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:09:38",
+      "contract": "770c 11/03/2026",
+      "spot": 769.6,
+      "price": "$4.15",
+      "premium": "$270K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:11:19",
+      "contract": "769p 10/30/2026",
+      "spot": 769.91,
+      "price": "$2.25",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:11:48",
+      "contract": "769p 10/30/2026",
+      "spot": 769.69,
+      "price": "$2.36",
+      "premium": "$142K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:13:12",
+      "contract": "770c 10/30/2026",
+      "spot": 769.66,
+      "price": "$2.71",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:14:33",
+      "contract": "772c 10/30/2026",
+      "spot": 769.98,
+      "price": "$1.90",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:14:38",
+      "contract": "769p 10/30/2026",
+      "spot": 770.06,
+      "price": "$2.19",
+      "premium": "$60K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:15:05",
+      "contract": "772c 10/30/2026",
+      "spot": 770.04,
+      "price": "$1.91",
+      "premium": "$20K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:16:26",
+      "contract": "769p 10/30/2026",
+      "spot": 769.61,
+      "price": "$2.38",
+      "premium": "$72K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:19:04",
+      "contract": "768p 10/30/2026",
+      "spot": 769.8,
+      "price": "$1.89",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:25:27",
+      "contract": "768p 10/30/2026",
+      "spot": 769.87,
+      "price": "$1.86",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:27:11",
+      "contract": "768p 10/30/2026",
+      "spot": 769.73,
+      "price": "$1.87",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:27:47",
+      "contract": "772c 10/30/2026",
+      "spot": 770.13,
+      "price": "$1.91",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:28:49",
+      "contract": "769p 10/30/2026",
+      "spot": 770.13,
+      "price": "$2.08",
+      "premium": "$102K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:28:49",
+      "contract": "769p 10/30/2026",
+      "spot": 770.13,
+      "price": "$2.08",
+      "premium": "$26K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:29:05",
+      "contract": "769p 10/30/2026",
+      "spot": 769.97,
+      "price": "$2.16",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:29:07",
+      "contract": "772c 10/30/2026",
+      "spot": 769.98,
+      "price": "$1.87",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:30:14",
+      "contract": "770p 10/30/2026",
+      "spot": 770.22,
+      "price": "$2.48",
+      "premium": "$152K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:30:21",
+      "contract": "769p 10/30/2026",
+      "spot": 770.34,
+      "price": "$2.02",
+      "premium": "$51K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:30:25",
+      "contract": "770p 11/02/2026",
+      "spot": 770.34,
+      "price": "$3.20",
+      "premium": "$32K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:30:31",
+      "contract": "770p 10/30/2026",
+      "spot": 770.32,
+      "price": "$2.44",
+      "premium": "$106K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:33:44",
+      "contract": "771c 11/02/2026",
+      "spot": 770.65,
+      "price": "$3.48",
+      "premium": "$35K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 08:34:30",
+      "contract": "768p 11/20/2026",
+      "spot": 770.62,
+      "price": "$8.20",
+      "premium": "$91K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:36:25",
+      "contract": "770p 11/02/2026",
+      "spot": 770.15,
+      "price": "$3.30",
+      "premium": "$34K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:42:26",
+      "contract": "771c 11/02/2026",
+      "spot": 769.84,
+      "price": "$3.11",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:43:58",
+      "contract": "769p 11/02/2026",
+      "spot": 769.87,
+      "price": "$2.98",
+      "premium": "$89K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:45:50",
+      "contract": "770c 11/02/2026",
+      "spot": 769.37,
+      "price": "$3.43",
+      "premium": "$46K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:47:27",
+      "contract": "769p 10/30/2026",
+      "spot": 769.6,
+      "price": "$2.30",
+      "premium": "$230K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:47:49",
+      "contract": "770c 10/30/2026",
+      "spot": 769.71,
+      "price": "$2.68",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:48:37",
+      "contract": "769p 10/30/2026",
+      "spot": 769.67,
+      "price": "$2.26",
+      "premium": "$226K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:48:41",
+      "contract": "769p 10/30/2026",
+      "spot": 769.62,
+      "price": "$2.30",
+      "premium": "$173K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:49:28",
+      "contract": "769p 11/02/2026",
+      "spot": 769.42,
+      "price": "$3.19",
+      "premium": "$80K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:53:52",
+      "contract": "770c 10/30/2026",
+      "spot": 769.42,
+      "price": "$2.54",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:54:33",
+      "contract": "770c 10/30/2026",
+      "spot": 769.38,
+      "price": "$2.50",
+      "premium": "$26K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:55:01",
+      "contract": "770c 10/30/2026",
+      "spot": 769.34,
+      "price": "$2.48",
+      "premium": "$124K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:55:47",
+      "contract": "772c 10/30/2026",
+      "spot": 769.42,
+      "price": "$1.63",
+      "premium": "$16K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 08:56:31",
+      "contract": "770c 11/03/2026",
+      "spot": 769.56,
+      "price": "$4.08",
+      "premium": "$43K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:00:00",
+      "contract": "769p 10/30/2026",
+      "spot": 770.16,
+      "price": "$2.03",
+      "premium": "$20K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:00:16",
+      "contract": "769p 10/30/2026",
+      "spot": 770.1,
+      "price": "$2.06",
+      "premium": "$21K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:01:30",
+      "contract": "771c 10/30/2026",
+      "spot": 770.01,
+      "price": "$2.28",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:01:51",
+      "contract": "770p 11/02/2026",
+      "spot": 770.1,
+      "price": "$3.29",
+      "premium": "$33K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 09:03:19",
+      "contract": "767p 10/30/2026",
+      "spot": 769.83,
+      "price": "$1.48",
+      "premium": "$16K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:03:33",
+      "contract": "769p 10/30/2026",
+      "spot": 769.74,
+      "price": "$2.23",
+      "premium": "$51K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:05:04",
+      "contract": "771c 10/30/2026",
+      "spot": 769.85,
+      "price": "$2.19",
+      "premium": "$106K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:05:40",
+      "contract": "770c 11/02/2026",
+      "spot": 769.68,
+      "price": "$3.54",
+      "premium": "$45K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:06:20",
+      "contract": "772c 10/30/2026",
+      "spot": 769.77,
+      "price": "$1.72",
+      "premium": "$17K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:07:25",
+      "contract": "771c 10/30/2026",
+      "spot": 769.92,
+      "price": "$2.23",
+      "premium": "$23K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:10:09",
+      "contract": "767p 10/30/2026",
+      "spot": 769.47,
+      "price": "$1.57",
+      "premium": "$16K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:11:15",
+      "contract": "769p 11/02/2026",
+      "spot": 769.17,
+      "price": "$3.25",
+      "premium": "$82K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:12:21",
+      "contract": "770c 11/03/2026",
+      "spot": 768.89,
+      "price": "$3.77",
+      "premium": "$43K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:13:11",
+      "contract": "771c 10/30/2026",
+      "spot": 769.03,
+      "price": "$1.84",
+      "premium": "$28K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:14:37",
+      "contract": "769p 12/04/2026",
+      "spot": 769.04,
+      "price": "$11.51",
+      "premium": "$230K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:16:43",
+      "contract": "768p 10/30/2026",
+      "spot": 768.96,
+      "price": "$2.11",
+      "premium": "$32K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:20:35",
+      "contract": "769p 11/02/2026",
+      "spot": 769.19,
+      "price": "$3.19",
+      "premium": "$80K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:21:59",
+      "contract": "769p 11/02/2026",
+      "spot": 769.15,
+      "price": "$3.21",
+      "premium": "$80K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:22:57",
+      "contract": "769p 10/30/2026",
+      "spot": 769.4,
+      "price": "$2.29",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:23:13",
+      "contract": "772c 10/30/2026",
+      "spot": 769.28,
+      "price": "$1.48",
+      "premium": "$74K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:28:12",
+      "contract": "768p 10/30/2026",
+      "spot": 769.32,
+      "price": "$1.92",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:28:47",
+      "contract": "770c 10/30/2026",
+      "spot": 769.37,
+      "price": "$2.40",
+      "premium": "$47K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:30:09",
+      "contract": "769p 10/30/2026",
+      "spot": 769.12,
+      "price": "$2.36",
+      "premium": "$36K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:32:15",
+      "contract": "770c 11/03/2026",
+      "spot": 769.01,
+      "price": "$3.72",
+      "premium": "$91K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:32:54",
+      "contract": "767p 10/30/2026",
+      "spot": 768.78,
+      "price": "$1.76",
+      "premium": "$18K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:34:18",
+      "contract": "770c 10/30/2026",
+      "spot": 768.89,
+      "price": "$2.18",
+      "premium": "$47K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:35:09",
+      "contract": "769c 10/30/2026",
+      "spot": 768.78,
+      "price": "$2.64",
+      "premium": "$37K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:35:16",
+      "contract": "768p 10/30/2026",
+      "spot": 768.85,
+      "price": "$2.11",
+      "premium": "$50K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:38:05",
+      "contract": "770c 10/30/2026",
+      "spot": 769.1,
+      "price": "$2.26",
+      "premium": "$45K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:38:16",
+      "contract": "773c 10/30/2026",
+      "spot": 769.16,
+      "price": "$1.08",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:38:18",
+      "contract": "773c 10/30/2026",
+      "spot": 769.22,
+      "price": "$1.10",
+      "premium": "$23K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:40:12",
+      "contract": "769p 10/30/2026",
+      "spot": 769.12,
+      "price": "$2.39",
+      "premium": "$48K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:45:38",
+      "contract": "769p 10/30/2026",
+      "spot": 769.08,
+      "price": "$2.41",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:46:39",
+      "contract": "771c 10/30/2026",
+      "spot": 769.28,
+      "price": "$1.85",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 09:50:11",
+      "contract": "767p 10/30/2026",
+      "spot": 768.83,
+      "price": "$1.70",
+      "premium": "$17K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:00:08",
+      "contract": "772c 10/30/2026",
+      "spot": 769.45,
+      "price": "$1.50",
+      "premium": "$24K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 10:02:57",
+      "contract": "771c 10/30/2026",
+      "spot": 769.39,
+      "price": "$1.87",
+      "premium": "$21K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:03:56",
+      "contract": "769p 10/30/2026",
+      "spot": 769.13,
+      "price": "$2.32",
+      "premium": "$77K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:04:28",
+      "contract": "767p 10/30/2026",
+      "spot": 769.09,
+      "price": "$1.58",
+      "premium": "$16K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 10:06:39",
+      "contract": "772c 11/03/2026",
+      "spot": 768.92,
+      "price": "$2.65",
+      "premium": "$48K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:06:39",
+      "contract": "771c 10/30/2026",
+      "spot": 768.92,
+      "price": "$1.67",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:08:00",
+      "contract": "771c 11/02/2026",
+      "spot": 768.95,
+      "price": "$2.53",
+      "premium": "$25K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:08:17",
+      "contract": "767p 10/30/2026",
+      "spot": 768.82,
+      "price": "$1.66",
+      "premium": "$17K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:11:36",
+      "contract": "770c 10/30/2026",
+      "spot": 768.83,
+      "price": "$2.09",
+      "premium": "$21K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:14:01",
+      "contract": "768p 10/30/2026",
+      "spot": 768.4,
+      "price": "$2.25",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:14:13",
+      "contract": "772c 10/30/2026",
+      "spot": 768.41,
+      "price": "$1.15",
+      "premium": "$12K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:14:24",
+      "contract": "768p 10/30/2026",
+      "spot": 768.3,
+      "price": "$2.30",
+      "premium": "$57K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:14:27",
+      "contract": "768p 11/06/2026",
+      "spot": 768.3,
+      "price": "$5.47",
+      "premium": "$88K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:19:00",
+      "contract": "769c 10/30/2026",
+      "spot": 768.39,
+      "price": "$2.38",
+      "premium": "$95K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:20:18",
+      "contract": "769c 10/30/2026",
+      "spot": 768.5,
+      "price": "$2.43",
+      "premium": "$54K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:24:24",
+      "contract": "772c 10/30/2026",
+      "spot": 768.29,
+      "price": "$1.09",
+      "premium": "$11K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:26:51",
+      "contract": "765p 11/03/2026",
+      "spot": 768.37,
+      "price": "$2.56",
+      "premium": "$26K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:26:59",
+      "contract": "768p 10/30/2026",
+      "spot": 768.34,
+      "price": "$2.22",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:28:11",
+      "contract": "770c 10/30/2026",
+      "spot": 768.44,
+      "price": "$1.87",
+      "premium": "$29K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:29:45",
+      "contract": "770c 10/30/2026",
+      "spot": 768.57,
+      "price": "$1.93",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:30:29",
+      "contract": "768p 10/30/2026",
+      "spot": 768.47,
+      "price": "$2.18",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:30:31",
+      "contract": "771c 10/30/2026",
+      "spot": 768.33,
+      "price": "$1.44",
+      "premium": "$27K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:32:30",
+      "contract": "768p 10/30/2026",
+      "spot": 768.46,
+      "price": "$2.16",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:35:02",
+      "contract": "768p 11/02/2026",
+      "spot": 768.25,
+      "price": "$3.06",
+      "premium": "$31K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:35:03",
+      "contract": "770c 10/30/2026",
+      "spot": 768.29,
+      "price": "$1.81",
+      "premium": "$22K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:36:10",
+      "contract": "767p 10/30/2026",
+      "spot": 768.1,
+      "price": "$1.92",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:36:21",
+      "contract": "768p 10/30/2026",
+      "spot": 768.22,
+      "price": "$2.27",
+      "premium": "$39K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:36:24",
+      "contract": "769c 10/30/2026",
+      "spot": 768.26,
+      "price": "$2.26",
+      "premium": "$38K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:36:53",
+      "contract": "772c 10/30/2026",
+      "spot": 768.3,
+      "price": "$1.05",
+      "premium": "$18K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:37:31",
+      "contract": "770c 10/30/2026",
+      "spot": 768.2,
+      "price": "$1.76",
+      "premium": "$35K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:39:33",
+      "contract": "768p 11/02/2026",
+      "spot": 768.14,
+      "price": "$3.13",
+      "premium": "$31K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 10:40:53",
+      "contract": "767p 10/30/2026",
+      "spot": 768.07,
+      "price": "$1.92",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:41:15",
+      "contract": "766p 11/03/2026",
+      "spot": 768.02,
+      "price": "$3.00",
+      "premium": "$63K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:41:26",
+      "contract": "766p 10/30/2026",
+      "spot": 767.9,
+      "price": "$1.63",
+      "premium": "$16K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:43:43",
+      "contract": "770c 11/12/2026",
+      "spot": 767.8,
+      "price": "$7.11",
+      "premium": "$182K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:43:51",
+      "contract": "767p 10/30/2026",
+      "spot": 767.77,
+      "price": "$2.05",
+      "premium": "$24K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:43:56",
+      "contract": "766p 10/30/2026",
+      "spot": 767.79,
+      "price": "$1.67",
+      "premium": "$17K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:44:39",
+      "contract": "764p 10/30/2026",
+      "spot": 767.82,
+      "price": "$1.07",
+      "premium": "$11K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:46:18",
+      "contract": "767p 10/30/2026",
+      "spot": 767.77,
+      "price": "$2.05",
+      "premium": "$43K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:46:22",
+      "contract": "766p 10/30/2026",
+      "spot": 767.77,
+      "price": "$1.68",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:46:44",
+      "contract": "768c 11/02/2026",
+      "spot": 767.62,
+      "price": "$3.45",
+      "premium": "$52K",
+      "side": "-"
+    },
+    {
+      "time": "2026/10/29 10:47:14",
+      "contract": "766p 10/30/2026",
+      "spot": 767.49,
+      "price": "$1.82",
+      "premium": "$19K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:47:32",
+      "contract": "767p 10/30/2026",
+      "spot": 767.26,
+      "price": "$2.32",
+      "premium": "$38K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:47:35",
+      "contract": "767p 10/30/2026",
+      "spot": 767.21,
+      "price": "$2.33",
+      "premium": "$38K",
+      "side": "ASK"
+    },
+    {
+      "time": "2026/10/29 10:47:35",
+      "contract": "766p 10/30/2026",
+      "spot": 767.33,
+      "price": "$1.90",
+      "premium": "$57K",
+      "side": "ASK"
     }
   ],
   "latest_capture_summary": {
     "date": "2026-10-29",
     "flow_start": "2026/10/29 06:36:57",
-    "flow_as_of": "2026/10/29 06:59:24",
-    "alerts": 6,
+    "flow_as_of": "2026/10/29 10:47:35",
+    "alerts": 161,
     "complete_session": false,
     "method": "Authenticated SPY Magic refresh with prior-session overlap. Completed one-minute closes include available extended hours; intraminute crossings can be missed."
   },
-  "evaluated_at": "2026/10/29 10:24:01"
+  "evaluated_at": "2026/10/29 10:51:19"
 }

@@ -1,1 +1,561 @@
-{"captured_on":"2026-10-22","source_url":"https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA","coverage":"Authenticated partial-session Orange Swan capture October 22; exact displayed rows, rounded premiums. Prior-session overlap reached. A descriptive same-session flow comparison, not total market inflow or a historical baseline.","summary":[{"date":"2026-10-19","ticker":"QQQ","prints":45,"premium":4782000,"call_premium":649000,"call_prints":5},{"date":"2026-10-19","ticker":"SPY","prints":52,"premium":4174000,"call_premium":1134000,"call_prints":11},{"date":"2026-10-19","ticker":"SMH","prints":9,"premium":492000,"call_premium":189000,"call_prints":4},{"date":"2026-10-19","ticker":"BABA","prints":1,"premium":64000,"call_premium":64000,"call_prints":1},{"date":"2026-10-19","ticker":"JD","prints":1,"premium":32000,"call_premium":0,"call_prints":0},{"date":"2026-10-16","ticker":"BABA","prints":3,"premium":189000,"call_premium":0,"call_prints":0},{"date":"2026-10-16","ticker":"QQQ","prints":64,"premium":9271000,"call_premium":2621000,"call_prints":23},{"date":"2026-10-16","ticker":"SMH","prints":22,"premium":3212000,"call_premium":813000,"call_prints":7},{"date":"2026-10-16","ticker":"SPY","prints":112,"premium":13372000,"call_premium":3477000,"call_prints":33},{"date":"2026-10-15","ticker":"QQQ","prints":7,"premium":227000,"call_premium":24000,"call_prints":2},{"date":"2026-10-15","ticker":"SMH","prints":1,"premium":390000,"call_premium":390000,"call_prints":1},{"date":"2026-10-15","ticker":"SPY","prints":22,"premium":1628000,"call_premium":1042000,"call_prints":15},{"date":"2026-10-14","ticker":"BABA","prints":3,"premium":131000,"call_premium":0,"call_prints":0},{"date":"2026-10-14","ticker":"QQQ","prints":28,"premium":3508000,"call_premium":1327000,"call_prints":8},{"date":"2026-10-14","ticker":"SMH","prints":9,"premium":890000,"call_premium":312000,"call_prints":1},{"date":"2026-10-14","ticker":"SPY","prints":60,"premium":10284000,"call_premium":1061000,"call_prints":17},{"date":"2026-10-13","ticker":"BABA","prints":4,"premium":1255000,"call_premium":1013000,"call_prints":3},{"date":"2026-10-13","ticker":"JD","prints":1,"premium":100000,"call_premium":100000,"call_prints":1},{"date":"2026-10-13","ticker":"QQQ","prints":8,"premium":968000,"call_premium":496000,"call_prints":5},{"date":"2026-10-13","ticker":"SMH","prints":3,"premium":267000,"call_premium":267000,"call_prints":3},{"date":"2026-10-13","ticker":"SPY","prints":20,"premium":1888000,"call_premium":570000,"call_prints":4},{"date":"2026-10-12","ticker":"BABA","prints":2,"premium":59000,"call_premium":13000,"call_prints":1},{"date":"2026-10-12","ticker":"QQQ","prints":16,"premium":2109000,"call_premium":800000,"call_prints":7},{"date":"2026-10-12","ticker":"SMH","prints":15,"premium":9817000,"call_premium":0,"call_prints":0},{"date":"2026-10-12","ticker":"SPY","prints":36,"premium":4425000,"call_premium":459000,"call_prints":3},{"date":"2026-10-09","ticker":"QQQ","prints":13,"premium":2635000,"call_premium":522000,"call_prints":3},{"date":"2026-10-09","ticker":"SMH","prints":1,"premium":10000,"call_premium":0,"call_prints":0},{"date":"2026-10-09","ticker":"SPY","prints":28,"premium":4516000,"call_premium":270000,"call_prints":8},{"date":"2026-10-20","ticker":"QQQ","prints":18,"premium":1475000.0,"call_premium":862000.0,"call_prints":7},{"date":"2026-10-20","ticker":"SMH","prints":6,"premium":1464000.0,"call_premium":1330000.0,"call_prints":4},{"date":"2026-10-20","ticker":"SPY","prints":33,"premium":2795000.0,"call_premium":1789000.0,"call_prints":15},{"date":"2026-10-21","ticker":"BABA","prints":4,"premium":990000.0,"call_premium":911000.0,"call_prints":3},{"date":"2026-10-21","ticker":"JD","prints":3,"premium":861000.0,"call_premium":740000.0,"call_prints":2},{"date":"2026-10-21","ticker":"QQQ","prints":32,"premium":4850000.0,"call_premium":3858000.0,"call_prints":24},{"date":"2026-10-21","ticker":"SMH","prints":8,"premium":732000.0,"call_premium":462000.0,"call_prints":4},{"date":"2026-10-21","ticker":"SPY","prints":24,"premium":2571000.0,"call_premium":179000.0,"call_prints":7},{"date":"2026-10-22","ticker":"BABA","prints":4,"premium":667000.0,"call_premium":620000.0,"call_prints":3},{"date":"2026-10-22","ticker":"QQQ","prints":35,"premium":5633000.0,"call_premium":3214000.0,"call_prints":18},{"date":"2026-10-22","ticker":"SMH","prints":9,"premium":817000.0,"call_premium":488000.0,"call_prints":7},{"date":"2026-10-22","ticker":"SPY","prints":16,"premium":4591000.0,"call_premium":1085000.0,"call_prints":6}],"capture_history":[{"captured_on":"2026-10-17","coverage":"Delayed signed-out first-page table; 250 displayed rows, 247 retained after enforcing displayed ask share >=70%. Rounded display premiums. Not full sessions or live data; missing tickers are not zero activity. Page timezone not verified, dates retained as displayed with year inferred from current context.","summary":[{"date":"2026-10-14","ticker":"QQQ","prints":28,"premium":3508000,"call_premium":1327000,"call_prints":8},{"date":"2026-10-14","ticker":"SPY","prints":60,"premium":10284000,"call_premium":1061000,"call_prints":17},{"date":"2026-10-14","ticker":"SMH","prints":9,"premium":890000,"call_premium":312000,"call_prints":1},{"date":"2026-10-14","ticker":"BABA","prints":3,"premium":131000,"call_premium":0,"call_prints":0},{"date":"2026-10-13","ticker":"SPY","prints":20,"premium":1888000,"call_premium":570000,"call_prints":4},{"date":"2026-10-13","ticker":"SMH","prints":3,"premium":267000,"call_premium":267000,"call_prints":3},{"date":"2026-10-13","ticker":"QQQ","prints":8,"premium":968000,"call_premium":496000,"call_prints":5},{"date":"2026-10-13","ticker":"BABA","prints":4,"premium":1255000,"call_premium":1013000,"call_prints":3},{"date":"2026-10-13","ticker":"JD","prints":1,"premium":100000,"call_premium":100000,"call_prints":1},{"date":"2026-10-12","ticker":"SPY","prints":36,"premium":4425000,"call_premium":459000,"call_prints":3},{"date":"2026-10-12","ticker":"QQQ","prints":16,"premium":2109000,"call_premium":800000,"call_prints":7},{"date":"2026-10-12","ticker":"SMH","prints":15,"premium":9817000,"call_premium":0,"call_prints":0},{"date":"2026-10-12","ticker":"BABA","prints":2,"premium":59000,"call_premium":13000,"call_prints":1},{"date":"2026-10-09","ticker":"SPY","prints":28,"premium":4516000,"call_premium":270000,"call_prints":8},{"date":"2026-10-09","ticker":"QQQ","prints":13,"premium":2635000,"call_premium":522000,"call_prints":3},{"date":"2026-10-09","ticker":"SMH","prints":1,"premium":10000,"call_premium":0,"call_prints":0}]},{"captured_on":"2026-10-19","source_time":"2026-10-19 07:01:19","coverage":"Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 15 11:40:44 through October 19 07:01:43 Pacific; 249 retained after enforcing displayed ask share \u226570% (one 55% row excluded). Latest qualifying alert October 19 07:01:19. Friday October 16 is contained within the captured window; October 15 is partial and October 19 is an early-session snapshot. Rounded display premiums, not exact dollars. Alerts are not necessarily unique trades or whales. Historical October 9\u201314 aggregates retained from the earlier delayed capture. Missing tickers are unavailable in the captured sample, not zero market activity. This is filtered flow, not a live stream or a historical-baseline score.","summary":[{"date":"2026-10-19","ticker":"QQQ","prints":4,"premium":295000,"call_premium":0,"call_prints":0},{"date":"2026-10-19","ticker":"SMH","prints":5,"premium":364000,"call_premium":87000,"call_prints":2},{"date":"2026-10-19","ticker":"SPY","prints":9,"premium":456000,"call_premium":106000,"call_prints":1}]},{"captured_on":"2026-10-19","source_time":"2026-10-19 13:00:27","coverage":"Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 16 09:41:47 through October 19 13:00:27 Pacific; 249 retained after enforcing displayed ask share \u226570%. October 19 has 108 qualifying alerts through the latest displayed close-time alert. This is a capped, filtered sample, not certified complete exchange coverage. Rounded displayed premiums; alerts may overlap and are not unique whales. October 16 and earlier summaries are retained from previous captures; the current partial Friday window was not added to or substituted for the earlier Friday summary. Missing observations do not mean zero market activity. Descriptive flow direction, not a historical-baseline or predictive score."},{"captured_on":"2026-10-20","source_time":"2026-10-20 11:39:13","coverage":"Authenticated rendered Orange Swan partial-session capture October 20, 06:31:24\u201311:39:13 Pacific. Distinct alerts, rounded premiums; not unique whales or certified complete market coverage. Earlier sessions retained. BABA and JD have no captured alerts in this window, not zero market activity."},{"captured_on":"2026-10-21","source_time":"2026-10-21 12:04:22","coverage":"Authenticated rendered Orange Swan partial-session capture October 21, 06:34:13\u201312:04:22 Pacific. Distinct alerts, rounded premiums; not unique whales or complete market coverage. Earlier sessions retained."}],"source_time":"2026-10-22 10:35:50","source_timezone":"America/Los_Angeles","capture_type":"Authenticated rendered alert table","captured_rows":65,"retained_rows":64,"excluded_rows":1,"session_coverage":{"2026-10-19":"108 qualifying alerts through 13:00:27 Pacific; all five tracked symbols represented. BABA and JD have only one alert each.","2026-10-16":"Friday session falls inside the captured first-page window; 201 qualifying alerts.","2026-10-15":"Partial session: 30 qualifying alerts from 11:40:44 Pacific onward.","2026-10-20":"58 captured alerts, 57 retained after excluding one displayed 65% ask-share row, through 11:39:13 Pacific; SPY, QQQ and SMH represented. No captured BABA/JD alerts.","2026-10-21":"71 captured alerts through 12:04:22 Pacific; SPY, QQQ, SMH, BABA and JD represented.","2026-10-22":"64 qualifying alerts through 10:35:50 Pacific; earlier sessions retained."}}
+{
+  "captured_on": "2026-10-29",
+  "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
+  "coverage": "Authenticated October 29 Orange Swan capture. Rounded premium values; sample compares same-session flow and is not an empirical historical baseline.",
+  "summary": [
+    {
+      "date": "2026-10-19",
+      "ticker": "QQQ",
+      "prints": 45,
+      "premium": 4782000,
+      "call_premium": 649000,
+      "call_prints": 5
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "SPY",
+      "prints": 52,
+      "premium": 4174000,
+      "call_premium": 1134000,
+      "call_prints": 11
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "SMH",
+      "prints": 9,
+      "premium": 492000,
+      "call_premium": 189000,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "BABA",
+      "prints": 1,
+      "premium": 64000,
+      "call_premium": 64000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-19",
+      "ticker": "JD",
+      "prints": 1,
+      "premium": 32000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-16",
+      "ticker": "BABA",
+      "prints": 3,
+      "premium": 189000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-16",
+      "ticker": "QQQ",
+      "prints": 64,
+      "premium": 9271000,
+      "call_premium": 2621000,
+      "call_prints": 23
+    },
+    {
+      "date": "2026-10-16",
+      "ticker": "SMH",
+      "prints": 22,
+      "premium": 3212000,
+      "call_premium": 813000,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-16",
+      "ticker": "SPY",
+      "prints": 112,
+      "premium": 13372000,
+      "call_premium": 3477000,
+      "call_prints": 33
+    },
+    {
+      "date": "2026-10-15",
+      "ticker": "QQQ",
+      "prints": 7,
+      "premium": 227000,
+      "call_premium": 24000,
+      "call_prints": 2
+    },
+    {
+      "date": "2026-10-15",
+      "ticker": "SMH",
+      "prints": 1,
+      "premium": 390000,
+      "call_premium": 390000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-15",
+      "ticker": "SPY",
+      "prints": 22,
+      "premium": 1628000,
+      "call_premium": 1042000,
+      "call_prints": 15
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "BABA",
+      "prints": 3,
+      "premium": 131000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "QQQ",
+      "prints": 28,
+      "premium": 3508000,
+      "call_premium": 1327000,
+      "call_prints": 8
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "SMH",
+      "prints": 9,
+      "premium": 890000,
+      "call_premium": 312000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-14",
+      "ticker": "SPY",
+      "prints": 60,
+      "premium": 10284000,
+      "call_premium": 1061000,
+      "call_prints": 17
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "BABA",
+      "prints": 4,
+      "premium": 1255000,
+      "call_premium": 1013000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "JD",
+      "prints": 1,
+      "premium": 100000,
+      "call_premium": 100000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "QQQ",
+      "prints": 8,
+      "premium": 968000,
+      "call_premium": 496000,
+      "call_prints": 5
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "SMH",
+      "prints": 3,
+      "premium": 267000,
+      "call_premium": 267000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-13",
+      "ticker": "SPY",
+      "prints": 20,
+      "premium": 1888000,
+      "call_premium": 570000,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "BABA",
+      "prints": 2,
+      "premium": 59000,
+      "call_premium": 13000,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "QQQ",
+      "prints": 16,
+      "premium": 2109000,
+      "call_premium": 800000,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "SMH",
+      "prints": 15,
+      "premium": 9817000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-12",
+      "ticker": "SPY",
+      "prints": 36,
+      "premium": 4425000,
+      "call_premium": 459000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "QQQ",
+      "prints": 13,
+      "premium": 2635000,
+      "call_premium": 522000,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "SMH",
+      "prints": 1,
+      "premium": 10000,
+      "call_premium": 0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-10-09",
+      "ticker": "SPY",
+      "prints": 28,
+      "premium": 4516000,
+      "call_premium": 270000,
+      "call_prints": 8
+    },
+    {
+      "date": "2026-10-20",
+      "ticker": "QQQ",
+      "prints": 18,
+      "premium": 1475000.0,
+      "call_premium": 862000.0,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-20",
+      "ticker": "SMH",
+      "prints": 6,
+      "premium": 1464000.0,
+      "call_premium": 1330000.0,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-20",
+      "ticker": "SPY",
+      "prints": 33,
+      "premium": 2795000.0,
+      "call_premium": 1789000.0,
+      "call_prints": 15
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "BABA",
+      "prints": 4,
+      "premium": 990000.0,
+      "call_premium": 911000.0,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "JD",
+      "prints": 3,
+      "premium": 861000.0,
+      "call_premium": 740000.0,
+      "call_prints": 2
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "QQQ",
+      "prints": 32,
+      "premium": 4850000.0,
+      "call_premium": 3858000.0,
+      "call_prints": 24
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "SMH",
+      "prints": 8,
+      "premium": 732000.0,
+      "call_premium": 462000.0,
+      "call_prints": 4
+    },
+    {
+      "date": "2026-10-21",
+      "ticker": "SPY",
+      "prints": 24,
+      "premium": 2571000.0,
+      "call_premium": 179000.0,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-22",
+      "ticker": "BABA",
+      "prints": 4,
+      "premium": 667000.0,
+      "call_premium": 620000.0,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-10-22",
+      "ticker": "QQQ",
+      "prints": 35,
+      "premium": 5633000.0,
+      "call_premium": 3214000.0,
+      "call_prints": 18
+    },
+    {
+      "date": "2026-10-22",
+      "ticker": "SMH",
+      "prints": 9,
+      "premium": 817000.0,
+      "call_premium": 488000.0,
+      "call_prints": 7
+    },
+    {
+      "date": "2026-10-22",
+      "ticker": "SPY",
+      "prints": 16,
+      "premium": 4591000.0,
+      "call_premium": 1085000.0,
+      "call_prints": 6
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BABA",
+      "prints": 1,
+      "premium": 11000.0,
+      "call_premium": 11000.0,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "QQQ",
+      "prints": 8,
+      "premium": 2012000.0,
+      "call_premium": 1829000.0,
+      "call_prints": 6
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SMH",
+      "prints": 8,
+      "premium": 2030000.0,
+      "call_premium": 1967000.0,
+      "call_prints": 5
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SPY",
+      "prints": 15,
+      "premium": 6528000.0,
+      "call_premium": 323000.0,
+      "call_prints": 5
+    }
+  ],
+  "capture_history": [
+    {
+      "captured_on": "2026-10-17",
+      "coverage": "Delayed signed-out first-page table; 250 displayed rows, 247 retained after enforcing displayed ask share >=70%. Rounded display premiums. Not full sessions or live data; missing tickers are not zero activity. Page timezone not verified, dates retained as displayed with year inferred from current context.",
+      "summary": [
+        {
+          "date": "2026-10-14",
+          "ticker": "QQQ",
+          "prints": 28,
+          "premium": 3508000,
+          "call_premium": 1327000,
+          "call_prints": 8
+        },
+        {
+          "date": "2026-10-14",
+          "ticker": "SPY",
+          "prints": 60,
+          "premium": 10284000,
+          "call_premium": 1061000,
+          "call_prints": 17
+        },
+        {
+          "date": "2026-10-14",
+          "ticker": "SMH",
+          "prints": 9,
+          "premium": 890000,
+          "call_premium": 312000,
+          "call_prints": 1
+        },
+        {
+          "date": "2026-10-14",
+          "ticker": "BABA",
+          "prints": 3,
+          "premium": 131000,
+          "call_premium": 0,
+          "call_prints": 0
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "SPY",
+          "prints": 20,
+          "premium": 1888000,
+          "call_premium": 570000,
+          "call_prints": 4
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "SMH",
+          "prints": 3,
+          "premium": 267000,
+          "call_premium": 267000,
+          "call_prints": 3
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "QQQ",
+          "prints": 8,
+          "premium": 968000,
+          "call_premium": 496000,
+          "call_prints": 5
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "BABA",
+          "prints": 4,
+          "premium": 1255000,
+          "call_premium": 1013000,
+          "call_prints": 3
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "JD",
+          "prints": 1,
+          "premium": 100000,
+          "call_premium": 100000,
+          "call_prints": 1
+        },
+        {
+          "date": "2026-10-12",
+          "ticker": "SPY",
+          "prints": 36,
+          "premium": 4425000,
+          "call_premium": 459000,
+          "call_prints": 3
+        },
+        {
+          "date": "2026-10-12",
+          "ticker": "QQQ",
+          "prints": 16,
+          "premium": 2109000,
+          "call_premium": 800000,
+          "call_prints": 7
+        },
+        {
+          "date": "2026-10-12",
+          "ticker": "SMH",
+          "prints": 15,
+          "premium": 9817000,
+          "call_premium": 0,
+          "call_prints": 0
+        },
+        {
+          "date": "2026-10-12",
+          "ticker": "BABA",
+          "prints": 2,
+          "premium": 59000,
+          "call_premium": 13000,
+          "call_prints": 1
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "SPY",
+          "prints": 28,
+          "premium": 4516000,
+          "call_premium": 270000,
+          "call_prints": 8
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "QQQ",
+          "prints": 13,
+          "premium": 2635000,
+          "call_premium": 522000,
+          "call_prints": 3
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "SMH",
+          "prints": 1,
+          "premium": 10000,
+          "call_premium": 0,
+          "call_prints": 0
+        }
+      ]
+    },
+    {
+      "captured_on": "2026-10-19",
+      "source_time": "2026-10-19 07:01:19",
+      "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 15 11:40:44 through October 19 07:01:43 Pacific; 249 retained after enforcing displayed ask share \u226570% (one 55% row excluded). Latest qualifying alert October 19 07:01:19. Friday October 16 is contained within the captured window; October 15 is partial and October 19 is an early-session snapshot. Rounded display premiums, not exact dollars. Alerts are not necessarily unique trades or whales. Historical October 9\u201314 aggregates retained from the earlier delayed capture. Missing tickers are unavailable in the captured sample, not zero market activity. This is filtered flow, not a live stream or a historical-baseline score.",
+      "summary": [
+        {
+          "date": "2026-10-19",
+          "ticker": "QQQ",
+          "prints": 4,
+          "premium": 295000,
+          "call_premium": 0,
+          "call_prints": 0
+        },
+        {
+          "date": "2026-10-19",
+          "ticker": "SMH",
+          "prints": 5,
+          "premium": 364000,
+          "call_premium": 87000,
+          "call_prints": 2
+        },
+        {
+          "date": "2026-10-19",
+          "ticker": "SPY",
+          "prints": 9,
+          "premium": 456000,
+          "call_premium": 106000,
+          "call_prints": 1
+        }
+      ]
+    },
+    {
+      "captured_on": "2026-10-19",
+      "source_time": "2026-10-19 13:00:27",
+      "coverage": "Authenticated Orange Swan first-page capture: 250 displayed rows spanning October 16 09:41:47 through October 19 13:00:27 Pacific; 249 retained after enforcing displayed ask share \u226570%. October 19 has 108 qualifying alerts through the latest displayed close-time alert. This is a capped, filtered sample, not certified complete exchange coverage. Rounded displayed premiums; alerts may overlap and are not unique whales. October 16 and earlier summaries are retained from previous captures; the current partial Friday window was not added to or substituted for the earlier Friday summary. Missing observations do not mean zero market activity. Descriptive flow direction, not a historical-baseline or predictive score."
+    },
+    {
+      "captured_on": "2026-10-20",
+      "source_time": "2026-10-20 11:39:13",
+      "coverage": "Authenticated rendered Orange Swan partial-session capture October 20, 06:31:24\u201311:39:13 Pacific. Distinct alerts, rounded premiums; not unique whales or certified complete market coverage. Earlier sessions retained. BABA and JD have no captured alerts in this window, not zero market activity."
+    },
+    {
+      "captured_on": "2026-10-21",
+      "source_time": "2026-10-21 12:04:22",
+      "coverage": "Authenticated rendered Orange Swan partial-session capture October 21, 06:34:13\u201312:04:22 Pacific. Distinct alerts, rounded premiums; not unique whales or complete market coverage. Earlier sessions retained."
+    },
+    {
+      "captured_on": "2026-10-22",
+      "source_time": "2026-10-22 10:35:50",
+      "coverage": "Authenticated partial-session Orange Swan capture October 22; exact displayed rows, rounded premiums. Prior-session overlap reached. A descriptive same-session flow comparison, not total market inflow or a historical baseline."
+    }
+  ],
+  "source_time": "2026-10-29 10:06:39",
+  "source_timezone": "America/Los_Angeles",
+  "capture_type": "Authenticated rendered alert table",
+  "captured_rows": 32,
+  "retained_rows": 32,
+  "excluded_rows": 0,
+  "session_coverage": {
+    "2026-10-19": "108 qualifying alerts through 13:00:27 Pacific; all five tracked symbols represented. BABA and JD have only one alert each.",
+    "2026-10-16": "Friday session falls inside the captured first-page window; 201 qualifying alerts.",
+    "2026-10-15": "Partial session: 30 qualifying alerts from 11:40:44 Pacific onward.",
+    "2026-10-20": "58 captured alerts, 57 retained after excluding one displayed 65% ask-share row, through 11:39:13 Pacific; SPY, QQQ and SMH represented. No captured BABA/JD alerts.",
+    "2026-10-21": "71 captured alerts through 12:04:22 Pacific; SPY, QQQ, SMH, BABA and JD represented.",
+    "2026-10-22": "64 qualifying alerts through 10:35:50 Pacific; earlier sessions retained.",
+    "2026-10-29": "32 qualifying alerts through 10:06:39 Pacific; prior session reached."
+  }
+}
