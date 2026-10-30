@@ -1,7 +1,7 @@
 {
-  "captured_on": "2026-10-29",
+  "captured_on": "2026-10-30",
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
-  "coverage": "Authenticated October 29 Orange Swan capture. Rounded premium values; sample compares same-session flow and is not an empirical historical baseline.",
+  "coverage": "Authenticated October 30 Orange Swan capture. Rounded premium values; sample compares same-session flow and is not an empirical historical baseline.",
   "summary": [
     {
       "date": "2026-10-19",
@@ -354,6 +354,38 @@
       "premium": 6528000.0,
       "call_premium": 323000.0,
       "call_prints": 5
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "BABA",
+      "prints": 1,
+      "premium": 31000.0,
+      "call_premium": 31000.0,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "QQQ",
+      "prints": 21,
+      "premium": 3330000.0,
+      "call_premium": 1632000.0,
+      "call_prints": 11
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "SMH",
+      "prints": 7,
+      "premium": 625000.0,
+      "call_premium": 184000.0,
+      "call_prints": 2
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "SPY",
+      "prints": 45,
+      "premium": 8853000.0,
+      "call_premium": 7315000.0,
+      "call_prints": 25
     }
   ],
   "capture_history": [
@@ -541,14 +573,20 @@
       "captured_on": "2026-10-22",
       "source_time": "2026-10-22 10:35:50",
       "coverage": "Authenticated partial-session Orange Swan capture October 22; exact displayed rows, rounded premiums. Prior-session overlap reached. A descriptive same-session flow comparison, not total market inflow or a historical baseline."
+    },
+    {
+      "captured_on": "2026-10-29",
+      "source_time": "2026-10-29 10:06:39",
+      "coverage": "Authenticated October 29 Orange Swan capture. Rounded premium values; sample compares same-session flow and is not an empirical historical baseline.",
+      "summary": []
     }
   ],
-  "source_time": "2026-10-29 10:06:39",
+  "source_time": "2026-10-30 08:14:40",
   "source_timezone": "America/Los_Angeles",
   "capture_type": "Authenticated rendered alert table",
-  "captured_rows": 32,
-  "retained_rows": 32,
-  "excluded_rows": 0,
+  "captured_rows": 77,
+  "retained_rows": 74,
+  "excluded_rows": 3,
   "session_coverage": {
     "2026-10-19": "108 qualifying alerts through 13:00:27 Pacific; all five tracked symbols represented. BABA and JD have only one alert each.",
     "2026-10-16": "Friday session falls inside the captured first-page window; 201 qualifying alerts.",
@@ -556,6 +594,8 @@
     "2026-10-20": "58 captured alerts, 57 retained after excluding one displayed 65% ask-share row, through 11:39:13 Pacific; SPY, QQQ and SMH represented. No captured BABA/JD alerts.",
     "2026-10-21": "71 captured alerts through 12:04:22 Pacific; SPY, QQQ, SMH, BABA and JD represented.",
     "2026-10-22": "64 qualifying alerts through 10:35:50 Pacific; earlier sessions retained.",
-    "2026-10-29": "32 qualifying alerts through 10:06:39 Pacific; prior session reached."
-  }
+    "2026-10-29": "32 qualifying alerts through 10:06:39 Pacific; prior session reached.",
+    "2026-10-30": "74 qualifying alerts through 08:14:40 Pacific; prior session reached."
+  },
+  "exclusion_note": "Displayed rows with missing ask percentage or less than 70% ask share excluded from qualifying summary; saved filter configuration unchanged."
 }
