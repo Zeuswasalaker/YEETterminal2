@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-29T17:49:34.362915+00:00",
+  "captured_at": "2026-10-30T15:10:56.187225+00:00",
   "flow_source": "Aggregated distinct rendered SPY Magic alert rows; repeated contracts retained, not unique whales",
   "flow_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
   "price_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
@@ -162,6 +162,29 @@
       "score": 0.0,
       "level": "No opposing divergence",
       "direction": "Bearish flow / falling index",
+      "capture_method": "Authenticated rendered Magic alerts across pages; overlapping rendered rows removed, rounded premiums."
+    },
+    {
+      "date": "2026-10-30",
+      "flow_start": "2026/10/30 06:30:13",
+      "flow_as_of": "2026/10/30 08:08:10",
+      "price_as_of": "2026/10/30 08:08:10",
+      "spot": 758.67,
+      "previous_close": 769.3599853515625,
+      "previous_close_date": "2026-10-29",
+      "index_return": -0.013894646920943887,
+      "return_std": 0.005887536366390955,
+      "baseline_sessions": 60,
+      "baseline_end": "2026-10-29",
+      "calls": 4884000.0,
+      "puts": 3147000.0,
+      "call_share": 0.6081434441539036,
+      "alerts": 104,
+      "unknown_side_alerts": 15,
+      "complete_session": false,
+      "score": 57.28978930978747,
+      "level": "Strong disagreement",
+      "direction": "Bullish whale / falling index",
       "capture_method": "Authenticated rendered Magic alerts across pages; overlapping rendered rows removed, rounded premiums."
     }
   ],
