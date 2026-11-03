@@ -206,6 +206,37 @@ def gold_tile(contract,spot):
     return f'<article class="gold-contract gold-{option_kind}" aria-label="SPY {strike} {side} expiring {expiry}"><div class="gold-top"><span>{icon} {side}</span><span>{symbol}</span></div><div class="gold-strike">{strike}<span>{"c" if side=="CALL" else "p"}</span></div><div class="gold-expiry">Expires {expiry}</div><div class="gold-status">{status}</div><div class="gold-first"><span>First spotted</span><strong>{escape(first)}</strong><small>First appearance in our saved alerts</small></div><div class="gold-foot">{contract["alerts"]} saved alerts · ${abs(float(contract["strike"])-spot):.2f} from strike<br>At the saved SPY price</div></article>'
 
 
+
+def _published_json(filename):
+    """Fetch public research only; member authentication remains in app.py."""
+    import urllib.request
+    import time
+    if filename not in ('prestige.json','prestige_audit.json'):
+        raise ValueError('Unknown published research file')
+    url=('https://raw.githubusercontent.com/Zeuswasalaker/YEETterminal2/main/data/'
+         +filename+'?v='+str(int(time.time()//30)))
+    request=urllib.request.Request(url,headers={'User-Agent':'YEET-Terminal/1.0'})
+    with urllib.request.urlopen(request,timeout=8) as response:
+        raw=response.read(10_000_001)
+    if len(raw)>10_000_000:
+        raise ValueError('Published research is too large')
+    return json.loads(raw)
+
+
+def _freshest_snapshot(candidates):
+    valid=[]
+    for candidate in candidates:
+        try:
+            item=validate_snapshot(candidate)
+            datetime.strptime(item.get('source_time',''),'%Y/%m/%d %H:%M:%S')
+            valid.append(item)
+        except (ValueError,TypeError,KeyError):
+            continue
+    if not valid:
+        raise ValueError('No valid Prestige snapshot')
+    return max(valid,key=lambda item:(item['source_time'],item.get('latest_alert_time','')))
+
+
 def render(admin):
     import streamlit as st
     # Check for newly published snapshots without requiring a browser reload.
@@ -214,19 +245,35 @@ def render(admin):
 def _render(admin):
     import streamlit as st
     path=Path(__file__).parent/'data'/'prestige.json'
-    version=path.stat().st_mtime_ns if path.exists() else None
-    if 'prestige_snapshot' not in st.session_state or st.session_state.get('prestige_file_version')!=version:
-        st.session_state.prestige_file_version=version
-        try:
-            private=st.secrets.get('PRESTIGE_SNAPSHOT_JSON','')
-        except Exception:
-            private=''
-        try:
-            initial=json.loads(private) if private else json.loads(path.read_text())
-            st.session_state.prestige_snapshot=apply_lifecycle(validate_snapshot(initial),st.session_state.get('prestige_snapshot'))
-        except Exception:
-            st.error('Prestige is temporarily unavailable.')
-            st.session_state.prestige_snapshot={'cards':[]}
+    # The published feed must advance even if the hosting checkout or secret is old.
+    published=st.cache_data(ttl=30,show_spinner=False)(_published_json)
+    candidates=[]
+    try:
+        candidates.append(json.loads(path.read_text()))
+    except (OSError,ValueError):
+        pass
+    try:
+        private=st.secrets.get('PRESTIGE_SNAPSHOT_JSON','')
+        if private: candidates.append(json.loads(private))
+    except Exception:
+        pass
+    try:
+        candidates.append(published('prestige.json'))
+    except Exception:
+        pass
+    # Keep a newer admin-uploaded or last-successful snapshot during a feed failure.
+    if st.session_state.get('prestige_snapshot'):
+        candidates.append(st.session_state.prestige_snapshot)
+    try:
+        initial=_freshest_snapshot(candidates)
+        version=(initial['source_time'],initial.get('latest_alert_time',''),
+                 initial.get('captured_at',''))
+        if st.session_state.get('prestige_file_version')!=version:
+            st.session_state.prestige_snapshot=apply_lifecycle(initial,st.session_state.get('prestige_snapshot'))
+            st.session_state.prestige_file_version=version
+    except Exception:
+        st.error('Prestige is temporarily unavailable.')
+        st.session_state.prestige_snapshot={'cards':[]}
     snapshot=apply_lifecycle(st.session_state.prestige_snapshot)
     st.session_state.prestige_snapshot=snapshot
     today=datetime.now(ZoneInfo('America/New_York')).date()
@@ -292,9 +339,17 @@ def _render(admin):
 
     stats=prestige_performance(snapshot)
     try:
-        audit=json.loads((Path(__file__).parent/'data/prestige_audit.json').read_text())
-    except (OSError,ValueError):
-        audit={'records':[],'scope':'Publication audit unavailable; historical sequences remain reconstructed.'}
+        audit=published('prestige_audit.json')
+        if not isinstance(audit.get('records'),list):
+            raise ValueError('Invalid publication audit')
+        st.session_state.prestige_publication_audit=audit
+    except Exception:
+        audit=st.session_state.get('prestige_publication_audit')
+        if audit is None:
+            try:
+                audit=json.loads((Path(__file__).parent/'data/prestige_audit.json').read_text())
+            except (OSError,ValueError):
+                audit={'records':[],'scope':'Publication audit unavailable; historical sequences remain reconstructed.'}
     evidence={r['contract']:r for r in audit.get('records',[])}
     for row in stats['records']:
         row.update({k:evidence.get(row['contract'],{}).get(k,'') for k in ('provenance','published_at','source_url')})
