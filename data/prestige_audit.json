@@ -727,6 +727,22 @@
       "published_at": "2026/10/30 08:12:45",
       "commit_sha": "a565f54039f43d917eb43f488eafb4c3a3b37274",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a565f54039f43d917eb43f488eafb4c3a3b37274"
+    },
+    {
+      "contract": "758c 11/04/2026",
+      "qualified_at": "2026/11/02 11:27:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/03 07:22:08",
+      "commit_sha": "466b6731777cb8b27516e0d279b5df979b2fa5f2",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/466b6731777cb8b27516e0d279b5df979b2fa5f2"
+    },
+    {
+      "contract": "757c 11/30/2026",
+      "qualified_at": "2026/11/02 12:36:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/03 07:22:08",
+      "commit_sha": "466b6731777cb8b27516e0d279b5df979b2fa5f2",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/466b6731777cb8b27516e0d279b5df979b2fa5f2"
     }
   ]
 }
