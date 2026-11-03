@@ -305,8 +305,10 @@ elif page=='OG/Founder Perks':
     from founders import render
     render(admin)
 elif page=='Prestige':
-    from prestige import render
-    render(admin)
+    # Reload the page module when the hosting entrypoint reruns after publication.
+    import importlib
+    import prestige
+    importlib.reload(prestige).render(admin)
 else:
     from pari import render
     render(admin)
@@ -314,4 +316,4 @@ else:
 
 
 
-# Published data revision: 2026-10-21 SPY Magic and SLV Founder coverage.
+# Published data revision: 2026-11-03 Prestige feed refresh and live-board reconciliation.
