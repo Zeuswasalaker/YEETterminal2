@@ -1,6 +1,6 @@
 {
-  "audited_at": "2026-10-29T14:29:56Z",
-  "scope": "Checked nine saved GitHub snapshots from October 14\u201319. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit.",
+  "audited_at": "2026-11-04T16:58:13Z",
+  "scope": "Checked nine saved GitHub snapshots from October 14–19. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit.",
   "records": [
     {
       "contract": "781c 10/20/2026",
@@ -10,7 +10,10 @@
     {
       "contract": "774p 10/21/2026",
       "qualified_at": "2026/10/13 11:15:31",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "779c 10/16/2026",
@@ -136,13 +139,19 @@
     },
     {
       "contract": "772c 10/19/2026",
-      "qualified_at": "2026/10/14 11:14:42",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/14 10:42:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "772c 10/30/2026",
-      "qualified_at": "2026/10/14 11:14:42",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/14 10:42:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "771c 10/15/2026",
@@ -242,18 +251,27 @@
     },
     {
       "contract": "763p 10/19/2026",
-      "qualified_at": "2026/10/15 07:04:06",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/15 07:03:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "772c 10/15/2026",
-      "qualified_at": "2026/10/15 07:39:53",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/14 13:56:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "772c 10/21/2026",
-      "qualified_at": "2026/10/15 07:39:53",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/14 13:56:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "775c 10/19/2026",
@@ -291,28 +309,43 @@
     },
     {
       "contract": "769p 10/19/2026",
-      "qualified_at": "2026/10/16 06:31:00",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/16 01:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "769p 10/20/2026",
-      "qualified_at": "2026/10/16 06:31:00",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/16 01:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "769p 10/21/2026",
-      "qualified_at": "2026/10/16 06:31:00",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/16 01:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "769p 10/22/2026",
-      "qualified_at": "2026/10/16 06:31:00",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/16 01:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "769p 10/23/2026",
-      "qualified_at": "2026/10/16 06:31:00",
-      "provenance": "Reconstructed from saved observations"
+      "qualified_at": "2026/10/16 01:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "775c 10/20/2026",
@@ -340,7 +373,10 @@
     {
       "contract": "765p 10/20/2026",
       "qualified_at": "2026/10/16 08:27:00",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "773c 10/20/2026",
@@ -377,37 +413,58 @@
     {
       "contract": "767c 10/20/2026",
       "qualified_at": "2026/10/16 10:18:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "767c 10/22/2026",
       "qualified_at": "2026/10/16 10:18:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "768c 10/20/2026",
       "qualified_at": "2026/10/16 10:28:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "768c 10/21/2026",
       "qualified_at": "2026/10/16 10:28:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "761p 10/23/2026",
       "qualified_at": "2026/10/16 10:36:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "761p 10/28/2026",
       "qualified_at": "2026/10/16 10:36:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "768c 11/20/2026",
       "qualified_at": "2026/10/16 10:53:14",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "760p 10/20/2026",
@@ -417,37 +474,58 @@
     {
       "contract": "760p 10/23/2026",
       "qualified_at": "2026/10/16 10:53:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "767c 10/21/2026",
       "qualified_at": "2026/10/16 11:08:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "767c 11/20/2026",
       "qualified_at": "2026/10/16 11:08:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "766c 10/22/2026",
       "qualified_at": "2026/10/16 11:22:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "766c 11/20/2026",
       "qualified_at": "2026/10/16 11:36:01",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "765c 10/26/2026",
       "qualified_at": "2026/10/16 11:56:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "765c 10/23/2026",
       "qualified_at": "2026/10/16 12:10:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "759p 10/21/2026",
@@ -457,12 +535,18 @@
     {
       "contract": "766c 10/20/2026",
       "qualified_at": "2026/10/16 15:17:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "772c 10/22/2026",
       "qualified_at": "2026/10/19 01:02:59",
-      "provenance": "Reconstructed from saved observations"
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     },
     {
       "contract": "767p 10/21/2026",
@@ -743,6 +827,558 @@
       "published_at": "2026/11/03 07:22:08",
       "commit_sha": "466b6731777cb8b27516e0d279b5df979b2fa5f2",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/466b6731777cb8b27516e0d279b5df979b2fa5f2"
+    },
+    {
+      "contract": "776p 10/16/2026",
+      "qualified_at": "2026/10/14 02:21:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "776p 10/19/2026",
+      "qualified_at": "2026/10/14 02:21:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "775p 10/16/2026",
+      "qualified_at": "2026/10/14 05:30:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "775p 11/13/2026",
+      "qualified_at": "2026/10/14 05:30:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "775p 10/23/2026",
+      "qualified_at": "2026/10/14 05:30:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "776p 11/13/2026",
+      "qualified_at": "2026/10/14 02:21:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "769c 11/13/2026",
+      "qualified_at": "2026/10/15 06:59:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "771c 10/20/2026",
+      "qualified_at": "2026/10/15 07:22:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "770p 10/22/2026",
+      "qualified_at": "2026/10/16 01:27:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "772p 10/19/2026",
+      "qualified_at": "2026/10/14 05:52:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "771c 10/23/2026",
+      "qualified_at": "2026/10/20 13:01:51",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "772c 10/28/2026",
+      "qualified_at": "2026/10/20 11:43:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "767p 10/27/2026",
+      "qualified_at": "2026/10/21 07:53:17",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "769p 10/27/2026",
+      "qualified_at": "2026/10/21 12:28:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "765c 10/30/2026",
+      "qualified_at": "2026/10/23 05:38:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "766c 10/26/2026",
+      "qualified_at": "2026/10/22 11:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "761p 10/26/2026",
+      "qualified_at": "2026/10/22 13:02:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "766c 10/30/2026",
+      "qualified_at": "2026/10/22 11:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "756p 10/27/2026",
+      "qualified_at": "2026/10/23 07:34:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "765c 10/28/2026",
+      "qualified_at": "2026/10/23 10:58:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "767c 10/27/2026",
+      "qualified_at": "2026/10/26 06:42:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768c 10/27/2026",
+      "qualified_at": "2026/10/26 16:13:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768c 10/28/2026",
+      "qualified_at": "2026/10/26 16:13:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "763p 11/02/2026",
+      "qualified_at": "2026/10/27 03:48:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768c 11/27/2026",
+      "qualified_at": "2026/10/26 16:13:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768p 11/03/2026",
+      "qualified_at": "2026/10/28 09:56:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "774c 11/13/2026",
+      "qualified_at": "2026/10/27 13:06:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "769p 11/04/2026",
+      "qualified_at": "2026/10/28 11:37:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "774c 10/30/2026",
+      "qualified_at": "2026/10/28 11:17:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "765p 11/03/2026",
+      "qualified_at": "2026/10/29 12:51:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "770c 11/12/2026",
+      "qualified_at": "2026/10/29 13:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "770c 11/11/2026",
+      "qualified_at": "2026/10/29 13:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "764p 11/27/2026",
+      "qualified_at": "2026/10/29 12:22:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "765p 11/02/2026",
+      "qualified_at": "2026/10/29 12:51:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "763c 11/02/2026",
+      "qualified_at": "2026/10/30 07:38:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "755p 11/02/2026",
+      "qualified_at": "2026/10/30 08:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "761c 11/13/2026",
+      "qualified_at": "2026/10/30 08:46:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "760c 11/04/2026",
+      "qualified_at": "2026/10/30 09:47:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "759c 11/04/2026",
+      "qualified_at": "2026/10/30 10:44:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "759c 11/20/2026",
+      "qualified_at": "2026/10/30 10:44:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "754p 11/06/2026",
+      "qualified_at": "2026/10/30 09:41:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "758c 11/06/2026",
+      "qualified_at": "2026/10/30 12:49:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "757c 11/06/2026",
+      "qualified_at": "2026/10/30 12:10:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "756c 11/04/2026",
+      "qualified_at": "2026/10/30 12:06:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "755c 12/11/2026",
+      "qualified_at": "2026/10/30 11:38:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "750p 11/05/2026",
+      "qualified_at": "2026/11/02 11:47:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "750p 11/06/2026",
+      "qualified_at": "2026/11/02 11:47:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "765c 11/09/2026",
+      "qualified_at": "2026/11/02 08:01:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "761c 11/06/2026",
+      "qualified_at": "2026/11/02 09:48:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "762c 11/04/2026",
+      "qualified_at": "2026/11/02 09:50:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "755p 11/10/2026",
+      "qualified_at": "2026/11/02 10:14:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "754p 11/04/2026",
+      "qualified_at": "2026/11/02 09:49:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "754c 11/04/2026",
+      "qualified_at": "2026/11/02 13:48:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "753p 11/04/2026",
+      "qualified_at": "2026/11/03 10:35:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "753p 11/09/2026",
+      "qualified_at": "2026/11/03 10:35:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "759c 11/05/2026",
+      "qualified_at": "2026/11/03 09:07:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "750p 11/17/2026",
+      "qualified_at": "2026/11/03 12:03:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "753p 11/05/2026",
+      "qualified_at": "2026/11/03 15:17:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "764p 11/05/2026",
+      "qualified_at": "2026/11/04 06:48:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "771c 11/05/2026",
+      "qualified_at": "2026/11/04 06:49:52",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "771c 11/06/2026",
+      "qualified_at": "2026/11/04 07:12:48",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "771c 11/09/2026",
+      "qualified_at": "2026/11/04 07:12:48",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "764p 11/11/2026",
+      "qualified_at": "2026/11/04 07:10:43",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "764p 11/12/2026",
+      "qualified_at": "2026/11/04 07:20:30",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "770c 11/06/2026",
+      "qualified_at": "2026/11/04 07:27:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768c 11/05/2026",
+      "qualified_at": "2026/11/04 08:06:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "768c 11/06/2026",
+      "qualified_at": "2026/11/04 08:06:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "769c 11/05/2026",
+      "qualified_at": "2026/11/04 07:50:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
+    },
+    {
+      "contract": "769c 11/06/2026",
+      "qualified_at": "2026/11/04 08:04:59",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/04 08:58:13",
+      "commit_sha": "dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/dd79ff907b65bb5aed8f30176c1d2a3fc8eb073a"
     }
   ]
 }
