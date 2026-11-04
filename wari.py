@@ -202,8 +202,13 @@ def render_orange_saved():
     except (ValueError, KeyError, OSError):
         return False
     st.caption(f'Orange Swan saved snapshot · session {day} · refreshed {saved["captured_on"]} · latest qualifying alert {saved.get("source_time","see coverage below")} Pacific')
-    if saved.get('session_coverage',{}).get(day):
-        st.caption(saved['session_coverage'][day])
+    coverage = saved.get('session_coverage')
+    if isinstance(coverage, dict):
+        coverage = coverage.get(day)
+    elif not isinstance(coverage, str) or day != saved.get('captured_on'):
+        coverage = None
+    if coverage:
+        st.caption(coverage)
     st.write('Where is the whale activity pulling apart? Compare the broad-market sample with semis and China-linked names.')
     def grouped(symbols):
         sample = rows.loc[rows.ticker.isin(symbols)]
