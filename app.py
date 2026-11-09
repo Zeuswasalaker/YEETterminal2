@@ -178,8 +178,9 @@ elif page=='MEME LAB':
     from rocket_lab import render
     render()
 elif page=='Wells Fargo Whispers':
-    from whispers import render
-    render()
+    import importlib
+    import whispers
+    importlib.reload(whispers).render()
 elif page=='Changelog':
     from changelog import render
     render()
