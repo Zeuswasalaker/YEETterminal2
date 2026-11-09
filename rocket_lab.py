@@ -27,7 +27,7 @@ def render():
     founders = load('founders.json')
     rambo = load('snapshot.json')
     today = datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
-    st.title('🚀 ROCKET LAB')
+    st.title('🚀 MEME LAB')
     st.write('Meme Swan tracks which names are breaking from SPY, QQQ and IWM in the options tape.')
     if snap.get('source_url'):
         st.link_button('Open Meme Swan ↗', snap['source_url'])
