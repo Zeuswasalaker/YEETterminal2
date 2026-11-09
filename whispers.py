@@ -77,7 +77,12 @@ def leads(prints, caps, events, day, today, min_dte=MIN_DTE, pending=False, earn
                   and not e.get('earnings_related') and 'corporate action' not in e.get('category','').lower()
                   and any(max(today,p['date']) <= e.get('date','') <= p['expiry'] for p in active)]
         result.append((ticker, active, linked))
-    return sorted(result, key=lambda x: (not bool(x[2]), -len(x[1]), -sum(p['premium'] for p in x[1]), x[0]))
+    def rank(lead):
+        ticker, orders, linked = lead
+        latest = max((p['date'], p.get('time','')) for p in orders)
+        return (latest, bool(linked), len(orders), sum(p['premium'] for p in orders))
+
+    return sorted(sorted(result, key=lambda lead: lead[0]), key=rank, reverse=True)
 
 def order_row(ticker, p):
     return {'Contract': f"{ticker} {p['strike']:g}{p['type'][0].lower()} {datetime.fromisoformat(p['expiry']).strftime('%-m/%-d/%Y')}",
@@ -87,7 +92,7 @@ def order_row(ticker, p):
 
 def render():
     st.title('🤫 Wells Fargo Whispers')
-    st.write('Smaller names with at least three distinct orders backing the same direction, and time left for the thesis to play out. A verified non-earnings event before expiration puts a name higher on the list, but it isn’t required.')
+    st.write('Smaller names with at least three distinct orders backing the same direction, and time left for the thesis to play out. Newest qualifying order comes first. A verified non-earnings catalyst breaks ties but is optional.')
     s, meta = load('snapshot.json'), load('whispers.json')
     today = datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
     prints = s.get('prints',[])
@@ -130,13 +135,13 @@ def render():
         st.caption('These names cleared the flow and expiry checks. They still need verified market cap or earnings coverage through contract expiry.')
         st.dataframe([{'Ticker': ticker, 'Side': orders[0]['type'].lower()[0].upper(),
                        'Orders': len(orders), 'Sessions': len({p['date'] for p in orders}),
-                       'Latest order': max(p['date'] for p in orders),
+                       'Latest order (PT)': max(f"{p['date']} {p.get('time','')}" for p in orders).strip(),
                        'Approx. premium': sum(p['premium'] for p in orders),
                        'RAMBO': ', '.join(e['title'] for e in events)}
                       for ticker, orders, events in pending], hide_index=True, width='stretch')
         ticker = st.selectbox('Inspect corroborating orders', [r[0] for r in pending])
         orders = next(r[1] for r in pending if r[0] == ticker)
-        st.dataframe([order_row(ticker,p) for p in orders], hide_index=True, width='stretch')
+        st.dataframe([order_row(ticker,p) for p in reversed(orders)], hide_index=True, width='stretch')
     for ticker, orders, events in rows:
         calls = orders[0]['type'].lower().startswith('c')
         with st.container(border=True):
