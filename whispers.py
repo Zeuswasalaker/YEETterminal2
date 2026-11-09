@@ -9,6 +9,7 @@ import streamlit as st
 DATA = Path(__file__).parent / 'data'
 CAP_LIMIT = 20_000_000_000
 MIN_DTE = 7
+MIN_ORDERS = 3
 
 def load(name):
     try:
@@ -40,7 +41,9 @@ def distinct_orders(orders):
         accepted.append(p)
     return accepted
 
-def leads(prints, caps, events, day, today, min_dte=MIN_DTE, pending=False):
+def leads(prints, caps, events, day, today, min_dte=MIN_DTE, pending=False, earnings_days=None, earnings_checked_through=None):
+    earnings_days = earnings_days or {}
+    earnings_checked_through = earnings_checked_through or {}
     cutoff = (date.fromisoformat(today) + timedelta(days=min_dte)).isoformat()
     grouped = {}
     for p in prints:
@@ -48,15 +51,28 @@ def leads(prints, caps, events, day, today, min_dte=MIN_DTE, pending=False):
             continue
         ticker = p.get('underlying_symbol')
         kind = str(p.get('type', '')).lower()[:1]
-        if kind in ('c','p') and ((ticker not in caps) if pending else 0 < caps.get(ticker,0) <= CAP_LIMIT):
+        if kind in ('c','p') and (ticker not in caps or 0 < caps[ticker] <= CAP_LIMIT):
             grouped.setdefault(ticker, []).append(p)
     result = []
     for ticker, orders in grouped.items():
         if len({p['type'].lower()[0] for p in orders}) != 1:
             continue
-        active = distinct_orders([p for p in orders if p.get('expiry','') >= cutoff])
-        if len(active) < 2:
+        # Exclude earnings-day prints and contracts that span a known earnings date.
+        earnings_dates = set(earnings_days.get(ticker, ()))
+        earnings_dates.update(e['date'] for e in events if e.get('ticker') == ticker
+                              and e.get('date') and (e.get('earnings_related') or 'earnings' in e.get('category','').lower()
+                              and 'non-earnings' not in e.get('category','').lower()))
+        active = distinct_orders([p for p in orders if p.get('expiry','') >= cutoff
+                                  and not p.get('earnings_related')
+                                  and not any(p['date'] <= e <= p['expiry'] for e in earnings_dates)])
+        if len(active) < MIN_ORDERS:
             continue
+        covered = [p for p in active if p['expiry'] <= earnings_checked_through.get(ticker,'')]
+        verified = ticker in caps and len(covered) >= MIN_ORDERS
+        if verified == pending:
+            continue
+        if verified:
+            active = covered
         linked = [e for e in events if e.get('ticker') == ticker and e.get('status') == 'Confirmed'
                   and not e.get('earnings_related') and 'corporate action' not in e.get('category','').lower()
                   and any(max(today,p['date']) <= e.get('date','') <= p['expiry'] for p in active)]
@@ -71,7 +87,7 @@ def order_row(ticker, p):
 
 def render():
     st.title('🤫 Wells Fargo Whispers')
-    st.write('Smaller names with at least two distinct orders backing the same direction, and time left for the thesis to play out. A verified non-earnings event before expiration puts a name higher on the list, but it isn’t required.')
+    st.write('Smaller names with at least three distinct orders backing the same direction, and time left for the thesis to play out. A verified non-earnings event before expiration puts a name higher on the list, but it isn’t required.')
     s, meta = load('snapshot.json'), load('whispers.json')
     today = datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
     prints = s.get('prints',[])
@@ -81,21 +97,37 @@ def render():
         return
     selected = st.selectbox('Scan window', ['All saved history', *days])
     day = None if selected == 'All saved history' else selected
-    info = meta.get('sessions',{}).get(day or days[0],{})
-    caps = {}
+    caps, earnings_days = {}, {}
+    for observed_day, session in meta.get('sessions',{}).items():
+        for ticker in session.get('earnings_day',[]):
+            earnings_days.setdefault(ticker, set()).add(observed_day)
     for observed_day, session in sorted(meta.get('sessions',{}).items()):
         if observed_day <= (day or today):
             caps.update(session.get('caps',{}))
     st.caption(f'Saved RAMBO sample: {days[-1]} through {days[0]}.')
     min_dte = st.slider('Minimum calendar days to expiry', min_value=2, max_value=30, value=MIN_DTE)
-    st.caption('Two distinct ask-side orders must each clear the expiry buffer. Opposing ask-side flow anywhere in the selected window disqualifies the ticker. Duplicate filter hits count once. Verified market cap up to $20B.')
-    rows = leads(prints, caps, s.get('events',[]), day, today, min_dte)
+    st.caption('Three distinct ask-side orders must each clear the expiry buffer. Orders spanning a known earnings date are excluded. Opposing ask-side flow anywhere in the selected window disqualifies the ticker. Duplicate filter hits count once. Qualified Whispers require verified market cap up to $20B and earnings coverage through expiry.')
+    rows = leads(prints, caps, s.get('events',[]), day, today, min_dte, earnings_days=earnings_days, earnings_checked_through=meta.get('earnings_checked_through',{}))
     if not rows:
         st.info('No fully verified Whispers in this window.')
-    pending = leads(prints, caps, s.get('events',[]), day, today, min_dte, pending=True)
+    pending = leads(prints, caps, s.get('events',[]), day, today, min_dte, pending=True, earnings_days=earnings_days)
+    top = rows[0] if rows else (pending[0] if pending else None)
+    if top:
+        ticker, orders, events = top
+        direction = 'calls' if orders[0]['type'].lower().startswith('c') else 'puts'
+        status = 'Top Whisper' if rows else 'Top flow lead · verification pending'
+        with st.container(border=True):
+            st.subheader(f'⭐ {status}: {ticker}')
+            st.write(f"**{len(orders)} distinct {direction}** across "
+                     f"**{len({p['date'] for p in orders})} sessions** · "
+                     f"**${sum(p['premium'] for p in orders):,.0f}** in approximate premium.")
+            if events:
+                st.caption('RAMBO: ' + ', '.join(e['title'] for e in events))
+            if not rows:
+                st.caption('Research lead only. Market cap and earnings calendar still need review.')
     if pending:
-        st.subheader('Flow matches · market cap pending')
-        st.caption('These names cleared the flow and expiry checks. They are not qualified Whispers until market cap is verified.')
+        st.subheader('Flow matches · verification pending')
+        st.caption('These names cleared the flow and expiry checks. They still need verified market cap or earnings coverage through contract expiry.')
         st.dataframe([{'Ticker': ticker, 'Side': orders[0]['type'].lower()[0].upper(),
                        'Orders': len(orders), 'Sessions': len({p['date'] for p in orders}),
                        'Latest order': max(p['date'] for p in orders),
@@ -116,7 +148,5 @@ def render():
                     st.link_button('Company source ↗',e['url'])
             if not events:
                 st.caption('No confirmed RAMBO match in saved coverage.')
-            if ticker in info.get('earnings_day',[]):
-                st.warning('The source flagged earnings at 0 DTE. Treat this as earnings-sensitive flow.')
             st.dataframe([order_row(ticker,p) for p in orders], hide_index=True, width='stretch')
-    st.caption('Premium is rounded. A single order never qualifies. Ask-side prints may be hedges or part of activity outside this sample.')
+    st.caption('Premium is rounded. Copies of the same order do not count as corroboration. Ask-side prints may be hedges or part of activity outside this sample.')
