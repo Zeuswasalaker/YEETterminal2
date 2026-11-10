@@ -869,6 +869,48 @@
           "note": "October 29 November 13 and November 20 puts, plus December puts, include this date. Related aggregate records can overlap; do not sum them as independent whales. Company release confirmed in search indexing; direct article fetch unavailable."
         }
       ]
+    },
+    {
+      "ticker": "MRVL",
+      "title": "IEEE ARGENCON · Marvell participation",
+      "date": "2026-11-11",
+      "end_date": "2026-11-13",
+      "time": "See event agenda",
+      "category": "Industry / technical conference",
+      "url": "https://www.marvell.com/company/events.html",
+      "summary": "Marvell lists the conference in Córdoba, Argentina.",
+      "note": "Calendar listing only; no trade intent inferred.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-11-10"
+    },
+    {
+      "ticker": "MRVL",
+      "title": "IEEE WinTechCon · Marvell participation",
+      "date": "2026-11-18",
+      "end_date": "2026-11-19",
+      "time": "See event agenda",
+      "category": "Industry / technical conference",
+      "url": "https://www.marvell.com/company/events.html",
+      "summary": "Marvell lists the conference in Bengaluru, India.",
+      "note": "Calendar listing only; no trade intent inferred.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-11-10"
+    },
+    {
+      "ticker": "TSM",
+      "title": "Monthly sales release · November 2026 revenue",
+      "date": "2026-12-10",
+      "end_date": "2026-12-10",
+      "time": "1:30 PM Taipei / December 9, 9:30 PM PT",
+      "category": "Monthly operating data",
+      "url": "https://investor.tsmc.com/english/financial-calendar",
+      "summary": "Scheduled November monthly revenue disclosure.",
+      "note": "Calendar listing only; no trade intent inferred.",
+      "status": "Confirmed",
+      "earnings_related": false,
+      "verified_on": "2026-11-10"
     }
   ],
   "prints": [
