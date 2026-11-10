@@ -356,15 +356,21 @@
       "ticker": "MRNA",
       "status": "Confirmed",
       "earnings_related": false,
-      "verified_on": "2026-11-09",
+      "verified_on": "2026-11-10",
       "title": "Analyst Day",
       "date": "2026-11-12",
       "end_date": "2026-11-12",
-      "time": "Start time not yet verified",
+      "time": "6:00 AM PT",
       "category": "Analyst / investor day",
       "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
-      "summary": "November 12 Analyst Day is listed in Moderna's SEC-filed company release. Start time and detailed agenda are not yet verified. This is a planned investor event, separate from earnings and ESMO. November 6 earnings occur before this event and remain an intervening risk.",
-      "note": "November 27 $310 calls span this event; November 6 $330 calls expire beforehand and do not match Analyst Day. Earlier captured November 20 and January–April 2027 contracts span the date too. November 6 earnings precede Analyst Day and can dominate the intervening price move."
+      "summary": "Moderna’s investor relations calendar lists Analyst Day at 9:00 AM Eastern on November 12. This investor event follows the separate November 6 earnings release.",
+      "note": "November 27 $310 calls span this event; November 6 $330 calls expire beforehand and do not match Analyst Day. Earlier captured November 20 and January–April 2027 contracts span the date too. November 6 earnings precede Analyst Day and can dominate the intervening price move.",
+      "research_history": [
+        {
+          "checked_on": "2026-11-10",
+          "note": "Moderna investor relations confirmed the scheduled 6:00 AM Pacific start and listed webcast registration: https://investors.modernatx.com/"
+        }
+      ]
     },
     {
       "ticker": "COHR",
