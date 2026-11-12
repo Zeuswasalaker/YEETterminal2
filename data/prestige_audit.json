@@ -1,6 +1,6 @@
 {
   "audited_at": "2026-11-12",
-  "scope": "Checked nine saved GitHub snapshots from October 14–19. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate.",
+  "scope": "Checked nine saved GitHub snapshots from October 14–19. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate. November 12 mid-session: five current unretired setups recorded at actual publication time, 11:07:55 Pacific. Earlier reconstructed crossings do not count as post-publication hits.",
   "records": [
     {
       "contract": "781c 10/20/2026",
@@ -839,6 +839,46 @@
       "published_at": "2026/11/09 07:29:08",
       "commit_sha": "414fdfd5037f9330763343c6683dde0fbf914b98",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/414fdfd5037f9330763343c6683dde0fbf914b98"
+    },
+    {
+      "contract": "763c 11/13/2026",
+      "qualified_at": "2026/11/12 07:54:40",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/12 11:07:55",
+      "commit_sha": "a24ab7107678b74e7654ef958c1eb70dea05fc84",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a24ab7107678b74e7654ef958c1eb70dea05fc84"
+    },
+    {
+      "contract": "763c 11/20/2026",
+      "qualified_at": "2026/11/12 07:54:40",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/12 11:07:55",
+      "commit_sha": "a24ab7107678b74e7654ef958c1eb70dea05fc84",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a24ab7107678b74e7654ef958c1eb70dea05fc84"
+    },
+    {
+      "contract": "756p 11/18/2026",
+      "qualified_at": "2026/11/12 10:45:35",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/12 11:07:55",
+      "commit_sha": "a24ab7107678b74e7654ef958c1eb70dea05fc84",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a24ab7107678b74e7654ef958c1eb70dea05fc84"
+    },
+    {
+      "contract": "763c 11/16/2026",
+      "qualified_at": "2026/11/12 10:49:54",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/12 11:07:55",
+      "commit_sha": "a24ab7107678b74e7654ef958c1eb70dea05fc84",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a24ab7107678b74e7654ef958c1eb70dea05fc84"
+    },
+    {
+      "contract": "757p 11/23/2026",
+      "qualified_at": "2026/11/12 09:30:30",
+      "provenance": "Published before outcome",
+      "published_at": "2026/11/12 11:07:55",
+      "commit_sha": "a24ab7107678b74e7654ef958c1eb70dea05fc84",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/a24ab7107678b74e7654ef958c1eb70dea05fc84"
     }
   ]
 }
