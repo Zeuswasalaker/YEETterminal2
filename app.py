@@ -19,6 +19,26 @@ def secret(key):
     try: return st.secrets.get(key,'')
     except Exception: return ''
 
+
+# Member access is checked before loading research or rendering navigation.
+access = secret('ACCESS_PASSWORD')
+if not access:
+    st.error('Member access is temporarily unavailable.')
+    st.stop()
+if not st.session_state.get('reader_access'):
+    if LOGO: st.image(str(LOGO), width=180)
+    st.title('The YEET / Terminal')
+    with st.form('member_access', clear_on_submit=True):
+        password = st.text_input('Member access password', type='password')
+        submitted = st.form_submit_button('Enter Terminal')
+    if submitted:
+        if hmac.compare_digest(password.encode('utf-8'), str(access).encode('utf-8')):
+            st.session_state['reader_access'] = True
+            st.rerun()
+        else:
+            st.error('Password not recognized.')
+    st.stop()
+
 st.markdown('''<style>
 .stApp{background:radial-gradient(ellipse at 85% 0%,#07c99a08,transparent 48%),linear-gradient(145deg,#0f212f,#0d242b);color:#eee9dd}
 [data-testid="stSidebar"]{background:linear-gradient(180deg,#102632,#0c1e28);border-right:1px solid #ffffff12}
