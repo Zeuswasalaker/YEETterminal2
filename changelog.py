@@ -2,6 +2,11 @@
 import streamlit as st
 
 RELEASES = [
+    ('November 12, 2026', 'Fresh flow, reconciled bricks and new event research', [
+        ('🥇 Prestige', '50 fresh Magic alert observations plus previously saved raw alerts reconciled with completed SPY minute closes including extended hours. 18 additional verified ITM hits bring the running record to 194 hits and 50 OTM expirations, with 2 unresolved Still Open plays. An isolated uncorroborated price anomaly was excluded. ITM touches are not trading profits; minute closes can miss intraminute crossings.'),
+        ('🐋 WARI, 🍊 Orange Swan and 🚀 MEME LAB', 'Newest 50-row samples merged with verified history. WARI keeps matched timestamps: yesterday’s captured sample shows bearish divergence; today’s first reading has only one Magic alert. Swan and Meme Swan captures run through 6:39 Pacific. These are filtered samples, not total market flow.'),
+        ('🧭 PARI', 'All five completed-candle caches refreshed. Short frames, four-hour and daily readings are defensive while the last completed hourly frame leans bullish. Each timeframe keeps its own candle timestamp.'),
+        ('🪃 RAMBO, 👑 Founders and 🤫 Whispers', 'Six research filters, NEWS FINDER and dedicated Founder group scans merged without counting duplicate filter hits as extra orders. Non-earnings event research adds Coherent’s November 14–18 Neuroscience exhibition and NVIDIA’s November 16 SC26 technical address. Whispers earnings checks remove pre-earnings orders; newest eligible orders sort first. Some IR pages expose no dates, and Coherent IR returned 403, so those limitations remain explicit.')]),
     ('October 22, 2026', 'Fresh sector flow and extended-hours Prestige receipts', [
         ('🥇 Prestige', 'Saved completed price checks bring the published tally to 30 ITM hits and 6 verified OTM expirations: 83.3% of resolved plays. Five current setups and seven Still Open carryovers. Premarket and after-hours count; an ITM touch is not a trading profit.'),
         ('🍊 Orange Swan and Index WARI', 'Semis and BABA are more call-heavy than the same-session SPY/QQQ sample. Most BABA call premium is June 2028. Magic is 54% call premium while SPY is lower, a provisional bullish divergence. These are filtered samples, not total market capital inflows.'),
@@ -41,6 +46,7 @@ def render():
                 st.markdown('**'+name+'**')
                 st.write(description)
     st.caption('Feature releases live here. Individual flow refreshes and event checks keep their own timestamps on the relevant boards.')
+
 
 
 

@@ -11,6 +11,14 @@ CAP_LIMIT = 20_000_000_000
 MIN_DTE = 7
 MIN_ORDERS = 3
 
+def tape_time(value):
+    for fmt in ('%H:%M:%S', '%I:%M:%S %p'):
+        try:
+            return datetime.strptime(str(value), fmt).strftime('%H:%M:%S')
+        except ValueError:
+            pass
+    return None
+
 def load(name):
     try:
         return json.loads((DATA / name).read_text())
@@ -22,7 +30,11 @@ def distinct_orders(orders):
     accepted = []
     seen_ids = set()
     times = {}
-    for p in sorted(orders, key=lambda p: (p.get('date',''),p.get('time',''))):
+    for original in sorted(orders, key=lambda p: (p.get('date',''),tape_time(p.get('time','')) or '')):
+        normalized = tape_time(original.get('time',''))
+        if normalized is None:
+            continue
+        p = dict(original, time=normalized)
         record_id = p.get('record_id')
         if record_id and record_id in seen_ids:
             continue
@@ -155,3 +167,4 @@ def render():
                 st.caption('No confirmed RAMBO match in saved coverage.')
             st.dataframe([order_row(ticker,p) for p in orders], hide_index=True, width='stretch')
     st.caption('Premium is rounded. Copies of the same order do not count as corroboration. Ask-side prints may be hedges or part of activity outside this sample.')
+
