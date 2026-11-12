@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-12",
+  "timezone": "America/Los_Angeles",
+  "data_commit": "34006363493b6c6026912ddc89b2a07d1d25c743",
+  "verified": true,
+  "coverage": "Captured filtered samples only. Source check failures are not no-hits.",
+  "pages": [
+    {
+      "page": "Prestige",
+      "input": "Authenticated SPY In the Money Magic, plus completed Yahoo SPY minute closes including extended hours and GitHub publication audit",
+      "sample_size": 50,
+      "flow_as_of": "2026-11-12 06:40:30",
+      "price_as_of": "2026-11-12 06:42:59",
+      "previous_published_as_of": "2026-11-09 07:26:59 price; 2026-11-10 08:49:19 raw alerts",
+      "outcome": "published and visible",
+      "published_itm": 56,
+      "published_expired_otm": 20,
+      "still_open": 1,
+      "current_setups": 0,
+      "reconstructed_itm": 194,
+      "new_reconstructed_hits": 18,
+      "notes": "750c 11/13 and 751c 11/16 retired. Isolated uncorroborated 723.4619 price excluded. Minute-close checks can miss intraminute crossings."
+    },
+    {
+      "page": "Index WARI",
+      "input": "Same authenticated Magic sample, timestamp-matched underlying quote and Yahoo prior 60 daily returns",
+      "sample_size": 50,
+      "as_of": "2026-11-12 06:40:30",
+      "previous_published_as_of": "2026-11-09 07:26:59",
+      "outcome": "published and visible",
+      "notes": "49 November 11 alerts plus 1 November 12 alert. Today is provisional, not a full-session signal. Broad-SPY all-flow comparison remains unavailable."
+    },
+    {
+      "page": "Orange Swan",
+      "input": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
+      "sample_size": 50,
+      "as_of": "2026-11-12 06:39:46",
+      "previous_published_as_of": "2026-11-10 08:39:57",
+      "outcome": "published and visible"
+    },
+    {
+      "page": "MEME LAB",
+      "input": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SPY%2CQQQ%2CIWM%2CGME%2CDAN%2CHOOD%2CIREN%2CWEN%2CCRWV%2CSOUN%2CRIVN%2CAMC%2CHTZ%2CKOSS%2COPEN%2CBYND%2CDJT%2CPLTR%2CRKLB%2CACHR%2CLCID&vol_greater_oi=true&watchlist_name=MEME%20SWAN",
+      "sample_size": 50,
+      "as_of": "2026-11-12 06:39:46",
+      "previous_published_as_of": "2026-11-10 08:48:16",
+      "outcome": "published and visible",
+      "notes": "Cumulative history retained; no GME activity inferred outside newest sample."
+    },
+    {
+      "page": "PARI",
+      "input": "Configured Yahoo SPY price source; alternate chart host used after query1 HTTP 429",
+      "previous_published_as_of": "November 9 cached candles, individual timeframe timestamps retained",
+      "as_of": {
+        "5min": "2026-11-12 06:35:00 bar start",
+        "10min": "2026-11-12 06:30:00 bar start",
+        "60min": "2026-11-11 11:30:00 bar start",
+        "240min": "2026-11-11 06:30:00 bar start",
+        "daily": "2026-11-11 completed session"
+      },
+      "outcome": "published and visible",
+      "notes": "All five caches verified on main. Deployed live five-minute source independently advanced to 2026-11-12 07:00 Pacific bar start during verification; other frame selectors were not individually opened."
+    },
+    {
+      "page": "RAMBO / Calendar",
+      "input": "Six research-filter CSV exports plus 50 NEWS FINDER rendered alerts and official event pages",
+      "as_of": "2026-11-12 06:58:49 public research; 06:54:55 import",
+      "previous_published_as_of": "2026-11-09T15:26:23.320Z",
+      "outcome": "published and visible",
+      "notes": "2139 saved observations; same economic prints merged across filters. Event history retained. New Coherent exhibition and NVIDIA technical address; categories distinguish exhibitions/talks from investor days."
+    },
+    {
+      "page": "Founder Terminal",
+      "input": "Six dedicated registered-ticker group filters plus broad research exports, official registry IR pages",
+      "as_of": "2026-11-12 06:50:21 newest observed order",
+      "previous_published_as_of": "2026-11-06",
+      "outcome": "published and visible",
+      "notes": "185 Founder observations added. NVIDIA fresh timestamp confirmed on deployed page. Tickers without new captured observations retain old flow timestamps. Existing pending/failed per-ticker checks preserved; group results recorded separately."
+    },
+    {
+      "page": "Wells Fargo Whispers",
+      "input": "Deduplicated saved research history, CSV market caps/next earnings, official historical earnings dates",
+      "as_of": "2026-11-12 research check; newest eligible RIOT order 2026-11-11 06:30:04",
+      "previous_published_as_of": "2026-11-09",
+      "outcome": "published and visible",
+      "notes": "Four eligible names: RIOT, STLN, ALK, FBIN. At least three distinct orders, expiry buffer, no known earnings within matched contracts. AM/PM historical tape times normalized for deduplication. RIOT top verified on deployed page."
+    },
+    {
+      "page": "Changelog",
+      "input": "Validated changes in this refresh",
+      "as_of": "2026-11-12",
+      "previous_published_as_of": "2026-10-22 latest curated entry",
+      "outcome": "published and visible"
+    }
+  ],
+  "filters": [
+    {
+      "filter": "FARCRY ULTRA",
+      "rows": 250,
+      "newest": "2026-11-12 06:36:15",
+      "oldest": "2026-10-28 11:41:39",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=300&max_iv=1&min_ask_perc=0.75&min_diff=0.08&min_dte=60&min_earnings_dte=14&min_premium=50000&opening=true&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=FARCRY%20ULTRA"
+    },
+    {
+      "filter": "NAUTILUS",
+      "rows": 174,
+      "newest": "2026-11-11 11:54:33",
+      "oldest": "2026-10-27 06:30:03",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&min_dte=8&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&ticker_symbol=-TMSTR%2CMS%2CNCOIN-MSTX%2CMSTU%2CTSLA%2CMSTR%2CNVDA%2C&hide_expired=false&min_premium=50000&min_ask_perc=0.75&max_dte=40&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&max_iv=1.30&exclude_deep_itm=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=3&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=x%20NAUTILUS%20x"
+    },
+    {
+      "filter": "PSU",
+      "rows": 250,
+      "newest": "2026-11-12 06:30:10",
+      "oldest": "2026-11-05 10:15:02",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=5&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=PSU"
+    },
+    {
+      "filter": "WF PSU",
+      "rows": 250,
+      "newest": "2026-11-12 06:48:13",
+      "oldest": "2026-11-10 08:18:19",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&excluded_tags[]=volatility&is_otm=true&is_single_leg=true&show_volatility=false&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.05&hide_expired=false&min_premium=25000&min_ask_perc=0.75&max_dte=90&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&show_calls=true&show_etfs=false&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=2&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=WF%20PSU"
+    },
+    {
+      "filter": "BAT",
+      "rows": 250,
+      "newest": "2026-11-12 06:30:10",
+      "oldest": "2026-10-30 12:25:48",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&hide_expired=true&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=90&max_iv=1&min_ask_perc=0.7&min_diff=0.08&min_dte=30&min_earnings_dte=14&min_premium=50000&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&ticker_symbol=-MSTR%2CCOIN&volume_greater_oi=true&add_agg_trades=true&watchlist_name=x%20BAT%20Filter%20x"
+    },
+    {
+      "filter": "Freelance Ultra",
+      "rows": 184,
+      "newest": "2026-11-11 12:23:47",
+      "oldest": "2026-10-27 06:39:42",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?add_agg_trades=true&exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=60&max_earnings_dte=60&max_iv=1.30&min_diff=0.07&min_dte=14&min_earnings_dte=10&min_premium=50000&min_volume=2&order=Time&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&ticker_symbol=-TMSTR%2CMS%2CCOIN-MSTX%2CMSTU%2CTSLA%2CMSTR&volume_greater_oi=true&watchlist_name=Freelance%20Ultra"
+    },
+    {
+      "filter": "Founder FARCRY ULTRA",
+      "rows": 6,
+      "newest": "2026-11-09 07:50:42",
+      "oldest": "2026-11-05 08:23:52",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=300&max_iv=1&min_ask_perc=0.75&min_diff=0.08&min_dte=60&min_earnings_dte=14&min_premium=50000&opening=true&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=FARCRY%20ULTRA&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX"
+    },
+    {
+      "filter": "Founder NAUTILUS",
+      "rows": 6,
+      "newest": "2026-11-11 09:23:37",
+      "oldest": "2026-10-30 10:53:34",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&min_dte=8&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&max_dte=40&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&max_iv=1.30&exclude_deep_itm=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=3&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=x%20NAUTILUS%20x&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX"
+    },
+    {
+      "filter": "Founder PSU",
+      "rows": 12,
+      "newest": "2026-11-11 09:23:37",
+      "oldest": "2026-10-27 09:43:33",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=5&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=PSU&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX"
+    },
+    {
+      "filter": "Founder WF PSU",
+      "rows": 152,
+      "newest": "2026-11-12 06:50:21",
+      "oldest": "2026-10-27 07:28:00",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&excluded_tags[]=volatility&is_otm=true&is_single_leg=true&show_volatility=false&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.05&hide_expired=false&min_premium=25000&min_ask_perc=0.75&max_dte=90&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&show_calls=true&show_etfs=false&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=2&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=WF%20PSU&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX"
+    },
+    {
+      "filter": "Founder BAT",
+      "rows": 21,
+      "newest": "2026-11-05 10:43:39",
+      "oldest": "2026-11-02 12:22:03",
+      "captured_at": "2026-11-12T14:54:55.438021+00:00",
+      "timezone": "America/Los_Angeles",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&hide_expired=true&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=90&max_iv=1&min_ask_perc=0.7&min_diff=0.08&min_dte=30&min_earnings_dte=14&min_premium=50000&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=x%20BAT%20Filter%20x&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX"
+    },
+    {
+      "filter": "NEWS FINDER",
+      "rows": 50,
+      "newest": "2026-11-11 11:54:40",
+      "oldest": "2026-10-06 09:04:27",
+      "captured_at": "2026-11-12T14:58:49.481886+00:00",
+      "complete_session": false,
+      "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&max_dte=60&min_diff=0.05&rule_name[]=LowHistoricVolumeFloor&vol_greater_oi=true&watchlist_name=NEWS%20FINDER"
+    },
+    {
+      "filter": "Founder Freelance Ultra",
+      "rows": 0,
+      "source_url": "https://unusualwhales.com/live-options-flow?add_agg_trades=true&exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=60&max_earnings_dte=60&max_iv=1.30&min_diff=0.07&min_dte=14&min_earnings_dte=10&min_premium=50000&min_volume=2&order=Time&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&watchlist_name=Freelance%20Ultra&ticker_symbol=GME%2CNVDA%2CAMC%2CCOHR%2CSLV%2CMRNA%2CMETA%2CNFLX",
+      "outcome": "Rendered No trades with these filters, limited to current filter window; not a lifetime no-activity claim"
+    }
+  ],
+  "public_research": {
+    "checked_at": "2026-11-12T14:58:49.481886+00:00",
+    "scope": "Registry IR/event pages, GameStop annual meeting/warrants, NVIDIA SC26, Coherent corporate events and Tower technical-panel source",
+    "results": {
+      "GME": "Annual meeting page shows past July 7 meeting; warrant page checked without confirming a new deadline.",
+      "NVDA": "SC26 November 15–20 and November 16 special address confirmed.",
+      "AMC": "Official IR calendar explicitly lists no upcoming events.",
+      "COHR": "IR calendar returned HTTP 403. Corporate events and Tower symposium pages verified exhibition and technical panel.",
+      "SLV": "Official iShares trust page checked; no dated company investor event established.",
+      "MRNA": "IR/event page fetched but no current event dates exposed in retrieved content. Prior verified Analyst Day record retained without refreshing its verified_on.",
+      "META": "Official investor-events page says stay tuned for upcoming events.",
+      "NFLX": "IR event page fetched but retrieved content contains no dated upcoming items. No new date inferred."
+    }
+  },
+  "blockers": [
+    "Coherent IR calendar HTTP 403; corporate events and Tower panel source verified instead.",
+    "Moderna and Netflix retrieved IR pages did not expose dated upcoming items; prior verified event records/timestamps retained.",
+    "Broad unfiltered SPY flow baseline was not captured; not substituted with research filters."
+  ]
+}
