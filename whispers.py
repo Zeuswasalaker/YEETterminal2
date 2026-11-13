@@ -27,6 +27,20 @@ def load(name):
 
 def distinct_orders(orders):
     """Treat nearby copies of the same economic print as one observation."""
+    # A displayed aggregate and its component are one corroboration, even
+    # when their quantities and premiums differ across filters.
+    aggregates = [p for p in orders if p.get('is_agg') is True and tape_time(p.get('time',''))]
+    def covered_by_aggregate(p):
+        if p.get('is_agg') is True or not tape_time(p.get('time','')):
+            return False
+        for a in aggregates:
+            if (a.get('date'), a.get('underlying_symbol'), a.get('type'), a.get('strike'), a.get('expiry')) != (p.get('date'), p.get('underlying_symbol'), p.get('type'), p.get('strike'), p.get('expiry')):
+                continue
+            delta = abs((datetime.strptime(tape_time(a['time']), '%H:%M:%S') - datetime.strptime(tape_time(p['time']), '%H:%M:%S')).total_seconds())
+            if delta <= 60 and float(p.get('size',0)) <= float(a.get('size',0)):
+                return True
+        return False
+    orders = [p for p in orders if not covered_by_aggregate(p)]
     accepted = []
     seen_ids = set()
     times = {}
@@ -167,4 +181,5 @@ def render():
                 st.caption('No confirmed RAMBO match in saved coverage.')
             st.dataframe([order_row(ticker,p) for p in orders], hide_index=True, width='stretch')
     st.caption('Premium is rounded. Copies of the same order do not count as corroboration. Ask-side prints may be hedges or part of activity outside this sample.')
+
 

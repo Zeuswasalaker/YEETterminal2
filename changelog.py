@@ -2,6 +2,11 @@
 import streamlit as st
 
 RELEASES = [
+    ('November 13, 2026', 'Fresh flow, updated bricks and corroborated Whispers', [
+        ('🥇 Prestige', 'Magic observations merged with verified raw history and completed SPY minute closes including extended hours through 8:13 Pacific. Two additional published put contracts reached ITM. Published results are kept separate from reconstructed history; new current setups and Still Open carryovers retain their individual dates.'),
+        ('🐋 WARI, 🍊 Orange Swan and 🚀 MEME LAB', 'Magic through 8:12 Pacific; Swan captures through 8:04 Pacific. WARI shows no opposing signal in the captured sample. Swan and Meme Swan preserve cumulative history and exclude displayed rows that fail side or ask-share settings. Filtered samples do not represent all market flow.'),
+        ('🧭 PARI', 'All five configured candle caches refreshed. Short frames use completed November 13 candles; four-hour and daily retain their latest completed November 12 bars.'),
+        ('🪃 RAMBO, 👑 Founders and 🤫 Whispers', 'All six broad research filters, NEWS FINDER and all six Founder group screens checked. Duplicate filter prints count once. Known aggregate/component overlap counts as one corroboration. Official event sources rechecked, including SC26, Coherent exhibitions and the November 17 technical symposium. Unchecked event records retain their earlier verification dates.')]),
     ('November 12, 2026', 'Fresh flow, reconciled bricks and new event research', [
         ('🥇 Prestige', '50 fresh Magic alert observations plus previously saved raw alerts reconciled with completed SPY minute closes including extended hours. 18 additional ITM hits enter reconstructed history. The separately documented published cohort now has 56 post-publication ITM hits, 20 OTM expirations and 1 unresolved Still Open play. The old 750c and 751c cards are retired. An isolated uncorroborated price anomaly was excluded. ITM touches are not trading profits; minute closes can miss intraminute crossings.'),
         ('🐋 WARI, 🍊 Orange Swan and 🚀 MEME LAB', 'Newest 50-row samples merged with verified history. WARI keeps matched timestamps: yesterday’s captured sample shows bearish divergence; today’s first reading has only one Magic alert. Swan and Meme Swan captures run through 6:39 Pacific. These are filtered samples, not total market flow.'),
@@ -46,6 +51,7 @@ def render():
                 st.markdown('**'+name+'**')
                 st.write(description)
     st.caption('Feature releases live here. Individual flow refreshes and event checks keep their own timestamps on the relevant boards.')
+
 
 
 
