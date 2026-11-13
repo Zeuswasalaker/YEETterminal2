@@ -189,8 +189,9 @@ if page=='RAMBO Calendar':
     from rambo_calendar import render
     render(data, company_heading)
 elif page in ('WARI','Index WARI'):
-    from index_wari import render
-    render()
+    import importlib
+    import index_wari
+    importlib.reload(index_wari).render()
 elif page=='Orange Swan':
     from wari import render
     render(mode='orange')
@@ -331,5 +332,5 @@ else:
 
 
 
-# Published data revision: 2026-11-03 Prestige feed refresh and live-board reconciliation.
+# Published data revision: 2026-11-13 WARI v2 scoring and page-module refresh.
 
