@@ -1,8 +1,8 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
     "status": "Page fetched",
@@ -10,8 +10,8 @@
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "c042ab84dbfa13c48686acb0d76d6d606b2b103d292b984913af5bf95b830e33",
     "changed": false,
     "status": "Page fetched",
@@ -25,17 +25,17 @@
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "10ee61665ae3e8d9a095301ebf82269770a0baa488599320de0e44d0bb7cbb76",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Cloudflare Events Login Dashboard Contact sales Start building Dashboard Login Cloudflare Events All Scheduled Events Find Cloudflare at conferences, summits, and Immerse events around the world. Events by region Browse upcoming Cloudflare events around the world. Americas EMEA APJC San Antonio, US Billington Critical Infrastructure Summit Nov 17\u201318 Coming soon Ottawa, CA InCyber Forum Dec 1\u20133 Coming soon Charleston, US Eastern Defense Summit Dec 8\u201310 Coming soon Brooklyn, US NYC Technology Forum Dec 10\u201312 Coming soon Build without boundaries Join thousands of developers who've eliminated infrastructure complexity and deployed globally with Cloudflare. Start building for free \u2014 no credit card required. Start building for free View docs"
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "2c59dae6ac9e6b289fc6d220b4a9ff53b33cd5a526d2800259593ab400718d2d",
     "changed": false,
     "status": "Page fetched",
@@ -43,8 +43,8 @@
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "6f558634e6ccc4dbb2caa7542fd5d1d77606eecbba3ff04580ab0b9d75a23b8b",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +52,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "COHR",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
@@ -61,8 +61,8 @@
   },
   "https://immunitybio.com/immunitybio-to-participate-in-the-piper-sandler-virtual-oncology-symposium/": {
     "ticker": "IBRX",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "6cf1e9324dd0adbc6abcf77738546183b2a2ef2620fc22af277fd51b5ec3e0ba",
     "changed": false,
     "status": "Page fetched",
@@ -70,8 +70,8 @@
   },
   "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx": {
     "ticker": "BLDR",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "0fb28afb384c644dbee58d2a1e3df9f4128bc86241628ee036dc40953cf94af8",
     "changed": false,
     "status": "Page fetched",
@@ -79,8 +79,8 @@
   },
   "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx": {
     "ticker": "ONTO",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "a612f11d038d5d6ec8feb149112a956833f911a2e8f50a104583a17831b1b73d",
     "changed": false,
     "status": "Page fetched",
@@ -88,13 +88,13 @@
   },
   "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology": {
     "ticker": "ABVX",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology"
   },
   "https://max.adobe.com/": {
     "ticker": "ADBE",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "last_success": "2026-11-09T22:58:43.617980+00:00",
     "hash": "d76a7c66e6be309e150e4aecaf08cd6228f6266447a1304b58e188c0cca804d2",
     "changed": false,
@@ -104,20 +104,20 @@
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel": {
     "ticker": "CRSP",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0": {
     "ticker": "CRSP",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0"
   },
   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-host-qubits-asia-2026-in-seoul/": {
     "ticker": "QBTS",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "3231119b3d1f02a5c3912f80a39765eb88cdbb3660421db91c51023a85d4b98c",
     "changed": false,
     "status": "Page fetched",
@@ -125,14 +125,14 @@
   },
   "https://www.servicenow.com/events/nowdev.html": {
     "ticker": "NOW",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://www.elastic.co/events/elasticon": {
     "ticker": "ESTC",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "b782d31b04135c33fb7503cf8d14aa28c05caf116610d3e62d7f423f723504a0",
     "changed": false,
     "status": "Page fetched",
@@ -140,19 +140,19 @@
   },
   "https://www.strategy.com/mstr/vote": {
     "ticker": "MSTR",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.strategy.com/mstr/vote"
   },
   "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm": {
     "ticker": "VIAV",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
   },
   "https://investor.tsmc.com/english/financial-calendar": {
     "ticker": "TSM",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "last_success": "2026-11-12T20:47:43.453409+00:00",
     "hash": "9bd9361c33ab635f9069b4dbdb596d594f6b5bb5e7ce7c7740c2ed212478881e",
     "changed": true,
@@ -162,8 +162,8 @@
   },
   "https://www.nvidia.com/en-eu/gtc/faq/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "86803adaf0154d5e700effe40764b439a305259c84f7ac24d228409207687e13",
     "changed": false,
     "status": "Page fetched",
@@ -171,8 +171,8 @@
   },
   "https://www.nvidia.com/en-us/events/supercomputing/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "0befd79f564762eb11b2d8faed7ff036d44af737b9fb65b69e6a19861324269b",
     "changed": false,
     "status": "Page fetched",
@@ -180,8 +180,8 @@
   },
   "https://investor.accenture.com/news-and-events/events-calendar": {
     "ticker": "ACN",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "0256ad86fd441cfe0ee65b45811caa73b9e3c40c9f8a29dc774626e8176669c8",
     "changed": false,
     "status": "Page fetched",
@@ -189,14 +189,14 @@
   },
   "https://www.supermicro.com/en/newsroom": {
     "ticker": "SMCI",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.supermicro.com/en/newsroom"
   },
   "https://www.amd.com/en/corporate/events.html": {
     "ticker": "AMD",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "92c0b5dcc3373ba3d5569e0bd966071b522f2efee0c2a10f7d7e3c2a4cd07418",
     "changed": false,
     "status": "Page fetched",
@@ -204,20 +204,20 @@
   },
   "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm": {
     "ticker": "SNDK",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm"
   },
   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm": {
     "ticker": "IREN",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm"
   },
   "https://www.soundhound.com/newsroom/soundhound-ai-to-showcase-ai-agents-for-banking-and-financial-services-at-money20-20-usa-2026": {
     "ticker": "SOUN",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "80ec31fc4f4fb28ca8d2cdf64f63e0a261cdf00465b05a97fdc765e3fefdc7e4",
     "changed": false,
     "status": "Page fetched",
@@ -225,8 +225,8 @@
   },
   "https://rocketlabcorp.com/missions/launches/index.jsp": {
     "ticker": "RKLB",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "0a7615c656e7ca9d1b8badfcfb628fccd8a6e03537f8fb4cdb9b4291c3482dac",
     "changed": false,
     "status": "Page fetched",
@@ -234,8 +234,8 @@
   },
   "https://www.nasdaq.com/press-release/moderna-announces-late-breaking-data-be-presented-esmo-congress-2026-2026-09-21": {
     "ticker": "MRNA",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "0f96897ddac9cb07d200f49ae090806e1099cfdb0c06e5941c4094ad9108ea12",
     "changed": false,
     "status": "Page fetched",
@@ -243,14 +243,14 @@
   },
   "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm": {
     "ticker": "MRNA",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm"
   },
   "https://www.marvell.com/company/events.html": {
     "ticker": "MRVL",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "cc56855f72514d200df2be75df4c09ffcfe2c676b627d1f9774562ce47fbc160",
     "changed": false,
     "status": "Page fetched",
@@ -258,8 +258,8 @@
   },
   "https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html": {
     "ticker": "VRT",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "b00b6a52b43e00a14d2cd0f42df575c08dfc81523846aad78b4c1a2ef28a3b2b",
     "changed": false,
     "status": "Page fetched",
@@ -267,8 +267,8 @@
   },
   "https://www.coherent.com/events": {
     "ticker": "COHR",
-    "last_attempt": "2026-11-13T20:28:53.050197+00:00",
-    "last_success": "2026-11-13T20:28:53.050197+00:00",
+    "last_attempt": "2026-11-14T02:25:30.540688+00:00",
+    "last_success": "2026-11-14T02:25:30.540688+00:00",
     "hash": "28be616cc4ea118b6d2448c99de2326ce2323d00a8352825a8f8a225c876a2a7",
     "changed": false,
     "status": "Page fetched",
