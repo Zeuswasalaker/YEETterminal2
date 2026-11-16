@@ -62,11 +62,16 @@ def render(admin):
         if company.get('ir_url'):st.link_button('Company investor page ↗',company['ir_url'])
     with b:
         st.subheader('🐋 What’s showing up?')
+        aggregate=snapshot.get('flow_summary',{}).get(ticker)
+        if aggregate:
+            st.caption('Activity checked '+snapshot.get('flow_as_of',''))
+            st.metric('Observations analyzed',aggregate['observations'])
+            st.write(f"{aggregate['calls']} call observations · {aggregate['puts']} put observations")
         if snapshot.get('flow_as_of') and all_flows:
             st.caption('Flow checked '+company.get('flow_as_of',snapshot['flow_as_of'])+' · '+str(len(flows))+' captured prints with open expirations')
         checks=[c for c in snapshot.get('flow_checks',[]) if c['ticker']==ticker]
         success=[c for c in checks if c.get('status')=='checked']
-        if not flows:
+        if not flows and not aggregate:
             if len(success)==len(registry['filters']):
                 st.markdown('<div class="founder-card"><h3>No matches in the checked window.</h3><p>All six filters were checked. That’s a result, not a reason to force a play.</p></div>',unsafe_allow_html=True)
             else:

@@ -119,9 +119,19 @@ def render_matched_snapshot(top):
     try:
         saved=json.loads(path.read_text())
         sessions={r['date']:r for r in saved['sessions']}
-        dates=sorted(sessions)
+        pending={r['date']:r for r in saved.get('pending_sessions',[])}
+        dates=sorted(set(sessions)|set(pending))
         if not dates:return False
         day=st.selectbox('SPY Magic session',dates,index=len(dates)-1,key='index_wari_matched_session')
+        if day in pending:
+            row=pending[day]
+            with top.container():
+                hero(None,'Price baseline pending',f"{day}: captured Magic flow through {row['flow_as_of']} Pacific. {row['reason']}")
+                a,b=st.columns(2)
+                a.metric('Call share of captured premium',f"{row['call_share']:.0%}")
+                b.metric('Saved Magic alerts',str(row['alerts']))
+            st.caption('Flow inputs are updated. The disagreement score requires a verified prior-price baseline.')
+            return True
         row=sessions[day]
         if row['baseline_end']>=day or row['price_as_of']>row['flow_as_of'] or row['baseline_sessions']<20:
             raise ValueError('Price and flow timing or prior baseline did not validate.')

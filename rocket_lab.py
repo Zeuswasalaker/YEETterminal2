@@ -40,8 +40,50 @@ def cumulative(raw, days):
     return sorted(board, key=lambda r: (-r['Score'], -r['Sessions'], -r['Alerts'], -r['Premium (approx.)'], r['Ticker'])), base
 
 
+def render_summary(snap):
+    st.title('🚀 MEME LAB')
+    st.write('Meme Swan compares options activity with SPY, QQQ and IWM. The score combines call share of premium (70%) and call share of alerts (30%). Above 50 leans calls; below 50 leans puts.')
+    st.caption(snap.get('coverage',''))
+    if snap.get('source_url'):st.link_button('Open Meme Swan ↗',snap['source_url'])
+    frame=pd.DataFrame(snap['summary'])
+    days=sorted(frame.date.unique(),reverse=True)
+    def combined(rows):
+        n=rows.observations.sum();premium=rows.call_premium.sum()+rows.put_premium.sum()
+        if not n or not premium:return None
+        return dict(score=100*(.7*rows.call_premium.sum()/premium+.3*rows.calls.sum()/n),n=int(n),premium=float(premium))
+    day=st.selectbox('Meme Swan session',days)
+    tape=frame[frame.date.eq(day)]
+    base=combined(tape[tape.ticker.isin(BENCHMARK)])
+    memes=combined(tape[~tape.ticker.isin(BENCHMARK)])
+    a,b,c=st.columns(3)
+    a.metric('Broad flow',f"{base['score']:.1f}/100" if base else '—')
+    b.metric('Meme basket',f"{memes['score']:.1f}/100" if memes else '—')
+    c.metric('Meme vs broad',f"{memes['score']-base['score']:+.1f} pts" if memes and base else '—')
+    st.subheader('👑 Meme Swan leaderboard')
+    options={'Last 2 captured sessions':2,'Last 3 captured sessions':3,'All captured sessions':len(days)}
+    window=st.selectbox('Leaderboard window',list(options));selected=days[:options[window]]
+    rows=frame[frame.date.isin(selected)]
+    baseline=combined(rows[rows.ticker.isin(BENCHMARK)])
+    board=[]
+    for ticker,group in rows[~rows.ticker.isin(BENCHMARK)].groupby('ticker'):
+        s=combined(group)
+        item={'Ticker':ticker,'Score':s['score'],'Vs broad (pts)':s['score']-baseline['score'] if baseline else None,
+              'Sessions':int(group.date.nunique()),'Alerts':s['n'],'Premium (approx.)':s['premium']}
+        for session in selected:
+            reading=combined(group[group.date.eq(session)]);item[session]=reading['score'] if reading else None
+        board.append(item)
+    board.sort(key=lambda r:(-r['Score'],-r['Sessions'],-r['Alerts'],-r['Premium (approx.)'],r['Ticker']))
+    if board:
+        leader=board[0];st.success(f"👑 TOP MEME · {leader['Ticker']} · {leader['Score']:.1f}/100")
+        st.dataframe(pd.DataFrame(board),hide_index=True,use_container_width=True)
+    else:st.info('No qualifying meme observations in this window.')
+    st.caption('Scores pool the captured premium and observation counts across sessions. They describe flow direction, not success probabilities.')
+
+
 def render():
     snap = load('meme_swan.json')
+    if snap.get('publication_mode')=='dashboard_summaries':
+        return render_summary(snap)
     founders = load('founders.json')
     rambo = load('snapshot.json')
     today = datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()

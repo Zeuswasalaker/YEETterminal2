@@ -38,6 +38,8 @@ def render(data, company_heading):
         st.rerun()
     # Include past months for review; match() still enforces confirmed, non-earnings and flow overlap.
     events = match(data['events'], data['prints'], first.isoformat())
+    if data.get('publication_mode')=='dashboard_summaries':
+        events=[e for e in data.get('event_matches',[]) if e['end_date']>=first.isoformat()]
     events = month_events(events, first.year, first.month)
     if ticker != 'All tickers':
         events = [e for e in events if e['ticker'] == ticker]
@@ -74,6 +76,10 @@ def render(data, company_heading):
             st.write(event['summary'])
             st.write(event.get('note', ''))
             st.link_button('Read the official source ↗', event['url'])
+            if 'flow_summary' in event:
+                totals=event['flow_summary']
+                st.write(f"{totals['observations']} observations · {totals['calls']} call observations · {totals['puts']} put observations")
+                continue
             frame = pd.DataFrame(event['prints'])
             fields = ['date','time','underlying_symbol','strike','type','expiry','side','premium','size','filters']
             st.dataframe(frame[[c for c in fields if c in frame]], hide_index=True, width='stretch')

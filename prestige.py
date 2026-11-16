@@ -11,75 +11,28 @@ from urllib.parse import urlparse
 STATUSES = ['Current Prestige','On Deck','Approaching','Watching','Expired']
 
 def apply_lifecycle(snapshot, previous=None):
-    """Require observed near -> farther OTM -> near, then retire observed ITM hits."""
+    """Display approved qualifications and retire observed ITM crossings.
+
+    Qualification is computed privately. A published refresh never reconstructs
+    new qualifications from incomplete price samples.
+    """
     result=deepcopy(snapshot)
-    observations=list((previous or {}).get('price_observations',[]))+list(result.get('price_observations',[]))
+    observations=list(result.get('price_observations',[]))
     if result.get('source_time') and result.get('spot'):
         observations.append({'time':result['source_time'],'spot':result['spot']})
-    observations=sorted({(o['time'],float(o['spot'])):o for o in observations
-                         if isfinite(float(o['spot'])) and float(o['spot'])>0}.values(),
-                        key=lambda o:(o['time'],float(o['spot'])))
-    result['price_observations']=observations
-    prior_cards={c['contract']:c for c in (previous or {}).get('cards',[])}
-    derived=('initial_near_at','away','returned','prestige_at','retired_at','retired_spot','retired_reason')
+    result['price_observations']=sorted({(o['time'],float(o['spot'])):o for o in observations}.values(),key=lambda o:o['time'])
     for card in result.get('cards',[]):
-        if card.get('classification_version')!='otm-sequence-v2':
-            card.setdefault('classification_audit',[]).append({
-                'reason':'Reclassified using observed near, farther OTM, return sequence; earlier labels are not verified outcomes.',
-                'previous_status':card.get('status'),
-                'previous_fields':{k:card[k] for k in derived if k in card}})
-        saved_retirement={k:card[k] for k in ('retired_at','retired_spot','retired_reason') if k in card}
-        prior=prior_cards.get(card['contract'],{})
-        if prior.get('retired_at') and prior['retired_at']<saved_retirement.get('retired_at','9999'):
-            saved_retirement={k:prior[k] for k in ('retired_at','retired_spot','retired_reason') if k in prior}
-        for key in derived: card.pop(key,None)
-        card['classification_version']='otm-sequence-v2'
-        expiry=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')
-        deadline=expiry+' 13:15:00'
-        history=[o for o in observations if card['first']<=o['time']<=deadline]
-        def otm(price):
-            return (float(card['strike'])-price)/price if card['type']=='call' else (price-float(card['strike']))/price
-        initial=None
-        away=None
-        activated=None
-        for observation in history:
-            stamp=observation['time']
-            gap=otm(float(observation['spot']))
-            if gap<0:
-                card.update(retired_at=stamp,retired_spot=float(observation['spot']),
-                            retired_reason=('Observed in the money after verified OTM comeback' if activated else 'Observed in the money after first captured alert; no verified Prestige outcome'))
-                break
-            if initial is None:
-                if 0<=gap<=.005: initial=stamp
-            elif away is None:
-                if stamp>initial and gap>.005: away=stamp
-            elif activated is None:
-                if stamp>away and 0<=gap<=.005: activated=stamp
-        if initial: card['initial_near_at']=initial
-        if away: card['away']=away
-        if activated:
-            card['returned']=activated
-            card['prestige_at']=activated
-        last_time=result.get('evaluated_at',result.get('source_time',''))
-        gap=otm(float(result['spot']))
-        if saved_retirement.get('retired_at') and saved_retirement['retired_at']<card.get('retired_at','9999'):
-            card.update(saved_retirement)
-        if card.get('retired_at'):
-            card['status']='Current Prestige' if activated else 'Watching'
-        elif last_time>deadline:
+        deadline=datetime.strptime(card['expiry'],'%m/%d/%Y').strftime('%Y/%m/%d')+' 13:15:00'
+        hits=[o for o in result['price_observations'] if card['first']<=o['time']<=deadline
+              and (float(o['spot'])>float(card['strike']) if card['type']=='call' else float(o['spot'])<float(card['strike']))]
+        if hits:
+            first=min(hits,key=lambda o:o['time'])
+            if first['time']<card.get('retired_at','9999'):
+                card.update(retired_at=first['time'],retired_spot=float(first['spot']),retired_reason='Observed in the money; permanently retired')
+        if not card.get('retired_at') and result.get('evaluated_at',result.get('source_time',''))>deadline:
             card['status']='Expired'
-        elif gap<0:
-            card['status']='Watching'
-            card.update(retired_at=last_time,retired_spot=result['spot'],
-                        retired_reason='Already ITM at latest observation; not a verified Prestige outcome')
-        elif gap<=.005:
-            card['status']='Current Prestige' if activated else 'On Deck'
-        else:
-            recent=[o for o in history if o['time']<=last_time]
-            earlier=otm(float(recent[-4]['spot'])) if len(recent)>=4 else gap
-            card['status']='Approaching' if gap<earlier else 'Watching'
-    result['classification_version']='otm-sequence-v2'
     return result
+
 
 def visible_cards(snapshot, today):
     cards=[]
@@ -275,6 +228,8 @@ def _render(admin):
         st.error('Prestige is temporarily unavailable.')
         st.session_state.prestige_snapshot={'cards':[]}
     snapshot=apply_lifecycle(st.session_state.prestige_snapshot)
+    if snapshot.get('qualification_refresh_note'):
+        st.info(snapshot['qualification_refresh_note'])
     st.session_state.prestige_snapshot=snapshot
     today=datetime.now(ZoneInfo('America/New_York')).date()
     cards=visible_cards(snapshot,today)

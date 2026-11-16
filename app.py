@@ -4,7 +4,7 @@ import hmac
 import html
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 import pandas as pd
 import streamlit as st
@@ -216,10 +216,15 @@ elif page=='RAMBO':
     historical=c2.toggle('Oct 14 view',value=False,help='See the board as it looked on October 14, rather than filtering events by today’s date.')
     as_of=seed['research_as_of'] if historical else today
     results=match(data['events'],data['prints'],as_of)
+    if data.get('publication_mode')=='dashboard_summaries':
+        results=[dict(e,days_until=(date.fromisoformat(e['date'])-date.fromisoformat(as_of)).days)
+                 for e in data.get('event_matches',[]) if e['end_date']>=as_of]
     st.caption(f"Option data added: {data.get('flow_imported_at','Unknown')} · Company events checked: {data.get('events_checked_at','Unknown')} · Showing events from {as_of}")
     if today>data['research_as_of']: st.caption('Saved board · Prices and event details may have changed since this update.')
     company_count=len(set(p['underlying_symbol'] for p in data['prints']))
-    st.markdown(f'<div class="rambo-stats"><div class="rambo-stat"><div class="stat-label">📅 Events to watch</div><div class="stat-number">{len(results)}</div><div class="stat-detail">Company events lined up with option dates</div></div><div class="rambo-stat"><div class="stat-label">🔎 Companies in the data</div><div class="stat-number">{company_count}</div><div class="stat-detail">Tickers in the saved option activity</div></div><div class="rambo-stat"><div class="stat-label">🐋 Option alerts saved</div><div class="stat-number">{len(data["prints"])}</div><div class="stat-detail">Recorded alerts, not individual whales</div></div></div>',unsafe_allow_html=True)
+    if data.get('publication_mode')=='dashboard_summaries':company_count=data['flow_counts']['companies']
+    record_count=data.get('flow_counts',{}).get('records',len(data['prints']))
+    st.markdown(f'<div class="rambo-stats"><div class="rambo-stat"><div class="stat-label">📅 Events to watch</div><div class="stat-number">{len(results)}</div><div class="stat-detail">Company events lined up with option dates</div></div><div class="rambo-stat"><div class="stat-label">🔎 Companies in the data</div><div class="stat-number">{company_count}</div><div class="stat-detail">Tickers in the saved option activity</div></div><div class="rambo-stat"><div class="stat-label">🐋 Observations analyzed</div><div class="stat-number">{record_count}</div><div class="stat-detail">Recorded alerts, not individual whales</div></div></div>',unsafe_allow_html=True)
     category=st.selectbox('What kind of events?',['All company events (no earnings)','Investor & analyst meetings only'])
     if query: results=[r for r in results if query in r['ticker']]
     if category.endswith('only'): results=[r for r in results if r['category']=='Investor / analyst']
@@ -252,6 +257,10 @@ elif page=='RAMBO':
         with st.expander(f'{event["ticker"]}: contracts, sources and research note'):
             st.write(event['note'])
             st.link_button('Official company source',event['url'])
+            if 'flow_summary' in event:
+                totals=event['flow_summary']
+                st.write(f"{totals['observations']} observations · {totals['calls']} call observations · {totals['puts']} put observations · {event['contracts']} contracts")
+                continue
             frame=pd.DataFrame(event['prints'])
             columns=['date','time','strike','type','expiry','side','premium','size','filters','open_interest','volume']
             st.dataframe(frame[[k for k in columns if k in frame]],hide_index=True,width='stretch')

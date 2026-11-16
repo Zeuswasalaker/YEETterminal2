@@ -118,6 +118,24 @@ def order_row(ticker, p):
 
 def render():
     st.title('🤫 Wells Fargo Whispers')
+    published=load('whispers_candidates.json')
+    if published:
+        st.write('Smaller names with at least three distinct orders backing the same direction, with time left for the thesis to play out.')
+        st.caption(f"Checked {published['as_of']} · Minimum {published['min_dte']} calendar days to expiry · Saved candidate list")
+        for label,key in [('Qualified Whispers','qualified'),('Flow leads · verification pending','pending')]:
+            st.subheader(label)
+            candidates=published.get(key,[])
+            if not candidates:st.info('No candidates in this group.')
+            for candidate in candidates:
+                ticker=candidate['ticker'];orders=candidate['orders']
+                kind='calls' if orders[0]['type'].lower().startswith('c') else 'puts'
+                with st.container(border=True):
+                    st.subheader(('📞 ' if kind=='calls' else '🩸 ')+ticker)
+                    st.write(f"{len(orders)} distinct {kind} · ${sum(p['premium'] for p in orders):,.0f} observed premium")
+                    if key=='pending':st.caption('Market cap or earnings coverage through expiry still needs verification.')
+                    if candidate['events']:st.caption('RAMBO: '+', '.join(e['title'] for e in candidate['events']))
+                    st.dataframe([order_row(ticker,p) for p in reversed(orders)],hide_index=True,use_container_width=True)
+        return
     st.write('Smaller names with at least three distinct orders backing the same direction, and time left for the thesis to play out. Newest qualifying order comes first. A verified non-earnings catalyst breaks ties but is optional.')
     s, meta = load('snapshot.json'), load('whispers.json')
     today = datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()

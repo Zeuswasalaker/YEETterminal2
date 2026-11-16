@@ -3,6 +3,8 @@ These links open the source; they do not claim an automatic feed refresh.
 """
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import json
+from pathlib import Path
 import streamlit as st
 
 SOURCES = [
@@ -21,8 +23,16 @@ SOURCES = [
 
 def render():
     st.markdown('<div class="eyebrow">THE YEET / SOURCES</div><h1>Filter Control</h1>', unsafe_allow_html=True)
-    st.caption("Canonical Unusual Whales source links supplied November 16, 2026. These are the screens to use for the next import.")
-    st.info("Source links are NOT a live data sync. The site's observed trades and performance remain at their last separately published capture until new verified exports are imported.")
+    st.caption("Canonical Unusual Whales source links. Verified imports retain the original filter configuration and observation dates.")
+    runs=sorted((Path(__file__).parent/'data'/'refresh_runs').glob('*.json'))
+    latest=json.loads(runs[-1].read_text()) if runs else {}
+    if latest.get('source_checksums'):
+        st.caption('Latest capture: '+latest['captured_at']+' · source times below are Pacific.')
+        st.dataframe([{'Filter':r['filter'],'Captured rows':r['rows'],'Accepted':r['accepted'],
+                       'Excluded':r['excluded'],'Newest observation':r['newest'],'Oldest observation':r['oldest']}
+                      for r in latest['filters']],hide_index=True,use_container_width=True)
+        st.caption(f"{latest['unique_flow_records']} distinct flow records after removing {latest['overlapping_flow_appearances_removed']} duplicate filter appearances. Source windows are limited samples; aggregate/component overlap can remain.")
+    st.info("Saved captures update when verified observations are imported and published. These links do not start a continuous live sync.")
     st.metric("Configured UW filters", len(SOURCES))
     for group in ("Alerts", "Flow"):
         st.subheader(group + " screens")
