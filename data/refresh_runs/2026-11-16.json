@@ -152,5 +152,9 @@
   "wari_pending_sessions": [],
   "excluded_observation_count": 16,
   "publication_scope": "Dashboard aggregates and derived Prestige signals; individual order details only for listed Whispers candidates. Raw exports and complete alert/flow histories are excluded.",
-  "prestige_status": "Established qualifications preserved; observed ITM outcomes refreshed. New qualifications held for editorial-rule verification."
+  "prestige_status": "Daily calculation completed with established rules; current board and observed outcomes updated through 2026/11/16 08:05:35 Pacific.",
+  "prestige_current_contracts": [
+    "748c 11/17/2026",
+    "743p 11/17/2026"
+  ]
 }
