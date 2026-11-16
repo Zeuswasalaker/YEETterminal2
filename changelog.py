@@ -2,6 +2,10 @@
 import streamlit as st
 
 RELEASES = [
+    ('November 16, 2026', 'All ten Unusual Whales source screens registered', [
+        ('🎛️ Filter Control', 'Added canonical source links for Orange Swan, SPY In the Money Magic, MEME SWAN, NEWS FINDER, NAUTILUS, FARCRY ULTRA, PSU, Weapons Free PSU, BAT and Freelance Ultra. Each opens the full user-provided Unusual Whales configuration.'),
+        ('📊 Data integrity', 'Links do not automatically import authenticated trades. Existing published flow, PRESTIGE, WARI, MEME, RAMBO and PARI observations are preserved; fresh November 16 alerts await verified exports. No synthetic prints or performance figures have been added.'),
+    ]),
     ('November 13, 2026', 'Fresh flow, updated bricks and corroborated Whispers', [
         ('🥇 Prestige', 'Magic observations merged with verified raw history and completed SPY minute closes including extended hours through 8:13 Pacific. Two additional published put contracts reached ITM. Published results are kept separate from reconstructed history; new current setups and Still Open carryovers retain their individual dates.'),
         ('🐋 WARI, 🍊 Orange Swan and 🚀 MEME LAB', 'Magic through 8:12 Pacific; Swan captures through 8:04 Pacific. WARI shows no opposing signal in the captured sample. Swan and Meme Swan preserve cumulative history and exclude displayed rows that fail side or ask-share settings. Filtered samples do not represent all market flow.'),
