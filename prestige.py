@@ -1,5 +1,6 @@
 """Evidence-backed Prestige snapshot display. No credentials or private filter settings."""
 import json
+import hashlib
 from copy import deepcopy
 from math import isfinite
 from pathlib import Path
@@ -187,7 +188,9 @@ def _freshest_snapshot(candidates):
             continue
     if not valid:
         raise ValueError('No valid Prestige snapshot')
-    return max(valid,key=lambda item:(item['source_time'],item.get('latest_alert_time','')))
+    return max(valid,key=lambda item:(item['source_time'],item.get('latest_alert_time',''),
+                                     int(item.get('publication_revision',0)),
+                                     item.get('published_at',''),item.get('captured_at','')))
 
 
 def render(admin):
@@ -219,8 +222,7 @@ def _render(admin):
         candidates.append(st.session_state.prestige_snapshot)
     try:
         initial=_freshest_snapshot(candidates)
-        version=(initial['source_time'],initial.get('latest_alert_time',''),
-                 initial.get('captured_at',''))
+        version=hashlib.sha256(json.dumps(initial,sort_keys=True).encode()).hexdigest()
         if st.session_state.get('prestige_file_version')!=version:
             st.session_state.prestige_snapshot=apply_lifecycle(initial,st.session_state.get('prestige_snapshot'))
             st.session_state.prestige_file_version=version
