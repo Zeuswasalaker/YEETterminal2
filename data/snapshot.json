@@ -78,7 +78,7 @@
       "title": "Investor Day",
       "date": "2026-11-12",
       "end_date": "2026-11-12",
-      "time": "9:30 AM\u201312:00 PM PT",
+      "time": "9:30 AM–12:00 PM PT",
       "category": "Investor / analyst",
       "url": "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx",
       "summary": "Growth opportunities and new financial targets.",
@@ -134,7 +134,7 @@
       "title": "Investor Day",
       "date": "2026-11-17",
       "end_date": "2026-11-17",
-      "time": "5:45\u20139:00 AM PT",
+      "time": "5:45–9:00 AM PT",
       "category": "Investor / analyst",
       "url": "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx",
       "summary": "Management presents growth strategy, digital initiatives, capital allocation and long-term targets, with Q&A.",
@@ -162,10 +162,10 @@
     },
     {
       "ticker": "ONTO",
-      "title": "Momentum Unleashed \u00b7 Analyst Event",
+      "title": "Momentum Unleashed · Analyst Event",
       "date": "2026-12-17",
       "end_date": "2026-12-17",
-      "time": "6:30\u201310:00 AM PT",
+      "time": "6:30–10:00 AM PT",
       "category": "Investor / analyst",
       "url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx",
       "summary": "Executive presentations on market opportunities, products and margins, followed by Q&A and technology sessions.",
@@ -176,14 +176,14 @@
     },
     {
       "ticker": "ABVX",
-      "title": "UEG Week \u00b7 obefazimod clinical presentations",
+      "title": "UEG Week · obefazimod clinical presentations",
       "date": "2026-10-17",
       "end_date": "2026-10-20",
       "time": "See scientific agenda",
       "category": "Clinical / scientific data",
       "url": "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology",
       "summary": "Company-announced obefazimod research presentations at UEG Week in Barcelona. This is a scientific meeting, not an investor day.",
-      "note": "Company release was visible in search indexing but direct access returned 403. Organizer https://ueg.eu/week confirms October 17\u201320. No outcome or new efficacy result is assumed.",
+      "note": "Company release was visible in search indexing but direct access returned 403. Organizer https://ueg.eu/week confirms October 17–20. No outcome or new efficacy result is assumed.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-15"
@@ -204,7 +204,7 @@
     },
     {
       "ticker": "CRSP",
-      "title": "ACR \u00b7 zugo-cel clinical-data poster",
+      "title": "ACR · zugo-cel clinical-data poster",
       "date": "2026-11-08",
       "end_date": "2026-11-08",
       "time": "7:30 AM PT",
@@ -218,7 +218,7 @@
     },
     {
       "ticker": "CRSP",
-      "title": "AHA \u00b7 CTX310 late-breaking clinical data",
+      "title": "AHA · CTX310 late-breaking clinical data",
       "date": "2026-11-09",
       "end_date": "2026-11-09",
       "time": "6:00 AM PT",
@@ -280,7 +280,7 @@
     },
     {
       "ticker": "ESTC",
-      "title": "Elastic AI event \u00b7 San Francisco",
+      "title": "Elastic AI event · San Francisco",
       "date": "2026-11-04",
       "end_date": "2026-11-04",
       "time": "See official agenda",
@@ -348,7 +348,7 @@
       "time": "See official agenda",
       "category": "Company / technology",
       "url": "https://www.nvidia.com/en-eu/gtc/faq/",
-      "summary": "Workshops October 20, Jensen Huang keynote October 21, conference and exhibits October 21\u201322. Technical/customer event; attendance is confirmed, but no financial-guidance announcement is promised.",
+      "summary": "Workshops October 20, Jensen Huang keynote October 21, conference and exhibits October 21–22. Technical/customer event; attendance is confirmed, but no financial-guidance announcement is promised.",
       "note": "Event falls within at least one captured contract window. Timing overlap does not establish trade intent or causation.",
       "status": "Confirmed",
       "earnings_related": false,
@@ -356,7 +356,7 @@
     },
     {
       "ticker": "NVDA",
-      "title": "SC26 \u00b7 NVIDIA appearance",
+      "title": "SC26 · NVIDIA appearance",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -429,7 +429,7 @@
     },
     {
       "ticker": "SMCI",
-      "title": "GTC Berlin \u00b7 Supermicro appearance",
+      "title": "GTC Berlin · Supermicro appearance",
       "date": "2026-10-20",
       "end_date": "2026-10-22",
       "time": "See official agenda",
@@ -443,7 +443,7 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Intel AI Summit Seoul \u00b7 Supermicro appearance",
+      "title": "Intel AI Summit Seoul · Supermicro appearance",
       "date": "2026-11-12",
       "end_date": "2026-11-12",
       "time": "See official agenda",
@@ -457,7 +457,7 @@
     },
     {
       "ticker": "SMCI",
-      "title": "SC26 \u00b7 Supermicro appearance",
+      "title": "SC26 · Supermicro appearance",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -471,7 +471,7 @@
     },
     {
       "ticker": "SMCI",
-      "title": "GITEX \u00b7 Supermicro appearance",
+      "title": "GITEX · Supermicro appearance",
       "date": "2026-12-07",
       "end_date": "2026-12-11",
       "time": "See official agenda",
@@ -485,7 +485,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "TERATEC Forum \u00b7 AMD participation",
+      "title": "TERATEC Forum · AMD participation",
       "date": "2026-10-20",
       "end_date": "2026-10-21",
       "time": "See official agenda",
@@ -499,7 +499,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "PyTorch North America \u00b7 AMD participation",
+      "title": "PyTorch North America · AMD participation",
       "date": "2026-10-20",
       "end_date": "2026-10-21",
       "time": "See official agenda",
@@ -513,7 +513,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Microsoft AI Tour London \u00b7 AMD participation",
+      "title": "Microsoft AI Tour London · AMD participation",
       "date": "2026-10-21",
       "end_date": "2026-10-21",
       "time": "See official agenda",
@@ -527,7 +527,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Oracle AI World \u00b7 AMD participation",
+      "title": "Oracle AI World · AMD participation",
       "date": "2026-10-25",
       "end_date": "2026-10-28",
       "time": "See official agenda",
@@ -541,7 +541,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Embedded AI Working Group \u00b7 AMD participation",
+      "title": "Embedded AI Working Group · AMD participation",
       "date": "2026-11-03",
       "end_date": "2026-11-04",
       "time": "See official agenda",
@@ -561,7 +561,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "SPWG \u00b7 AMD participation",
+      "title": "SPWG · AMD participation",
       "date": "2026-11-03",
       "end_date": "2026-11-05",
       "time": "See official agenda",
@@ -581,7 +581,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "SC26 \u00b7 AMD participation",
+      "title": "SC26 · AMD participation",
       "date": "2026-11-16",
       "end_date": "2026-11-19",
       "time": "See official agenda",
@@ -616,7 +616,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Microsoft Ignite \u00b7 AMD participation",
+      "title": "Microsoft Ignite · AMD participation",
       "date": "2026-11-17",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -651,7 +651,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "AWS re:Invent \u00b7 AMD participation",
+      "title": "AWS re:Invent · AMD participation",
       "date": "2026-12-01",
       "end_date": "2026-12-05",
       "time": "See official agenda",
@@ -682,7 +682,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Adopt AI \u00b7 AMD participation",
+      "title": "Adopt AI · AMD participation",
       "date": "2026-12-03",
       "end_date": "2026-12-04",
       "time": "See official agenda",
@@ -713,7 +713,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "NeurIPS \u00b7 AMD participation",
+      "title": "NeurIPS · AMD participation",
       "date": "2026-12-06",
       "end_date": "2026-12-12",
       "time": "See official agenda",
@@ -744,7 +744,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "GITEX \u00b7 AMD participation",
+      "title": "GITEX · AMD participation",
       "date": "2026-12-08",
       "end_date": "2026-12-11",
       "time": "See official agenda",
@@ -775,7 +775,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "CES \u00b7 AMD participation",
+      "title": "CES · AMD participation",
       "date": "2027-01-06",
       "end_date": "2027-01-09",
       "time": "See official agenda",
@@ -834,7 +834,7 @@
     },
     {
       "ticker": "AMD",
-      "title": "Cisco Live EMEA \u00b7 AMD participation",
+      "title": "Cisco Live EMEA · AMD participation",
       "date": "2027-02-08",
       "end_date": "2027-02-12",
       "time": "See official agenda",
@@ -865,21 +865,21 @@
     },
     {
       "ticker": "SOUN",
-      "title": "Money20/20 USA \u00b7 SoundHound demos",
+      "title": "Money20/20 USA · SoundHound demos",
       "date": "2026-10-19",
       "end_date": "2026-10-21",
       "time": "See official exhibitor schedule",
       "category": "Company / technology",
       "url": "https://www.soundhound.com/newsroom/soundhound-ai-to-showcase-ai-agents-for-banking-and-financial-services-at-money20-20-usa-2026",
       "summary": "Industry exhibition with OASYS banking-agent demonstrations. A product showcase, not an investor day or promised guidance.",
-      "note": "October 20 FARCRY ULTRA captured an approximately $86K ask-side aggregate in April 16, 2027 $10 calls at 10:33:15 PT. The trade printed during the October 19\u201321 booth window; its long expiration includes many later drivers. Single observed direction in this three-filter session capture, not proof of broad bullish consensus or event causation.",
+      "note": "October 20 FARCRY ULTRA captured an approximately $86K ask-side aggregate in April 16, 2027 $10 calls at 10:33:15 PT. The trade printed during the October 19–21 booth window; its long expiration includes many later drivers. Single observed direction in this three-filter session capture, not proof of broad bullish consensus or event causation.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-20"
     },
     {
       "ticker": "RKLB",
-      "title": "Electron \u00b7 We're Not Hawking Around",
+      "title": "Electron · We're Not Hawking Around",
       "date": "2026-10-21",
       "end_date": "2026-10-21",
       "time": "NET date; launch time not confirmed",
@@ -894,7 +894,7 @@
     },
     {
       "ticker": "RKLB",
-      "title": "Electron \u00b7 The Sea God Surveys",
+      "title": "Electron · The Sea God Surveys",
       "date": "2026-11-04",
       "end_date": "2026-11-04",
       "time": "NET date; launch time not confirmed",
@@ -915,7 +915,7 @@
     },
     {
       "ticker": "RKLB",
-      "title": "Electron \u00b7 The Mountain God Rises",
+      "title": "Electron · The Mountain God Rises",
       "date": "2026-11-10",
       "end_date": "2026-11-10",
       "time": "NET date; launch time not confirmed",
@@ -939,7 +939,7 @@
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-22",
-      "title": "ESMO \u00b7 Phase 3 intismeran melanoma data presentation",
+      "title": "ESMO · Phase 3 intismeran melanoma data presentation",
       "date": "2026-10-24",
       "end_date": "2026-10-24",
       "time": "7:30 a.m. Pacific / 10:30 a.m. EDT / 4:30 p.m. CEST",
@@ -953,7 +953,7 @@
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-10-22",
-      "title": "ESMO \u00b7 Moderna investor webcast",
+      "title": "ESMO · Moderna investor webcast",
       "date": "2026-10-24",
       "end_date": "2026-10-24",
       "time": "10 a.m. Pacific / 1 p.m. EDT / 7 p.m. CEST",
@@ -973,7 +973,7 @@
       "time": "6:00 AM PT",
       "category": "Analyst / investor day",
       "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
-      "summary": "Moderna\u2019s investor relations calendar lists Analyst Day at 9:00 AM Eastern on November 12. This investor event follows the separate November 6 earnings release.",
+      "summary": "Moderna’s investor relations calendar lists Analyst Day at 9:00 AM Eastern on November 12. This investor event follows the separate November 6 earnings release.",
       "note": "In the October 22 capture, the November 13 $180 puts and November 20 $150 puts span Analyst Day; the October 30 $235 calls expire before it. Timing overlap does not establish trade intent.",
       "research_history": [
         {
@@ -984,7 +984,7 @@
     },
     {
       "ticker": "COHR",
-      "title": "Technical Global Symposium \u00b7 Coherent CTO panel",
+      "title": "Technical Global Symposium · Coherent CTO panel",
       "date": "2026-11-17",
       "end_date": "2026-11-17",
       "time": "See official agenda",
@@ -1010,7 +1010,7 @@
     },
     {
       "ticker": "MRVL",
-      "title": "WISH Conference \u00b7 Marvell participation",
+      "title": "WISH Conference · Marvell participation",
       "date": "2026-11-10",
       "end_date": "2026-11-10",
       "time": "See official agenda",
@@ -1034,7 +1034,7 @@
     },
     {
       "ticker": "MRVL",
-      "title": "SC26 \u00b7 Marvell participation",
+      "title": "SC26 · Marvell participation",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -1073,7 +1073,7 @@
     },
     {
       "ticker": "VRT",
-      "title": "Baird Global Industrial Conference \u00b7 CEO/CFO fireside chat",
+      "title": "Baird Global Industrial Conference · CEO/CFO fireside chat",
       "date": "2026-11-10",
       "end_date": "2026-11-10",
       "time": "5:55 AM PT",
@@ -1093,13 +1093,13 @@
     },
     {
       "ticker": "MRVL",
-      "title": "IEEE ARGENCON \u00b7 Marvell participation",
+      "title": "IEEE ARGENCON · Marvell participation",
       "date": "2026-11-11",
       "end_date": "2026-11-13",
       "time": "See event agenda",
       "category": "Industry / technical conference",
       "url": "https://www.marvell.com/company/events.html",
-      "summary": "Marvell lists the conference in C\u00f3rdoba, Argentina.",
+      "summary": "Marvell lists the conference in Córdoba, Argentina.",
       "note": "Calendar listing only; no trade intent inferred.",
       "status": "Confirmed",
       "earnings_related": false,
@@ -1107,7 +1107,7 @@
     },
     {
       "ticker": "MRVL",
-      "title": "IEEE WinTechCon \u00b7 Marvell participation",
+      "title": "IEEE WinTechCon · Marvell participation",
       "date": "2026-11-18",
       "end_date": "2026-11-19",
       "time": "See event agenda",
@@ -1138,7 +1138,7 @@
     },
     {
       "ticker": "TSM",
-      "title": "Monthly sales release \u00b7 November 2026 revenue",
+      "title": "Monthly sales release · November 2026 revenue",
       "date": "2026-12-10",
       "end_date": "2026-12-10",
       "time": "9:30 PM PT on December 9 (1:30 PM Taipei December 10)",
@@ -1159,13 +1159,13 @@
     },
     {
       "ticker": "COHR",
-      "title": "Neuroscience 2026 \u00b7 Coherent exhibition",
+      "title": "Neuroscience 2026 · Coherent exhibition",
       "date": "2026-11-14",
       "end_date": "2026-11-18",
       "time": "See organizer schedule",
       "category": "Industry exhibition",
       "url": "https://www.coherent.com/events",
-      "summary": "Coherent lists booth 2229 at Neuroscience 2026 in Washington, DC, November 14\u201318. Product exhibition, not an investor day or guidance commitment.",
+      "summary": "Coherent lists booth 2229 at Neuroscience 2026 in Washington, DC, November 14–18. Product exhibition, not an investor day or guidance commitment.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-11-13",
@@ -1185,13 +1185,13 @@
     },
     {
       "ticker": "NVDA",
-      "title": "SC26 \u00b7 Ian Buck special address",
+      "title": "SC26 · Ian Buck special address",
       "date": "2026-11-16",
       "end_date": "2026-11-16",
-      "time": "2:00\u20133:00 PM PT",
+      "time": "2:00–3:00 PM PT",
       "category": "Technical talk / industry address",
       "url": "https://www.nvidia.com/en-us/events/supercomputing/",
-      "summary": "NVIDIA lists Ian Buck\u2019s SC26 special address at 4\u20135 PM Central on November 16. Technical industry presentation, not an earnings call or promised guidance update.",
+      "summary": "NVIDIA lists Ian Buck’s SC26 special address at 4–5 PM Central on November 16. Technical industry presentation, not an earnings call or promised guidance update.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-11-13",
@@ -1908,13 +1908,13 @@
   "event_matches": [
     {
       "ticker": "COHR",
-      "title": "Neuroscience 2026 \u00b7 Coherent exhibition",
+      "title": "Neuroscience 2026 · Coherent exhibition",
       "date": "2026-11-14",
       "end_date": "2026-11-18",
       "time": "See organizer schedule",
       "category": "Industry exhibition",
       "url": "https://www.coherent.com/events",
-      "summary": "Coherent lists booth 2229 at Neuroscience 2026 in Washington, DC, November 14\u201318. Product exhibition, not an investor day or guidance commitment.",
+      "summary": "Coherent lists booth 2229 at Neuroscience 2026 in Washington, DC, November 14–18. Product exhibition, not an investor day or guidance commitment.",
       "status": "Confirmed",
       "earnings_related": false,
       "verified_on": "2026-11-13",
@@ -1935,8 +1935,8 @@
         "observations": 31,
         "calls": 14,
         "puts": 17,
-        "call_premium": 3666320.0,
-        "put_premium": 2622405.0
+        "call_premium": 3666320,
+        "put_premium": 2622405
       },
       "contracts": 18,
       "days_until": -3,
@@ -1946,13 +1946,13 @@
         "observations": 30,
         "calls": 14,
         "puts": 16,
-        "call_premium": 3666320.0,
-        "put_premium": 2435075.0
+        "call_premium": 3666320,
+        "put_premium": 2435075
       }
     },
     {
       "ticker": "MRVL",
-      "title": "SC26 \u00b7 Marvell participation",
+      "title": "SC26 · Marvell participation",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -1992,8 +1992,8 @@
         "observations": 35,
         "calls": 11,
         "puts": 24,
-        "call_premium": 3206565.0,
-        "put_premium": 1925298.0
+        "call_premium": 3206565,
+        "put_premium": 1925298
       },
       "contracts": 31,
       "days_until": -2,
@@ -2003,13 +2003,13 @@
         "observations": 32,
         "calls": 9,
         "puts": 23,
-        "call_premium": 2946090.0,
-        "put_premium": 1852848.0
+        "call_premium": 2946090,
+        "put_premium": 1852848
       }
     },
     {
       "ticker": "NVDA",
-      "title": "SC26 \u00b7 NVIDIA appearance",
+      "title": "SC26 · NVIDIA appearance",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -2041,8 +2041,8 @@
         "observations": 120,
         "calls": 86,
         "puts": 34,
-        "call_premium": 12048795.0,
-        "put_premium": 6724961.0
+        "call_premium": 12048795,
+        "put_premium": 6724961
       },
       "contracts": 26,
       "days_until": -2,
@@ -2052,13 +2052,13 @@
         "observations": 112,
         "calls": 84,
         "puts": 28,
-        "call_premium": 11315343.0,
-        "put_premium": 5074479.0
+        "call_premium": 11315343,
+        "put_premium": 5074479
       }
     },
     {
       "ticker": "SMCI",
-      "title": "SC26 \u00b7 Supermicro appearance",
+      "title": "SC26 · Supermicro appearance",
       "date": "2026-11-15",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -2073,8 +2073,8 @@
         "observations": 10,
         "calls": 2,
         "puts": 8,
-        "call_premium": 400280.0,
-        "put_premium": 539388.0
+        "call_premium": 400280,
+        "put_premium": 539388
       },
       "contracts": 10,
       "days_until": -2,
@@ -2084,13 +2084,13 @@
         "observations": 8,
         "calls": 2,
         "puts": 6,
-        "call_premium": 400280.0,
-        "put_premium": 425970.0
+        "call_premium": 400280,
+        "put_premium": 425970
       }
     },
     {
       "ticker": "AMD",
-      "title": "SC26 \u00b7 AMD participation",
+      "title": "SC26 · AMD participation",
       "date": "2026-11-16",
       "end_date": "2026-11-19",
       "time": "See official agenda",
@@ -2126,8 +2126,8 @@
         "observations": 46,
         "calls": 19,
         "puts": 27,
-        "call_premium": 3184237.0,
-        "put_premium": 7678479.0
+        "call_premium": 3184237,
+        "put_premium": 7678479
       },
       "contracts": 39,
       "days_until": -1,
@@ -2137,8 +2137,8 @@
         "observations": 34,
         "calls": 18,
         "puts": 16,
-        "call_premium": 3282621.0,
-        "put_premium": 3487916.0
+        "call_premium": 3282621,
+        "put_premium": 3487916
       }
     },
     {
@@ -2158,8 +2158,8 @@
         "observations": 7,
         "calls": 4,
         "puts": 3,
-        "call_premium": 390980.0,
-        "put_premium": 386200.0
+        "call_premium": 390980,
+        "put_premium": 386200
       },
       "contracts": 6,
       "days_until": 0,
@@ -2169,13 +2169,13 @@
         "observations": 7,
         "calls": 4,
         "puts": 3,
-        "call_premium": 390980.0,
-        "put_premium": 386200.0
+        "call_premium": 390980,
+        "put_premium": 386200
       }
     },
     {
       "ticker": "AMD",
-      "title": "Microsoft Ignite \u00b7 AMD participation",
+      "title": "Microsoft Ignite · AMD participation",
       "date": "2026-11-17",
       "end_date": "2026-11-20",
       "time": "See official agenda",
@@ -2211,8 +2211,8 @@
         "observations": 46,
         "calls": 19,
         "puts": 27,
-        "call_premium": 3184237.0,
-        "put_premium": 7678479.0
+        "call_premium": 3184237,
+        "put_premium": 7678479
       },
       "contracts": 39,
       "days_until": 0,
@@ -2222,8 +2222,8 @@
         "observations": 34,
         "calls": 18,
         "puts": 16,
-        "call_premium": 3282621.0,
-        "put_premium": 3487916.0
+        "call_premium": 3282621,
+        "put_premium": 3487916
       }
     },
     {
@@ -2231,7 +2231,7 @@
       "title": "Investor Day",
       "date": "2026-11-17",
       "end_date": "2026-11-17",
-      "time": "5:45\u20139:00 AM PT",
+      "time": "5:45–9:00 AM PT",
       "category": "Investor / analyst",
       "url": "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx",
       "summary": "Management presents growth strategy, digital initiatives, capital allocation and long-term targets, with Q&A.",
@@ -2271,13 +2271,13 @@
         "observations": 1,
         "calls": 1,
         "puts": 0,
-        "call_premium": 131000.0,
+        "call_premium": 131000,
         "put_premium": 0
       }
     },
     {
       "ticker": "COHR",
-      "title": "Technical Global Symposium \u00b7 Coherent CTO panel",
+      "title": "Technical Global Symposium · Coherent CTO panel",
       "date": "2026-11-17",
       "end_date": "2026-11-17",
       "time": "See official agenda",
@@ -2304,8 +2304,8 @@
         "observations": 31,
         "calls": 14,
         "puts": 17,
-        "call_premium": 3666320.0,
-        "put_premium": 2622405.0
+        "call_premium": 3666320,
+        "put_premium": 2622405
       },
       "contracts": 18,
       "days_until": 0,
@@ -2315,8 +2315,8 @@
         "observations": 30,
         "calls": 14,
         "puts": 16,
-        "call_premium": 3666320.0,
-        "put_premium": 2435075.0
+        "call_premium": 3666320,
+        "put_premium": 2435075
       }
     },
     {
@@ -2336,8 +2336,8 @@
         "observations": 68,
         "calls": 34,
         "puts": 34,
-        "call_premium": 4161200.0,
-        "put_premium": 4383464.0
+        "call_premium": 4161200,
+        "put_premium": 4383464
       },
       "contracts": 60,
       "days_until": 0,
@@ -2347,8 +2347,8 @@
         "observations": 54,
         "calls": 30,
         "puts": 24,
-        "call_premium": 3765170.0,
-        "put_premium": 3584144.0
+        "call_premium": 3765170,
+        "put_premium": 3584144
       }
     },
     {
@@ -2389,8 +2389,8 @@
         "observations": 24,
         "calls": 10,
         "puts": 14,
-        "call_premium": 458000.0,
-        "put_premium": 1846747.0
+        "call_premium": 458000,
+        "put_premium": 1846747
       },
       "contracts": 11,
       "days_until": 0,
@@ -2400,8 +2400,8 @@
         "observations": 25,
         "calls": 10,
         "puts": 15,
-        "call_premium": 458000.0,
-        "put_premium": 1334447.0
+        "call_premium": 458000,
+        "put_premium": 1334447
       }
     },
     {
@@ -2421,8 +2421,8 @@
         "observations": 7,
         "calls": 4,
         "puts": 3,
-        "call_premium": 390980.0,
-        "put_premium": 386200.0
+        "call_premium": 390980,
+        "put_premium": 386200
       },
       "contracts": 6,
       "days_until": 1,
@@ -2432,13 +2432,13 @@
         "observations": 7,
         "calls": 4,
         "puts": 3,
-        "call_premium": 390980.0,
-        "put_premium": 386200.0
+        "call_premium": 390980,
+        "put_premium": 386200
       }
     },
     {
       "ticker": "MRVL",
-      "title": "IEEE WinTechCon \u00b7 Marvell participation",
+      "title": "IEEE WinTechCon · Marvell participation",
       "date": "2026-11-18",
       "end_date": "2026-11-19",
       "time": "See event agenda",
@@ -2470,8 +2470,8 @@
         "observations": 35,
         "calls": 11,
         "puts": 24,
-        "call_premium": 3206565.0,
-        "put_premium": 1925298.0
+        "call_premium": 3206565,
+        "put_premium": 1925298
       },
       "contracts": 31,
       "days_until": 1,
@@ -2481,8 +2481,8 @@
         "observations": 32,
         "calls": 9,
         "puts": 23,
-        "call_premium": 2946090.0,
-        "put_premium": 1852848.0
+        "call_premium": 2946090,
+        "put_premium": 1852848
       }
     },
     {
@@ -2502,8 +2502,8 @@
         "observations": 33,
         "calls": 13,
         "puts": 20,
-        "call_premium": 2902419.0,
-        "put_premium": 3731397.0
+        "call_premium": 2902419,
+        "put_premium": 3731397
       },
       "contracts": 30,
       "days_until": 7,
@@ -2513,13 +2513,13 @@
         "observations": 32,
         "calls": 13,
         "puts": 19,
-        "call_premium": 2902419.0,
-        "put_premium": 3695475.0
+        "call_premium": 2902419,
+        "put_premium": 3695475
       }
     },
     {
       "ticker": "AMD",
-      "title": "AWS re:Invent \u00b7 AMD participation",
+      "title": "AWS re:Invent · AMD participation",
       "date": "2026-12-01",
       "end_date": "2026-12-05",
       "time": "See official agenda",
@@ -2551,8 +2551,8 @@
         "observations": 32,
         "calls": 17,
         "puts": 15,
-        "call_premium": 2533237.0,
-        "put_premium": 4415231.0
+        "call_premium": 2533237,
+        "put_premium": 4415231
       },
       "contracts": 28,
       "days_until": 14,
@@ -2562,13 +2562,13 @@
         "observations": 22,
         "calls": 15,
         "puts": 7,
-        "call_premium": 2325621.0,
-        "put_premium": 1315346.0
+        "call_premium": 2325621,
+        "put_premium": 1315346
       }
     },
     {
       "ticker": "AMD",
-      "title": "Adopt AI \u00b7 AMD participation",
+      "title": "Adopt AI · AMD participation",
       "date": "2026-12-03",
       "end_date": "2026-12-04",
       "time": "See official agenda",
@@ -2600,8 +2600,8 @@
         "observations": 37,
         "calls": 18,
         "puts": 19,
-        "call_premium": 3018237.0,
-        "put_premium": 7049431.0
+        "call_premium": 3018237,
+        "put_premium": 7049431
       },
       "contracts": 31,
       "days_until": 16,
@@ -2611,13 +2611,13 @@
         "observations": 26,
         "calls": 16,
         "puts": 10,
-        "call_premium": 2810621.0,
-        "put_premium": 2939546.0
+        "call_premium": 2810621,
+        "put_premium": 2939546
       }
     },
     {
       "ticker": "AMD",
-      "title": "NeurIPS \u00b7 AMD participation",
+      "title": "NeurIPS · AMD participation",
       "date": "2026-12-06",
       "end_date": "2026-12-12",
       "time": "See official agenda",
@@ -2649,8 +2649,8 @@
         "observations": 22,
         "calls": 13,
         "puts": 9,
-        "call_premium": 2375519.0,
-        "put_premium": 3077716.0
+        "call_premium": 2375519,
+        "put_premium": 3077716
       },
       "contracts": 20,
       "days_until": 19,
@@ -2660,13 +2660,13 @@
         "observations": 14,
         "calls": 11,
         "puts": 3,
-        "call_premium": 2167903.0,
-        "put_premium": 681346.0
+        "call_premium": 2167903,
+        "put_premium": 681346
       }
     },
     {
       "ticker": "SMCI",
-      "title": "GITEX \u00b7 Supermicro appearance",
+      "title": "GITEX · Supermicro appearance",
       "date": "2026-12-07",
       "end_date": "2026-12-11",
       "time": "See official agenda",
@@ -2682,7 +2682,7 @@
         "calls": 1,
         "puts": 2,
         "call_premium": 323000,
-        "put_premium": 273917.0
+        "put_premium": 273917
       },
       "contracts": 3,
       "days_until": 20,
@@ -2692,13 +2692,13 @@
         "observations": 3,
         "calls": 1,
         "puts": 2,
-        "call_premium": 323000.0,
-        "put_premium": 273917.0
+        "call_premium": 323000,
+        "put_premium": 273917
       }
     },
     {
       "ticker": "AMD",
-      "title": "GITEX \u00b7 AMD participation",
+      "title": "GITEX · AMD participation",
       "date": "2026-12-08",
       "end_date": "2026-12-11",
       "time": "See official agenda",
@@ -2730,8 +2730,8 @@
         "observations": 32,
         "calls": 17,
         "puts": 15,
-        "call_premium": 2533237.0,
-        "put_premium": 4415231.0
+        "call_premium": 2533237,
+        "put_premium": 4415231
       },
       "contracts": 28,
       "days_until": 21,
@@ -2741,13 +2741,13 @@
         "observations": 22,
         "calls": 15,
         "puts": 7,
-        "call_premium": 2325621.0,
-        "put_premium": 1315346.0
+        "call_premium": 2325621,
+        "put_premium": 1315346
       }
     },
     {
       "ticker": "TSM",
-      "title": "Monthly sales release \u00b7 November 2026 revenue",
+      "title": "Monthly sales release · November 2026 revenue",
       "date": "2026-12-10",
       "end_date": "2026-12-10",
       "time": "9:30 PM PT on December 9 (1:30 PM Taipei December 10)",
@@ -2769,8 +2769,8 @@
         "observations": 12,
         "calls": 4,
         "puts": 8,
-        "call_premium": 162893.0,
-        "put_premium": 711915.0
+        "call_premium": 162893,
+        "put_premium": 711915
       },
       "contracts": 11,
       "days_until": 23,
@@ -2780,16 +2780,16 @@
         "observations": 7,
         "calls": 3,
         "puts": 4,
-        "call_premium": 121745.0,
-        "put_premium": 438760.0
+        "call_premium": 121745,
+        "put_premium": 438760
       }
     },
     {
       "ticker": "ONTO",
-      "title": "Momentum Unleashed \u00b7 Analyst Event",
+      "title": "Momentum Unleashed · Analyst Event",
       "date": "2026-12-17",
       "end_date": "2026-12-17",
-      "time": "6:30\u201310:00 AM PT",
+      "time": "6:30–10:00 AM PT",
       "category": "Investor / analyst",
       "url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx",
       "summary": "Executive presentations on market opportunities, products and margins, followed by Q&A and technology sessions.",
@@ -2801,7 +2801,7 @@
         "observations": 5,
         "calls": 3,
         "puts": 2,
-        "call_premium": 1403688.0,
+        "call_premium": 1403688,
         "put_premium": 1291000
       },
       "contracts": 3,
@@ -2813,12 +2813,12 @@
         "calls": 1,
         "puts": 2,
         "call_premium": 710567.9999999999,
-        "put_premium": 1291000.0
+        "put_premium": 1291000
       }
     },
     {
       "ticker": "AMD",
-      "title": "CES \u00b7 AMD participation",
+      "title": "CES · AMD participation",
       "date": "2027-01-06",
       "end_date": "2027-01-09",
       "time": "See official agenda",
@@ -2850,7 +2850,7 @@
         "observations": 11,
         "calls": 11,
         "puts": 0,
-        "call_premium": 2096319.0,
+        "call_premium": 2096319,
         "put_premium": 0
       },
       "contracts": 9,
@@ -2861,13 +2861,13 @@
         "observations": 9,
         "calls": 9,
         "puts": 0,
-        "call_premium": 1888703.0,
+        "call_premium": 1888703,
         "put_premium": 0
       }
     },
     {
       "ticker": "AMD",
-      "title": "Cisco Live EMEA \u00b7 AMD participation",
+      "title": "Cisco Live EMEA · AMD participation",
       "date": "2027-02-08",
       "end_date": "2027-02-12",
       "time": "See official agenda",
@@ -2899,7 +2899,7 @@
         "observations": 8,
         "calls": 8,
         "puts": 0,
-        "call_premium": 1896791.0,
+        "call_premium": 1896791,
         "put_premium": 0
       },
       "contracts": 7,
@@ -2910,19 +2910,22 @@
         "observations": 6,
         "calls": 6,
         "puts": 0,
-        "call_premium": 1689175.0,
+        "call_premium": 1689175,
         "put_premium": 0
       }
     }
   ],
   "flow_counts": {
     "available_distinct_records": 2929,
-    "latest_capture_distinct_records": 1163
+    "latest_capture_distinct_records": 1163,
+    "companies": 607,
+    "records": 2929
   },
   "news_finder_capture": {
     "checked_at": "2026-11-17T17:23:27.602201+00:00",
     "observations": 91,
     "latest_alert": "2026/11/16 08:29:06",
     "coverage": "Authenticated configured NEWS FINDER alert window; source summaries only. Alert aggregates are not added to individual-flow premium totals."
-  }
+  },
+  "checked_at": "2026-11-17T18:00:14.510Z"
 }
