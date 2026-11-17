@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-16T16:10:38.060Z",
+  "captured_at": "2026-11-17T17:23:27.602201+00:00",
   "flow_source": "Aggregated distinct rendered SPY Magic alert rows; repeated contracts retained, not unique whales",
   "flow_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
   "price_source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
@@ -858,43 +858,55 @@
       "formula_version": "v2-normalized-lean-distance"
     },
     {
-      "previous_close": 754.37,
+      "date": "2026-11-16",
+      "flow_start": "2026/11/16 07:11:36",
+      "flow_as_of": "2026/11/16 12:53:10",
+      "price_as_of": "2026/11/16 12:53:10",
+      "spot": 739.7,
+      "calls": 5035000.0,
+      "puts": 3135000.0,
+      "call_share": 0.6162790697674418,
+      "alerts": 50,
+      "unknown_side_alerts": 1,
+      "complete_session": false,
+      "previous_close": 754.3699951171875,
       "previous_close_date": "2026-11-13",
-      "return_std": 0.009331913058561082,
       "baseline_sessions": 60,
       "baseline_end": "2026-11-13",
+      "return_std": 0.009331913099494266,
+      "index_return": -0.019446684269180836,
+      "score": 60.10286572752397,
+      "direction": "Bullish whale / falling index",
+      "level": "Strong disagreement",
       "formula_version": "v2-normalized-lean-distance",
-      "baseline_source": "Saved Yahoo daily cache through November 12 plus November 13 prior close derived from the dated market quote",
-      "baseline_price_evidence": {
-        "symbol": "SPY",
-        "session": "2026-11-16",
-        "previous_close_date": "2026-11-13",
-        "previous_close": 754.37,
-        "source": "Market quote tool, SPDR S&P 500 ETF Trust, USA fund",
-        "quote_time": "2026-11-16T16:03:38Z",
-        "quote_price": 746.6,
-        "quote_change_from_previous_close": -7.77,
-        "method": "Previous close calculated as quote price minus change from previous close: 746.60 - (-7.77) = 754.37. Used only for the prior-session baseline; not an intraday candle.",
-        "cross_source_note": "UW overview's displayed Prev Close disagreed with its header change, so that field was not used. The matched intraday SPY quote remains the Magic alert's own underlying spot."
-      },
-      "date": "2026-11-16",
-      "flow_start": "2026/11/16 06:40:16",
-      "flow_as_of": "2026/11/16 08:05:35",
-      "price_as_of": "2026/11/16 08:05:35",
-      "spot": 746.11,
-      "calls": 728000.0,
-      "puts": 3325000.0,
-      "call_share": 0.17962003454231434,
-      "alerts": 36,
+      "baseline_source": "Yahoo SPY unadjusted completed daily closes refreshed November 17"
+    },
+    {
+      "date": "2026-11-17",
+      "flow_start": "2026/11/17 06:36:15",
+      "flow_as_of": "2026/11/17 09:07:07",
+      "price_as_of": "2026/11/17 09:07:07",
+      "spot": 732.94,
+      "calls": 7944000.0,
+      "puts": 4524000.0,
+      "call_share": 0.6371511068334937,
+      "alerts": 86,
+      "unknown_side_alerts": 5,
       "complete_session": false,
-      "unknown_side_alerts": 2,
-      "index_return": -0.010949534048278697,
-      "score": 9.22904730821426,
-      "direction": "Bearish agreement",
-      "level": "Little disagreement"
+      "previous_close": 739.9500122070312,
+      "previous_close_date": "2026-11-16",
+      "baseline_sessions": 60,
+      "baseline_end": "2026-11-16",
+      "return_std": 0.009629829602718276,
+      "index_return": -0.009473629422780294,
+      "score": 51.44998013392361,
+      "direction": "Bullish whale / falling index",
+      "level": "Strong disagreement",
+      "formula_version": "v2-normalized-lean-distance",
+      "baseline_source": "Yahoo SPY unadjusted completed daily closes refreshed November 17"
     }
   ],
-  "price_source_note": "Matched intraday spot from authenticated Magic alerts. Prior return baseline from saved Yahoo closes; latest prior close derived from the dated market quote, with the arithmetic retained in baseline_price_evidence.",
+  "price_source_note": "Intraday quote matched to latest captured Magic alert. Prior 60-session volatility and previous close from refreshed unadjusted Yahoo daily closes.",
   "capture_history": [
     {
       "captured_at": "2026-10-30T15:10:56.187225+00:00",
@@ -1003,12 +1015,13 @@
       }
     }
   ],
-  "baseline_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/SPY?range=6mo&interval=1d",
+  "baseline_source_url": "https://finance.yahoo.com/quote/SPY/history/",
   "latest_capture_summary": {
     "date": "2026-11-16",
     "alerts": 192
   },
   "formula_version": "v2-normalized-lean-distance",
   "formula_changed_at": "2026-11-13T19:27:03.024Z",
-  "pending_sessions": []
+  "pending_sessions": [],
+  "published_at": "2026-11-17T17:23:27.602201+00:00"
 }

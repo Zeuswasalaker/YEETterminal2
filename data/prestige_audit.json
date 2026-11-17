@@ -1,6 +1,6 @@
 {
   "audited_at": "2026-11-16",
-  "scope": "Checked nine saved GitHub snapshots from October 14–19. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate. November 12 mid-session: five current unretired setups recorded at actual publication time, 11:07:55 Pacific. Earlier reconstructed crossings do not count as post-publication hits. November 13: current unretired cards recorded at actual repository publication 08:30:44 PT, after a post-publication price recheck. No earlier crossing is credited as a post-publication hit.",
+  "scope": "Checked nine saved GitHub snapshots from October 14\u201319. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate. November 12 mid-session: five current unretired setups recorded at actual publication time, 11:07:55 Pacific. Earlier reconstructed crossings do not count as post-publication hits. November 13: current unretired cards recorded at actual repository publication 08:30:44 PT, after a post-publication price recheck. No earlier crossing is credited as a post-publication hit.",
   "records": [
     {
       "contract": "781c 10/20/2026",
@@ -926,5 +926,21 @@
       "provenance": "Published Current Prestige from daily November 16 capture; forward outcomes measured after this publication timestamp",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/blob/main/data/prestige.json"
     }
-  ]
+  ],
+  "checked_at": "2026-11-17T17:23:27.602201+00:00",
+  "price_as_of": {
+    "time": "2026/11/17 09:22:59",
+    "spot": 733.6900024414062,
+    "source": "Yahoo SPY completed 1-minute close including extended hours"
+  },
+  "after": {
+    "total": 331,
+    "itm": 252,
+    "expired_otm": 62,
+    "open": 17,
+    "plays_open": 92,
+    "open_itm_hits": 75,
+    "unverified": 0,
+    "win_percent": 80.2547770700637
+  }
 }

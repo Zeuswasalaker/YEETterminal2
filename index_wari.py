@@ -7,6 +7,7 @@ import html
 import pandas as pd
 import streamlit as st
 from wari import prepare
+import published_data
 
 ROOT = Path(__file__).parent
 PRICE_LOOKBACK = 60
@@ -59,6 +60,10 @@ def hero(value=None, level='SPY Magic / index update pending', detail='The score
     st.markdown(f'<div style="padding:26px;border-radius:24px;background:linear-gradient(120deg,{background});border:1px solid #b9ef7666;box-shadow:0 6px 0 #071d24;margin-bottom:24px"><div style="color:#b9ef76;font-weight:900;letter-spacing:.12em">INDEX WARI v2 · WHALE / PRICE GAP</div><div style="font-size:64px;font-weight:900;color:#efd58a;line-height:1.2">{number}</div><div style="font-size:25px;font-weight:800;color:{accent}">{html.escape(level)}</div><p style="font-size:17px;color:#e2ebd4">{html.escape(direction)}</p><p style="color:#c0d3c8">{html.escape(detail)}</p>{scale}</div>',unsafe_allow_html=True)
 
 def render():
+    st.fragment(run_every="30s")(_render)()
+
+
+def _render():
     top=st.empty()
     with top.container(): hero()
     st.caption('Whale Alert Risk Indicator · SPY Magic versus SPY price')
@@ -117,12 +122,13 @@ def render_matched_snapshot(top):
     if not path.exists():
         return False
     try:
-        saved=json.loads(path.read_text())
+        saved=published_data.load(path.name)
         sessions={r['date']:r for r in saved['sessions']}
         pending={r['date']:r for r in saved.get('pending_sessions',[])}
         dates=sorted(set(sessions)|set(pending))
         if not dates:return False
-        day=st.selectbox('SPY Magic session',dates,index=len(dates)-1,key='index_wari_matched_session')
+        day=published_data.latest_session('SPY Magic session',dates,key='index_wari_matched_session')
+        st.caption('Published update: '+str(saved.get('captured_at','unknown'))+' · checks for updates every 30 seconds')
         if day in pending:
             row=pending[day]
             with top.container():
@@ -174,7 +180,7 @@ def render_saved_snapshot(top):
     if not path.exists():
         return
     try:
-        saved=json.loads(path.read_text())
+        saved=published_data.load(path.name)
         rows=[]
         for card in saved.get('cards',[]):
             if card.get('last_side')!='ASK':

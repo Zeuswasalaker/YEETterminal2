@@ -1,3 +1,4 @@
+import published_data
 import base64
 import hashlib
 import hmac
@@ -121,7 +122,7 @@ h2{font-family:Inter,"Helvetica Neue",Arial,sans-serif!important;font-size:27px!
 @media(prefers-reduced-motion:reduce){.stButton button,.stDownloadButton button,[data-testid="stLinkButton"] a{transition:none!important;transform:none!important}}
 </style>''',unsafe_allow_html=True)
 
-seed = json.loads((ROOT/'data'/'snapshot.json').read_text())
+seed = published_data.load('snapshot.json')
 snapshot_revision = hashlib.sha256(json.dumps(seed,sort_keys=True).encode()).hexdigest()
 if 'snapshot' not in st.session_state or st.session_state.get('snapshot_revision') != snapshot_revision:
     st.session_state.snapshot=seed

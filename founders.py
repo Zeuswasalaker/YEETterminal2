@@ -1,3 +1,4 @@
+import published_data
 """Founder ticker coverage: independent company events and captured flow."""
 import json
 from pathlib import Path
@@ -17,7 +18,7 @@ def matching_events(flow,events,as_of):
 
 def render(admin):
     import streamlit as st
-    snapshot=json.loads((ROOT/'data'/'founders.json').read_text())
+    snapshot=published_data.load('founders.json')
     registry=json.loads((ROOT/'data'/'founder_filters.json').read_text())
     today=datetime.now(ZoneInfo('America/Los_Angeles')).date().isoformat()
     st.markdown('''<style>

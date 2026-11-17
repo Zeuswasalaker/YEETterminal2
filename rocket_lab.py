@@ -1,3 +1,4 @@
+import published_data
 """Meme Swan dashboard, with separately sourced Founder and RAMBO context."""
 from datetime import datetime
 from pathlib import Path
@@ -13,7 +14,7 @@ BENCHMARK = {'SPY', 'QQQ', 'IWM'}
 
 def load(name):
     try:
-        return json.loads((DATA / name).read_text())
+        return published_data.load(name) if name in published_data.ALLOWED else json.loads((DATA / name).read_text())
     except (OSError, ValueError):
         return {}
 

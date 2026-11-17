@@ -13,7 +13,7 @@
       "event_note": "No upcoming investor meeting verified. A separate October 30 warrant-expiration deadline appears in the company announcement; it is a corporate action, not a RAMBO meeting. October 22 newsroom and warrant hub retrieved, but dynamic content did not expose a new dated announcement; existing warrant source and verification history retained.",
       "verified_on": "2026-11-13",
       "flow_as_of": "2026-11-13 06:31:23",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official annual meeting and warrant hubs rechecked. Meeting shown is past July 7; no new upcoming governance meeting or corporate-action deadline confirmed from retrieved pages.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -39,8 +39,8 @@
       ],
       "event_note": "Official SC26 and MedTech schedules rechecked October 22. Grace Hopper 2026 is canceled; NVIDIA replacement online careers event is October 28, noon\u20131:15 PM PT. This is not an investor catalyst. Other previously verified events retain their individual dates.",
       "verified_on": "2026-11-13",
-      "flow_as_of": "2026-11-13 07:09:12",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_as_of": "2026-11-17 09:09:35",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "SC26 November 15\u201320 and November 16 Ian Buck special address 2\u20133 PM Pacific confirmed on company event page. Technical industry address, not earnings or promised guidance.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -53,8 +53,8 @@
       ],
       "event_note": "Official IR calendar checked October 22 lists no upcoming events. No new non-earnings event confirmed.",
       "verified_on": "2026-11-13",
-      "flow_as_of": "2026-10-29",
-      "flow_scope": "All six dedicated Founder group filters checked October 29. Historical print dates retained; not a continuous feed.",
+      "flow_as_of": "2026-11-17T17:21:32.208321+00:00",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official IR calendar explicitly says no upcoming events scheduled.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -69,8 +69,8 @@
       ],
       "event_note": "IR calendar accessible today and says more events coming soon. Corporate events confirms Neuroscience exhibition November 14\u201318. Tower company announcement confirms Coherent CTO technical panel November 17. These are industry/technical events.",
       "verified_on": "2026-11-13",
-      "flow_as_of": "2026-11-12 12:57:10",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_as_of": "2026-11-13 12:21:30",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "IR calendar accessible today and says more events coming soon. Corporate events confirms Neuroscience exhibition November 14\u201318. Tower company announcement confirms Coherent CTO technical panel November 17. These are industry/technical events.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -83,7 +83,7 @@
       "event_note": "Official iShares trust page checked October 29. No dated company-style non-earnings catalyst confirmed. SLV tracks silver rather than an operating business.",
       "verified_on": "2026-11-13",
       "flow_as_of": "2026-11-10 12:28:43",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official iShares trust page checked. No dated company investor event confirmed; trust/commodity exposure differs from an operating company.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -100,8 +100,8 @@
       ],
       "verified_on": "2026-11-13",
       "event_note": "October 24 ESMO data at 7:30 AM PT and investor webcast at 10 AM PT remain confirmed by the company-issued release. November 12 Analyst Day is confirmed in the SEC-filed company release; time unannounced. October 22 broad-filter flow is mixed and put-heavy by rounded premium.",
-      "flow_as_of": "2026-11-12 07:47:57",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_as_of": "2026-11-17 07:56:14",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official events page retrieved. Featured October 24 oncology investor presentation is past; upcoming section exposes no dated item. Prior research retained.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -115,8 +115,8 @@
       ],
       "verified_on": "2026-11-13",
       "event_note": "October 22 official investor-events page has no populated upcoming non-earnings entry. Previously scheduled October 21 earnings are past and excluded from RAMBO. Today\u2019s WF PSU sample is call-side, not a broad-market consensus.",
-      "flow_as_of": "2026-11-13 06:56:03",
-      "flow_scope": "November 13 authenticated broad and dedicated group samples; earlier verified history retained.",
+      "flow_as_of": "2026-11-17 07:13:00",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official investor-events page says stay tuned for upcoming events.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -130,8 +130,8 @@
       ],
       "verified_on": "2026-11-13",
       "event_note": "Official Netflix IR profile and investor-events pages checked October 22. No upcoming non-earnings investor event confirmed from accessible content. October 20 earnings are past and excluded from RAMBO. Saved October 20\u201321 broad-filter observations are put-side; dedicated NFLX filter scans are pending.",
-      "flow_as_of": "2026-10-29",
-      "flow_scope": "All six dedicated Founder group filters checked October 29. Historical print dates retained; not a continuous feed.",
+      "flow_as_of": "2026-11-17T17:21:32.208321+00:00",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official investor-events page retrieved; upcoming section exposes no dated event. No new date inferred.",
       "event_checked_at": "2026-11-13T16:21:49.004860+00:00"
     },
@@ -144,8 +144,8 @@
       ],
       "event_note": "Official investor calendar and newsroom checked November 14. No upcoming dated non-earnings investor event confirmed from accessible content. Earnings excluded from RAMBO. Saved flow is mixed; historical observations are not a fresh dedicated BE scan.",
       "verified_on": "2026-11-14",
-      "flow_as_of": "2026-11-11 07:18:29",
-      "flow_scope": "Eight previously captured BE observations imported from the current main research snapshot, covering October 29 through November 11. Original source and print dates retained. No new UW scan performed.",
+      "flow_as_of": "2026-11-17 06:47:34",
+      "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
       "event_check_scope": "Official IR calendar and company newsroom checked; no upcoming dated non-earnings event confirmed."
     }
   },
@@ -1073,8 +1073,8 @@
     "ir": "Hourly public-source research scheduled",
     "flow": "Authenticated snapshot refreshed; not a continuous stream."
   },
-  "flow_as_of": "2026-11-16 08:02:49",
-  "flow_scope": "2026-11-16 supplied broad filter windows only, merged with earlier dedicated captures. No new dedicated Founder ticker scan or event research performed.",
+  "flow_as_of": "2026-11-17 09:14:21",
+  "flow_scope": "Latest broad and dedicated Founder capture window only. Exact CSV premiums. Earlier totals retained in capture history; no raw flow published.",
   "flow_check_history": [
     {
       "ticker": "GME",
@@ -1567,6 +1567,131 @@
           "outcome": "Rendered No trades with these filters; current filter sample only"
         }
       ]
+    },
+    {
+      "checked_at": "2026-11-17T17:21:32.208321+00:00",
+      "filters": [
+        {
+          "filter": "orange",
+          "rows": 250,
+          "accepted": 242,
+          "excluded": 8,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:06:37",
+          "oldest": "2026-11-13 11:31:18",
+          "complete_session": false
+        },
+        {
+          "filter": "meme",
+          "rows": 250,
+          "accepted": 240,
+          "excluded": 10,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:14:31",
+          "oldest": "2026-11-16 07:39:29",
+          "complete_session": false
+        },
+        {
+          "filter": "wf",
+          "rows": 250,
+          "accepted": 250,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:14:21",
+          "oldest": "2026-11-16 06:55:56",
+          "complete_session": false
+        },
+        {
+          "filter": "nautilus",
+          "rows": 142,
+          "accepted": 142,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 08:51:49",
+          "oldest": "2026-11-02 06:35:14",
+          "complete_session": false
+        },
+        {
+          "filter": "farcry",
+          "rows": 229,
+          "accepted": 229,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:05:17",
+          "oldest": "2026-11-02 06:32:22",
+          "complete_session": false
+        },
+        {
+          "filter": "psu",
+          "rows": 250,
+          "accepted": 249,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:12:42",
+          "oldest": "2026-11-09 06:53:52",
+          "complete_session": false
+        },
+        {
+          "filter": "bat",
+          "rows": 250,
+          "accepted": 250,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:07:16",
+          "oldest": "2026-11-05 08:31:54",
+          "complete_session": false
+        },
+        {
+          "filter": "freelance",
+          "rows": 176,
+          "accepted": 176,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 08:51:49",
+          "oldest": "2026-11-02 07:09:59",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder NAUTILUS",
+          "rows": 12,
+          "accepted": 12,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-16 06:38:03",
+          "oldest": "2026-11-04 07:59:05",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder FARCRY ULTRA",
+          "rows": 10,
+          "accepted": 10,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-16 10:18:18",
+          "oldest": "2026-11-03 07:17:25",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder PSU",
+          "rows": 21,
+          "accepted": 21,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 07:56:14",
+          "oldest": "2026-11-03 06:46:53",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder WF PSU",
+          "rows": 237,
+          "accepted": 237,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 09:09:35",
+          "oldest": "2026-11-02 06:46:39",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder BAT",
+          "rows": 33,
+          "accepted": 33,
+          "captured_at": "2026-11-17T17:21:32.208321+00:00",
+          "newest": "2026-11-17 06:47:34",
+          "oldest": "2026-11-02 12:22:03",
+          "complete_session": false
+        }
+      ],
+      "scope": "All registered Founder tickers; six dedicated filters"
     }
   ],
   "public_research_checks": {
@@ -1600,69 +1725,70 @@
     }
   ],
   "flow_summary": {
-    "NVDA": {
-      "observations": 194,
-      "calls": 112,
-      "puts": 82,
-      "call_premium": 14328947.0,
-      "put_premium": 10999755.0
-    },
     "GME": {
-      "observations": 3,
-      "calls": 2,
+      "observations": 1,
+      "calls": 0,
       "puts": 1,
-      "call_premium": 2513000.0,
+      "call_premium": 0,
       "put_premium": 25714.0
     },
-    "COHR": {
-      "observations": 70,
-      "calls": 35,
-      "puts": 35,
-      "call_premium": 6166368.0,
-      "put_premium": 7649235.0
+    "NVDA": {
+      "observations": 113,
+      "calls": 79,
+      "puts": 34,
+      "call_premium": 6765068.0,
+      "put_premium": 3685933.0
     },
     "AMC": {
-      "observations": 1,
-      "calls": 1,
+      "observations": 0,
+      "calls": 0,
       "puts": 0,
-      "call_premium": 54000.0,
+      "call_premium": 0,
       "put_premium": 0
     },
-    "MRNA": {
-      "observations": 102,
-      "calls": 84,
-      "puts": 18,
-      "call_premium": 11446945.0,
-      "put_premium": 5123460.0
-    },
-    "META": {
-      "observations": 91,
-      "calls": 54,
-      "puts": 37,
-      "call_premium": 12388155.0,
-      "put_premium": 5020594.0
-    },
-    "NFLX": {
-      "observations": 7,
-      "calls": 2,
-      "puts": 5,
-      "call_premium": 101000.0,
-      "put_premium": 653000.0
+    "COHR": {
+      "observations": 31,
+      "calls": 18,
+      "puts": 13,
+      "call_premium": 3818660.0,
+      "put_premium": 1196265.0
     },
     "SLV": {
-      "observations": 37,
-      "calls": 5,
-      "puts": 32,
-      "call_premium": 262940.0,
-      "put_premium": 2608897.0
+      "observations": 9,
+      "calls": 2,
+      "puts": 7,
+      "call_premium": 71320.0,
+      "put_premium": 263769.0
+    },
+    "MRNA": {
+      "observations": 34,
+      "calls": 31,
+      "puts": 3,
+      "call_premium": 4521855.0,
+      "put_premium": 108220.0
+    },
+    "META": {
+      "observations": 14,
+      "calls": 9,
+      "puts": 5,
+      "call_premium": 1984677.9999999998,
+      "put_premium": 234069.0
+    },
+    "NFLX": {
+      "observations": 0,
+      "calls": 0,
+      "puts": 0,
+      "call_premium": 0,
+      "put_premium": 0
     },
     "BE": {
-      "observations": 9,
-      "calls": 4,
-      "puts": 5,
-      "call_premium": 1445449.0,
-      "put_premium": 1846848.0
+      "observations": 14,
+      "calls": 7,
+      "puts": 7,
+      "call_premium": 1599352.0,
+      "put_premium": 1217690.0
     }
   },
-  "publication_mode": "dashboard_summaries"
+  "publication_mode": "dashboard_summaries",
+  "captured_at": "2026-11-17T17:21:32.208321+00:00"
 }

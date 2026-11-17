@@ -1,109 +1,200 @@
 {
-  "captured_rows": 2065,
-  "flow_duplicate_appearances_removed": 299,
-  "rambo_records": 2674,
-  "rambo_matches": 24,
-  "meme_alerts": 904,
-  "meme_leaderboard_2_sessions": [
+  "captured_at": "2026-11-17T17:23:27.602201+00:00",
+  "captured_rows": 2451,
+  "filter_captures": [
     {
-      "Ticker": "HOOD",
-      "Score": 100.0,
-      "Vs broad (pts)": 84.33041274749817,
-      "Sessions": 2,
-      "Alerts": 4,
-      "Premium (approx.)": 90000.0,
-      "Call premium %": 100.0,
-      "2026-11-16": 100.0,
-      "2026-11-13": 100.0
+      "filter": "orange",
+      "rows": 250,
+      "accepted": 242,
+      "excluded": 8,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:06:37",
+      "oldest": "2026-11-13 11:31:18",
+      "complete_session": false
     },
     {
-      "Ticker": "CRWV",
-      "Score": 92.99725274725274,
-      "Vs broad (pts)": 77.32766549475092,
-      "Sessions": 2,
-      "Alerts": 16,
-      "Premium (approx.)": 3185000.0,
-      "Call premium %": 95.35321821036106,
-      "2026-11-16": 91.38333333333333,
-      "2026-11-13": 93.79098360655738
+      "filter": "meme",
+      "rows": 250,
+      "accepted": 240,
+      "excluded": 10,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:14:31",
+      "oldest": "2026-11-16 07:39:29",
+      "complete_session": false
     },
     {
-      "Ticker": "RIVN",
-      "Score": 53.888888888888886,
-      "Vs broad (pts)": 38.21930163638706,
-      "Sessions": 1,
-      "Alerts": 2,
-      "Premium (approx.)": 27000.0,
-      "Call premium %": 55.55555555555556,
-      "2026-11-16": null,
-      "2026-11-13": 53.888888888888886
+      "filter": "wf",
+      "rows": 250,
+      "accepted": 250,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:14:21",
+      "oldest": "2026-11-16 06:55:56",
+      "complete_session": false
     },
     {
-      "Ticker": "IREN",
-      "Score": 41.17332035053553,
-      "Vs broad (pts)": 25.503733098033706,
-      "Sessions": 2,
-      "Alerts": 16,
-      "Premium (approx.)": 1027000.0,
-      "Call premium %": 37.3904576436222,
-      "2026-11-16": 0.0,
-      "2026-11-13": 66.32149307645996
+      "filter": "nautilus",
+      "rows": 142,
+      "accepted": 142,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 08:51:49",
+      "oldest": "2026-11-02 06:35:14",
+      "complete_session": false
     },
     {
-      "Ticker": "GME",
-      "Score": 39.49999999999999,
-      "Vs broad (pts)": 23.830412747498166,
-      "Sessions": 1,
-      "Alerts": 2,
-      "Premium (approx.)": 40000.0,
-      "Call premium %": 35.0,
-      "2026-11-16": null,
-      "2026-11-13": 39.49999999999999
+      "filter": "farcry",
+      "rows": 229,
+      "accepted": 229,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:05:17",
+      "oldest": "2026-11-02 06:32:22",
+      "complete_session": false
+    },
+    {
+      "filter": "psu",
+      "rows": 250,
+      "accepted": 249,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:12:42",
+      "oldest": "2026-11-09 06:53:52",
+      "complete_session": false
+    },
+    {
+      "filter": "bat",
+      "rows": 250,
+      "accepted": 250,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:07:16",
+      "oldest": "2026-11-05 08:31:54",
+      "complete_session": false
+    },
+    {
+      "filter": "freelance",
+      "rows": 176,
+      "accepted": 176,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 08:51:49",
+      "oldest": "2026-11-02 07:09:59",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder NAUTILUS",
+      "rows": 12,
+      "accepted": 12,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-16 06:38:03",
+      "oldest": "2026-11-04 07:59:05",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder FARCRY ULTRA",
+      "rows": 10,
+      "accepted": 10,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-16 10:18:18",
+      "oldest": "2026-11-03 07:17:25",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder PSU",
+      "rows": 21,
+      "accepted": 21,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 07:56:14",
+      "oldest": "2026-11-03 06:46:53",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder WF PSU",
+      "rows": 237,
+      "accepted": 237,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:09:35",
+      "oldest": "2026-11-02 06:46:39",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder BAT",
+      "rows": 33,
+      "accepted": 33,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 06:47:34",
+      "oldest": "2026-11-02 12:22:03",
+      "complete_session": false
+    },
+    {
+      "filter": "NEWS FINDER",
+      "rows": 91,
+      "accepted": 91,
+      "captured_at": "2026-11-17T17:23:27.602201+00:00",
+      "newest": "11/16 08:29:06",
+      "oldest": "09/17 11:04:04",
+      "complete_session": false
     }
   ],
-  "orange_alerts": 331,
-  "latest_index_wari": {
-    "previous_close": 754.37,
-    "previous_close_date": "2026-11-13",
-    "return_std": 0.009331913058561082,
-    "baseline_sessions": 60,
-    "baseline_end": "2026-11-13",
-    "formula_version": "v2-normalized-lean-distance",
-    "baseline_source": "Saved Yahoo daily cache through November 12 plus November 13 prior close derived from the dated market quote",
-    "baseline_price_evidence": {
-      "symbol": "SPY",
-      "session": "2026-11-16",
-      "previous_close_date": "2026-11-13",
-      "previous_close": 754.37,
-      "source": "Market quote tool, SPDR S&P 500 ETF Trust, USA fund",
-      "quote_time": "2026-11-16T16:03:38Z",
-      "quote_price": 746.6,
-      "quote_change_from_previous_close": -7.77,
-      "method": "Previous close calculated as quote price minus change from previous close: 746.60 - (-7.77) = 754.37. Used only for the prior-session baseline; not an intraday candle.",
-      "cross_source_note": "UW overview's displayed Prev Close disagreed with its header change, so that field was not used. The matched intraday SPY quote remains the Magic alert's own underlying spot."
-    },
-    "date": "2026-11-16",
-    "flow_start": "2026/11/16 06:40:16",
-    "flow_as_of": "2026/11/16 08:05:35",
-    "price_as_of": "2026/11/16 08:05:35",
-    "spot": 746.11,
-    "calls": 728000.0,
-    "puts": 3325000.0,
-    "call_share": 0.17962003454231434,
-    "alerts": 36,
-    "complete_session": false,
-    "unknown_side_alerts": 2,
-    "index_return": -0.010949534048278697,
-    "score": 9.22904730821426,
-    "direction": "Bearish agreement",
-    "level": "Little disagreement"
-  },
-  "whispers_qualified": 3,
+  "flow_distinct_latest": 1163,
+  "whispers_qualified": 5,
   "whispers_pending": 6,
-  "publication_status": "Dashboard summaries and Whispers candidates published to main; deployment verification pending",
-  "prestige_status": "Daily calculation completed with established rules; current board and observed outcomes updated through 2026/11/16 08:05:35 Pacific.",
-  "prestige_current_contracts": [
-    "748c 11/17/2026",
-    "743p 11/17/2026"
-  ]
+  "rambo_matches": 23,
+  "latest_index_wari": {
+    "date": "2026-11-17",
+    "flow_start": "2026/11/17 06:36:15",
+    "flow_as_of": "2026/11/17 09:07:07",
+    "price_as_of": "2026/11/17 09:07:07",
+    "spot": 732.94,
+    "calls": 7944000.0,
+    "puts": 4524000.0,
+    "call_share": 0.6371511068334937,
+    "alerts": 86,
+    "unknown_side_alerts": 5,
+    "complete_session": false,
+    "previous_close": 739.9500122070312,
+    "previous_close_date": "2026-11-16",
+    "baseline_sessions": 60,
+    "baseline_end": "2026-11-16",
+    "return_std": 0.009629829602718276,
+    "index_return": -0.009473629422780294,
+    "score": 51.44998013392361,
+    "direction": "Bullish whale / falling index",
+    "level": "Strong disagreement",
+    "formula_version": "v2-normalized-lean-distance",
+    "baseline_source": "Yahoo SPY unadjusted completed daily closes refreshed November 17"
+  },
+  "prestige_current": [
+    "735c 11/19/2026",
+    "736c 11/18/2026",
+    "735c 11/18/2026"
+  ],
+  "limitations": [
+    "Partial configured filter windows; not exhaustive backfill.",
+    "Prior November 16 raw archive unavailable; earlier public aggregates retained as separate evidence.",
+    "Event dates preserved; source monitoring does not confirm new event dates."
+  ],
+  "prestige_price_as_of": {
+    "time": "2026/11/17 09:22:59",
+    "spot": 733.6900024414062,
+    "source": "Yahoo SPY completed 1-minute close including extended hours"
+  },
+  "pari": {
+    "60min": {
+      "saved_at": "2026-11-17T17:22:11.577868+00:00",
+      "last_bar": "2026-11-17T10:30:00-05:00"
+    },
+    "10min": {
+      "saved_at": "2026-11-17T17:22:11.516568+00:00",
+      "last_bar": "2026-11-17T12:10:00-05:00"
+    },
+    "240min": {
+      "saved_at": "2026-11-17T17:22:11.642185+00:00",
+      "last_bar": "2026-11-16T09:30:00-05:00"
+    },
+    "5min": {
+      "saved_at": "2026-11-17T17:22:11.446324+00:00",
+      "last_bar": "2026-11-17T12:15:00-05:00"
+    },
+    "daily": {
+      "saved_at": "2026-11-17T17:22:11.256589+00:00",
+      "last_bar": "2026-11-16T00:00:00-05:00"
+    }
+  },
+  "publication_status": "Validated; ready for main"
 }

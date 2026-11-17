@@ -1,3 +1,4 @@
+import published_data
 """Research leads from the supplied RAMBO screens."""
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -21,7 +22,7 @@ def tape_time(value):
 
 def load(name):
     try:
-        return json.loads((DATA / name).read_text())
+        return published_data.load(name) if name in published_data.ALLOWED else json.loads((DATA / name).read_text())
     except (OSError, ValueError):
         return {}
 

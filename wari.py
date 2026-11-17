@@ -1,3 +1,4 @@
+import published_data
 """WARI research dashboard: observed flow, never synthetic positioning."""
 from pathlib import Path
 import json
@@ -194,7 +195,7 @@ def render_orange_saved():
     if not path.exists():
         return False
     try:
-        saved = json.loads(path.read_text())
+        saved = published_data.load(path.name)
         all_rows = pd.DataFrame(saved['summary'])
         dates=sorted(all_rows['date'].unique())
         day=st.selectbox('Orange Swan session',dates,index=len(dates)-1,key='orange_saved_session')

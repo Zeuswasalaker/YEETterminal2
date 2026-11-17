@@ -1,11 +1,12 @@
 {
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SPY%2CQQQ%2CIWM%2CGME%2CDAN%2CHOOD%2CIREN%2CWEN%2CCRWV%2CSOUN%2CRIVN%2CAMC%2CHTZ%2CKOSS%2COPEN%2CBYND%2CDJT%2CPLTR%2CRKLB%2CACHR%2CLCID&vol_greater_oi=true&watchlist_name=MEME%20SWAN",
-  "coverage": "Latest 250 MEME SWAN rendered alerts captured 2026-11-16, merged with saved history; displayed ask checks applied. Partial samples and rounded premiums.",
+  "coverage": "Latest authenticated partial alert window. Fully contained captured dates replaced; earlier boundary-date summary preserved. Rounded source premiums; no claim of complete session.",
   "session_coverage": {
     "2026-11-10": "November 10 authenticated partial session, 04:48:41\u201308:48:16 Pacific: 49 displayed alerts for this date, 48 retained after the displayed ask check. Historical samples retained; premiums are rounded and alerts may overlap.",
     "2026-11-11": "127 alerts in latest capture, 06:41:19 through 13:08:47 PT; partial session",
     "2026-11-12": "83 alerts in latest capture, 06:30:34 through 13:14:53 PT; partial session",
-    "2026-11-13": "40 alerts in latest capture, 05:42:21 through 08:04:16 PT; partial session"
+    "2026-11-13": "40 alerts in latest capture, 05:42:21 through 08:04:16 PT; partial session",
+    "2026-11-17": "89 qualifying captured alerts; partial session window."
   },
   "capture_history": [
     {
@@ -29,10 +30,20 @@
     {
       "captured_at": "2026-11-16T16:10:38.060Z",
       "rows": 250
+    },
+    {
+      "filter": "meme",
+      "rows": 250,
+      "accepted": 240,
+      "excluded": 10,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:14:31",
+      "oldest": "2026-11-16 07:39:29",
+      "complete_session": false
     }
   ],
-  "captured_at": "2026-11-16T16:10:38.060Z",
-  "source_time": "2026-11-16 08:02:09",
+  "captured_at": "2026-11-17T17:21:32.208321+00:00",
+  "source_time": "2026/11/17 09:14:31",
   "summary": [
     {
       "date": "2026-11-02",
@@ -726,6 +737,87 @@
       "puts": 10,
       "call_premium": 435000.0,
       "put_premium": 4119000.0
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "RIVN",
+      "call_premium": 58000.0,
+      "observations": 3,
+      "calls": 2,
+      "puts": 1,
+      "put_premium": 12000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "CRWV",
+      "call_premium": 346000.0,
+      "observations": 5,
+      "calls": 4,
+      "puts": 1,
+      "put_premium": 17000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "GME",
+      "call_premium": 0.0,
+      "observations": 1,
+      "calls": 0,
+      "puts": 1,
+      "put_premium": 23000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "HOOD",
+      "call_premium": 0.0,
+      "observations": 2,
+      "calls": 0,
+      "puts": 2,
+      "put_premium": 29000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "IREN",
+      "call_premium": 138000.0,
+      "observations": 3,
+      "calls": 1,
+      "puts": 2,
+      "put_premium": 94000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "IWM",
+      "call_premium": 45000.0,
+      "observations": 15,
+      "calls": 2,
+      "puts": 13,
+      "put_premium": 1880000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "QQQ",
+      "call_premium": 2180000.0,
+      "observations": 32,
+      "calls": 9,
+      "puts": 23,
+      "put_premium": 3777000.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "RIVN",
+      "call_premium": 300000.0,
+      "observations": 1,
+      "calls": 1,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "SPY",
+      "call_premium": 634000.0,
+      "observations": 30,
+      "calls": 6,
+      "puts": 24,
+      "put_premium": 6798000.0
     }
   ],
   "publication_mode": "dashboard_summaries"

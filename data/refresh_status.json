@@ -1,169 +1,181 @@
 {
-  "checked_at": "2026-11-16T16:10:38.060Z",
+  "checked_at": "2026-11-17T17:23:27.602201+00:00",
   "timezone": "America/Los_Angeles",
-  "publication_status": "Dashboard summaries and Whispers candidates published to main; deployment verification pending",
+  "publication_status": "Validated dashboard refresh published to main; live member-view verification pending",
   "pages": [
     {
-      "page": "RAMBO",
-      "outcome": "Recalculated from verified capture; published to main"
-    },
-    {
-      "page": "Orange Swan",
-      "outcome": "Recalculated from verified capture; published to main"
-    },
-    {
-      "page": "MEME LAB",
-      "outcome": "Recalculated from verified capture; published to main"
+      "page": "Index WARI",
+      "outcome": "Recalculated today; freshness display fix"
     },
     {
       "page": "Prestige",
-      "outcome": "Daily calculation completed; current board and observed outcomes updated through 2026/11/16 08:05:35 Pacific."
+      "outcome": "Daily qualifications and observed outcomes recalculated"
+    },
+    {
+      "page": "Orange Swan",
+      "outcome": "Today captured and scored"
+    },
+    {
+      "page": "MEME LAB",
+      "outcome": "Today captured and scored"
     },
     {
       "page": "Wells Fargo Whispers",
-      "outcome": "Recalculated from verified capture; published to main"
+      "outcome": "Exact exports merged; candidates recalculated"
+    },
+    {
+      "page": "RAMBO",
+      "outcome": "Event-flow matches recalculated"
     },
     {
       "page": "Founder flow",
-      "outcome": "Recalculated from verified capture; published to main"
-    },
-    {
-      "page": "Index WARI",
-      "outcome": "Matched sessions recalculated"
+      "outcome": "All nine registered tickers scanned"
     },
     {
       "page": "PARI",
-      "outcome": "Price-only cache retained; no new candles supplied"
+      "outcome": "All five timeframes refreshed from Yahoo; only completed bars retained"
     }
   ],
   "filters": [
     {
-      "filter": "Orange Swan",
-      "kind": "Alerts",
+      "filter": "orange",
       "rows": 250,
-      "accepted": 246,
-      "excluded": 4,
-      "newest": "2026-11-16 08:02:09",
-      "oldest": "2026-11-11 06:37:57",
-      "captured_at": "2026-11-16T16:05:35.085Z",
-      "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
+      "accepted": 242,
+      "excluded": 8,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:06:37",
+      "oldest": "2026-11-13 11:31:18",
       "complete_session": false
     },
     {
-      "filter": "SPY In the Money Magic",
-      "kind": "Alerts",
-      "rows": 192,
-      "accepted": 192,
-      "excluded": 0,
-      "newest": "2026-11-16 08:05:35",
-      "oldest": "2026-09-24 08:47:27",
-      "captured_at": "2026-11-16T16:06:20.204Z",
-      "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&issue_types[]=ETF&issue_types[]=Index&limit=250&max_diff=0.005&min_dte=1&ticker_symbol=SPY&vol_greater_oi=true&watchlist_name=SPY%20In%20the%20Money%20Magic",
+      "filter": "meme",
+      "rows": 250,
+      "accepted": 240,
+      "excluded": 10,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:14:31",
+      "oldest": "2026-11-16 07:39:29",
       "complete_session": false
     },
     {
-      "filter": "MEME SWAN",
-      "kind": "Alerts",
+      "filter": "wf",
       "rows": 250,
-      "accepted": 239,
-      "excluded": 11,
-      "newest": "2026-11-16 08:02:09",
-      "oldest": "2026-11-11 10:46:51",
-      "captured_at": "2026-11-16T16:06:46.846Z",
-      "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SPY%2CQQQ%2CIWM%2CGME%2CDAN%2CHOOD%2CIREN%2CWEN%2CCRWV%2CSOUN%2CRIVN%2CAMC%2CHTZ%2CKOSS%2COPEN%2CBYND%2CDJT%2CPLTR%2CRKLB%2CACHR%2CLCID&vol_greater_oi=true&watchlist_name=MEME%20SWAN",
+      "accepted": 250,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:14:21",
+      "oldest": "2026-11-16 06:55:56",
       "complete_session": false
+    },
+    {
+      "filter": "nautilus",
+      "rows": 142,
+      "accepted": 142,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 08:51:49",
+      "oldest": "2026-11-02 06:35:14",
+      "complete_session": false
+    },
+    {
+      "filter": "farcry",
+      "rows": 229,
+      "accepted": 229,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:05:17",
+      "oldest": "2026-11-02 06:32:22",
+      "complete_session": false
+    },
+    {
+      "filter": "psu",
+      "rows": 250,
+      "accepted": 249,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:12:42",
+      "oldest": "2026-11-09 06:53:52",
+      "complete_session": false
+    },
+    {
+      "filter": "bat",
+      "rows": 250,
+      "accepted": 250,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:07:16",
+      "oldest": "2026-11-05 08:31:54",
+      "complete_session": false
+    },
+    {
+      "filter": "freelance",
+      "rows": 176,
+      "accepted": 176,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 08:51:49",
+      "oldest": "2026-11-02 07:09:59",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder NAUTILUS",
+      "rows": 12,
+      "accepted": 12,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-16 06:38:03",
+      "oldest": "2026-11-04 07:59:05",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder FARCRY ULTRA",
+      "rows": 10,
+      "accepted": 10,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-16 10:18:18",
+      "oldest": "2026-11-03 07:17:25",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder PSU",
+      "rows": 21,
+      "accepted": 21,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 07:56:14",
+      "oldest": "2026-11-03 06:46:53",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder WF PSU",
+      "rows": 237,
+      "accepted": 237,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 09:09:35",
+      "oldest": "2026-11-02 06:46:39",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder BAT",
+      "rows": 33,
+      "accepted": 33,
+      "captured_at": "2026-11-17T17:21:32.208321+00:00",
+      "newest": "2026-11-17 06:47:34",
+      "oldest": "2026-11-02 12:22:03",
+      "complete_session": false
+    },
+    {
+      "filter": "Founder Freelance Ultra",
+      "rows": 0,
+      "accepted": 0,
+      "captured_at": "2026-11-17T17:23:27.602201+00:00",
+      "outcome": "No trades with these filters in rendered page"
     },
     {
       "filter": "NEWS FINDER",
-      "kind": "Alerts",
-      "rows": 93,
-      "accepted": 93,
-      "excluded": 0,
-      "newest": "2026-11-13 12:53:22",
-      "oldest": "2026-09-17 08:08:30",
-      "captured_at": "2026-11-16T16:06:51.104Z",
-      "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&max_dte=60&min_diff=0.05&rule_name[]=LowHistoricVolumeFloor&vol_greater_oi=true&watchlist_name=NEWS%20FINDER",
-      "complete_session": false
-    },
-    {
-      "filter": "NAUTILUS",
-      "kind": "Flow",
-      "rows": 128,
-      "accepted": 128,
-      "excluded": 0,
-      "newest": "2026-11-16 07:25:00",
-      "oldest": "2026-11-02 06:35:14",
-      "captured_at": "2026-11-16T16:07:13.717Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&min_dte=8&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&ticker_symbol=-TMSTR%2CMS%2CNCOIN-MSTX%2CMSTU%2CTSLA%2CMSTR%2CNVDA%2C&hide_expired=false&min_premium=50000&min_ask_perc=0.75&max_dte=40&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&max_iv=1.30&exclude_deep_itm=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=3&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=x%20NAUTILUS%20x",
-      "complete_session": false
-    },
-    {
-      "filter": "FARCRY ULTRA",
-      "kind": "Flow",
-      "rows": 235,
-      "accepted": 235,
-      "excluded": 0,
-      "newest": "2026-11-16 08:02:49",
-      "oldest": "2026-11-02 06:32:22",
-      "captured_at": "2026-11-16T16:07:27.722Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=300&max_iv=1&min_ask_perc=0.75&min_diff=0.08&min_dte=60&min_earnings_dte=14&min_premium=50000&opening=true&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&add_agg_trades=true&watchlist_name=FARCRY%20ULTRA",
-      "complete_session": false
-    },
-    {
-      "filter": "PSU",
-      "kind": "Flow",
-      "rows": 250,
-      "accepted": 249,
-      "excluded": 1,
-      "newest": "2026-11-16 08:02:44",
-      "oldest": "2026-11-06 06:41:56",
-      "captured_at": "2026-11-16T16:07:58.455Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_otm=true&is_single_leg=true&show_volatility=true&min_earnings_dte=14&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.07&hide_expired=false&min_premium=50000&min_ask_perc=0.75&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&show_calls=true&show_etfs=true&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&opening=true&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=5&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=PSU",
-      "complete_session": false
-    },
-    {
-      "filter": "Weapons Free PSU",
-      "kind": "Flow",
-      "rows": 250,
-      "accepted": 250,
-      "excluded": 0,
-      "newest": "2026-11-16 08:02:59",
-      "oldest": "2026-11-12 06:40:15",
-      "captured_at": "2026-11-16T16:08:36.246Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?show_stocks=true&floor_only=true&show_ask_side=true&show_china=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&excluded_tags[]=volatility&is_otm=true&is_single_leg=true&show_volatility=false&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&volume_greater_oi=true&min_diff=0.05&hide_expired=false&min_premium=25000&min_ask_perc=0.75&max_dte=90&show_puts=true&limit=250&sweep_only=true&show_none=true&issue_types[]=Common%20Stock&issue_types[]=ADR&show_calls=true&show_etfs=false&show_adr=true&show_normal=true&show_dividend=false&order=Time&show_bid_side=false&show_indices=false&show_earnings=true&is_multi_leg=false&min_vol_oi_ratio=2&cross_only=false&mid_side=false&add_agg_trades=true&watchlist_name=WF%20PSU",
-      "complete_session": false
-    },
-    {
-      "filter": "BAT",
-      "kind": "Flow",
-      "rows": 250,
-      "accepted": 250,
-      "excluded": 0,
-      "newest": "2026-11-16 07:57:04",
-      "oldest": "2026-11-04 08:50:06",
-      "captured_at": "2026-11-16T16:09:58.036Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&hide_expired=true&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=90&max_iv=1&min_ask_perc=0.7&min_diff=0.08&min_dte=30&min_earnings_dte=14&min_premium=50000&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&ticker_symbol=-MSTR%2CCOIN&volume_greater_oi=true&add_agg_trades=true&watchlist_name=x%20BAT%20Filter%20x",
-      "complete_session": false
-    },
-    {
-      "filter": "Freelance Ultra",
-      "kind": "Flow",
-      "rows": 167,
-      "accepted": 167,
-      "excluded": 0,
-      "newest": "2026-11-16 08:01:12",
-      "oldest": "2026-11-02 07:09:59",
-      "captured_at": "2026-11-16T16:10:38.060Z",
-      "source_url": "https://unusualwhales.com/live-options-flow?add_agg_trades=true&exclude_deep_itm=true&excluded_tags[]=bid_side&excluded_tags[]=mid_side&excluded_tags[]=dividend&is_multi_leg=false&is_otm=true&issue_types[]=Common%20Stock&issue_types[]=ADR&issue_types[]=ETF&limit=250&max_dte=60&max_earnings_dte=60&max_iv=1.30&min_diff=0.07&min_dte=14&min_earnings_dte=10&min_premium=50000&min_volume=2&order=Time&report_flag[]=sweep&report_flag[]=floor&report_flag[]=normal&ticker_symbol=-TMSTR%2CMS%2CCOIN-MSTX%2CMSTU%2CTSLA%2CMSTR&volume_greater_oi=true&watchlist_name=Freelance%20Ultra",
+      "rows": 91,
+      "accepted": 91,
+      "captured_at": "2026-11-17T17:23:27.602201+00:00",
+      "newest": "11/16 08:29:06",
+      "oldest": "09/17 11:04:04",
       "complete_session": false
     }
   ],
   "limitations": [
-    "Latest configured result windows, not exhaustive historical backfill. Filters capped at 250 rows; source rows under the cap are not proof of complete history.",
-    "Alerts are aggregates with rounded premium labels. Alert and individual-flow universes are not summed together.",
-    "Exact overlapping flow appearances merged; same-second rows with different cumulative volume retained. Aggregate/component overlap without source trade IDs remains unresolved.",
-    "PARI requires new price candles, not options flow; existing price cache retained. No synthetic price updates or performance outcomes.",
-    "Index WARI new sessions without a verified previous close / prior-price baseline remain pending.",
-    "RAMBO events and Founder event research dates preserved; this import updates observed flow only."
+    "Partial configured filter windows; not exhaustive backfill.",
+    "Prior November 16 raw archive unavailable; earlier public aggregates retained as separate evidence.",
+    "Event dates preserved; source monitoring does not confirm new event dates."
   ]
 }
