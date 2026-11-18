@@ -1,6 +1,6 @@
 {
   "audited_at": "2026-11-16",
-  "scope": "Checked nine saved GitHub snapshots from October 14\u201319. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate. November 12 mid-session: five current unretired setups recorded at actual publication time, 11:07:55 Pacific. Earlier reconstructed crossings do not count as post-publication hits. November 13: current unretired cards recorded at actual repository publication 08:30:44 PT, after a post-publication price recheck. No earlier crossing is credited as a post-publication hit.",
+  "scope": "Checked nine saved GitHub snapshots from October 14–19. Eligibility requires a currently validated comeback, a published Current Prestige label while unretired, and publication before the first recorded outcome. One malformed/truncated October 16 commit was skipped; its subsequent complete replacement was checked. Publication is repository evidence, not proof of when a reader saw the site. Unmatched records are reconstructed, not proven unpublished. October 20 append: current, unretired Prestige cards verified in published commit 282a31c70e1c0171513d66ed841ceeaa3c3048ef. Earlier evidence retained. October 27: five Current Prestige cards recorded at their actual publication time; earlier history is not retroactively counted. October 29: three current, unretired Prestige contracts recorded at actual repository publication time; no earlier outcome is counted as a post-publication hit. November 12: verified November 6 snapshot has no active qualified cards; November 9 published two active cards, 750c 11/13 and 751c 11/16, at 07:29:08 Pacific. Raw November 10 observations alone do not establish published qualified plays. Reconstructed outcomes remain separate. November 12 mid-session: five current unretired setups recorded at actual publication time, 11:07:55 Pacific. Earlier reconstructed crossings do not count as post-publication hits. November 13: current unretired cards recorded at actual repository publication 08:30:44 PT, after a post-publication price recheck. No earlier crossing is credited as a post-publication hit. November 18 correction: November 17 and November 18 Current Prestige publications reconciled against actual GitHub commit timestamps. All verified subsequent ITM crossings, including premarket and after-hours, count through the expiry cutoff.",
   "records": [
     {
       "contract": "781c 10/20/2026",
@@ -925,9 +925,49 @@
       "published_at": "2026/11/16 09:03:33",
       "provenance": "Published Current Prestige from daily November 16 capture; forward outcomes measured after this publication timestamp",
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/blob/main/data/prestige.json"
+    },
+    {
+      "contract": "735c 11/19/2026",
+      "qualified_at": "2026/11/17 08:23:59",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "736c 11/18/2026",
+      "qualified_at": "2026/11/17 08:02:54",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "735c 11/18/2026",
+      "qualified_at": "2026/11/17 07:59:59",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "727p 11/18/2026",
+      "qualified_at": "2026/11/17 08:31:59",
+      "published_at": "2026/11/18 07:51:37",
+      "commit_sha": "4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db"
+    },
+    {
+      "contract": "726p 11/18/2026",
+      "qualified_at": "2026/11/17 07:50:59",
+      "published_at": "2026/11/18 07:51:37",
+      "commit_sha": "4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db"
     }
   ],
-  "checked_at": "2026-11-18T15:47:03.341084+00:00",
+  "checked_at": "2026-11-18T15:56:20.869392+00:00",
   "price_as_of": {
     "time": "2026/11/18 07:43:59",
     "spot": 729.489990234375,
@@ -942,5 +982,48 @@
     "open_itm_hits": 71,
     "unverified": 0,
     "win_percent": 80.49535603715171
-  }
+  },
+  "publication_ledger_reconciled_at": "2026-11-18T15:56:20.869392+00:00",
+  "latest_ledger_additions": [
+    {
+      "contract": "735c 11/19/2026",
+      "qualified_at": "2026/11/17 08:23:59",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "736c 11/18/2026",
+      "qualified_at": "2026/11/17 08:02:54",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "735c 11/18/2026",
+      "qualified_at": "2026/11/17 07:59:59",
+      "published_at": "2026/11/17 09:26:23",
+      "commit_sha": "6d434c5cf0caefb73051f1d8bdf835c59d8e2653",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/6d434c5cf0caefb73051f1d8bdf835c59d8e2653"
+    },
+    {
+      "contract": "727p 11/18/2026",
+      "qualified_at": "2026/11/17 08:31:59",
+      "published_at": "2026/11/18 07:51:37",
+      "commit_sha": "4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db"
+    },
+    {
+      "contract": "726p 11/18/2026",
+      "qualified_at": "2026/11/17 07:50:59",
+      "published_at": "2026/11/18 07:51:37",
+      "commit_sha": "4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db",
+      "provenance": "Verified published Current Prestige before outcome; regular and extended-hours price checks count through the contract expiry cutoff",
+      "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/commit/4c2a67637ac2c0c59fe99a1f8b7b612ffed8e4db"
+    }
+  ]
 }
