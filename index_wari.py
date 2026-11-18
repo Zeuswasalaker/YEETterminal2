@@ -64,6 +64,8 @@ def render():
 
 
 def _render():
+    if render_wari10():
+        return
     top=st.empty()
     with top.container(): hero()
     st.caption('Whale Alert Risk Indicator · SPY Magic versus SPY price')
@@ -115,6 +117,47 @@ def _render():
         st.write('0–24 small gap; 25–49 noticeable; 50–74 strong; 75–100 extreme. Direction separately distinguishes agreement from divergence. Balanced flow against moving price is not automatically a directional divergence.')
         st.caption('Version 2 replaces the clipped opposing-pressure formula. Saved sessions are recalculated using their original inputs; original scores remain archived. Transform and bands are provisional design choices, not fitted predictive thresholds or reversal probabilities.')
 
+
+
+def render_wari10():
+    """Display privately computed multifactor WARI; keep index movement contextual."""
+    saved=published_data.load('index_wari_snapshot.json')
+    rows={r['date']:r for r in saved.get('wari10_sessions',[])}
+    if not rows:
+        return False
+    day=published_data.latest_session('SPY Magic session',sorted(rows),key='wari10_session')
+    r=rows[day];value=float(r['score']);share=float(r['weighted_call_share'])
+    if not 0<=value<=10 or abs(value-10*share)>1e-8:
+        st.error('WARI-10 inputs failed validation.')
+        return True
+    color='#b9ef76' if value>5 else '#ff9b9b' if value<5 else '#efd58a'
+    label='CALL-WEIGHTED' if value>5 else 'PUT-WEIGHTED' if value<5 else 'BALANCED'
+    st.markdown(f'<div style="padding:28px;border-radius:24px;background:#15323a;border:1px solid {color}"><div style="color:#b9ef76;font-weight:900;letter-spacing:.12em">WARI-10 · WHALE ALERT RISK INDICATOR</div><div style="font-size:66px;font-weight:900;color:{color}">{value:.1f}<span style="font-size:25px"> / 10</span></div><strong style="font-size:24px;color:{color}">{label}</strong><p style="color:#dce7d6">DTE urgency · strike-to-stock distance · premium conviction · call/put pressure</p><div style="height:16px;border-radius:10px;background:linear-gradient(90deg,#a73a48,#e4b966,#8ac95d);position:relative"><span style="position:absolute;left:{value*10:.1f}%;top:-10px;color:white">▼</span></div><p style="color:#bdcfc4">0 · put pressure &nbsp;&nbsp; 5 · balanced &nbsp;&nbsp; 10 · call pressure</p></div>',unsafe_allow_html=True)
+    st.caption(f"Captured {day} through {r['flow_as_of'][11:]} Pacific · {r['alerts']} alerts · {r['unique_contracts']} contracts · partial window")
+    a,b,c=st.columns(3)
+    a.metric('Weighted call pressure',f'{share:.1%}')
+    b.metric('Weighted put pressure',f'{1-share:.1%}')
+    ratio=r.get('weighted_put_call_ratio')
+    c.metric('Weighted puts / calls',f'{ratio:.2f}×' if ratio is not None else 'Calls absent')
+    a,b,c=st.columns(3)
+    a.metric('Raw call-premium share',f"{r['call_premium']/r['premium']:.1%}")
+    b.metric('Premium-weighted DTE',f"{r['premium_weighted_dte']:.1f} days")
+    c.metric('Premium-weighted strike distance',f"{r['premium_weighted_distance']:.2%}")
+    st.caption('Raw premium share and weighted WARI pressure are different measurements. Premium-weighted DTE and distance summarize the capture, not the final weighting.')
+    ret=r.get('index_return')
+    if ret is not None:
+        relation='Bullish divergence' if value>5 and ret<0 else 'Bearish divergence' if value<5 and ret>0 else 'Flow and price aligned' if (value>5 and ret>0) or (value<5 and ret<0) else 'Mixed'
+        st.markdown(f"**SPY price context:** {ret:+.2%} versus prior close at the matched alert quote · **{relation}.**")
+        st.caption('SPY return is context, not an input to the WARI-10 score.')
+    says='Put pressure dominates the weighted capture.' if value<5 else 'Call pressure dominates the weighted capture.' if value>5 else 'Weighted pressure is balanced.'
+    st.markdown('### WARI Says: '+says)
+    st.caption(saved.get('wari10_coverage',''))
+    st.info('Restored October 23 premium-conviction WARI-10 specification. This is directional flow pressure on a 0–10 scale, not a reversal probability or the former 0–100 price-gap score. Repeated-hits labels are excluded; no size/Vol-OI variant is silently substituted.')
+    st.dataframe([{'Session':x['date'],'WARI / 10':round(x['score'],1),'Weighted call pressure':f"{x['weighted_call_share']:.1%}",'Alerts':x['alerts'],'Coverage':'Partial captured window'} for x in rows.values()],hide_index=True,width='stretch')
+    with st.expander('Archived price-gap model · separate scale'):
+        st.caption('Earlier 0–100 disagreement readings are retained for provenance. They are not WARI-10 and are not directly comparable.')
+        st.dataframe([{'Date':x['date'],'Archived price-gap score / 100':round(x['score'],1)} for x in saved.get('sessions',[])],hide_index=True,width='stretch')
+    return True
 
 
 def render_matched_snapshot(top):
