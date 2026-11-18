@@ -190,6 +190,19 @@ def render_orange(orange_df):
     st.markdown('**From Milt’s research notebook:** Milt reports that the original Orange Swan alarm helped identify 40-bagger opportunities ahead of the 2025 tariff trade wars. The dated alerts and entry/exit prices have not yet been audited in this Terminal; this is reported history, not a tested hit rate.')
 
 
+def orange_score(call_premium, premium, call_alerts, alerts):
+    """Evidence-adjusted direction; fixed neutral priors, not fitted win odds."""
+    if premium <= 0 or alerts <= 0:
+        return None
+    if not (0 <= call_premium <= premium and 0 <= call_alerts <= alerts):
+        raise ValueError('Call totals must fall within sample totals.')
+    # v3: neutral pseudo-premium of $500k and five pseudo-alerts.
+    # Each component approaches its raw share as captured evidence grows.
+    premium_share = (call_premium + 250_000) / (premium + 500_000)
+    alert_share = (call_alerts + 2.5) / (alerts + 5)
+    return 100 * (.7 * premium_share + .3 * alert_share)
+
+
 def render_orange_saved():
     path = ROOT / 'data/orange_swan_summary.json'
     if not path.exists():
@@ -198,7 +211,7 @@ def render_orange_saved():
         saved = published_data.load(path.name)
         all_rows = pd.DataFrame(saved['summary'])
         dates=sorted(all_rows['date'].unique())
-        day=st.selectbox('Orange Swan session',dates,index=len(dates)-1,key='orange_saved_session')
+        day=published_data.latest_session('Orange Swan session',dates,key='orange_saved_session')
         rows = all_rows.loc[all_rows['date'].eq(day)]
     except (ValueError, KeyError, OSError):
         return False
@@ -217,7 +230,8 @@ def render_orange_saved():
             return None
         p = sample.premium.sum()
         n = sample.prints.sum()
-        return 100*(.7*sample.call_premium.sum()/p + .3*sample.call_prints.sum()/n), int(n), p
+        raw = 100*(.7*sample.call_premium.sum()/p + .3*sample.call_prints.sum()/n)
+        return orange_score(sample.call_premium.sum(),p,sample.call_prints.sum(),n), int(n), p, raw
     broad = grouped(['SPY','QQQ'])
     groups = [('🌎 Broad market',['SPY','QQQ']),('🔌 Semis',['SMH']),('🐉 China names',['BABA','JD'])]
     for col,(title,symbols) in zip(st.columns(3),groups):
@@ -226,12 +240,13 @@ def render_orange_saved():
             st.markdown('<div style="height:7px;border-radius:8px;background:linear-gradient(90deg,#9be46b,#d9bd6c,#d9646a);margin-bottom:16px"></div>',unsafe_allow_html=True)
             reading = grouped(symbols)
             if reading:
-                value,n,premium = reading
-                st.metric('Whale direction',f'{value:.0f} / 100')
+                value,n,premium,raw = reading
+                st.metric('Orange Swan score',f'{value:.1f} / 100')
                 st.caption(f'{n} alerts · ${premium:,.0f} observed premium')
+                st.caption(f'Raw directional mix: {raw:.1f}/100 · evidence-adjusted score v3')
                 st.markdown('**📞 BULLISH lean**' if value>=60 else '**🩸 BEARISH lean**' if value<=40 else '**🔀 MIXED**')
                 if broad and title!='🌎 Broad market':
-                    st.caption(f'{value-broad[0]:+.0f} points versus broad-market flow')
+                    st.caption(f'{value-broad[0]:+.1f} points versus broad-market flow')
                 if n<20:
                     st.caption('Small sample: fewer than 20 alerts; individual orders can swing the reading.')
             else:
@@ -240,8 +255,8 @@ def render_orange_saved():
             missing=[t for t in symbols if t not in rows.ticker.values]
             if missing:
                 st.caption('No observations for '+', '.join('$'+t for t in missing)+' in this date’s captured sample.')
-    st.caption('0 = put-heavy · 50 = balanced · 100 = call-heavy. This measures observed flow direction, not the probability of a trade succeeding.')
-    st.caption('Same-session comparison: 70% call share of rounded premium + 30% call share of alerts. Differences are descriptive points versus broad-market flow, not deviations from a historical baseline or confirmed price divergence.')
+    st.caption('Below 50 leans puts; above 50 leans calls. Small captures are pulled toward 50. This measures evidence-adjusted flow direction, not a success probability.')
+    st.caption('Score v3: 100 × [0.7 × (call premium + $250,000)/(total premium + $500,000) + 0.3 × (call alerts + 2.5)/(total alerts + 5)]. The fixed neutral priors are descriptive design choices, not fitted or validated predictive thresholds. Raw directional mix retains the earlier unadjusted calculation; v3 changes the scale and should not be compared directly with older scores. Sector differences are descriptive, not price divergence.')
     st.info(saved['coverage'])
     with st.expander('Captured observations by ticker and date'):
         st.dataframe(all_rows,hide_index=True,width='stretch')
