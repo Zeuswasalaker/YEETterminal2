@@ -13,6 +13,20 @@ import published_data
 
 
 class PublishedDataTests(unittest.TestCase):
+    def test_returning_to_page_restores_latest_session(self):
+        code = f'''import sys
+sys.path.insert(0, {str(ROOT)!r})
+import published_data, streamlit as st
+st.checkbox('Show page',value=True,key='show')
+if st.session_state.show:
+    published_data.latest_session('Session',['2026-09-24','2026-11-18'],'return_session')
+'''
+        app = AppTest.from_string(code).run()
+        self.assertEqual(app.selectbox[0].value, '2026-11-18')
+        app.checkbox[0].set_value(False).run()
+        app.checkbox[0].set_value(True).run()
+        self.assertEqual(app.selectbox[0].value, '2026-11-18')
+
     def test_retains_last_successful_snapshot_during_fetch_failure(self):
         with tempfile.TemporaryDirectory() as directory:
             Path(directory, 'index_wari_snapshot.json').write_text(json.dumps({'captured_at': '2026-11-13', 'sessions': []}))
