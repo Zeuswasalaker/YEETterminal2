@@ -55,7 +55,7 @@ def latest_session(label, dates, key):
     """Follow newly published sessions while allowing deliberate history browsing."""
     newest = dates[-1]
     marker = key + '_latest_available'
-    if st.session_state.get(marker) != newest:
+    if key not in st.session_state or st.session_state.get(marker) != newest:
         st.session_state[key] = newest
         st.session_state[marker] = newest
     return st.selectbox(label, dates, key=key)
