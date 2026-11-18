@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-17T17:23:27.602201+00:00",
+  "checked_at": "2026-11-18T15:47:31.680517+00:00",
   "timezone": "America/Los_Angeles",
-  "publication_status": "Validated dashboard refresh published to main; live member-view verification pending",
+  "publication_status": "Published November 18 dashboard refresh",
   "pages": [
     {
       "page": "Index WARI",
@@ -40,142 +40,152 @@
     {
       "filter": "orange",
       "rows": 250,
-      "accepted": 242,
-      "excluded": 8,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:06:37",
-      "oldest": "2026-11-13 11:31:18",
+      "accepted": 243,
+      "excluded": 7,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:19:03",
+      "oldest": "2026-11-16 08:21:26",
       "complete_session": false
     },
     {
       "filter": "meme",
       "rows": 250,
-      "accepted": 240,
-      "excluded": 10,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:14:31",
-      "oldest": "2026-11-16 07:39:29",
+      "accepted": 241,
+      "excluded": 9,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:38:46",
+      "oldest": "2026-11-16 09:45:05",
       "complete_session": false
     },
     {
-      "filter": "wf",
-      "rows": 250,
-      "accepted": 250,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:14:21",
-      "oldest": "2026-11-16 06:55:56",
+      "filter": "news",
+      "rows": 90,
+      "accepted": 90,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-17 12:34:56",
+      "oldest": "2026-09-18 12:09:22",
       "complete_session": false
     },
     {
       "filter": "nautilus",
       "rows": 142,
       "accepted": 142,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 08:51:49",
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:37:22",
       "oldest": "2026-11-02 06:35:14",
       "complete_session": false
     },
     {
       "filter": "farcry",
-      "rows": 229,
-      "accepted": 229,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:05:17",
-      "oldest": "2026-11-02 06:32:22",
+      "rows": 235,
+      "accepted": 235,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:41:28",
+      "oldest": "2026-11-02 06:33:33",
       "complete_session": false
     },
     {
       "filter": "psu",
       "rows": 250,
       "accepted": 249,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:12:42",
-      "oldest": "2026-11-09 06:53:52",
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:25:10",
+      "oldest": "2026-11-09 09:10:21",
+      "complete_session": false
+    },
+    {
+      "filter": "wf",
+      "rows": 250,
+      "accepted": 250,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:37:22",
+      "oldest": "2026-11-16 10:01:50",
       "complete_session": false
     },
     {
       "filter": "bat",
       "rows": 250,
       "accepted": 250,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:07:16",
-      "oldest": "2026-11-05 08:31:54",
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:30:17",
+      "oldest": "2026-11-05 08:48:50",
       "complete_session": false
     },
     {
       "filter": "freelance",
-      "rows": 176,
-      "accepted": 176,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 08:51:49",
+      "rows": 187,
+      "accepted": 187,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:00:00",
       "oldest": "2026-11-02 07:09:59",
       "complete_session": false
     },
     {
       "filter": "Founder NAUTILUS",
-      "rows": 12,
-      "accepted": 12,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-16 06:38:03",
+      "rows": 13,
+      "accepted": 13,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-17 12:34:18",
       "oldest": "2026-11-04 07:59:05",
       "complete_session": false
     },
     {
       "filter": "Founder FARCRY ULTRA",
-      "rows": 10,
-      "accepted": 10,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-16 10:18:18",
+      "rows": 11,
+      "accepted": 11,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-17 12:12:45",
       "oldest": "2026-11-03 07:17:25",
       "complete_session": false
     },
     {
       "filter": "Founder PSU",
-      "rows": 21,
-      "accepted": 21,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 07:56:14",
+      "rows": 24,
+      "accepted": 24,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:25:10",
       "oldest": "2026-11-03 06:46:53",
       "complete_session": false
     },
     {
       "filter": "Founder WF PSU",
-      "rows": 237,
-      "accepted": 237,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 09:09:35",
+      "rows": 250,
+      "accepted": 250,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:25:10",
       "oldest": "2026-11-02 06:46:39",
       "complete_session": false
     },
     {
       "filter": "Founder BAT",
-      "rows": 33,
-      "accepted": 33,
-      "captured_at": "2026-11-17T17:21:32.208321+00:00",
-      "newest": "2026-11-17 06:47:34",
+      "rows": 34,
+      "accepted": 34,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:25:10",
       "oldest": "2026-11-02 12:22:03",
+      "complete_session": false
+    },
+    {
+      "filter": "magic",
+      "rows": 203,
+      "accepted": 203,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:39:13",
+      "oldest": "2026-09-24 08:47:27",
       "complete_session": false
     },
     {
       "filter": "Founder Freelance Ultra",
       "rows": 0,
       "accepted": 0,
-      "captured_at": "2026-11-17T17:23:27.602201+00:00",
-      "outcome": "No trades with these filters in rendered page"
-    },
-    {
-      "filter": "NEWS FINDER",
-      "rows": 91,
-      "accepted": 91,
-      "captured_at": "2026-11-17T17:23:27.602201+00:00",
-      "newest": "11/16 08:29:06",
-      "oldest": "09/17 11:04:04",
-      "complete_session": false
+      "outcome": "No trades with these filters in rendered page",
+      "captured_at": "2026-11-18T15:46:40.786Z"
     }
   ],
   "limitations": [
     "Partial configured filter windows; not exhaustive backfill.",
     "Prior November 16 raw archive unavailable; earlier public aggregates retained as separate evidence.",
     "Event dates preserved; source monitoring does not confirm new event dates."
-  ]
+  ],
+  "validation": "All eleven Terminal pages rendered without exceptions; freshness, WARI formula, Prestige lifecycle and raw-flow exclusion checks passed."
 }

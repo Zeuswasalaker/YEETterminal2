@@ -1,8 +1,168 @@
 {
-  "as_of": "2026-11-17",
-  "captured_at": "2026-11-17T17:21:32.208321+00:00",
+  "as_of": "2026-11-18",
+  "captured_at": "2026-11-18T15:46:35.802720+00:00",
   "min_dte": 7,
   "qualified": [
+    {
+      "ticker": "LEU",
+      "orders": [
+        {
+          "date": "2026-11-06",
+          "time": "10:40:49",
+          "timezone": "America/Los_Angeles",
+          "underlying_symbol": "LEU",
+          "option_chain_id": "LEU261218C00115000",
+          "type": "C",
+          "strike": 115.0,
+          "expiry": "2026-12-18",
+          "side": "ASK",
+          "size": 100.0,
+          "premium": 80000.0,
+          "volume": 112,
+          "open_interest": 88,
+          "filters": "BAT",
+          "source_file": "Authenticated UW rendered current results CSV, November 12",
+          "premium_is_rounded": false,
+          "price": 8.0,
+          "next_earnings_date": "2027-02-09",
+          "report_flags": "",
+          "marketcap": 2232098873.0,
+          "record_id": "uw-exact-6ede114714afd2e677607fac3a2eee8324a09686588b00e244a9c87adaabc366",
+          "is_agg": false
+        },
+        {
+          "date": "2026-11-09",
+          "time": "10:07:53",
+          "timezone": "America/Los_Angeles",
+          "underlying_symbol": "LEU",
+          "option_chain_id": "LEU261218C00150000",
+          "type": "C",
+          "strike": 150.0,
+          "expiry": "2026-12-18",
+          "side": "ASK",
+          "size": 383.0,
+          "premium": 118730.0,
+          "volume": 515,
+          "open_interest": 111,
+          "filters": "BAT, NAUTILUS",
+          "source_file": "Authenticated UW rendered current results CSV, November 12",
+          "premium_is_rounded": false,
+          "price": 3.1,
+          "next_earnings_date": "2027-02-09",
+          "report_flags": "Floor",
+          "marketcap": 2232098873.0,
+          "record_id": "uw-exact-2941449cfc524050aa5cee4d2877808d045298d93f89ad88bc514d7bb55a6379",
+          "is_agg": false
+        },
+        {
+          "underlying_symbol": "LEU",
+          "option_chain_id": "LEU261218C00100000",
+          "type": "C",
+          "expiry": "2026-12-18",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-09",
+          "date": "2026-11-17",
+          "time": "12:15:58",
+          "filters": "WF PSU",
+          "is_agg": false,
+          "strike": 100.0,
+          "size": 50.0,
+          "premium": 36500.0,
+          "volume": 344.0,
+          "open_interest": 88.0,
+          "record_id": "uw-exact-ad33821daa3b7fd9a430cfa0102472f9a72b5c53a01c82e7dccbf1f0b909ba5e"
+        },
+        {
+          "underlying_symbol": "LEU",
+          "option_chain_id": "LEU261218C00100000",
+          "type": "C",
+          "expiry": "2026-12-18",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-09",
+          "date": "2026-11-17",
+          "time": "12:16:14",
+          "filters": "WF PSU",
+          "is_agg": false,
+          "strike": 100.0,
+          "size": 351.0,
+          "premium": 256229.99999999997,
+          "volume": 833.0,
+          "open_interest": 88.0,
+          "record_id": "uw-exact-ce98e76a27ed51c68a5e72b63f87965af6353cf92894fba6743b049cf011d86e"
+        }
+      ],
+      "events": [],
+      "marketcap": 1874310358.0,
+      "status": "Qualified"
+    },
+    {
+      "ticker": "AGNC",
+      "orders": [
+        {
+          "date": "2026-10-28",
+          "time": "07:28:35",
+          "timezone": "America/Los_Angeles",
+          "underlying_symbol": "AGNC",
+          "option_chain_id": "AGNC261204C00009500",
+          "type": "C",
+          "strike": 9.5,
+          "expiry": "2026-12-04",
+          "side": "ASK",
+          "size": 20000.0,
+          "premium": 140000.00000000003,
+          "volume": 20015,
+          "open_interest": 161,
+          "filters": "NAUTILUS",
+          "source_file": "Authenticated UW rendered current results CSV, November 12",
+          "premium_is_rounded": false,
+          "price": 0.07,
+          "next_earnings_date": "2027-01-25",
+          "report_flags": "Floor",
+          "marketcap": 10801871844.0,
+          "record_id": "uw-exact-476ab243031b654be85281080ceafbcffe6ffc5b14c02af40a6d6b75c77d1e0f",
+          "is_agg": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "07:28:41",
+          "timezone": "America/Los_Angeles",
+          "underlying_symbol": "AGNC",
+          "strike": 9.5,
+          "type": "C",
+          "expiry": "2026-12-04",
+          "size": 20000,
+          "side": "ASK",
+          "premium": 140000.0,
+          "premium_display": "$140K",
+          "premium_is_rounded": true,
+          "filters": "NEWS FINDER",
+          "source_file": "Authenticated UW NEWS FINDER rendered newest 50 alerts, November 12",
+          "option_chain_id": "AGNC261204C00009500",
+          "record_id": "uw-news-e8e7866f580010fcd5f7d879335b53016d603a8f807707a3b1bdcdbb96875de3"
+        },
+        {
+          "underlying_symbol": "AGNC",
+          "option_chain_id": "AGNC270115C00009000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-01-25",
+          "date": "2026-11-17",
+          "time": "12:12:19",
+          "filters": "BAT",
+          "is_agg": false,
+          "strike": 9.0,
+          "size": 10000.0,
+          "premium": 50000.0,
+          "volume": 10208.0,
+          "open_interest": 9179.0,
+          "record_id": "uw-exact-2e1dc6d9ff70488ea60bb5c45a094f5e6d5430ff7ced9c3c8c1bed9ca93ad716"
+        }
+      ],
+      "events": [],
+      "marketcap": 10050326515.0,
+      "status": "Qualified"
+    },
     {
       "ticker": "KYMR",
       "orders": [
@@ -80,7 +240,7 @@
         }
       ],
       "events": [],
-      "marketcap": 10743990312.0,
+      "marketcap": 10374332163.0,
       "status": "Qualified"
     },
     {
@@ -154,7 +314,7 @@
         }
       ],
       "events": [],
-      "marketcap": 6361628751.0,
+      "marketcap": 6509810638.0,
       "status": "Qualified"
     },
     {
@@ -210,7 +370,7 @@
         }
       ],
       "events": [],
-      "marketcap": 6389599106.0,
+      "marketcap": 6478426897.0,
       "status": "Qualified"
     },
     {
@@ -265,7 +425,7 @@
         }
       ],
       "events": [],
-      "marketcap": 361048225.0,
+      "marketcap": 346769482.0,
       "status": "Qualified"
     },
     {
@@ -321,7 +481,7 @@
         }
       ],
       "events": [],
-      "marketcap": 4387002116.0,
+      "marketcap": 4111827690.0,
       "status": "Qualified"
     }
   ],
@@ -385,7 +545,7 @@
         }
       ],
       "events": [],
-      "marketcap": 15009317897.0,
+      "marketcap": 15043065660.0,
       "status": "Verification pending"
     },
     {
@@ -452,7 +612,7 @@
         }
       ],
       "events": [],
-      "marketcap": 9797717987.0,
+      "marketcap": 9795709847.0,
       "status": "Verification pending"
     },
     {

@@ -6,7 +6,8 @@
     "2026-11-11": "127 alerts in latest capture, 06:41:19 through 13:08:47 PT; partial session",
     "2026-11-12": "83 alerts in latest capture, 06:30:34 through 13:14:53 PT; partial session",
     "2026-11-13": "40 alerts in latest capture, 05:42:21 through 08:04:16 PT; partial session",
-    "2026-11-17": "89 qualifying captured alerts; partial session window."
+    "2026-11-17": "139 qualifying captured alerts; partial session window.",
+    "2026-11-18": "22 qualifying captured alerts; partial session window."
   },
   "capture_history": [
     {
@@ -40,10 +41,20 @@
       "newest": "2026-11-17 09:14:31",
       "oldest": "2026-11-16 07:39:29",
       "complete_session": false
+    },
+    {
+      "filter": "meme",
+      "rows": 250,
+      "accepted": 241,
+      "excluded": 9,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:38:46",
+      "oldest": "2026-11-16 09:45:05",
+      "complete_session": false
     }
   ],
-  "captured_at": "2026-11-17T17:21:32.208321+00:00",
-  "source_time": "2026/11/17 09:14:31",
+  "captured_at": "2026-11-18T15:46:35.802720+00:00",
+  "source_time": "2026/11/18 07:38:46",
   "summary": [
     {
       "date": "2026-11-02",
@@ -750,11 +761,11 @@
     {
       "date": "2026-11-17",
       "ticker": "CRWV",
-      "call_premium": 346000.0,
-      "observations": 5,
-      "calls": 4,
-      "puts": 1,
-      "put_premium": 17000.0
+      "call_premium": 403000.0,
+      "observations": 8,
+      "calls": 6,
+      "puts": 2,
+      "put_premium": 55000.0
     },
     {
       "date": "2026-11-17",
@@ -768,38 +779,38 @@
     {
       "date": "2026-11-17",
       "ticker": "HOOD",
-      "call_premium": 0.0,
-      "observations": 2,
-      "calls": 0,
+      "call_premium": 62000.0,
+      "observations": 4,
+      "calls": 2,
       "puts": 2,
       "put_premium": 29000.0
     },
     {
       "date": "2026-11-17",
       "ticker": "IREN",
-      "call_premium": 138000.0,
-      "observations": 3,
-      "calls": 1,
-      "puts": 2,
-      "put_premium": 94000.0
+      "call_premium": 832000.0,
+      "observations": 10,
+      "calls": 4,
+      "puts": 6,
+      "put_premium": 714000.0
     },
     {
       "date": "2026-11-17",
       "ticker": "IWM",
       "call_premium": 45000.0,
-      "observations": 15,
+      "observations": 12,
       "calls": 2,
-      "puts": 13,
-      "put_premium": 1880000.0
+      "puts": 10,
+      "put_premium": 1607000.0
     },
     {
       "date": "2026-11-17",
       "ticker": "QQQ",
-      "call_premium": 2180000.0,
-      "observations": 32,
-      "calls": 9,
-      "puts": 23,
-      "put_premium": 3777000.0
+      "call_premium": 3405000.0,
+      "observations": 43,
+      "calls": 19,
+      "puts": 24,
+      "put_premium": 19777000.0
     },
     {
       "date": "2026-11-17",
@@ -813,11 +824,74 @@
     {
       "date": "2026-11-17",
       "ticker": "SPY",
-      "call_premium": 634000.0,
-      "observations": 30,
-      "calls": 6,
-      "puts": 24,
-      "put_premium": 6798000.0
+      "call_premium": 1758000.0,
+      "observations": 60,
+      "calls": 12,
+      "puts": 48,
+      "put_premium": 8970000.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "HOOD",
+      "call_premium": 40000.0,
+      "observations": 1,
+      "calls": 1,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "IREN",
+      "call_premium": 24000.0,
+      "observations": 1,
+      "calls": 1,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "IWM",
+      "call_premium": 0.0,
+      "observations": 4,
+      "calls": 0,
+      "puts": 4,
+      "put_premium": 98000.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "OPEN",
+      "call_premium": 15000.0,
+      "observations": 1,
+      "calls": 1,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "QQQ",
+      "call_premium": 60000.0,
+      "observations": 3,
+      "calls": 3,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "SPY",
+      "call_premium": 1080000.0,
+      "observations": 8,
+      "calls": 5,
+      "puts": 3,
+      "put_premium": 1709000.0
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "WEN",
+      "call_premium": 74000.0,
+      "observations": 4,
+      "calls": 4,
+      "puts": 0,
+      "put_premium": 0.0
     }
   ],
   "publication_mode": "dashboard_summaries"

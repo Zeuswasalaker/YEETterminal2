@@ -1,5 +1,5 @@
 {
-  "captured_on": "2026-11-17",
+  "captured_on": "2026-11-18",
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
   "coverage": "Latest authenticated partial alert window. Fully contained captured dates replaced; earlier boundary-date summary preserved. Rounded source premiums; no claim of complete session.",
   "summary": [
@@ -630,34 +630,66 @@
     {
       "date": "2026-11-17",
       "ticker": "BABA",
-      "call_premium": 0.0,
-      "prints": 1,
-      "premium": 646000.0,
-      "call_prints": 0
+      "call_premium": 630000.0,
+      "prints": 2,
+      "premium": 1276000.0,
+      "call_prints": 1
     },
     {
       "date": "2026-11-17",
       "ticker": "QQQ",
-      "call_premium": 2180000.0,
-      "prints": 32,
-      "premium": 5957000.0,
-      "call_prints": 9
+      "call_premium": 3405000.0,
+      "prints": 43,
+      "premium": 23182000.0,
+      "call_prints": 19
     },
     {
       "date": "2026-11-17",
       "ticker": "SMH",
-      "call_premium": 1889000.0,
-      "prints": 5,
-      "premium": 2673000.0,
-      "call_prints": 3
+      "call_premium": 2308000.0,
+      "prints": 18,
+      "premium": 7062000.0,
+      "call_prints": 6
     },
     {
       "date": "2026-11-17",
       "ticker": "SPY",
-      "call_premium": 634000.0,
-      "prints": 30,
-      "premium": 7432000.0,
-      "call_prints": 6
+      "call_premium": 1758000.0,
+      "prints": 60,
+      "premium": 10728000.0,
+      "call_prints": 12
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "BABA",
+      "call_premium": 15000.0,
+      "prints": 1,
+      "premium": 15000.0,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "QQQ",
+      "call_premium": 60000.0,
+      "prints": 3,
+      "premium": 60000.0,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "SMH",
+      "call_premium": 180000.0,
+      "prints": 3,
+      "premium": 180000.0,
+      "call_prints": 3
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "SPY",
+      "call_premium": 1080000.0,
+      "prints": 8,
+      "premium": 2789000.0,
+      "call_prints": 5
     }
   ],
   "capture_history": [
@@ -2081,9 +2113,19 @@
       "newest": "2026-11-17 09:06:37",
       "oldest": "2026-11-13 11:31:18",
       "complete_session": false
+    },
+    {
+      "filter": "orange",
+      "rows": 250,
+      "accepted": 243,
+      "excluded": 7,
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "newest": "2026-11-18 07:19:03",
+      "oldest": "2026-11-16 08:21:26",
+      "complete_session": false
     }
   ],
-  "source_time": "2026/11/17 09:06:37",
+  "source_time": "2026/11/18 07:19:03",
   "source_timezone": "America/Los_Angeles",
   "capture_type": "Authenticated rendered alert table",
   "captured_rows": 250,
@@ -2105,9 +2147,10 @@
     "2026-11-11": "128 cumulative qualifying captured alerts, 06:30:17 through 13:06:57 PT; partial session",
     "2026-11-12": "76 cumulative qualifying captured alerts, 06:30:34 through 13:14:53 PT; partial session",
     "2026-11-13": "49 cumulative qualifying captured alerts, 05:42:21 through 10:53:51 PT; partial session",
-    "2026-11-17": "68 qualifying captured alerts; partial session window.",
-    "2026-11-16": "152 qualifying captured alerts; partial session window."
+    "2026-11-17": "123 qualifying captured alerts; partial session window.",
+    "2026-11-16": "152 qualifying captured alerts; partial session window.",
+    "2026-11-18": "15 qualifying captured alerts; partial session window."
   },
   "exclusion_note": "3 rows in this capture fail displayed side/ask thresholds and are retained separately. Legacy aggregates are not added to overlapping raw records.",
-  "captured_at": "2026-11-17T17:21:32.208321+00:00"
+  "captured_at": "2026-11-18T15:46:35.802720+00:00"
 }

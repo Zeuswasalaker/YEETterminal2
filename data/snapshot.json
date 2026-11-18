@@ -1,6 +1,6 @@
 {
   "research_as_of": "2026-11-13",
-  "flow_imported_at": "2026-11-17T17:21:32.208321+00:00",
+  "flow_imported_at": "2026-11-18T15:46:35.802720+00:00",
   "events_checked_at": "2026-11-13T16:21:49.004860+00:00",
   "events": [
     {
@@ -1216,126 +1216,151 @@
   ],
   "flow_scope": "Latest authenticated capture merged with available local history; summary-only publication. Raw flow is excluded except Whispers candidates.",
   "scan_coverage": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "filters": [
       {
         "filter": "orange",
         "rows": 250,
-        "accepted": 242,
-        "excluded": 8,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:06:37",
-        "oldest": "2026-11-13 11:31:18",
+        "accepted": 243,
+        "excluded": 7,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:19:03",
+        "oldest": "2026-11-16 08:21:26",
         "complete_session": false
       },
       {
         "filter": "meme",
         "rows": 250,
-        "accepted": 240,
-        "excluded": 10,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:14:31",
-        "oldest": "2026-11-16 07:39:29",
+        "accepted": 241,
+        "excluded": 9,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:38:46",
+        "oldest": "2026-11-16 09:45:05",
         "complete_session": false
       },
       {
-        "filter": "wf",
-        "rows": 250,
-        "accepted": 250,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:14:21",
-        "oldest": "2026-11-16 06:55:56",
+        "filter": "news",
+        "rows": 90,
+        "accepted": 90,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-17 12:34:56",
+        "oldest": "2026-09-18 12:09:22",
         "complete_session": false
       },
       {
         "filter": "nautilus",
         "rows": 142,
         "accepted": 142,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 08:51:49",
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:37:22",
         "oldest": "2026-11-02 06:35:14",
         "complete_session": false
       },
       {
         "filter": "farcry",
-        "rows": 229,
-        "accepted": 229,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:05:17",
-        "oldest": "2026-11-02 06:32:22",
+        "rows": 235,
+        "accepted": 235,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:41:28",
+        "oldest": "2026-11-02 06:33:33",
         "complete_session": false
       },
       {
         "filter": "psu",
         "rows": 250,
         "accepted": 249,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:12:42",
-        "oldest": "2026-11-09 06:53:52",
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:25:10",
+        "oldest": "2026-11-09 09:10:21",
+        "complete_session": false
+      },
+      {
+        "filter": "wf",
+        "rows": 250,
+        "accepted": 250,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:37:22",
+        "oldest": "2026-11-16 10:01:50",
         "complete_session": false
       },
       {
         "filter": "bat",
         "rows": 250,
         "accepted": 250,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:07:16",
-        "oldest": "2026-11-05 08:31:54",
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:30:17",
+        "oldest": "2026-11-05 08:48:50",
         "complete_session": false
       },
       {
         "filter": "freelance",
-        "rows": 176,
-        "accepted": 176,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 08:51:49",
+        "rows": 187,
+        "accepted": 187,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:00:00",
         "oldest": "2026-11-02 07:09:59",
         "complete_session": false
       },
       {
         "filter": "Founder NAUTILUS",
-        "rows": 12,
-        "accepted": 12,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-16 06:38:03",
+        "rows": 13,
+        "accepted": 13,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-17 12:34:18",
         "oldest": "2026-11-04 07:59:05",
         "complete_session": false
       },
       {
         "filter": "Founder FARCRY ULTRA",
-        "rows": 10,
-        "accepted": 10,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-16 10:18:18",
+        "rows": 11,
+        "accepted": 11,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-17 12:12:45",
         "oldest": "2026-11-03 07:17:25",
         "complete_session": false
       },
       {
         "filter": "Founder PSU",
-        "rows": 21,
-        "accepted": 21,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 07:56:14",
+        "rows": 24,
+        "accepted": 24,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:25:10",
         "oldest": "2026-11-03 06:46:53",
         "complete_session": false
       },
       {
         "filter": "Founder WF PSU",
-        "rows": 237,
-        "accepted": 237,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 09:09:35",
+        "rows": 250,
+        "accepted": 250,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:25:10",
         "oldest": "2026-11-02 06:46:39",
         "complete_session": false
       },
       {
         "filter": "Founder BAT",
-        "rows": 33,
-        "accepted": 33,
-        "captured_at": "2026-11-17T17:21:32.208321+00:00",
-        "newest": "2026-11-17 06:47:34",
+        "rows": 34,
+        "accepted": 34,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:25:10",
         "oldest": "2026-11-02 12:22:03",
         "complete_session": false
+      },
+      {
+        "filter": "magic",
+        "rows": 203,
+        "accepted": 203,
+        "captured_at": "2026-11-18T15:46:35.802720+00:00",
+        "newest": "2026-11-18 07:39:13",
+        "oldest": "2026-09-24 08:47:27",
+        "complete_session": false
+      },
+      {
+        "filter": "Founder Freelance Ultra",
+        "rows": 0,
+        "accepted": 0,
+        "outcome": "No trades with these filters in rendered page",
+        "captured_at": "2026-11-18T15:46:40.786Z"
       }
     ],
     "method": "Exact CSV export and rendered alert capture"
@@ -1902,6 +1927,141 @@
         }
       ],
       "complete_session": false
+    },
+    {
+      "date": "2026-11-18",
+      "captured_at": "2026-11-18T15:46:35.802720+00:00",
+      "filters": [
+        {
+          "filter": "orange",
+          "rows": 250,
+          "accepted": 243,
+          "excluded": 7,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:19:03",
+          "oldest": "2026-11-16 08:21:26",
+          "complete_session": false
+        },
+        {
+          "filter": "meme",
+          "rows": 250,
+          "accepted": 241,
+          "excluded": 9,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:38:46",
+          "oldest": "2026-11-16 09:45:05",
+          "complete_session": false
+        },
+        {
+          "filter": "news",
+          "rows": 90,
+          "accepted": 90,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-17 12:34:56",
+          "oldest": "2026-09-18 12:09:22",
+          "complete_session": false
+        },
+        {
+          "filter": "nautilus",
+          "rows": 142,
+          "accepted": 142,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:37:22",
+          "oldest": "2026-11-02 06:35:14",
+          "complete_session": false
+        },
+        {
+          "filter": "farcry",
+          "rows": 235,
+          "accepted": 235,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:41:28",
+          "oldest": "2026-11-02 06:33:33",
+          "complete_session": false
+        },
+        {
+          "filter": "psu",
+          "rows": 250,
+          "accepted": 249,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:25:10",
+          "oldest": "2026-11-09 09:10:21",
+          "complete_session": false
+        },
+        {
+          "filter": "wf",
+          "rows": 250,
+          "accepted": 250,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:37:22",
+          "oldest": "2026-11-16 10:01:50",
+          "complete_session": false
+        },
+        {
+          "filter": "bat",
+          "rows": 250,
+          "accepted": 250,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:30:17",
+          "oldest": "2026-11-05 08:48:50",
+          "complete_session": false
+        },
+        {
+          "filter": "freelance",
+          "rows": 187,
+          "accepted": 187,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:00:00",
+          "oldest": "2026-11-02 07:09:59",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder NAUTILUS",
+          "rows": 13,
+          "accepted": 13,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-17 12:34:18",
+          "oldest": "2026-11-04 07:59:05",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder FARCRY ULTRA",
+          "rows": 11,
+          "accepted": 11,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-17 12:12:45",
+          "oldest": "2026-11-03 07:17:25",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder PSU",
+          "rows": 24,
+          "accepted": 24,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:25:10",
+          "oldest": "2026-11-03 06:46:53",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder WF PSU",
+          "rows": 250,
+          "accepted": 250,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:25:10",
+          "oldest": "2026-11-02 06:46:39",
+          "complete_session": false
+        },
+        {
+          "filter": "Founder BAT",
+          "rows": 34,
+          "accepted": 34,
+          "captured_at": "2026-11-18T15:46:35.802720+00:00",
+          "newest": "2026-11-18 07:25:10",
+          "oldest": "2026-11-02 12:22:03",
+          "complete_session": false
+        }
+      ],
+      "complete_session": false
     }
   ],
   "publication_mode": "dashboard_summaries",
@@ -1932,22 +2092,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 37,
+        "calls": 20,
+        "puts": 17,
+        "call_premium": 4803040.0,
+        "put_premium": 2622405.0
+      },
+      "contracts": 19,
+      "days_until": -4,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 31,
         "calls": 14,
         "puts": 17,
         "call_premium": 3666320,
         "put_premium": 2622405
-      },
-      "contracts": 18,
-      "days_until": -3,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 30,
-        "calls": 14,
-        "puts": 16,
-        "call_premium": 3666320,
-        "put_premium": 2435075
       }
     },
     {
@@ -1989,22 +2149,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 37,
+        "calls": 13,
+        "puts": 24,
+        "call_premium": 3318225.0,
+        "put_premium": 1925298.0
+      },
+      "contracts": 33,
+      "days_until": -3,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 35,
         "calls": 11,
         "puts": 24,
         "call_premium": 3206565,
         "put_premium": 1925298
-      },
-      "contracts": 31,
-      "days_until": -2,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 32,
-        "calls": 9,
-        "puts": 23,
-        "call_premium": 2946090,
-        "put_premium": 1852848
       }
     },
     {
@@ -2038,22 +2198,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 127,
+        "calls": 86,
+        "puts": 41,
+        "call_premium": 12048795.0,
+        "put_premium": 7824525.0
+      },
+      "contracts": 29,
+      "days_until": -3,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 120,
         "calls": 86,
         "puts": 34,
         "call_premium": 12048795,
         "put_premium": 6724961
-      },
-      "contracts": 26,
-      "days_until": -2,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 112,
-        "calls": 84,
-        "puts": 28,
-        "call_premium": 11315343,
-        "put_premium": 5074479
       }
     },
     {
@@ -2070,22 +2230,22 @@
       "earnings_related": false,
       "verified_on": "2026-10-21",
       "flow_summary": {
+        "observations": 11,
+        "calls": 2,
+        "puts": 9,
+        "call_premium": 400280.0,
+        "put_premium": 578316.0
+      },
+      "contracts": 10,
+      "days_until": -3,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 10,
         "calls": 2,
         "puts": 8,
         "call_premium": 400280,
         "put_premium": 539388
-      },
-      "contracts": 10,
-      "days_until": -2,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 8,
-        "calls": 2,
-        "puts": 6,
-        "call_premium": 400280,
-        "put_premium": 425970
       }
     },
     {
@@ -2123,54 +2283,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 73,
+        "calls": 23,
+        "puts": 50,
+        "call_premium": 3650825.0,
+        "put_premium": 9471236.0
+      },
+      "contracts": 51,
+      "days_until": -2,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 46,
         "calls": 19,
         "puts": 27,
         "call_premium": 3184237,
         "put_premium": 7678479
-      },
-      "contracts": 39,
-      "days_until": -1,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 34,
-        "calls": 18,
-        "puts": 16,
-        "call_premium": 3282621,
-        "put_premium": 3487916
-      }
-    },
-    {
-      "ticker": "ACN",
-      "title": "RBC Global Technology, Internet, Media & Telecom",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "time": "Time not announced",
-      "category": "Investor conference appearance",
-      "url": "https://investor.accenture.com/news-and-events/events-calendar",
-      "summary": "Management participation listed on the official calendar. Not a company investor day.",
-      "note": "The captured put expires in 2029. Broad calendar overlap is weak evidence of a specific event trade.",
-      "status": "Confirmed",
-      "earnings_related": false,
-      "verified_on": "2026-10-20",
-      "flow_summary": {
-        "observations": 7,
-        "calls": 4,
-        "puts": 3,
-        "call_premium": 390980,
-        "put_premium": 386200
-      },
-      "contracts": 6,
-      "days_until": 0,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 7,
-        "calls": 4,
-        "puts": 3,
-        "call_premium": 390980,
-        "put_premium": 386200
       }
     },
     {
@@ -2208,200 +2336,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 73,
+        "calls": 23,
+        "puts": 50,
+        "call_premium": 3650825.0,
+        "put_premium": 9471236.0
+      },
+      "contracts": 51,
+      "days_until": -1,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 46,
         "calls": 19,
         "puts": 27,
         "call_premium": 3184237,
         "put_premium": 7678479
-      },
-      "contracts": 39,
-      "days_until": 0,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 34,
-        "calls": 18,
-        "puts": 16,
-        "call_premium": 3282621,
-        "put_premium": 3487916
-      }
-    },
-    {
-      "ticker": "BLDR",
-      "title": "Investor Day",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "time": "5:45–9:00 AM PT",
-      "category": "Investor / analyst",
-      "url": "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx",
-      "summary": "Management presents growth strategy, digital initiatives, capital allocation and long-term targets, with Q&A.",
-      "note": "Event falls within at least one captured contract window. Timing overlap does not establish trade intent or causation.",
-      "status": "Confirmed",
-      "earnings_related": false,
-      "verified_on": "2026-11-13",
-      "research_history": [
-        {
-          "checked_on": "2026-11-12",
-          "previous_verified_on": "2026-10-29",
-          "note": "Rechecked official event source. Participation and timing do not establish a price catalyst."
-        },
-        {
-          "checked_on": "2026-11-13",
-          "previous_verified_on": "2026-11-12",
-          "note": "Official dated source rechecked. Event timing does not imply trade intent."
-        }
-      ],
-      "flow_overlap_check": {
-        "checked_on": "2026-11-13",
-        "observations": 1,
-        "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
-      },
-      "flow_summary": {
-        "observations": 1,
-        "calls": 1,
-        "puts": 0,
-        "call_premium": 131000,
-        "put_premium": 0
-      },
-      "contracts": 1,
-      "days_until": 0,
-      "direction": "Call-side",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 1,
-        "calls": 1,
-        "puts": 0,
-        "call_premium": 131000,
-        "put_premium": 0
-      }
-    },
-    {
-      "ticker": "COHR",
-      "title": "Technical Global Symposium · Coherent CTO panel",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "time": "See official agenda",
-      "category": "Technical talk / industry panel",
-      "url": "https://towersemi.com/2026/09/23/09232026/",
-      "summary": "Tower Semiconductor identifies Coherent CTO Julie Sheridan Eng as a panelist on next-generation data-center architectures. Technical participation, not a Coherent investor day or guidance commitment.",
-      "note": "Match only captured prints whose expiration includes November 17. Date overlap does not establish trade intent.",
-      "status": "Confirmed",
-      "earnings_related": false,
-      "verified_on": "2026-11-13",
-      "research_history": [
-        {
-          "checked_on": "2026-11-13",
-          "previous_verified_on": "2026-11-12",
-          "note": "Official dated source rechecked. Event timing does not imply trade intent."
-        }
-      ],
-      "flow_overlap_check": {
-        "checked_on": "2026-11-13",
-        "observations": 25,
-        "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
-      },
-      "flow_summary": {
-        "observations": 31,
-        "calls": 14,
-        "puts": 17,
-        "call_premium": 3666320,
-        "put_premium": 2622405
-      },
-      "contracts": 18,
-      "days_until": 0,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 30,
-        "calls": 14,
-        "puts": 16,
-        "call_premium": 3666320,
-        "put_premium": 2435075
-      }
-    },
-    {
-      "ticker": "SNDK",
-      "title": "Annual Meeting of Stockholders",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "time": "8:00 AM PT",
-      "category": "Shareholder meeting",
-      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm",
-      "summary": "Virtual annual governance meeting: director elections, compensation advisory vote and auditor ratification. Not an investor day or a promised business update.",
-      "note": "Event falls within at least one captured contract window. Timing overlap does not establish trade intent or causation.",
-      "status": "Confirmed",
-      "earnings_related": false,
-      "verified_on": "2026-10-20",
-      "flow_summary": {
-        "observations": 68,
-        "calls": 34,
-        "puts": 34,
-        "call_premium": 4161200,
-        "put_premium": 4383464
-      },
-      "contracts": 60,
-      "days_until": 0,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 54,
-        "calls": 30,
-        "puts": 24,
-        "call_premium": 3765170,
-        "put_premium": 3584144
-      }
-    },
-    {
-      "ticker": "TSEM",
-      "title": "Technical Global Symposium",
-      "date": "2026-11-17",
-      "end_date": "2026-11-17",
-      "time": "Time not announced",
-      "category": "Company / technology",
-      "url": "https://towersemi.com/2026/09/23/09232026/",
-      "summary": "CEO keynote and industry panel on next-generation data centers.",
-      "note": "November puts cover the event. October call does not. Near-simultaneous records may overlap economically. October 29: 1 captured displayed records have expirations covering this event date. Calls and puts are retained separately; related aggregate records may overlap. Calendar overlap is not causation.",
-      "status": "Confirmed",
-      "earnings_related": false,
-      "verified_on": "2026-11-13",
-      "research_history": [
-        {
-          "checked_on": "2026-10-29",
-          "note": "November puts cover the event. October call does not. Near-simultaneous records may overlap economically."
-        },
-        {
-          "checked_on": "2026-11-12",
-          "previous_verified_on": "2026-10-29",
-          "note": "Rechecked official event source. Participation and timing do not establish a price catalyst."
-        },
-        {
-          "checked_on": "2026-11-13",
-          "previous_verified_on": "2026-11-12",
-          "note": "Official dated source rechecked. Event timing does not imply trade intent."
-        }
-      ],
-      "flow_overlap_check": {
-        "checked_on": "2026-11-13",
-        "observations": 19,
-        "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
-      },
-      "flow_summary": {
-        "observations": 24,
-        "calls": 10,
-        "puts": 14,
-        "call_premium": 458000,
-        "put_premium": 1846747
-      },
-      "contracts": 11,
-      "days_until": 0,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 25,
-        "calls": 10,
-        "puts": 15,
-        "call_premium": 458000,
-        "put_premium": 1334447
       }
     },
     {
@@ -2421,13 +2371,13 @@
         "observations": 7,
         "calls": 4,
         "puts": 3,
-        "call_premium": 390980,
-        "put_premium": 386200
+        "call_premium": 390980.0,
+        "put_premium": 386200.0
       },
       "contracts": 6,
-      "days_until": 1,
+      "days_until": 0,
       "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
       "previous_capture_flow_summary": {
         "observations": 7,
         "calls": 4,
@@ -2467,22 +2417,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 37,
+        "calls": 13,
+        "puts": 24,
+        "call_premium": 3318225.0,
+        "put_premium": 1925298.0
+      },
+      "contracts": 33,
+      "days_until": 0,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 35,
         "calls": 11,
         "puts": 24,
         "call_premium": 3206565,
         "put_premium": 1925298
-      },
-      "contracts": 31,
-      "days_until": 1,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 32,
-        "calls": 9,
-        "puts": 23,
-        "call_premium": 2946090,
-        "put_premium": 1852848
       }
     },
     {
@@ -2499,22 +2449,22 @@
       "earnings_related": false,
       "verified_on": "2026-10-20",
       "flow_summary": {
+        "observations": 36,
+        "calls": 13,
+        "puts": 23,
+        "call_premium": 2902419.0,
+        "put_premium": 4326301.0
+      },
+      "contracts": 33,
+      "days_until": 6,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 33,
         "calls": 13,
         "puts": 20,
         "call_premium": 2902419,
         "put_premium": 3731397
-      },
-      "contracts": 30,
-      "days_until": 7,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 32,
-        "calls": 13,
-        "puts": 19,
-        "call_premium": 2902419,
-        "put_premium": 3695475
       }
     },
     {
@@ -2548,22 +2498,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 51,
+        "calls": 20,
+        "puts": 31,
+        "call_premium": 2959325.0,
+        "put_premium": 5778976.0
+      },
+      "contracts": 32,
+      "days_until": 13,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 32,
         "calls": 17,
         "puts": 15,
         "call_premium": 2533237,
         "put_premium": 4415231
-      },
-      "contracts": 28,
-      "days_until": 14,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 22,
-        "calls": 15,
-        "puts": 7,
-        "call_premium": 2325621,
-        "put_premium": 1315346
       }
     },
     {
@@ -2597,22 +2547,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 61,
+        "calls": 21,
+        "puts": 40,
+        "call_premium": 3444325.0,
+        "put_premium": 8765762.0
+      },
+      "contracts": 40,
+      "days_until": 15,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 37,
         "calls": 18,
         "puts": 19,
         "call_premium": 3018237,
         "put_premium": 7049431
-      },
-      "contracts": 31,
-      "days_until": 16,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 26,
-        "calls": 16,
-        "puts": 10,
-        "call_premium": 2810621,
-        "put_premium": 2939546
       }
     },
     {
@@ -2646,22 +2596,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 41,
+        "calls": 16,
+        "puts": 25,
+        "call_premium": 2801607.0,
+        "put_premium": 4441461.0
+      },
+      "contracts": 24,
+      "days_until": 18,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 22,
         "calls": 13,
         "puts": 9,
         "call_premium": 2375519,
         "put_premium": 3077716
-      },
-      "contracts": 20,
-      "days_until": 19,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 14,
-        "calls": 11,
-        "puts": 3,
-        "call_premium": 2167903,
-        "put_premium": 681346
       }
     },
     {
@@ -2682,12 +2632,12 @@
         "calls": 1,
         "puts": 2,
         "call_premium": 323000,
-        "put_premium": 273917
+        "put_premium": 273917.0
       },
       "contracts": 3,
-      "days_until": 20,
+      "days_until": 19,
       "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
       "previous_capture_flow_summary": {
         "observations": 3,
         "calls": 1,
@@ -2727,22 +2677,22 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 51,
+        "calls": 20,
+        "puts": 31,
+        "call_premium": 2959325.0,
+        "put_premium": 5778976.0
+      },
+      "contracts": 32,
+      "days_until": 20,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 32,
         "calls": 17,
         "puts": 15,
         "call_premium": 2533237,
         "put_premium": 4415231
-      },
-      "contracts": 28,
-      "days_until": 21,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 22,
-        "calls": 15,
-        "puts": 7,
-        "call_premium": 2325621,
-        "put_premium": 1315346
       }
     },
     {
@@ -2766,22 +2716,22 @@
         }
       ],
       "flow_summary": {
+        "observations": 17,
+        "calls": 4,
+        "puts": 13,
+        "call_premium": 162893.0,
+        "put_premium": 892955.0
+      },
+      "contracts": 13,
+      "days_until": 22,
+      "direction": "Mixed",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 12,
         "calls": 4,
         "puts": 8,
         "call_premium": 162893,
         "put_premium": 711915
-      },
-      "contracts": 11,
-      "days_until": 23,
-      "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 7,
-        "calls": 3,
-        "puts": 4,
-        "call_premium": 121745,
-        "put_premium": 438760
       }
     },
     {
@@ -2801,18 +2751,18 @@
         "observations": 5,
         "calls": 3,
         "puts": 2,
-        "call_premium": 1403688,
+        "call_premium": 1403688.0,
         "put_premium": 1291000
       },
       "contracts": 3,
-      "days_until": 30,
+      "days_until": 29,
       "direction": "Mixed",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
       "previous_capture_flow_summary": {
-        "observations": 3,
-        "calls": 1,
+        "observations": 5,
+        "calls": 3,
         "puts": 2,
-        "call_premium": 710567.9999999999,
+        "call_premium": 1403688,
         "put_premium": 1291000
       }
     },
@@ -2847,21 +2797,21 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 13,
+        "calls": 13,
+        "puts": 0,
+        "call_premium": 2401477.0,
+        "put_premium": 0
+      },
+      "contracts": 11,
+      "days_until": 49,
+      "direction": "Call-side",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 11,
         "calls": 11,
         "puts": 0,
         "call_premium": 2096319,
-        "put_premium": 0
-      },
-      "contracts": 9,
-      "days_until": 50,
-      "direction": "Call-side",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 9,
-        "calls": 9,
-        "puts": 0,
-        "call_premium": 1888703,
         "put_premium": 0
       }
     },
@@ -2896,36 +2846,37 @@
         "scope": "Saved observations printed on or before event start and expiring on or after event end. Observations may aggregate overlapping trades; timing overlap does not establish causation."
       },
       "flow_summary": {
+        "observations": 10,
+        "calls": 10,
+        "puts": 0,
+        "call_premium": 2201949.0,
+        "put_premium": 0
+      },
+      "contracts": 9,
+      "days_until": 82,
+      "direction": "Call-side",
+      "flow_coverage": "Merged available local history through November 17 plus latest exports. Earlier aggregate-only captures preserved separately; not a complete historical total.",
+      "previous_capture_flow_summary": {
         "observations": 8,
         "calls": 8,
         "puts": 0,
         "call_premium": 1896791,
         "put_premium": 0
-      },
-      "contracts": 7,
-      "days_until": 83,
-      "direction": "Call-side",
-      "flow_coverage": "Merged available local history through November 13 plus retained Whispers and latest exports. Prior aggregate-only November 16 capture is preserved separately; not a complete historical total.",
-      "previous_capture_flow_summary": {
-        "observations": 6,
-        "calls": 6,
-        "puts": 0,
-        "call_premium": 1689175,
-        "put_premium": 0
       }
     }
   ],
   "flow_counts": {
-    "available_distinct_records": 2929,
-    "latest_capture_distinct_records": 1163,
-    "companies": 607,
-    "records": 2929
+    "available_distinct_records": 3139,
+    "latest_capture_distinct_records": 1206,
+    "records": 3139,
+    "companies": 620
   },
   "news_finder_capture": {
-    "checked_at": "2026-11-17T17:23:27.602201+00:00",
-    "observations": 91,
-    "latest_alert": "2026/11/16 08:29:06",
-    "coverage": "Authenticated configured NEWS FINDER alert window; source summaries only. Alert aggregates are not added to individual-flow premium totals."
+    "checked_at": "2026-11-18T15:46:35.802720+00:00",
+    "observations": 90,
+    "latest_alert": "2026/11/17 12:34:56",
+    "coverage": "Authenticated configured alert window; source summaries only; not added to individual-flow totals."
   },
-  "checked_at": "2026-11-17T18:00:14.510Z"
+  "checked_at": "2026-11-18T15:47:31.680517+00:00",
+  "source_monitor_checked_at": "2026-11-18T15:47:31.680517+00:00"
 }

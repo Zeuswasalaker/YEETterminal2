@@ -927,20 +927,20 @@
       "source_url": "https://github.com/Zeuswasalaker/YEETterminal2/blob/main/data/prestige.json"
     }
   ],
-  "checked_at": "2026-11-17T17:23:27.602201+00:00",
+  "checked_at": "2026-11-18T15:47:03.341084+00:00",
   "price_as_of": {
-    "time": "2026/11/17 09:22:59",
-    "spot": 733.6900024414062,
+    "time": "2026/11/18 07:43:59",
+    "spot": 729.489990234375,
     "source": "Yahoo SPY completed 1-minute close including extended hours"
   },
   "after": {
-    "total": 331,
-    "itm": 252,
-    "expired_otm": 62,
-    "open": 17,
-    "plays_open": 92,
-    "open_itm_hits": 75,
+    "total": 338,
+    "itm": 260,
+    "expired_otm": 63,
+    "open": 15,
+    "plays_open": 86,
+    "open_itm_hits": 71,
     "unverified": 0,
-    "win_percent": 80.2547770700637
+    "win_percent": 80.49535603715171
   }
 }
