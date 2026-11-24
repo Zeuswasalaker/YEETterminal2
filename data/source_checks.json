@@ -1,8 +1,8 @@
 {
   "https://www.semtech.com/company/press/semtech-corporation-to-host-data-center-analyst-day-on-october-15-2026": {
     "ticker": "SMTC",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "65f0de5b962a2a64d9c557e19d858a12973aaaa61e2aed4f7e006e8bfd69851e",
     "changed": false,
     "status": "Page fetched",
@@ -10,11 +10,11 @@
   },
   "https://ir.navitassemi.com/events-presentations": {
     "ticker": "NVTS",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "bced4c6fdcf1d0a97a186fd3d739fe588d508c7068bcbf6c62e7d21efa74a955",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Events & Presentations - Navitas Semiconductor Skip to main navigation Products GaN Discrete GaN Discrete GaNFETs Bi-Directional GaN Integrated GaN\u200b GaN with Integrated Driver GaN with Sensing GaN Half-Bridge GaN with Safety and Protection Integrated GaN with Controller SiC Discrete MOSFETs \u200b SiC Schottky Diodes \u200b Power Modules \u200b Known Good Die \u200b IVR Controllers\u200b Applications AI Data Center\u200b PSU BBU 800V PDB\u200b Low Voltage PDB\u200b Performance Computing\u200b Energy & Grid\u200b SST\u200b UPS Solar Inverters & Power Optimizers \u200b PCS-BESS\u200b Industrial Electrification\u200b Motors\u200b Traction\u200b Robots\u200b Appliance & tools\u200b Design App Notes - Design Tips - Video\u200b White Papers\u200b Reference Designs \u200b Simulation Models Conference Papers\u200b Cross Reference Brochures Technology GaN SiC IVR Company About Navitas \u200b Leadership Team \u200b Careers \u200b Events Quality & Reliability\u200b Sustainability\u200b Investors Financial Information SEC Filings Quarterly Results Events & Presentations Stock Information Stock Quote & Chart Analyst Coverage Corporate Governance Documents & Charters Leadership Team Shareholder Resources Investor FAQs Email Alerts Contact IR RSS Feeds News Blogs Press Media\u200b Kit Check Stock Events & Presentations Presentations Navitas + Claros Webinar Oct 20, 2026 Navitas-Investor Presentation-March 2026 May 08, 2026 Upcoming Events UBS Global Technology & AI Conference Dec 1, 2026 Add to Outlook Add to Google Calendar Stifel Deep Tech Forum: Leaders & Disruptors Dec 7, 2026 Add to Outlook Add to Google Calendar Wells Fargo 10th Annual TMT Summit Dec 8, 2026 12:45 PM PST Add to Outlook Add to Google Calendar Past Events Year All 2026 2025 Navitas Semiconductor Q3 2026 Earnings Nov 3, 2026 5:00 PM EST Click Here for Webcast View Presentation Transcript Webinar Presentation | Breaking the AI Infrastructure Power Wall: From Grid-to-xPU Oct 20, 2026 11:00 AM EDT Click Here for Webinar Playback Webinar Presentations Slides Citi 2026 Global TMT Conference Sep 8, 2026 1:15 PM EDT Click Here for Webcast Transcript Deutsche Bank Technology Conference Aug 27, 2026 Jefferies Semiconductor, IT Hardware & Communications Technology Conference Aug 25, 2026 Rosenblatt Technology Summit: The Age of AI Aug 18, 2026 Navitas Semiconductor Q2 2026 Earnings Jul 27, 2026 5:00 PM EDT Evercore Global TMT Conference Jun 3, 2026 2:10 PM PDT Click Here for Webcast Craig-Hallum Institutional Investor Conference May 28, 2026 J.P. Morgan Global Technology, Media & Communications Conference May 19, 2026 Power Solutions Engineered for Every Mission-Critical Application AI Datacenters High-efficiency GaN and SiC power solutions enabling high-density power delivery, cooling systems, and backup power. View Applications \u2197 Energy & Grid Infrastructure Power semiconductors designed for renewable energy integration, HVDC transmission, and grid-scale storage. View Applications \u2197 Performance Computing Compact, high-power-density solutions for next-generation computing platforms. View Applications \u2197 Industrial Electrification Robust GaN and SiC solutions supporting industrial motor drives and high-power industrial systems. View Applications \u2197 \u00a92026 Navitas Semiconductor. All Rights Reserved Sales Terms & Conditions | Privacy Policy | Trademarks"
   },
   "https://ir.immunitybio.com/node/11731": {
@@ -25,26 +25,26 @@
   },
   "https://www.cloudflare.com/events/": {
     "ticker": "NET",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
-    "hash": "75dadbb9131783dc7bc664ac5e123b71f97ea517215bc4b1f573ed705890c02e",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
+    "hash": "017f97124e41f1ed63d4976db1b9857d714f9a09dfb74c53a15caab09d05213b",
     "changed": true,
     "status": "Review page change",
-    "text_excerpt": "Cloudflare Events Login Dashboard Contact sales Start building Dashboard Login Cloudflare Events All Scheduled Events Find Cloudflare at conferences, summits, and Immerse events around the world. Events by region Browse upcoming Cloudflare events around the world. Americas EMEA APJC Ottawa, CA InCyber Forum Dec 1\u20133 Coming soon Charleston, US Eastern Defense Summit Dec 8\u201310 Coming soon Brooklyn, US NYC Technology Forum Dec 10\u201312 Coming soon Build without boundaries Join thousands of developers who've eliminated infrastructure complexity and deployed globally with Cloudflare. Start building for free \u2014 no credit card required. Start building for free View docs"
+    "text_excerpt": "Cloudflare Events Login Dashboard Contact sales Start building Dashboard Login Cloudflare Events All Scheduled Events Find Cloudflare at conferences, summits, and Immerse events around the world. Events by region Browse upcoming Cloudflare events around the world. Americas EMEA APJC Ottawa, CA InCyber Forum Dec 1\u20133 Learn more Charleston, US Eastern Defense Summit Dec 8\u201310 Learn more Brooklyn, US NYC Technology Forum Dec 10\u201312 Learn more Build without boundaries Join thousands of developers who've eliminated infrastructure complexity and deployed globally with Cloudflare. Start building for free \u2014 no credit card required. Start building for free View docs"
   },
   "https://www.oracle.com/ai-world/": {
     "ticker": "ORCL",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "ec0833f2a672ddf5ec0138cbafc73d0500605cc2928beed240bfb94e3757ca52",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Oracle AI World 2026 Skip to content Accessibility Policy Oracle AI World Oracle AI World 2026, now on demand See you next year in Las Vegas, October 18\u201321 Watch keynotes, product spotlights, and Oracle TV coverage, and access learning sessions until November 30. Watch On Air for Oracle AI World 2026 Watch On Air for Oracle AI World 2026 You need an Oracle Account to register. Already have an Oracle Account? Sign in and register Don\u2019t have an Oracle Account? Create one to register Save the dates: Oracle AI World Tour 2027 Discover how to put AI to work in your organization. Join us in a city near you to hear the latest from Oracle experts, partners, and other business leaders. See tour stops Revisit the mainstage keynotes Missed the live keynotes? Catch up on demand with On Air. Oracle: where AI means business AI is abundant. Trust is hard to come by. Proven value is harder still. But put AI inside the systems organizations already rely on, grounded in trusted data, governed by enterprise controls, and connected to the processes that run the business, and something changes. AI becomes useful. It understands context, acts across workflows, and delivers outcomes people can see and measure. That\u2019s where Oracle makes the difference: bringing AI and trusted data into the applications people use every day. Witness it live: immersive demos, candid customer conversations, and proof you can see on screen and in real-world results. Watch on demand for Oracle AI World On Air Watch on demand Now that AI works, what are we going to do with it? AI is changing who can build, what they can create, and how fast they can move. But revolutionary technology doesn\u2019t require reinventing everything. As Oracle puts AI to work across development, data, security, infrastructure, and more, we\u2019re learning where it changes the rules\u2014and where the fundamentals matter more than ever. Hear from Oracle CEO Clay Magouyrk on what we\u2019ve learned, what\u2019s working, and what\u2019s possible. Watch on demand for Oracle AI World On Air Watch on demand The new Oracle Health application suite and the age of AI Get a glimpse of what\u2019s next for Oracle AI and what we\u2019re powering up for the future. Watch on demand for Oracle AI World On Air Watch on demand Revisit the moments that mattered Relive the energy, ideas, and connections from a memorable week of AI and enterprise technology innovation. Watch the recap for standout moments and highlights. Thank you for joining us in Las Vegas and through On Air. We look forward to seeing you next year! Catch up on news and insights News and announcements Catch up on the biggest moments from the event, including those from mainstage and solutions keynotes. Read the press releases Session presentations Speakers may choose to share their presentation slides after the event. When they\u2019re available, you\u2019ll find the slides beneath each session\u2019s title and abstract in the session catalog. (Mainstage keynote presentations won\u2019t be shared.) Access presentations Photo gallery with captions The energy carries into the evening. Oracle AI World attendees fill the crowd at The Party for a night of live music and celebration with Maroon 5. Sam Altman, CEO, OpenAI, joins Clay Magouyrk, CEO, Oracle, at Oracle AI World for a conversation about putting AI to work, what\u2019s working today, and what\u2019s possible next. Exploring the future of emergency care. Attendees at the Oracle AI World Hub get a look at Oracle\u2019s vision for connected, AI-powered ambulance prototypes designed to link emergency vehicles with hospitals and cloud data. Attendees browse Oracle Red Bull Racing apparel and accessories in the Sports and SailGP area of the Oracle AI World Hub. A welcome break between big ideas. Attendees enjoy a moment to recharge and connect with fellow attendees at the Oracle AI World puppy playground. AI starts with powerful infrastructure. At the Data Center in the AI World Hub, attendees explore how Oracle\u2019s next-generation data centers fuel innovation while supporting the communities around them. A different kind of connection at Oracle AI World. An attendee gets acquainted with a robotic dog during a day of hands-on discovery in the Hub. Lights flashing, the new Oracle Public Safety truck gives attendees an up-close look at technology built for first responders. Questions spark conversations as attendees connect with Oracle experts and one another to explore new possibilities for data and AI. Hackathon participants bring a splash of orange to Oracle CEO Mike Sicilia\u2019s keynote, where Chris Leone, Oracle\u2019s Executive Vice President of Applications Development, Fusion, shares how Fusion AI is changing the way enterprise applications work. The exchange of ideas continues beyond the sessions. Attendees gather for small-group conversations, sharing perspectives and taking a closer look together. Starting on a high note. A live band warms up the Oracle AI World crowd before Oracle CEO Mike Sicilia takes the stage for his keynote, \u201cOracle: where AI means business.\" Pull up a seat and compare notes, ask questions, and learn from each other. A busy event, right at your fingertips. The new Oracle AI World mobile app helps attendees stay connected, navigate the venue, and keep their personal agenda close at hand. Previous Slide 1/2 Next Slide Play / Pause Slideshow Where AI meets business results Every fall Oracle AI World brings the Oracle community together to explore how AI and other technology innovations are improving business outcomes across industries. Highlights of the event include: Mainstage keynotes from Oracle leaders Product demonstrations Customer case studies Technical learning and training sessions And much more Join us next year in Las Vegas for the world\u2019s leading AI event to connect with Oracle product, technology, and implementation experts\u2014and with your peers putting AI to work in their businesses. Thank you to our Global sponsors Global Innovator Global Accelerator Global Navigator Global Value Driver Follow Oracle AI World on social media #AIWorld \u00a9 2026 Oracle Privacy / Do Not Sell My Info Ad Choices You need an Oracle Account to register. Watch keynotes Log in Don\u2019t have an Oracle Account? Create one to register"
   },
   "https://ir.atimaterials.com/news-events/news-details/2026/ATI-to-host-Investor-Day-on-November-12-2026/default.aspx": {
     "ticker": "ATI",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "6f558634e6ccc4dbb2caa7542fd5d1d77606eecbba3ff04580ab0b9d75a23b8b",
     "changed": false,
     "status": "Page fetched",
@@ -52,8 +52,8 @@
   },
   "https://towersemi.com/2026/09/23/09232026/": {
     "ticker": "COHR",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "b051c7090437adcc45e6aad8e75486332dc6eabbdd24c56043ce532d19539047",
     "changed": false,
     "status": "Page fetched",
@@ -61,17 +61,17 @@
   },
   "https://immunitybio.com/immunitybio-to-participate-in-the-piper-sandler-virtual-oncology-symposium/": {
     "ticker": "IBRX",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "34341f2d29237feb992072c29af73b8907d3e84204d9689c484b9af90ec6160c",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Piper Sandler Virtual Oncology Symposium: ImmunityBio's Participation Reaffirming our Commitment to Advertising Compliance Read our Corrective Communication here. Founder\u2019s Vision ANKTIVA\u00ae BCG Our Science Careers Contact Select Page ImmunityBio to Participate in the Piper Sandler Virtual Oncology Symposium Press Releases Oct 8, 2026 CULVER CITY, Calif., October 8, 2026 \u2014 ImmunityBio, Inc. (NASDAQ: IBRX), a commercial-stage immunotherapy company, today announced that Dr. Patrick Soon-Shiong, its Founder, Executive Chairman and Global Chief Scientific and Medical Officer, will participate virtually in a fireside chat at the Piper Sandler Virtual Oncology Symposium, taking place October 15-16, 2026. Details of the event are provided below: Piper Sandler Virtual Oncology Symposium \u2013 Fireside Chat Participant: Patrick Soon-Shiong, M.D., Founder, Executive Chairman and Global Chief Scientific and Medical Officer, ImmunityBio Moderator: Ted Tenthoff, Managing Director and Senior Research Analyst, Piper Sandler Date: Friday, October 16, 2026 Time: 1:00-1:25 p.m. ET Please contact Piper Sandler for information about attending the symposium and accessing session recordings. \u201cWe welcome the opportunity to join Piper Sandler and the investment community to discuss ImmunityBio\u2019s progress and our vision for transforming cancer care by activating the body\u2019s innate and adaptive immune systems,\u201d said Patrick Soon-Shiong, M.D., Founder, Executive Chairman and Global Chief Scientific and Medical Officer of ImmunityBio. \u201cWith the continued advancement of ANKTIVA \u00ae (nogapendekin alfa inbakicept-pmln) and our broader immunotherapy pipeline, we remain focused on translating innovative science into durable treatment options for patients with difficult-to-treat diseases.\u201d About ImmunityBio ImmunityBio, Inc. is a biotechnology company focused on innovating, developing, and commercializing next-generation immunotherapies designed to activate the patient\u2019s immune system and deliver durable protection against cancer and infectious diseases. Our approach harnesses both the adaptive and innate immune systems with the goal of restoring immune function and generating lasting immunological memory in patients. At the core of our strategy is the Cancer BioShield \u2122 platform, which is designed to stimulate critical lymphocytes, including natural killer (NK) cells, cytotoxic T cells, and memory T cells via our proprietary IL-15 receptor agonist, ANKTIVA \u00ae . Our Cancer BioShield platform is anchored by this antibody-cytokine fusion protein and is complemented by a portfolio that includes adenovirus-vectored vaccines, allogeneic (off-the-shelf) and autologous NK-cell therapies, and additional immunomodulators intended to promote immunogenic cell death and support durable immune responses while potentially reducing reliance on high-dose chemo-radiation therapy. For more information, visit ImmunityBio.com and connect with us on X (Twitter), Facebook , LinkedIn , and Instagram . Forward-Looking Statements This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements include, but are not limited to, statements regarding ImmunityBio\u2019s vision for transforming cancer care by activating the body\u2019s innate and adaptive immune systems; the continued advancement of ANKTIVA \u00ae and the Company\u2019s broader immunotherapy pipeline; and the translation of innovative science into durable treatment options for patients with difficult-to-treat diseases. These forward-looking statements are based on current expectations, estimates, forecasts, and projections, as well as the beliefs and assumptions of management, and are subject to significant risks and uncertainties. Actual results may differ materially from those expressed or implied by such forward-looking statements due to a variety of factors, including, but not limited to: the risks inherent in drug discovery and development, including uncertainties regarding the initiation, enrollment, timing, progress, and results of preclinical studies and clinical trials; the risk that data from completed clinical trials may not be representative of final clinical trial data; regulatory risks, including the timing and outcome of interactions with the FDA and other regulatory authorities, and the risk that a BLA may not be submitted when anticipated or, if submitted, may not be approved or may require additional data or studies; risks related to safety signals or adverse events that may arise during continued evaluation; the Company\u2019s ability to manufacture sufficient quantities of ANKTIVA \u00ae to support clinical development and potential commercialization; risks associated with product supply, including reliance on third-party suppliers and manufacturers as well as ongoing BCG shortages; competitive developments; changes in standard-of-care treatment; market acceptance; reimbursement; and intellectual property and patent protection. More details about these and other risks that may impact ImmunityBio\u2019s business are described under the heading \u201cRisk Factors\u201d in the Company\u2019s Annual Report on Form 10-K filed with the U.S. Securities and Exchange Commission (SEC) on February 23, 2026, Quarterly Report on Form 10-Q filed with the SEC on August 4, 2026, and in subsequent filings made by ImmunityBio with the SEC, which are available on the SEC\u2019s website at www.sec.gov. ImmunityBio cautions you not to place undue reliance on any forward-looking statements, which speak only as of the date hereof. ImmunityBio does not undertake any duty to update any forward-looking statement or other information in this press release, except to the extent required by law. ImmunityBio Contacts: Investors Hemanth Ramaprakash, PhD, MBA ImmunityBio, Inc. +1 858-746-9289 Hemanth.Ramaprakash@ImmunityBio.com Media Sarah Singleton ImmunityBio, Inc. +1 415-290-8045 Sarah.Singleton@ImmunityBio.com Contact us at +1-844-MY NK CELLS (+1-844-696-5235) Visit Newsroom Solutions for Patients ImmunityBio creates targeted, personalized immunotherapies that are designed to strengthen the immune system and enable it to outsmart your disease. Learn More Opportunities for Trial Investigators Next-generation adenovirus-vectored anti-cancer vaccines make appealing therapeutics for testing by trial investigators who want to make a contribution to clinical cancer research. Learn More Tools for Research Scientists Our NK-92\u00ae easy-to-maintain and highly cytotoxic natural killer cell line provides a versatile bioanalytical testing tool that can help researchers develop functional killing assays that are more consistent and reliable than donor blood and reporter gene assays. Learn More"
   },
   "https://investors.bldr.com/news/news-details/2026/Builders-FirstSource-to-Host-2026-Investor-Day/default.aspx": {
     "ticker": "BLDR",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "0fb28afb384c644dbee58d2a1e3df9f4128bc86241628ee036dc40953cf94af8",
     "changed": false,
     "status": "Page fetched",
@@ -79,8 +79,8 @@
   },
   "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Opens-Registration-for-December-2026-Analyst-Event/default.aspx": {
     "ticker": "ONTO",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "a612f11d038d5d6ec8feb149112a956833f911a2e8f50a104583a17831b1b73d",
     "changed": false,
     "status": "Page fetched",
@@ -88,13 +88,13 @@
   },
   "https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology": {
     "ticker": "ABVX",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-united-european-gastroenterology"
   },
   "https://max.adobe.com/": {
     "ticker": "ADBE",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "last_success": "2026-11-09T22:58:43.617980+00:00",
     "hash": "d76a7c66e6be309e150e4aecaf08cd6228f6266447a1304b58e188c0cca804d2",
     "changed": false,
@@ -104,20 +104,20 @@
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel": {
     "ticker": "CRSP",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
   },
   "https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0": {
     "ticker": "CRSP",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://ir.crisprtx.com/news-releases/news-release-details/crispr-therapeutics-present-late-breaking-data-american-heart-0"
   },
   "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-to-host-qubits-asia-2026-in-seoul/": {
     "ticker": "QBTS",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "3231119b3d1f02a5c3912f80a39765eb88cdbb3660421db91c51023a85d4b98c",
     "changed": false,
     "status": "Page fetched",
@@ -125,14 +125,14 @@
   },
   "https://www.servicenow.com/events/nowdev.html": {
     "ticker": "NOW",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "HTTPSConnectionPool(host='www.servicenow.com', port=443): Read timed out. (read timeout=25)"
   },
   "https://www.elastic.co/events/elasticon": {
     "ticker": "ESTC",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "b782d31b04135c33fb7503cf8d14aa28c05caf116610d3e62d7f423f723504a0",
     "changed": false,
     "status": "Page fetched",
@@ -140,19 +140,19 @@
   },
   "https://www.strategy.com/mstr/vote": {
     "ticker": "MSTR",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.strategy.com/mstr/vote"
   },
   "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm": {
     "ticker": "VIAV",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
   },
   "https://investor.tsmc.com/english/financial-calendar": {
     "ticker": "TSM",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "last_success": "2026-11-23T16:35:21.822187+00:00",
     "status": "Fetch failed",
     "hash": "9bd9361c33ab635f9069b4dbdb596d594f6b5bb5e7ce7c7740c2ed212478881e",
@@ -162,17 +162,17 @@
   },
   "https://www.nvidia.com/en-eu/gtc/faq/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
-    "hash": "ca26d4618a490d255ae62928561ebe21b1357b13fd380cee5ae0a4252e6551fd",
-    "changed": false,
-    "status": "Page fetched",
-    "text_excerpt": "FAQs about NVIDIA GTC Berlin 2026 AI Conference This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the instructions how to enable JavaScript in your web browser. GTC Berlin 2026 Conference FAQs Get answers to the most-asked questions. General FAQs What is the NVIDIA GTC Berlin conference? NVIDIA GTC Berlin is NVIDIA's premier AI conference in Europe and part of the 2026 GTC event series. These conferences bring together developers, researchers, and industry leaders to explore the full AI stack\u2014from chips and infrastructure to models and applications\u2014and discover how accelerated computing is transforming every industry. Is GTC Berlin in-person or held as a hybrid event? GTC Berlin conference and workshop programming will be an in-person event only. The GTC keynote by Jensen Huang will be a livestream and there is no registration required to watch. Details on how to watch it will be available on https://www.nvidia.com/en-eu/gtc/ . When and where will GTC Berlin 2026 take place? The NVIDIA GTC Berlin keynote is scheduled for October 21, 2026, at the Tempodrom, Berlin. The conference will take place at STATION-Berlin on October 20\u201322, 2026. Conference STATION-Berlin Luckenwalder Str. 4\u20136 10963 Berlin, Germany Venue Website Keynote Tempodrom M\u00f6ckernstra\u00dfe 10, 10963 Berlin, Germany Venue Website Who should attend GTC Berlin 2026? GTC Berlin offers sessions and training for all technical levels and interest areas of technology. It\u2019s a unique conference that brings together developers, researchers, business leaders, IT decision-makers, creators, and the NVIDIA partner ecosystem. Where can I find the list of sessions at GTC Berlin, how can I build my personal agenda? The GTC Berlin session catalog is available here and you can add sessions using the button \u2018Add to Calendar\u2019. What language will sessions and content be presented in at GTC Berlin? GTC Berlin presentations and content will be presented in English. Is there a high-level schedule of everything happening at GTC Berlin? Yes. View the daily Schedule at a Glance here . What is the GTC Berlin 2026 program schedule? NVIDIA GTC Berlin program breaks out as follows: Training Workshops: Tuesday, October 20 Keynote: Wednesday, October 21 Conference: Wednesday, October 21\u2013Thursday, October 22 Exhibits: Wednesday, October 21\u2013Thursday, October 22 How can I contact the conference organizers? If you have a question that wasn\u2019t answered here or you have general feedback, please contact us at GTC_registration@nvidia.com . Is there a shuttle service available? Yes, there is a shuttle service from selected locations. See here for the timetable and details on pickup/drop-off locations. Registration FAQs How do I register for GTC Berlin 2026? GTC Berlin is currently sold out. Please join our waitlist here and we\u2019ll notify you if we have additional passes available for purchase. How much does GTC Berlin 2026 registration cost? The prices for all GTC Berlin passes include VAT. You will see the VAT called out separately during the registration process. Is VAT included in the registration pricing for GTC Berlin 2026? The prices for all GTC Berlin passes include VAT. You will see the VAT called out separately during the registration process. Are there any discounts available for GTC Berlin 2026? Yes, we offer discounts for education, nonprofit, and government sectors. View the registration packages and pricing page for more information. Do I have to register to attend the GTC Berlin conference sessions? Yes, registration is required to attend GTC Berlin sessions. I\u2019m under the age of 18. Can I register for GTC Berlin? The minimum age to attend GTC Berlin in person by yourself is 18. What method of payment is accepted for registering for GTC Berlin? We accept credit and debit (bank) cards as a method of payment. Your registration must be paid in full to attend the conference. What description or company name will appear on my credit card statement when I register? After registering for GTC Berlin, the transaction will appear on your credit card or bank statement as \u201cRAINFOC*NVIDIA GTCEU26\". Where can I find the receipt or invoice confirming my registration for GTC Berlin? Click here to log in to your attendee portal, navigate to \u201cMy Registration\u201d, then click on \u201cDownload Invoice(s)\u201d in the top right corner. Is there a deadline to register for GTC Berlin? There\u2019s no deadline to register, but it\u2019s very likely that the event will sell out, so early registration is recommended. What\u2019s the cancellation policy for GTC Berlin? If you can\u2019t make the event, please submit your cancellation requests at GTC_registration@nvidia.com . The following processing fees will apply: Before 8:59 a.m. CET, Tuesday, September 22, 2026: A \u20ac25 processing fee/cancellation penalty will apply. After 8:59 a.m. CET, Tuesday, September 22, 2026: No refunds will be granted. No-shows are ineligible for workshop refunds. Substitution requests will be granted but must be received by 8:59 a.m. CET Saturday, October 10, 2026. If you\u2019re having difficulty registering online, please email GTC_registration@nvidia.com , and we'll be happy to assist you. I\u2019m no longer able to attend GTC Berlin. Can I transfer my registration to a colleague? Substitution requests will be granted but must be received by 8:59 a.m. CET, Saturday, 10 October 2026. To transfer your registration to a colleague, please email GTC_registration@nvidia.com . Can I be denied registration to GTC Berlin? NVIDIA reserves the right to deny registration to any individual or entity for any reason, at our sole discretion. These include past or present failure to meet NVIDIA\u2019s standards of conduct, as well as (but not limited to) engaging in violent, illegal, threatening, or discriminatory conduct. View the GTC Berlin Code of Conduct. Keynote FAQs How can I attend Jensen Huang\u2019s keynote at GTC Berlin? Conference pass holders will have access to attend the live keynote address with Jensen Huang. There is limited seating so plan to arrive early before the keynote. You can also watch the keynote online. Find out more at www.nvidia.com/en-eu/gtc/ . What is a keynote watch party? A watch party is a digital event where virtual participants watch the livestream of the keynote session with peers, including interactive activities. This is a fun way to participate in the keynote if you\u2019re unable to get an actual seat at the keynote venue. Do I need to register to watch the keynote? Yes, registration is required to attend the GTC keynote in person. Viewing online virtually is free and doesn't require registration. Can I pick up my badge at the keynote venue? Yes, registration at Tempodrom will open at 8:30 a.m. How can I attend Jensen Huang\u2019s keynote? Conference pass holders will have access to the live keynote address with Jensen Huang. Exhibits Only pass holders are welcome to join any of the keynote watch parties. FAQs for Speakers and Sponsors Is there a call for submissions for GTC Berlin? Can I submit a talk proposal? For GTC Berlin, all talks and panels are curated. We are not currently accepting proposals. Whom should I contact for more information on sponsorships or exhibiting at GTC Berlin? GTC Berlin sponsorships and exhibiting opportunities are by invitation only. If you\u2019d like to express interest should space become available, please email GTC-Sponsors@nvidia.com . How can I contact the GTC Berlin conference organizers? If you have a question that wasn\u2019t answered here or you have general feedback, please contact us at GTC_Registration@nvidia.com . Explore Connect With the Experts Session Catalog Speakers Startups & VCs Workshops, Training Labs & Certification Demos Discover GTC Live Pregame Keynote Sponsors & Exhibitors More Code of Conduct Contact Us FAQ Privacy Policy All GTC Events #NVIDIAGTC"
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
+    "hash": "86803adaf0154d5e700effe40764b439a305259c84f7ac24d228409207687e13",
+    "changed": true,
+    "status": "Review page change",
+    "text_excerpt": "FAQs about NVIDIA GTC Berlin 2026 AI Conference This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the instructions how to enable JavaScript in your web browser. GTC Berlin 2026 Conference FAQs Get answers to the most-asked questions. General FAQs What is the NVIDIA GTC Berlin conference? NVIDIA GTC Berlin is NVIDIA's premier AI conference in Europe and part of the 2026 GTC event series. These conferences bring together developers, researchers, and industry leaders to explore the full AI stack\u2014from chips and infrastructure to models and applications\u2014and discover how accelerated computing is transforming every industry. Is GTC Berlin in-person or held as a hybrid event? GTC Berlin conference and workshop programming will be an in-person event only. The GTC keynote by NVIDIA CEO Jensen Huang will be a livestream and there is no registration required to watch. Details on how to watch it will be available on https://www.nvidia.com/en-eu/gtc/ . When and where will GTC Berlin 2026 take place? The NVIDIA GTC Berlin keynote is scheduled for October 21, 2026, at the Tempodrom, Berlin. The conference will take place at STATION-Berlin on October 20\u201322, 2026. Conference STATION-Berlin Luckenwalder Str. 4\u20136 10963 Berlin, Germany Venue Website Keynote Tempodrom M\u00f6ckernstra\u00dfe 10, 10963 Berlin, Germany Venue Website Who should attend GTC Berlin 2026? GTC Berlin offers sessions and training for all technical levels and interest areas of technology. It\u2019s a unique conference that brings together developers, researchers, business leaders, IT decision-makers, creators, and the NVIDIA partner ecosystem. Where can I find the list of sessions at GTC Berlin, how can I build my personal agenda? The GTC Berlin session catalog is available here and you can add sessions using the button \u2018Add to Calendar\u2019. What language will sessions and content be presented in at GTC Berlin? GTC Berlin presentations and content will be presented in English. Is there a high-level schedule of everything happening at GTC Berlin? Yes. View the daily Schedule at a Glance here . What is the GTC Berlin 2026 program schedule? NVIDIA GTC Berlin program breaks out as follows: Training Workshops: Tuesday, October 20 Keynote: Wednesday, October 21 Conference: Wednesday, October 21\u2013Thursday, October 22 Exhibits: Wednesday, October 21\u2013Thursday, October 22 How can I contact the conference organizers? If you have a question that wasn\u2019t answered here or you have general feedback, please contact us at GTC_registration@nvidia.com . Is there a shuttle service available? Yes, there is a shuttle service from selected locations. See here for the timetable and details on pickup/drop-off locations. Registration FAQs How do I register for GTC Berlin 2026? GTC Berlin is currently sold out. Please join our waitlist here and we\u2019ll notify you if we have additional passes available for purchase. How much does GTC Berlin 2026 registration cost? The prices for all GTC Berlin passes include VAT. You will see the VAT called out separately during the registration process. Is VAT included in the registration pricing for GTC Berlin 2026? The prices for all GTC Berlin passes include VAT. You will see the VAT called out separately during the registration process. Are there any discounts available for GTC Berlin 2026? Yes, we offer discounts for education, nonprofit, and government sectors. View the registration packages and pricing page for more information. Do I have to register to attend the GTC Berlin conference sessions? Yes, registration is required to attend GTC Berlin sessions. I\u2019m under the age of 18. Can I register for GTC Berlin? The minimum age to attend GTC Berlin in person by yourself is 18. What method of payment is accepted for registering for GTC Berlin? We accept credit and debit (bank) cards as a method of payment. Your registration must be paid in full to attend the conference. What description or company name will appear on my credit card statement when I register? After registering for GTC Berlin, the transaction will appear on your credit card or bank statement as \u201cRAINFOC*NVIDIA GTCEU26\". Where can I find the receipt or invoice confirming my registration for GTC Berlin? Click here to log in to your attendee portal, navigate to \u201cMy Registration\u201d, then click on \u201cDownload Invoice(s)\u201d in the top right corner. Is there a deadline to register for GTC Berlin? There\u2019s no deadline to register, but it\u2019s very likely that the event will sell out, so early registration is recommended. What\u2019s the cancellation policy for GTC Berlin? If you can\u2019t make the event, please submit your cancellation requests at GTC_registration@nvidia.com . The following processing fees will apply: Before 8:59 a.m. CET, Tuesday, September 22, 2026: A \u20ac25 processing fee/cancellation penalty will apply. After 8:59 a.m. CET, Tuesday, September 22, 2026: No refunds will be granted. No-shows are ineligible for workshop refunds. Substitution requests will be granted but must be received by 8:59 a.m. CET Saturday, October 10, 2026. If you\u2019re having difficulty registering online, please email GTC_registration@nvidia.com , and we'll be happy to assist you. I\u2019m no longer able to attend GTC Berlin. Can I transfer my registration to a colleague? Substitution requests will be granted but must be received by 8:59 a.m. CET, Saturday, 10 October 2026. To transfer your registration to a colleague, please email GTC_registration@nvidia.com . Can I be denied registration to GTC Berlin? NVIDIA reserves the right to deny registration to any individual or entity for any reason, at our sole discretion. These include past or present failure to meet NVIDIA\u2019s standards of conduct, as well as (but not limited to) engaging in violent, illegal, threatening, or discriminatory conduct. View the GTC Berlin Code of Conduct. Keynote FAQs How can I attend Jensen Huang\u2019s keynote at GTC Berlin? Conference pass holders will have access to attend the live keynote address with NVIDIA CEO Jensen Huang. There is limited seating so plan to arrive early before the keynote. You can also watch the keynote online. Find out more at www.nvidia.com/en-eu/gtc/ . What is a keynote watch party? A watch party is a digital event where virtual participants watch the livestream of the keynote session with peers, including interactive activities. This is a fun way to participate in the keynote if you\u2019re unable to get an actual seat at the keynote venue. Do I need to register to watch the keynote? Yes, registration is required to attend the GTC keynote in person. Viewing online virtually is free and doesn't require registration. Can I pick up my badge at the keynote venue? Yes, registration at Tempodrom will open at 8:30 a.m. How can I attend Jensen Huang\u2019s keynote? Conference pass holders will have access to the live keynote address with NVIDIA CEO Jensen Huang. Exhibits Only pass holders are welcome to join any of the keynote watch parties. FAQs for Speakers and Sponsors Is there a call for submissions for GTC Berlin? Can I submit a talk proposal? For GTC Berlin, all talks and panels are curated. We are not currently accepting proposals. Whom should I contact for more information on sponsorships or exhibiting at GTC Berlin? GTC Berlin sponsorships and exhibiting opportunities are by invitation only. If you\u2019d like to express interest should space become available, please email GTC-Sponsors@nvidia.com . How can I contact the GTC Berlin conference organizers? If you have a question that wasn\u2019t answered here or you have general feedback, please contact us at GTC_Registration@nvidia.com . Explore Connect With the Experts Session Catalog Speakers Startups & VCs Workshops, Training Labs & Certification Demos Discover GTC Live Pregame Keynote Sponsors & Exhibitors More Code of Conduct Contact Us FAQ Privacy Policy All GTC Events #NVIDIAGTC"
   },
   "https://www.nvidia.com/en-us/events/supercomputing/": {
     "ticker": "NVDA",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "5d436640bd83f62de104811fc33b1c9339ef1075502e0a564bee7b13482b69a0",
     "changed": false,
     "status": "Page fetched",
@@ -180,8 +180,8 @@
   },
   "https://investor.accenture.com/news-and-events/events-calendar": {
     "ticker": "ACN",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "53106b220355b5c86fd78a0058a4883fcc757f67f0b0810930ee751965b29038",
     "changed": false,
     "status": "Page fetched",
@@ -189,7 +189,7 @@
   },
   "https://www.supermicro.com/en/newsroom": {
     "ticker": "SMCI",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "last_success": "2026-11-23T16:35:21.822187+00:00",
     "status": "Fetch failed",
     "hash": "c99d72ec9b610fca5d931cbdfbb3fd48fb0a7d3dc3095e30c5739626fbc46e7d",
@@ -199,8 +199,8 @@
   },
   "https://www.amd.com/en/corporate/events.html": {
     "ticker": "AMD",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "9b43c35508ee1944509efc9c7af432e82c9a4829f81b53731777cb3f71dbcf7b",
     "changed": false,
     "status": "Page fetched",
@@ -208,7 +208,7 @@
   },
   "https://www.sec.gov/Archives/edgar/data/2023554/000130817926000423/sndk-20261005.htm": {
     "ticker": "SNDK",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "last_success": "2026-11-23T16:35:21.822187+00:00",
     "status": "Fetch failed",
     "hash": "9b7b9084395e6e0daed330302d1e6f45e38fe3590b7083b21fc1c9d541dece63",
@@ -218,7 +218,7 @@
   },
   "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/ny20078226x1_def14a.htm": {
     "ticker": "IREN",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "last_success": "2026-11-23T16:35:21.822187+00:00",
     "status": "Fetch failed",
     "hash": "e947020b6e8d1a5546b7860d6269ba7c73b811f579edde6acf0c713a4edfe159",
@@ -228,17 +228,17 @@
   },
   "https://www.soundhound.com/newsroom/soundhound-ai-to-showcase-ai-agents-for-banking-and-financial-services-at-money20-20-usa-2026": {
     "ticker": "SOUN",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
-    "hash": "66989797982debc9dfdffada4ac7f57c0113e78d25ad550c86169ce107d83d82",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
+    "hash": "66bfa2eafc601761780dba7094740d3f7cd12ec3bd23fb222b5192dea9fe4946",
     "changed": true,
     "status": "Review page change",
-    "text_excerpt": "SoundHound AI to Showcase AI Agents for Banking and Financial Services at Money20/20 USA 2026 Newsroom Press Release SoundHound AI to Showcase AI Agents for Banking and Financial Services at Money20/20 USA 2026 Live demos at Booth #7033 show how OASYS agents resolve everyday banking requests, and how fast teams can build their own October 8, 2026 Soundhound TABLE OF CONTENTS anchor items will be automatically generated from the content's H2 headings Share SUBSCRIBE Stay informed with SoundHound AI region na1 form id 01fe9e52-2f06-4a30-b64e-e8f22eae1865 portal id 2020226 Form error We're having trouble loading the form. Getting your form ready... SANTA CLARA, Calif. \u2014 October 8, 2026 \u2014 SoundHound AI, Inc. (NASDAQ: SOUN), a global leader in voice and agentic AI, today announced it is exhibiting at Money20/20 USA , taking place October 18\u201321 at The Venetian in Las Vegas. Attendees can visit Booth #7033 from October 19\u201321 to see AI agents built on OASYS (Orchestrated Agent System), SoundHound's agentic AI platform, handle everyday banking requests from start to finish. Money20/20 USA brings together more than 11,000 senior attendees from banks, payments, fintech, retail, and beyond. Agentic AI is one of the core themes of this year's program. \"Financial services is moving past AI that answers questions to AI that resolves them,\u201d said Brad Grafton, SVP at SoundHound AI. \u201cThe banks that get there first will be the ones whose agents can handle the full request, verify the customer, take the action, and also know when to bring a person into the conversation when the human touch is needed. That's the core challenge we've built our technology to solve, and OASYS is how banks can put it to work today.\" At Booth #7033, visitors can watch OASYS agents handle everyday banking requests from start to finish, including: Lost or stolen cards: Verify the caller, report a lost card, and transfer funds to keep the customer\u2019s money secure, all in one conversation. Loan optimization: Find savings on existing loans and offer the customer a better rate during the conversation. Bill pay and transfers: Pay bills and move money between accounts. Mortgage applications: Apply for a new mortgage \u2014 from intake through processing and approval. Travel prep: Verify the caller, set up a travel alert, reset a card PIN, and check account balances before a trip. Disputed charges: See Human Assisted Resolution in action, as a person steps in behind the scenes to guide the conversation without transferring the customer. Visitors can also build an agent of their own, test it, and see how quickly it comes together. Stop by to see it live. To learn more about SoundHound's agents for banking and financial services, visit www.soundhound.com/industries/financial-services . About SoundHound AI SoundHound AI (Nasdaq: SOUN) is a voice and agentic AI company that enables businesses to deliver natural, end-to-end conversational experiences across digital and physical channels, including phones, kiosks, chat, smart devices, drive-thrus, TVs, in-vehicle, and more. Its agentic platform, OASYS, is a self-learning, orchestrated AI system where organizations can build and deploy conversational AI agents to handle transactions, tasks, and workflows on behalf of customers and employees. Built on proprietary technology backed by 750+ patents and years of AI research, SoundHound serves leading brands across industries including automotive, financial services, healthcare, retail, telecommunications, and more. It powers millions of products and processes billions of interactions annually for enterprise customers worldwide. Learn more at: www.soundhound.com Media Contact Fiona McEvoy [email protected] 415-610-6590 Related newsroom In The News Why Slim Chickens put its menu on Samsung TV home screens In The News SoundHound's Agentic AI Faces the Ultimate Test: Bogot\u00e1's 311 In The News Bogot\u00e1's L\u00ednea 195 Serves Nearly 8 Million With AI Voice Agent Experience SoundHound Talk to an expert Learn how OASYS AI agents handle your conversations in the real world. Experience AI agents built around your actual use cases See how we balance flexibility and reliability Explore how we deliver outcomes that matter to you Discuss what support looks like region na1 form id 1630a993-3e32-485c-aa2a-b43778de708e portal id 2020226 Form error We're having trouble loading the form. Getting your form ready..."
+    "text_excerpt": "SoundHound AI to Showcase AI Agents for Banking and Financial Services at Money20/20 USA 2026 Newsroom Press Release SoundHound AI to Showcase AI Agents for Banking and Financial Services at Money20/20 USA 2026 Live demos at Booth #7033 show how OASYS agents resolve everyday banking requests, and how fast teams can build their own October 8, 2026 Soundhound TABLE OF CONTENTS anchor items will be automatically generated from the content's H2 headings Share SUBSCRIBE Stay informed with SoundHound AI region na1 form id 01fe9e52-2f06-4a30-b64e-e8f22eae1865 portal id 2020226 Form error We're having trouble loading the form. Getting your form ready... SANTA CLARA, Calif. \u2014 October 8, 2026 \u2014 SoundHound AI, Inc. (NASDAQ: SOUN), a global leader in voice and agentic AI, today announced it is exhibiting at Money20/20 USA , taking place October 18\u201321 at The Venetian in Las Vegas. Attendees can visit Booth #7033 from October 19\u201321 to see AI agents built on OASYS (Orchestrated Agent System), SoundHound's agentic AI platform, handle everyday banking requests from start to finish. Money20/20 USA brings together more than 11,000 senior attendees from banks, payments, fintech, retail, and beyond. Agentic AI is one of the core themes of this year's program. \"Financial services is moving past AI that answers questions to AI that resolves them,\u201d said Brad Grafton, SVP at SoundHound AI. \u201cThe banks that get there first will be the ones whose agents can handle the full request, verify the customer, take the action, and also know when to bring a person into the conversation when the human touch is needed. That's the core challenge we've built our technology to solve, and OASYS is how banks can put it to work today.\" At Booth #7033, visitors can watch OASYS agents handle everyday banking requests from start to finish, including: Lost or stolen cards: Verify the caller, report a lost card, and transfer funds to keep the customer\u2019s money secure, all in one conversation. Loan optimization: Find savings on existing loans and offer the customer a better rate during the conversation. Bill pay and transfers: Pay bills and move money between accounts. Mortgage applications: Apply for a new mortgage \u2014 from intake through processing and approval. Travel prep: Verify the caller, set up a travel alert, reset a card PIN, and check account balances before a trip. Disputed charges: See Human Assisted Resolution in action, as a person steps in behind the scenes to guide the conversation without transferring the customer. Visitors can also build an agent of their own, test it, and see how quickly it comes together. Stop by to see it live. To learn more about SoundHound's agents for banking and financial services, visit www.soundhound.com/industries/financial-services . About SoundHound AI SoundHound AI (Nasdaq: SOUN) is a voice and agentic AI company that enables businesses to deliver natural, end-to-end conversational experiences across digital and physical channels, including phones, kiosks, chat, smart devices, drive-thrus, TVs, in-vehicle, and more. Its agentic platform, OASYS, is a self-learning, orchestrated AI system where organizations can build and deploy conversational AI agents to handle transactions, tasks, and workflows on behalf of customers and employees. Built on proprietary technology backed by 750+ patents and years of AI research, SoundHound serves leading brands across industries including automotive, financial services, healthcare, retail, telecommunications, and more. It powers millions of products and processes billions of interactions annually for enterprise customers worldwide. Learn more at: www.soundhound.com Media Contact Fiona McEvoy [email protected] 415-610-6590 Related newsroom In The News Why Customer Service Leaders Are Redesigning Frontline Agent Work In The News Agentic Commerce: Who Makes It Right When an AI Agent Gets It Wrong? In The News Why Slim Chickens put its menu on Samsung TV home screens Experience SoundHound Talk to an expert Learn how OASYS AI agents handle your conversations in the real world. Experience AI agents built around your actual use cases See how we balance flexibility and reliability Explore how we deliver outcomes that matter to you Discuss what support looks like region na1 form id 1630a993-3e32-485c-aa2a-b43778de708e portal id 2020226 Form error We're having trouble loading the form. Getting your form ready..."
   },
   "https://rocketlabcorp.com/missions/launches/index.jsp": {
     "ticker": "RKLB",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "7759cb3ecc0f367748d065a6549a3933c4b18863b55da16b365769cfc993ba9a",
     "changed": false,
     "status": "Page fetched",
@@ -246,8 +246,8 @@
   },
   "https://www.nasdaq.com/press-release/moderna-announces-late-breaking-data-be-presented-esmo-congress-2026-2026-09-21": {
     "ticker": "MRNA",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "0f96897ddac9cb07d200f49ae090806e1099cfdb0c06e5941c4094ad9108ea12",
     "changed": false,
     "status": "Page fetched",
@@ -255,14 +255,14 @@
   },
   "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm": {
     "ticker": "MRNA",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
     "status": "Fetch failed",
     "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm"
   },
   "https://www.marvell.com/company/events.html": {
     "ticker": "MRVL",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "3c33e76a554c8d74ddb0e3d57d3e2b9b34901aff1067d2fc8055f9ed3fc38390",
     "changed": false,
     "status": "Page fetched",
@@ -270,17 +270,17 @@
   },
   "https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html": {
     "ticker": "VRT",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "a889048a0fdb62047d84a71896149136919ed30b37d5c454cc9e97c41768ec94",
-    "changed": true,
-    "status": "Review page change",
+    "changed": false,
+    "status": "Page fetched",
     "text_excerpt": "Vertiv to Participate in Upcoming Investor Conference Accessibility Statement Skip Navigation Vertiv to Participate in Upcoming Investor Conference News provided by Vertiv Holdings Co Oct 23, 2026, 08:00 ET Share this article Share this article COLUMBUS, Ohio , Oct. 23, 2026 /PRNewswire/ -- Vertiv Holdings Co (NYSE: VRT ), a global leader in critical digital infrastructure, today announced its participation in an upcoming investor conference in November. Giordano Albertazzi, Chief Executive Officer, and Craig Chamberlin, Chief Financial Officer will participate in a fireside chat at the Baird 2026 Global Industrial Conference in Chicago, Illinois on Tuesday, November 10, 2026 at 7:55 a.m. Central time (8:55 a.m. Eastern time). A live webcast of the event and any related presentation materials will be available in the Investor Relations section of Vertiv's website at investors.vertiv.com . A recording of the event will also be available for 30 days following the webcast at investors.vertiv.com About Vertiv Holdings Co Vertiv (NYSE: VRT ) brings together hardware, software, analytics and ongoing services to enable its customers' vital applications to run continuously, perform optimally and grow with their business needs. Vertiv solves the most important challenges facing today's data centers, communication networks and commercial and industrial facilities with a portfolio of power, cooling and IT infrastructure solutions and services that extends from the cloud to the edge of the network. Headquartered in Westerville, Ohio, USA, Vertiv does business in more than 130 countries. For more information, and for the latest news and content from Vertiv, visit vertiv.com . Category: Financial News For investor inquiries, please contact: Lynne Maxeiner Vice President, Global Treasury & Investor Relations Vertiv E: [email protected] For media inquiries, please contact: Tom Laughran FleishmanHillard E: [email protected] SOURCE Vertiv Holdings Co \u00d7 Modal title Also from this source /U P D A T E/ - Vertiv Holdings Co/ Vertiv Holdings Co. (NYSE: VRT), a global leader in critical digital infrastructure, today added 800 VDC systems for the AI compute pod and the data... Vertiv ATLAS Proves AI Infrastructure Ahead of Silicon Vertiv Holdings Co. (NYSE: VRT), a global leader in critical digital infrastructure, is proving the power, thermal management and controls... More Releases From This Source Explore Computer & Electronics Banking & Financial Services Computer Hardware Computer Software News Releases in Similar Topics"
   },
   "https://www.coherent.com/events": {
     "ticker": "COHR",
-    "last_attempt": "2026-11-24T00:49:01.876072+00:00",
-    "last_success": "2026-11-24T00:49:01.876072+00:00",
+    "last_attempt": "2026-11-24T23:00:15.073279+00:00",
+    "last_success": "2026-11-24T23:00:15.073279+00:00",
     "hash": "340fc45642097a63e9d8cee69ae3040601162a9d1687bcbd1a6e16ea511cf2f1",
     "changed": false,
     "status": "Page fetched",
