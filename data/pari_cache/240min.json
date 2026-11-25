@@ -2,7 +2,7 @@
   "symbol": "SPY",
   "frame": "4 hour",
   "source": "Yahoo SPY unadjusted completed closes",
-  "saved_at": "2026-11-24T18:43:58.165755+00:00",
+  "saved_at": "2026-11-25T00:18:37.774339+00:00",
   "bars": [
     {
       "time": "2026-10-26T09:30:00-04:00",
