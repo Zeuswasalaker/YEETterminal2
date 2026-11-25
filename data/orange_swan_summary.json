@@ -1,5 +1,5 @@
 {
-  "captured_on": "2026-11-24",
+  "captured_on": "2026-11-25",
   "source_url": "https://unusualwhales.com/option-flow-alerts?is_bid_side=false&is_multi_leg=false&is_otm=true&limit=250&min_ask_perc=0.7&min_dte=2&min_premium=10000&ticker_symbol=SMH%2CBABA%2CJD%2CSPY%2CQQQ&vol_greater_oi=true&watchlist_name=Orange%20Swan%20BETA",
   "coverage": "Latest authenticated partial alert window. Fully contained captured dates replaced; earlier boundary-date summary preserved. Rounded source premiums; no claim of complete session.",
   "summary": [
@@ -823,25 +823,57 @@
       "date": "2026-11-24",
       "ticker": "QQQ",
       "call_premium": 523000.0,
-      "prints": 14,
-      "premium": 4733000.0,
+      "prints": 22,
+      "premium": 5271000.0,
       "call_prints": 5
     },
     {
       "date": "2026-11-24",
       "ticker": "SMH",
-      "call_premium": 755000.0,
-      "prints": 11,
-      "premium": 3219000.0,
-      "call_prints": 4
+      "call_premium": 883000.0,
+      "prints": 15,
+      "premium": 3925000.0,
+      "call_prints": 6
     },
     {
       "date": "2026-11-24",
       "ticker": "SPY",
-      "call_premium": 5462000.0,
-      "prints": 43,
-      "premium": 8279000.0,
-      "call_prints": 28
+      "call_premium": 6380000.0,
+      "prints": 66,
+      "premium": 12299000.0,
+      "call_prints": 35
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "BABA",
+      "call_premium": 0.0,
+      "prints": 1,
+      "premium": 13000.0,
+      "call_prints": 0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "QQQ",
+      "call_premium": 2229000.0,
+      "prints": 33,
+      "premium": 6403000.0,
+      "call_prints": 11
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "SMH",
+      "call_premium": 75000.0,
+      "prints": 6,
+      "premium": 1762000.0,
+      "call_prints": 1
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "SPY",
+      "call_premium": 4147000.0,
+      "prints": 42,
+      "premium": 5553000.0,
+      "call_prints": 19
     }
   ],
   "capture_history": [
@@ -2315,9 +2347,19 @@
       "newest": "2026-11-24 10:38:58",
       "oldest": "2026-11-20 11:32:15",
       "complete_session": false
+    },
+    {
+      "filter": "orange",
+      "rows": 250,
+      "accepted": 243,
+      "excluded": 7,
+      "captured_at": "2026-11-25T16:58:39.246965+00:00",
+      "newest": "2026-11-25 08:55:11",
+      "oldest": "2026-11-23 10:43:11",
+      "complete_session": false
     }
   ],
-  "source_time": "2026/11/24 10:38:58",
+  "source_time": "2026/11/25 08:55:11",
   "source_timezone": "America/Los_Angeles",
   "capture_type": "Authenticated rendered alert table",
   "captured_rows": 250,
@@ -2345,8 +2387,9 @@
     "2026-11-20": "173 qualifying captured alerts; partial session window.",
     "2026-11-19": "120 qualifying captured alerts; partial session window.",
     "2026-11-23": "109 qualifying captured alerts; partial session window.",
-    "2026-11-24": "71 qualifying captured alerts; partial session window."
+    "2026-11-24": "106 qualifying captured alerts; partial session window.",
+    "2026-11-25": "82 qualifying captured alerts; partial session window."
   },
   "exclusion_note": "3 rows in this capture fail displayed side/ask thresholds and are retained separately. Legacy aggregates are not added to overlapping raw records.",
-  "captured_at": "2026-11-24T18:43:50.685243+00:00"
+  "captured_at": "2026-11-25T16:58:39.246965+00:00"
 }

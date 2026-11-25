@@ -11,7 +11,8 @@
     "2026-11-20": "39 qualifying captured alerts; partial session window.",
     "2026-11-19": "155 qualifying captured alerts; partial session window.",
     "2026-11-23": "130 qualifying captured alerts; partial session window.",
-    "2026-11-24": "110 qualifying captured alerts; partial session window."
+    "2026-11-24": "110 qualifying captured alerts; partial session window.",
+    "2026-11-25": "111 qualifying captured alerts; partial session window."
   },
   "capture_history": [
     {
@@ -95,10 +96,20 @@
       "newest": "2026-11-24 10:38:58",
       "oldest": "2026-11-20 13:10:27",
       "complete_session": false
+    },
+    {
+      "filter": "meme",
+      "rows": 250,
+      "accepted": 242,
+      "excluded": 8,
+      "captured_at": "2026-11-25T16:58:39.246965+00:00",
+      "newest": "2026-11-25 08:55:11",
+      "oldest": "2026-11-24 07:07:36",
+      "complete_session": false
     }
   ],
-  "captured_at": "2026-11-24T18:43:50.685243+00:00",
-  "source_time": "2026/11/24 10:38:58",
+  "captured_at": "2026-11-25T16:58:39.246965+00:00",
+  "source_time": "2026/11/25 08:55:11",
   "summary": [
     {
       "date": "2026-11-02",
@@ -1206,6 +1217,87 @@
       "calls": 28,
       "puts": 15,
       "put_premium": 2817000.0
+    },
+    {
+      "date": "2026-11-24",
+      "ticker": "GME",
+      "call_premium": 160000.0,
+      "observations": 2,
+      "calls": 2,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-24",
+      "ticker": "RIVN",
+      "call_premium": 73000.0,
+      "observations": 2,
+      "calls": 2,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "CRWV",
+      "call_premium": 174000.0,
+      "observations": 6,
+      "calls": 2,
+      "puts": 4,
+      "put_premium": 199000.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "GME",
+      "call_premium": 0.0,
+      "observations": 2,
+      "calls": 0,
+      "puts": 2,
+      "put_premium": 41000.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "HOOD",
+      "call_premium": 59000.0,
+      "observations": 1,
+      "calls": 1,
+      "puts": 0,
+      "put_premium": 0.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "IREN",
+      "call_premium": 105000.0,
+      "observations": 13,
+      "calls": 3,
+      "puts": 10,
+      "put_premium": 3677000.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "IWM",
+      "call_premium": 308000.0,
+      "observations": 14,
+      "calls": 5,
+      "puts": 9,
+      "put_premium": 1456000.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "QQQ",
+      "call_premium": 2229000.0,
+      "observations": 33,
+      "calls": 11,
+      "puts": 22,
+      "put_premium": 4174000.0
+    },
+    {
+      "date": "2026-11-25",
+      "ticker": "SPY",
+      "call_premium": 4147000.0,
+      "observations": 42,
+      "calls": 19,
+      "puts": 23,
+      "put_premium": 1406000.0
     }
   ],
   "publication_mode": "dashboard_summaries"

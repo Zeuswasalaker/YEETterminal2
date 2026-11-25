@@ -1,8 +1,70 @@
 {
-  "as_of": "2026-11-24",
-  "captured_at": "2026-11-24T18:43:50.685243+00:00",
+  "as_of": "2026-11-25",
+  "captured_at": "2026-11-25T16:58:39.246965+00:00",
   "min_dte": 7,
   "qualified": [
+    {
+      "ticker": "EWTX",
+      "orders": [
+        {
+          "underlying_symbol": "EWTX",
+          "option_chain_id": "EWTX270115C00050000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-24",
+          "time": "11:40:13",
+          "filters": "BAT, WF PSU",
+          "is_agg": false,
+          "strike": 50.0,
+          "size": 250.0,
+          "premium": 95000.0,
+          "volume": 250.0,
+          "open_interest": 101.0,
+          "record_id": "uw-exact-cf982799d508ac2a5d79d49b9a2a7a0d24f9fa9dc50e4e4049f08d45023af410"
+        },
+        {
+          "underlying_symbol": "EWTX",
+          "option_chain_id": "EWTX270115C00050000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-24",
+          "time": "12:52:37",
+          "filters": "WF PSU",
+          "is_agg": false,
+          "strike": 50.0,
+          "size": 125.0,
+          "premium": 53750.0,
+          "volume": 500.0,
+          "open_interest": 101.0,
+          "record_id": "uw-exact-8dbdd4345894fd391378ee7729e4cda85d6c42b0d870539af6162574915369fb"
+        },
+        {
+          "underlying_symbol": "EWTX",
+          "option_chain_id": "EWTX270115C00050000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-24",
+          "time": "12:52:37",
+          "filters": "WF PSU",
+          "is_agg": false,
+          "strike": 50.0,
+          "size": 125.0,
+          "premium": 52500.0,
+          "volume": 375.0,
+          "open_interest": 101.0,
+          "record_id": "uw-exact-df2e7bf4c648f3065c99470482e72c5f3ad00e86501d80976c3d13eeb945953a"
+        }
+      ],
+      "events": [],
+      "marketcap": 5116129515.0,
+      "status": "Qualified"
+    },
     {
       "ticker": "FORM",
       "orders": [
@@ -92,7 +154,7 @@
         }
       ],
       "events": [],
-      "marketcap": 6395342091.0,
+      "marketcap": 5746948330.0,
       "status": "Qualified"
     },
     {
@@ -228,7 +290,7 @@
         }
       ],
       "events": [],
-      "marketcap": 4711327052.0,
+      "marketcap": 4527699531.0,
       "status": "Qualified"
     },
     {
@@ -295,7 +357,7 @@
         }
       ],
       "events": [],
-      "marketcap": 4056164847.0,
+      "marketcap": 3749560186.0,
       "status": "Qualified"
     },
     {
@@ -357,7 +419,7 @@
         }
       ],
       "events": [],
-      "marketcap": 1527166879.0,
+      "marketcap": 1434405631.0,
       "status": "Qualified"
     },
     {
@@ -487,7 +549,7 @@
         }
       ],
       "events": [],
-      "marketcap": 1464130984.0,
+      "marketcap": 1408010120.0,
       "status": "Qualified"
     },
     {
@@ -672,6 +734,130 @@
   ],
   "pending": [
     {
+      "ticker": "GCT",
+      "orders": [
+        {
+          "underlying_symbol": "GCT",
+          "option_chain_id": "GCT270115P00050000",
+          "type": "P",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-20",
+          "time": "10:03:52",
+          "filters": "BAT, PSU, WF PSU",
+          "is_agg": false,
+          "strike": 50.0,
+          "size": 1139.0,
+          "premium": 210715.0,
+          "volume": 1145.0,
+          "open_interest": 80.0,
+          "record_id": "uw-exact-b953e10beefaaa3e6b24c9eae7ef6e6beaadd49e2f4430fb0bfe0ab08e9e91f5"
+        },
+        {
+          "underlying_symbol": "GCT",
+          "option_chain_id": "GCT270115P00045000",
+          "type": "P",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-20",
+          "time": "10:03:52",
+          "filters": "BAT, PSU, WF PSU",
+          "is_agg": false,
+          "strike": 45.0,
+          "size": 675.0,
+          "premium": 57375.0,
+          "volume": 675.0,
+          "open_interest": 114.0,
+          "record_id": "uw-exact-4bfb87a09ca3d6702a8cd31eea0ac394e997f1863ac71d411bc45ae895b53db7"
+        },
+        {
+          "underlying_symbol": "GCT",
+          "option_chain_id": "GCT270416P00050000",
+          "type": "P",
+          "expiry": "2027-04-16",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-24",
+          "time": "12:25:48",
+          "filters": "FARCRY ULTRA",
+          "is_agg": true,
+          "strike": 50.0,
+          "size": 252.0,
+          "premium": 115919.99999999999,
+          "volume": 253.0,
+          "open_interest": 172.0,
+          "record_id": "uw-exact-d9e8be44ba6143ca214af964cf5fec91004dd84956a83ee07aa14db726e40de5"
+        }
+      ],
+      "events": [],
+      "marketcap": 1719703536.0,
+      "status": "Verification pending"
+    },
+    {
+      "ticker": "TGTX",
+      "orders": [
+        {
+          "underlying_symbol": "TGTX",
+          "option_chain_id": "TGTX290119C00090000",
+          "type": "C",
+          "expiry": "2029-01-19",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-18",
+          "time": "09:31:45",
+          "filters": "PSU",
+          "is_agg": false,
+          "strike": 90.0,
+          "size": 201.0,
+          "premium": 285420.0,
+          "volume": 201.0,
+          "open_interest": 36.0,
+          "record_id": "uw-exact-67007fe72485217faaee65cab51fe61fdd5037527f2f9ecbc04a96b4ba884eb0"
+        },
+        {
+          "underlying_symbol": "TGTX",
+          "option_chain_id": "TGTX270115C00075000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-18",
+          "time": "09:49:04",
+          "filters": "BAT",
+          "is_agg": false,
+          "strike": 75.0,
+          "size": 300.0,
+          "premium": 82500.0,
+          "volume": 330.0,
+          "open_interest": 315.0,
+          "record_id": "uw-exact-9c6fb9820d025348154d720d76cec50308d2f3c4a0a02b8a5611bc92472784ef"
+        },
+        {
+          "underlying_symbol": "TGTX",
+          "option_chain_id": "TGTX270115C00095000",
+          "type": "C",
+          "expiry": "2027-01-15",
+          "side": "ASK",
+          "next_earnings_date": "2027-02-25",
+          "date": "2026-11-24",
+          "time": "10:59:37",
+          "filters": "WF PSU",
+          "is_agg": true,
+          "strike": 95.0,
+          "size": 382.0,
+          "premium": 26739.999999999996,
+          "volume": 415.0,
+          "open_interest": 0.0,
+          "record_id": "uw-exact-c577743d3b6c7f9ba32164918f2fee6c737ee390b7865740e59fe1983fe87eef"
+        }
+      ],
+      "events": [],
+      "marketcap": 10599997108.0,
+      "status": "Verification pending"
+    },
+    {
       "ticker": "PINS",
       "orders": [
         {
@@ -802,7 +988,7 @@
         }
       ],
       "events": [],
-      "marketcap": 8458897073.0,
+      "marketcap": 9259739399.0,
       "status": "Verification pending"
     },
     {
@@ -864,7 +1050,7 @@
         }
       ],
       "events": [],
-      "marketcap": 2816352814.0,
+      "marketcap": 2963398635.0,
       "status": "Verification pending"
     },
     {
@@ -1006,7 +1192,7 @@
         }
       ],
       "events": [],
-      "marketcap": 7748930985.0,
+      "marketcap": 7612785785.0,
       "status": "Verification pending"
     },
     {
